@@ -54,7 +54,8 @@ fi
 # 前端产物不入库（.gitignore 排除了 web/site），必须在服务器构建
 if command -v npm >/dev/null 2>&1; then
   echo "  构建前端"
-  if (cd web && npm install --no-audit --no-fund --silent && npm run build --silent); then
+  # npm ci 严格按 lockfile 装，避免每次部署改写 package-lock.json
+  if (cd web && { npm ci --no-audit --no-fund --silent || npm install --no-audit --no-fund --silent; } && npm run build --silent); then
     echo "  前端构建完成"
   else
     echo "  ⚠ 前端构建失败，沿用现有 web/site（若从未构建过会 404）"

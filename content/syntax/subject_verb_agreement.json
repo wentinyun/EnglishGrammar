@@ -1,0 +1,1877 @@
+{
+  "level1": "syntax",
+  "chapter": "subject_verb_agreement",
+  "items": [
+    {
+      "id": "syntax.subject_verb_agreement.grammatical",
+      "title": "语法一致原则",
+      "brief": "默认规则：谓语跟主语中心词的单复数",
+      "difficulty": 1,
+      "tags": [
+        "基础",
+        "高频"
+      ],
+      "prereq": [
+        "syntax.sentence_elements.subject-forms"
+      ],
+      "concept": {
+        "summary": "语法一致是默认规则：谓语的单复数由主语中心词的形式决定。判定顺序固定为四步：先划掉主语后的修饰成分找到中心词；再排查 or/nor/but also 类结构（触发就近）；再排查 as well as/together with 类结构（触发就远）；两类结构都没有时，才按中心词的形式定单复数。冲突时的优先级是：就近与就远（结构触发）高于意义一致，意义一致高于语法一致。",
+        "sections": [
+          {
+            "h": "第一步：锁定中心词",
+            "p": "主语后面的介词短语、定语从句、同位语、插入语都不改变主语的数。判定时先把这些成分整体划掉，剩下的名词才是中心词。这一步做错，后面三步全部失效。",
+            "bullets": [
+              "The box of chocolates is on the table.（中心词 box，不是 chocolates）",
+              "The results of the survey show a clear trend.（中心词 results）",
+              "Nobody in the two classes knows the answer.（中心词 nobody）",
+              "The teacher, as well as the students, was invited.（中心词 teacher）"
+            ]
+          },
+          {
+            "h": "四步判定顺序与优先级",
+            "p": "顺序不可颠倒，因为前一步会改写「谁算主语」，后一步只在没有结构触发时才起作用。做题时按下面的编号走一遍，不要凭语感跳步。",
+            "bullets": [
+              "① 划掉 of 短语、定语从句、同位语、插入语，找出中心词",
+              "② 主语由 or / either...or / neither...nor / not only...but also / not...but 连接 → 用就近原则",
+              "③ 主语后有 as well as / along with / together with / rather than / except / including → 用就远原则",
+              "④ 前两步都不触发：形式与意义一致时按语法一致；形式与意义冲突时按意义一致",
+              "优先级：就近/就远 ＞ 意义一致 ＞ 语法一致"
+            ]
+          },
+          {
+            "h": "只有这两类谓语体现单复数",
+            "p": "并不是所有谓语都能看出主谓是否一致。一般现在时的实义动词与 be 动词的现在式、过去式才有单复数差别；情态动词、过去式实义动词没有形式变化，改错时不要在这些位置硬找一致错误。",
+            "bullets": [
+              "一般现在时：He works. / They work.",
+              "be 动词：He is. / They are.；He was. / They were.",
+              "情态动词无单复数：He can swim. / They can swim.",
+              "过去式实义动词无单复数：He left. / They left."
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "The list of items has been updated.",
+            "zh": "物品清单已经更新。",
+            "ok": true,
+            "note": "中心词是 list，单数，of items 只是修饰语，谓语用 has。"
+          },
+          {
+            "en": "The results of the survey show a clear trend.",
+            "zh": "调查结果显示出清晰的趋势。",
+            "ok": true,
+            "note": "中心词是 results，复数，谓语用 show。"
+          },
+          {
+            "en": "Each of the participants was given a name tag.",
+            "zh": "每位参与者都发到了一个姓名牌。",
+            "ok": true,
+            "note": "each 是单数中心词，of the participants 不改变数。"
+          },
+          {
+            "en": "The teacher, as well as the students, was surprised by the news.",
+            "zh": "老师和学生们一样，都被这个消息惊到了。",
+            "ok": true,
+            "note": "as well as 短语不参与一致，谓语跟 teacher，用 was。"
+          },
+          {
+            "en": "The quality of the products have improved.",
+            "zh": "产品的质量有所提高。",
+            "ok": false,
+            "note": "中心词是 quality，单数，谓语应改为 has improved。"
+          },
+          {
+            "en": "One of my friends are a doctor.",
+            "zh": "我的一个朋友是医生。",
+            "ok": false,
+            "note": "中心词是 one，单数，谓语应改为 is。"
+          },
+          {
+            "en": "The news about the accident was shocking.",
+            "zh": "关于这场事故的消息令人震惊。",
+            "ok": true,
+            "note": "news 形式上是复数但语法上是单数名词，谓语用 was。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "The number of visitors have doubled.",
+            "right": "The number of visitors has doubled.",
+            "why": "主语中心词是 number，单数；of visitors 只是修饰语，不参与一致。"
+          },
+          {
+            "wrong": "Everyone in the two teams know the rules.",
+            "right": "Everyone in the two teams knows the rules.",
+            "why": "everyone 是单数不定代词，介词短语 in the two teams 不改变它的数。"
+          },
+          {
+            "wrong": "The news about the accident were shocking.",
+            "right": "The news about the accident was shocking.",
+            "why": "news 虽以 s 结尾，但语法上是单数名词，谓语用单数。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "意义一致原则",
+          "diff": "语法一致看中心词的形式；意义一致看主语所表达的数量概念，二者冲突时意义一致优先。"
+        },
+        "mnemonic": "先划 of 短语找中心，再查 or 与 as well as，四步走完才看形式。"
+      },
+      "review": {
+        "core": [
+          "默认规则：谓语与主语中心词的单复数一致",
+          "第一步永远是划掉 of 短语、定语从句、同位语、插入语",
+          "判定顺序：找中心词 → 查就近结构 → 查就远结构 → 才按形式",
+          "优先级：就近/就远 ＞ 意义一致 ＞ 语法一致",
+          "只有一般现在时与 be 动词才体现单复数，情态动词与过去式没有形式差异"
+        ],
+        "trigger": "看到主语带 of 短语，先划掉整个短语，只看 of 前的中心词",
+        "quickCheck": [
+          {
+            "q": "The box of chocolates ___ (be) on the table. 填什么？",
+            "a": "is，中心词是 box。"
+          },
+          {
+            "q": "四步判定顺序是什么？",
+            "a": "找中心词 → 查就近结构 → 查就远结构 → 按形式或意义定。"
+          },
+          {
+            "q": "The teacher, as well as the students, ___ (be) invited. 填什么？",
+            "a": "was，as well as 短语不参与一致。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.subject_verb_agreement.grammatical.d1",
+          "type": "choice",
+          "stem": "The quality of the online courses ___ improved a lot since last year.",
+          "options": [
+            "has",
+            "have",
+            "were",
+            "are"
+          ],
+          "answer": "has",
+          "explain": "主语中心词是 quality，单数；of the online courses 只是修饰语。按语法一致原则，现在完成时的助动词用 has。",
+          "trap": "have 是被紧邻的复数 courses 带偏，误把修饰语当成了中心词。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.grammatical.d2",
+          "type": "fill",
+          "stem": "Each of the students ___ (receive) a copy of the syllabus on the first day.",
+          "answer": "receives",
+          "accept": [
+            "receives"
+          ],
+          "hint": "先划掉 of the students，再看剩下的中心词。",
+          "explain": "触发语法一致原则：中心词 each 是单数，of the students 只是修饰语，谓语用第三人称单数 receives。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.grammatical.d3",
+          "type": "correct",
+          "stem": "The list of names were posted on the notice board.",
+          "answer": "The list of names was posted on the notice board.",
+          "accept": [
+            "The list of names was posted on the notice board."
+          ],
+          "explain": "中心词是 list，单数，of names 只是修饰语；被动语态的 be 动词须用 was。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.grammatical.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "The",
+            "results",
+            "of",
+            "the",
+            "survey",
+            "show",
+            "a",
+            "clear",
+            "trend."
+          ],
+          "answer": "The results of the survey show a clear trend.",
+          "explain": "中心词 results 是复数，of the survey 是修饰语，谓语用 show。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.subject_verb_agreement.grammatical.d5",
+          "type": "translate",
+          "stem": "这些产品的质量有了明显提高。",
+          "answer": "The quality of these products has improved noticeably.",
+          "require": [
+            [
+              "quality"
+            ],
+            [
+              "has improved",
+              "has risen"
+            ]
+          ],
+          "forbid": [
+            "products have improved",
+            "quality have improved"
+          ],
+          "explain": "主语中心词是 quality，单数，of these products 不参与一致，谓语用 has improved。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.grammatical.d6",
+          "type": "choice",
+          "stem": "The news about the merger ___ released yesterday afternoon.",
+          "options": [
+            "was",
+            "were",
+            "have been",
+            "are"
+          ],
+          "answer": "was",
+          "explain": "news 形式上是复数但语法上是单数名词，按语法一致原则用 was；yesterday afternoon 也要求过去时。",
+          "trap": "were 只看到词尾的 s 就判定为复数，忽略了 news 的单数属性。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "syntax.subject_verb_agreement.notional",
+      "title": "意义一致原则",
+      "brief": "形式与意义冲突时，按主语实际表示的数量定谓语",
+      "difficulty": 3,
+      "tags": [
+        "易错",
+        "难点"
+      ],
+      "prereq": [
+        "syntax.subject_verb_agreement.grammatical"
+      ],
+      "concept": {
+        "summary": "意义一致在主语形式与所表达的数量冲突时启用：谓语跟「主语实际指多少」走，不跟词尾走。触发场景固定为五类：集合名词、the + 形容词、表示时间距离金额的复数名词、以 s 结尾的学科与疾病名、书名与专有名称。它在判定顺序中排在就近/就远之后、语法一致之前：没有结构触发时才启用，一旦启用即压过形式。",
+        "sections": [
+          {
+            "h": "五类触发场景",
+            "p": "这五类有一个共同点：词形与所指数量不一致。看到任何一类，先问「它指的是一个整体还是一群个体」，再定谓语。",
+            "bullets": [
+              "集合名词：family, team, class, government, committee, audience, staff, public",
+              "the + 形容词：the rich/poor/old/wounded 指人用复数；the unknown/beautiful 指抽象用单数",
+              "时间、距离、金额、重量：Ten years is a long time. / Five kilometres is too far to walk.",
+              "学科与疾病：Mathematics is difficult. / Measles is infectious.",
+              "书名与专有名称：The Arabian Nights is a classic. / The United States is a large country."
+            ]
+          },
+          {
+            "h": "在判定顺序中的位置",
+            "p": "意义一致不是第一顺位。先排查 or/nor 类（就近）与 as well as 类（就远），两者都不触发时，才判断形式与意义是否冲突。只有冲突存在，意义一致才生效，而且它一旦生效就优先于形式。",
+            "bullets": [
+              "无冲突：The students are here.（形式复数、意义复数，直接用语法一致）",
+              "有冲突：The police are investigating.（形式单数、意义复数 → 意义一致）",
+              "有冲突：Ten years is a long time.（形式复数、意义单数 → 意义一致）",
+              "优先级：就近/就远 ＞ 意义一致 ＞ 语法一致"
+            ]
+          },
+          {
+            "h": "集合名词的两副面孔",
+            "p": "集合名词用单数还是复数，取决于谓语动作能否由成员分别执行、以及代词是否用 they/their 回指。句中一旦出现 their、among themselves、each other，谓语必须用复数。",
+            "bullets": [
+              "The committee has reached a decision.（作为整体，单数）",
+              "The committee were divided on the issue.（成员意见不一，复数）",
+              "The audience was deeply moved.（整体感受，单数）",
+              "The audience were chatting with each other.（成员各自行动，复数）"
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "The committee has reached a decision.",
+            "zh": "委员会已经作出决定。",
+            "ok": true,
+            "note": "委员会作为整体行动，按意义一致用单数 has。"
+          },
+          {
+            "en": "The committee were divided on the issue.",
+            "zh": "委员会在这个问题上意见分歧。",
+            "ok": true,
+            "note": "成员各自持不同意见，按意义一致用复数 were。"
+          },
+          {
+            "en": "Ten thousand dollars is more than I can afford.",
+            "zh": "一万美元超出了我的承受能力。",
+            "ok": true,
+            "note": "金额被视为一个总量，谓语用单数 is。"
+          },
+          {
+            "en": "Mathematics is her favourite subject.",
+            "zh": "数学是她最喜欢的科目。",
+            "ok": true,
+            "note": "学科名虽以 s 结尾，指一门学科，谓语用单数。"
+          },
+          {
+            "en": "The police is investigating the case.",
+            "zh": "警方正在调查这起案件。",
+            "ok": false,
+            "note": "police 形式单数、意义复数，谓语应改为 are。"
+          },
+          {
+            "en": "Twenty years are a long time.",
+            "zh": "二十年是很长一段时间。",
+            "ok": false,
+            "note": "时间段被视为一个整体，谓语应改为 is。"
+          },
+          {
+            "en": "The audience were chatting with each other before the show.",
+            "zh": "演出开始前观众们在互相聊天。",
+            "ok": true,
+            "note": "each other 说明成员各自行动，按意义一致用复数。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "The family is all fond of music.",
+            "right": "The family are all fond of music.",
+            "why": "all 说明每个成员各自如此，谓语改用复数，family 在此被解释为一群个体。"
+          },
+          {
+            "wrong": "Five hundred kilometres are a long distance.",
+            "right": "Five hundred kilometres is a long distance.",
+            "why": "距离作为整体量看待，谓语用单数，不受 kilometres 复数形式影响。"
+          },
+          {
+            "wrong": "The United States are a large country.",
+            "right": "The United States is a large country.",
+            "why": "国名虽为复数形式，指一个国家，谓语用单数。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "语法一致原则",
+          "diff": "语法一致看中心词词尾的单复数；意义一致看主语实际指的数量，冲突时意义一致优先。"
+        },
+        "mnemonic": "词形与所指打架，听所指的；整体用单数，成员用复数，看能不能用 they 指代。"
+      },
+      "review": {
+        "core": [
+          "触发条件：主语形式与所表达的数量概念冲突",
+          "五类场景：集合名词、the + 形容词、时间距离金额、学科疾病、书名专名",
+          "集合名词：整体用单数，成员用复数，看能否用 they/their 指代",
+          "时间、距离、金额视为整体，谓语用单数",
+          "优先级：就近/就远 ＞ 意义一致 ＞ 语法一致"
+        ],
+        "trigger": "看到 -s 结尾却是单数概念，或单数形式却指一群人，立刻启用意义一致",
+        "quickCheck": [
+          {
+            "q": "The police ___ (be) investigating. 填什么？",
+            "a": "are，police 意义上是复数。"
+          },
+          {
+            "q": "Ten years ___ (be) a long time. 填什么？",
+            "a": "is，时间段视为整体。"
+          },
+          {
+            "q": "什么时候集合名词用复数谓语？",
+            "a": "强调成员各自行动、能用 they/their 回指时。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.subject_verb_agreement.notional.d1",
+          "type": "choice",
+          "stem": "The police ___ questioning the witnesses at the station right now.",
+          "options": [
+            "are",
+            "is",
+            "was",
+            "has been"
+          ],
+          "answer": "are",
+          "explain": "police 形式上是单数、意义上指一群警察，按意义一致原则谓语用复数 are。",
+          "trap": "is 只按词形判断，忽略了 police 的集合属性，且与后面的复数语境不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.notional.d2",
+          "type": "fill",
+          "stem": "Ten thousand dollars ___ (be) far more than we can afford.",
+          "answer": "is",
+          "accept": [
+            "is"
+          ],
+          "hint": "金额被当作一个总量还是一个一个的美元？",
+          "explain": "触发意义一致原则：金额被视为一个整体总量，谓语用单数 is，而不是跟复数 dollars 一致。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.notional.d3",
+          "type": "correct",
+          "stem": "Mathematics are considered the most difficult subject in our school.",
+          "answer": "Mathematics is considered the most difficult subject in our school.",
+          "accept": [
+            "Mathematics is considered the most difficult subject in our school."
+          ],
+          "explain": "Mathematics 虽以 s 结尾，指一门学科，按意义一致原则作单数，谓语用 is。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.notional.d4",
+          "type": "choice",
+          "stem": "The audience ___ on their feet, applauding wildly.",
+          "options": [
+            "were",
+            "was",
+            "has been",
+            "is"
+          ],
+          "answer": "were",
+          "explain": "on their feet 与 applauding 说明观众各自行动，their 也要求复数回指，按意义一致原则用 were。",
+          "trap": "was 把 audience 当作一个整体，与后面的 their 冲突。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.notional.d5",
+          "type": "translate",
+          "stem": "警方正在调查这起事故。",
+          "answer": "The police are investigating the accident.",
+          "require": [
+            [
+              "police"
+            ],
+            [
+              "are investigating",
+              "are looking into"
+            ]
+          ],
+          "forbid": [
+            "police is",
+            "police was investigating"
+          ],
+          "explain": "police 是形式单数、意义复数的集合名词，按意义一致原则谓语用 are。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.notional.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "Twenty",
+            "years",
+            "is",
+            "a",
+            "long",
+            "time."
+          ],
+          "answer": "Twenty years is a long time.",
+          "explain": "时间段被视为一个整体概念，按意义一致原则谓语用单数 is。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "syntax.subject_verb_agreement.proximity",
+      "title": "就近原则",
+      "brief": "or/nor/not only 结构里谓语跟最近的主语",
+      "difficulty": 3,
+      "tags": [
+        "易错",
+        "高频"
+      ],
+      "prereq": [
+        "syntax.subject_verb_agreement.notional"
+      ],
+      "concept": {
+        "summary": "就近原则只在一组固定结构里生效：主语由 or、either...or、neither...nor、not only...but also、not...but 连接，或 there be 后接并列名词时，谓语与最靠近它的那个主语一致。它是结构触发规则，优先级高于意义一致与语法一致，因为它在判定顺序上更早改写了「谁算主语」。",
+        "sections": [
+          {
+            "h": "六个触发结构",
+            "p": "触发词是唯一入口。没有这些连接词，任何「离谓语最近的名词」都不构成就近，包括介词短语里的名词。",
+            "bullets": [
+              "A or B → 谓语跟 B",
+              "either A or B → 谓语跟 B",
+              "neither A nor B → 谓语跟 B",
+              "not only A but also B → 谓语跟 B",
+              "not A but B → 谓语跟 B",
+              "there be + A and B → 谓语跟 A"
+            ]
+          },
+          {
+            "h": "在判定顺序中的位置",
+            "p": "就近排在第二位：找完中心词就立刻检查有没有这些连接词。一旦命中，直接取最近的主语，不再看整体意义，也不再退回语法一致。这就是它优先级最高的原因。",
+            "bullets": [
+              "Neither the students nor the teacher was informed.（跟 teacher）",
+              "Neither the teacher nor the students were informed.（跟 students）",
+              "Either you or I am responsible for the mistake.",
+              "There is a pen and two books on the desk."
+            ]
+          },
+          {
+            "h": "两处高频误用",
+            "p": "第一，把介词短语里的名词当成最近的主语；第二，把 either of / neither of 当作就近结构。后者没有 or/nor 连接两个主语，中心词是 either/neither 本身，一律用单数。",
+            "bullets": [
+              "× Neither of the answers are correct. → √ Neither of the answers is correct.",
+              "× Either of the two roads lead to the village. → √ leads",
+              "The teacher, with two students, was late.（不是就近，with 短语不构成并列主语）"
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "Either you or I am responsible for the mistake.",
+            "zh": "要么是你，要么是我，该为这个错误负责。",
+            "ok": true,
+            "note": "either...or 触发就近，最近的主语是 I，be 动词用 am。"
+          },
+          {
+            "en": "Not only the coach but also the players were satisfied.",
+            "zh": "不仅教练满意，队员们也很满意。",
+            "ok": true,
+            "note": "but also 后最近的 the players 是复数，谓语用 were。"
+          },
+          {
+            "en": "Neither the manager nor his assistants have replied.",
+            "zh": "经理和他的助理们都没有回复。",
+            "ok": true,
+            "note": "nor 后最近的 assistants 是复数，谓语用 have。"
+          },
+          {
+            "en": "There is a lamp and two chairs in the corner.",
+            "zh": "角落里有一盏灯和两把椅子。",
+            "ok": true,
+            "note": "there be 按就近与 a lamp 一致，用 is。"
+          },
+          {
+            "en": "Neither the teacher nor the students was present.",
+            "zh": "老师和学生们都没有到场。",
+            "ok": false,
+            "note": "nor 后最近的 students 是复数，谓语应改为 were。"
+          },
+          {
+            "en": "Either the twins or their mother have the keys.",
+            "zh": "要么是双胞胎，要么是他们的母亲拿着钥匙。",
+            "ok": false,
+            "note": "or 后最近的 their mother 是单数，谓语应改为 has。"
+          },
+          {
+            "en": "There are two chairs and a lamp in the corner.",
+            "zh": "角落里有两把椅子和一盏灯。",
+            "ok": true,
+            "note": "there be 按就近与 two chairs 一致，用 are。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "Not only the students but also the teacher were excited.",
+            "right": "Not only the students but also the teacher was excited.",
+            "why": "but also 后最近的 the teacher 是单数，就近原则要求谓语跟它一致。"
+          },
+          {
+            "wrong": "Neither of the answers are correct.",
+            "right": "Neither of the answers is correct.",
+            "why": "neither of 没有 or/nor 连接两个主语，中心词是 neither，按语法一致用单数。"
+          },
+          {
+            "wrong": "The teacher with two students were late for the meeting.",
+            "right": "The teacher with two students was late for the meeting.",
+            "why": "with 短语是附加说明，不构成并列主语，不属于就近结构，谓语跟 teacher。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "就远原则",
+          "diff": "就近看紧邻谓语的那个并列主语，由 or/nor/but also 触发；就远看第一个主语，由 as well as/together with 触发。"
+        },
+        "mnemonic": "or、nor、but also，只盯挨着谓语的那一个。"
+      },
+      "review": {
+        "core": [
+          "触发词：or、either...or、neither...nor、not only...but also、not...but",
+          "触发时谓语跟最靠近它的主语，不看整体",
+          "there be 后接并列名词也按就近，谓语跟第一个名词",
+          "优先级最高：就近 ＞ 意义一致 ＞ 语法一致",
+          "either of / neither of 不是就近结构，中心词单数，谓语用单数"
+        ],
+        "trigger": "看到 or、nor、but also，立刻只盯紧挨谓语的那个主语",
+        "quickCheck": [
+          {
+            "q": "Neither the teacher nor the students ___ (be) present. 填什么？",
+            "a": "were，跟最近的 students。"
+          },
+          {
+            "q": "Neither of the answers ___ (be) correct. 填什么？",
+            "a": "is，neither of 不触发就近。"
+          },
+          {
+            "q": "There is a pen and two books 为什么用 is？",
+            "a": "there be 按就近与第一个名词 a pen 一致。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.subject_verb_agreement.proximity.d1",
+          "type": "choice",
+          "stem": "Neither the students nor the teacher ___ aware of the change in schedule.",
+          "options": [
+            "was",
+            "were",
+            "have been",
+            "are"
+          ],
+          "answer": "was",
+          "explain": "neither...nor 触发就近原则，紧邻谓语的 the teacher 是单数，谓语用 was。",
+          "trap": "were 是按前面的复数 students 判断，忽略了 nor 之后才是最近的并列主语。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.proximity.d2",
+          "type": "fill",
+          "stem": "Not only the manager but also his assistants ___ (be) going to attend the conference.",
+          "answer": "are",
+          "accept": [
+            "are"
+          ],
+          "hint": "看 but also 之后的名词，而不是 but also 之前的名词。",
+          "explain": "触发就近原则：but also 后最近的 his assistants 是复数，谓语用 are。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.proximity.d3",
+          "type": "correct",
+          "stem": "Either the coach or the players has to take responsibility.",
+          "answer": "Either the coach or the players have to take responsibility.",
+          "accept": [
+            "Either the coach or the players have to take responsibility."
+          ],
+          "explain": "either...or 触发就近原则，or 后最近的 the players 是复数，谓语用 have。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.proximity.d4",
+          "type": "choice",
+          "stem": "There ___ a notebook and several pens on the teacher's desk.",
+          "options": [
+            "is",
+            "are",
+            "were",
+            "have been"
+          ],
+          "answer": "is",
+          "explain": "there be 后接并列名词时按就近原则，与第一个名词 a notebook 一致，用 is。",
+          "trap": "are 按并列名词的整体复数判断，没有走就近。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.proximity.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "Neither",
+            "the",
+            "teacher",
+            "nor",
+            "the",
+            "students",
+            "were",
+            "late."
+          ],
+          "answer": "Neither the teacher nor the students were late.",
+          "explain": "nor 后最近的 the students 是复数，按就近原则谓语用 were。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.subject_verb_agreement.proximity.d6",
+          "type": "translate",
+          "stem": "要么你去，要么我去。",
+          "answer": "Either you or I am going.",
+          "require": [
+            [
+              "either"
+            ],
+            [
+              "or"
+            ],
+            [
+              "am"
+            ]
+          ],
+          "forbid": [
+            "are going",
+            "either you or i are"
+          ],
+          "explain": "either...or 触发就近原则，最近的主语是 I，be 动词用 am。",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "id": "syntax.subject_verb_agreement.remote",
+      "title": "就远原则",
+      "brief": "附加短语不参与一致，谓语跟第一个主语",
+      "difficulty": 3,
+      "tags": [
+        "易错",
+        "难点"
+      ],
+      "prereq": [
+        "syntax.subject_verb_agreement.proximity"
+      ],
+      "concept": {
+        "summary": "就远原则用于主语后接伴随、附加、排除类短语的结构：as well as、along with、together with、rather than、except、besides、including、accompanied by、in addition to。这些短语只是附加说明，不参与主谓一致，谓语仍与它们前面的第一个主语一致。",
+        "sections": [
+          {
+            "h": "触发短语清单",
+            "p": "这些短语的共同点是「删掉后句子仍完整」，语义上是插入信息而非并列主语。判定时直接把它们连同后面的名词一起划掉。",
+            "bullets": [
+              "as well as / along with / together with",
+              "rather than / except / but / besides",
+              "including / in addition to / accompanied by / no less than",
+              "由逗号夹注是视觉信号，但判定依据是短语本身，不是逗号"
+            ]
+          },
+          {
+            "h": "为什么按就远",
+            "p": "这类短语在语法上不构成并列主语，第一个主语才是中心词。删掉短语后剩下的句子仍然成立，这就是最快的验证方法。",
+            "bullets": [
+              "The teacher, as well as the students, was invited.（删去短语 → The teacher was invited.）",
+              "Nobody but the two guards knows the code.",
+              "The house, along with its garden, was sold.",
+              "The students, rather than their teacher, were responsible."
+            ]
+          },
+          {
+            "h": "与就近原则的分工",
+            "p": "两者由不同连接词触发，不能混用。or/nor/but also 连接的是并列主语，按就近；as well as/together with 连接的是附加成分，按就远。两者同为结构触发，优先级相同，都高于意义一致与语法一致。",
+            "bullets": [
+              "就近触发：or, either...or, neither...nor, not only...but also",
+              "就远触发：as well as, along with, together with, rather than, except",
+              "优先级：就近/就远 ＞ 意义一致 ＞ 语法一致",
+              "with 短语同样属于附加成分：The teacher with two students was late."
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "The manager, together with his assistants, has submitted the report.",
+            "zh": "经理连同他的助理们已经提交了报告。",
+            "ok": true,
+            "note": "together with 短语不参与一致，谓语跟 manager，用 has。"
+          },
+          {
+            "en": "The students, as well as their teacher, were excited about the trip.",
+            "zh": "学生们和他们的老师一样，都对这次旅行感到兴奋。",
+            "ok": true,
+            "note": "中心词是 students，谓语用 were；as well as 短语只是附加信息。"
+          },
+          {
+            "en": "Nobody except the two monitors knows the password.",
+            "zh": "除了两个班长，没人知道密码。",
+            "ok": true,
+            "note": "nobody 是单数中心词，except 短语只是排除说明。"
+          },
+          {
+            "en": "The village, along with its surrounding farms, was flooded.",
+            "zh": "这个村子连同周边的农场都被淹了。",
+            "ok": true,
+            "note": "中心词是 village，单数，谓语用 was。"
+          },
+          {
+            "en": "The teacher as well as the students were late.",
+            "zh": "老师和学生们都迟到了。",
+            "ok": false,
+            "note": "as well as 不构成并列主语，谓语应改为 was，与 teacher 一致。"
+          },
+          {
+            "en": "The students together with their teacher was excited.",
+            "zh": "学生们和他们的老师都很兴奋。",
+            "ok": false,
+            "note": "中心词是 students，谓语应改为 were。"
+          },
+          {
+            "en": "Rather than his parents, John is responsible for the decision.",
+            "zh": "该为这个决定负责的是约翰，而不是他的父母。",
+            "ok": true,
+            "note": "rather than 短语在句首，主语仍是 John，谓语用 is。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "The CEO, along with the board members, have agreed to the plan.",
+            "right": "The CEO, along with the board members, has agreed to the plan.",
+            "why": "along with 短语不改变主语的数，中心词是单数 the CEO。"
+          },
+          {
+            "wrong": "No one but the two boys were injured.",
+            "right": "No one but the two boys was injured.",
+            "why": "no one 是单数中心词，but 引导的短语只是排除说明，不参与一致。"
+          },
+          {
+            "wrong": "The equipment, as well as the manuals, were delivered yesterday.",
+            "right": "The equipment, as well as the manuals, was delivered yesterday.",
+            "why": "equipment 是不可数名词，中心词单数，as well as 短语不影响谓语。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "就近原则",
+          "diff": "就近由 or/nor/but also 触发，谓语跟最近的主语；就远由 as well as/together with 触发，谓语跟第一个主语。"
+        },
+        "mnemonic": "as well as 是附加，删掉短语看前面；or 与 nor 是并列，盯住后面那一个。"
+      },
+      "review": {
+        "core": [
+          "触发短语：as well as、along with、together with、rather than、except、besides、including、accompanied by",
+          "这些短语是附加说明，不构成并列主语",
+          "判定动作：把短语连同其后名词整体删掉，剩下的主语定谓语",
+          "就远与就近同为结构触发，优先级都高于意义一致和语法一致",
+          "逗号夹注只是视觉信号，判定依据是短语本身"
+        ],
+        "trigger": "看到 as well as / together with，先划掉整个短语，谓语跟前面的主语",
+        "quickCheck": [
+          {
+            "q": "The teacher, together with the students, ___ (be) invited. 填什么？",
+            "a": "was，中心词是 teacher。"
+          },
+          {
+            "q": "Nobody but the two guards ___ (know) the code. 填什么？",
+            "a": "knows，中心词是 nobody。"
+          },
+          {
+            "q": "就远原则最快的验证方法是什么？",
+            "a": "把短语连同其后名词删掉，看剩下的主语。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.subject_verb_agreement.remote.d1",
+          "type": "choice",
+          "stem": "The professor, together with his research assistants, ___ the experiment next week.",
+          "options": [
+            "is to repeat",
+            "are to repeat",
+            "were repeating",
+            "have repeated"
+          ],
+          "answer": "is to repeat",
+          "explain": "就远原则：together with 短语不参与一致，中心词 professor 是单数，谓语用 is to repeat。",
+          "trap": "are to repeat 跟了最近的复数 assistants，把附加成分误当并列主语。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.remote.d2",
+          "type": "fill",
+          "stem": "The students, as well as their teacher, ___ (be) looking forward to the trip.",
+          "answer": "are",
+          "accept": [
+            "are"
+          ],
+          "hint": "把 as well as 短语整体划掉，再看剩下的主语。",
+          "explain": "触发就远原则：as well as their teacher 是附加成分，中心词 students 为复数，谓语用 are。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.remote.d3",
+          "type": "correct",
+          "stem": "The CEO, along with the board members, have agreed to the new plan.",
+          "answer": "The CEO, along with the board members, has agreed to the new plan.",
+          "accept": [
+            "The CEO, along with the board members, has agreed to the new plan."
+          ],
+          "explain": "along with 短语不参与主谓一致，中心词是单数 the CEO，现在完成时的助动词用 has。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.remote.d4",
+          "type": "choice",
+          "stem": "Nobody but the two guards ___ the code to the safe.",
+          "options": [
+            "knows",
+            "know",
+            "are knowing",
+            "have known"
+          ],
+          "answer": "knows",
+          "explain": "nobody 是单数中心词，but 引导的短语只是排除说明，按就远原则谓语用 knows。",
+          "trap": "know 受了最近复数 guards 的影响，把排除说明当成了并列主语。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.remote.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "The",
+            "house,",
+            "along",
+            "with",
+            "its",
+            "garden,",
+            "was",
+            "sold."
+          ],
+          "answer": "The house, along with its garden, was sold.",
+          "explain": "along with its garden 是附加成分，中心词 the house 为单数，谓语用 was。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.remote.d6",
+          "type": "translate",
+          "stem": "校长和学生们都出席了开幕式。",
+          "answer": "The principal, as well as the students, was present at the opening ceremony.",
+          "require": [
+            [
+              "principal"
+            ],
+            [
+              "as well as"
+            ],
+            [
+              "was present"
+            ]
+          ],
+          "forbid": [
+            "as well as the students were",
+            "principal and the students was"
+          ],
+          "explain": "as well as the students 是附加成分，不参与一致，中心词 principal 为单数，按就远原则用 was。",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "id": "syntax.subject_verb_agreement.and-subjects",
+      "title": "and 连接主语的一致问题",
+      "brief": "and 连接两个主语通常用复数，同指一人除外",
+      "difficulty": 2,
+      "tags": [
+        "易错",
+        "高频"
+      ],
+      "prereq": [
+        "syntax.subject_verb_agreement.grammatical"
+      ],
+      "concept": {
+        "summary": "and 连接两个不同的人或物时，主语是复数，谓语用复数；三种情况例外仍用单数：两个名词指同一人或同一事物、并列主语由 each/every/no 修饰、and 连接的是被视为一体的固定组合。判定顺序是：先看限定词是否重复，再看是否有 each/every/no，最后才按复数处理。",
+        "sections": [
+          {
+            "h": "同指判定：数限定词",
+            "p": "判定依据是限定词的数量。两个名词前只有一个限定词，说明是同一人兼两个身份，谓语用单数；两个名词各有自己的限定词，说明是两个人，谓语用复数。",
+            "bullets": [
+              "My friend and colleague is coming.（一个人，一个 my）",
+              "My friend and my colleague are coming.（两个人，两个 my）",
+              "The poet and novelist has won the prize.（同一人，一个 the）",
+              "A knife and fork is on the table.（视为一副餐具）"
+            ]
+          },
+          {
+            "h": "each / every / no 修饰的并列主语",
+            "p": "这类限定词把每个并列成分单独处理，谓语一律用单数。判定信号是限定词重复出现。",
+            "bullets": [
+              "Every boy and every girl was given a gift.",
+              "No teacher and no student is allowed to smoke here.",
+              "Each man and each woman has a vote.",
+              "In every room and every corridor there was a notice."
+            ]
+          },
+          {
+            "h": "固定组合与判定顺序",
+            "p": "bread and butter、fish and chips、a knife and fork 这类组合被视为一个整体，用单数。完整顺序是：同指检查 → each/every/no 检查 → 其余按复数。and 连接两个不定式或两个从句作主语时，也按复数处理。",
+            "bullets": [
+              "Bread and butter is all he asked for.",
+              "Fish and chips is my favourite dish.",
+              "Reading and writing are two basic skills.",
+              "To love and to be loved is what everyone wants.（两个不定式指同一件事，用单数）"
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "Bread and butter is all he asked for.",
+            "zh": "他只想要面包加黄油。",
+            "ok": true,
+            "note": "bread and butter 被视为一种食物组合，谓语用单数。"
+          },
+          {
+            "en": "The manager and the secretary were both absent.",
+            "zh": "经理和秘书都缺席了。",
+            "ok": true,
+            "note": "两个名词各有定冠词，指两个人，谓语用复数。"
+          },
+          {
+            "en": "Every seat and every table was checked before the opening.",
+            "zh": "开业前每个座位和每张桌子都检查过了。",
+            "ok": true,
+            "note": "every 重复修饰并列主语，每个成分单独处理，谓语用单数。"
+          },
+          {
+            "en": "Reading and writing are two basic skills.",
+            "zh": "读和写是两项基本技能。",
+            "ok": true,
+            "note": "两个不同概念并列，谓语用复数。"
+          },
+          {
+            "en": "My friend and colleague are both coming to dinner.",
+            "zh": "我的朋友兼同事要来吃晚饭。",
+            "ok": false,
+            "note": "只有一个限定词 my，指同一个人，谓语应改为 is coming。"
+          },
+          {
+            "en": "Every boy and every girl were invited to the party.",
+            "zh": "每个男孩和每个女孩都被邀请参加聚会。",
+            "ok": false,
+            "note": "every 重复修饰，谓语应按单数处理，改为 was invited。"
+          },
+          {
+            "en": "Both the teacher and the students were satisfied.",
+            "zh": "老师和学生们都很满意。",
+            "ok": true,
+            "note": "both...and 明确指两组人，谓语用复数 were。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "A writer and poet have been invited to the forum.",
+            "right": "A writer and poet has been invited to the forum.",
+            "why": "只有一个冠词 a，指身兼作家与诗人的同一个人，谓语用单数。"
+          },
+          {
+            "wrong": "No boy and no girl are allowed to enter without permission.",
+            "right": "No boy and no girl is allowed to enter without permission.",
+            "why": "no 重复修饰并列主语，每个成分单独处理，谓语用单数。"
+          },
+          {
+            "wrong": "Fish and chips are my favourite dish.",
+            "right": "Fish and chips is my favourite dish.",
+            "why": "该组合被视为一道菜，是一个整体概念，谓语用单数。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "关联连词的主谓一致",
+          "diff": "and 连接的是并列并列关系，默认按复数；either...or / not only...but also 连接的是选择关系，按就近原则。"
+        },
+        "mnemonic": "先数限定词，再看 each/every/no，都没有才当复数。"
+      },
+      "review": {
+        "core": [
+          "and 连接两个不同主体，谓语用复数",
+          "只有一个限定词说明同指一人或一物，谓语用单数",
+          "each/every/no 重复修饰并列主语，每个成分单独处理，谓语用单数",
+          "固定组合视为一个整体，用单数：bread and butter, fish and chips",
+          "判定顺序：同指 → each/every/no → 其余按复数"
+        ],
+        "trigger": "看到 and 先数限定词，只有一个限定词就是同指，谓语用单数",
+        "quickCheck": [
+          {
+            "q": "My friend and colleague ___ (be) coming. 填什么？",
+            "a": "is，同指一个人。"
+          },
+          {
+            "q": "Every boy and every girl ___ (be) invited. 填什么？",
+            "a": "was，every 重复修饰。"
+          },
+          {
+            "q": "Bread and butter ___ (be) all he asked for. 填什么？",
+            "a": "is，视为一种食物组合。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.subject_verb_agreement.and-subjects.d1",
+          "type": "choice",
+          "stem": "The composer and conductor ___ the audience with a new piece last night.",
+          "options": [
+            "astonished",
+            "were astonishing",
+            "have astonished",
+            "astonish"
+          ],
+          "answer": "astonished",
+          "explain": "只有一个定冠词 the，指身兼作曲家与指挥家的同一个人，主语为单数；last night 要求过去式 astonished。",
+          "trap": "were astonishing 把两个身份当成两个人，与同指关系冲突。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.and-subjects.d2",
+          "type": "fill",
+          "stem": "Every classroom and every corridor ___ (be) cleaned before the new term.",
+          "answer": "is",
+          "accept": [
+            "is"
+          ],
+          "hint": "注意 every 出现了几次。",
+          "explain": "触发语法一致中的 each/every 规则：every 重复修饰并列主语，每个成分单独处理，谓语用单数 is。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.and-subjects.d3",
+          "type": "correct",
+          "stem": "My friend and colleague are flying to Berlin tomorrow.",
+          "answer": "My friend and colleague is flying to Berlin tomorrow.",
+          "accept": [
+            "My friend and colleague is flying to Berlin tomorrow."
+          ],
+          "explain": "只有一个限定词 my，friend 与 colleague 指同一个人，主语为单数，进行时的 be 动词用 is。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.and-subjects.d4",
+          "type": "choice",
+          "stem": "Bread and butter ___ what he usually has for breakfast.",
+          "options": [
+            "is",
+            "are",
+            "were",
+            "have been"
+          ],
+          "answer": "is",
+          "explain": "bread and butter 被视为一种食物组合，是单一概念，谓语用单数 is。",
+          "trap": "are 机械套用「and 连接即复数」，忽略了固定组合的整体性。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.and-subjects.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "Every",
+            "boy",
+            "and",
+            "every",
+            "girl",
+            "was",
+            "given",
+            "a",
+            "gift."
+          ],
+          "answer": "Every boy and every girl was given a gift.",
+          "explain": "every 重复修饰并列主语，每个成分单独处理，谓语用单数 was。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.and-subjects.d6",
+          "type": "translate",
+          "stem": "我的邻居兼同事是一位医生。",
+          "answer": "My neighbour and colleague is a doctor.",
+          "require": [
+            [
+              "neighbour",
+              "neighbor"
+            ],
+            [
+              "colleague"
+            ],
+            [
+              "is"
+            ]
+          ],
+          "forbid": [
+            "are doctors",
+            "colleague are"
+          ],
+          "explain": "只有一个限定词 my，neighbour 与 colleague 指同一个人，谓语用单数 is。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.subject_verb_agreement.indefinite-pronouns",
+      "title": "不定代词作主语的一致",
+      "brief": "复合不定代词一律单数，both/all 看所指",
+      "difficulty": 2,
+      "tags": [
+        "基础",
+        "易错"
+      ],
+      "prereq": [
+        "morph.pronouns.both-either-neither-all-none",
+        "syntax.subject_verb_agreement.grammatical"
+      ],
+      "concept": {
+        "summary": "不定代词作主语分三组：以 -one/-body/-thing 结尾的复合不定代词、each/either/neither/many a 一律单数；both/few/a few/many/several 一律复数；all/some/none/most/half/the rest 由所指对象决定，指不可数用单数，指可数复数用复数。判定顺序是先给代词分组，再看 of 后的名词。",
+        "sections": [
+          {
+            "h": "恒单数组",
+            "p": "这一组的单复数由词本身固定，与后面跟什么无关。判定时看到这些词就直接写单数谓语，不必再分析。",
+            "bullets": [
+              "everyone, everybody, everything, someone, somebody, something",
+              "anyone, anybody, anything, no one, nobody, nothing",
+              "each, either, neither, one",
+              "many a + 单数名词；one of + 复数名词"
+            ]
+          },
+          {
+            "h": "恒复数组",
+            "p": "表示「多个」的代词与限定词，谓语一律用复数。",
+            "bullets": [
+              "both, few, a few, many, several, others",
+              "Both of the twins are good at maths.",
+              "Several of the students have already left."
+            ]
+          },
+          {
+            "h": "两可组：看 of 后的名词",
+            "p": "all/some/none/most/half/part/the rest/plenty 本身不携带数，谓语由它们所指代的名词决定。判定动作是把 of 后的名词拿出来单独判断可数性。",
+            "bullets": [
+              "Some of the water is polluted.（不可数 → 单数）",
+              "Some of the students are absent.（复数 → 复数）",
+              "None of the money was found.（不可数 → 单数）",
+              "Most of the guests have arrived.（复数 → 复数）"
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "Everyone in the office has read the notice.",
+            "zh": "办公室里的每个人都看过通知了。",
+            "ok": true,
+            "note": "everyone 是单数，现在完成时的助动词用 has。"
+          },
+          {
+            "en": "Neither of the two proposals makes sense.",
+            "zh": "这两份提案都说不通。",
+            "ok": true,
+            "note": "neither 是单数中心词，谓语用 makes。"
+          },
+          {
+            "en": "Many a student has struggled with this rule.",
+            "zh": "许多学生都在这条规则上犯过难。",
+            "ok": true,
+            "note": "many a + 单数名词作主语，谓语用单数 has。"
+          },
+          {
+            "en": "Both of the twins are good at maths.",
+            "zh": "这对双胞胎都擅长数学。",
+            "ok": true,
+            "note": "both 是复数，谓语用 are。"
+          },
+          {
+            "en": "Each of the rooms have its own bathroom.",
+            "zh": "每个房间都有独立浴室。",
+            "ok": false,
+            "note": "each 是单数中心词，谓语应改为 has。"
+          },
+          {
+            "en": "Some of the equipment are out of order.",
+            "zh": "有些设备出了故障。",
+            "ok": false,
+            "note": "equipment 不可数，some 指不可数时谓语用单数 is。"
+          },
+          {
+            "en": "None of the information was accurate.",
+            "zh": "这些信息没有一条是准确的。",
+            "ok": true,
+            "note": "information 不可数，none 指不可数用单数 was。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "Everybody in the class know the answer.",
+            "right": "Everybody in the class knows the answer.",
+            "why": "复合不定代词一律单数，介词短语不改变它的数。"
+          },
+          {
+            "wrong": "Neither of the two plans work.",
+            "right": "Neither of the two plans works.",
+            "why": "neither 是单数中心词，of 后的复数名词只是修饰语。"
+          },
+          {
+            "wrong": "Many a ship have sunk in these waters.",
+            "right": "Many a ship has sunk in these waters.",
+            "why": "many a 后接单数名词，主语为单数，谓语用 has。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "数量短语作主语的一致",
+          "diff": "不定代词的一致由词本身固定；数量短语的一致由短语的中心词位置或 of 后名词的可数性决定。"
+        },
+        "mnemonic": "body、one、thing 都是单数；both、few、many 都是复数；all、some、none 看后面。"
+      },
+      "review": {
+        "core": [
+          "-one/-body/-thing 结尾的复合不定代词一律单数",
+          "each/either/neither/one/many a 作主语用单数",
+          "both/few/a few/many/several 作主语用复数",
+          "all/some/none/most/half/the rest 看所指：不可数用单数，复数用复数",
+          "代词回指要与谓语的数一致：Everyone has his or her own view."
+        ],
+        "trigger": "看到 -body/-one/-thing 直接写单数谓语，不再往后分析",
+        "quickCheck": [
+          {
+            "q": "Everybody ___ (know) the answer. 填什么？",
+            "a": "knows，复合不定代词单数。"
+          },
+          {
+            "q": "Some of the equipment ___ (be) out of order. 填什么？",
+            "a": "is，equipment 不可数。"
+          },
+          {
+            "q": "many a student 后的谓语用单数还是复数？",
+            "a": "单数。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.subject_verb_agreement.indefinite-pronouns.d1",
+          "type": "choice",
+          "stem": "Many a writer ___ tried to describe the city in a single sentence.",
+          "options": [
+            "has",
+            "have",
+            "are",
+            "were"
+          ],
+          "answer": "has",
+          "explain": "many a 后接单数名词 writer，主语为单数，现在完成时的助动词用 has。",
+          "trap": "have 是看到 many 就判复数的机械反应，忽略了 many a 的固定结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.indefinite-pronouns.d2",
+          "type": "fill",
+          "stem": "Neither of the two proposals ___ (make) economic sense.",
+          "answer": "makes",
+          "accept": [
+            "makes"
+          ],
+          "hint": "先划掉 of the two proposals。",
+          "explain": "触发语法一致原则：neither 是单数中心词，of the two proposals 只是修饰语，谓语用第三人称单数 makes。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.indefinite-pronouns.d3",
+          "type": "correct",
+          "stem": "Some of the equipment in the lab are out of order.",
+          "answer": "Some of the equipment in the lab is out of order.",
+          "accept": [
+            "Some of the equipment in the lab is out of order."
+          ],
+          "explain": "some 的数由所指对象决定，equipment 是不可数名词，谓语须用单数 is。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.indefinite-pronouns.d4",
+          "type": "choice",
+          "stem": "Most of the water in the lake ___ frozen since December.",
+          "options": [
+            "has",
+            "have",
+            "were",
+            "are"
+          ],
+          "answer": "has",
+          "explain": "most 的数由 of 后的名词决定，water 不可数，谓语用单数 has been frozen 中的 has。",
+          "trap": "have 是按 most 表示「大多数」的直觉判断，没有检查 of 后的 water 是否可数。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.indefinite-pronouns.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "Each",
+            "of",
+            "the",
+            "rooms",
+            "has",
+            "its",
+            "own",
+            "bathroom."
+          ],
+          "answer": "Each of the rooms has its own bathroom.",
+          "explain": "each 是单数中心词，of the rooms 只是修饰语，谓语用 has。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.indefinite-pronouns.d6",
+          "type": "translate",
+          "stem": "班上每个人都同意这个计划。",
+          "answer": "Everyone in the class agrees with the plan.",
+          "require": [
+            [
+              "everyone"
+            ],
+            [
+              "agrees"
+            ],
+            [
+              "plan"
+            ]
+          ],
+          "forbid": [
+            "everyone agree",
+            "everyone in the class agree with"
+          ],
+          "explain": "everyone 是单数复合不定代词，介词短语 in the class 不改变数，谓语用 agrees。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.subject_verb_agreement.relative-clause",
+      "title": "定语从句与 one of 结构的主谓一致",
+      "brief": "从句谓语跟先行词一致，不跟关系代词",
+      "difficulty": 4,
+      "tags": [
+        "难点",
+        "高频"
+      ],
+      "prereq": [
+        "syntax.subject_verb_agreement.grammatical"
+      ],
+      "concept": {
+        "summary": "定语从句的谓语与先行词一致，而不是与紧邻的关系代词或从句内的其他名词一致。判定顺序是：先确定先行词，再看先行词的单复数，最后处理 one of 结构的两个方向。主句谓语与从句谓语各自独立判定，同一句里可能出现两个不同的数。",
+        "sections": [
+          {
+            "h": "先行词定位",
+            "p": "关系代词 who/which/that 本身没有单复数，它继承先行词的数。找到先行词后，把从句单独拿出来当作一个句子看谓语。",
+            "bullets": [
+              "The books that are on the shelf belong to me.（先行词 books）",
+              "The book that is on the shelf belongs to me.",
+              "He is the only one of the students who has passed.",
+              "I, who am your teacher, must warn you."
+            ]
+          },
+          {
+            "h": "one of 结构的两个方向",
+            "p": "one of + 复数名词 + 定语从句，从句谓语通常用复数，因为先行词是复数名词；但 one 前有 the only/the very/最高级限定时，先行词变为 one，从句谓语用单数。",
+            "bullets": [
+              "She is one of the students who were chosen.（先行词 students）",
+              "She is the only one of the students who was chosen.（先行词 one）",
+              "This is the best one of the films that has been produced.",
+              "He is one of the few people who understand the theory."
+            ]
+          },
+          {
+            "h": "主句从句分别判定",
+            "p": "带定语从句的句子里有两个谓语，各按各的主语定数。the number of + 复数名词 + who 的结构最容易被误判：从句跟复数名词，主句跟单数 number。",
+            "bullets": [
+              "The number of students who have applied is increasing.（从句 have，主句 is）",
+              "The students who have applied are waiting outside.（两处都是复数）",
+              "先行词本身是集合名词或数量短语时，再叠加意义一致或数量短语规则"
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "The girl who lives next door is a pianist.",
+            "zh": "住在隔壁的女孩是钢琴家。",
+            "ok": true,
+            "note": "先行词 the girl 单数，从句与主句的谓语都用单数。"
+          },
+          {
+            "en": "The girls who live next door are pianists.",
+            "zh": "住在隔壁的那些女孩是钢琴家。",
+            "ok": true,
+            "note": "先行词 the girls 复数，从句与主句的谓语都用复数。"
+          },
+          {
+            "en": "This is one of the best novels that have been written on the subject.",
+            "zh": "这是关于这个主题写得最好的小说之一。",
+            "ok": true,
+            "note": "先行词是 novels，从句谓语用复数 have。"
+          },
+          {
+            "en": "He is the only one of the applicants who has experience.",
+            "zh": "他是求职者中唯一有经验的人。",
+            "ok": true,
+            "note": "the only one 使先行词变为 one，从句谓语用单数 has。"
+          },
+          {
+            "en": "The books that is on the shelf belong to me.",
+            "zh": "书架上的那些书是我的。",
+            "ok": false,
+            "note": "先行词 books 是复数，从句谓语应改为 are。"
+          },
+          {
+            "en": "She is one of the students who has won the scholarship.",
+            "zh": "她是获得奖学金的学生之一。",
+            "ok": false,
+            "note": "先行词是 students，从句谓语应改为 have；只有在 the only one of 时从句才用单数。"
+          },
+          {
+            "en": "I, who am your teacher, must warn you.",
+            "zh": "作为你的老师，我必须提醒你。",
+            "ok": true,
+            "note": "先行词是 I，从句谓语用 am，与主句的 must 各自独立。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "The number of students who has applied is increasing.",
+            "right": "The number of students who have applied is increasing.",
+            "why": "从句先行词是 students，从句用复数 have；主句主语是 number，主句用单数 is。"
+          },
+          {
+            "wrong": "He is the only one of the boys who have passed the test.",
+            "right": "He is the only one of the boys who has passed the test.",
+            "why": "the only one of 使先行词变为 one，从句谓语改为单数。"
+          },
+          {
+            "wrong": "There are many people who wants to help.",
+            "right": "There are many people who want to help.",
+            "why": "先行词 people 是复数，从句谓语用复数；people 本身就是复数名词。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "one of 与 the only one of",
+          "diff": "one of + 复数名词时先行词是复数名词，从句用复数；the only one of + 复数名词时先行词是 one，从句用单数。"
+        },
+        "mnemonic": "先找先行词，再看单复数；one of 用复数，the only one 用单数。"
+      },
+      "review": {
+        "core": [
+          "从句谓语跟先行词，关系代词本身没有单复数",
+          "先定先行词，再定从句的数，最后单独判主句",
+          "one of + 复数名词 + who → 从句用复数",
+          "the only one of + 复数名词 + who → 从句用单数",
+          "同一句的主句与从句可能各用各的数，必须分开判断"
+        ],
+        "trigger": "看到 who/which/that，先回指先行词，再定从句谓语",
+        "quickCheck": [
+          {
+            "q": "She is one of the students who ___ (have) won. 填什么？",
+            "a": "have，先行词是 students。"
+          },
+          {
+            "q": "She is the only one of the students who ___ (have) won. 填什么？",
+            "a": "has，先行词是 one。"
+          },
+          {
+            "q": "The number of students who ___ (have) applied is rising. 填什么？",
+            "a": "have，从句先行词是 students，主句的 is 不变。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.subject_verb_agreement.relative-clause.d1",
+          "type": "choice",
+          "stem": "This is one of the few films that ___ the reality of war without sentimentality.",
+          "options": [
+            "portray",
+            "portrays",
+            "is portraying",
+            "has portrayed"
+          ],
+          "answer": "portray",
+          "explain": "one of the few films 中先行词是 films，复数，从句谓语用 portray。",
+          "trap": "portrays 把先行词当成了 one，只有在 the only one of / the very one of 结构中先行词才是 one。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.relative-clause.d2",
+          "type": "fill",
+          "stem": "He is the only one of the candidates who ___ (meet) all the requirements.",
+          "answer": "meets",
+          "accept": [
+            "meets"
+          ],
+          "hint": "注意 one 前的 the only。",
+          "explain": "触发语法一致原则：the only one of 使先行词变为单数 one，从句谓语用第三人称单数 meets。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.relative-clause.d3",
+          "type": "correct",
+          "stem": "The number of students who has registered for the course is rising.",
+          "answer": "The number of students who have registered for the course is rising.",
+          "accept": [
+            "The number of students who have registered for the course is rising."
+          ],
+          "explain": "从句先行词是 students，从句谓语用复数 have；主句主语是 the number，主句谓语 is 正确，不受影响。",
+          "difficulty": 4
+        },
+        {
+          "id": "syntax.subject_verb_agreement.relative-clause.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "The",
+            "books",
+            "that",
+            "are",
+            "on",
+            "the",
+            "shelf",
+            "belong",
+            "to",
+            "me."
+          ],
+          "answer": "The books that are on the shelf belong to me.",
+          "explain": "先行词 books 是复数，从句谓语用 are，主句谓语用 belong，两处都是复数。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.relative-clause.d5",
+          "type": "translate",
+          "stem": "她是唯一一个通过考试的学生。",
+          "answer": "She is the only one of the students who has passed the exam.",
+          "require": [
+            [
+              "only one"
+            ],
+            [
+              "who"
+            ],
+            [
+              "has passed"
+            ]
+          ],
+          "forbid": [
+            "who have passed",
+            "one of the students who have passed"
+          ],
+          "explain": "the only one of 使先行词变为单数 one，从句谓语用 has passed；若去掉 only，则先行词变回 students，从句要用 have passed。",
+          "difficulty": 4
+        },
+        {
+          "id": "syntax.subject_verb_agreement.relative-clause.d6",
+          "type": "choice",
+          "stem": "There are many volunteers who ___ to work on weekends.",
+          "options": [
+            "are willing",
+            "is willing",
+            "was willing",
+            "has been willing"
+          ],
+          "answer": "are willing",
+          "explain": "先行词 volunteers 是复数，从句谓语用 are willing；主句的 There are 也印证了复数。",
+          "trap": "is willing 会被紧邻的 who 误导，把关系代词当成单数主语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "syntax.subject_verb_agreement.quantity-phrases",
+      "title": "数量短语作主语的一致",
+      "brief": "the number 用单数，a number 用复数",
+      "difficulty": 4,
+      "tags": [
+        "难点",
+        "高频"
+      ],
+      "prereq": [
+        "morph.nouns.quantification",
+        "syntax.subject_verb_agreement.indefinite-pronouns"
+      ],
+      "concept": {
+        "summary": "数量短语作主语时，谓语由中心词决定，不由 of 后的名词决定。三种情况：the number of / the amount of / the percentage of 的中心词是 number/amount/percentage，用单数；a number of / a great many / a few 的中心词是后面的复数名词，用复数；分数、百分数、half of、the rest of 则看 of 后的名词是否可数。",
+        "sections": [
+          {
+            "h": "中心词在 of 前还是后",
+            "p": "这是本知识点唯一的分界线。加 the 时中心词在前，用单数；加 a 时中心词在后，用复数。判定动作是看冠词，而不是看 of 后面。",
+            "bullets": [
+              "The number of applicants has risen.（中心词 number，单数）",
+              "A number of applicants have withdrawn.（中心词 applicants，复数）",
+              "The amount of waste is increasing.（中心词 amount，单数）",
+              "A great deal of money was spent.（中心词 deal，单数）",
+              "A great many students were absent.（中心词 students，复数）"
+            ]
+          },
+          {
+            "h": "分数、百分数与 half of",
+            "p": "这类结构没有固定中心词，谓语跟 of 后的名词：可数复数用复数，不可数或单数用单数。",
+            "bullets": [
+              "Two thirds of the students are against it.",
+              "Two thirds of the land is covered by forest.",
+              "Half of the cake was eaten.",
+              "Seventy percent of the surface is water."
+            ]
+          },
+          {
+            "h": "度量与运算视为整体",
+            "p": "表示长度、重量、金额、时间的复数名词作主语时，视为一个整体量，谓语用单数。但若强调一个个个体或具体年头，则用复数。",
+            "bullets": [
+              "Ten kilometres is a long way to walk.",
+              "Three plus five is eight.",
+              "Twenty years have passed since we met.（强调流逝的多个年头）",
+              "Two hours is enough for this task."
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "The number of bicycles on campus has doubled.",
+            "zh": "校园里自行车的数量翻了一番。",
+            "ok": true,
+            "note": "中心词是 number，单数，谓语用 has。"
+          },
+          {
+            "en": "A number of bicycles were stolen last night.",
+            "zh": "昨晚有不少自行车被盗。",
+            "ok": true,
+            "note": "a number of 的中心词是 bicycles，复数，谓语用 were。"
+          },
+          {
+            "en": "Nearly seventy percent of the surface is covered with water.",
+            "zh": "近百分之七十的表面被水覆盖。",
+            "ok": true,
+            "note": "of 后 surface 不可数，谓语用单数 is。"
+          },
+          {
+            "en": "Nearly seventy percent of the students wear glasses.",
+            "zh": "近百分之七十的学生戴眼镜。",
+            "ok": true,
+            "note": "of 后 students 是复数，谓语用复数 wear。"
+          },
+          {
+            "en": "The number of cars are increasing rapidly.",
+            "zh": "汽车的数量正在迅速增加。",
+            "ok": false,
+            "note": "中心词是 number，单数，谓语应改为 is increasing。"
+          },
+          {
+            "en": "A number of problems has arisen.",
+            "zh": "出现了许多问题。",
+            "ok": false,
+            "note": "a number of 的中心词是 problems，谓语应改为 have arisen。"
+          },
+          {
+            "en": "A great deal of time was wasted on paperwork.",
+            "zh": "大量时间浪费在文书工作上。",
+            "ok": true,
+            "note": "a great deal of 修饰不可数名词，中心词 deal 单数，谓语用 was。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "The amount of plastic waste have increased.",
+            "right": "The amount of plastic waste has increased.",
+            "why": "中心词是 amount，单数，of plastic waste 只是修饰语。"
+          },
+          {
+            "wrong": "A great many student has applied.",
+            "right": "A great many students have applied.",
+            "why": "a great many 修饰可数名词复数，中心词是 students，谓语用复数。"
+          },
+          {
+            "wrong": "Half of the apples was rotten.",
+            "right": "Half of the apples were rotten.",
+            "why": "of 后是可数复数 apples，谓语用复数。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "不定代词作主语的一致",
+          "diff": "不定代词的一致由词本身固定；数量短语的一致由中心词位置与 of 后名词的可数性决定。"
+        },
+        "mnemonic": "the number 单数，a number 复数；加了 the 中心在前，加了 a 中心在后。"
+      },
+      "review": {
+        "core": [
+          "the number / amount / percentage of → 单数",
+          "a number of / a great many / a few → 复数",
+          "分数、百分数、half of、the rest of → 看 of 后名词是否可数",
+          "时间、距离、金额、运算视为整体 → 单数",
+          "判定动作：先看冠词定位中心词，再看 of 后的名词"
+        ],
+        "trigger": "看到 the number of 与 a number of，立刻分清中心词在 of 前还是后",
+        "quickCheck": [
+          {
+            "q": "The number of applicants ___ (have) risen. 填什么？",
+            "a": "has，中心词 number。"
+          },
+          {
+            "q": "A number of applicants ___ (have) withdrawn. 填什么？",
+            "a": "have，中心词 applicants。"
+          },
+          {
+            "q": "Two thirds of the land ___ (be) covered by forest. 填什么？",
+            "a": "is，land 不可数。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.subject_verb_agreement.quantity-phrases.d1",
+          "type": "choice",
+          "stem": "The number of overseas students at the university ___ steadily over the past five years.",
+          "options": [
+            "has grown",
+            "have grown",
+            "were growing",
+            "are growing"
+          ],
+          "answer": "has grown",
+          "explain": "the number of 的中心词是 number，单数，over the past five years 要求现在完成时，用 has grown。",
+          "trap": "have grown 把 of 后的复数 students 当成中心词，这是 the number of 与 a number of 最典型的混淆。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.quantity-phrases.d2",
+          "type": "fill",
+          "stem": "A number of trees ___ (be) blown down in last night's storm.",
+          "answer": "were",
+          "accept": [
+            "were"
+          ],
+          "hint": "先看冠词是 a 还是 the。",
+          "explain": "触发语法一致中的数量短语规则：a number of 的中心词是复数 trees，谓语用 were，而不是与 number 一致。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.quantity-phrases.d3",
+          "type": "correct",
+          "stem": "The amount of plastic waste in the ocean have doubled in ten years.",
+          "answer": "The amount of plastic waste in the ocean has doubled in ten years.",
+          "accept": [
+            "The amount of plastic waste in the ocean has doubled in ten years."
+          ],
+          "explain": "中心词是 amount，单数，of plastic waste 只是修饰语，现在完成时的助动词用 has。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.quantity-phrases.d4",
+          "type": "choice",
+          "stem": "Two thirds of the land in this region ___ covered by forest.",
+          "options": [
+            "is",
+            "are",
+            "were",
+            "have been"
+          ],
+          "answer": "is",
+          "explain": "分数结构作主语时谓语跟 of 后的名词，land 不可数，用单数 is。",
+          "trap": "are 是按 two thirds 的复数形式判断，忽略了 of 后才是决定谓语的成分。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.subject_verb_agreement.quantity-phrases.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "A",
+            "number",
+            "of",
+            "students",
+            "were",
+            "absent",
+            "yesterday."
+          ],
+          "answer": "A number of students were absent yesterday.",
+          "explain": "a number of 的中心词是复数 students，谓语用 were，与 number 的形式无关。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.subject_verb_agreement.quantity-phrases.d6",
+          "type": "translate",
+          "stem": "校园里自行车的数量翻了一番。",
+          "answer": "The number of bicycles on campus has doubled.",
+          "require": [
+            [
+              "the number of"
+            ],
+            [
+              "has doubled"
+            ]
+          ],
+          "forbid": [
+            "the number of bicycles have",
+            "a number of bicycles has"
+          ],
+          "explain": "主语中心词是 the number，单数，of bicycles 只是修饰语，现在完成时用 has doubled。",
+          "difficulty": 4
+        }
+      ]
+    }
+  ]
+}

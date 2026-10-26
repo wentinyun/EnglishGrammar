@@ -1,0 +1,1094 @@
+{
+  "level1": "special",
+  "chapter": "subjunctive",
+  "items": [
+    {
+      "id": "special.subjunctive.counterfactual-tenses",
+      "title": "与现在、过去、将来事实相反的虚拟条件句",
+      "brief": "三步定式：判时间、判主从、套公式",
+      "difficulty": 3,
+      "tags": ["高频", "难点", "易错"],
+      "prereq": ["clause.adverbial_clause.condition", "tense_voice.past_perfect.reference"],
+      "concept": {
+        "summary": "判定标准：if 从句所述与事实相反或实现可能性极低时用虚拟语气。用虚拟后按三步操作——先定假设指向现在、过去还是将来，再分清哪一半是从句、哪一半是主句，最后按时间表套公式。公式的统一机制是：从句往过去退一步，主句加情态动词。",
+        "sections": [
+          {
+            "h": "操作路径：三步定式",
+            "p": "三步顺序不能颠倒。先定时间，是因为同一个 if 从句配不同的主句会表达完全不同的时间；再分主从，是因为两边形式不同，套错位置必错；最后套公式，只做机械对应。",
+            "bullets": [
+              "第一步 判时间：抓时间状语（now / yesterday / tomorrow）和语境，确定假设指向哪一段时间",
+              "第二步 判主从：if 引导的是从句，用过去范畴的形式；另一个分句是主句，用 would/could/might/should + 原形或完成式",
+              "第三步 套公式：按下面的三张表对号入座，主句与从句不能取同一种形式",
+              "be 动词在虚拟从句中一律用 were：If I were you, ...（不用 was）"
+            ]
+          },
+          {
+            "h": "表一 与现在事实相反",
+            "p": "事实是现在不具备某条件，所以从句退到一般过去时，主句用 would + 原形。这一格覆盖 most 日常假设，判断信号是 now、today、at present 或明显的现在状态。",
+            "bullets": [
+              "从句谓语：did / were",
+              "主句谓语：would / could / might / should + do",
+              "例：If I had time, I would join you.（事实是现在没时间）",
+              "例：If she were here, she could answer the question."
+            ]
+          },
+          {
+            "h": "表二 与过去事实相反",
+            "p": "事实是过去已经发生且无法更改，所以从句退到过去完成时，主句用 would + have done。判断信号是 yesterday、last year、then 或上下文已锁定过去。",
+            "bullets": [
+              "从句谓语：had done",
+              "主句谓语：would / could / might / should + have done",
+              "例：If you had called, I would have picked you up.",
+              "例：If they had left earlier, they might have caught the train."
+            ]
+          },
+          {
+            "h": "表三 与将来事实相反",
+            "p": "将来的假设尚未发生，从句仍退到过去范畴，可用 did、were to do 或 should do，三者可能性依次降低；主句回到 would + 原形。",
+            "bullets": [
+              "从句谓语：did / were to do / should do",
+              "主句谓语：would / could / might / should + do",
+              "例：If it rained tomorrow, the match would be put off.",
+              "例：If he were to come tomorrow, I would tell him the truth."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "If I were you, I would apologize to her right now.", "zh": "如果我是你，我现在就向她道歉。", "ok": true, "note": "与现在事实相反，从句用 were，主句用 would + 原形。" },
+          { "en": "If I am you, I would apologize to her right now.", "zh": "如果我是你，我现在就向她道歉。", "ok": false, "note": "主句已用 would 锁定虚拟，从句必须退到过去范畴，改为 If I were you。" },
+          { "en": "If he had taken the medicine, he would have recovered sooner.", "zh": "如果他吃了药，他会好得更快。", "ok": true, "note": "与过去事实相反，从句 had done 配主句 would have done。" },
+          { "en": "If he took the medicine, he would have recovered sooner.", "zh": "如果他吃了药，他会好得更快。", "ok": false, "note": "主句 would have done 指向过去，从句却用了一般过去时，两边时间不一致，应改为 had taken。" },
+          { "en": "If it should rain tomorrow, we would cancel the trip.", "zh": "万一明天下雨，我们就取消行程。", "ok": true, "note": "与将来事实相反，从句用 should do，主句用 would + 原形。" },
+          { "en": "If it will rain tomorrow, we would cancel the trip.", "zh": "万一明天下雨，我们就取消行程。", "ok": false, "note": "虚拟条件从句不用 will，将来假设须退到 did、were to do 或 should do。" },
+          { "en": "If she were to leave now, she would catch the last bus.", "zh": "如果她现在动身，就能赶上末班车。", "ok": true, "note": "were to do 表示将来假设，主句仍是 would + 原形。" }
+        ],
+        "pitfalls": [
+          { "wrong": "If I would have known the truth, I would have told you.", "right": "If I had known the truth, I would have told you.", "why": "would have done 只出现在主句；if 从句的过去相反形式固定为 had done，加上 would 就把情态动词挤进了从句。" },
+          { "wrong": "If he studied harder last term, he would have passed the exam.", "right": "If he had studied harder last term, he would have passed the exam.", "why": "主句用 would have done 已说明假设指向过去，从句必须同步退到过去完成时，last term 也确认了这一点。" },
+          { "wrong": "If it will snow tomorrow, we would stay at home.", "right": "If it snowed tomorrow, we would stay at home.", "why": "will 属于真实条件句，表示说话人认为可能发生；主句用 would 时从句必须换成过去范畴的虚拟形式。" }
+        ],
+        "contrast": { "withTitle": "混合时间的虚拟条件句", "diff": "本知识点要求主句与从句指向同一段时间，共用一张表；两半时间不一致时，各按自己的时间取形式。" },
+        "mnemonic": "从句退一步，主句加 would；现在 did，过去 had done，将来 were to do。"
+      },
+      "review": {
+        "core": [
+          "三步：判时间（现在/过去/将来）→ 判主从 → 套公式",
+          "现在相反：if + did/were，主句 would + do",
+          "过去相反：if + had done，主句 would have done",
+          "将来相反：if + did/were to do/should do，主句 would + do",
+          "虚拟从句中 be 动词一律用 were，主句情态动词可选 would/could/might/should"
+        ],
+        "trigger": "看到 if 分句所述与事实不符 → 先抓时间状语定时间 → 从句退一步、主句加情态动词",
+        "quickCheck": [
+          { "q": "If I ___ (be) you, I would take the job. 填什么？", "a": "were，虚拟从句中 be 动词用 were。" },
+          { "q": "“如果他昨天来了”用哪种形式？", "a": "If he had come yesterday，主句配 would have done。" },
+          { "q": "与将来事实相反的从句有哪三种写法？", "a": "did、were to do、should do。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.subjunctive.counterfactual-tenses.d1",
+          "type": "choice",
+          "stem": "If I ___ the answer, I would tell you at once.",
+          "options": ["know", "knew", "had known", "would know"],
+          "answer": "knew",
+          "explain": "主句 would tell 指向现在，从句须退到一般过去时表示与现在事实相反，故用 knew。",
+          "trap": "had known 是过去相反的形式，与主句 would tell 的现在指向不匹配。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.counterfactual-tenses.d2",
+          "type": "fill",
+          "stem": "If she ___ (be) here now, she would explain the rule to us.",
+          "answer": "were",
+          "accept": ["were"],
+          "hint": "句中有 now，判断为与现在事实相反；be 动词在虚拟从句中有固定形式。",
+          "explain": "now 说明假设指向现在，从句用一般过去时表虚拟，be 动词一律用 were 而不用 was。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.counterfactual-tenses.d3",
+          "type": "correct",
+          "stem": "If he had studied harder last term, he would pass the exam.",
+          "answer": "If he had studied harder last term, he would have passed the exam.",
+          "accept": ["If he had studied harder last term, he would have passed the exam."],
+          "explain": "从句 had studied 与 last term 都锁定过去，主句必须同步用 would have done，否则主句变成与现在相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.counterfactual-tenses.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["If", "it", "rained", "tomorrow,", "the", "match", "would", "be", "put", "off."],
+          "answer": "If it rained tomorrow, the match would be put off.",
+          "explain": "与将来事实相反的从句用一般过去时 rained，主句用 would + 原形，被动为 would be put off。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.counterfactual-tenses.d5",
+          "type": "translate",
+          "stem": "如果我是你，我就接受这个提议。",
+          "answer": "If I were you, I would accept the offer.",
+          "require": [["If I were"], ["would accept"]],
+          "forbid": ["If I was you", "If I am you", "would accepted"],
+          "explain": "与现在事实相反：从句用 were，主句用 would + 动词原形，情态动词后不能再加过去式。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.counterfactual-tenses.d6",
+          "type": "choice",
+          "stem": "If the train ___ on time, we would have arrived before dark.",
+          "options": ["arrived", "had arrived", "would arrive", "has arrived"],
+          "answer": "had arrived",
+          "explain": "主句 would have arrived 指向过去，从句须用过去完成时 had arrived，两边时间才对得上。",
+          "trap": "arrived 只能表示与现在或将来相反，与主句的完成式冲突。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.subjunctive.mixed-time",
+      "title": "混合时间的虚拟条件句",
+      "brief": "两半时间不同，各按自己的时间取形式",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["special.subjunctive.counterfactual-tenses"],
+      "concept": {
+        "summary": "判定标准：if 从句与主句所指时间不一致时，从句按自身时间退一步，主句按自身时间取情态动词形式，两边互不迁就。识别方法是给每个分句单独找时间状语：状语在哪一半，就只决定那一半的时间。",
+        "sections": [
+          {
+            "h": "拆句标时间",
+            "p": "处理混合时间的唯一办法是把句子拆成两半，分别标时间，再各自套公式。试图用一个公式同时满足两边，必然在某一半上出错。",
+            "bullets": [
+              "从句指过去 + 主句指现在：if + had done → would + do，主句常带 now、today",
+              "从句指现在 + 主句指过去：if + did/were → would have done，主句常带 yesterday、last week",
+              "从句指过去 + 主句指将来：if + had done → would + do，主句常带 tomorrow、next year"
+            ]
+          },
+          {
+            "h": "时间状语落在哪一半",
+            "p": "now、at present、today 出现在主句，说明主句指现在；yesterday、last night、then 出现在主句，说明主句指过去。状语只约束它所在的分句，不能反向推到另一半。",
+            "bullets": [
+              "If you had taken my advice then, you would be a manager now.（从句过去，主句现在）",
+              "If I were not so busy today, I would have gone with you yesterday.（从句现在，主句过去）",
+              "If we had booked the tickets last week, we would be flying to Paris tomorrow.（从句过去，主句将来）"
+            ]
+          },
+          {
+            "h": "为什么不能共用一套形式",
+            "p": "虚拟语气靠退一步表达时间：现在退到过去式，过去退到过去完成。主句的 would do 与 would have done 分别锁定现在与过去，用错就等于改写了句子的时间。",
+            "bullets": [
+              "would do 表示与现在或将来的事实相反，动作尚未结束",
+              "would have done 表示与过去的事实相反，动作已经结束",
+              "判断依据是时间状语和语义，不是前一个分句用了什么形式"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "If you had followed the doctor's advice, you would feel much better now.", "zh": "如果你当时听了医生的话，你现在会好受得多。", "ok": true, "note": "从句 had done 指过去，主句 would feel 配 now 指现在。" },
+          { "en": "If you had followed the doctor's advice, you would have felt much better now.", "zh": "如果你当时听了医生的话，你现在会好受得多。", "ok": false, "note": "now 要求主句指现在，用 would have felt 会把主句也推到过去，与 now 冲突。" },
+          { "en": "If she were more careful, she would not have made that mistake yesterday.", "zh": "如果她更细心一些，昨天就不会犯那个错误。", "ok": true, "note": "从句 were 指现在的一贯性格，主句 would not have made 配 yesterday 指过去。" },
+          { "en": "If she had been more careful, she would not make that mistake yesterday.", "zh": "如果她更细心一些，昨天就不会犯那个错误。", "ok": false, "note": "主句带 yesterday 却用 would make，时间错位，应改为 would not have made。" },
+          { "en": "If we had left earlier, we would be at the airport by now.", "zh": "如果我们早点出发，现在就到机场了。", "ok": true, "note": "过去的条件造成现在的结果，从句 had left，主句 would be。" },
+          { "en": "If he had taken the job, he would be living in Shanghai today.", "zh": "如果他当时接受了那份工作，他今天就会住在上海。", "ok": true, "note": "从句指过去的选择，主句用 would be doing 指现在持续的状态。" },
+          { "en": "If I knew his address, I would have written to him last week.", "zh": "如果我知道他的地址，上周就给他写信了。", "ok": true, "note": "从句 knew 指现在不知道，主句 would have written 指上周，属从句现在、主句过去。" }
+        ],
+        "pitfalls": [
+          { "wrong": "If you had set the alarm, you would not be late for the interview yesterday.", "right": "If you had set the alarm, you would not have been late for the interview yesterday.", "why": "yesterday 在主句，主句必须用 would have done；would be 只能指现在或将来。" },
+          { "wrong": "If he were a careful driver, he would not have crashed the car last night.", "right": "If he had been a careful driver, he would not have crashed the car last night.", "why": "这一句两边都指过去，从句要跟着主句退到 had been；只有主句指现在时才保留 were。" },
+          { "wrong": "If she had studied medicine, she is a doctor now.", "right": "If she had studied medicine, she would be a doctor now.", "why": "条件句的主句必须用情态动词 would，不能用陈述语气的 is。" }
+        ],
+        "contrast": { "withTitle": "与现在、过去、将来事实相反的虚拟条件句", "diff": "单一时间句两半共用一张时间表；混合时间句要先拆句，再让每一半各自对号入座。" },
+        "mnemonic": "先拆两半再标时间，状语管自己那一半；过去 had done，现在 would do。"
+      },
+      "review": {
+        "core": [
+          "混合时间 = 从句与主句指向不同时间，各取各的形式",
+          "从句过去 + 主句现在：had done → would do（now 在主句）",
+          "从句现在 + 主句过去：did/were → would have done（yesterday 在主句）",
+          "时间状语只约束它所在的分句",
+          "would do 锁定现在/将来，would have done 锁定过去"
+        ],
+        "trigger": "看到 if 句里 now 与 yesterday 同时出现 → 立刻拆句，分别定时间",
+        "quickCheck": [
+          { "q": "If you had listened, you ___ (not be) in trouble now. 填什么？", "a": "would not be，主句指现在。" },
+          { "q": "If I were you, I ___ (accept) the offer last week. 填什么？", "a": "would have accepted，主句指过去。" },
+          { "q": "混合时间句能不能两半都用 had done？", "a": "不能，主句指现在时必须用 would do。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.subjunctive.mixed-time.d1",
+          "type": "choice",
+          "stem": "If you had taken the job last year, you ___ in Shanghai now.",
+          "options": ["would live", "would have lived", "will live", "lived"],
+          "answer": "would live",
+          "explain": "从句 had taken 配 last year 指过去，主句带 now 指现在，须用 would + 原形。",
+          "trap": "would have lived 会把主句也推到过去，与 now 直接冲突。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.subjunctive.mixed-time.d2",
+          "type": "fill",
+          "stem": "If she ___ (not miss) the flight yesterday, she would be in London now.",
+          "answer": "had not missed",
+          "accept": ["had not missed", "hadn't missed"],
+          "hint": "yesterday 在从句，now 在主句，两边时间不同。",
+          "explain": "从句由 yesterday 锁定过去，用过去完成时 had not missed；主句由 now 锁定现在，保持 would be。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.mixed-time.d3",
+          "type": "correct",
+          "stem": "If she took the medicine yesterday, she would feel better now.",
+          "answer": "If she had taken the medicine yesterday, she would feel better now.",
+          "accept": ["If she had taken the medicine yesterday, she would feel better now."],
+          "explain": "yesterday 说明从句指过去，须用过去完成时 had taken；主句 would feel 配 now 是正确的，不需改动。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.subjunctive.mixed-time.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["If", "you", "had", "started", "earlier,", "you", "would", "be", "there", "now."],
+          "answer": "If you had started earlier, you would be there now.",
+          "explain": "从句 had started 指过去，主句 would be 配 now 指现在，两半各取自己的形式。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.mixed-time.d5",
+          "type": "translate",
+          "stem": "如果你去年听了我的建议，现在就不会这么被动。",
+          "answer": "If you had taken my advice last year, you would not be in such a difficult position now.",
+          "require": [["had taken"], ["would not be"]],
+          "forbid": ["would not have been", "took my advice"],
+          "explain": "last year 使从句用 had taken，now 使主句用 would not be；主句若用完成式就与 now 矛盾。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.subjunctive.mixed-time.d6",
+          "type": "choice",
+          "stem": "If he ___ a better memory, he would not have forgotten the appointment yesterday.",
+          "options": ["has", "had", "had had", "would have"],
+          "answer": "had",
+          "explain": "从句说的是他现在记性不好这一事实，用一般过去时 had；主句由 yesterday 锁定过去，用 would not have forgotten。",
+          "trap": "had had 会把从句也推到过去，与主句里 yesterday 只约束主句这一结构不符。",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "id": "special.subjunctive.inverted-if",
+      "title": "省略 if 的倒装虚拟",
+      "brief": "had/were/should 提前，删掉 if，其余不动",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["special.subjunctive.counterfactual-tenses"],
+      "concept": {
+        "summary": "判定标准：if 从句的谓语含 had、were、should 三者之一时，可以省略 if，把这三个词提到主语前构成部分倒装；不含这三个词的虚拟从句不能倒装。倒装只改语序，不改公式，主句形式完全不变。",
+        "sections": [
+          {
+            "h": "三个可以提前的词",
+            "p": "能提前的只有助动词 had、be 动词 were、情态动词 should，因为只有它们能充当倒装的触发成分。提前之后 if 必须删除，if 与倒装不能同时出现。",
+            "bullets": [
+              "Had + 主语 + done：Had I known, I would have told you.",
+              "Were + 主语 + 表语/doing/to do：Were she here, she would help us.",
+              "Should + 主语 + do：Should it rain, the match would be put off.",
+              "从句谓语是实义动词过去式时没有可提前的成分：× Did I know, ... 只能说 If I knew, ..."
+            ]
+          },
+          {
+            "h": "否定倒装：not 留在主语之后",
+            "p": "倒装只移动 had/were/should，not 不从它们后面跟着走，位置保持在主语之后。写成 Had not I 是语序错误。",
+            "bullets": [
+              "Had it not been for your help, I would have failed.",
+              "Were it not for the rain, we would be on the beach now.",
+              "Should he not agree, we would have to change the plan.",
+              "× Had not it been for your help"
+            ]
+          },
+          {
+            "h": "先还原，再套公式",
+            "p": "识别倒装句的顺序是反向的：先把 had/were/should 放回主语后、补上 if，得到普通虚拟条件句，再走判时间、判主从、套公式三步。这样就不会误判时态。",
+            "bullets": [
+              "Had I known → If I had known（过去相反）→ 主句 would have done",
+              "Were she here → If she were here（现在相反）→ 主句 would do",
+              "Should it rain → If it should rain（将来相反）→ 主句 would do"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Had I known the truth, I would have spoken out.", "zh": "如果我当时知道真相，我就会说出来。", "ok": true, "note": "Had 提前代替 If I had known，主句用 would have done 与过去时间一致。" },
+          { "en": "Had I known the truth, I would speak out.", "zh": "如果我当时知道真相，我就会说出来。", "ok": false, "note": "从句已用 had known 锁定过去，主句须用 would have spoken，不能用 would speak。" },
+          { "en": "Were she here, she would take charge of the meeting.", "zh": "如果她在这儿，她会主持会议。", "ok": true, "note": "Were 提前代替 If she were here，主句用 would + 原形。" },
+          { "en": "Were she here, she will take charge of the meeting.", "zh": "如果她在这儿，她会主持会议。", "ok": false, "note": "虚拟主句只能用 would/could/might/should，不能用表示真实将来的 will。" },
+          { "en": "Should it rain tomorrow, the ceremony would be moved indoors.", "zh": "万一明天下雨，仪式就改到室内举行。", "ok": true, "note": "Should 提前表示将来假设，主句用 would be moved。" },
+          { "en": "Had not I been there, the accident would have been worse.", "zh": "要不是我在场，事故会更严重。", "ok": false, "note": "倒装时 not 必须留在主语之后，应改为 Had I not been there。" },
+          { "en": "Were it not for his support, the project would have collapsed.", "zh": "要不是他的支持，这个项目早就垮了。", "ok": true, "note": "Were it not for 是固定倒装形式，等于 If it had not been for。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Had I not helped him, he would fail the exam.", "right": "Had I not helped him, he would have failed the exam.", "why": "倒装不改时间，从句 had helped 指过去，主句必须用 would have failed。" },
+          { "wrong": "Did I know the answer, I would tell you.", "right": "If I knew the answer, I would tell you.", "why": "did 型虚拟没有助动词可以提前，只有 had、were、should 能触发倒装。" },
+          { "wrong": "Had not she apologized, he would still be angry.", "right": "Had she not apologized, he would still be angry.", "why": "倒装只把 had 移到主语前，not 仍留在主语之后，构成 Had she not done。" }
+        ],
+        "contrast": { "withTitle": "含蓄条件句与 otherwise/but for", "diff": "倒装虚拟仍有完整的 if 从句，只是删掉 if 并移动助动词；含蓄条件句把条件压缩成介词短语或副词，没有从句可以倒装。" },
+        "mnemonic": "had/were/should 提前，if 退场；not 不跟着走；还原之后再套表。"
+      },
+      "review": {
+        "core": [
+          "只有 had、were、should 可以提前，其余虚拟从句不能倒装",
+          "倒装后 if 必须删除，两者不能并存",
+          "not 留在主语之后：Had she not apologized",
+          "还原成 if 从句后再判时间，主句形式完全不变",
+          "高频固定式：Had it not been for / Were it not for"
+        ],
+        "trigger": "句首看到 Had/Were/Should + 主语 → 先补 if 还原 → 再判时间套公式",
+        "quickCheck": [
+          { "q": "If he had left earlier 改成倒装怎么说？", "a": "Had he left earlier。" },
+          { "q": "Were it not for the rain 相当于什么？", "a": "If it were not for the rain。" },
+          { "q": "Did I know him 这种倒装成立吗？", "a": "不成立，did 型虚拟没有可提前的助动词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.subjunctive.inverted-if.d1",
+          "type": "choice",
+          "stem": "___ I known about the traffic, I would have left much earlier.",
+          "options": ["If", "Had", "Have", "Were"],
+          "answer": "Had",
+          "explain": "从句本是 If I had known，省略 if 后把 had 提到主语前，构成 Had I known。",
+          "trap": "If 与 I known 搭配缺少 had，本身就不成立；Have 不能构成过去完成倒装。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.inverted-if.d2",
+          "type": "fill",
+          "stem": "___ it not been for your timely help, we would have lost the contract.",
+          "answer": "Had",
+          "accept": ["Had"],
+          "hint": "这是 If it had not been for 的倒装形式。",
+          "explain": "省略 if 后把 had 提到句首，not 留在主语 it 之后，构成 Had it not been for。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.inverted-if.d3",
+          "type": "correct",
+          "stem": "Had she worked harder, she would pass the entrance exam last year.",
+          "answer": "Had she worked harder, she would have passed the entrance exam last year.",
+          "accept": ["Had she worked harder, she would have passed the entrance exam last year."],
+          "explain": "倒装句的时间由 had worked 与 last year 锁定在过去，主句须用 would have done。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.inverted-if.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Had", "I", "known", "about", "the", "delay,", "I", "would", "have", "left", "later."],
+          "answer": "Had I known about the delay, I would have left later.",
+          "explain": "Had I known 是 If I had known 的倒装，主句用 would have left 与过去时间一致。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.inverted-if.d5",
+          "type": "translate",
+          "stem": "要是她当时在场，她就会阻止这场争吵。",
+          "answer": "Had she been present, she would have stopped the quarrel.",
+          "require": [["Had she been"], ["would have stopped"]],
+          "forbid": ["If she had been present, she would stop", "Had not she"],
+          "explain": "Were 型倒装在这里换成 had been：Had she been present 等于 If she had been present，主句配 would have stopped。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.subjunctive.inverted-if.d6",
+          "type": "choice",
+          "stem": "___ he not been so stubborn, the two sides would have reached an agreement.",
+          "options": ["If", "Had", "Should", "Were"],
+          "answer": "Had",
+          "explain": "从句谓语是 had been，倒装时 had 提前、not 留在主语之后，构成 Had he not been。",
+          "trap": "Were 只能用于 be 动词作谓语的从句，此处谓语是 had been，不能换成 Were。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.subjunctive.wish",
+      "title": "wish 后的虚拟语气",
+      "brief": "wish 后按时间三选一，从句绝不用现在时",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["special.subjunctive.counterfactual-tenses"],
+      "concept": {
+        "summary": "判定标准：wish 后的宾语从句一律用虚拟，因为所愿望的内容与事实相反或几乎不可能。形式由从句内容的时间决定：与现在相反用 did/were，与过去相反用 had done，对将来的愿望用 would/could do。从句谓语不能出现一般现在时。",
+        "sections": [
+          {
+            "h": "三张形式表",
+            "p": "wish 从句没有主句，只有从句本身要变形，所以判断更简单：只看愿望指向哪段时间。",
+            "bullets": [
+              "对现在（事实相反）：wish + 主语 + did/were。I wish I knew the answer.",
+              "对过去（无法挽回的遗憾）：wish + 主语 + had done。I wish I had studied harder.",
+              "对将来（期待改变，可能性低）：wish + 主语 + would/could do。I wish it would stop raining.",
+              "be 动词一律用 were：I wish I were taller."
+            ]
+          },
+          {
+            "h": "wish 与 hope 的分界",
+            "p": "hope 接陈述语气，因为所希望的事有实现的可能；wish 接虚拟，因为说话人已知与事实不符。判断依据是说话人对可能性的态度，不是后面的时态词。",
+            "bullets": [
+              "I hope she passes the exam.（有可能）",
+              "I wish she passed the exam.（事实是没通过或不会通过）",
+              "I hope you had a good trip.（陈述过去的经历）",
+              "× I wish you will pass the exam."
+            ]
+          },
+          {
+            "h": "同型结构：would rather 与 If only",
+            "p": "would rather 后接从句、If only 引导的感叹句与 wish 共用同一套时间形式，可以合并记忆，区别只在语气强度。",
+            "bullets": [
+              "I would rather you came tomorrow.（对将来，用过去式）",
+              "I would rather you had told me earlier.（对过去，用过去完成）",
+              "If only I had listened to you!（强烈的遗憾）",
+              "If only he were here now!"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I wish I were a little taller.", "zh": "我真希望自己再高一点。", "ok": true, "note": "与现在事实相反，be 动词用 were。" },
+          { "en": "I wish I am a little taller.", "zh": "我真希望自己再高一点。", "ok": false, "note": "wish 从句不能用一般现在时，与现在相反须用 were。" },
+          { "en": "I wish I had taken your advice last year.", "zh": "我真希望去年听了你的建议。", "ok": true, "note": "对过去的遗憾，用 had done。" },
+          { "en": "I wish I took your advice last year.", "zh": "我真希望去年听了你的建议。", "ok": false, "note": "last year 指向过去，须用过去完成时 had taken，一般过去时只能表示与现在相反。" },
+          { "en": "I wish it would stop raining before noon.", "zh": "我希望中午前雨能停。", "ok": true, "note": "对将来的愿望，用 would + 原形。" },
+          { "en": "I hope you will pass the driving test.", "zh": "我希望你能通过驾照考试。", "ok": true, "note": "hope 接陈述语气，因为有实现的可能，用 will 正常。" },
+          { "en": "I wish he were more patient with his students.", "zh": "我真希望他对学生更有耐心。", "ok": true, "note": "对现在性格的愿望，用 were 表与事实相反。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I wish I can fly like a bird.", "right": "I wish I could fly like a bird.", "why": "wish 后不能用现在时情态动词，对现在能力的愿望须退到 could。" },
+          { "wrong": "I wish I have studied harder at school.", "right": "I wish I had studied harder at school.", "why": "对过去的遗憾要用过去完成时 had done，现在完成时仍指向现在，与 wish 的虚拟要求不符。" },
+          { "wrong": "I wish he is here now.", "right": "I wish he were here now.", "why": "wish 从句表示与现在事实相反，be 动词一律用 were，不能用 is。" }
+        ],
+        "contrast": { "withTitle": "as if / as though 的虚拟", "diff": "wish 后的从句必须虚拟；as if 后的从句可虚拟也可陈述，取决于说话人是否认为所述可能是事实。" },
+        "mnemonic": "现在 were，过去 had done，将来 would do；wish 后面没有现在时。"
+      },
+      "review": {
+        "core": [
+          "wish 从句一律虚拟，不出现一般现在时",
+          "对现在：did/were；对过去：had done；对将来：would/could do",
+          "be 动词在 wish 从句中一律 were",
+          "hope 接陈述语气，wish 接虚拟，分界在可能性",
+          "would rather + 从句、If only 与 wish 同型"
+        ],
+        "trigger": "看到 wish + that 从句 → 先问愿望指向哪段时间 → 三选一，不选现在时",
+        "quickCheck": [
+          { "q": "I wish I ___ (know) the answer. 填什么？", "a": "knew，与现在事实相反。" },
+          { "q": "“真希望昨天没迟到”怎么写？", "a": "I wish I had not been late yesterday。" },
+          { "q": "wish 后能不能用 will？", "a": "不能，对将来用 would/could do。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.subjunctive.wish.d1",
+          "type": "choice",
+          "stem": "I wish I ___ how to swim; the pool looks so inviting.",
+          "options": ["know", "knew", "had known", "will know"],
+          "answer": "knew",
+          "explain": "wish 后表示与现在事实相反，从句用一般过去时 knew；后半句的现在语境也印证了这一点。",
+          "trap": "had known 表示对过去的遗憾，与“现在不会游泳”这一事实不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.wish.d2",
+          "type": "fill",
+          "stem": "I wish I ___ (not waste) so much time playing games last term.",
+          "answer": "had not wasted",
+          "accept": ["had not wasted", "hadn't wasted"],
+          "hint": "last term 指向过去，wish 后要用过去完成时。",
+          "explain": "对过去无法改变的事表示遗憾，wish 从句用 had done，否定式为 had not done。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.wish.d3",
+          "type": "correct",
+          "stem": "I wish I have accepted the offer from that company.",
+          "answer": "I wish I had accepted the offer from that company.",
+          "accept": ["I wish I had accepted the offer from that company."],
+          "explain": "对已过去的机会表示遗憾，wish 从句须用过去完成时 had accepted，现在完成时不能表达虚拟的过去。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.wish.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "wish", "I", "had", "taken", "your", "advice", "last", "year."],
+          "answer": "I wish I had taken your advice last year.",
+          "explain": "wish 后接过去完成时 had taken，表示对去年未听建议的遗憾。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.wish.d5",
+          "type": "translate",
+          "stem": "我真希望他现在就在我身边。",
+          "answer": "I wish he were by my side now.",
+          "require": [["wish he were"]],
+          "forbid": ["wish he is", "wish he was"],
+          "explain": "与现在事实相反，wish 从句的 be 动词用 were，不能用 is 或 was。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.wish.d6",
+          "type": "choice",
+          "stem": "I wish it ___ raining so that we could go for a walk.",
+          "options": ["stops", "stopped", "would stop", "has stopped"],
+          "answer": "would stop",
+          "explain": "could go 表明愿望指向将来，wish 后对将来的期待用 would + 原形，表示希望情况发生改变。",
+          "trap": "stopped 只能表示与现在事实相反，无法表达“希望雨停下来”这一将来指向。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.subjunctive.mandative-should",
+      "title": "建议命令要求类动词后的 should 省略",
+      "brief": "四组触发词 + suggest 表暗示的例外",
+      "difficulty": 3,
+      "tags": ["高频", "难点"],
+      "prereq": ["clause.noun_clause.object-clause-tense"],
+      "concept": {
+        "summary": "判定标准：坚持、命令、建议、要求四类动词后接 that 宾语从句，且从句内容尚未实现时，谓语用 (should) + 动词原形，should 可省略。判断只看从句是不是一个“待实现的主张”，与主句时态无关——主句用过去式，从句仍用原形。",
+        "sections": [
+          {
+            "h": "触发词四组，用法只有两类",
+            "p": "触发词按语义分四组记忆，它们的形式完全相同，都是 that + 主语 + (should) do；但按用法归并只有两类：主张义触发虚拟，事实义不触发虚拟。识别时先看主句动词属于哪一组，再确认从句内容是主张还是既成事实。",
+            "bullets": [
+              "一坚持：insist（坚持要求）",
+              "二命令：order, command",
+              "三建议：suggest, advise, propose, recommend",
+              "四要求：demand, require, request, ask, desire",
+              "派生名词与形容词同样触发：his suggestion that... / It is required that..."
+            ]
+          },
+          {
+            "h": "两类情形：主张用原形，事实用陈述",
+            "p": "触发词只有两类用法需要区分。第一类是“主张、要求、建议”义，从句是尚未实现的事，用 (should) do；第二类是 suggest 表“暗示、表明”、insist 表“坚持说”时，从句内容是既成事实，用陈述语气并随时态呼应。",
+            "bullets": [
+              "The doctor suggested that he (should) give up smoking.（建议，用原形）",
+              "Her pale face suggested that she was ill.（暗示，用陈述语气 was）",
+              "He insisted that he had not stolen the money.（坚持说，陈述事实）",
+              "He insisted that we (should) leave at once.（坚持要求，用原形）"
+            ]
+          },
+          {
+            "h": "省略 should 后的三个形式细节",
+            "p": "should 省略后，从句谓语只剩动词原形，没有时态和人称变化，这是失分最集中的地方。否定、被动都直接加在原形结构上。",
+            "bullets": [
+              "第三人称单数也不加 s：He demanded that she leave immediately.",
+              "否定在动词前加 not：He demanded that she not leave.",
+              "被动用 (should) be done：They requested that the meeting (should) be postponed.",
+              "主句改用过去式，从句仍是原形：She suggested that he wait outside."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The manager insisted that the report be submitted by Friday.", "zh": "经理坚持要求周五前提交报告。", "ok": true, "note": "insist 表坚持要求，从句用原形 be，省略了 should。" },
+          { "en": "The manager insisted that the report was submitted by Friday.", "zh": "经理坚持说报告已在周五前提交。", "ok": true, "note": "insist 表“坚持说”，从句是既成事实，用陈述语气 was；语义与上一句不同。" },
+          { "en": "She suggested that he wait outside for a moment.", "zh": "她建议他在外面等一会儿。", "ok": true, "note": "suggest 表建议，主句用过去式，从句仍用原形 wait。" },
+          { "en": "She suggested that he waited outside for a moment.", "zh": "她建议他在外面等一会儿。", "ok": false, "note": "建议义从句不用时态呼应的 waited，应回到原形 wait。" },
+          { "en": "Her silence suggested that she disagreed with the plan.", "zh": "她的沉默表明她不同意这个计划。", "ok": true, "note": "suggest 表“暗示、表明”，从句用陈述语气 disagreed。" },
+          { "en": "Her silence suggested that she disagree with the plan.", "zh": "她的沉默表明她不同意这个计划。", "ok": false, "note": "suggest 表暗示时不触发虚拟，用原形 disagree 会把语义改成“建议”。" },
+          { "en": "The committee recommended that the plan be delayed until next spring.", "zh": "委员会建议把计划推迟到明年春天。", "ok": true, "note": "recommend 表建议，从句用被动原形 be delayed。" },
+          { "en": "They required that every applicant submit two references.", "zh": "他们要求每位申请人提交两封推荐信。", "ok": true, "note": "require 表要求，从句主语第三人称单数，动词仍用原形 submit。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He suggested that she goes to see a doctor.", "right": "He suggested that she go to see a doctor.", "why": "建议义从句用 (should) do，省略 should 后谓语为原形，不受第三人称单数影响。" },
+          { "wrong": "He suggested us to postpone the meeting.", "right": "He suggested that we (should) postpone the meeting.", "why": "suggest 不能接“宾语 + 不定式”，表建议时只能接 that 从句或动名词。" },
+          { "wrong": "The look on his face suggested that he be angry.", "right": "The look on his face suggested that he was angry.", "why": "此处 suggest 意为“表明”，从句是既成事实，用陈述语气，不触发虚拟。" }
+        ],
+        "contrast": { "withTitle": "It is important that 句型中的虚拟", "diff": "本知识点的触发点是主句动词，识别位置在 that 从句之前；形容词句型由 It is + adj + that 触发，识别位置在句首。" },
+        "mnemonic": "一坚持二命令三建议四要求，that 从句用原形；suggest 表暗示，回到陈述语气。"
+      },
+      "review": {
+        "core": [
+          "四组触发词：insist / order,command / suggest,advise,propose,recommend / demand,require,request,ask,desire",
+          "从句谓语 (should) do，should 省略后只剩原形，不加 s、不变时态",
+          "否定 not + 原形，被动 (should) be done",
+          "suggest 表暗示、insist 表坚持说时用陈述语气",
+          "主句时态不影响从句形式：suggested that he wait"
+        ],
+        "trigger": "看到四个触发动词 + that 从句 → 先判是“主张”还是“事实” → 主张用原形，事实用陈述",
+        "quickCheck": [
+          { "q": "He demanded that she ___ (leave) at once. 填什么？", "a": "leave，省略 should 后用原形。" },
+          { "q": "Her smile suggested that she ___ (be) satisfied. 填什么？", "a": "was，此处 suggest 表暗示。" },
+          { "q": "suggest 能说 suggest sb. to do 吗？", "a": "不能，要用 suggest that sb. (should) do 或 suggest doing。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.subjunctive.mandative-should.d1",
+          "type": "choice",
+          "stem": "The doctor suggested that he ___ smoking immediately.",
+          "options": ["gives up", "give up", "gave up", "has given up"],
+          "answer": "give up",
+          "explain": "suggest 表建议，从句用 (should) + 原形，省略 should 后为 give up，不随主句过去式变化。",
+          "trap": "gave up 套用了宾语从句的时态呼应规则，但建议义从句固定用原形。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.mandative-should.d2",
+          "type": "fill",
+          "stem": "Her pale face suggested that she ___ (be) seriously ill.",
+          "answer": "was",
+          "accept": ["was"],
+          "hint": "先判断 suggest 在这里是什么意思。",
+          "explain": "此处 suggest 意为“表明、暗示”，从句陈述既成事实，用陈述语气 was，不触发虚拟。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.mandative-should.d3",
+          "type": "correct",
+          "stem": "He insisted that the meeting is postponed until next week.",
+          "answer": "He insisted that the meeting be postponed until next week.",
+          "accept": ["He insisted that the meeting be postponed until next week.", "He insisted that the meeting should be postponed until next week."],
+          "explain": "insist 表坚持要求，从句用 (should) be done，省略 should 后为 be postponed，不能用陈述语气的 is。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.mandative-should.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "manager", "demanded", "that", "all", "staff", "arrive", "before", "eight."],
+          "answer": "The manager demanded that all staff arrive before eight.",
+          "explain": "demand 表要求，从句谓语用原形 arrive，主句虽是过去式也不改成 arrived。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.mandative-should.d5",
+          "type": "translate",
+          "stem": "他建议我们推迟会议。",
+          "answer": "He suggested that we (should) put off the meeting.",
+          "require": [["suggested that"], ["put off", "postpone"]],
+          "forbid": ["suggested us to", "suggested we to"],
+          "explain": "suggest 表建议接 that 从句，从句用 (should) + 原形；suggest 不能接“宾语 + 不定式”。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.mandative-should.d6",
+          "type": "choice",
+          "stem": "The committee recommended that the plan ___ until next spring.",
+          "options": ["is delayed", "be delayed", "will be delayed", "delays"],
+          "answer": "be delayed",
+          "explain": "recommend 表建议，从句用 (should) be done，省略 should 后为 be delayed。",
+          "trap": "is delayed 是陈述语气，忽略了建议义从句必须用原形这一要求。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.mandative-should.d7",
+          "type": "correct",
+          "stem": "She suggested that he waits outside for a moment.",
+          "answer": "She suggested that he wait outside for a moment.",
+          "accept": ["She suggested that he wait outside for a moment.", "She suggested that he should wait outside for a moment."],
+          "explain": "suggest 表建议，省略 should 后从句谓语为原形 wait，第三人称单数也不加 s。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "special.subjunctive.important-that",
+      "title": "It is important that 句型中的虚拟",
+      "brief": "It is + 评价形容词 + that，从句用原形",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["special.subjunctive.mandative-should"],
+      "concept": {
+        "summary": "判定标准：It is + 表必要、重要、奇怪、可惜的形容词 + that 从句时，从句谓语用 (should) + 动词原形。判据是把从句还原成“应该发生的事”，能补出 should 而语义不变即用虚拟；若从句陈述已发生的事实，则用陈述语气。",
+        "sections": [
+          {
+            "h": "形容词清单与分组",
+            "p": "这类形容词的共同点是对话内容作主观评价，从句所述是尚未实现或令人意外的事。按语义分四组记忆，比逐个背更稳。",
+            "bullets": [
+              "必要类：necessary, essential, vital, imperative, important",
+              "建议类：advisable, desirable, preferable, better",
+              "意外类：strange, surprising, odd, incredible, natural（竟然是）",
+              "遗憾类：a pity, a shame, regrettable"
+            ]
+          },
+          {
+            "h": "should 的保留与省略",
+            "p": "should 可省，省略后从句谓语用原形，不随主句时态与从句主语变化。保留 should 时多带“竟然”意味，常见于 strange、a pity 一类评价。",
+            "bullets": [
+              "It is necessary that every member (should) inform us in advance.",
+              "It is strange that she (should) refuse such an offer.",
+              "It is important that the report (should) be submitted by Friday.",
+              "从句主语是第三人称单数也不加 s：It is vital that he stay calm."
+            ]
+          },
+          {
+            "h": "与 It is ... that 强调句的分界",
+            "p": "用删减法一步区分：去掉 It is 和 that 后，剩下的是完整句子就是强调句；剩下的是“形容词 + 主张”、无法独立成句就是虚拟句型。",
+            "bullets": [
+              "It is important that he (should) attend.（去掉后 he attend 不成立 → 虚拟）",
+              "It is in this room that he studies.（去掉后 he studies in this room 成立 → 强调句）",
+              "It is a fact that the earth moves around the sun.（陈述事实，不用虚拟）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It is necessary that he be told the truth.", "zh": "有必要让他知道真相。", "ok": true, "note": "necessary 触发虚拟，从句用原形 be，省略 should。" },
+          { "en": "It is necessary that he is told the truth.", "zh": "有必要让他知道真相。", "ok": false, "note": "necessary 后的从句须用 (should) be done，不能用陈述语气的 is told。" },
+          { "en": "It is strange that she should have refused such a generous offer.", "zh": "她竟然拒绝了这么优厚的条件，真奇怪。", "ok": true, "note": "strange 后保留 should，用 should have done 表示对已发生之事的意外。" },
+          { "en": "It is important that everyone follow the safety rules.", "zh": "每个人都遵守安全规则，这一点很重要。", "ok": true, "note": "important 触发虚拟，从句用原形 follow，everyone 也不加 s。" },
+          { "en": "It is important that everyone follows the safety rules.", "zh": "每个人都遵守安全规则，这一点很重要。", "ok": false, "note": "虚拟从句谓语用原形，不能因为 everyone 是第三人称单数而加 s。" },
+          { "en": "It is essential that the data be checked twice.", "zh": "数据必须核对两遍。", "ok": true, "note": "essential 触发虚拟，被动形式为 be checked。" },
+          { "en": "It is a pity that he should leave so soon.", "zh": "他这么快就要走，真遗憾。", "ok": true, "note": "It is a pity that 属评价句型，从句用 should + 原形。" }
+        ],
+        "pitfalls": [
+          { "wrong": "It is necessary that he goes there in person.", "right": "It is necessary that he go there in person.", "why": "necessary 后的从句用 (should) do，省略 should 后为原形，第三人称单数不加 s。" },
+          { "wrong": "It is important that the letter is sent today.", "right": "It is important that the letter be sent today.", "why": "被动语态的虚拟形式是 (should) be done，不能用陈述语气的 is sent。" },
+          { "wrong": "It is strange that he refused such a good offer yesterday.", "right": "It is strange that he should have refused such a good offer yesterday.", "why": "对已发生之事表示意外，须用 should have done；直接陈述则失去“竟然”的评价意味。" }
+        ],
+        "contrast": { "withTitle": "建议命令要求类动词后的 should 省略", "diff": "两者从句形式相同，都是 (should) do；区别在触发位置：动词句型看主句动词，形容词句型看句首 It is + adj。" },
+        "mnemonic": "必要重要奇怪可惜，It is + adj + that 用原形；删掉 It is 和 that，剩下完整句就是强调句。"
+      },
+      "review": {
+        "core": [
+          "句型：It is + necessary/important/strange/a pity + that + 主语 + (should) do",
+          "should 可省，省略后用原形，不加 s、不变时态",
+          "被动形式 (should) be done",
+          "陈述既成事实时用陈述语气：It is a fact that...",
+          "删减法区分强调句：去掉 It is 和 that 后能否独立成句"
+        ],
+        "trigger": "看到 It is + 评价形容词 + that → 先删 It is 和 that 试读 → 读不通就上虚拟",
+        "quickCheck": [
+          { "q": "It is vital that he ___ (stay) calm. 填什么？", "a": "stay，虚拟从句用原形。" },
+          { "q": "It is important that the form ___ (sign) today. 填什么？", "a": "be signed，被动虚拟形式。" },
+          { "q": "It is strange that he should have left 中 should 表示什么？", "a": "表示“竟然”，对已发生之事感到意外。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.subjunctive.important-that.d1",
+          "type": "choice",
+          "stem": "It is necessary that every student ___ a copy of the handbook.",
+          "options": ["gets", "get", "got", "has got"],
+          "answer": "get",
+          "explain": "necessary 触发虚拟，从句用 (should) + 原形，省略 should 后为 get，every student 也不影响形式。",
+          "trap": "gets 按第三人称单数变化，但虚拟从句的谓语没有数和时态变化。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.important-that.d2",
+          "type": "fill",
+          "stem": "It is important that the report ___ (submit) before Friday.",
+          "answer": "be submitted",
+          "accept": ["be submitted", "should be submitted"],
+          "hint": "report 与 submit 是被动关系，先定语态再定虚拟形式。",
+          "explain": "important 后的从句用虚拟，被动语态为 (should) be done，省略 should 后是 be submitted。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.important-that.d3",
+          "type": "correct",
+          "stem": "It is strange that he refuses such a generous offer.",
+          "answer": "It is strange that he refuse such a generous offer.",
+          "accept": ["It is strange that he refuse such a generous offer.", "It is strange that he should refuse such a generous offer."],
+          "explain": "strange 后的从句用 (should) do 表示“竟然”，省略 should 后为原形 refuse。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.important-that.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "is", "essential", "that", "the", "data", "be", "checked", "twice."],
+          "answer": "It is essential that the data be checked twice.",
+          "explain": "essential 触发虚拟，被动形式 be checked，data 作复数主语也不改变谓语形式。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.important-that.d5",
+          "type": "translate",
+          "stem": "有必要让他知道真相。",
+          "answer": "It is necessary that he (should) be told the truth.",
+          "require": [["necessary that"], ["be told", "should be told"]],
+          "forbid": ["he is told", "he was told"],
+          "explain": "necessary 后接虚拟从句，he 与 tell 是被动关系，用 (should) be told。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.subjunctive.important-that.d6",
+          "type": "choice",
+          "stem": "It is a pity that she ___ so soon after joining the team.",
+          "options": ["leaves", "should leave", "left", "has left"],
+          "answer": "should leave",
+          "explain": "It is a pity that 属评价句型，从句用 should + 原形表达“竟然、可惜”，这里保留 should 更自然。",
+          "trap": "leaves 是陈述语气，无法表达说话人对这件事的意外与惋惜。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.subjunctive.as-if",
+      "title": "as if / as though 的虚拟",
+      "brief": "像不像事实，决定用虚拟还是陈述",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["special.subjunctive.counterfactual-tenses"],
+      "concept": {
+        "summary": "判定标准：as if / as though 从句所述与事实不符或可能性极低时用虚拟——与现在相反用 did/were，与过去相反用 had done；若所述很可能是事实，则用陈述语气。判断依据是说话人对可能性的态度，从句形式不由主句时态决定。",
+        "sections": [
+          {
+            "h": "两种语气，一条判据",
+            "p": "同一个 as if 可以带两种从句，差别只在说话人是否认为所述为真。有可见证据支持时用陈述，纯属想象或明显相反时用虚拟。",
+            "bullets": [
+              "与现在事实相反：He talks as if he knew everything.（其实不懂）",
+              "与过去事实相反：She looked as if she had seen a ghost.",
+              "所述可能是事实：It looks as if it is going to rain.（乌云就在头顶）",
+              "系动词 look/seem/sound 后的 as if 从句最常考"
+            ]
+          },
+          {
+            "h": "主句时态不决定从句形式",
+            "p": "从句形式由从句内容的时间决定。主句用过去式、从句用现在虚拟，是最常见的组合，不要因为主句是过去式就把从句也推到过去完成。",
+            "bullets": [
+              "He spoke as if he were the manager.（现在虚拟 + 主句过去）",
+              "He speaks as if he had met her before.（过去虚拟 + 主句现在）",
+              "从句动作先于主句动作时，从句才用 had done"
+            ]
+          },
+          {
+            "h": "常见搭配与固定表达",
+            "p": "as if 前多是感官系动词或行为动词，两类搭配的语义不同：系动词后是“看起来像”，行为动词后是“表现得像”。",
+            "bullets": [
+              "look / seem / sound / feel / appear + as if",
+              "treat / behave / act + as if（表现得好像）",
+              "as if to do：He raised his hand as if to say something.",
+              "It seems as if... 可能性高时用陈述语气"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He speaks English as if he were a native speaker.", "zh": "他说英语像母语者一样。", "ok": true, "note": "与现在事实相反，从句用 were。" },
+          { "en": "He talks as if he knows everything, but in fact he knows nothing.", "zh": "他说起话来好像什么都懂，其实什么都不懂。", "ok": false, "note": "but in fact 已点明与事实相反，从句须用 knew，不能用陈述语气。" },
+          { "en": "She looked as if she had seen a ghost.", "zh": "她看上去像见了鬼一样。", "ok": true, "note": "从句动作先于主句 looked，用过去完成时表与过去事实相反。" },
+          { "en": "She looked as if she saw a ghost.", "zh": "她看上去像见了鬼一样。", "ok": false, "note": "“见鬼”发生在“看上去”之前，须用 had seen 表示更早的过去。" },
+          { "en": "It looks as if it is going to rain.", "zh": "看起来要下雨了。", "ok": true, "note": "有可见迹象支持，所述很可能是事实，用陈述语气。" },
+          { "en": "The boy acted as if nothing had happened.", "zh": "那男孩表现得好像什么都没发生过。", "ok": true, "note": "与过去事实相反，从句用 had done。" },
+          { "en": "He ordered us about as if we were his servants.", "zh": "他到处支使我们，好像我们是他的佣人。", "ok": true, "note": "与现在事实相反，be 动词用 were。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He talks as if he is a doctor, but he has never studied medicine.", "right": "He talks as if he were a doctor, but he has never studied medicine.", "why": "后半句已说明与现在事实相反，as if 从句须用 were，而不是陈述语气的 is。" },
+          { "wrong": "She looked as if she saw a ghost.", "right": "She looked as if she had seen a ghost.", "why": "从句动作发生在主句 looked 之前，须退到过去完成时 had seen。" },
+          { "wrong": "It seems as if he were ill; he has a high fever.", "right": "It seems as if he is ill; he has a high fever.", "why": "高烧是可见证据，说明所述很可能是事实，as if 从句用陈述语气。" }
+        ],
+        "contrast": { "withTitle": "wish 后的虚拟语气", "diff": "wish 后的从句必须虚拟；as if 后的从句可虚拟可陈述，取决于说话人认为所述是否可能为真。" },
+        "mnemonic": "明知不是用虚拟，眼见为实用陈述；现在 were，过去 had done。"
+      },
+      "review": {
+        "core": [
+          "as if / as though 从句：可能为真用陈述，明显相反用虚拟",
+          "与现在相反用 did/were，与过去相反用 had done",
+          "从句形式由从句时间决定，与主句时态无关",
+          "从句动作先于主句时用 had done",
+          "look/seem/sound/feel + as if 最常考"
+        ],
+        "trigger": "看到 as if 从句 → 问“说话人认为这是真的吗” → 不是就退一步",
+        "quickCheck": [
+          { "q": "He acts as if he ___ (be) the boss. 填什么？", "a": "were，与现在事实相反。" },
+          { "q": "It looks as if it ___ (rain). 天已经阴了，填什么？", "a": "is going to rain，有证据用陈述语气。" },
+          { "q": "as if 从句的动作先于主句，用什么形式？", "a": "过去完成时 had done。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.subjunctive.as-if.d1",
+          "type": "choice",
+          "stem": "He speaks English as if he ___ a native speaker.",
+          "options": ["is", "were", "has been", "will be"],
+          "answer": "were",
+          "explain": "说话人暗示他并不是母语者，与现在事实相反，as if 从句的 be 动词用 were。",
+          "trap": "is 是陈述语气，会使句子变成“他可能真是母语者”，与 as if 的虚拟意图不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.as-if.d2",
+          "type": "fill",
+          "stem": "She looked as if she ___ (see) a ghost.",
+          "answer": "had seen",
+          "accept": ["had seen"],
+          "hint": "“见鬼”发生在“看上去”之前。",
+          "explain": "从句动作先于主句 looked，与过去事实相反，用过去完成时 had seen。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.as-if.d3",
+          "type": "correct",
+          "stem": "The boy acted as if nothing happens.",
+          "answer": "The boy acted as if nothing had happened.",
+          "accept": ["The boy acted as if nothing had happened."],
+          "explain": "主句 acted 指过去，从句所述与过去事实相反且先于主句，须用过去完成时 had happened。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.as-if.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "looks", "as if", "it", "is", "going", "to", "rain."],
+          "answer": "It looks as if it is going to rain.",
+          "explain": "天象有可见迹象，所述很可能是事实，as if 从句用陈述语气 is going to rain。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.subjunctive.as-if.d5",
+          "type": "translate",
+          "stem": "他说起话来好像什么都知道。",
+          "answer": "He talks as if he knew everything.",
+          "require": [["as if he knew"]],
+          "forbid": ["as if he knows", "as if he know"],
+          "explain": "说话人暗示他并不全懂，与现在事实相反，as if 从句用一般过去时 knew。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.as-if.d6",
+          "type": "choice",
+          "stem": "It looks as if the train ___ late; the platform is still empty.",
+          "options": ["is", "were", "had been", "would be"],
+          "answer": "is",
+          "explain": "站台空着是可见证据，说明列车晚点很可能是事实，as if 从句用陈述语气 is。",
+          "trap": "were 会把这句变成纯假设，与“站台仍然空着”这一观察证据冲突。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.subjunctive.implied-condition",
+      "title": "含蓄条件句与 otherwise/but for",
+      "brief": "没有 if 从句，条件藏在介词或副词里",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["special.subjunctive.counterfactual-tenses"],
+      "concept": {
+        "summary": "判定标准：句中没有 if 从句，但由 but for、without、otherwise、or、but that 或分词短语暗示一个与事实相反的条件时，主句仍按虚拟公式取形式。时间由句中时间状语决定：指现在或将来用 would do，指过去用 would have done。",
+        "sections": [
+          {
+            "h": "五类含蓄条件标记",
+            "p": "这些标记的共同作用是把一个 if 从句压缩成短语或副词，所以主句必须保留虚拟形式，不能因为看不到 if 就改用陈述语气。",
+            "bullets": [
+              "but for + 名词 = 要不是：But for your help, I would have failed.",
+              "without + 名词 = 没有：Without water, no plant would survive.",
+              "otherwise / or = 否则：I was busy then; otherwise I would have called.",
+              "but that + 从句 = 要不是：He would have come, but that he was ill.",
+              "分词短语：Given more time, we would have done better."
+            ]
+          },
+          {
+            "h": "otherwise 与 or 的时间由前一句定",
+            "p": "otherwise 承接前一句陈述的事实，前句用过去式，后面就用 would have done；前句用现在式，后面就用 would do。判断锚点始终在前一句的时态上。",
+            "bullets": [
+              "I was ill that day; otherwise I would have attended the meeting.",
+              "I am busy now; otherwise I would help you with the report.",
+              "He must have been ill, or he would have come.",
+              "× I was busy yesterday; otherwise I would go with you."
+            ]
+          },
+          {
+            "h": "but for 与 without 的对应式",
+            "p": "but for 与 without 都可还原成 if 从句：指现在用 if it were not for，指过去用 if it had not been for。还原后按三步定式判断，就不会选错主句形式。",
+            "bullets": [
+              "But for the storm, we would have arrived on time.（= If it had not been for the storm）",
+              "But for his support, the plan would fail.（= If it were not for his support）",
+              "Without your encouragement, I would have given up.",
+              "but for 后只接名词，不接从句；接从句用 but that"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "But for the traffic jam, we would have caught the flight.", "zh": "要不是堵车，我们就赶上航班了。", "ok": true, "note": "but for 暗示过去相反的条件，主句用 would have done。" },
+          { "en": "But for the traffic jam, we would catch the flight.", "zh": "要不是堵车，我们就赶上航班了。", "ok": false, "note": "航班是过去的事，主句须用 would have caught，不能用 would catch。" },
+          { "en": "Without your encouragement, I would have given up.", "zh": "没有你的鼓励，我早就放弃了。", "ok": true, "note": "without 隐含过去相反条件，主句用 would have done。" },
+          { "en": "I was tired that night; otherwise I would go to the concert.", "zh": "那晚我很累，否则我就去听音乐会了。", "ok": false, "note": "前句 was 锁定过去，otherwise 后用 would have gone。" },
+          { "en": "But for that mistake, he would be a rich man today.", "zh": "要不是那个错误，他今天就是个富翁了。", "ok": true, "note": "today 说明主句指现在，用 would be。" },
+          { "en": "Given more time, we could have finished the report.", "zh": "多给些时间，我们本可以完成报告。", "ok": true, "note": "过去分词短语 Given more time 暗示与过去相反的条件。" },
+          { "en": "She must have been ill, or she would have come.", "zh": "她一定是病了，否则她就来了。", "ok": true, "note": "or 承接前句的过去推测，后面用 would have come。" }
+        ],
+        "pitfalls": [
+          { "wrong": "But for your help, I would fail the exam last term.", "right": "But for your help, I would have failed the exam last term.", "why": "last term 锁定过去，含蓄条件句的主句同样要用 would have done。" },
+          { "wrong": "I was busy yesterday; otherwise I would go to see you.", "right": "I was busy yesterday; otherwise I would have gone to see you.", "why": "otherwise 的时间由前句 was 决定，前句指过去则主句用 would have done。" },
+          { "wrong": "Without your help, I would not finish the work yesterday.", "right": "Without your help, I would not have finished the work yesterday.", "why": "without 只是把 if 从句压缩成短语，时间仍由 yesterday 锁定在过去。" }
+        ],
+        "contrast": { "withTitle": "省略 if 的倒装虚拟", "diff": "倒装虚拟保留完整从句，只删 if 并前置助动词；含蓄条件句没有从句，条件被压缩进 but for、without、otherwise 等短语。" },
+        "mnemonic": "but for 要不是，without 没有，otherwise 否则；看不到 if 也要用 would。"
+      },
+      "review": {
+        "core": [
+          "五类标记：but for、without、otherwise/or、but that、分词短语",
+          "标记只压缩条件，主句仍按虚拟公式取形式",
+          "指现在用 would do，指过去用 would have done",
+          "otherwise 的时间由前一句时态决定",
+          "but for = if it were not for / if it had not been for"
+        ],
+        "trigger": "看到 but for / without / otherwise → 先还原成 if 从句 → 再判时间选主句形式",
+        "quickCheck": [
+          { "q": "But for the rain, we ___ (arrive) earlier yesterday. 填什么？", "a": "would have arrived。" },
+          { "q": "otherwise 前句是 was，后面用什么？", "a": "would have done。" },
+          { "q": "but for 后面能接从句吗？", "a": "不能，只能接名词；接从句用 but that。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.subjunctive.implied-condition.d1",
+          "type": "choice",
+          "stem": "But for your timely warning, we ___ into the trap.",
+          "options": ["would fall", "would have fallen", "will fall", "fell"],
+          "answer": "would have fallen",
+          "explain": "but for 暗示一个与过去事实相反的条件，主句用 would have done，表示“本来会掉进去”。",
+          "trap": "would fall 指现在或将来，与 but for 所承接的已发生情形不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.implied-condition.d2",
+          "type": "fill",
+          "stem": "I was tied up yesterday; otherwise I ___ (come) to your party.",
+          "answer": "would have come",
+          "accept": ["would have come"],
+          "hint": "otherwise 的时间看前一句的时态。",
+          "explain": "前句 was 指过去，otherwise 后表示与过去相反的假设，用 would have come。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.implied-condition.d3",
+          "type": "correct",
+          "stem": "Without your help, I would not finish the work last week.",
+          "answer": "Without your help, I would not have finished the work last week.",
+          "accept": ["Without your help, I would not have finished the work last week."],
+          "explain": "last week 锁定过去，without 隐含的过去相反条件要求主句用 would not have finished。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.subjunctive.implied-condition.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Given", "more", "time,", "we", "could", "have", "done", "better."],
+          "answer": "Given more time, we could have done better.",
+          "explain": "过去分词短语 Given more time 相当于 If we had been given more time，主句用 could have done。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.subjunctive.implied-condition.d5",
+          "type": "translate",
+          "stem": "要不是那场雨，比赛本会照常进行。",
+          "answer": "But for the rain, the match would have gone ahead as planned.",
+          "require": [["But for"], ["would have"]],
+          "forbid": ["If not the rain", "would go ahead"],
+          "explain": "but for 后接名词表示与过去相反的条件，主句用 would have gone ahead。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.subjunctive.implied-condition.d6",
+          "type": "choice",
+          "stem": "I am busy with the report now; otherwise I ___ you with the survey.",
+          "options": ["would help", "would have helped", "will help", "helped"],
+          "answer": "would help",
+          "explain": "前句 am busy 与 now 说明是现在的情形，otherwise 后表示与现在相反的假设，用 would help。",
+          "trap": "would have helped 指过去，与 now 和前句的现在时冲突。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

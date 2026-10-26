@@ -1,0 +1,269 @@
+{
+  "level1": "tense_voice",
+  "chapter": "past_perfect_continuous",
+  "items": [
+    {
+      "id": "tense_voice.past_perfect_continuous.meaning",
+      "title": "过去完成进行时的意义与时间参照",
+      "brief": "had been doing：到过去某刻一直在做",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["tense_voice.past_perfect.reference", "tense_voice.present_perfect_continuous.meaning"],
+      "concept": {
+        "summary": "过去完成进行时由 had been + 现在分词构成，表示动作从过去更早的时间开始，一直持续到另一个过去时刻，镜头对准这段持续的过程，动作可能仍在继续。它必须有双层过去参照：一个更早的起点和一个过去的时间终点。与过去完成时相比，它突出过程未间断，常用来交代背景或解释原因。",
+        "sections": [
+          {
+            "h": "构成与双层参照",
+            "p": "结构是 had been 加现在分词，所有人称同形。时间上需要两个过去点：动作起点更早，参照点（when 从句、by then、that morning）稍晚。没有过去参照点就无法使用这个时态。",
+            "bullets": [
+              "She had been working in the lab for six hours when the lights went out.",
+              "He had been waiting for two hours before the bus finally came.",
+              "否定：He hadn't been feeling well for days before he saw the doctor."
+            ]
+          },
+          {
+            "h": "两个高频功能",
+            "p": "一是交代背景，用持续的过程铺垫主事件；二是解释原因，用之前一直在做的事说明过去某个可见的结果。两种功能都要求动作可延续。",
+            "bullets": [
+              "背景：They had been driving for six hours when they saw the sea.",
+              "原因：The ground was wet because it had been raining all night.",
+              "情绪铺垫：She had been hoping for a letter, but none came."
+            ]
+          },
+          {
+            "h": "动词与状语的限制",
+            "p": "状态动词与瞬间动词都不能进入这个时态；时间状语必须是 for 加时间段、since 加起点、all day 等能覆盖从更早到参照点的结构。",
+            "bullets": [
+              "× I had been knowing him for years. → √ I had known him for years.",
+              "× They had been arriving for two hours.",
+              "√ had been waiting / working / raining / driving / hoping"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She had been working in the lab for six hours when the lights went out.", "zh": "灯灭的时候，她已经在实验室工作了六个小时。", "ok": true, "note": "for six hours 覆盖从更早到 went out 的整个过程。" },
+          { "en": "He had been waiting for two hours before the bus finally came.", "zh": "他等了两个小时公交车才来。", "ok": true, "note": "before 从句的 came 是过去参照点，等待持续到那时。" },
+          { "en": "The ground was wet because it had been raining all night.", "zh": "地面是湿的，因为下了一整夜雨。", "ok": true, "note": "用持续的过程解释过去可见的结果。" },
+          { "en": "I had been knowing him for years.", "zh": "我认识他多年了。", "ok": false, "note": "know 是状态动词，不能用于进行时，应改为 had known。" },
+          { "en": "They had been arriving at the airport for two hours.", "zh": "他们到机场已经两个小时了。", "ok": false, "note": "arrive 是瞬间动词，没有持续时间，应改为 had been at the airport for two hours." },
+          { "en": "He had been writing the report for three hours when the computer crashed.", "zh": "电脑死机时，他已经写了三个小时报告。", "ok": true, "note": "写报告是可延续的动作，crashed 是过去参照点。" },
+          { "en": "She had been teaching for ten years when she got promoted.", "zh": "她获得晋升时已经教了十年书。", "ok": true, "note": "for ten years 与 when 从句共同构成双层过去参照。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I had been knowing her for ten years before we got married.", "right": "I had known her for ten years before we got married.", "why": "know 表示持续的状态而非过程，状态动词只能用过去完成时，不能加 been doing。" },
+          { "wrong": "She had being waiting for an hour when the train came.", "right": "She had been waiting for an hour when the train came.", "why": "结构是 had been 加现在分词，been 不能写成 being。" },
+          { "wrong": "The old man had been dying for three years before his son returned.", "right": "The old man had been dead for three years before his son returned.", "why": "die 是瞬间动词，无法表示持续三年，持续状态要用 be dead。" }
+        ],
+        "contrast": { "withTitle": "过去完成时", "diff": "过去完成时报道到过去某点已完成的结果，过去完成进行时报道到过去某点一直在进行的过程，是否强调持续与未完成是分界。" },
+        "mnemonic": "had been 加 ing，过去某点回头看；之前一直在忙活，背景原因都靠它。"
+      },
+      "review": {
+        "core": [
+          "构成：had been + 现在分词，所有人称同形",
+          "需要双层过去参照：更早的起点加稍晚的过去参照点",
+          "强调持续的过程，可能仍在继续，常交代背景或解释原因",
+          "常带 for 加时间段、since 加起点、all day",
+          "状态动词与瞬间动词不能用：know 用 had known，die 用 had been dead"
+        ],
+        "trigger": "句中已有过去参照点，又要交代在那之前一直在做 → 用 had been doing",
+        "quickCheck": [
+          { "q": "“地面是湿的，因为下了一整夜雨”怎么说？", "a": "The ground was wet because it had been raining all night." },
+          { "q": "had been knowing 为什么错？", "a": "know 是状态动词，只能用 had known。" },
+          { "q": "过去完成进行时需要几个过去时间点？", "a": "两个：动作起点与稍晚的过去参照点。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.past_perfect_continuous.meaning.d1",
+          "type": "choice",
+          "stem": "The road was still wet because it ___ all night.",
+          "options": ["had been raining", "had rained", "was raining", "has been raining"],
+          "answer": "had been raining",
+          "explain": "主句 was 确立过去参照点，下雨从更早持续到那时，用 had been 加现在分词强调过程。",
+          "trap": "had rained 只说明下过雨这一完成事实，不能表达整夜持续下雨的过程。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect_continuous.meaning.d2",
+          "type": "fill",
+          "stem": "She ___ (wait) for three hours when the doctor finally called her name.",
+          "answer": "had been waiting",
+          "accept": ["had been waiting", "'d been waiting"],
+          "hint": "for three hours 覆盖从更早到 called 的整个过程。",
+          "explain": "called 是过去参照点，等待在此之前已持续三小时，用过去完成进行时 had been waiting。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect_continuous.meaning.d3",
+          "type": "correct",
+          "stem": "He had being working on the farm since sunrise.",
+          "answer": "He had been working on the farm since sunrise.",
+          "accept": ["He had been working on the farm since sunrise."],
+          "explain": "过去完成进行时的结构是 had been 加现在分词，been 是 be 的过去分词，不能写成 being。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect_continuous.meaning.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["They", "had been", "driving for", "six hours", "when they", "saw the sea."],
+          "answer": "They had been driving for six hours when they saw the sea.",
+          "explain": "saw 是过去参照点，驾驶从更早持续六小时，用 had been driving 铺垫背景。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect_continuous.meaning.d5",
+          "type": "translate",
+          "stem": "我们到达时，她已经在外面的雨里等了两个小时。",
+          "answer": "She had been waiting in the rain outside for two hours when we arrived.",
+          "require": [["had been waiting"], ["for two hours"], ["arrived", "got there"]],
+          "forbid": ["had been waited", "has been waiting"],
+          "explain": "arrived 是过去参照点，等待在此之前已持续两小时，强调过程用 had been waiting；被动形式 had been waited 与主语是主动关系不符。",
+          "difficulty": 4
+        },
+        {
+          "id": "tense_voice.past_perfect_continuous.meaning.d6",
+          "type": "choice",
+          "stem": "By the time the ambulance arrived, the injured man ___ on the ground for nearly half an hour.",
+          "options": ["had been lying", "had lied", "was lying", "has been lying"],
+          "answer": "had been lying",
+          "explain": "by the time 从句的 arrived 是参照点，躺在地上从更早持续近半小时，用 had been lying。",
+          "trap": "had lied 是 lie 作说谎讲的过去完成时，与躺着的含义无关，两者同为 lie 的不同义项。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.past_perfect_continuous.vs-past-perfect",
+      "title": "过去完成进行时与过去完成时的区别",
+      "brief": "过程用 been doing，结果用 had done",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["tense_voice.past_perfect_continuous.meaning", "tense_voice.past_perfect.reference"],
+      "concept": {
+        "summary": "两者的参照点相同，都在过去；区别在于说话人关注过程还是结果。过去完成进行时表示到参照点时动作仍在进行或刚刚结束、尚未完成；过去完成时表示到参照点已经完成、并留下结果。第二个判据是次数与数量：出现 three times、four papers 这类计数信息时只能用过去完成时。第三是动词性质：状态动词和瞬间动词都只有过去完成时。",
+        "sections": [
+          {
+            "h": "过程未完与结果已成",
+            "p": "同一个场景换时态，含义随之改变：进行时暗示动作可能还没结束，完成时断言动作已经结束。判断时看上下文有没有未完成的证据。",
+            "bullets": [
+              "When I arrived, he had been cleaning the windows.（可能还没擦完）",
+              "When I arrived, he had cleaned the windows.（已经擦完）",
+              "She had been writing the report when I came in.（还在写）",
+              "She had written the report when I came in.（已写完）"
+            ]
+          },
+          {
+            "h": "次数、数量与状态动词",
+            "p": "计数信息只能由完成时承载；状态动词没有过程，也只能用完成时；结果动词（finish, arrive, stop）无法拉长为持续过程，同样退回完成时。",
+            "bullets": [
+              "× He had been writing three reports. → √ He had written three reports.",
+              "× I had been knowing the truth. → √ I had known the truth.",
+              "× By the time I got there, he had been leaving. → √ he had left"
+            ]
+          },
+          {
+            "h": "时间状语的取舍",
+            "p": "for 加时间段、since 加起点、all day 偏向进行时，用来标出过程的跨度；already、just、by then、by the end of 偏向完成时，用来标出完成的节点。状语与体貌要匹配，不能互相拖累。",
+            "bullets": [
+              "had been doing 配 for / since / all day",
+              "had done 配 already / just / by then / by the end of",
+              "× by the time ... had been finishing → √ had finished"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "When I arrived, he had been cleaning the windows.", "zh": "我到的时候，他正在擦窗户，可能还没擦完。", "ok": true, "note": "擦窗的过程持续到到达时，可能还没结束。" },
+          { "en": "When I arrived, he had cleaned the windows.", "zh": "我到的时候，他已经把窗户擦完了。", "ok": true, "note": "到到达时窗已擦完，强调完成的结果。" },
+          { "en": "They had been building the bridge for two years before it collapsed.", "zh": "桥塌之前，他们已经建了两年。", "ok": true, "note": "for two years 标出过程跨度，与进行时匹配。" },
+          { "en": "They had built three bridges by 2010.", "zh": "到 2010 年他们已经建了三座桥。", "ok": true, "note": "three bridges 是完成数量，只能用过去完成时。" },
+          { "en": "He had been writing three reports before the deadline.", "zh": "截止日期前他写了三份报告。", "ok": false, "note": "three reports 是计数信息，应改为 had written。" },
+          { "en": "I had been finishing the work when she called.", "zh": "她打电话时我快做完那份工作了。", "ok": false, "note": "finish 是结果动词，动作在终点完成，不能拉长为过程，应改为 had finished 或 was finishing。" },
+          { "en": "By the time I got there, he had left.", "zh": "我到那儿时，他已经走了。", "ok": true, "note": "by the time 标出完成节点，用过去完成时。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He had been writing three reports before the deadline.", "right": "He had written three reports before the deadline.", "why": "three reports 是计数信息，进行时描述连续过程，无法承载次数与数量。" },
+          { "wrong": "By the time I got there, he had been leaving.", "right": "By the time I got there, he had left.", "why": "leave 是瞬间动词，动作在瞬间完成，不能构成持续过程；by the time 标出的是完成节点。" },
+          { "wrong": "I had been knowing the truth all along.", "right": "I had known the truth all along.", "why": "know 是状态动词，只有状态没有过程，不能进入进行时。" }
+        ],
+        "contrast": { "withTitle": "过去完成进行时的意义与时间参照", "diff": "参照点讲构成与双层过去时间；本点给出与过去完成时的取舍标准：要过程选 had been doing，要结果、数量或状态选 had done。" },
+        "mnemonic": "过程没完 been doing，结果完成 had done；次数数量一出现，进行时立刻退场。"
+      },
+      "review": {
+        "core": [
+          "同参照点：看过程用 had been doing，看结果用 had done",
+          "计数信息 three times / four papers → 只能用 had done",
+          "状态动词 know、结果动词 finish/leave → 只能用 had done",
+          "for/since/all day 偏向进行时；already/by then 偏向完成时",
+          "by the time 常与 had done 搭配表完成节点"
+        ],
+        "trigger": "选定过去完成体系后 → 问动作完了吗、有没有次数 → 没完且能延续才用 had been doing",
+        "quickCheck": [
+          { "q": "“我到时他正在擦窗，可能没擦完”怎么说？", "a": "When I arrived, he had been cleaning the windows." },
+          { "q": "“到 2010 年他们建了三座桥”用哪个？", "a": "过去完成时：They had built three bridges by 2010." },
+          { "q": "had been leaving 为什么错？", "a": "leave 是瞬间动词，不能构成持续过程，应改为 had left。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.past_perfect_continuous.vs-past-perfect.d1",
+          "type": "choice",
+          "stem": "When I got home, the children ___ TV for three hours, and the living room was a mess.",
+          "options": ["had been watching", "had watched", "were watching", "have been watching"],
+          "answer": "had been watching",
+          "explain": "for three hours 标出从更早到 got home 的过程跨度，客厅凌乱是过程留下的现状，用过去完成进行时。",
+          "trap": "had watched 表示已经看完，与客厅一团糟所暗示的持续过程不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect_continuous.vs-past-perfect.d2",
+          "type": "fill",
+          "stem": "By the end of the term, she ___ (write) four papers.",
+          "answer": "had written",
+          "accept": ["had written", "'d written"],
+          "hint": "four papers 是完成数量。",
+          "explain": "four papers 是计数信息，且 by the end of the term 标出完成节点，只能用过去完成时 had written。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect_continuous.vs-past-perfect.d3",
+          "type": "correct",
+          "stem": "He had been writing three reports before the deadline.",
+          "answer": "He had written three reports before the deadline.",
+          "accept": ["He had written three reports before the deadline."],
+          "explain": "three reports 是数量，过去完成进行时只描述连续过程，不能承载计数信息，须改为 had written。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect_continuous.vs-past-perfect.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She had", "been", "preparing dinner", "when the", "guests arrived."],
+          "answer": "She had been preparing dinner when the guests arrived.",
+          "explain": "arrived 是过去参照点，做饭从更早持续到那时且未必完成，用 had been preparing。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect_continuous.vs-past-perfect.d5",
+          "type": "translate",
+          "stem": "我到的时候，他们已经等了两个小时，但还没买到票。",
+          "answer": "When I arrived, they had been waiting for two hours but still hadn't got the tickets.",
+          "require": [["had been waiting"], ["for two hours"], ["hadn't got", "had not got", "hadn't bought", "had not bought"]],
+          "forbid": ["had been waited", "have been waiting"],
+          "explain": "等待强调过程，用 had been waiting；还没买到票是到参照点为止的结果，用过去完成时；两个体貌在同一句里分工。",
+          "difficulty": 4
+        },
+        {
+          "id": "tense_voice.past_perfect_continuous.vs-past-perfect.d6",
+          "type": "choice",
+          "stem": "She ___ the whole report by the time the meeting began.",
+          "options": ["had finished", "had been finishing", "was finishing", "has finished"],
+          "answer": "had finished",
+          "explain": "by the time 标出完成节点，报告已全部完成，用过去完成时强调结果。",
+          "trap": "had been finishing 强调过程未结束，与 by the time 表到那时已完成冲突。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,933 @@
+{
+  "level1": "morph",
+  "chapter": "word_formation",
+  "items": [
+    {
+      "id": "morph.word_formation.prefixes",
+      "title": "常见前缀的语义",
+      "brief": "前缀改词义不改词性，按语义分组记",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "前缀的作用是改变词义而不改变词性，因此加了前缀之后词性仍由词根或后缀决定：rewrite 仍是动词，unhappy 仍是形容词。唯一的例外是 en-、a-、be- 这类可以改变词性的前缀。判断词义时按语义分组检索：否定、方向位置、程度数量、时间顺序、态度立场。",
+        "sections": [
+          {
+            "h": "前缀的语法边界",
+            "p": "前缀不承担句法功能，只携带语义。因此语法填空中若括号给出名词而空格需要动词，加前缀不能解决问题，必须换后缀。",
+            "bullets": [
+              "re- + write → rewrite（仍为动词）",
+              "un- + happy → unhappy（仍为形容词）",
+              "mis- + understand → misunderstand（仍为动词）"
+            ]
+          },
+          {
+            "h": "语义分组",
+            "p": "按语义分组记比按字母顺序背更稳：考场上先判断需要哪种语义，再挑对应的前缀。",
+            "bullets": [
+              "否定：un-, in-/im-/il-/ir-, non-, dis-, mis-",
+              "方向位置：pre- 前，post- 后，sub- 下或次，super- 超，inter- 之间，trans- 跨越",
+              "程度数量：over- 过度，under- 不足，multi- 多，semi- 半，bi- 二",
+              "时间顺序：fore- 预先，re- 再次；态度立场：pro- 支持，anti- 反对，co- 共同"
+            ]
+          },
+          {
+            "h": "会改变词性的三个前缀",
+            "p": "en- 使名词或形容词变动词，a- 使名词或动词变形容词或副词，be- 使名词或形容词变动词。这三个前缀能独立完成词性转换，不需要再加后缀。",
+            "bullets": [
+              "en- + large → enlarge（形容词 → 动词）；en- + danger → endanger",
+              "a- + sleep → asleep（动词 → 形容词）；a- + side → aside（副词）",
+              "be- + friend → befriend（名词 → 动词）；be- + little → belittle"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The two universities agreed to cooperate on the research project.", "zh": "两所大学同意在这个研究项目上合作。", "ok": true, "note": "co- 表“共同”，cooperate 为不及物动词，合作内容由 on 引出。" },
+          { "en": "The two universities agreed to cooperate each other on the research project.", "zh": "两所大学同意在这个研究项目上互相合作。", "ok": false, "note": "cooperate 是不及物动词，须说 cooperate with each other；co- 已含“共同”，不能代替介词。" },
+          { "en": "He tends to underestimate the time needed for revision.", "zh": "他往往低估复习所需的时间。", "ok": true, "note": "under- 表“不足”，underestimate 意为“低估”。" },
+          { "en": "The government has promised to rebuild the bridge before winter.", "zh": "政府承诺入冬前重建这座桥。", "ok": true, "note": "re- 表“再一次”，rebuild 与 build 同为动词，词性未变。" },
+          { "en": "It is unable for the team to finish the task by Friday.", "zh": "这个团队不可能在周五前完成任务。", "ok": false, "note": "unable 只能以人作主语作表语；形式主语 it 指事件，应说 It is impossible for the team to..." },
+          { "en": "She misread the timetable and missed the last train.", "zh": "她看错了时刻表，错过了末班车。", "ok": true, "note": "mis- 表“错误地”，misread 意为“看错”。" },
+          { "en": "The post-war generation grew up in a very different world.", "zh": "战后一代在完全不同的世界里长大。", "ok": true, "note": "post- 表“之后”，post-war 是带连字符的复合形容词。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The manager was very displease with the result.", "right": "The manager was very displeased with the result.", "why": "dis- 只改变词义，不改变词性；displease 是动词，作表语须用过去分词 displeased。" },
+          { "wrong": "He cooperated each other with his colleagues on the survey.", "right": "He cooperated with his colleagues on the survey.", "why": "cooperate 是不及物动词，对象由 with 引出；co- 表“共同”但不承担介词功能。" },
+          { "wrong": "The company overestimated demand and produced too few goods.", "right": "The company underestimated demand and produced too few goods.", "why": "over- 是“过高估计”，与“生产过少”矛盾；生产不足对应“低估需求”。" }
+        ],
+        "contrast": { "withTitle": "否定前缀的选择规则", "diff": "本知识点按语义给前缀分组，只要求认出词义方向；否定前缀部分专门处理 un-/in-/dis-/non- 之间的选择。" },
+        "mnemonic": "前缀只换意思不换词性，en- a- be- 三个例外。"
+      },
+      "review": {
+        "core": [
+          "前缀改词义，不改词性；词性由词根与后缀决定",
+          "否定：un-, in-/im-/il-/ir-, non-, dis-, mis-",
+          "方向：pre- 前 / post- 后 / sub- 下 / super- 超 / inter- 之间 / trans- 跨越",
+          "程度：over- 过度 / under- 不足 / multi- 多 / semi- 半",
+          "改词性的例外：en- 使…化、a- 表状态、be- 使…"
+        ],
+        "trigger": "看到生词含前缀 → 先剥离前缀取词义方向 → 再确认词性没有变化",
+        "quickCheck": [
+          { "q": "rewrite 与 write 词性相同吗？", "a": "相同，都是动词，re- 只加“再一次”的语义。" },
+          { "q": "overestimate 与 underestimate 分别是什么意思？", "a": "高估与低估。" },
+          { "q": "enlarge 中 en- 起了什么作用？", "a": "使形容词 large 变成动词，词性改变。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.word_formation.prefixes.d1",
+          "type": "choice",
+          "stem": "The two firms decided to ___ on a new electric vehicle.",
+          "options": ["cooperate", "cooperate with", "cooperative", "cooperation"],
+          "answer": "cooperate",
+          "explain": "cooperate 是不及物动词，与 on 搭配表示“在某事上合作”；co- 表共同，已含“一起”的意思。",
+          "trap": "cooperate with 后必须接合作对象，而本句的宾语是合作内容，由 on 引出。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.prefixes.d2",
+          "type": "fill",
+          "stem": "The teacher asked us to ___ the last paragraph so that it would be easier to read. (write)",
+          "answer": "rewrite",
+          "accept": ["rewrite"],
+          "hint": "需要“重写”这一语义，用表示“再一次”的前缀。",
+          "explain": "re- 表“再一次”，加在 write 前构成 rewrite，词性仍为动词。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.word_formation.prefixes.d3",
+          "type": "correct",
+          "stem": "It is unable for the students to finish the project in one week.",
+          "answer": "It is impossible for the students to finish the project in one week.",
+          "accept": ["It is impossible for the students to finish the project in one week."],
+          "explain": "unable 只用于人作主语作表语；形式主语 it 指事件，须用 impossible。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.word_formation.prefixes.d4",
+          "type": "choice",
+          "stem": "The ___ developed regions still lack basic medical services.",
+          "options": ["under", "over", "sub", "anti"],
+          "answer": "under",
+          "explain": "under- 表“不足”，underdeveloped 意为“不发达的”，与“缺乏基本医疗服务”一致。",
+          "trap": "overdeveloped 意为“过度开发的”，与后面“缺乏服务”的语义矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.prefixes.d5",
+          "type": "translate",
+          "stem": "他误解了我的意思，所以回答错了问题。",
+          "answer": "He misunderstood my meaning and answered the wrong question.",
+          "require": [["misunderstood"], ["wrong question"]],
+          "forbid": ["misunderstanded", "misunderstooded"],
+          "explain": "mis- 表“错误地”，understand 的过去式为 understood，加前缀后仍按不规则变化。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.word_formation.prefixes.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "misread", "the", "instructions", "and", "added", "too", "much", "salt."],
+          "answer": "She misread the instructions and added too much salt.",
+          "explain": "mis- 表错误地，misread 的过去式与原形同形，属 AAA 型不规则变化。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.word_formation.suffixes",
+      "title": "常见后缀与词性判定",
+      "brief": "后缀是词性标签，先看词尾再定成分",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "后缀是词性的标签：-tion/-ment/-ness/-ity/-ance 结尾多为名词，-able/-ful/-ous/-ive/-al 结尾多为形容词，-ize/-ify/-en 结尾多为动词，-ly 结尾多为副词。判定顺序是先看后缀定词性，再看该词在句中的位置是否匹配。-ly 结尾有 friendly、lovely、lonely、lively 等形容词例外，不能一律当副词。",
+        "sections": [
+          {
+            "h": "四类后缀与词性",
+            "p": "后缀是判断词性最快的线索，比先读句意更快，但要先排除 -ly 的形容词例外。",
+            "bullets": [
+              "名词：-tion/-sion, -ment, -ness, -ity, -ance/-ence, -ship, -hood, -ism, -ist, -er/-or, -ee, -age",
+              "形容词：-able/-ible, -ful, -less, -ous, -ive, -al, -ic, -ant/-ent, -ary",
+              "动词：-ize/-ise, -ify, -en",
+              "副词：-ly（friendly, lovely, lonely, lively, likely, daily 除外）"
+            ]
+          },
+          {
+            "h": "-ly 结尾的形容词",
+            "p": "这类词由名词加 -ly 构成，语义上是“具有该名词特征的”，因此是形容词，可以作定语和表语，不能修饰动词。",
+            "bullets": [
+              "friendly 友好的、lovely 可爱的、lonely 孤独的",
+              "lively 活泼的、likely 可能的、daily 每日的",
+              "× He spoke to me in a friend way. → √ He spoke to me in a friendly way."
+            ]
+          },
+          {
+            "h": "同根不同后缀的语义分工",
+            "p": "同一词根配不同后缀，词性与语义都变，需要成组记忆，而不是逐个背中文释义。",
+            "bullets": [
+              "care → careful（仔细的）/ careless（粗心的）/ carelessness（粗心）",
+              "create → creative（有创造力的）/ creation（创造）/ creativity（创造力）",
+              "economy → economic（经济的）/ economical（节约的）/ economist（经济学家）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Her attention to detail impressed the interviewer.", "zh": "她对细节的专注给面试官留下了深刻印象。", "ok": true, "note": "attention 以 -tion 结尾，是名词，作主语的中心词。" },
+          { "en": "He is a friendly person who always helps newcomers.", "zh": "他是个友好的人，总是帮助新来的人。", "ok": true, "note": "friendly 虽以 -ly 结尾，却是形容词，作定语修饰 person。" },
+          { "en": "He spoke to me in a very friend way.", "zh": "他用非常友好的方式和我说话。", "ok": false, "note": "修饰名词 way 需要形容词 friendly，不能直接用名词 friend。" },
+          { "en": "The scientist explained the process clearly so that everyone could follow.", "zh": "科学家把这个过程解释得很清楚，好让每个人都能跟上。", "ok": true, "note": "clearly 是副词，修饰动词 explained。" },
+          { "en": "The rapid growth of online shopping has changed retail.", "zh": "网购的迅速增长改变了零售业。", "ok": true, "note": "growth 是名词，作句子主语的中心词。" },
+          { "en": "Her kind impressed everyone at the party.", "zh": "她的善良让聚会上的每个人都很感动。", "ok": false, "note": "主语位置需要名词，kind 是形容词，应改为 kindness。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The manager spoke to us in a friend and patient way.", "right": "The manager spoke to us in a friendly and patient way.", "why": "修饰名词 way 需要形容词，friend 是名词，须换成形容词 friendly。" },
+          { "wrong": "He explained the rule very clear.", "right": "He explained the rule very clearly.", "why": "修饰动词 explained 用副词 clearly；clear 是形容词，只能作表语或定语。" },
+          { "wrong": "Her careless caused the accident.", "right": "Her carelessness caused the accident.", "why": "主语位置需要名词，careless 是形容词，须用名词形式 carelessness。" }
+        ],
+        "contrast": { "withTitle": "词性转换的派生规则", "diff": "本知识点用后缀反推词性；派生规则部分讲的是从词根出发选后缀并处理拼写变化。" },
+        "mnemonic": "tion/ment/ness 是名词，ful/ous/ive 是形容词，ly 多半是副词，friendly 是例外。"
+      },
+      "review": {
+        "core": [
+          "-tion/-ment/-ness/-ity/-ance 结尾 → 名词",
+          "-able/-ful/-less/-ous/-ive/-al 结尾 → 形容词",
+          "-ize/-ify/-en 结尾 → 动词；-ly 结尾 → 多为副词",
+          "-ly 形容词：friendly, lovely, lonely, lively, likely, daily",
+          "同根不同后缀成组记：careful / careless / carelessness"
+        ],
+        "trigger": "看到空格或生词 → 先看词尾后缀定词性 → 再用句子位置验证",
+        "quickCheck": [
+          { "q": "friendly 是什么词性？", "a": "形容词，可作定语和表语。" },
+          { "q": "-ment 结尾的词通常是什么词性？", "a": "名词，如 development, agreement。" },
+          { "q": "修饰动词 explain 用 clear 还是 clearly？", "a": "clearly，副词修饰动词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.word_formation.suffixes.d1",
+          "type": "choice",
+          "stem": "Her ___ to detail impressed every member of the interview panel.",
+          "options": ["attention", "attend", "attentive", "attentively"],
+          "answer": "attention",
+          "explain": "空格前是所有格 Her，后面接介词 to，需要名词；attention 以 -tion 结尾，符合名词后缀。",
+          "trap": "attentive 是形容词，不能作主语中心词，也无法直接接 to detail。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.suffixes.d2",
+          "type": "fill",
+          "stem": "The scientist explained the process ___ (clear) so that everyone could follow.",
+          "answer": "clearly",
+          "accept": ["clearly"],
+          "hint": "空格修饰动词 explained。",
+          "explain": "修饰动词 explained 需要副词，clear 加 -ly 构成 clearly。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.word_formation.suffixes.d3",
+          "type": "correct",
+          "stem": "He is a very friend person and always helps newcomers.",
+          "answer": "He is a very friendly person and always helps newcomers.",
+          "accept": ["He is a very friendly person and always helps newcomers."],
+          "explain": "修饰名词 person 需要形容词 friendly；friend 是名词，不能作定语表示性质。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.suffixes.d4",
+          "type": "choice",
+          "stem": "The company has seen steady ___ in profits over the past three years.",
+          "options": ["growth", "grow", "growing", "grown"],
+          "answer": "growth",
+          "explain": "空格前有形容词 steady，此处需要名词作宾语中心词；grow 的名词形式是 growth。",
+          "trap": "growing 是现在分词或动名词，不能与 steady 搭配构成“稳步增长”这一名词短语。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.suffixes.d5",
+          "type": "translate",
+          "stem": "她的善良给每个人留下了深刻印象。",
+          "answer": "Her kindness impressed everyone deeply.",
+          "require": [["kindness"], ["impressed"]],
+          "forbid": ["Her kind impressed"],
+          "explain": "主语位置需要名词，kind 的名词形式是 kindness。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.word_formation.suffixes.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "manager", "explained", "the", "new", "plan", "clearly."],
+          "answer": "The manager explained the new plan clearly.",
+          "explain": "clearly 为副词，修饰动词 explained，说明解释的方式。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.word_formation.derivation",
+      "title": "词性转换的派生规则",
+      "brief": "定词性、选后缀，再处理五类拼写变化",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["morph.word_formation.suffixes"],
+      "concept": {
+        "summary": "派生分三步：确定所需词性，选对应后缀，再处理拼写变化。拼写变化有五类：去掉词尾不发音的 e、双写末尾辅音、y 变 i、-tion 类后缀引起的词干变化、以及清浊辅音交替。只记住后缀而忽略拼写，是语法填空里最常见的失分方式。",
+        "sections": [
+          {
+            "h": "三步派生流程",
+            "p": "顺序不能颠倒：先定词性再挑后缀，最后才动拼写。先改拼写容易选错后缀。",
+            "bullets": [
+              "定词性：空格前有冠词或所有格 → 名词；修饰动词 → 副词",
+              "选后缀：名词 -ance/-ence/-tion；形容词 -ful/-ous/-ive；动词 -ize/-ify",
+              "改拼写：去 e、双写、y 变 i、词干变化"
+            ]
+          },
+          {
+            "h": "五类拼写变化",
+            "p": "这些变化都有可复现的条件，按条件判断比逐词死记更可靠。",
+            "bullets": [
+              "去 e：create → creation；argue → argument；但 change → changeable 保留 e",
+              "双写末尾辅音：occur → occurrence；refer → reference 不双写，因为重音不在末音节",
+              "y 变 i：happy → happiness；carry → carriage；但 dry → dryness 保留 y",
+              "-tion 词干变化：explain → explanation；pronounce → pronunciation；describe → description",
+              "清浊交替：advise → advice；practise → practice；belief → believe"
+            ]
+          },
+          {
+            "h": "同根词族的连锁派生",
+            "p": "一个词根常派生出四五个词，按词性链条记，比单个背更省力，也便于在写作时替换词性。",
+            "bullets": [
+              "succeed → success → successful → successfully",
+              "able → ability → enable → disabled",
+              "differ → difference → different → differently",
+              "satisfy → satisfaction → satisfactory → satisfactorily"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "His explanation of the delay was clear and honest.", "zh": "他对延误的解释清楚而坦诚。", "ok": true, "note": "explain 变名词时词干变为 explan-，加 -ation 构成 explanation。" },
+          { "en": "His explaination of the delay was not convincing.", "zh": "他对延误的解释不能令人信服。", "ok": false, "note": "explain 变名词须去掉 i 再加 -ation，正确形式是 explanation。" },
+          { "en": "The pronunciation of her surname is harder than it looks.", "zh": "她姓氏的发音比看上去要难。", "ok": true, "note": "pronounce 变名词时词干变为 pronuncia-，构成 pronunciation。" },
+          { "en": "Her absence from the meeting was noticed by everyone.", "zh": "所有人都注意到她没有到会。", "ok": true, "note": "absent 变名词用 -ence，构成 absence。" },
+          { "en": "The occurrance of forest fires has risen sharply this summer.", "zh": "今年夏天森林火灾的发生率急剧上升。", "ok": false, "note": "occur 变名词须双写 r 再加 -ence，正确形式是 occurrence。" },
+          { "en": "The maintenance of the equipment costs a lot each year.", "zh": "这些设备的维护每年花费很大。", "ok": true, "note": "maintain 变名词时词干变为 mainten-，构成 maintenance。" },
+          { "en": "He is a successful businessman with thirty years of experience.", "zh": "他是一位有三十年经验的成功商人。", "ok": true, "note": "success 加 -ful 构成形容词 successful，词干拼写不变。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Please give me a briefly introduction to the course.", "right": "Please give me a brief introduction to the course.", "why": "修饰名词 introduction 需要形容词 brief，briefly 是副词。" },
+          { "wrong": "The maintainance of the machine is expensive.", "right": "The maintenance of the machine is expensive.", "why": "maintain 的名词形式是 maintenance，词干变为 mainten-，不是 maintainance。" },
+          { "wrong": "His succeed in the competition surprised us.", "right": "His success in the competition surprised us.", "why": "所有格 His 后需要名词，succeed 是动词，名词形式为 success。" }
+        ],
+        "contrast": { "withTitle": "常见后缀与词性判定", "diff": "本知识点处理“选对后缀之后的拼写”；后缀判定只负责确定词性方向，不处理词干变化。" },
+        "mnemonic": "explain 变 explanation，pronounce 变 pronunciation，occur 双写 r，maintain 变 maintenance。"
+      },
+      "review": {
+        "core": [
+          "三步：定词性 → 选后缀 → 改拼写",
+          "去 e：create → creation；argue → argument",
+          "双写：occur → occurrence；refer → reference 不双写",
+          "词干变化：explain → explanation；pronounce → pronunciation；describe → description",
+          "词族连锁：succeed → success → successful → successfully"
+        ],
+        "trigger": "看到括号给动词而空格需要名词 → 先判 -tion/-ance/-ence → 再按词干规则改拼写",
+        "quickCheck": [
+          { "q": "explain 的名词形式？", "a": "explanation。" },
+          { "q": "occur 的名词形式？", "a": "occurrence，双写 r。" },
+          { "q": "maintain 的名词形式？", "a": "maintenance。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.word_formation.derivation.d1",
+          "type": "choice",
+          "stem": "His ___ for the delay sounded reasonable enough.",
+          "options": ["explanation", "explaination", "explain", "explained"],
+          "answer": "explanation",
+          "explain": "所有格 His 后需要名词；explain 变名词时词干变为 explan-，加 -ation 构成 explanation。",
+          "trap": "explaination 保留了 explain 的完整拼写，是最常见的拼写错误。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.derivation.d2",
+          "type": "fill",
+          "stem": "The ___ (pronounce) of her surname is harder than it looks.",
+          "answer": "pronunciation",
+          "accept": ["pronunciation"],
+          "hint": "pronounce 变名词时词干发生变化。",
+          "explain": "pronounce 的名词形式是 pronunciation，词干变为 pronuncia- 后加 -tion。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.word_formation.derivation.d3",
+          "type": "correct",
+          "stem": "The occurrance of forest fires has risen sharply this summer.",
+          "answer": "The occurrence of forest fires has risen sharply this summer.",
+          "accept": ["The occurrence of forest fires has risen sharply this summer."],
+          "explain": "occur 变名词须双写末尾的 r 再加 -ence，构成 occurrence。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.derivation.d4",
+          "type": "choice",
+          "stem": "The company owes its ___ to careful planning rather than luck.",
+          "options": ["success", "successful", "successfully", "succeed"],
+          "answer": "success",
+          "explain": "its 后需要名词作中心词，succeed 的名词形式是 success，双写 c。",
+          "trap": "successful 是形容词，不能作 owes its ___ 的中心名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.derivation.d5",
+          "type": "translate",
+          "stem": "他的缺席使会议推迟了。",
+          "answer": "His absence delayed the meeting.",
+          "require": [["absence"], ["delayed", "postponed"]],
+          "forbid": ["His absent"],
+          "explain": "所有格 His 后需要名词，absent 的名词形式是 absence。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.word_formation.derivation.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Her", "explanation", "was", "brief", "and", "clear."],
+          "answer": "Her explanation was brief and clear.",
+          "explain": "explanation 为名词作主语，brief 与 clear 为形容词作表语。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.word_formation.compounds",
+      "title": "合成词的构成与连字符",
+      "brief": "合成词按结构分类，连字符有三条硬规则",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["morph.nouns.compound-plural"],
+      "concept": {
+        "summary": "合成词由两个或以上词构成，按结构分合成名词、合成形容词、合成动词三类，中心词决定整个词的词性与单复数。连字符有三条硬规则：数词 + 名词作前置定语必须加连字符且名词用单数；形容词或副词 + 过去分词作前置定语通常加连字符；为避免歧义或字母重复时加连字符。其余情况是否加连字符取决于该词是否已成为固定的封闭式词条。",
+        "sections": [
+          {
+            "h": "三类合成词",
+            "p": "先判断合成词的中心词，再判断它属于哪一类，这决定它的词性与复数的位置。",
+            "bullets": [
+              "合成名词：bedroom, sunflower（封闭式）；bus stop, swimming pool（开放式）；breakdown, checkout（动词 + 副词）",
+              "合成形容词：well-known, hard-working, five-year-old, man-made",
+              "合成动词：babysit, sunbathe, overcome, understand"
+            ]
+          },
+          {
+            "h": "连字符的三条硬规则",
+            "p": "这三条是考试中的判分点，违反即错；其余情况属于书写习惯，不算语法错误。",
+            "bullets": [
+              "数词 + 名词 + 形容词或过去分词：a five-year-old boy, a two-hour meeting（名词用单数）",
+              "形容词或副词 + 过去分词作前置定语：a well-known writer, a hard-working student",
+              "避免歧义或字母重复：re-elect, co-own, a small-business owner"
+            ]
+          },
+          {
+            "h": "不加连字符的情形",
+            "p": "封闭式合成词已经固定为一个词，开放式合成词按两个词分写，都不加连字符；该连而不连会造成误读，不该连而连上则不符合书写规范。",
+            "bullets": [
+              "封闭式：homework, notebook, sunflower, earthquake",
+              "开放式：bus stop, swimming pool, living room",
+              "作表语时可去掉连字符：The writer is well known in Europe."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She is a well-known expert on climate policy.", "zh": "她是一位知名的气候政策专家。", "ok": true, "note": "well 加过去分词 known 作前置定语，用连字符构成合成形容词。" },
+          { "en": "He has a five-year-old daughter and a three-year-old son.", "zh": "他有一个五岁的女儿和一个三岁的儿子。", "ok": true, "note": "数词 + 名词 + 形容词作前置定语，year 用单数并加连字符。" },
+          { "en": "He has a five-years-old daughter.", "zh": "他有一个五岁的女儿。", "ok": false, "note": "复合定语内部名词必须用单数，应改为 five-year-old。" },
+          { "en": "The breakdown of the talks surprised everyone.", "zh": "谈判破裂让所有人感到意外。", "ok": true, "note": "break 加 down 构成合成名词 breakdown，重音在 break 上。" },
+          { "en": "She works as a part-time assistant in the library.", "zh": "她在图书馆做兼职助理。", "ok": true, "note": "part 加 time 作前置定语，用连字符构成合成形容词。" },
+          { "en": "They moved into a three-hundred-years-old house.", "zh": "他们搬进了一栋有三百多年历史的房子。", "ok": false, "note": "复合定语内部名词用单数，应改为 three-hundred-year-old。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She has an eight-years-old daughter.", "right": "She has an eight-year-old daughter.", "why": "数词 + 名词 + 形容词作前置定语时，名词必须用单数，三个成分用连字符连接。" },
+          { "wrong": "He is a well known writer in this country.", "right": "He is a well-known writer in this country.", "why": "well 加过去分词作前置定语时要用连字符连接，否则 well 会被读成独立修饰 writer 的副词。" },
+          { "wrong": "The break down of the machine was caused by a loose screw.", "right": "The breakdown of the machine was caused by a loose screw.", "why": "break down 是动词短语，名词化后写成封闭式的 breakdown，才能放在 The 之后作主语。" }
+        ],
+        "contrast": { "withTitle": "复合名词的复数形式", "diff": "本知识点处理合成词的构成与书写形式；复合名词的复数讲的是同一个合成名词内部 s 该加在哪个成分上。" },
+        "mnemonic": "数词加名词作定语，名词单数带连字符；动词短语变名词，写成一个词。"
+      },
+      "review": {
+        "core": [
+          "三类：合成名词、合成形容词、合成动词，中心词定词性",
+          "数词 + 名词作定语：名词单数 + 连字符（five-year-old）",
+          "形容词或副词 + 过去分词作定语：well-known, hard-working",
+          "封闭式不加连字符：homework, breakdown；开放式分写：bus stop",
+          "作表语时可去掉连字符：The writer is well known."
+        ],
+        "trigger": "看到连字符前的数词或 well/hard 类词 → 检查后面的名词是否单数、连字符是否齐全",
+        "quickCheck": [
+          { "q": "“一个八岁的女孩”怎么写？", "a": "an eight-year-old girl。" },
+          { "q": "break down 作名词怎么写？", "a": "breakdown，一个词。" },
+          { "q": "well-known 作表语时连字符要不要？", "a": "可以去掉，写成 The writer is well known." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.word_formation.compounds.d1",
+          "type": "choice",
+          "stem": "They live in a ___ house near the river.",
+          "options": ["three-hundred-year-old", "three-hundred-years-old", "three hundred year old", "three-hundred-year old"],
+          "answer": "three-hundred-year-old",
+          "explain": "数词 + 名词 + 形容词作前置定语，各成分用连字符连接，名词 year 用单数。",
+          "trap": "three-hundred-years-old 只在 year 上加 s 出错，其余部分正确，是最强干扰项。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.word_formation.compounds.d2",
+          "type": "fill",
+          "stem": "He is a ___ (well know) lawyer in this city.",
+          "answer": "well-known",
+          "accept": ["well-known"],
+          "hint": "副词加过去分词作前置定语。",
+          "explain": "well 修饰过去分词 known，作前置定语时用连字符连接，构成 well-known。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.compounds.d3",
+          "type": "correct",
+          "stem": "She has an eight-years-old daughter.",
+          "answer": "She has an eight-year-old daughter.",
+          "accept": ["She has an eight-year-old daughter."],
+          "explain": "复合定语内部名词必须用单数，eight-year-old 三个成分用连字符连接。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.compounds.d4",
+          "type": "choice",
+          "stem": "The ___ of the machine was caused by a loose screw.",
+          "options": ["breakdown", "break down", "breaking down", "broke down"],
+          "answer": "breakdown",
+          "explain": "空格前有冠词 The，需要名词；动词短语 break down 名词化后写成封闭式的 breakdown。",
+          "trap": "break down 是动词短语，不能直接放在 The 之后作主语。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.compounds.d5",
+          "type": "translate",
+          "stem": "这是一家新开的二十四小时便利店。",
+          "answer": "This is a newly opened twenty-four-hour convenience store.",
+          "require": [["twenty-four-hour"], ["convenience store"]],
+          "forbid": ["twenty-four-hours", "twenty four hours"],
+          "explain": "数词 + 名词作前置定语，hour 用单数并加连字符，整体修饰 convenience store。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.word_formation.compounds.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "works", "as", "a", "part-time", "assistant", "in", "the", "library."],
+          "answer": "He works as a part-time assistant in the library.",
+          "explain": "part-time 为合成形容词，作前置定语修饰 assistant，中间加连字符。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.word_formation.cloze-path",
+      "title": "语法填空中的词性判定路径",
+      "brief": "四步定位：看前后、定词性、选派生、查拼写",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.word_formation.suffixes", "morph.word_formation.derivation"],
+      "concept": {
+        "summary": "语法填空给提示词时按四步走：看空格前后确定所需词性，看句子结构确认单复数或时态，从提示词派生出对应形式，最后检查拼写。空格前是冠词、形容词、介词或所有格时填名词；空格前是 be 或系动词时填形容词；空格修饰动词、形容词或全句时填副词；空格处缺谓语时填动词并注意时态与主谓一致。",
+        "sections": [
+          {
+            "h": "四步判定路径",
+            "p": "四步必须按顺序执行。跳过第二步直接想词形，是这类题失分的主要原因。",
+            "bullets": [
+              "第一步 看空格前后：冠词、形容词、介词、所有格 → 名词；be 或系动词 → 形容词；实义动词、形容词、全句 → 副词；主语后缺谓语 → 动词",
+              "第二步 看结构：名词定单复数，动词定时态语态与主谓一致，形容词看比较级",
+              "第三步 派生：按词性选后缀，必要时加否定前缀",
+              "第四步 查拼写：去 e、双写、y 变 i、词干变化"
+            ]
+          },
+          {
+            "h": "五种空格位置的固定反应",
+            "p": "这五种位置覆盖了语法填空中绝大多数词性转换题，形成条件反射后可以快速判定。",
+            "bullets": [
+              "the / a / an / 形容词 / 介词 / 所有格 + ___ → 名词",
+              "be / look / sound / feel / become / remain + ___ → 形容词",
+              "___ + 动词 / 形容词 / 全句 → 副词",
+              "主语 + ___ + 宾语 → 谓语动词，需定时态与语态",
+              "介词 + ___ → 名词或动名词"
+            ]
+          },
+          {
+            "h": "判定之后的三项检查",
+            "p": "词性对了但形式错，同样不得分；三项检查各对应一类高频错误。",
+            "bullets": [
+              "名词：可数不可数、单复数、是否需要冠词",
+              "动词：时态、语态、主谓一致、及物性",
+              "形容词与副词：比较级、-ing 与 -ed 的选择、-ly 的拼写"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The arrival of the guests delayed dinner by half an hour.", "zh": "客人们的到来使晚餐推迟了半小时。", "ok": true, "note": "冠词 The 后、介词 of 前需要名词，arrive 的名词形式是 arrival。" },
+          { "en": "The arrive of the guests delayed dinner by half an hour.", "zh": "客人们的到来使晚餐推迟了半小时。", "ok": false, "note": "冠词后需要名词，arrive 是动词，应改为 arrival。" },
+          { "en": "The instructions were confusing, so we asked the teacher for help.", "zh": "说明令人困惑，所以我们向老师求助。", "ok": true, "note": "be 动词后需要形容词，说明事物特征用 -ing 形式 confusing。" },
+          { "en": "He answered all the questions confidently.", "zh": "他自信地回答了所有问题。", "ok": true, "note": "空格修饰动词 answered，需要副词 confidently。" },
+          { "en": "He answered all the questions confident.", "zh": "他自信地回答了所有问题。", "ok": false, "note": "修饰动词 answered 需要副词，confident 是形容词。" },
+          { "en": "They decided to move abroad after the interview.", "zh": "面试之后他们决定移居国外。", "ok": true, "note": "主语后缺谓语，需要限定动词 decided，与 after 从句的过去时间一致。" },
+          { "en": "The room was complete silent after the announcement.", "zh": "宣布之后房间里一片寂静。", "ok": false, "note": "修饰形容词 silent 需要副词 completely，不能用形容词 complete。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Her patient finally ran out after two hours of waiting.", "right": "Her patience finally ran out after two hours of waiting.", "why": "所有格 Her 后需要名词；patient 作形容词意为“有耐心的”，作名词意为“病人”，抽象名词形式是 patience。" },
+          { "wrong": "The room was complete silent after the announcement.", "right": "The room was completely silent after the announcement.", "why": "修饰形容词 silent 需要副词 completely；complete 是形容词，不能修饰另一个形容词。" },
+          { "wrong": "The instructions were confusion, so nobody knew what to do.", "right": "The instructions were confusing, so nobody knew what to do.", "why": "be 后作表语说明事物特征用 -ing 形容词 confusing，confusion 是名词。" }
+        ],
+        "contrast": { "withTitle": "无提示词的填空判定路径", "diff": "本知识点处理括号已给提示词的情况，重点是词性转换；无提示词时改为判断冠词、介词、连词等虚词，不涉及派生。" },
+        "mnemonic": "前看冠词填名词，be 后填形容词，修饰动词填副词，缺谓语填动词。"
+      },
+      "review": {
+        "core": [
+          "四步：看前后 → 定词性 → 选派生 → 查拼写",
+          "冠词、形容词、介词、所有格后 → 名词",
+          "be 与系动词后 → 形容词；修饰动词或形容词 → 副词",
+          "主语后缺谓语 → 动词，须定时态、语态、主谓一致",
+          "词性对了还要查单复数、比较级与拼写"
+        ],
+        "trigger": "看到括号给词 → 先看空格前后定词性 → 再动后缀，不要先想词形",
+        "quickCheck": [
+          { "q": "the ___ (arrive) of the guests 填什么？", "a": "arrival，冠词后需要名词。" },
+          { "q": "be 动词后填形容词还是副词？", "a": "形容词，作表语。" },
+          { "q": "修饰形容词 silent 用什么词性？", "a": "副词，如 completely silent。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.word_formation.cloze-path.d1",
+          "type": "choice",
+          "stem": "The ___ of the new policy will take effect next month.",
+          "options": ["implementation", "implement", "implemental", "implemented"],
+          "answer": "implementation",
+          "explain": "冠词 The 后、介词 of 前需要名词，implement 的名词形式是 implementation。",
+          "trap": "implement 是动词，implemented 是过去分词，两者都不能作 The 之后的中心名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.cloze-path.d2",
+          "type": "fill",
+          "stem": "She spoke ___ (confident) in front of the whole school.",
+          "answer": "confidently",
+          "accept": ["confidently"],
+          "hint": "空格修饰动词 spoke。",
+          "explain": "修饰动词 spoke 需要副词，confident 加 -ly 构成 confidently。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.word_formation.cloze-path.d3",
+          "type": "correct",
+          "stem": "The instructions were confusion, so nobody knew what to do.",
+          "answer": "The instructions were confusing, so nobody knew what to do.",
+          "accept": ["The instructions were confusing, so nobody knew what to do."],
+          "explain": "be 后作表语说明事物特征，用 -ing 形容词 confusing；confusion 是名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.cloze-path.d4",
+          "type": "choice",
+          "stem": "He ___ to accept the offer after a long talk with his family.",
+          "options": ["decided", "decision", "decisive", "deciding"],
+          "answer": "decided",
+          "explain": "主语 He 后缺谓语，需要限定动词；after 短语指向过去，故用一般过去时 decided。",
+          "trap": "decision 是名词，不能作谓语；decisive 是形容词，同样缺谓语。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.cloze-path.d5",
+          "type": "translate",
+          "stem": "他的到来让所有人都感到惊讶。",
+          "answer": "His arrival surprised everyone present.",
+          "require": [["arrival"], ["surprised"]],
+          "forbid": ["His arrive"],
+          "explain": "所有格 His 后需要名词 arrival；surprised 作谓语，用一般过去时。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.cloze-path.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "answered", "all", "the", "questions", "confidently."],
+          "answer": "He answered all the questions confidently.",
+          "explain": "confidently 为副词，修饰动词 answered，说明回答的方式。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.word_formation.confusables",
+      "title": "易混派生词辨析",
+      "brief": "同根派生词看后缀定词性，看方向定词义",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["morph.word_formation.suffixes"],
+      "concept": {
+        "summary": "易混派生词多来自同一词根，辨析看两条线：后缀决定词性，词义方向决定选哪一个。economic 是“经济的”，economical 是“节约的”；sensible 是“明智的”，sensitive 是“敏感的”；considerable 是“相当大的”，considerate 是“体贴的”。只记中文释义容易混，必须连同固定搭配一起记。",
+        "sections": [
+          {
+            "h": "两条辨析线",
+            "p": "先看后缀能不能定词性，再看词义指向“领域、对象还是程度”。两条线都过一遍，才能排除形近干扰。",
+            "bullets": [
+              "后缀定词性：-ic 形容词，-ics 学科名词，-ist 指人",
+              "词义方向：描述领域（economic）还是描述用法（economical）",
+              "搭配定词：be sensitive to, be considerate of, a considerable amount of"
+            ]
+          },
+          {
+            "h": "六组高频对照",
+            "p": "这六组在单项填空中反复出现，建议成对背，并各配一个固定搭配。",
+            "bullets": [
+              "economic 经济的 / economical 节约的 / economy 经济 / economics 经济学",
+              "historic 历史性的 / historical 与历史有关的",
+              "sensible 明智的 / sensitive 敏感的",
+              "considerable 相当大的 / considerate 体贴的",
+              "imaginative 有想象力的 / imaginary 虚构的 / imaginable 可想象的",
+              "respectable 可敬的 / respectful 恭敬的 / respective 各自的"
+            ]
+          },
+          {
+            "h": "同形近义与词性错位",
+            "p": "另有一类是同根不同词性，看似同义实则不能互换，判断依据仍是句子成分。",
+            "bullets": [
+              "affect 动词“影响” / effect 名词“影响、效果”",
+              "advice 名词 / advise 动词；practice 名词 / practise 动词（英式）",
+              "success 名词 / succeed 动词 / successful 形容词"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The country is going through a difficult economic period.", "zh": "这个国家正经历一段经济困难时期。", "ok": true, "note": "economic 意为“经济的”，修饰 period 说明所属领域。" },
+          { "en": "A small car is more economical to run than a large one.", "zh": "小型车比大型车使用起来更省钱。", "ok": true, "note": "economical 意为“节约的”，与 to run 搭配说明使用成本。" },
+          { "en": "Small cars are more economic to run than large ones.", "zh": "小型车比大型车使用起来更省钱。", "ok": false, "note": "表示“省钱、节约”用 economical；economic 只表示“与经济有关的”。" },
+          { "en": "She is very sensitive to criticism, so choose your words carefully.", "zh": "她对批评很敏感，所以说话要小心。", "ok": true, "note": "sensitive 意为“敏感的”，固定搭配 be sensitive to。" },
+          { "en": "It was very considerable of you to wait for us in the rain.", "zh": "你在雨里等我们，真是太体贴了。", "ok": false, "note": "形容人体贴用 considerate；considerable 意为“相当大的”，不能描述人的行为。" },
+          { "en": "This is a historic moment for the whole nation.", "zh": "这是整个国家的历史性时刻。", "ok": true, "note": "historic 意为“历史性的、有重大意义的”，修饰 moment。" },
+          { "en": "The museum collects historical documents from the region.", "zh": "这家博物馆收藏该地区的历史文献。", "ok": true, "note": "historical 意为“与历史有关的”，修饰 documents。" }
+        ],
+        "pitfalls": [
+          { "wrong": "It was very considerable of you to bring an umbrella for me.", "right": "It was very considerate of you to bring an umbrella for me.", "why": "considerate 意为“体贴的”，用于 It is considerate of sb to do sth；considerable 意为“相当大的”，不描述人的体贴。" },
+          { "wrong": "He is very sensible to cold weather.", "right": "He is very sensitive to cold weather.", "why": "sensitive 意为“敏感的”，与 to 搭配表示对刺激的反应；sensible 意为“明智的”，不能接 to。" },
+          { "wrong": "The new rule will effect all students on campus.", "right": "The new rule will affect all students on campus.", "why": "effect 作动词意为“实现、促成”，表示“影响”的动词是 affect；effect 通常作名词。" }
+        ],
+        "contrast": { "withTitle": "易混介词辨析", "diff": "本知识点辨析同一词根派生出的形近词，差别在词性与语义方向；介词辨析处理同一形容词或动词搭配不同介词时的语义差别。" },
+        "mnemonic": "economic 经济的，economical 省钱的；sensible 明智，sensitive 敏感；considerable 大量，considerate 体贴。"
+      },
+      "review": {
+        "core": [
+          "辨析两线：后缀定词性，词义方向定选择",
+          "economic 经济的 / economical 节约的 / economics 经济学",
+          "sensible 明智的 / sensitive 敏感的（be sensitive to）",
+          "considerable 相当大的 / considerate 体贴的",
+          "imaginative 有想象力的 / imaginary 虚构的 / imaginable 可想象的"
+        ],
+        "trigger": "看到 -ic/-ical、-ible/-itive、-able/-ate 成对出现 → 先定词性再定词义方向 → 用固定搭配验证",
+        "quickCheck": [
+          { "q": "“省钱的车”用 economic 还是 economical？", "a": "economical，表示“节约的”。" },
+          { "q": "be sensitive ___ criticism 填什么介词？", "a": "to。" },
+          { "q": "affect 与 effect 的词性？", "a": "affect 是动词，effect 通常作名词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.word_formation.confusables.d1",
+          "type": "choice",
+          "stem": "The government announced a new ___ policy to boost employment.",
+          "options": ["economic", "economical", "economy", "economics"],
+          "answer": "economic",
+          "explain": "修饰 policy 说明政策所属领域，用形容词 economic“经济的”。",
+          "trap": "economical 意为“节约的”，修饰 policy 会变成“节约的政策”，与“促进就业”不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.confusables.d2",
+          "type": "fill",
+          "stem": "It was very ___ (consider) of you to bring an umbrella for me.",
+          "answer": "considerate",
+          "accept": ["considerate"],
+          "hint": "It is ... of sb to do sth 结构用来形容人的品质。",
+          "explain": "considerate 意为“体贴的”，用于 It is considerate of sb to do sth；considerable 意为“相当大的”。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.word_formation.confusables.d3",
+          "type": "correct",
+          "stem": "Small cars are more economic to run than large ones.",
+          "answer": "Small cars are more economical to run than large ones.",
+          "accept": ["Small cars are more economical to run than large ones."],
+          "explain": "表示“使用成本低、节约”用 economical；economic 只表示“与经济有关的”。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.confusables.d4",
+          "type": "choice",
+          "stem": "She is a highly ___ writer whose novels have been translated into many languages.",
+          "options": ["imaginative", "imaginary", "imaginable", "imagining"],
+          "answer": "imaginative",
+          "explain": "imaginative 意为“有想象力的”，修饰 writer 说明创作能力。",
+          "trap": "imaginary 意为“虚构的、想象中的”，修饰 writer 会变成“虚构的作家”。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.word_formation.confusables.d5",
+          "type": "translate",
+          "stem": "他对别人的批评很敏感。",
+          "answer": "He is very sensitive to other people's criticism.",
+          "require": [["sensitive"], ["criticism"]],
+          "forbid": ["sensible to"],
+          "explain": "sensitive 意为“敏感的”，固定搭配 be sensitive to；sensible 意为“明智的”，不能接 to 表敏感。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.word_formation.confusables.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["This", "is", "a", "historic", "moment", "for", "the", "whole", "nation."],
+          "answer": "This is a historic moment for the whole nation.",
+          "explain": "historic 意为“历史性的、有重大意义的”，修饰 moment。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.word_formation.negative-prefixes",
+      "title": "否定前缀的选择规则",
+      "brief": "否定前缀按首字母与语义选形",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["morph.word_formation.prefixes"],
+      "concept": {
+        "summary": "否定前缀按四条规则选：un- 最通用，可加在形容词、过去分词和动词上；in- 按词根首字母同化为 il-（l）、ir-（r）、im-（m/p/b），其余用 in-；dis- 多构成“相反动作或对立状态”；non- 表示“不属于某类”，语气中性，不构成对立。mis- 不表否定，而表“错误地”，不能与上述四类互换。",
+        "sections": [
+          {
+            "h": "四条选择规则",
+            "p": "先看词根首字母决定 in- 的变体，再看语义是“不”“相反”还是“类别之外”，最后排除 mis- 这类表“错误”的前缀。",
+            "bullets": [
+              "un-：最通用，可接形容词、过去分词、动词：unhappy, unfair, unlocked, undo",
+              "in- 及同化形式：illegal, irregular, impossible, immobile, incorrect, invisible",
+              "dis-：多接动词或派生形容词，表相反动作或对立：disagree, disappear, dishonest, discourage"
+            ]
+          },
+          {
+            "h": "in- 的同化表",
+            "p": "同化规则由发音决定：l 后接 il-，r 后接 ir-，双唇音 m/p/b 后接 im-，其余用 in-。这一条可以直接推导，不必逐词背。",
+            "bullets": [
+              "l → il-：illegal, illogical, illiterate",
+              "r → ir-：irregular, irresponsible, irreversible",
+              "m/p/b → im-：immoral, impossible, impatient, imbalance",
+              "其余 → in-：incorrect, invisible, indirect, inconvenient"
+            ]
+          },
+          {
+            "h": "语义差别",
+            "p": "四类前缀不是同义替换：dis- 强调与某状态相反，non- 只表示类别之外，un- 最中性。选错前缀即使意思接近也不地道。",
+            "bullets": [
+              "dishonest 不诚实的（与 honest 对立）/ non-existent 不存在的（类别外）",
+              "disappear 消失（相反动作）/ non-stop 直达的（不停靠）",
+              "misunderstand 误解（错误地）/ disagree 不同意（立场对立）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It is illegal to park on this side of the street.", "zh": "在街道这一侧停车是违法的。", "ok": true, "note": "legal 首字母为 l，否定形式用 il-，构成 illegal。" },
+          { "en": "It is inlegal to park on this side of the street.", "zh": "在街道这一侧停车是违法的。", "ok": false, "note": "in- 遇到 l 同化为 il-，正确形式是 illegal。" },
+          { "en": "The task is impossible to finish within one day.", "zh": "这项任务不可能在一天内完成。", "ok": true, "note": "possible 首字母为 p，否定形式用 im-，构成 impossible。" },
+          { "en": "He was dismissed because he was dishonest about his qualifications.", "zh": "他因在资历上不诚实而被解雇。", "ok": true, "note": "honest 的否定用 dis-，构成 dishonest，表“不诚实的”这一对立状态。" },
+          { "en": "He was dismissed because he was unhonest about his qualifications.", "zh": "他因在资历上不诚实而被解雇。", "ok": false, "note": "honest 不与 un- 搭配，否定形式固定为 dishonest。" },
+          { "en": "The hotel provides non-stop airport shuttle service.", "zh": "这家酒店提供直达机场的班车服务。", "ok": true, "note": "non-stop 表示“不停靠、直达”，non- 表类别外，语气中性。" },
+          { "en": "The road was impassable after the heavy snow.", "zh": "大雪之后这条路无法通行。", "ok": true, "note": "pass 首字母为 p，否定形式用 im-，构成 impassable。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The answer he gave was unpossible to verify.", "right": "The answer he gave was impossible to verify.", "why": "possible 首字母为 p，in- 同化为 im-，构成 impossible；unpossible 不是英语词。" },
+          { "wrong": "The two sides were disagree about the price.", "right": "The two sides disagreed about the price.", "why": "dis- 构成的 disagree 本身是动词，否定语义已含在前缀里，不能再加 be 作谓语；此处需要限定动词 disagreed。" },
+          { "wrong": "He is a un-smoker and never touches cigarettes.", "right": "He is a non-smoker and never touches cigarettes.", "why": "表示“不吸烟的人”这一类别用 non-；un- 只构成形容词或动词的否定，不能构成类别名词。" }
+        ],
+        "contrast": { "withTitle": "常见前缀的语义", "diff": "本知识点只在否定语义内部做选择；前缀语义部分按方向、程度、时间等大类给前缀分组。" },
+        "mnemonic": "l 配 il，r 配 ir，m/p/b 配 im，剩下都用 in；un 最通用，dis 表相反，non 表类别外。"
+      },
+      "review": {
+        "core": [
+          "un- 最通用：形容词、过去分词、动词",
+          "in- 同化：il-（l）/ ir-（r）/ im-（m/p/b）/ in-（其余）",
+          "dis- 表相反动作或对立状态：disagree, dishonest",
+          "non- 表类别外，中性：non-smoker, non-stop",
+          "mis- 表“错误地”，不是否定：misunderstand"
+        ],
+        "trigger": "看到需要否定前缀 → 先看词根首字母定 in- 的变体 → 再判语义是“不、相反还是类别外”",
+        "quickCheck": [
+          { "q": "legal 的否定形式？", "a": "illegal，l 前用 il-。" },
+          { "q": "possible 的否定形式？", "a": "impossible，p 前用 im-。" },
+          { "q": "“不吸烟的人”怎么说？", "a": "a non-smoker。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.word_formation.negative-prefixes.d1",
+          "type": "choice",
+          "stem": "It is ___ to drive without a licence in this country.",
+          "options": ["illegal", "inlegal", "unlegal", "dislegal"],
+          "answer": "illegal",
+          "explain": "legal 首字母为 l，in- 同化为 il-，构成 illegal。",
+          "trap": "inlegal 忽略了同化规则，in- 在 l 前必须变为 il-。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.negative-prefixes.d2",
+          "type": "fill",
+          "stem": "The task proved ___ (possible) within the given time, so we asked for an extension.",
+          "answer": "impossible",
+          "accept": ["impossible"],
+          "hint": "possible 的首字母决定 in- 的变体。",
+          "explain": "possible 首字母为 p，否定前缀用 im-，构成 impossible。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.negative-prefixes.d3",
+          "type": "correct",
+          "stem": "He was fired because he was unhonest about his qualifications.",
+          "answer": "He was fired because he was dishonest about his qualifications.",
+          "accept": ["He was fired because he was dishonest about his qualifications."],
+          "explain": "honest 的否定形式固定为 dishonest，un- 不能与 honest 搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.negative-prefixes.d4",
+          "type": "choice",
+          "stem": "The two sides ___ about the terms of the contract, so the talks broke down.",
+          "options": ["disagreed", "unagreed", "inagreed", "misagreed"],
+          "answer": "disagreed",
+          "explain": "disagree 表示“意见不一致”，由 dis- 加 agree 构成，作谓语用过去式 disagreed。",
+          "trap": "unagreed 与 inagreed 都不是英语词，agree 的否定形式固定用 dis-。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.negative-prefixes.d5",
+          "type": "translate",
+          "stem": "这台机器不可能在一天内修好。",
+          "answer": "It is impossible to repair this machine in one day.",
+          "require": [["impossible"], ["repair"]],
+          "forbid": ["unpossible", "inpossible"],
+          "explain": "possible 的否定形式是 impossible，in- 在 p 前同化为 im-。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.word_formation.negative-prefixes.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "is", "illegal", "to", "copy", "this", "software", "without", "permission."],
+          "answer": "It is illegal to copy this software without permission.",
+          "explain": "legal 首字母为 l，否定前缀用 il-，构成 illegal；it 为形式主语，真正主语是 to copy 短语。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

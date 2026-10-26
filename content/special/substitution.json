@@ -1,0 +1,414 @@
+{
+  "level1": "special",
+  "chapter": "substitution",
+  "items": [
+    {
+      "id": "special.substitution.so-not",
+      "title": "so 与 not 的替代",
+      "brief": "so 代肯定从句，not 代否定从句",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["clause.noun_clause.object-clause-tense"],
+      "concept": {
+        "summary": "so 与 not 替代的是整个 that 宾语从句，只能跟在 think、believe、suppose、expect、imagine、hope、guess、be afraid 这类表示看法或希望的词后。so 代肯定的从句内容，not 代否定的从句内容；hope、be afraid、guess 只接受 not 形式。",
+        "sections": [
+          {
+            "h": "替代对象是整个从句",
+            "p": "so 不是代词，它顶替的是一个完整的陈述内容。判断方法是把 so 换回 that 从句，看句子是否仍然成立。",
+            "bullets": [
+              "I think so. = I think that it will rain.",
+              "I'm afraid not. = I'm afraid that she is not coming.",
+              "so 不能替代名词或短语：替代名词要用 one，如 I like your plan and I like mine too.",
+              "能带 so/not 的动词有限：think, believe, suppose, expect, imagine, hope, guess, be afraid"
+            ]
+          },
+          {
+            "h": "肯定用 so，否定用 not",
+            "p": "从句内容为肯定，用 so；从句内容为否定，用 not。think、believe、suppose、expect 允许把否定放在主句，形成 I don't think so，意思等于 I think not。",
+            "bullets": [
+              "I believe so. / I don't believe so. = I believe not.",
+              "hope 与 be afraid 不接受否定前移，否定只说 I hope not / I'm afraid not",
+              "be afraid 的否定形式固定为 I'm afraid not",
+              "guess 同 hope，否定形式是 I guess not"
+            ]
+          },
+          {
+            "h": "so 置句首的两种语序",
+            "p": "这一用法的 so 不替代从句，而是替代前句的谓语内容，靠语序区分“我也是”和“确实如此”。",
+            "bullets": [
+              "So do I. 表示“我也是”，助动词随前句变化，主谓倒装",
+              "So I do. 表示“确实如此”，主语在前，用来确认对方的话",
+              "My sister loves jazz, and so do I.",
+              "He works hard, and so he does."
+            ]
+          },
+          {
+            "h": "不能替代的三种情况",
+            "p": "so/not 只能占据宾语从句的位置，换成主语位置、定语位置或名词短语位置都不成立。",
+            "bullets": [
+              "从句作主语：用 That is surprising，so 不能占据主语位置",
+              "替代名词：用 one，如 I bought one too",
+              "替代形容词：用 too，如 the book was too"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The weather will improve, or at least I hope so.", "zh": "天气会好转，至少我希望如此。", "ok": true, "note": "so 替代 that the weather will improve 这个肯定从句。" },
+          { "en": "I don't think so.", "zh": "我不这么认为。", "ok": true, "note": "否定放在主句，so 仍替代肯定的从句形式，整体意思是否定的。" },
+          { "en": "My sister loves jazz, and so do I.", "zh": "我姐姐喜欢爵士乐，我也是。", "ok": true, "note": "so 置句首引起倒装，助动词 do 与前句 loves 的时态人称对应。" },
+          { "en": "He works hard, and so he does.", "zh": "他工作很努力，确实如此。", "ok": true, "note": "主语在 so 之后不倒装，用于确认对方刚刚说的话。" },
+          { "en": "I don't hope so.", "zh": "我不希望这样。", "ok": false, "note": "hope 不允许否定前移，否定替代固定在 not 上，应改为 I hope not." },
+          { "en": "I hope no.", "zh": "我希望不会。", "ok": false, "note": "替代否定从句的专用形式是 not，no 不能独立顶替整个从句，应改为 I hope not." }
+        ],
+        "pitfalls": [
+          { "wrong": "I don't hope so.", "right": "I hope not.", "why": "hope 的否定替代固定在 not 上，否定不放在主句谓语；只有 think、believe 这类动词才允许否定前移。" },
+          { "wrong": "I'm afraid no.", "right": "I'm afraid not.", "why": "no 是限定词或感叹词，需要后接名词或独立成句，不能顶替 that 从句；替代否定从句的专用形式是 not。" },
+          { "wrong": "I like coffee. So I do.", "right": "I like coffee. So do I.", "why": "表示“我也是”必须倒装且助动词随前句；So I do 是“我确实喜欢”，用于确认对方关于我的陈述。" }
+        ],
+        "contrast": { "withTitle": "do/does/did 替代谓语", "diff": "so 替代整个宾语从句，位置固定在动词后；do 替代的是谓语动词短语，不能带从句内容。" },
+        "mnemonic": "so 代肯定从句，not 代否定从句；hope 与 afraid 只认 not。"
+      },
+      "review": {
+        "core": [
+          "so/not 替代整个 that 宾语从句，不是替代名词",
+          "think/believe/suppose/expect 可否定前移：I don't think so",
+          "hope/be afraid/guess 只用 not：I hope not, I'm afraid not",
+          "So do I 是“我也是”，So I do 是“确实如此”",
+          "从句作主语或替代名词时不能用 so"
+        ],
+        "trigger": "看到 think/hope/afraid 后只有 so 或 not → 先还原 that 从句 → 再判肯定还是否定",
+        "quickCheck": [
+          { "q": "I don't hope so. 错在哪里？", "a": "hope 不允许否定前移，应说 I hope not。" },
+          { "q": "So do I 与 So I do 有什么区别？", "a": "前者是“我也是”，倒装；后者是“确实如此”，用于确认。" },
+          { "q": "so 能替代名词吗？", "a": "不能，替代名词要用 one/ones，so 只替代从句内容。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.substitution.so-not.d1",
+          "type": "choice",
+          "stem": "— Do you think it will rain this afternoon? — I ___.",
+          "options": ["don't think so", "think not so", "don't think it", "think no"],
+          "answer": "don't think so",
+          "explain": "think 允许否定前移，否定放在主句，so 替代 that it will rain 这个从句；三者组合成 I don't think so。",
+          "trap": "think not so 把 not 与 so 叠在一起，替代词只能二选一；think no 用限定词 no 顶替从句，结构不成立。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.substitution.so-not.d2",
+          "type": "fill",
+          "stem": "— Will it rain tomorrow? — I don't think ___.",
+          "answer": "so",
+          "accept": ["so"],
+          "hint": "否定已经在主句上，空缺处只需替代从句内容。",
+          "explain": "否定前移到主句后，替代词仍用 so 指代 that it will rain；not 会与前面的 don't 重复否定。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.substitution.so-not.d3",
+          "type": "correct",
+          "stem": "He asked whether the plan would work, and I said I thought no.",
+          "answer": "He asked whether the plan would work, and I said I thought not.",
+          "accept": ["He asked whether the plan would work, and I said I thought not."],
+          "explain": "替代否定从句的固定形式是 not，no 是限定词，不能单独充当 thought 的宾语。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.substitution.so-not.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "may", "be", "late,", "or", "at", "least", "I", "expect", "so."],
+          "answer": "She may be late, or at least I expect so.",
+          "explain": "so 替代 that she may be late 这个肯定从句，放在 expect 之后作宾语。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.substitution.so-not.d5",
+          "type": "translate",
+          "stem": "明天会下雨吗？我想不会。",
+          "answer": "Will it rain tomorrow? I don't think so.",
+          "require": [["rain"], ["don't think so", "do not think so", "think not"]],
+          "forbid": ["think no", "don't hope so"],
+          "explain": "第一人称 I 加 think 时否定前移，否定落在主句，so 替代肯定的从句形式；也可说 I think not，但不能用 no。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.substitution.so-not.d6",
+          "type": "choice",
+          "stem": "— I like coffee very much. — ___.",
+          "options": ["So do I", "So I do", "So am I", "So I am"],
+          "answer": "So do I",
+          "explain": "表示“我也是”时 so 置句首引起倒装，前句谓语是实义动词 like，助动词借 do。",
+          "trap": "So I do 是“我确实喜欢”，用来确认对方关于自己的话，不能回应别人的喜好。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "special.substitution.pro-verb",
+      "title": "do/does/did 替代谓语",
+      "brief": "do 代实义谓语，形式随时态人称变",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.verbs.do-emphasis"],
+      "concept": {
+        "summary": "do 的适当形式替代前面出现的“谓语动词 + 其宾语或状语”，形式由被替代谓语的人称、数、时态决定。它只替代实义动词短语；be 动词、情态动词、完成时的 have 都用自己的形式，不能换成 do。",
+        "sections": [
+          {
+            "h": "替代范围与形式",
+            "p": "do 顶替的是整个实义谓语部分，包括动词及其后的宾语、状语。形式跟着被替代的谓语走，不跟着当前分句的主语走。",
+            "bullets": [
+              "She plays the piano better than I do.（do = play the piano）",
+              "He finished the task earlier than we did.（did = finished the task）",
+              "— Who broke the window? — I did.",
+              "形式对应：过去用 did，第三人称单数现在用 does，其余现在用 do"
+            ]
+          },
+          {
+            "h": "三个高频位置",
+            "p": "替代主要出现在比较从句、简略回答与附和、附加疑问句中，这三处都要求避免重复谓语。",
+            "bullets": [
+              "比较：He runs faster than his brother does.",
+              "简略回答：— Does she like tea? — Yes, she does.",
+              "附和倒装：She passed the exam, and so did I.",
+              "附加疑问：You finished the report, didn't you?"
+            ]
+          },
+          {
+            "h": "不能替代的三类谓语",
+            "p": "be 动词、情态动词、完成时的助动词本身已经是操作词，重复时直接重复原词，不再借 do。",
+            "bullets": [
+              "be 动词重复 be：than I am",
+              "情态动词重复情态词：and I can too",
+              "完成时重复 have/has：and I have too",
+              "系表结构重复 be：and the kitchen was too"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She plays the piano much better than I do.", "zh": "她钢琴弹得比我好得多。", "ok": true, "note": "do 替代 play the piano，与前句的第三人称单数现在时对应，用原形是因为主语是 I。" },
+          { "en": "He finished the task earlier than we did.", "zh": "他比我们更早完成任务。", "ok": true, "note": "did 替代 finished the task，承载了过去时。" },
+          { "en": "— Who broke the window? — I did.", "zh": "—谁打破了窗户？—我。", "ok": true, "note": "简略回答中 did 替代 broke the window，避免重复整段谓语。" },
+          { "en": "She passed the exam, and so did I.", "zh": "她通过了考试，我也通过了。", "ok": true, "note": "so 置句首倒装，did 替代 passed the exam。" },
+          { "en": "He is much taller than I do.", "zh": "他比我高得多。", "ok": false, "note": "前句谓语是 be 动词 is，比较从句应重复 am，不能借 do，应改为 than I am。" },
+          { "en": "He has left for London, and I did too.", "zh": "他去伦敦了，我也去了。", "ok": false, "note": "前句是现在完成时，替代要用 have，不能用 did，应改为 and I have too。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She can sing well and I do too.", "right": "She can sing well and I can too.", "why": "情态动词 can 本身就是操作词，重复时直接沿用 can；借 do 会把谓语换成一般动词，与 can sing 不对应。" },
+          { "wrong": "The room is clean and the kitchen does too.", "right": "The room is clean and the kitchen is too.", "why": "前句谓语是系动词 is，替代时重复 be 动词，do 不能替代系表结构。" },
+          { "wrong": "He has finished the report, and his colleague did too.", "right": "He has finished the report, and his colleague has too.", "why": "现在完成时的替代词是 have/has，did 会把时态改写成一般过去时，与原句的完成意义不符。" }
+        ],
+        "contrast": { "withTitle": "so 与 not 的替代", "diff": "do 替代谓语动词短语，位置可在句末或从句中；so/not 替代整个宾语从句，只能出现在少数动词之后。" },
+        "mnemonic": "实义动词用 do 代，be、情态、have 各自留。"
+      },
+      "review": {
+        "core": [
+          "do 替代“实义动词 + 宾语/状语”，形式随被替代谓语变",
+          "过去用 did，第三人称单数现在用 does，其余用 do",
+          "常见于比较从句、简略回答、so 倒装、附加疑问",
+          "be 动词重复 be：than I am",
+          "情态动词重复情态词，完成时重复 have/has"
+        ],
+        "trigger": "比较句或简答里要避免重复动词 → 先看前句谓语类型 → 实义动词才借 do",
+        "quickCheck": [
+          { "q": "He is taller than I do. 错在哪里？", "a": "前句是 be 动词，应重复 am，改为 than I am。" },
+          { "q": "He has left, and I did too. 怎么改？", "a": "改为 and I have too，完成时的替代词是 have。" },
+          { "q": "She plays the piano better than I ___. 填什么？", "a": "do，替代 play the piano。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.substitution.pro-verb.d1",
+          "type": "choice",
+          "stem": "She plays the piano much better than her brother ___.",
+          "options": ["does", "do", "is", "plays"],
+          "answer": "does",
+          "explain": "than 从句用 does 替代 plays the piano；被替代的谓语是第三人称单数现在时，且从句主语 her brother 也是单数。",
+          "trap": "do 与单数主语不一致；plays 重复了前句谓语，失去替代的意义；is 与实义动词不对应。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.substitution.pro-verb.d2",
+          "type": "fill",
+          "stem": "— Who broke the window? — I ___.",
+          "answer": "did",
+          "accept": ["did"],
+          "hint": "被替代的谓语是过去式 broke the window。",
+          "explain": "简略回答用 did 替代 broke the window，did 承载过去时，主语换成 I 后形式不变。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.substitution.pro-verb.d3",
+          "type": "correct",
+          "stem": "He runs much faster than I am.",
+          "answer": "He runs much faster than I do.",
+          "accept": ["He runs much faster than I do."],
+          "explain": "前句谓语是实义动词 runs，比较从句要用 do 的相应形式替代，不能用 be 动词 am。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.substitution.pro-verb.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "finished", "the", "task", "earlier", "than", "we", "did."],
+          "answer": "He finished the task earlier than we did.",
+          "explain": "did 替代 finished the task，避免在 than 从句中重复谓语，同时保留过去时信息。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.substitution.pro-verb.d5",
+          "type": "translate",
+          "stem": "她唱歌比我好。",
+          "answer": "She sings better than I do.",
+          "require": [["sings"], ["better than"], ["I do"]],
+          "forbid": ["than I am", "than I sings", "than me do"],
+          "explain": "比较从句用 do 替代 sing，主语是 I，用原形 do；不能用 be 动词，也不能重复 sings。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.substitution.pro-verb.d6",
+          "type": "choice",
+          "stem": "I don't like coffee, but my sister ___.",
+          "options": ["does", "do", "is", "likes"],
+          "answer": "does",
+          "explain": "does 替代 likes coffee；被替代的谓语是第三人称单数现在时，从句主语 my sister 也是单数。",
+          "trap": "likes 后面缺宾语 coffee，且没有起到替代作用；is 与实义动词谓语不对应。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "special.substitution.one-ones-same",
+      "title": "one/ones/the same 的替代",
+      "brief": "one 代可数同类，the same 代同一情况",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["morph.pronouns.one-it-that"],
+      "concept": {
+        "summary": "one/ones 替代前面出现过的可数名词，表示同类中的另一个，不是同一个；不可数名词不能用 one，要用 that 或重复名词。the same 替代前面提到的不可数事物或整个情况。特指同一个事物时用 it，不用 one。",
+        "sections": [
+          {
+            "h": "one/ones 的三条限制",
+            "p": "先确认被替代的名词可数，再确认不是同一个事物，最后检查前面有没有限定词。三条都过关才能用 one。",
+            "bullets": [
+              "只代可数名词：a new bike → a new one；two bikes → two new ones",
+              "不可数名词不用 one：说 red wine 与 white，white 后不再接 one",
+              "物主代词后不用 one，直接用 mine / yours",
+              "one 前有形容词时必须带限定词：a red one / the red one，不能单独说 red one 作宾语"
+            ]
+          },
+          {
+            "h": "one 与 it 的分工",
+            "p": "it 回指同一个事物，one 回指同类中的另一个。判断依据是“原来那个还在不在、是不是同一个”。",
+            "bullets": [
+              "it = 同一个：I lost my key and can't find it.",
+              "one = 同类另一个：I lost my key and need to buy a new one.",
+              "the one = 同类中特指的那一个：The one on the desk is mine.",
+              "the ones = 特指的多个：The ones in the drawer are older."
+            ]
+          },
+          {
+            "h": "the same 的替代",
+            "p": "the same 替代前面提到的不可数事物、做法或整个情况，后面不加名词。",
+            "bullets": [
+              "— I'll have a black coffee. — The same for me.",
+              "His answer was the same as mine.",
+              "The same applies to online courses.",
+              "the same 前必须加 the，the same 单独使用时不带后面的名词"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "These shoes are too tight. Could you show me a larger one?", "zh": "这双鞋太紧了，能给我拿双大一点的吗？", "ok": true, "note": "one 替代 a shoe，指同类中的另一双，可数单数。" },
+          { "en": "I lost my umbrella yesterday, so I need to buy a new one.", "zh": "我昨天把伞丢了，所以需要买把新的。", "ok": true, "note": "one 替代 umbrella，指同类中的另一把，不是丢掉的那把。" },
+          { "en": "I found my umbrella and put it in the hall.", "zh": "我找到了伞，把它放在门厅里。", "ok": true, "note": "it 回指同一把伞，不能换成 one。" },
+          { "en": "The furniture in this room is older than that in the hall.", "zh": "这个房间的家具比门厅里的旧。", "ok": true, "note": "furniture 不可数，用 that 替代，不能用 one。" },
+          { "en": "I prefer red wine to white one.", "zh": "比起白葡萄酒，我更喜欢红葡萄酒。", "ok": false, "note": "wine 不可数，不能用 one 替代，应直接说 to white。" },
+          { "en": "This is my one, and that is yours.", "zh": "这是我的，那是你的。", "ok": false, "note": "物主代词后不能用 one，应改为 This is mine。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The advice he gave me was better than the one from my brother.", "right": "The advice he gave me was better than that from my brother.", "why": "advice 是不可数名词，one 只能替代可数名词，不可数用 that。" },
+          { "wrong": "I don't like this pen. Please give me other one.", "right": "I don't like this pen. Please give me another one.", "why": "one 前若有形容词，必须同时带限定词；other 是形容词，不能单独修饰 one，需用 another 或 an other。" },
+          { "wrong": "Her handwriting is clearer than my one.", "right": "Her handwriting is clearer than mine.", "why": "物主代词 my 不能与 one 连用，名词性物主代词 mine 本身已包含“我的字”。" }
+        ],
+        "contrast": { "withTitle": "one/ones/it/that 的替代区别", "diff": "本点从替代功能切入，重点是不可数名词与 the same；代词章节处理的是 one、it、that 的指代分工。" },
+        "mnemonic": "one 代同类可数，it 指同一个，不可数找 that，整件事用 the same。"
+      },
+      "review": {
+        "core": [
+          "one/ones 只替代可数名词，表示同类中的另一个",
+          "不可数名词用 that 或重复名词，绝不用 one",
+          "it 指同一个，one 指同类另一个",
+          "物主代词后用 mine/yours，不能加 one",
+          "the same 替代不可数事物或整个情况"
+        ],
+        "trigger": "看到 one 前是不可数名词或物主代词 → 立刻换 that 或名词性物主代词",
+        "quickCheck": [
+          { "q": "advice 能用 one 替代吗？", "a": "不能，advice 不可数，要用 that 或重复名词。" },
+          { "q": "I lost my pen and bought a new ___. 填什么？", "a": "one，替代可数名词 pen。" },
+          { "q": "my one 对吗？", "a": "不对，应说 mine。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.substitution.one-ones-same.d1",
+          "type": "choice",
+          "stem": "These shoes are too small. Could you show me a larger ___?",
+          "options": ["one", "ones", "it", "that"],
+          "answer": "one",
+          "explain": "空缺替代的是可数名词 shoe 的单数形式，与 a larger 搭配，用 one。",
+          "trap": "ones 是复数，与 a larger 的单数结构冲突；it 指同一双鞋，与“换一双大的”矛盾。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.substitution.one-ones-same.d2",
+          "type": "fill",
+          "stem": "The furniture in this room is older than ___ in the hall.",
+          "answer": "that",
+          "accept": ["that"],
+          "hint": "被替代的名词是 furniture。",
+          "explain": "furniture 是不可数名词，不能再用 one 替代，比较结构中用 that 指代前面提到的不可数名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.substitution.one-ones-same.d3",
+          "type": "correct",
+          "stem": "I lost my umbrella yesterday, so I need to buy a new it.",
+          "answer": "I lost my umbrella yesterday, so I need to buy a new one.",
+          "accept": ["I lost my umbrella yesterday, so I need to buy a new one."],
+          "explain": "要买的是同类中的另一把伞，不是丢掉的那把，因此用 one 而不是 it；it 不能受 a new 修饰。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.substitution.one-ones-same.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "one", "on", "the", "desk", "is", "mine."],
+          "answer": "The one on the desk is mine.",
+          "explain": "the one 替代同类中特指的那一个，on the desk 作后置定语限定它。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.substitution.one-ones-same.d5",
+          "type": "translate",
+          "stem": "这些苹果不新鲜，我想要一些新鲜的。",
+          "answer": "These apples are not fresh; I want some fresh ones.",
+          "require": [["apples"], ["fresh ones"]],
+          "forbid": ["fresh one", "fresh them", "fresh it"],
+          "explain": "apples 是可数名词复数，替代同类中的另一些用 ones，前面可带形容词 fresh。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.substitution.one-ones-same.d6",
+          "type": "choice",
+          "stem": "— I'll have a black coffee, please. — ___ for me.",
+          "options": ["The same", "The one", "Same one", "It same"],
+          "answer": "The same",
+          "explain": "the same 替代前面提到的不可数事物 a black coffee，表示“我也要一样的”。",
+          "trap": "the one 只能替代可数名词，coffee 在此是不可数用法；same one 缺少限定词且同样受可数性限制。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

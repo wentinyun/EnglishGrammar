@@ -1,0 +1,269 @@
+{
+  "level1": "tense_voice",
+  "chapter": "future_continuous",
+  "items": [
+    {
+      "id": "tense_voice.future_continuous.meaning",
+      "title": "将来进行时的意义与用法",
+      "brief": "will be doing 表将来某刻正在进行",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.verbs.four-forms"],
+      "concept": {
+        "summary": "将来进行时由 will be + 现在分词构成，用于把镜头对准将来某一时刻，说明那时某个动作正处于进行之中。它不回答“会不会做、愿不愿意做”，只回答“届时正在做什么”，这正是它与一般将来时 will do 的分界，因此语气客观平缓，常用于交代安排和礼貌询问。判断是否需要它，先看句中是否有明确的将来时间点（at this time tomorrow, at eight tonight）或另一个将来动作作为观察窗口。",
+        "sections": [
+          {
+            "h": "构成与句式变化",
+            "p": "肯定式是 will be doing，否定式是 will not be doing，疑问式把 will 提到句首。shall be doing 只用于第一人称的正式语体，日常表达一律用 will。be 后面必须是现在分词，这是选择题最常设的结构陷阱。",
+            "bullets": [
+              "肯定：At eight tonight I will be watching the match.",
+              "否定：I will not be working tomorrow, so we can meet.",
+              "疑问：Will you be using the car this afternoon?",
+              "缩写：I'll be waiting at the gate."
+            ]
+          },
+          {
+            "h": "三个典型场景",
+            "p": "将来进行时的使用场景由观察窗口决定：时间点给出窗口，动作在窗口内展开。三种高频场景分别是将来某刻正在进行、按计划即将发生的安排、以及礼貌地打听对方的安排。",
+            "bullets": [
+              "将来某刻正在进行：This time tomorrow I will be flying to Tokyo.",
+              "计划中的安排，语气客观：The manager will be giving a talk at ten.",
+              "礼貌询问，不带催促：Will you be staying for dinner?",
+              "与 still 连用强调持续：At midnight he will still be driving."
+            ]
+          },
+          {
+            "h": "不能进入进行时的动词",
+            "p": "进行时要求动作可以被观察为一段过程。表示状态、归属、构成的动词没有这个过程，因此没有进行时形式；瞬间动词可以用将来进行时，表示“届时正好在发生那一刻”，但不能与表持续时长的 for 短语连用。",
+            "bullets": [
+              "状态动词：know, believe, own, belong, consist, contain, resemble",
+              "× I will be knowing the result tomorrow. → √ I will know the result tomorrow.",
+              "瞬间动词可用：The train will be arriving at six."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "This time tomorrow I will be sitting on a plane to Tokyo.", "zh": "明天这个时候我正坐在飞往东京的飞机上。", "ok": true, "note": "this time tomorrow 给出观察窗口，动作在窗口内进行。" },
+          { "en": "At eight tonight we will be having dinner with the Smiths.", "zh": "今晚八点我们正和史密斯一家吃饭。", "ok": true, "note": "将来时间点加正在进行，是将来进行时最典型的用法。" },
+          { "en": "Will you be using the printer this afternoon?", "zh": "今天下午你会用打印机吗？", "ok": true, "note": "询问对方的安排而非提出请求，语气比 will you use 更客气。" },
+          { "en": "At nine tomorrow morning I will be take the exam.", "zh": "明天上午九点我正在考试。", "ok": false, "note": "will be 后必须接现在分词，正确形式是 will be taking。" },
+          { "en": "I will be knowing the answer tomorrow.", "zh": "明天我就知道答案了。", "ok": false, "note": "know 是状态动词，没有进行时形式，应改为 will know。" },
+          { "en": "Don't call at seven; we will be having dinner then.", "zh": "七点别打电话，那时我们正在吃饭。", "ok": true, "note": "分号后的 then 回指 seven，构成将来时间点。" }
+        ],
+        "pitfalls": [
+          { "wrong": "At this time tomorrow I will be sit in the classroom.", "right": "At this time tomorrow I will be sitting in the classroom.", "why": "will be doing 中的 be 后必须接现在分词，用原形是把一般将来时与将来进行时混拼。" },
+          { "wrong": "I will be knowing the result next Monday.", "right": "I will know the result next Monday.", "why": "know 表示状态而非可观察的过程，进行时无法承载状态动词。" },
+          { "wrong": "When you will be arriving, I will be waiting at the gate.", "right": "When you arrive, I will be waiting at the gate.", "why": "时间状语从句用一般现在时替代将来时，will be doing 不能出现在 when 引导的时间状语从句中。" }
+        ],
+        "contrast": { "withTitle": "一般将来时", "diff": "将来进行时把将来某一时刻切开，看那时动作正在进行；一般将来时只交代动作会发生，或表达说话人的意愿与承诺。" },
+        "mnemonic": "将来某刻正忙活，will be 后面加 ing；问人安排最客气，不催不逼留余地。"
+      },
+      "review": {
+        "core": [
+          "构成：will be + 现在分词；否定 will not be doing；疑问 Will you be doing...",
+          "核心：将来某一时刻或某段时间内正在进行，必须有明确的时间窗口",
+          "高频标志：at this time tomorrow / at eight tonight / this time next week",
+          "语用：陈述客观安排、礼貌询问，不带意愿色彩",
+          "状态动词 know/belong/consist 没有进行时，改用一般将来时"
+        ],
+        "trigger": "看到 at this time tomorrow、at + 将来时刻、this time next week → 问“届时是否正在进行” → 是则用 will be doing",
+        "quickCheck": [
+          { "q": "“明天上午九点我正在考试”怎么表达？", "a": "I will be taking an exam at nine tomorrow morning." },
+          { "q": "Will you be using the car? 与 Will you use the car? 有何不同？", "a": "前者客观询问安排，后者带有请求或意愿色彩。" },
+          { "q": "know 能说成 will be knowing 吗？", "a": "不能，状态动词没有进行时形式，用 will know。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.future_continuous.meaning.d1",
+          "type": "choice",
+          "stem": "This time next week we ___ on a beach in Hainan, so please don't call before noon.",
+          "options": ["will be lying", "will be lie", "will lying", "will have lain"],
+          "answer": "will be lying",
+          "explain": "this time next week 给出将来观察窗口，动作在窗口内持续，用 will be + 现在分词；lie 的现在分词是 lying。",
+          "trap": "will have lain 是将来完成时形式，需要 by + 将来时间表“到那时已完成”，与“届时正躺在沙滩上”不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_continuous.meaning.d2",
+          "type": "fill",
+          "stem": "At nine tomorrow morning the students ___ (take) their final exam, so the library will be closed.",
+          "answer": "will be taking",
+          "accept": ["will be taking"],
+          "hint": "先确认 at nine tomorrow morning 是将来时间点。",
+          "explain": "将来某一时刻正在进行的动作用 will be + 现在分词，主语是复数不影响 will be 的形式。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_continuous.meaning.d3",
+          "type": "correct",
+          "stem": "At this time tomorrow I will be sit in a train heading for Xi'an.",
+          "answer": "At this time tomorrow I will be sitting in a train heading for Xi'an.",
+          "accept": ["At this time tomorrow I will be sitting in a train heading for Xi'an."],
+          "explain": "将来进行时的结构是 will be + 现在分词，be 后接原形 sit 属于结构错误，应改为 sitting。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_continuous.meaning.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["This time", "tomorrow", "I", "will be", "flying", "to", "Berlin."],
+          "answer": "This time tomorrow I will be flying to Berlin.",
+          "explain": "This time tomorrow 是将来时间状语，主句用 will be flying 表示届时正在飞行。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_continuous.meaning.d5",
+          "type": "translate",
+          "stem": "明天上午十点，我们将在会议室讨论这个计划。",
+          "answer": "At ten tomorrow morning we will be discussing the plan in the meeting room.",
+          "require": [["will be discussing"], ["plan"], ["meeting room"]],
+          "forbid": ["will discuss"],
+          "explain": "句子给出将来时间点 at ten tomorrow morning，强调届时正在讨论的过程，用 will be doing；一般将来时只说明会讨论，不体现“届时正在进行”。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_continuous.meaning.d6",
+          "type": "fill",
+          "stem": "The manager ___ (not / attend) the meeting at three tomorrow; he will be flying to Shanghai.",
+          "answer": "will not be attending",
+          "accept": ["will not be attending", "won't be attending"],
+          "hint": "否定词放在 will 之后、be 之前。",
+          "explain": "将来进行时的否定式是 will not be + 现在分词，not 紧跟 will，不能插在 be 与现在分词之间。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.future_continuous.vs-future-simple",
+      "title": "将来进行时与一般将来时的区别",
+      "brief": "一个是“会做”，一个是“届时正做”",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["tense_voice.future_continuous.meaning"],
+      "concept": {
+        "summary": "两者的分界是是否把将来某一时刻当作观察窗口。一般将来时 will do 说明动作会发生，并可携带意愿、承诺、临时决定；将来进行时 will be doing 只陈述届时正处于进行中的动作，不带意愿，因而在询问安排时更客气。另一个可操作判据是：句中出现 by + 将来时间、强调“到那时完成”时，两者都不适用，应换成将来完成时。",
+        "sections": [
+          {
+            "h": "三个对照场景",
+            "p": "同一件事用两种时态，语义落点不同：will do 落在“做不做、愿不愿”，will be doing 落在“那时正在做”。判断时先找句子的时间窗口，再看说话人是否在表达意愿。",
+            "bullets": [
+              "I'll call you tonight.（承诺）/ I'll be calling you tonight.（按惯例、安排）",
+              "Will you stay for dinner?（邀请）/ Will you be staying for dinner?（询问安排）",
+              "I'll see the doctor tomorrow.（打算）/ I'll be seeing the doctor at four.（已有日程）"
+            ]
+          },
+          {
+            "h": "不能用将来进行时的两种情形",
+            "p": "临时决定和主动承担必须用 will do，因为它表达的是说话瞬间产生的意愿；by + 将来时间要求“到那时已经完成”，要用将来完成时 will have done。",
+            "bullets": [
+              "电话铃响：I'll answer it.（临时决定，不说 I'll be answering it.）",
+              "By next June I will have finished the course.（到六月完成，不用 will be finishing）",
+              "By the end of the term we will have covered ten units."
+            ]
+          },
+          {
+            "h": "结构不要混拼",
+            "p": "两个时态的助动词链条不同：will do 与 will be doing。把 be 与动词原形拼在一起是写作中最常见的混拼错误，检查时先看 will 后面跟的是 do 还是 be doing。",
+            "bullets": [
+              "will meet 与 will be meeting 都成立，但语义不同",
+              "× will be meet；× will meeting",
+              "疑问式：Will you be meeting him? / Will you meet him?"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I will be seeing the manager at four, so let's meet at six.", "zh": "我四点要见经理，我们六点见吧。", "ok": true, "note": "已有的日程安排，用将来进行时客观陈述。" },
+          { "en": "I will see the manager about your complaint, I promise.", "zh": "我保证会向经理反映你的投诉。", "ok": true, "note": "承诺带意愿色彩，用一般将来时 will do。" },
+          { "en": "Will you be staying for dinner?", "zh": "你晚饭留在这儿吃吗？", "ok": true, "note": "只是询问对方的安排，不给对方压力。" },
+          { "en": "Will you stay for dinner? We have prepared a lot.", "zh": "留下来吃晚饭好吗？我们准备了很多。", "ok": true, "note": "这是邀请，用一般将来时更直接。" },
+          { "en": "By next Friday I will be writing the last chapter.", "zh": "到下周五我就会写完最后一章。", "ok": false, "note": "by next Friday 要求“到那时已完成”，应改为 will have written。" },
+          { "en": "I will be help you with the luggage.", "zh": "我来帮你拿行李。", "ok": false, "note": "will be 后必须接现在分词，此处应为 will help 或 will be helping。" },
+          { "en": "While you will be reading, I will be taking notes.", "zh": "你读书的时候，我做笔记。", "ok": false, "note": "while 引导的时间状语从句用现在进行时表将来，应改为 While you are reading。" }
+        ],
+        "pitfalls": [
+          { "wrong": "By the end of this term we will be learning twelve units.", "right": "By the end of this term we will have learned twelve units.", "why": "by + 将来时间点要求“到那时已完成”，属于将来完成时的辖域；将来进行时只表示届时正在学。" },
+          { "wrong": "Will you be use the computer this afternoon?", "right": "Will you be using the computer this afternoon?", "why": "will be doing 中的 be 是助动词，后面只能接现在分词，不能接原形。" },
+          { "wrong": "I will be meeting him at ten, I promise.", "right": "I will meet him at ten, I promise.", "why": "I promise 标记的是承诺，承诺属于意愿，须用 will do；will be doing 只陈述安排。" }
+        ],
+        "contrast": { "withTitle": "一般将来时", "diff": "一般将来时回答“会不会、愿不愿”，将来进行时回答“届时正在做什么”；前者可带承诺与临时决定，后者只描述客观安排。" },
+        "mnemonic": "会做用 will do，正做用 will be doing；by 到位要完成，换成 will have done。"
+      },
+      "review": {
+        "core": [
+          "一般将来时 will do：会发生、意愿、承诺、临时决定",
+          "将来进行时 will be doing：届时正在进行，语气客观",
+          "邀请说 Will you stay...；问安排说 Will you be staying...",
+          "by + 将来时间 + 完成 → will have done，前两个时态都不对",
+          "结构只有 will do 与 will be doing，没有 will be do"
+        ],
+        "trigger": "看到 will 后面还要再加动词 → 先判断是“会做”还是“正做” → 只有“正做”才用 be + ing",
+        "quickCheck": [
+          { "q": "临时决定去接电话说什么？", "a": "I'll answer it. 临时决定用一般将来时。" },
+          { "q": "“到明年六月我就学完这本书了”用什么时态？", "a": "将来完成时：I will have finished the book by next June." },
+          { "q": "Will you be staying for dinner? 是邀请吗？", "a": "不是，它只询问对方的安排；邀请说 Will you stay for dinner?" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.future_continuous.vs-future-simple.d1",
+          "type": "choice",
+          "stem": "— Will you be ___ the car this evening? — No, you can borrow it.",
+          "options": ["using", "use", "used", "have used"],
+          "answer": "using",
+          "explain": "will be doing 的 be 后接现在分词，构成将来进行时；此处是礼貌打听对方今晚的用车安排。",
+          "trap": "use 是把一般将来时的动词原形直接放到 be 后面，助动词链条不成立。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_continuous.vs-future-simple.d2",
+          "type": "fill",
+          "stem": "I'm afraid I can't join you at six. I ___ (see) a client then.",
+          "answer": "will be seeing",
+          "accept": ["will be seeing", "'ll be seeing"],
+          "hint": "then 指 six，已是安排好的日程。",
+          "explain": "已安排好的将来日程用将来进行时，强调届时正在进行，而不是说话瞬间的临时决定。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_continuous.vs-future-simple.d3",
+          "type": "correct",
+          "stem": "By next June, she will be working here for ten years.",
+          "answer": "By next June, she will have worked here for ten years.",
+          "accept": ["By next June, she will have worked here for ten years."],
+          "explain": "by next June 表示“到那时为止”，与 for ten years 的累计时长搭配，须用将来完成时；将来进行时无法表达累计完成。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_continuous.vs-future-simple.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Will you", "be", "using", "the lab", "tomorrow afternoon?"],
+          "answer": "Will you be using the lab tomorrow afternoon?",
+          "explain": "疑问式把 will 提到句首，be 与现在分词保持不变，用于礼貌询问对方的安排。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_continuous.vs-future-simple.d5",
+          "type": "translate",
+          "stem": "明天下午三点我将在机场接一位来自伦敦的客户，所以不能参加会议。",
+          "answer": "I will be meeting a client from London at the airport at three tomorrow afternoon, so I can't attend the meeting.",
+          "require": [["will be meeting"], ["client"], ["airport"]],
+          "forbid": ["will meet a client"],
+          "explain": "接客户是既定安排，句子又给出将来时间点，用将来进行时陈述届时正在做；用 will meet 会带出临时决定或意愿的意味。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_continuous.vs-future-simple.d6",
+          "type": "fill",
+          "stem": "— The phone is ringing. — I ___ (answer) it.",
+          "answer": "will answer",
+          "accept": ["will answer", "'ll answer"],
+          "hint": "说话瞬间做出的决定。",
+          "explain": "临时决定、主动承担用一般将来时 will do，不能用 will be doing，因为后者表示事先安排好的动作。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

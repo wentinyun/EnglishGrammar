@@ -1,0 +1,671 @@
+{
+  "level1": "collocation",
+  "chapter": "prep_collocation",
+  "items": [
+    {
+      "id": "collocation.prep_collocation.verb-prep",
+      "title": "动词 + 介词的固定搭配",
+      "brief": "介词由宾语类型决定，及物动词不加介词",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.prepositions.gerund-after-prep"],
+      "concept": {
+        "summary": "动词 + 介词的搭配整条记忆，判断依据是介词后宾语的类型：接受者或对象用 to，受益者、原因、交换用 for，话题与领域用 on/about/in，伴随与工具用 with。同一动词换介词即换义：agree with 接人，agree to 接提议，agree on 接条款。另有一类动词本身就及物，汉语里的介词在英语中不能出现。",
+        "sections": [
+          {
+            "h": "按宾语类型定介词",
+            "p": "先把空格后的名词归类，再选介词。人、机构、对象归 to；事情、原因、代价归 for；话题、领域归 on/in/about。三类分工稳定，覆盖绝大多数高频搭配。",
+            "bullets": [
+              "接受者用 to：apologize to sb., explain sth. to sb., complain to sb.",
+              "原因与交换用 for：apologize for sth., thank sb. for sth., pay for sth.",
+              "话题与影响用 on：congratulate sb. on sth., spend money on sth., comment on sth.",
+              "伴随与工具用 with：agree with sb., compare A with B, deal with sth."
+            ]
+          },
+          {
+            "h": "同一动词换介词即换义",
+            "p": "agree、care、hear 这三个动词的介词变化最常考，且义项差别明显，必须成组记。",
+            "bullets": [
+              "agree with sb. 同意某人；agree to a plan 同意计划；agree on a price 就价格达成一致",
+              "care about 关心、在乎；care for 照顾、喜欢（多用于否定与疑问）",
+              "hear about 听说（间接得知）；hear from sb. 收到某人来信；hear of 听说过"
+            ]
+          },
+          {
+            "h": "汉语有介词、英语没有",
+            "p": "discuss、marry、enter、reach、contact、answer、attend 在英语中直接带宾语。汉语说“讨论关于…”“和…结婚”“进入…”，逐字翻译就会多出介词，这是写作中最高频的搭配错误。",
+            "bullets": [
+              "discuss the plan；× discuss about the plan",
+              "marry sb.；× marry with sb.",
+              "enter the room / reach the station / contact the manager / attend the meeting",
+              "介词后接动词一律用动名词：insist on doing, succeed in doing"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She apologized to the guests for the delay.", "zh": "她为延误向客人道了歉。", "ok": true, "note": "道歉对象由 to 引出，原因由 for 引出，两个介词分工不同。" },
+          { "en": "We finally agreed on a price with the seller.", "zh": "我们最终和卖家谈定了价格。", "ok": true, "note": "agree on 后接达成一致的具体条款或价格。" },
+          { "en": "She apologized the guests for the delay.", "zh": "她为延误向客人道了歉。", "ok": false, "note": "apologize 不及物，道歉对象必须由 to 引出，应改为 apologized to the guests。" },
+          { "en": "He insisted on paying for the meal.", "zh": "他坚持付饭钱。", "ok": true, "note": "insist on 的 on 是介词，后接动名词 paying。" },
+          { "en": "They discussed about the new policy for two hours.", "zh": "他们讨论新政策讨论了两个小时。", "ok": false, "note": "discuss 是及物动词，直接带宾语，应改为 discussed the new policy。" },
+          { "en": "The success of the project depends on careful planning.", "zh": "项目的成功取决于周密的计划。", "ok": true, "note": "depend on 的 on 不可省，后接名词短语。" },
+          { "en": "She married with a doctor from Canada.", "zh": "她嫁给了一位来自加拿大的医生。", "ok": false, "note": "marry 是及物动词，直接接宾语，应改为 married a doctor。" },
+          { "en": "Please explain the rule to the new students.", "zh": "请把这条规则向新生解释一下。", "ok": true, "note": "explain 的宾语是被解释的内容，接受者由 to 引出。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He explained me the problem.", "right": "He explained the problem to me.", "why": "explain 的宾语只能是“被解释的内容”，接受者必须由介词 to 引出，不能构成双宾语。" },
+          { "wrong": "We discussed about the budget.", "right": "We discussed the budget.", "why": "discuss 本身及物，about 只出现在名词 discussion 之后：a discussion about the budget。" },
+          { "wrong": "She apologized the teacher for being late.", "right": "She apologized to the teacher for being late.", "why": "apologize 是不及物动词，道歉对象必须由 to 引出，否则句子没有宾语落点。" }
+        ],
+        "contrast": { "withTitle": "形容词 + 介词的固定搭配", "diff": "动词的介词由动作指向决定（对人是 to、为事是 for）；形容词的介词由所评价的性质与对象关系决定。" },
+        "mnemonic": "人用 to，事用 for，话题用 on；discuss、marry、enter 后面不加介词。"
+      },
+      "review": {
+        "core": [
+          "agree with 人 / agree to 提议 / agree on 条款",
+          "apologize to sb. for sth.；thank sb. for sth.；congratulate sb. on sth.",
+          "insist on、depend on、succeed in 后接动名词",
+          "explain sth. to sb.，不能 explain sb. sth.",
+          "discuss / marry / enter / reach / contact 直接带宾语"
+        ],
+        "trigger": "看到动词后面想加介词 → 先问宾语是人还是事 → 再查该动词是否本来就及物",
+        "quickCheck": [
+          { "q": "agree with 与 agree to 的宾语分别是什么？", "a": "with 接人，to 接提议、计划。" },
+          { "q": "explain 能接双宾语吗？", "a": "不能，用 explain sth. to sb.。" },
+          { "q": "discuss 后面要加 about 吗？", "a": "不要，discuss 直接带宾语。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.prep_collocation.verb-prep.d1",
+          "type": "choice",
+          "stem": "The airline ___ the passengers for the long delay.",
+          "options": ["apologized to", "apologized", "apologized for", "apologized with"],
+          "answer": "apologized to",
+          "explain": "空格后是道歉的对象 the passengers，必须由介词 to 引出；原因 for the long delay 已在后面出现。",
+          "trap": "apologized for 后面的宾语应是事而不是人，选它会与后面的 for the long delay 重复。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.verb-prep.d2",
+          "type": "fill",
+          "stem": "She insisted on ___ (take) the night train to save time.",
+          "answer": "taking",
+          "accept": ["taking"],
+          "hint": "on 在这里是什么词性？",
+          "explain": "insist on 的 on 是介词，介词后的动词必须用动名词，故填 taking。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.verb-prep.d3",
+          "type": "correct",
+          "stem": "They discussed about the new budget for over two hours.",
+          "answer": "They discussed the new budget for over two hours.",
+          "accept": ["They discussed the new budget for over two hours."],
+          "explain": "discuss 是及物动词，直接带宾语，about 只用于名词 discussion 之后。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.verb-prep.d4",
+          "type": "choice",
+          "stem": "Nobody could ___ why the machine had stopped.",
+          "options": ["explain to us", "explain us", "explain with us", "explain for us"],
+          "answer": "explain to us",
+          "explain": "接受者必须由介词 to 引出，构成 explain sth. to sb.；explain 不能带双宾语。",
+          "trap": "explain us 是把汉语“给我们解释”逐字译成双宾语，英语中 explain 不允许这种结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.prep_collocation.verb-prep.d5",
+          "type": "translate",
+          "stem": "他为自己的迟到向老师道了歉。",
+          "answer": "He apologized to the teacher for being late.",
+          "require": [["apologized to"], ["for being late", "for his being late"]],
+          "forbid": ["apologized the teacher", "apologized for the teacher"],
+          "explain": "apologize to sb. for sth. 是固定结构：对象用 to，原因用 for，两个介词都不能省。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.prep_collocation.verb-prep.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "result", "depends", "on", "how", "carefully", "we", "plan."],
+          "answer": "The result depends on how carefully we plan.",
+          "explain": "depend on 的 on 后接宾语从句，从句用陈述语序 how carefully we plan。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.prep_collocation.adj-prep",
+      "title": "形容词 + 介词的固定搭配",
+      "brief": "对人 to、对事 for、领域 at/in、情绪 of",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["collocation.prep_collocation.verb-prep"],
+      "concept": {
+        "summary": "形容词后的介词由“评价对象与参照点”决定：态度指向人用 to，益处与用途指向事物用 for，能力与领域用 at/in，情绪触发与所属内容用 of/about，伴随与关系用 with。同一形容词换介词就换评价角度，因此不能按汉语直译，只能整条记搭配。介词后接动词一律用动名词。",
+        "sections": [
+          {
+            "h": "四类关系对应四组介词",
+            "p": "先给空格后的名词归类，再选介词。对象是人、事物、领域还是情绪来源，决定了唯一答案。",
+            "bullets": [
+              "对人：be kind / polite / friendly / rude / good to sb.",
+              "对事的益处：be good / bad / useful / harmful for sth.",
+              "领域与能力：be good / skillful / expert / poor at sth.；be interested / involved in sth.",
+              "情绪与所属：be proud / afraid / fond / capable / aware of sth.；be worried / curious / certain about sth."
+            ]
+          },
+          {
+            "h": "高频固定组",
+            "p": "以下搭配在语法填空与写作中出现频率最高，其中 with 组最容易被误换成 to 或 for。",
+            "bullets": [
+              "be satisfied with / familiar with / busy with / strict with sb. / popular with",
+              "be ready for / responsible for / famous for / suitable for / late for",
+              "be surprised at / good at / skilled at / disappointed at sth.",
+              "be different from / safe from / far from"
+            ]
+          },
+          {
+            "h": "两处高频失分",
+            "p": "一是介词后误用动词原形，二是把固定介词整个省掉。前者是词形问题，后者是结构问题，改错时都要检查。",
+            "bullets": [
+              "be good at swimming；× be good at swim",
+              "I am interested in music；× I am interested music",
+              "She is afraid of dogs；× She is afraid dogs"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She is very kind to her new neighbours.", "zh": "她对新邻居很友善。", "ok": true, "note": "态度指向人，用 to。" },
+          { "en": "Regular exercise is good for your heart.", "zh": "经常锻炼对你的心脏有好处。", "ok": true, "note": "益处指向事物，用 for。" },
+          { "en": "He is good at solving practical problems.", "zh": "他擅长解决实际问题。", "ok": true, "note": "能力指向领域，用 at，后接动名词。" },
+          { "en": "He is good in solving practical problems.", "zh": "他擅长解决实际问题。", "ok": false, "note": "表“擅长”的固定介词是 at，in 不能与 good 构成这一搭配。" },
+          { "en": "The teacher is strict with us but fair.", "zh": "老师对我们严格但公平。", "ok": true, "note": "strict 的对象是人，固定用 with。" },
+          { "en": "I am interested to modern architecture.", "zh": "我对现代建筑感兴趣。", "ok": false, "note": "interested 的固定介词是 in，且不能换成 to。" },
+          { "en": "We are all responsible for keeping the classroom clean.", "zh": "我们都有责任保持教室清洁。", "ok": true, "note": "responsible for 后接所负责的事情，用动名词。" },
+          { "en": "She is very proud for her son.", "zh": "她为儿子感到骄傲。", "ok": false, "note": "proud 的固定介词是 of，for 表受益或目的，不能表示骄傲的对象。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is good in English grammar.", "right": "He is good at English grammar.", "why": "表“在某学科或技能上有能力”的固定介词是 at；in 只与 field、area 这类表示范围的名词搭配，不能与 good 构成“擅长”义。" },
+          { "wrong": "I am interested to music.", "right": "I am interested in music.", "why": "interested 的固定介词是 in，删掉后形容词与宾语之间没有连接成分。" },
+          { "wrong": "She is proud for her students.", "right": "She is proud of her students.", "why": "骄傲这种情绪由 of 引出触发对象；for 表受益者或目的，指向的是“为谁而做”。" }
+        ],
+        "contrast": { "withTitle": "同一形容词搭配不同介词的语义差异", "diff": "本点给出每个形容词的默认介词；该点处理 good、sensitive、anxious 等词换介词后评价角度改变的三种情况。" },
+        "mnemonic": "对人 to，对事 for，领域 at/in，情绪 of/about，伴随 with。"
+      },
+      "review": {
+        "core": [
+          "对人：be kind / polite / rude / good to sb.",
+          "对事：be good / useful / harmful for sth.",
+          "领域：be good at, be interested in, be expert at",
+          "情绪与所属：be proud of, be afraid of, be worried about, be satisfied with",
+          "介词后接动词用动名词：be good at doing"
+        ],
+        "trigger": "看到形容词后面要接名词 → 先判对象是人、事、领域还是情绪来源 → 再选 to/for/at/of/about/with",
+        "quickCheck": [
+          { "q": "be good at 与 be good for 的区别？", "a": "at 表擅长某领域，for 表对…有益。" },
+          { "q": "be proud 后接什么介词？", "a": "of。" },
+          { "q": "be interested 后面能省 in 吗？", "a": "不能，in 是固定搭配的一部分。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.prep_collocation.adj-prep.d1",
+          "type": "choice",
+          "stem": "Moderate exercise is especially good ___ people who sit at a desk all day.",
+          "options": ["for", "to", "at", "with"],
+          "answer": "for",
+          "explain": "此处评价的是“对某类人有好处”，属于益处与用途，固定用 good for。",
+          "trap": "good to 表“对某人态度好”，主语必须是人；用来说运动对人好，语义错位。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.adj-prep.d2",
+          "type": "fill",
+          "stem": "She has always been fond ___ old maps.",
+          "answer": "of",
+          "accept": ["of"],
+          "hint": "这个介词与 proud、afraid 后面的介词相同。",
+          "explain": "be fond of 表示“喜爱”，of 引出喜爱的对象，属固定搭配。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.prep_collocation.adj-prep.d3",
+          "type": "correct",
+          "stem": "My brother is very good in mathematics.",
+          "answer": "My brother is very good at mathematics.",
+          "accept": ["My brother is very good at mathematics."],
+          "explain": "表“擅长某学科”的固定搭配是 be good at，in 不能替换 at。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.adj-prep.d4",
+          "type": "choice",
+          "stem": "The new employee is still not familiar ___ the filing system.",
+          "options": ["with", "to", "of", "for"],
+          "answer": "with",
+          "explain": "主语是人、宾语是被熟悉的事物时，用 be familiar with；familiar to 的主语必须是被熟悉的事物。",
+          "trap": "familiar to 的结构是“某物 is familiar to 某人”，主语与宾语的位置刚好相反，用在本句会造成主宾颠倒。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.prep_collocation.adj-prep.d5",
+          "type": "translate",
+          "stem": "我们为学校的变化感到骄傲。",
+          "answer": "We are proud of the changes in our school.",
+          "require": [["proud of"]],
+          "forbid": ["proud for", "proud about"],
+          "explain": "proud 的固定介词是 of，of 引出骄傲的对象；for 表受益，about 表话题，都不能替换。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.adj-prep.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "is", "very", "strict", "with", "her", "students."],
+          "answer": "She is very strict with her students.",
+          "explain": "strict 的对象是人，固定用 with；谓语 is 与单数主语 She 一致。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "collocation.prep_collocation.noun-prep",
+      "title": "名词 + 介词的固定搭配",
+      "brief": "名词的介词多继承同源动词或形容词",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["collocation.prep_collocation.adj-prep"],
+      "concept": {
+        "summary": "名词后的介词通常继承同源动词或形容词的搭配：depend on → dependence on，interested in → interest in，succeed in → success in。没有同源词可依时按语义关系定：to 引出对象与方向，for 引出目的、原因与交换，in 引出领域，of 引出所属与内容，on 引出话题与影响。判定时先还原同源词，再套介词。",
+        "sections": [
+          {
+            "h": "继承规则",
+            "p": "这是最可靠的一条路径：先把名词还原成动词或形容词，介词就跟着原词走，不必另记。",
+            "bullets": [
+              "depend on → dependence on；rely on → reliance on",
+              "succeed in → success in；participate in → participation in",
+              "interested in → interest in；satisfied with → satisfaction with",
+              "contribute to → contribution to；object to → objection to"
+            ]
+          },
+          {
+            "h": "to 与 for 的分工",
+            "p": "to 引出“针对谁、通向什么”的对象关系；for 引出“为了什么、因为什么、换什么”。这两组最容易混，判断时问一句“这个名词指向对象还是指向目的”。",
+            "bullets": [
+              "对象与方向用 to：the key to the door, the answer to the question, an introduction to the topic, damage to the environment",
+              "目的与原因用 for：the reason for the delay, a cure for the disease, respect for the law, a talent for music"
+            ]
+          },
+          {
+            "h": "in / of / with / on",
+            "p": "四个介词各管一类关系，配常见名词整组记。",
+            "bullets": [
+              "in 表领域：an expert in genetics, a rise in prices, difficulty in doing sth.",
+              "of 表所属与内容：the cause of the fire, an advantage of the plan, a lack of water",
+              "with 表伴随与关系：a talk with the manager, contact with local schools",
+              "on 表话题与影响：a lecture on climate, an effect on children, an attack on the proposal"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "There has been a sharp rise in house prices.", "zh": "房价大幅上涨。", "ok": true, "note": "rise 表“上涨的幅度”，领域由 in 引出。" },
+          { "en": "The key to the problem lies in communication.", "zh": "解决问题的关键在于沟通。", "ok": true, "note": "key 后固定用 to，引出所针对的问题。" },
+          { "en": "There has been a sharp rise of house prices.", "zh": "房价大幅上涨。", "ok": false, "note": "rise 的固定介词是 in，of 不能表示上涨所涉及的领域。" },
+          { "en": "His contribution to the project was widely recognized.", "zh": "他对项目的贡献得到了广泛认可。", "ok": true, "note": "contribution 继承动词 contribute to 的介词。" },
+          { "en": "She has a real talent for languages.", "zh": "她很有语言天赋。", "ok": true, "note": "talent 后固定用 for，引出天赋所在的方面。" },
+          { "en": "She has a real talent of languages.", "zh": "她很有语言天赋。", "ok": false, "note": "talent 的固定介词是 for，of 只能表所属，不能引出天赋所在的方面。" },
+          { "en": "The police are still investigating the cause of the fire.", "zh": "警方仍在调查起火原因。", "ok": true, "note": "cause 与结果之间是所属关系，用 of。" },
+          { "en": "We discussed the reason of the delay.", "zh": "我们讨论了延误的原因。", "ok": false, "note": "reason 的固定介词是 for，应改为 the reason for the delay。" }
+        ],
+        "pitfalls": [
+          { "wrong": "There is no easy answer of this question.", "right": "There is no easy answer to this question.", "why": "answer 表“针对某问题的解答”，对象关系由 to 引出；of 只表示所属，不能指向问题。" },
+          { "wrong": "He has a strong interest of modern art.", "right": "He has a strong interest in modern art.", "why": "interest 继承形容词 interested 的介词 in，of 无法表达“兴趣所在领域”。" },
+          { "wrong": "The company's dependence of oil imports is risky.", "right": "The company's dependence on oil imports is risky.", "why": "dependence 继承动词 depend 的介词 on，介词不随词性改变而更换。" }
+        ],
+        "contrast": { "withTitle": "同一形容词搭配不同介词的语义差异", "diff": "名词的介词多由同源动词或形容词继承，答案是唯一的；形容词组内部换介词则是改变评价角度，两组都要看语义指向。" },
+        "mnemonic": "先找同源词，介词跟着走；key、answer 用 to，reason、cure 用 for。"
+      },
+      "review": {
+        "core": [
+          "名词介词继承同源词：dependence on, interest in, success in, contribution to",
+          "to：key, answer, introduction, damage, contribution",
+          "for：reason, cure, respect, talent, admiration",
+          "in：rise, expert, difficulty, participation",
+          "of：cause, advantage, lack；on：lecture, effect, attack"
+        ],
+        "trigger": "看到名词后要接介词 → 先还原它的同源动词或形容词 → 再套用那条搭配",
+        "quickCheck": [
+          { "q": "the key ___ the door 用什么介词？", "a": "to。" },
+          { "q": "rise 后面接 in 还是 of？", "a": "in，a rise in prices。" },
+          { "q": "dependence 的介词是什么？", "a": "on，继承 depend on。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.prep_collocation.noun-prep.d1",
+          "type": "choice",
+          "stem": "The doctors could find no cure ___ the rare disease.",
+          "options": ["for", "to", "of", "with"],
+          "answer": "for",
+          "explain": "cure 后固定用 for，引出所针对的疾病，与 reason for 属同一类“目的与针对”关系。",
+          "trap": "to 是强干扰项，因为 answer、key 都用 to；但 cure 的固定介词是 for。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.prep_collocation.noun-prep.d2",
+          "type": "fill",
+          "stem": "There has been a steady rise ___ food prices this year.",
+          "answer": "in",
+          "accept": ["in"],
+          "hint": "这个名词表示“上涨的幅度”，需要引出涉及的领域。",
+          "explain": "a rise in sth. 是固定搭配，in 引出上涨所涉及的领域；of 只表所属。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.noun-prep.d3",
+          "type": "correct",
+          "stem": "There is no simple answer of that question.",
+          "answer": "There is no simple answer to that question.",
+          "accept": ["There is no simple answer to that question."],
+          "explain": "answer 表“针对某问题的解答”，对象由 to 引出，不能换成表所属的 of。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.noun-prep.d4",
+          "type": "choice",
+          "stem": "Her contribution ___ the team was far greater than people realized.",
+          "options": ["to", "for", "of", "in"],
+          "answer": "to",
+          "explain": "contribution 继承动词 contribute to 的介词，to 引出贡献的对象。",
+          "trap": "for 表目的或受益，contribution for 不是固定搭配；of 只表所属，无法指明贡献给了谁。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.noun-prep.d5",
+          "type": "translate",
+          "stem": "大雨是延误的原因。",
+          "answer": "The heavy rain was the reason for the delay.",
+          "require": [["reason for"]],
+          "forbid": ["reason of", "reason to"],
+          "explain": "reason 后固定用 for，引出原因所解释的那件事；of 表所属，to 表方向，都不能替换。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.noun-prep.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "book", "gives", "a", "brief", "introduction", "to", "modern", "physics."],
+          "answer": "The book gives a brief introduction to modern physics.",
+          "explain": "introduction to 是固定搭配，to 引出介绍所指向的学科。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.prep_collocation.adj-prep-contrast",
+      "title": "同一形容词搭配不同介词的语义差异",
+      "brief": "换介词即换评价角度，先定指向再选词",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["collocation.prep_collocation.adj-prep"],
+      "concept": {
+        "summary": "同一形容词配不同介词，改变的是“评价指向”：at 指向具体领域或触发点，for 指向受益者或目的，to 指向态度对象或外界刺激，about 指向所谈论、所忌讳或所担忧的内容。判断顺序是先确定句子要表达哪一种指向，再选介词；先选介词再猜语义必然出错。",
+        "sections": [
+          {
+            "h": "be good at / for / to",
+            "p": "三句的主语类型不同，介词随之不同：主语是人说能力，主语是事物说益处，主语是人说待人态度。",
+            "bullets": [
+              "at 表能力领域：She is good at maths. / He is good at explaining difficult ideas.",
+              "for 表受益对象：Walking is good for your knees. / Tourism is good for the local economy.",
+              "to 表待人态度，可与 kind 互换：The manager is good to new employees."
+            ]
+          },
+          {
+            "h": "be sensitive to / about",
+            "p": "to 是被动感受性，指对外界刺激或变化有反应；about 是主动介意，指不愿被人提及的话题。同一人可以对光敏感（to），同时对体重介意（about）。",
+            "bullets": [
+              "to：This camera is sensitive to changes in light. / She is sensitive to criticism.",
+              "about：He is rather sensitive about his height. / She is sensitive about money.",
+              "对比：Journalists should be sensitive to the mood of the crowd. / He is sensitive about his accent."
+            ]
+          },
+          {
+            "h": "be anxious about / for",
+            "p": "about 引出担忧的具体对象，指向可能发生的不利结果；for 引出渴望得到的东西，或为某人的安危担心。判定看后面的名词是“怕发生的事”还是“想得到的东西”。",
+            "bullets": [
+              "about：Parents are anxious about their children's safety. / She is anxious about the exam.",
+              "for：She is anxious for a chance to prove herself. / He is anxious for a reply.",
+              "同类对照：be angry with sb. / angry at sth.；be sorry for doing sth. / sorry about sth."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She is good at explaining difficult ideas.", "zh": "她擅长解释复杂的概念。", "ok": true, "note": "at 指向能力所及的领域，后接动名词。" },
+          { "en": "Walking is good for your knees.", "zh": "走路对你的膝盖有好处。", "ok": true, "note": "for 指向受益对象，主语是事物。" },
+          { "en": "The manager is always good to new employees.", "zh": "经理对新员工总是很好。", "ok": true, "note": "to 指向待人态度，可与 kind to 互换。" },
+          { "en": "Vegetables are good at your health.", "zh": "蔬菜对你的健康有好处。", "ok": false, "note": "at 表能力领域，不能引出受益对象，应改为 good for your health。" },
+          { "en": "He is rather sensitive about his height.", "zh": "他对自己的身高比较介意。", "ok": true, "note": "about 指向不愿被提及的话题，与 to 的“对刺激有反应”分工不同。" },
+          { "en": "He is very sensitive about bright light.", "zh": "他对强光很敏感。", "ok": false, "note": "强光属于外界刺激，应用 sensitive to；about 表“介意某话题”。" },
+          { "en": "Parents are naturally anxious about their children's safety.", "zh": "父母自然会担心孩子的安全。", "ok": true, "note": "about 引出担忧的具体对象。" },
+          { "en": "She is anxious for a chance to prove herself.", "zh": "她渴望有机会证明自己。", "ok": true, "note": "for 引出渴望得到的东西。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Fresh fruit is good at your skin.", "right": "Fresh fruit is good for your skin.", "why": "at 指向“能力所及的领域”，for 指向受益对象；营养对皮肤有益属于后者。" },
+          { "wrong": "He is sensitive about bright light.", "right": "He is sensitive to bright light.", "why": "to 引出引起反应的外界刺激，about 引出在意、忌讳的话题，两者指向不同。" },
+          { "wrong": "She is anxious for the coming exam.", "right": "She is anxious about the coming exam.", "why": "about 引出担忧的具体对象；for 表示渴望得到某物，与“担心考试”的语义冲突。" }
+        ],
+        "contrast": { "withTitle": "形容词 + 介词的固定搭配", "diff": "该点给出每个形容词的默认介词；本点处理同一形容词因介词不同而改变评价指向的情况，答案由语义指向决定。" },
+        "mnemonic": "at 领域，for 受益，to 态度；to 感受，about 忌讳；about 担忧，for 渴望。"
+      },
+      "review": {
+        "core": [
+          "good at 擅长 / good for 有益 / good to 待人好",
+          "sensitive to 对刺激有反应 / sensitive about 对话题介意",
+          "anxious about 担忧具体的事 / anxious for 渴望得到",
+          "判定顺序：先定评价指向，再选介词",
+          "同类对照：angry with sb. / angry at sth."
+        ],
+        "trigger": "看到 good、sensitive、anxious 后面跟介词 → 先问指向是“领域、受益、态度”还是“刺激、话题、担忧”",
+        "quickCheck": [
+          { "q": "good at 与 good for 各表什么？", "a": "at 表擅长某领域，for 表对…有益。" },
+          { "q": "sensitive about 表什么？", "a": "对某话题介意、忌讳。" },
+          { "q": "anxious for 与 anxious about 的区别？", "a": "for 表渴望得到，about 表为某事担忧。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.prep_collocation.adj-prep-contrast.d1",
+          "type": "choice",
+          "stem": "This kind of low-impact exercise is especially good ___ people who sit all day.",
+          "options": ["for", "at", "to", "with"],
+          "answer": "for",
+          "explain": "句子评价的是运动对某类人的益处，for 引出受益对象。",
+          "trap": "at 指向能力领域，需要人与“擅长”的语义，本句主语是运动而不是人。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.adj-prep-contrast.d2",
+          "type": "fill",
+          "stem": "He never talks about his childhood; he is still sensitive ___ it.",
+          "answer": "about",
+          "accept": ["about"],
+          "hint": "这里说的是“不愿被提及”，不是“对外界刺激有反应”。",
+          "explain": "sensitive about 表示对某话题介意、不愿触及，与前半句“从不谈起”呼应。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.prep_collocation.adj-prep-contrast.d3",
+          "type": "correct",
+          "stem": "She is anxious for the results of the medical test.",
+          "answer": "She is anxious about the results of the medical test.",
+          "accept": ["She is anxious about the results of the medical test."],
+          "explain": "此处是为检查结果担忧，about 引出担忧对象；anxious for 表示渴望得到，与语境不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.prep_collocation.adj-prep-contrast.d4",
+          "type": "choice",
+          "stem": "The novel is remarkably sensitive ___ the mood of the 1930s.",
+          "options": ["to", "about", "for", "at"],
+          "answer": "to",
+          "explain": "此处指作品对外界氛围有细腻感受力，属于“对刺激有反应”，用 sensitive to。",
+          "trap": "about 表“介意某话题”，主语必须是有意识的人，不能用于作品对时代氛围的感受力。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.prep_collocation.adj-prep-contrast.d5",
+          "type": "translate",
+          "stem": "他对自己的口音很敏感。",
+          "answer": "He is very sensitive about his accent.",
+          "require": [["sensitive about"]],
+          "forbid": ["sensitive to his accent"],
+          "explain": "口音是本人介意、不愿被提及的话题，用 sensitive about；to 用于外界刺激引起的反应。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.prep_collocation.adj-prep-contrast.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Fresh", "vegetables", "are", "good", "for", "your", "health."],
+          "answer": "Fresh vegetables are good for your health.",
+          "explain": "主语是事物，评价的是益处，用 good for；谓语 are 与复数主语一致。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "collocation.prep_collocation.fixed-phrases",
+      "title": "介词短语的固定表达",
+      "brief": "冠词与单复数都已固定，整体调用",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["collocation.prep_collocation.noun-prep"],
+      "concept": {
+        "summary": "固定介词短语是已经词汇化的整体，内部形式不能按语法推导：该有冠词的不能省（in the end, at the moment），不该有的不能加（at home, by hand, in fact），单复数也已固定（make friends with, take part in）。判断方法是把它当作一个词条整体调用，只分析它在句中作状语还是作定语，不改内部形式。",
+        "sections": [
+          {
+            "h": "零冠词短语",
+            "p": "表活动、方式、状态的介词短语通常不带冠词，因为名词已从“具体事物”转为“抽象活动”。这类短语是写作中的固定块，加冠词即错。",
+            "bullets": [
+              "at home / at school / at work / at night / at noon / at sea",
+              "by hand / by bus / by mistake / by chance / by heart",
+              "in fact / in danger / in trouble / in public / on time / on foot / on purpose"
+            ]
+          },
+          {
+            "h": "必须带冠词或限定词",
+            "p": "另一批短语的冠词是词条的一部分，删掉后短语不成立或意义改变。两组要成对记，不能互相类推。",
+            "bullets": [
+              "in the end / at the moment / on the whole / in the way / by the way",
+              "all of a sudden / as a result / in a hurry / on the other hand",
+              "对比：in front of 在…前面（外部）／ in the front of 在…前部（内部）"
+            ]
+          },
+          {
+            "h": "形式固定的动宾型短语",
+            "p": "以“动词 + 名词 + 介词”构成的固定搭配，名词的冠词与单复数都已锁定，改一个字母就换了一个词条。go to school 与 go to the school 的区别也属这一类：前者表活动，后者指具体建筑。",
+            "bullets": [
+              "make friends with / take part in / make use of / pay attention to / take care of",
+              "have access to / make sense / lose heart / keep in touch with",
+              "go to school 上学 ／ go to the school 去那所学校"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She goes to school by bike every morning.", "zh": "她每天早上骑自行车上学。", "ok": true, "note": "go to school 表“上学”这一活动，by bike 表交通方式，两处都用零冠词。" },
+          { "en": "In the end, we decided to stay at home.", "zh": "最后我们决定待在家里。", "ok": true, "note": "in the end 的冠词是词条的一部分，不能省。" },
+          { "en": "In end, we decided to stay at home.", "zh": "最后我们决定待在家里。", "ok": false, "note": "in the end 必须带定冠词，删掉后短语不成立。" },
+          { "en": "He finished the model boat by hand.", "zh": "他手工完成了这条模型船。", "ok": true, "note": "by hand 表方式，是零冠词固定短语。" },
+          { "en": "He finished the model boat by the hand.", "zh": "他手工完成了这条模型船。", "ok": false, "note": "by hand 为零冠词短语，加上 the 后变成具体的“那只手”，语义与结构都不对。" },
+          { "en": "The two boys soon made friends with each other.", "zh": "两个男孩很快成了朋友。", "ok": true, "note": "make friends with 的 friends 固定为复数。" },
+          { "en": "The two boys soon made friend with each other.", "zh": "两个男孩很快成了朋友。", "ok": false, "note": "make friends with 形式固定，friend 必须用复数 friends。" },
+          { "en": "As a result, the meeting was put off.", "zh": "结果，会议被推迟了。", "ok": true, "note": "as a result 是不定冠词固定短语，a 不能省也不能换成 the。" }
+        ],
+        "pitfalls": [
+          { "wrong": "In the fact, nobody knew the answer.", "right": "In fact, nobody knew the answer.", "why": "in fact 是零冠词固定短语，fact 前不加 the；加了 the 就变成特指某一事实，短语不再成立。" },
+          { "wrong": "She went to the school by the bus.", "right": "She went to school by bus.", "why": "by + 交通工具为零冠词结构；go to school 表“上学”这一活动时不加冠词，加了 the 就指具体的学校建筑。" },
+          { "wrong": "We should make friend with the new students.", "right": "We should make friends with the new students.", "why": "make friends with 的词条形式固定为复数 friends，单数形式不存在。" }
+        ],
+        "contrast": { "withTitle": "固定短语中的冠词", "diff": "该点从冠词系统讲零冠词与定冠词的取舍规则；本点把整个介词短语当作一个词条，连同介词、冠词、单复数一起记。" },
+        "mnemonic": "时间地点常裸奔，in the end 要戴帽；friend 变 friends，part 不加 s。"
+      },
+      "review": {
+        "core": [
+          "零冠词：at home/school/work/night, by hand/bus/mistake, in fact/danger, on time/foot",
+          "带冠词：in the end, at the moment, on the whole, in a hurry, as a result",
+          "in front of 在…前面（外部）／ in the front of 在…前部（内部）",
+          "动宾型固定：make friends with, take part in, make use of, pay attention to",
+          "go to school 上学 ／ go to the school 去那所学校"
+        ],
+        "trigger": "看到介词 + 名词的固定组合 → 直接调用整条短语，再核对冠词与单复数是否与原形一致",
+        "quickCheck": [
+          { "q": "in the end 能省掉 the 吗？", "a": "不能。" },
+          { "q": "make friends with 的 friend 用单数还是复数？", "a": "复数 friends。" },
+          { "q": "by bus 与 by the bus 哪个对？", "a": "by bus。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.prep_collocation.fixed-phrases.d1",
+          "type": "choice",
+          "stem": "___ , the project was completed two weeks ahead of schedule.",
+          "options": ["In the end", "In end", "At the end", "On the end"],
+          "answer": "In the end",
+          "explain": "in the end 表示“最终”，冠词 the 是词条的固定成分，可单独作句首状语。",
+          "trap": "At the end 后面必须接 of 短语说明“在…的末尾”，不能单独作状语，也不能表示“最终”。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.fixed-phrases.d2",
+          "type": "fill",
+          "stem": "The village can only be reached ___ foot.",
+          "answer": "on",
+          "accept": ["on"],
+          "hint": "这个短语表示交通方式，与 by bus 属同一类，但介词不同。",
+          "explain": "on foot 表示“步行”，是零冠词固定短语；交通方式中只有步行用 on，其余多用 by。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.fixed-phrases.d3",
+          "type": "correct",
+          "stem": "He solved the problem by the hand without any help.",
+          "answer": "He solved the problem by hand without any help.",
+          "accept": ["He solved the problem by hand without any help."],
+          "explain": "by hand 表示“用手工”，是零冠词固定短语，不能加 the。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.prep_collocation.fixed-phrases.d4",
+          "type": "choice",
+          "stem": "She has made ___ with several colleagues since she joined the team.",
+          "options": ["friends", "friend", "a friend", "the friends"],
+          "answer": "friends",
+          "explain": "make friends with 是固定词条，friends 恒为复数且不加冠词。",
+          "trap": "a friend 单独看成立，但与后面的 with 组合成 make a friend with，不是英语的固定搭配。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.prep_collocation.fixed-phrases.d5",
+          "type": "translate",
+          "stem": "最后我们决定乘公共汽车去博物馆。",
+          "answer": "In the end, we decided to go to the museum by bus.",
+          "require": [["in the end"], ["by bus"]],
+          "forbid": ["in end", "by the bus"],
+          "explain": "in the end 的冠词不可省；by bus 表交通方式，用零冠词结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.prep_collocation.fixed-phrases.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["We", "must", "take", "part", "in", "the", "debate."],
+          "answer": "We must take part in the debate.",
+          "explain": "take part in 是固定词条，part 为单数且不加冠词，与 take parts in 相对。",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1154 @@
+{
+  "level1": "morph",
+  "chapter": "articles",
+  "items": [
+    {
+      "id": "morph.articles.a-an-sound",
+      "title": "不定冠词 a/an 的音形判定",
+      "brief": "看首个音素不看首字母：辅音用 a，元音用 an",
+      "difficulty": 1,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.nouns.countability"],
+      "concept": {
+        "summary": "a/an 的选择只由后一个词开头的音素决定：辅音音素开头用 a，元音音素开头用 an，与拼写字母无关。判断顺序是先把缩写或数字读出声，再判断首音。a/an 只修饰单数可数名词，核心含义是「一个」，不能与 the、物主代词等限定词同现。",
+        "sections": [
+          {
+            "h": "判定步骤：先读音，再选形",
+            "p": "拿到空格后的词，先判断它在句中怎么读，取第一个音素。首音是元音音素或双元音时用 an；首音是辅音音素时用 a，其中包括 /j/ 与 /w/。拼写以元音字母开头但读辅音的词，一律用 a。",
+            "bullets": [
+              "用 a：a university, a European city, a useful tool, a one-way street, a uniform",
+              "用 an：an hour, an honest man, an heir, an honour, an umbrella",
+              "缩写按字母名称读：an MBA（/em/）、an FBI agent（/ef/）、a UN report（/juː/）、a UFO（/juː/）",
+              "数字按读法：an 8-year-old boy（eight）、an 11-metre rope（eleven）"
+            ]
+          },
+          {
+            "h": "单字母与缩略词的读音归类",
+            "p": "单个字母作名词时按字母名称发音，首音是元音的字母前用 an。缩略词若整体读成一个词，则按该词的读音判断，不再逐字母拆分。",
+            "bullets": [
+              "用 an 的字母：A, E, F, H, I, L, M, N, O, R, S, X",
+              "用 a 的字母：B, C, D, G, J, K, P, Q, T, U, V, W, Y, Z",
+              "整体拼读看首音：a NATO member（/ˈneɪtəʊ/）、an OPEC official（/ˈəʊpek/）"
+            ]
+          },
+          {
+            "h": "a/an 的语法限制",
+            "p": "a/an 只能修饰单数可数名词，且不能与 the、this、my 等限定词同现。复数名词与不可数名词泛指时用零冠词，特指时用 the。",
+            "bullets": [
+              "× a books / × an advice；√ books / √ some advice",
+              "× a my friend；√ a friend of mine",
+              "固定数量表达中 a/an 等于 one：a hundred, a dozen, a few, a quarter of an hour"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She is a university student majoring in economics.", "zh": "她是一名经济学专业的大学生。", "ok": true, "note": "university 读 /ˌjuːnɪˈvɜːsəti/，首音是辅音 /j/，尽管拼写以 u 开头仍用 a。" },
+          { "en": "She is an university student majoring in economics.", "zh": "她是一名经济学专业的大学生。", "ok": false, "note": "university 首音是辅音 /j/，应改为 a university，不能用 an。" },
+          { "en": "He waited for an hour outside the clinic.", "zh": "他在诊所外等了一小时。", "ok": true, "note": "hour 的 h 不发音，首音是双元音 /aʊ/，用 an。" },
+          { "en": "He waited for a hour outside the clinic.", "zh": "他在诊所外等了一小时。", "ok": false, "note": "hour 首音为元音 /aʊ/，应改为 an hour。" },
+          { "en": "It was an honour to be invited to the ceremony.", "zh": "被邀请参加典礼是一种荣幸。", "ok": true, "note": "honour 的 h 不发音，首音是 /ɒ/，用 an。" },
+          { "en": "The firm signed a one-year contract with a European supplier.", "zh": "公司与一家欧洲供应商签了一份为期一年的合同。", "ok": true, "note": "one 读 /wʌn/、European 读 /ˌjʊərəˈpiːən/，首音都是辅音，故用 a。" },
+          { "en": "He is a honest man who never breaks a promise.", "zh": "他是个从不食言的诚实人。", "ok": false, "note": "honest 的 h 不发音，首音是 /ɒ/，应改为 an honest man。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She is an European writer.", "right": "She is a European writer.", "why": "European 读 /ˌjʊərəˈpiːən/，首音是辅音 /j/；a/an 由音素决定，不由首字母是否为元音字母决定。" },
+          { "wrong": "He works for a FBI unit.", "right": "He works for an FBI unit.", "why": "F 读 /ef/，首音是元音 /e/；缩略词要按字母名称的读音判断。" },
+          { "wrong": "It is an useful book.", "right": "It is a useful book.", "why": "useful 读 /ˈjuːsfl/，首音是辅音 /j/，与拼写的 u 无关。" }
+        ],
+        "contrast": { "withTitle": "定冠词的特指用法", "diff": "a/an 引入听话人尚不知道的新信息，只用于单数可数名词；the 指双方都能唯一确定的那一个。" },
+        "mnemonic": "看音不看字：元音音素用 an，/j/ 和 /w/ 开头仍算辅音。"
+      },
+      "review": {
+        "core": [
+          "a/an 由后一词的首个音素决定：元音音素用 an，辅音音素用 a",
+          "/j/、/w/ 开头算辅音：a university, a European, a one-way street, a useful tool",
+          "h 不发音时用 an：an hour, an honest man, an honour, an heir",
+          "缩写按字母名称读：an MBA, an FBI agent, a UN report, a UFO",
+          "a/an 只修饰单数可数名词，相当于 one"
+        ],
+        "trigger": "看到空格后是 university/European/one/useful/honest/hour 或缩写 → 先读出声取首音 → 再决定 a 还是 an",
+        "quickCheck": [
+          { "q": "an MBA 还是 a MBA？", "a": "an MBA，M 读 /em/，首音是元音。" },
+          { "q": "a useful tool 为什么不用 an？", "a": "useful 读 /ˈjuːsfl/，首音是辅音 /j/。" },
+          { "q": "a/an 能修饰复数名词吗？", "a": "不能，复数泛指用零冠词，特指用 the。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.articles.a-an-sound.d1",
+          "type": "choice",
+          "stem": "He is ___ European writer who has lived in Shanghai for ten years.",
+          "options": ["a", "an", "the", "one"],
+          "answer": "a",
+          "explain": "European 读 /ˌjʊərəˈpiːən/，首音是辅音 /j/，用 a；此处首次提及一位作家，也不能用 the。",
+          "trap": "an 受首字母 E 的干扰，但 a/an 取决于读音，不取决于字母是否为元音。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.articles.a-an-sound.d2",
+          "type": "fill",
+          "stem": "The interview lasted ___ hour and a half.",
+          "answer": "an",
+          "accept": ["an"],
+          "hint": "hour 的 h 不发音。",
+          "explain": "hour 读 /ˈaʊə/，首音是双元音，故用 an；a hour 在音形上都不成立。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.articles.a-an-sound.d3",
+          "type": "correct",
+          "stem": "My brother is a honest boy who never tells lies.",
+          "answer": "My brother is an honest boy who never tells lies.",
+          "accept": ["My brother is an honest boy who never tells lies."],
+          "explain": "honest 的 h 不发音，首音是元音 /ɒ/，须用 an；句子其余部分无误。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.a-an-sound.d4",
+          "type": "choice",
+          "stem": "She hopes to get ___ MBA before she turns thirty.",
+          "options": ["a", "an", "the", "one"],
+          "answer": "an",
+          "explain": "MBA 按字母名称读作 /ˌem biː ˈeɪ/，首音是元音 /e/，用 an。",
+          "trap": "a 只按首字母 M 的拼写判断，忽略了缩略词按字母名称读音的规则。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.a-an-sound.d5",
+          "type": "translate",
+          "stem": "我们开了一个半小时的车才到那里。",
+          "answer": "We drove for an hour and a half before we got there.",
+          "require": [["an hour and a half"], ["drove"]],
+          "forbid": ["a hour", "an hour and half"],
+          "explain": "hour 首音为元音，用 an；「一个半小时」的固定说法是 an hour and a half，half 前不能省 a。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.a-an-sound.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "waited", "for", "an", "hour", "outside", "the", "station."],
+          "answer": "He waited for an hour outside the station.",
+          "explain": "an 修饰 hour（首音为元音）；时间状语 for an hour 在前，地点状语 outside the station 在后。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.articles.definite-specific",
+      "title": "定冠词的特指用法",
+      "brief": "the 标记听话人能唯一确定的那一个",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.articles.a-an-sound"],
+      "concept": {
+        "summary": "the 的核心功能是标记「可确定」：说话人认为听话人能唯一锁定所指对象。可确定性来自三条路径——上文已经提过、语境中独一无二、或被后置修饰限定为唯一。首次提及且无法确定时用 a/an，泛指类别时用零冠词。",
+        "sections": [
+          {
+            "h": "三条可确定路径",
+            "p": "判断用 the 还是 a/an，只问一句：听话人能否唯一锁定这个名词？能，用 the；不能，用 a/an。三条路径命中任意一条即可确定。",
+            "bullets": [
+              "回指：I bought a book. The book is about whales.（第二次提及用 the）",
+              "语境唯一：Close the door. / Pass me the salt.（双方共知的那一个）",
+              "后置限定：the man in the grey coat / the book that you lent me"
+            ]
+          },
+          {
+            "h": "独一无二与共知场景",
+            "p": "世界上独一无二的事物、方位词，以及说话双方共享场景中的物体，首次出现也用 the。这类 the 不依赖上文，而依赖共同知识。",
+            "bullets": [
+              "the sun, the moon, the earth, the sky, the equator",
+              "the east, the south, the left, the right",
+              "in the kitchen, on the desk, at the door（同一场景内共知）"
+            ]
+          },
+          {
+            "h": "专有名词中的 the",
+            "p": "专有名词前是否用 the 取决于名称的构成：江河、海洋、山脉、群岛、海峡、沙漠用 the；单座山峰、单个湖泊、国家城市、街道用零冠词。由普通名词构成的国名仍用 the。",
+            "bullets": [
+              "the Yangtze, the Pacific, the Alps, the Netherlands, the Great Wall",
+              "Mount Everest, Lake Victoria, Beijing, Oxford Street",
+              "the United States, the United Kingdom（含普通名词的国名）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I bought a book about whales. The book turned out to be fascinating.", "zh": "我买了一本关于鲸的书，那本书非常吸引人。", "ok": true, "note": "第二次提及同一本书，用 the 回指已确定的对象。" },
+          { "en": "I bought a book about whales. A book turned out to be fascinating.", "zh": "我买了一本关于鲸的书，一本书非常吸引人。", "ok": false, "note": "第二句回指同一本书，须用 the；用 a book 会被理解为另一本书。" },
+          { "en": "Please close the door; the wind is freezing.", "zh": "请把门关上，风冷得刺骨。", "ok": true, "note": "门是双方共知的那一扇，风在同一场景中也唯一，均用 the。" },
+          { "en": "The man standing at the gate is my uncle.", "zh": "站在门口的那个人是我叔叔。", "ok": true, "note": "后置介词短语把所指限定为唯一对象，用 the。" },
+          { "en": "Sun rises in the east and sets in the west.", "zh": "太阳从东方升起，在西方落下。", "ok": false, "note": "sun 是独一无二的天体，必须说 the sun；方位词 east/west 前也用 the。" },
+          { "en": "The Yangtze is the longest river in China.", "zh": "长江是中国最长的河流。", "ok": true, "note": "江河名前用 the，最高级前也用 the。" },
+          { "en": "He climbed the Mount Everest last year.", "zh": "他去年登上了珠穆朗玛峰。", "ok": false, "note": "单座山峰名前用零冠词，应为 Mount Everest，不加 the。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I saw a film yesterday. Film was about space travel.", "right": "I saw a film yesterday. The film was about space travel.", "why": "第二次提及同一对象必须用 the 回指，否则听话人无法确定所指。" },
+          { "wrong": "Could you shut door, please?", "right": "Could you shut the door, please?", "why": "同一场景中共知的具体物体前必须用 the，零冠词会使 door 失去指称。" },
+          { "wrong": "Moon looks bright tonight.", "right": "The moon looks bright tonight.", "why": "独一无二的天体前固定用 the，这类名词不需上文即可确定。" }
+        ],
+        "contrast": { "withTitle": "定冠词的类指用法", "diff": "特指的 the 指向一个可确定的个体，类指的 the 指向整个类别，谓语用单数。" },
+        "mnemonic": "能否唯一锁定？能就 the，不能就 a/an；独一无二、上文提过、后置限定，三条都算锁定。"
+      },
+      "review": {
+        "core": [
+          "the = 听话人能唯一锁定所指对象",
+          "三条锁定路径：回指、语境唯一、后置限定",
+          "独一无二事物与方位用 the：the sun, the east",
+          "江河海洋山脉群岛用 the；单峰单湖、国家城市街道用零冠词",
+          "回指时不能再用 a/an，否则会被理解为另一个对象"
+        ],
+        "trigger": "看到名词第二次出现，或后面跟着 in/of/that 等限定成分 → 优先考虑 the",
+        "quickCheck": [
+          { "q": "第一次提到用 a，第二次提到用什么？", "a": "the，回指已确定的同一对象。" },
+          { "q": "Mount Everest 前加 the 吗？", "a": "不加，单座山峰用零冠词。" },
+          { "q": "Pass me ___ salt. 填什么？", "a": "the，双方共知的那一个。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.articles.definite-specific.d1",
+          "type": "choice",
+          "stem": "She found a wallet in the taxi. ___ wallet contained three credit cards.",
+          "options": ["A", "An", "The", "Some"],
+          "answer": "The",
+          "explain": "第二句回指前文提到的 wallet，所指唯一，必须用 the。",
+          "trap": "A 忽略了回指关系，会让读者以为又出现了一个钱包。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.articles.definite-specific.d2",
+          "type": "fill",
+          "stem": "Could you turn off ___ light in the corridor? I can't reach the switch.",
+          "answer": "the",
+          "accept": ["the"],
+          "hint": "双方共知的那一盏灯。",
+          "explain": "corridor 中的 light 在语境中唯一，用 the 标记可确定性。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.articles.definite-specific.d3",
+          "type": "correct",
+          "stem": "I bought a laptop last week. A laptop has already broken down twice.",
+          "answer": "I bought a laptop last week. The laptop has already broken down twice.",
+          "accept": ["I bought a laptop last week. The laptop has already broken down twice."],
+          "explain": "第二句回指同一台电脑，须用 the；a laptop 会被理解为另一台机器。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.definite-specific.d4",
+          "type": "choice",
+          "stem": "___ man in the grey coat is our new headmaster.",
+          "options": ["A", "The", "One", "Some"],
+          "answer": "The",
+          "explain": "后置介词短语 in the grey coat 把所指限定为唯一，用 the。",
+          "trap": "A 表示「某一个」，与后置限定给出的唯一性冲突。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.definite-specific.d5",
+          "type": "translate",
+          "stem": "请把桌上的盐递给我。",
+          "answer": "Please pass me the salt on the table.",
+          "require": [["the salt"], ["pass"]],
+          "forbid": ["a salt", "the salts"],
+          "explain": "salt 不可数，双方共知的那一份用 the；pass sb sth 接双宾语，介词短语 on the table 后置限定。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.definite-specific.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "girl", "sitting", "by", "the", "window", "is", "my", "cousin."],
+          "answer": "The girl sitting by the window is my cousin.",
+          "explain": "the girl 由现在分词短语 sitting by the window 后置限定，所指唯一；the window 指场景中共知的那扇窗。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.articles.definite-generic",
+      "title": "定冠词的类指用法",
+      "brief": "the + 单数名词可指整个类别，谓语用单数",
+      "difficulty": 3,
+      "tags": ["难点", "易错"],
+      "prereq": ["morph.articles.definite-specific"],
+      "concept": {
+        "summary": "定冠词的类指用法指 the + 单数可数名词代表整个类别，谓语动词用单数，多用于科技、学术与正式说明文体。英语表类指有三种形式：the + 单数名词、a/an + 单数名词、零冠词 + 复数名词，三者的区别在语体与视角，不在真假。the + 复数名词只表特指，不表类指。",
+        "sections": [
+          {
+            "h": "三种类指形式",
+            "p": "三种形式都能表达「这一类」，但视角不同：the + 单数名词把类别当作一个典型样本，语体正式；a/an + 单数名词强调「任何一个成员都如此」；零冠词复数把类别当作成员的集合，最常用。",
+            "bullets": [
+              "The computer has changed the way we work.（正式，典型样本）",
+              "A computer is a machine that processes data.（任取一个成员）",
+              "Computers have changed the way we work.（集合，最常用）"
+            ]
+          },
+          {
+            "h": "the + 单数名词的典型场景",
+            "p": "这种类指多出现在发明物、动植物、乐器与学术定义中，因为这些语境需要把类别当作一个整体概念来论述，而不是指某一个个体。",
+            "bullets": [
+              "The telephone was invented in 1876.",
+              "The whale is a mammal, not a fish.",
+              "The violin is a difficult instrument to master.",
+              "The tiger is a solitary animal."
+            ]
+          },
+          {
+            "h": "不能类指的情形",
+            "p": "the + 复数名词指特定的一群，不能表示整个类别；单数可数名词也不能零冠词表类指。这两条是中国学生写作中最常见的形式错误。",
+            "bullets": [
+              "× The tigers are solitary animals.（指某几只虎）→ √ Tigers are solitary animals.",
+              "× Tiger is a solitary animal.（单数可数名词不能零冠词）→ √ The tiger is a solitary animal.",
+              "the + 形容词指一类人时谓语用复数，属另一条规则（见名词化的形容词）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The computer has changed the way we work.", "zh": "计算机改变了我们的工作方式。", "ok": true, "note": "the + 单数名词把计算机当作一个类别样本，谓语用单数 has。" },
+          { "en": "Computer has changed the way we work.", "zh": "计算机改变了我们的工作方式。", "ok": false, "note": "单数可数名词不能零冠词表类指，应加 the 或改用复数 Computers。" },
+          { "en": "Tigers are solitary animals that hunt alone at night.", "zh": "老虎是夜间独自捕食的独居动物。", "ok": true, "note": "零冠词复数是最常用的类指形式。" },
+          { "en": "The tigers are solitary animals that hunt alone at night.", "zh": "老虎是夜间独自捕食的独居动物。", "ok": false, "note": "the + 复数名词指特定的一群虎，表整个类别应用零冠词复数 Tigers。" },
+          { "en": "The whale is a mammal, not a fish.", "zh": "鲸是哺乳动物，不是鱼。", "ok": true, "note": "the + 单数名词用于动物类别的科学表述。" },
+          { "en": "A whale is a mammal, not a fish.", "zh": "鲸是哺乳动物，不是鱼。", "ok": true, "note": "a/an + 单数名词表「任何一个成员」，同样成立。" },
+          { "en": "The telephone was invented in 1876.", "zh": "电话发明于 1876 年。", "ok": true, "note": "发明物类指用 the + 单数名词，指这一整类装置。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Tiger is in danger of extinction.", "right": "The tiger is in danger of extinction.", "why": "单数可数名词表类指必须带 the，否则名词无法完成指称。" },
+          { "wrong": "The computers are widely used in schools today.", "right": "Computers are widely used in schools today.", "why": "表整个类别用零冠词复数；the + 复数只指特定群体。" },
+          { "wrong": "The cat are friendly animals.", "right": "The cat is a friendly animal.", "why": "the + 单数名词表类指时是单数概念，谓语与表语都用单数。" }
+        ],
+        "contrast": { "withTitle": "定冠词的特指用法", "diff": "特指的 the 锁定一个具体个体，类指的 the 锁定整个类别；判断看句子说的是「这一个」还是「这一类」。" },
+        "mnemonic": "类指三条路：the + 单数最正式，a/an 任取一个，零冠词复数最常用。"
+      },
+      "review": {
+        "core": [
+          "类指三形式：the + 单数 / a-an + 单数 / 零冠词复数",
+          "the + 单数名词表类指时谓语用单数",
+          "the + 复数名词只表特指，不表类指",
+          "单数可数名词不能零冠词表类指",
+          "科技、发明物、动植物定义中偏爱 the + 单数"
+        ],
+        "trigger": "看到句首想说「某类事物如何如何」→ 先决定用零冠词复数还是 the + 单数，不要让冠词位置留空",
+        "quickCheck": [
+          { "q": "Tiger is a solitary animal. 错在哪里？", "a": "单数可数名词表类指缺 the，应为 The tiger is... 或 Tigers are..." },
+          { "q": "The computers are widely used. 表类指吗？", "a": "不表，the + 复数指特定的一群；表类指用 Computers are..." },
+          { "q": "the + 单数名词表类指时谓语用单数还是复数？", "a": "单数。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.articles.definite-generic.d1",
+          "type": "choice",
+          "stem": "___ is the largest animal that has ever lived.",
+          "options": ["The blue whale", "A blue whales", "Blue whale", "The blue whales"],
+          "answer": "The blue whale",
+          "explain": "the + 单数名词表类指，把蓝鲸当作一个类别样本，谓语用单数 is。",
+          "trap": "The blue whales 是 the + 复数，指特定几头鲸，不表类别；Blue whale 缺冠词且名词为单数。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.definite-generic.d2",
+          "type": "fill",
+          "stem": "___ horse has been domesticated for thousands of years.",
+          "answer": "The",
+          "accept": ["The", "the"],
+          "hint": "单数可数名词表类指。",
+          "explain": "单数可数名词表类指须用 the，构成 The horse 这一类别，谓语用单数 has。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.definite-generic.d3",
+          "type": "correct",
+          "stem": "Tiger is now an endangered species in many parts of Asia.",
+          "answer": "The tiger is now an endangered species in many parts of Asia.",
+          "accept": ["The tiger is now an endangered species in many parts of Asia."],
+          "explain": "单数可数名词表类指必须加 the；也可整体改为复数主语 Tigers are now endangered species...",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.definite-generic.d4",
+          "type": "choice",
+          "stem": "___ in this zoo were born in captivity.",
+          "options": ["The tigers", "Tigers", "A tiger", "Tiger"],
+          "answer": "The tigers",
+          "explain": "in this zoo 把范围限定为特定的一群虎，须用 the + 复数表特指，谓语用 were。",
+          "trap": "Tigers 表类指，与 in this zoo 给出的限定范围矛盾。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.definite-generic.d5",
+          "type": "translate",
+          "stem": "老虎是濒危动物。",
+          "answer": "The tiger is an endangered animal.",
+          "require": [["the tiger", "tigers"], ["endangered"]],
+          "forbid": ["Tiger is", "The tigers is"],
+          "explain": "类指可用 the + 单数（谓语单数）或零冠词复数；两种形式不能混搭成 The tigers is。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.articles.zero-article",
+      "title": "零冠词的使用规则",
+      "brief": "泛指复数与不可数、专名、交通三餐前留空",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.articles.definite-specific"],
+      "concept": {
+        "summary": "零冠词不是「省略冠词」，而是冠词位置上不出现限定词的一类规则情形。四类核心环境：复数或不可数名词泛指、专有名词、by + 交通工具与三餐球类学科、以及平行与固定结构。判断仍回到可确定性：无法唯一锁定且不需要「一个」时，冠词位置就留空。",
+        "sections": [
+          {
+            "h": "泛指：复数与不可数",
+            "p": "复数可数名词与不可数名词表示整个类别或不确定数量时，冠词位置留空。一旦出现后置限定或上文已提及，就要改用 the。",
+            "bullets": [
+              "Books are expensive in this country. / Water boils at 100°C.",
+              "Life is short.（抽象泛指）",
+              "对比：The books on the top shelf are mine.（后置限定 → the）"
+            ]
+          },
+          {
+            "h": "专有名词",
+            "p": "人名、国家、城市、街道、单座山峰与单个湖泊前不用冠词；由普通名词构成的名称以及江河海洋山脉群岛前用 the。语言、学科与节日名同样零冠词。",
+            "bullets": [
+              "零冠词：China, Beijing, Oxford Street, Mount Everest, Lake Victoria",
+              "用 the：the Yangtze, the Pacific, the Alps, the United States",
+              "语言、学科、节日：speak English, study physics, at Christmas"
+            ]
+          },
+          {
+            "h": "交通、三餐、球类与时间",
+            "p": "by + 交通工具是固定零冠词结构；三餐、球类、棋类泛指时不加冠词；具体某一天用 on，钟点用 at，也都不加冠词。三餐前有形容词描述时才可以加 a。",
+            "bullets": [
+              "by bus / by train / by plane / by bike / on foot",
+              "have breakfast, have lunch, have dinner；a quick lunch（有形容词才加 a）",
+              "play basketball / play chess / play cards",
+              "at noon, at midnight, on Monday, in spring（泛指季节）"
+            ]
+          },
+          {
+            "h": "平行与固定结构",
+            "p": "由 and 或介词连接的两个名词常成对出现，冠词一律省略，形成紧凑的固定表达。这类结构要整记，不能按规则逐词推导。",
+            "bullets": [
+              "day and night, hand in hand, face to face, step by step",
+              "from morning till night, arm in arm, side by side",
+              "go to school / go to bed / go to work（表用途而非建筑）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Books are expensive in this country.", "zh": "这个国家的书很贵。", "ok": true, "note": "复数名词泛指整个类别，用零冠词。" },
+          { "en": "She goes to school by bike every morning.", "zh": "她每天早上骑自行车上学。", "ok": true, "note": "by + 交通工具零冠词，go to school 表「上学」也不用冠词。" },
+          { "en": "She goes to school by a bike every morning.", "zh": "她每天早上骑一辆自行车上学。", "ok": false, "note": "by 后接交通工具一律零冠词，不能加 a/an 或 the。" },
+          { "en": "We had breakfast at seven and left for the airport.", "zh": "我们七点吃了早饭，然后出发去机场。", "ok": true, "note": "三餐泛指时不加冠词。" },
+          { "en": "We had a breakfast at seven and left for the airport.", "zh": "我们七点吃了一顿早饭，然后出发去机场。", "ok": false, "note": "三餐泛指用零冠词；只有加形容词表「一顿……的饭」时才说 a quick breakfast。" },
+          { "en": "He plays basketball with his classmates after class.", "zh": "他下课后和同学打篮球。", "ok": true, "note": "球类运动前零冠词，乐器前才用 the。" },
+          { "en": "Mount Everest is in the Himalayas.", "zh": "珠穆朗玛峰位于喜马拉雅山脉。", "ok": true, "note": "单座山峰零冠词，山脉名用 the。" },
+          { "en": "He worked day and night to finish the report.", "zh": "他日夜赶工完成那份报告。", "ok": true, "note": "平行结构中的成对名词不带冠词。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I go to school by the bus every day.", "right": "I go to school by bus every day.", "why": "by + 交通工具是固定零冠词结构，冠词会使该结构不成立。" },
+          { "wrong": "She is interested in the history.", "right": "She is interested in history.", "why": "学科名表泛指时用零冠词；the history 会把范围限定为某段特定的历史。" },
+          { "wrong": "He went to the bed at ten.", "right": "He went to bed at ten.", "why": "go to bed 表「睡觉」这一活动，bed 不指具体家具，故零冠词。" }
+        ],
+        "contrast": { "withTitle": "固定短语中的冠词", "diff": "零冠词讲可推导的环境（泛指、专名、交通三餐）；固定短语的冠词是词条的一部分，必须整记。" },
+        "mnemonic": "复数不可数泛指空，专名交通三餐空；by 后不加冠，球类学科也留空。"
+      },
+      "review": {
+        "core": [
+          "复数与不可数泛指、专有名词、by + 交通工具、三餐球类学科：零冠词",
+          "有后置限定或上文已提，零冠词要改成 the",
+          "江河海洋山脉群岛用 the，单峰单湖、国家城市不用",
+          "平行结构成对名词不带冠词：day and night, hand in hand",
+          "by bus / on foot / go to bed / play basketball 均为固定零冠词"
+        ],
+        "trigger": "看到 by + 交通工具、三餐、球类、学科，或复数名词泛指 → 冠词位置留空",
+        "quickCheck": [
+          { "q": "by bike 能说成 by a bike 吗？", "a": "不能，by + 交通工具固定零冠词。" },
+          { "q": "Mount Everest 与 the Himalayas 为什么一个用一个不用？", "a": "单座山峰零冠词，山脉名用 the。" },
+          { "q": "The books are expensive 一定错吗？", "a": "不一定，它指特定的一些书；表泛指才用 Books are expensive。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.articles.zero-article.d1",
+          "type": "choice",
+          "stem": "Most students in our school go to class ___.",
+          "options": ["by bike", "by a bike", "by the bike", "on bike"],
+          "answer": "by bike",
+          "explain": "by + 交通工具是固定零冠词结构，bike 前不加任何冠词。",
+          "trap": "by the bike 受汉语「骑那辆车」影响，by 后表方式的交通工具一律不带冠词。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.articles.zero-article.d2",
+          "type": "correct",
+          "stem": "My favourite subject is the history.",
+          "answer": "My favourite subject is history.",
+          "accept": ["My favourite subject is history."],
+          "explain": "学科名表泛指用零冠词；the history 会把范围限定为某段特定的历史。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.zero-article.d3",
+          "type": "choice",
+          "stem": "He spends every Sunday morning ___ with his friends.",
+          "options": ["playing football", "playing the football", "playing a football", "to play the football"],
+          "answer": "playing football",
+          "explain": "球类运动前零冠词，乐器前才用 the；spend time doing 要求接动名词。",
+          "trap": "playing the football 是把乐器规则套用到球类上的错误。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.zero-article.d4",
+          "type": "translate",
+          "stem": "他每天骑自行车上学，晚上九点上床睡觉。",
+          "answer": "He goes to school by bike every day and goes to bed at nine in the evening.",
+          "require": [["by bike"], ["to bed"]],
+          "forbid": ["by the bike", "to the bed"],
+          "explain": "by bike 与 go to bed 都是固定零冠词结构，加冠词即破坏搭配。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.zero-article.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "has", "breakfast", "at", "seven", "and", "then", "walks", "to", "school."],
+          "answer": "She has breakfast at seven and then walks to school.",
+          "explain": "三餐与 go to school 均用零冠词，at seven 表钟点；and then 连接两个先后动作。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.articles.abstract-mass",
+      "title": "抽象名词与物质名词前的冠词取舍",
+      "brief": "泛指留空，特指加 the，表一种一件用 a/an",
+      "difficulty": 3,
+      "tags": ["难点", "写作"],
+      "prereq": ["morph.articles.zero-article", "morph.nouns.dual-countability"],
+      "concept": {
+        "summary": "抽象名词与物质名词的冠词取舍由「是否被限定」决定：泛指属性或物质类别时用零冠词；被后置短语、上下文限定为特定对象时用 the；表示「一种、一件、一份」时用 a/an。三者对应三种指称方式，不是三个例外。",
+        "sections": [
+          {
+            "h": "泛指：零冠词",
+            "p": "抽象名词表示属性、状态、概念，物质名词表示材料类别时，都不可数且不指向具体对象，冠词位置留空。这类句子多为格言、定义与一般论断。",
+            "bullets": [
+              "Life is short. / Honesty pays. / Time is money.",
+              "Water boils at 100°C. / Gold is heavier than silver.",
+              "Experience matters more than theory in this job."
+            ]
+          },
+          {
+            "h": "特指：the",
+            "p": "一旦名词被后置短语、定语从句或上下文限定为特定对象，就必须用 the。限定成分是判断信号，不是可选项。",
+            "bullets": [
+              "The water in this well is polluted.",
+              "The honesty of the witness impressed the jury.",
+              "The experience I gained in Africa changed my view."
+            ]
+          },
+          {
+            "h": "具体化：a/an",
+            "p": "抽象名词表示「一种、一件」时转成可数，用 a/an；物质名词在点单或分类语境中也可用 a/an 表示「一份、一种」。这类用法有限，需与固定搭配一起记。",
+            "bullets": [
+              "a knowledge of French / a love of music / a fear of heights",
+              "a great success / a pity / an honour（评价类）",
+              "Two coffees, please.（= two cups of coffee，口语点单）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Life is full of surprises.", "zh": "生活充满意外。", "ok": true, "note": "life 泛指「生活」这一抽象概念，用零冠词。" },
+          { "en": "The life is full of surprises.", "zh": "生活充满意外。", "ok": false, "note": "泛指抽象概念时不用 the；the life 只用于特指某人的生活。" },
+          { "en": "The water in this river is unsafe to drink.", "zh": "这条河里的水不能安全饮用。", "ok": true, "note": "后置短语 in this river 把 water 限定为特定部分，用 the。" },
+          { "en": "He has a good knowledge of classical music.", "zh": "他对古典音乐有很好的了解。", "ok": true, "note": "a knowledge of 是抽象名词具体化的固定结构。" },
+          { "en": "He has good knowledge of classical music.", "zh": "他对古典音乐有很好的了解。", "ok": false, "note": "a knowledge of 已成固定结构，缺 a 不成立。" },
+          { "en": "Honesty is the best policy.", "zh": "诚实为上策。", "ok": true, "note": "谚语中的抽象品质泛指，用零冠词。" },
+          { "en": "She has a deep love of music.", "zh": "她深爱音乐。", "ok": true, "note": "a love of 表「一种热爱」，抽象名词具体化。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The honesty is the best policy.", "right": "Honesty is the best policy.", "why": "抽象品质泛指时用零冠词，the 会把它限定为某一份特定的诚实。" },
+          { "wrong": "I need a water.", "right": "I need some water.", "why": "物质名词表不确定数量用 some 或量词；a water 只在点单语境表示「一杯」。" },
+          { "wrong": "He has a great experience in teaching.", "right": "He has great experience in teaching.", "why": "experience 作「经验」讲不可数，不能加 a；作「一段经历」讲才可数。" }
+        ],
+        "contrast": { "withTitle": "抽象名词的具体化用法", "diff": "具体化处理的是可数性转变（能否加 a/an、能否加 s）；本知识点处理同一名词在泛指与特指之间的冠词选择。" },
+        "mnemonic": "泛指留空，特指加 the，只有「一种一件」才用 a/an。"
+      },
+      "review": {
+        "core": [
+          "抽象名词、物质名词泛指：零冠词（Life is short. Water boils.）",
+          "被后置短语或上下文限定：用 the（the water in this well）",
+          "表「一种/一件/一份」：用 a/an（a knowledge of, a love of, a coffee）",
+          "谚语与定义句多用零冠词",
+          "experience 作经验不可数、作经历可数，直接决定用不用 a"
+        ],
+        "trigger": "看到抽象或物质名词 → 先找有没有限定成分 → 有限定用 the，要数「一种」用 a/an，都没有就留空",
+        "quickCheck": [
+          { "q": "The water in this well is polluted. 为什么用 the？", "a": "后置短语 in this well 把 water 限定为特定部分。" },
+          { "q": "He has ___ good knowledge of French. 填什么？", "a": "a，a knowledge of 是固定结构。" },
+          { "q": "I need a water. 错在哪里？", "a": "物质名词表数量应用 some water 或 a glass of water。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.articles.abstract-mass.d1",
+          "type": "choice",
+          "stem": "___ is the best policy, as the proverb says.",
+          "options": ["Honesty", "The honesty", "An honesty", "Honest"],
+          "answer": "Honesty",
+          "explain": "谚语中的抽象品质泛指，用零冠词；honesty 也不与 an 搭配。",
+          "trap": "The honesty 把抽象品质当作特定对象，与泛指论断不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.abstract-mass.d2",
+          "type": "fill",
+          "stem": "She has ___ good knowledge of classical music.",
+          "answer": "a",
+          "accept": ["a"],
+          "hint": "a knowledge of 是固定结构。",
+          "explain": "knowledge 在 a knowledge of 结构中具体化为「一门知识」，必须加 a。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.abstract-mass.d3",
+          "type": "correct",
+          "stem": "The patience is essential when you teach young children.",
+          "answer": "Patience is essential when you teach young children.",
+          "accept": ["Patience is essential when you teach young children."],
+          "explain": "抽象名词泛指时不用 the；patience 在此指一般品质，不指某一特定时刻的耐心。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.abstract-mass.d4",
+          "type": "choice",
+          "stem": "___ in the bottle has gone bad, so don't drink it.",
+          "options": ["The milk", "Milk", "A milk", "Milks"],
+          "answer": "The milk",
+          "explain": "后置短语 in the bottle 把 milk 限定为特定部分，用 the。",
+          "trap": "Milk 是泛指形式，与 in the bottle 的限定冲突。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.abstract-mass.d5",
+          "type": "translate",
+          "stem": "耐心对学习一门语言很重要。",
+          "answer": "Patience is important for learning a language.",
+          "require": [["patience"], ["learning a language", "learning a foreign language"]],
+          "forbid": ["The patience"],
+          "explain": "patience 泛指抽象品质用零冠词；介词 for 后接动名词短语 learning a language。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.articles.fixed-phrases",
+      "title": "固定短语中的冠词",
+      "brief": "固定短语的冠词属于词条，按三组整记",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.articles.zero-article"],
+      "concept": {
+        "summary": "固定短语中的冠词不能靠泛指/特指规则推导，它属于词条本身，必须整记。可按三组记忆：表抽象活动或状态的用零冠词，表具体场所、方位与唯一对象的用 the，表一次性动作的用 a/an。同一名词换一个冠词，往往换一个意思。",
+        "sections": [
+          {
+            "h": "零冠词组：活动与状态",
+            "p": "这类短语中的名词表示活动、状态或方式，不指具体物体，因此不带冠词。加冠词会改变语义，甚至使搭配不成立。",
+            "bullets": [
+              "go to school / college / bed / work；at home, at work, at sea, in bed",
+              "by bus / by train / on foot；in fact, in danger, in trouble, at present",
+              "take care of, make use of, catch sight of, lose weight"
+            ]
+          },
+          {
+            "h": "the 组：具体对象与方位",
+            "p": "表具体场所、方位、唯一对象或媒体时用 the，因为这些名词在语境中可以被唯一锁定。",
+            "bullets": [
+              "in the morning / afternoon / evening；in the end, at the same time, all the time",
+              "go to the cinema / the theatre；listen to the radio；play the piano",
+              "on the left / on the right / in the middle of；in the 1990s"
+            ]
+          },
+          {
+            "h": "a/an 组：一次性动作",
+            "p": "take/have/make + a + 名词构成一次性动作，a 相当于「一次」。这类短语数量最多，需要与动词一起记。",
+            "bullets": [
+              "take a walk / have a look / make a decision / take a break",
+              "in a hurry, as a result, have a cold, catch a cold, make a living",
+              "once a week / twice a day（a = per，表频率）"
+            ]
+          },
+          {
+            "h": "一冠之差，意义不同",
+            "p": "同一名词搭配不同冠词时，语义差别来自名词是否被当作具体对象。判断时看短语整体意思，不要逐词翻译。",
+            "bullets": [
+              "go to school（上学）/ go to the school（去学校这栋建筑）",
+              "at table（在吃饭）/ at the table（在桌旁）",
+              "take place（发生）/ take the place of（代替）",
+              "in charge of（负责）/ in the charge of（由……负责）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She takes a walk after dinner every evening.", "zh": "她每天晚饭后散步。", "ok": true, "note": "take a walk 是固定的一次性动作搭配，a 不可省。" },
+          { "en": "She takes walk after dinner every evening.", "zh": "她每天晚饭后散步。", "ok": false, "note": "take a walk 为固定短语，缺 a 不成立。" },
+          { "en": "We arrived just in time for the opening ceremony.", "zh": "我们正好赶上开幕式。", "ok": true, "note": "in time 是零冠词固定短语，表示「及时」。" },
+          { "en": "We arrived just in the time for the opening ceremony.", "zh": "我们正好赶上开幕式。", "ok": false, "note": "in time 不带冠词；加 the 后既非固定短语，也不合语法。" },
+          { "en": "In fact, nobody had told him about the change of plan.", "zh": "事实上，没有人告诉过他计划的变动。", "ok": true, "note": "in fact 为固定介词短语，零冠词。" },
+          { "en": "He listens to the radio while he makes breakfast.", "zh": "他做早饭时听广播。", "ok": true, "note": "listen to the radio 是固定搭配，radio 表广播媒体用 the。" },
+          { "en": "The wedding will take place in the garden of the old hotel.", "zh": "婚礼将在老酒店的花园举行。", "ok": true, "note": "take place 意为「举行」，零冠词；take the place of 才是「代替」。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is at the home now.", "right": "He is at home now.", "why": "at home 是固定零冠词短语，home 在此表「家」这一场所概念而非具体建筑。" },
+          { "wrong": "In the fact, he knew nothing about it.", "right": "In fact, he knew nothing about it.", "why": "in fact 为固定介词短语，冠词不属于该词条。" },
+          { "wrong": "She is in hurry to catch the last train.", "right": "She is in a hurry to catch the last train.", "why": "in a hurry 是固定搭配，a 是词条的组成部分，不能省。" }
+        ],
+        "contrast": { "withTitle": "零冠词的使用规则", "diff": "零冠词可由泛指、专名、交通三餐等环境推导；固定短语的冠词无规则可推，只能整记。" },
+        "mnemonic": "活动状态留空，场所方位用 the，一次动作加 a；go to school 是上学，go to the school 是去那栋楼。"
+      },
+      "review": {
+        "core": [
+          "固定短语的冠词属于词条，不能按泛指/特指推导",
+          "零冠词组：at home, in fact, by bus, go to bed, take care of",
+          "the 组：in the morning, listen to the radio, play the piano, in the end",
+          "a/an 组：take a walk, make a decision, in a hurry, as a result",
+          "一冠之差改义：take place / take the place of；at table / at the table"
+        ],
+        "trigger": "看到 at/in/by/on + 名词的短语 → 先想它是不是固定词条 → 是就整记，不要现场推导",
+        "quickCheck": [
+          { "q": "take place 与 take the place of 有什么区别？", "a": "前者意为「发生、举行」，后者意为「代替」。" },
+          { "q": "in time 能说成 in the time 吗？", "a": "不能，in time 是固定零冠词短语。" },
+          { "q": "listen to radio 还是 listen to the radio？", "a": "listen to the radio，表广播媒体用 the。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.articles.fixed-phrases.d1",
+          "type": "choice",
+          "stem": "The wedding will ___ in the garden of the old hotel.",
+          "options": ["take place", "take the place", "take a place", "take places"],
+          "answer": "take place",
+          "explain": "take place 是零冠词固定短语，意为「举行」；take the place of 才表示「代替」，且需要 of 宾语。",
+          "trap": "take the place 少了 of，语义变成「代替」，与婚礼举行的意思不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.fixed-phrases.d2",
+          "type": "fill",
+          "stem": "She was in ___ hurry and left her umbrella on the bus.",
+          "answer": "a",
+          "accept": ["a"],
+          "hint": "in a hurry 是固定搭配。",
+          "explain": "in a hurry 中的 a 是固定词条的组成部分，不能省略。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.fixed-phrases.d3",
+          "type": "correct",
+          "stem": "In the fact, nobody had told him about the change of plan.",
+          "answer": "In fact, nobody had told him about the change of plan.",
+          "accept": ["In fact, nobody had told him about the change of plan."],
+          "explain": "in fact 是固定介词短语，不带冠词。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.fixed-phrases.d4",
+          "type": "choice",
+          "stem": "He listens to ___ every morning while he makes breakfast.",
+          "options": ["the radio", "radio", "a radio", "radios"],
+          "answer": "the radio",
+          "explain": "listen to the radio 是固定搭配，radio 表广播媒体用 the。",
+          "trap": "a radio 指「一台收音机」，与「听广播」的媒体义不同。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.fixed-phrases.d5",
+          "type": "translate",
+          "stem": "我们正好及时赶到车站。",
+          "answer": "We arrived at the station just in time.",
+          "require": [["in time"]],
+          "forbid": ["in the time"],
+          "explain": "in time 是零冠词固定短语，意为「及时」；加 the 即破坏该词条。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.articles.superlative-ordinal",
+      "title": "最高级、序数词与 only 前的冠词",
+      "brief": "三者作定语多用 the，状语与已有所有格可省",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.articles.definite-specific"],
+      "concept": {
+        "summary": "形容词最高级作定语、序数词作定语、only 修饰名词时，前面通常用 the，因为这些成分都把所指限定为唯一。三类情形可以不用 the：副词最高级、最高级或序数词前已有物主代词或名词所有格、most 表示「大多数」。序数词前用 a/an 时表示「又一次」。",
+        "sections": [
+          {
+            "h": "必须用 the 的三种限定",
+            "p": "最高级、序数词、only 的共同作用是把名词的所指缩到唯一，与 the 的「可确定」功能一致，因此三者作定语时都要 the。",
+            "bullets": [
+              "the highest mountain, the most useful tool, the best choice",
+              "the first time, the second chapter, the third attempt",
+              "the only person, the only way out"
+            ]
+          },
+          {
+            "h": "可以不用 the 的情形",
+            "p": "限定词已经承担「确定」功能时，the 不再出现；副词最高级修饰动词时 the 可省；most 直接修饰名词表「大多数」时也不加 the。",
+            "bullets": [
+              "Tom is my best friend.（物主代词已限定）",
+              "Shanghai is China's largest city.（名词所有格已限定）",
+              "Of all the students, he runs fastest.（副词最高级）",
+              "Most students prefer online lectures.（most = 大多数）"
+            ]
+          },
+          {
+            "h": "a/an + 序数词",
+            "p": "序数词前用 a/an 表示「再一个、又一个」，把序数词从「排序」转为「数量」。这是序数词前唯一能用不定冠词的情形。",
+            "bullets": [
+              "He asked for a second chance.",
+              "They made a third attempt after two failures.",
+              "对比：This is the second chapter.（排序）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "This is the most interesting book I have ever read.", "zh": "这是我读过的最有趣的书。", "ok": true, "note": "最高级后有 ever 的比较范围，用 the。" },
+          { "en": "This is most interesting book I have ever read.", "zh": "这是我读过的最有趣的书。", "ok": false, "note": "最高级作定语缺 the，不能与 ever 的比较范围搭配。" },
+          { "en": "He is the only person who knows the password.", "zh": "他是唯一知道密码的人。", "ok": true, "note": "only 把名词限定为唯一对象，用 the。" },
+          { "en": "She is an only child.", "zh": "她是独生女。", "ok": true, "note": "an only child 是「独生子女」的固定说法，用 an。" },
+          { "en": "Give me a second chance, please.", "zh": "请再给我一次机会。", "ok": true, "note": "a + 序数词表「再一次」，不表排序。" },
+          { "en": "Tom is my best friend.", "zh": "汤姆是我最好的朋友。", "ok": true, "note": "物主代词 my 已限定，不再加 the。" },
+          { "en": "She finished third in the race.", "zh": "她在比赛中获得第三名。", "ok": true, "note": "序数词作状语表名次，用零冠词。" },
+          { "en": "She is a only child, so she spends much time alone.", "zh": "她是独生女，所以常独自待着。", "ok": false, "note": "only 读 /ˈəʊnli/，首音是元音，固定说法是 an only child。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is tallest student in his class.", "right": "He is the tallest student in his class.", "why": "最高级作定语必须加 the，in his class 已给出明确的比较范围。" },
+          { "wrong": "This is my the best friend.", "right": "This is my best friend.", "why": "物主代词与 the 同属限定词，不能并列使用。" },
+          { "wrong": "She finished the third in the race.", "right": "She finished third in the race.", "why": "序数词作状语表名次时用零冠词，the 只用于作定语表排序。" }
+        ],
+        "contrast": { "withTitle": "a most 与 the most 的区别", "diff": "本知识点处理最高级前 the 的有无；a most 与 the most 的区别在于 most 是「非常」还是最高级，需看有无比较范围。" },
+        "mnemonic": "最高、序数、only 作定语都加 the；有 my 或 China's 就交班，作状语表名次则留空。"
+      },
+      "review": {
+        "core": [
+          "最高级作定语、序数词作定语、only 修饰名词：用 the",
+          "物主代词或名词所有格已限定时不再加 the：my best friend",
+          "副词最高级与序数词作状语可零冠词：runs fastest / finished third",
+          "a/an + 序数词表「再一次」：a second chance",
+          "an only child 是「独生子女」的固定说法"
+        ],
+        "trigger": "看到最高级、序数词或 only → 先看它作定语还是状语 → 定语加 the（已有 my/所有格则不加），状语可留空",
+        "quickCheck": [
+          { "q": "my best friend 还是 my the best friend？", "a": "my best friend，物主代词与 the 不能并用。" },
+          { "q": "a second chance 是什么意思？", "a": "再一次机会，不表排序。" },
+          { "q": "He runs fastest. 为什么没有 the？", "a": "副词最高级修饰动词，the 可省略。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.articles.superlative-ordinal.d1",
+          "type": "choice",
+          "stem": "This is ___ film I have ever seen.",
+          "options": ["the most moving", "most moving", "a most moving", "more moving"],
+          "answer": "the most moving",
+          "explain": "最高级后有 I have ever seen 的比较范围，必须用 the most。",
+          "trap": "a most moving 意为「非常感人」，不能与 ever 的最高级范围同现。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.superlative-ordinal.d2",
+          "type": "fill",
+          "stem": "He is ___ only student who has read the whole book.",
+          "answer": "the",
+          "accept": ["the"],
+          "hint": "only 限定唯一对象。",
+          "explain": "only 修饰名词表唯一，前面用 the。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.articles.superlative-ordinal.d3",
+          "type": "correct",
+          "stem": "Mount Qomolangma is highest mountain in the world.",
+          "answer": "Mount Qomolangma is the highest mountain in the world.",
+          "accept": ["Mount Qomolangma is the highest mountain in the world."],
+          "explain": "最高级作定语必须加 the，in the world 是明确的比较范围。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.superlative-ordinal.d4",
+          "type": "choice",
+          "stem": "She asked for ___ chance to prove herself.",
+          "options": ["a second", "the second", "second", "the two"],
+          "answer": "a second",
+          "explain": "a + 序数词表「再一次」，此处不表排序。",
+          "trap": "the second 指排序上的第二次，与「再给一次机会」的意思不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.superlative-ordinal.d5",
+          "type": "translate",
+          "stem": "他是唯一知道真相的人。",
+          "answer": "He is the only person who knows the truth.",
+          "require": [["the only"], ["knows"]],
+          "forbid": ["only person who know"],
+          "explain": "only 前用 the；先行词为单数，定语从句谓语用 knows。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.superlative-ordinal.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Shanghai", "is", "China's", "largest", "city."],
+          "answer": "Shanghai is China's largest city.",
+          "explain": "名词所有格 China's 已限定名词，最高级 largest 前不再加 the。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.articles.a-most-vs-the-most",
+      "title": "a most 与 the most 的区别",
+      "brief": "a most 等于 very，the most 才是最高级",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["morph.articles.superlative-ordinal"],
+      "concept": {
+        "summary": "most 前用 the 还是 a，取决于它是不是最高级：the most + 形容词表示三者以上的最高程度，句中通常有 in/of/that I have ever 等范围；a most + 形容词等于 very，没有比较范围；most 直接修饰复数或不可数名词表示「大多数」，不加冠词。判断信号是范围短语。",
+        "sections": [
+          {
+            "h": "三种 most 结构",
+            "p": "同一个 most 有三种读法，语法形式与语义一一对应。判定时先找冠词，再找范围短语，两者共同确定 most 的身份。",
+            "bullets": [
+              "the most + 形容词：最高级，需比较范围",
+              "a most + 形容词：= very，书面语，无比较对象",
+              "most + 复数/不可数名词：= 大多数，不加冠词"
+            ]
+          },
+          {
+            "h": "范围短语是判定信号",
+            "p": "in the class, of the three, that I have ever read 这类短语把比较限制在一个集合内，此时必须用 the most。没有范围时用 a most 表示程度高，相当于 very。most 作状语时也表 very，前面不带冠词。",
+            "bullets": [
+              "She is the most patient teacher in our department.",
+              "That was a most generous offer.",
+              "It is most kind of you to help.（most 作状语 = very，零冠词）"
+            ]
+          },
+          {
+            "h": "most 表「大多数」",
+            "p": "most 直接修饰名词时是限定词，意为「大多数」，此时前面不加 the，谓语与后面的名词一致。most of 后接限定词或代词。",
+            "bullets": [
+              "Most students live on campus.",
+              "Most of the water has evaporated.",
+              "× The most students → √ Most students"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "This is the most challenging task I have ever undertaken.", "zh": "这是我承担过的最具挑战性的任务。", "ok": true, "note": "有 ever 的比较范围，用最高级 the most。" },
+          { "en": "This is most challenging task I have ever undertaken.", "zh": "这是我承担过的最具挑战性的任务。", "ok": false, "note": "最高级作定语缺 the，most 也不能单独连接比较范围。" },
+          { "en": "That was a most generous offer, and we accepted it at once.", "zh": "那是一个非常慷慨的提议，我们立刻接受了。", "ok": true, "note": "a most = very，句中没有任何比较对象。" },
+          { "en": "Most students prefer online lectures to recorded ones.", "zh": "大多数学生更喜欢直播课而不是录播课。", "ok": true, "note": "most 表「大多数」，直接修饰复数名词，不加 the。" },
+          { "en": "The most students prefer online lectures to recorded ones.", "zh": "大多数学生更喜欢直播课而不是录播课。", "ok": false, "note": "most 表「大多数」时本身即限定词，前面不能再加 the。" },
+          { "en": "She is the most talented of the three candidates.", "zh": "她是三位候选人中最有才华的。", "ok": true, "note": "of the three 给出比较范围，用 the most。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is a most diligent student in our class.", "right": "He is the most diligent student in our class.", "why": "in our class 给出比较范围，most 在此是最高级，必须用 the。" },
+          { "wrong": "The most people agree with the plan.", "right": "Most people agree with the plan.", "why": "most 表「大多数」时本身即限定词，与 the 不能同现。" },
+          { "wrong": "It was a most generous of you to help us.", "right": "It was most generous of you to help us.", "why": "most 在此作状语修饰 generous，相当于 very，不能带冠词。" }
+        ],
+        "contrast": { "withTitle": "最高级、序数词与 only 前的冠词", "diff": "那里处理最高级前 the 的有无；这里处理 most 本身是「最高级」还是「非常」，关键在有无比较范围。" },
+        "mnemonic": "有范围用 the most，没范围 a most 当 very，直接修饰名词的 most 是「大多数」。"
+      },
+      "review": {
+        "core": [
+          "the most + 形容词：最高级，句中有 in/of/ever 等范围",
+          "a most + 形容词：= very，书面语，无比较对象",
+          "most + 复数/不可数：= 大多数，不加 the",
+          "most 作状语也表 very：It is most kind of you.",
+          "判定顺序：先找范围短语，再看冠词"
+        ],
+        "trigger": "看到 most → 先找 in/of/ever 等范围 → 有范围取 the most，无范围且带 a 取「非常」，直接修饰名词取「大多数」",
+        "quickCheck": [
+          { "q": "a most interesting book 是什么意思？", "a": "一本非常有趣的书，相当于 a very interesting book。" },
+          { "q": "The most people 为什么错？", "a": "most 表「大多数」时不加 the。" },
+          { "q": "the most useful of the three 为什么用 the？", "a": "of the three 给出比较范围，most 是最高级。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.articles.a-most-vs-the-most.d1",
+          "type": "choice",
+          "stem": "She made ___ generous donation to the school's library fund.",
+          "options": ["a most", "the most", "most", "the more"],
+          "answer": "a most",
+          "explain": "此处没有比较范围，a most = very，表示「一笔非常慷慨的捐款」。",
+          "trap": "the most 需要 in/of 之类的比较范围，本句没有提供。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.a-most-vs-the-most.d2",
+          "type": "fill",
+          "stem": "___ of the students in our class have signed up for the trip.",
+          "answer": "Most",
+          "accept": ["Most", "most"],
+          "hint": "most of + the + 复数名词。",
+          "explain": "most of the students 表「大多数学生」，most 前不加 the。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.a-most-vs-the-most.d3",
+          "type": "correct",
+          "stem": "This is most difficult question in the exam.",
+          "answer": "This is the most difficult question in the exam.",
+          "accept": ["This is the most difficult question in the exam."],
+          "explain": "in the exam 给出比较范围，最高级前必须加 the。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.a-most-vs-the-most.d4",
+          "type": "choice",
+          "stem": "This is ___ novel I have ever read on the subject.",
+          "options": ["the most thorough", "a most thorough", "most thorough", "more thorough"],
+          "answer": "the most thorough",
+          "explain": "I have ever read 是最高级的比较范围，须用 the most。",
+          "trap": "a most thorough 表「非常彻底」，不能与 ever 的范围同现。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.a-most-vs-the-most.d5",
+          "type": "translate",
+          "stem": "这是我们面临过的最严峻的挑战。",
+          "answer": "This is the most serious challenge we have ever faced.",
+          "require": [["the most"], ["ever faced", "ever met"]],
+          "forbid": ["a most"],
+          "explain": "we have ever faced 限定比较范围，most 为最高级，须用 the。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.articles.titles",
+      "title": "职位与头衔前的冠词省略",
+      "brief": "表语、同位语、宾补中的职位名词用零冠词",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["morph.articles.zero-article"],
+      "concept": {
+        "summary": "职位、头衔名词的冠词由句法位置决定：作表语、同位语或宾补时用零冠词，因为它表示独一无二的职务而非某个个体；作主语或宾语指具体的人时必须用 the 或 a/an。elect、appoint、name、make 后的宾补位置是高频考点。",
+        "sections": [
+          {
+            "h": "零冠词的三个句法位置",
+            "p": "职位名词在系动词后作表语、在名词后作同位语、在 elect/appoint 等动词后作宾补时，用零冠词。这三个位置的共同点是名词在说明「担任什么职务」，而不是指称某个人。",
+            "bullets": [
+              "表语：He was elected chairman. / She remained captain of the team.",
+              "同位语：Mr. Li, head of the department, will chair the meeting.",
+              "宾补：They appointed him manager. / The committee named her director."
+            ]
+          },
+          {
+            "h": "必须用冠词的位置",
+            "p": "同一个职位名词作主语或作及物动词的宾语时，指称的是一个具体的人，必须加 the（特指）或 a/an（泛指）。头衔 + 姓名时则零冠词。",
+            "bullets": [
+              "主语：The manager is out of the office.",
+              "宾语：I met the new director yesterday.",
+              "头衔 + 姓名：Professor Smith, Doctor Wang, Captain Cook"
+            ]
+          },
+          {
+            "h": "become 与 turn 的差别",
+            "p": "become 后接可数名词表「成为某一类人」时用 a/an；turn 后接职业名词用零冠词。这两个动词的差别常被忽略。",
+            "bullets": [
+              "He became a doctor after ten years of study.",
+              "He turned writer after the war.",
+              "× He turned a writer."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She was elected chairperson of the committee.", "zh": "她当选为委员会主席。", "ok": true, "note": "elect 后的宾补位置表职务，用零冠词。" },
+          { "en": "She was elected the chairperson of the committee.", "zh": "她当选为委员会主席。", "ok": false, "note": "elect 后的职位名词作宾补用零冠词，加 the 会把它当作特定个体。" },
+          { "en": "They appointed him head of the research team.", "zh": "他们任命他为研究小组组长。", "ok": true, "note": "appoint 后接宾补，职位名词零冠词。" },
+          { "en": "The chairman will address the meeting at ten.", "zh": "主席将在十点向大会讲话。", "ok": true, "note": "职位名词作主语指具体的人，必须用 the。" },
+          { "en": "Professor Smith will give a lecture on Friday.", "zh": "史密斯教授周五将做一场讲座。", "ok": true, "note": "头衔 + 姓名用零冠词。" },
+          { "en": "He became a doctor after ten years of study.", "zh": "他学习十年后成了医生。", "ok": true, "note": "become 后接可数名词表身份，用 a。" },
+          { "en": "He turned a writer after the war.", "zh": "战后他成了作家。", "ok": false, "note": "turn 后接职业名词用零冠词，应为 turned writer。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He was made the captain of the team.", "right": "He was made captain of the team.", "why": "make 后的职位名词作宾补用零冠词，职务在此是唯一身份而非某个个体。" },
+          { "wrong": "Manager is in his office.", "right": "The manager is in his office.", "why": "职位名词单独作主语指具体的人，必须加 the。" },
+          { "wrong": "The Professor Wang teaches history.", "right": "Professor Wang teaches history.", "why": "头衔 + 姓名是固定零冠词结构，the 不与头衔同现。" }
+        ],
+        "contrast": { "withTitle": "零冠词的使用规则", "diff": "零冠词的一般规则看泛指还是特指；职位前的零冠词由句法位置决定，只看它作表语、同位语还是宾补。" },
+        "mnemonic": "表语、同位、宾补留空；主语宾语要 the；头衔加姓名也不加冠词。"
+      },
+      "review": {
+        "core": [
+          "职位名词作表语、同位语、宾补：零冠词",
+          "elect / appoint / name / make 后的宾补位置是高频考点",
+          "职位名词作主语或宾语指具体的人：用 the 或 a/an",
+          "头衔 + 姓名零冠词：Professor Smith, Doctor Wang",
+          "become + a/an + 职业；turn + 职业（零冠词）"
+        ],
+        "trigger": "看到 elect/appoint/name/make + 人 + 职位 → 职位前留空；看到职位词作主语 → 补 the",
+        "quickCheck": [
+          { "q": "He was elected ___ chairman. 填什么？", "a": "不填，elect 后的职位作宾补用零冠词。" },
+          { "q": "The manager 与 Manager 有什么区别？", "a": "作主语指具体的人必须用 the manager。" },
+          { "q": "He turned writer. 能说 turned a writer 吗？", "a": "不能，turn 后接职业名词用零冠词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.articles.titles.d1",
+          "type": "choice",
+          "stem": "In 2019 she was elected ___ of the student union.",
+          "options": ["president", "the president", "a president", "presidents"],
+          "answer": "president",
+          "explain": "elect 后的职位名词作宾补，表独一无二的职务，用零冠词。",
+          "trap": "the president 把职位当作特定个体，与 elect 后宾补的用法不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.titles.d2",
+          "type": "fill",
+          "stem": "They appointed him ___ of the new branch.",
+          "answer": "manager",
+          "accept": ["manager"],
+          "hint": "appoint 后接宾补。",
+          "explain": "appoint sb + 职位，职位名词零冠词，故填 manager。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.articles.titles.d3",
+          "type": "correct",
+          "stem": "The committee named her the director of the program.",
+          "answer": "The committee named her director of the program.",
+          "accept": ["The committee named her director of the program."],
+          "explain": "name 后的职位名词作宾补用零冠词，the 应去掉。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.titles.d4",
+          "type": "choice",
+          "stem": "___ is expected to announce the decision this afternoon.",
+          "options": ["The director", "Director", "A director", "Directors"],
+          "answer": "The director",
+          "explain": "职位名词作主语，指双方共知的那位负责人，用 the。",
+          "trap": "Director 的零冠词只适用于表语、同位语、宾补或头衔 + 姓名，不能作主语。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.articles.titles.d5",
+          "type": "translate",
+          "stem": "他被选为班长。",
+          "answer": "He was elected monitor of the class.",
+          "require": [["elected"], ["monitor"]],
+          "forbid": ["the monitor", "a monitor"],
+          "explain": "elect 后的职位名词作宾补用零冠词，monitor 前不加冠词。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

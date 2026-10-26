@@ -1,0 +1,1378 @@
+{
+  "level1": "collocation",
+  "chapter": "phrasal_verbs",
+  "items": [
+    {
+      "id": "collocation.phrasal_verbs.prepositional",
+      "title": "动词 + 介词型短语动词",
+      "brief": "介词必须带宾语，短语整体才及物",
+      "difficulty": 2,
+      "tags": [
+        "基础",
+        "高频"
+      ],
+      "prereq": [
+        "morph.verbs.transitive-intransitive"
+      ],
+      "concept": {
+        "summary": "动词 + 介词型短语动词只有一个结构事实：介词保留介词身份，必须带自己的补足语，因此宾语只能出现在介词之后，不能插到动词与介词之间。及物性用被动化检验：把介词后的宾语提作主语，句子成立且介词原样留在句末，说明整条短语及物；提作主语后句子不成立，说明该短语不及物。",
+        "sections": [
+          {
+            "h": "判定：介词必须带宾语",
+            "p": "介词是功能词，它的存在意义就是把后面的名词性成分接到动词上。名词、代词、动名词都可以作这个宾语，但位置固定在介词右侧，任何成分都不能挤进动词与介词之间。",
+            "bullets": [
+              "look after the baby / look after it；× look the baby after",
+              "depend on the weather；× depend the weather on",
+              "介词后接动词一律用动名词：insist on leaving, succeed in passing"
+            ]
+          },
+          {
+            "h": "及物性检验：被动化",
+            "p": "把短语后的宾语提作句首主语，动词变 be + 过去分词，介词留在句末。能成立的就是及物短语，不能成立的就是不及物短语。检验的是整条短语，不是中心动词。",
+            "bullets": [
+              "The baby is looked after by her aunt.（成立，整条短语及物）",
+              "The teacher was listened to politely.（成立，listen to 及物）",
+              "We arrived at the station. → × The station was arrived at.（不成立，arrive at 不用于被动）"
+            ]
+          },
+          {
+            "h": "不可分的机制",
+            "p": "介词与它的宾语构成一个介词短语，这个短语的内部分工是“介词 + 补足语”，中间没有安放另一个名词的位置。副词则只是动词的修饰成分，可以移到宾语之后，这就是下一节可拆分的来源。",
+            "bullets": [
+              "× look him after；√ look after him",
+              "× depend the result on；√ depend on the result",
+              "× be laughed by them；√ be laughed at by them"
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "She looks after her younger brother every afternoon.",
+            "zh": "她每天下午照顾弟弟。",
+            "ok": true,
+            "note": "after 是介词，后接名词宾语，整条短语作及物动词用。"
+          },
+          {
+            "en": "The committee finally agreed on a new timetable.",
+            "zh": "委员会最终就新的时间表达成了一致。",
+            "ok": true,
+            "note": "agree on 表示“就某事达成一致”，on 后接达成一致的对象。"
+          },
+          {
+            "en": "She looks her younger brother after every afternoon.",
+            "zh": "她每天下午照顾弟弟。",
+            "ok": false,
+            "note": "介词 after 必须紧邻自己的宾语，宾语不能插到动词与介词之间，应改为 looked after her younger brother。"
+          },
+          {
+            "en": "The doctor was sent for at once.",
+            "zh": "立刻派人去请了医生。",
+            "ok": true,
+            "note": "send for 的宾语提作主语后 for 留在句末，说明整条短语及物。"
+          },
+          {
+            "en": "You can always depend him when things go wrong.",
+            "zh": "事情出错时你总可以依靠他。",
+            "ok": false,
+            "note": "depend 单独是不及物动词，必须靠介词 on 才能带宾语，应改为 depend on him。"
+          },
+          {
+            "en": "He insisted on paying for the meal himself.",
+            "zh": "他坚持自己付饭钱。",
+            "ok": true,
+            "note": "insist 的固定介词是 on，介词后接动名词 paying。"
+          },
+          {
+            "en": "She succeeded to pass the driving test.",
+            "zh": "她顺利通过了驾照考试。",
+            "ok": false,
+            "note": "succeed 的固定搭配是 succeed in doing，介词后不能用不定式，应改为 succeeded in passing。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "The nurse looked the patient after.",
+            "right": "The nurse looked after the patient.",
+            "why": "after 是介词，必须直接带自己的补足语；动词与介词之间不存在安放宾语的位置。"
+          },
+          {
+            "wrong": "You can always depend him.",
+            "right": "You can always depend on him.",
+            "why": "depend 单独不及物，及物性由介词 on 提供，删掉介词后句子没有宾语落点。"
+          },
+          {
+            "wrong": "She insisted to see the manager.",
+            "right": "She insisted on seeing the manager.",
+            "why": "insist 的固定介词是 on，且介词后动词必须用动名词，不能用不定式。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "动词 + 副词型短语动词",
+          "diff": "介词必须紧邻宾语、没有移位自由；副词可以移到宾语之后，代词宾语反而必须插在动词与副词之间。"
+        },
+        "mnemonic": "介必带宾，宾不插缝；能变被动，才算及物。"
+      },
+      "review": {
+        "core": [
+          "介词后必须有宾语：look after him，不能 look him after",
+          "介词后接动词一律用动名词：insist on doing, succeed in doing",
+          "及物性检验：宾语提作主语后句子成立且介词保留",
+          "listen to、look after 可被动；arrive at 一般不用被动",
+          "检验对象是整条短语，不是中心动词"
+        ],
+        "trigger": "看到动词后面紧跟介词 → 先找介词的宾语 → 再把宾语提作被动主语验证及物性",
+        "quickCheck": [
+          {
+            "q": "look after 的宾语能放在 look 与 after 之间吗？",
+            "a": "不能，after 是介词，必须紧邻宾语。"
+          },
+          {
+            "q": "insist 后面接动词用什么形式？",
+            "a": "动名词，insist on doing。"
+          },
+          {
+            "q": "怎样判断一条动 + 介短语是否及物？",
+            "a": "把后面的宾语提作主语变被动，句子成立且介词保留即及物。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.phrasal_verbs.prepositional.d1",
+          "type": "choice",
+          "stem": "For three years she has ___ her elderly neighbour across the street.",
+          "options": [
+            "looked after",
+            "looked",
+            "looked for",
+            "looked at"
+          ],
+          "answer": "looked after",
+          "explain": "空格后是名词宾语 her elderly neighbour，需要一个能带宾语的及物短语；look after 表示“照顾”，整条短语及物。",
+          "trap": "looked 单独使用时是不及物动词，不能直接带宾语；looked for 意为“寻找”，与“照顾”语义不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.prepositional.d2",
+          "type": "fill",
+          "stem": "He insisted on ___ (pay) for the tickets himself.",
+          "answer": "paying",
+          "accept": [
+            "paying"
+          ],
+          "hint": "先判断 on 在这里的词性。",
+          "explain": "insist on 中的 on 是介词，介词后的动词必须用动名词，故填 paying。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.prepositional.d3",
+          "type": "correct",
+          "stem": "The nurse looked the old man after during the night.",
+          "answer": "The nurse looked after the old man during the night.",
+          "accept": [
+            "The nurse looked after the old man during the night."
+          ],
+          "explain": "after 是介词，必须紧邻自己的宾语；宾语 the old man 不能插在 looked 与 after 之间。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.prepositional.d4",
+          "type": "choice",
+          "stem": "The old professor ___ with great attention by every young researcher at the conference.",
+          "options": [
+            "was listened to",
+            "was listened",
+            "listened to",
+            "was listening to"
+          ],
+          "answer": "was listened to",
+          "explain": "listen to 是及物短语，宾语提作主语后 to 必须留在过去分词之后，构成 was listened to。",
+          "trap": "was listened 删掉了介词 to，listen 单独不及物，被动句失去及物性。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.phrasal_verbs.prepositional.d5",
+          "type": "translate",
+          "stem": "她坚持自己付账。",
+          "answer": "She insisted on paying the bill herself.",
+          "require": [
+            [
+              "insisted on"
+            ],
+            [
+              "paying"
+            ]
+          ],
+          "forbid": [
+            "insisted to pay",
+            "insisted paying"
+          ],
+          "explain": "insist 的固定介词是 on，介词后接动名词 paying；insisted to pay 把介词误作不定式符号。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.phrasal_verbs.prepositional.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "The",
+            "baby",
+            "is",
+            "well",
+            "looked",
+            "after",
+            "by",
+            "her",
+            "aunt."
+          ],
+          "answer": "The baby is well looked after by her aunt.",
+          "explain": "被动句中 after 必须留在过去分词之后，与 looked 一起构成及物短语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.phrasal_verbs.adverbial",
+      "title": "动词 + 副词型短语动词",
+      "brief": "副词可移到宾语后，代词宾语必须插中间",
+      "difficulty": 2,
+      "tags": [
+        "基础",
+        "易错"
+      ],
+      "prereq": [
+        "collocation.phrasal_verbs.prepositional"
+      ],
+      "concept": {
+        "summary": "动词 + 副词型短语动词中，副词不要求带宾语，它与动词先组合成一个新的及物单位，再整体带宾语。因此副词可以留在宾语之前，也可以移到宾语之后，两种位置语义相同；但宾语是代词时只有一种合法位置——插在动词与副词之间。判定方法是拆分测试：名词宾语两种位置都成立，代词宾语只有中间一种成立。",
+        "sections": [
+          {
+            "h": "名词宾语：两种位置都合法",
+            "p": "副词是小品词，属于动词的修饰成分，句末本就是状语与结果补语的常规位置，所以它可以越过名词宾语后移。名词短语带词汇内容，能承担句末重音，因此两种语序都自然。",
+            "bullets": [
+              "turn off the light = turn the light off",
+              "put on your coat = put your coat on",
+              "look up the word = look the word up"
+            ]
+          },
+          {
+            "h": "代词宾语：只有中间一种位置",
+            "p": "代词不提供新信息，不能占据承载焦点的句末位置，同时它轻读、必须紧贴所依附的动词。两条力量叠加，代词只能落在动词与副词之间。",
+            "bullets": [
+              "turn it off；× turn off it",
+              "pick them up；× pick up them",
+              "think it over；× think over it"
+            ]
+          },
+          {
+            "h": "可分与不可分的机制",
+            "p": "副词可以后移，是因为它修饰动词、位置本就浮动；介词不能后移，是因为它必须紧邻补足语。同一位置规则在从句上还要再收紧一步：that 从句较重，必须整体后置，不能插进动词与副词之间。",
+            "bullets": [
+              "副词可后移：carry out the plan = carry the plan out",
+              "介词不可后移：× look the baby after",
+              "从句必须后置：point out that...，× point that...out"
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "Please turn off the lights before you leave the office.",
+            "zh": "离开办公室前请把灯关掉。",
+            "ok": true,
+            "note": "名词宾语 the lights 放在副词 off 之后，是默认语序。"
+          },
+          {
+            "en": "Please turn the lights off before you leave the office.",
+            "zh": "离开办公室前请把灯关掉。",
+            "ok": true,
+            "note": "名词宾语可以提到副词之前，语义不变。"
+          },
+          {
+            "en": "Please turn them off before you leave the office.",
+            "zh": "离开办公室前请把它们关掉。",
+            "ok": true,
+            "note": "代词宾语 them 必须插在 turn 与 off 之间。"
+          },
+          {
+            "en": "Please turn off them before you leave the office.",
+            "zh": "离开办公室前请把它们关掉。",
+            "ok": false,
+            "note": "代词不能落在副词之后，应改为 turn them off。"
+          },
+          {
+            "en": "She pointed out that the plan was too risky.",
+            "zh": "她指出这个计划风险太大。",
+            "ok": true,
+            "note": "that 从句作宾语必须整体后置，副词 out 紧跟动词。"
+          },
+          {
+            "en": "She looked up it in the dictionary.",
+            "zh": "她在词典里查了它。",
+            "ok": false,
+            "note": "代词 it 应插在 looked 与 up 之间，改为 looked it up。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "I cannot turn off it now.",
+            "right": "I cannot turn it off now.",
+            "why": "代词不承载句末焦点，只能紧贴动词，落在副词之前。"
+          },
+          {
+            "wrong": "She picked up him at the airport.",
+            "right": "She picked him up at the airport.",
+            "why": "pick up 属动 + 副结构，代词宾语必须插入动词与副词之间。"
+          },
+          {
+            "wrong": "She pointed that the plan was too risky out.",
+            "right": "She pointed out that the plan was too risky.",
+            "why": "that 从句信息量大，只能整体后置；插在动词与副词之间会让句子失去结构支撑。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "动词 + 介词型短语动词",
+          "diff": "介词锁住宾语位置，宾语只能跟在介词后；副词位置浮动，名词宾语可前可后，代词宾语必须插中间。"
+        },
+        "mnemonic": "名词随便放，代词夹中间；从句往后站，副词两头跑。"
+      },
+      "review": {
+        "core": [
+          "动 + 副先组合成及物单位，再带宾语",
+          "名词宾语：turn off the light = turn the light off",
+          "代词宾语：turn it off，不能 turn off it",
+          "that 从句作宾语必须整体后置，副词紧跟动词",
+          "可分性来自副词位置浮动，介词没有这种自由"
+        ],
+        "trigger": "看到动副短语后面跟着 it/them → 立刻把代词移到动词与副词之间",
+        "quickCheck": [
+          {
+            "q": "turn off it 错在哪里？",
+            "a": "代词宾语必须插在动词与副词之间，应为 turn it off。"
+          },
+          {
+            "q": "名词宾语能放在副词后面吗？",
+            "a": "能，turn off the light 与 turn the light off 都对。"
+          },
+          {
+            "q": "that 从句能插在动词与副词之间吗？",
+            "a": "不能，从句必须整体后置。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.phrasal_verbs.adverbial.d1",
+          "type": "choice",
+          "stem": "I cannot hear the radio at all. Could you ___ a little?",
+          "options": [
+            "turn it up",
+            "turn up it",
+            "turn it on",
+            "turn on it"
+          ],
+          "answer": "turn it up",
+          "explain": "宾语是代词 it，必须插在 turn 与副词之间；语义上“听不见”要求调高音量，故用 turn it up。",
+          "trap": "turn up it 把代词放到副词之后，违反代词宾语必须插入中间的位置规则。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.phrasal_verbs.adverbial.d2",
+          "type": "fill",
+          "stem": "The word was unfamiliar, so she ___ in the dictionary. (look / it / up)",
+          "answer": "looked it up",
+          "accept": [
+            "looked it up"
+          ],
+          "hint": "括号里三项都要用上，注意代词与副词谁在前。",
+          "explain": "句子是过去时，look 变 looked；代词 it 必须插在 looked 与 up 之间，构成 looked it up。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.adverbial.d3",
+          "type": "correct",
+          "stem": "The radio is too loud, so could you turn off it?",
+          "answer": "The radio is too loud, so could you turn it off?",
+          "accept": [
+            "The radio is too loud, so could you turn it off?"
+          ],
+          "explain": "turn off 是动 + 副结构，代词宾语 it 必须插在动词与副词之间，改为 turn it off。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.adverbial.d4",
+          "type": "choice",
+          "stem": "The manager ___ that the meeting had been put off until Friday.",
+          "options": [
+            "pointed out",
+            "pointed",
+            "pointed it out",
+            "pointed up"
+          ],
+          "answer": "pointed out",
+          "explain": "that 从句作宾语时整体后置，副词 out 紧跟动词，构成 pointed out that...。",
+          "trap": "pointed it out 用 it 指代后面的 that 从句，造成宾语重复，且代词插在动词与副词之间的位置在此不成立。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.phrasal_verbs.adverbial.d5",
+          "type": "translate",
+          "stem": "请把它们关掉。",
+          "answer": "Please turn them off.",
+          "require": [
+            [
+              "turn them off"
+            ]
+          ],
+          "forbid": [
+            "turn off them"
+          ],
+          "explain": "turn off 是动 + 副结构，代词 them 必须插在 turn 与 off 之间。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.adverbial.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "She",
+            "picked",
+            "him",
+            "up",
+            "at",
+            "the",
+            "airport."
+          ],
+          "answer": "She picked him up at the airport.",
+          "explain": "代词 him 插在 picked 与副词 up 之间，地点状语 at the airport 置于句末。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "collocation.phrasal_verbs.three-part",
+      "title": "三段式短语动词",
+      "brief": "副管义、介管宾，两个小品词都不能动",
+      "difficulty": 3,
+      "tags": [
+        "难点",
+        "高频"
+      ],
+      "prereq": [
+        "collocation.phrasal_verbs.adverbial"
+      ],
+      "concept": {
+        "summary": "三段式短语动词由“动词 + 副词 + 介词”构成，副词改变动词的语义，介词负责把宾语接进来。两个小品词都已与动词凝固成一个词条，宾语只能出现在介词之后，既不能插在动词与副词之间，也不能插在副词与介词之间。及物性同样用被动化检验，且被动时两个小品词都留在句末。",
+        "sections": [
+          {
+            "h": "结构分工：副词管义，介词管宾",
+            "p": "三段式的第一个小品词是副词，它不给动词带宾语，只改变词义方向；第二个小品词是介词，它才是及物性的来源。理解这个分工，才能解释为什么宾语只能跟在最后。",
+            "bullets": [
+              "put up with the noise：up 改变 put 的语义，with 才接宾语",
+              "look forward to the holiday：forward 表方向，to 接宾语",
+              "get along with colleagues / come up with a plan / run out of paper"
+            ]
+          },
+          {
+            "h": "宾语只有一种位置",
+            "p": "介词之后是唯一合法位置。代词宾语也不例外，因为挡住它的是介词，而不是副词，所以没有“插中间”的选项。介词后接动词时一律用动名词。",
+            "bullets": [
+              "√ put up with the noise；× put up the noise with；× put the noise up with",
+              "代词同样后置：put up with it，不能说 put up it with",
+              "look forward to hearing from you（to 是介词，后接动名词）"
+            ]
+          },
+          {
+            "h": "被动与不可拆",
+            "p": "整个三段式在被动中原样保留，两个小品词依次排在过去分词之后。漏掉任何一个，短语就退回字面义或失去及物性。",
+            "bullets": [
+              "Such rudeness cannot be put up with.",
+              "The visit is looked forward to by the whole family.",
+              "× The noise was put up.（丢掉 with，短语不再及物）"
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "I cannot put up with the noise any longer.",
+            "zh": "我再也没法忍受这种噪音了。",
+            "ok": true,
+            "note": "up 与 with 缺一不可，宾语 the noise 只能跟在 with 之后。"
+          },
+          {
+            "en": "She is looking forward to hearing from you.",
+            "zh": "她期待收到你的消息。",
+            "ok": true,
+            "note": "此处的 to 是介词，后接动名词 hearing。"
+          },
+          {
+            "en": "Such rudeness cannot be put up with.",
+            "zh": "这种无礼行为不能被容忍。",
+            "ok": true,
+            "note": "被动化后两个小品词依次留在句末，with 不能省略。"
+          },
+          {
+            "en": "I cannot put up the noise with any longer.",
+            "zh": "我再也没法忍受这种噪音了。",
+            "ok": false,
+            "note": "宾语不能插在副词与介词之间，应改为 put up with the noise。"
+          },
+          {
+            "en": "She is looking forward to hear from you.",
+            "zh": "她期待收到你的消息。",
+            "ok": false,
+            "note": "to 在此是介词而不是不定式符号，应改为 hearing。"
+          },
+          {
+            "en": "The whole family is looking forward the visit.",
+            "zh": "全家人都期待着这次探访。",
+            "ok": false,
+            "note": "look forward 后必须保留介词 to 才能带宾语，应改为 looking forward to the visit。"
+          },
+          {
+            "en": "We have run out of printer paper again.",
+            "zh": "我们的打印纸又用完了。",
+            "ok": true,
+            "note": "run out of 是三段式，of 负责引出被用完的事物。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "I cannot put up the noise with.",
+            "right": "I cannot put up with the noise.",
+            "why": "with 是介词，必须紧跟自己的补足语；三段式的两个小品词之间没有安放宾语的位置。"
+          },
+          {
+            "wrong": "She is looking forward to see you.",
+            "right": "She is looking forward to seeing you.",
+            "why": "look forward to 中的 to 是介词，不是不定式符号，介词后必须用动名词。"
+          },
+          {
+            "wrong": "We ran out printer paper yesterday.",
+            "right": "We ran out of printer paper yesterday.",
+            "why": "run out 单独不及物，of 才负责把宾语接进来，删掉 of 句子失去及物性。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "动词 + 介词型短语动词",
+          "diff": "两段式只有一个介词，宾语位置单一；三段式多一个副词，副词承担语义、介词承担及物性，两个都不能动。"
+        },
+        "mnemonic": "副管义，介管宾；三段一体，宾语只跟介词走。"
+      },
+      "review": {
+        "core": [
+          "三段式 = 动词 + 副词 + 介词：put up with, look forward to, run out of",
+          "宾语只能放在介词之后，中间任何位置都不能插",
+          "介词后接动词用动名词：look forward to doing",
+          "被动时两个小品词依次留在句末：be put up with",
+          "漏掉介词即失去及物性：run out of paper"
+        ],
+        "trigger": "看到 look forward to / put up with / run out of → 先把整条短语当成一个及物动词，再决定宾语位置",
+        "quickCheck": [
+          {
+            "q": "look forward to 后面接动词用什么形式？",
+            "a": "动名词，因为 to 是介词。"
+          },
+          {
+            "q": "宾语能放在 up 与 with 之间吗？",
+            "a": "不能，宾语只能跟在 with 之后。"
+          },
+          {
+            "q": "put up with 变被动后 with 还在吗？",
+            "a": "在，两个小品词都保留在句末。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.phrasal_verbs.three-part.d1",
+          "type": "choice",
+          "stem": "Many parents find it hard to ___ their teenage children's mood swings.",
+          "options": [
+            "put up with",
+            "put up",
+            "put with",
+            "put up to"
+          ],
+          "answer": "put up with",
+          "explain": "空后是名词宾语，需要三段式中由介词 with 提供的及物性，构成 put up with“忍受”。",
+          "trap": "put up 单独意为“搭建、举起”，不带宾语时无法表达“忍受”；put with 缺副词 up，不是合法短语。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.three-part.d2",
+          "type": "fill",
+          "stem": "I am looking forward to ___ (hear) from you soon.",
+          "answer": "hearing",
+          "accept": [
+            "hearing"
+          ],
+          "hint": "先判断 to 在这里是介词还是不定式符号。",
+          "explain": "look forward to 中的 to 是介词，介词后动词用动名词，故填 hearing。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.three-part.d3",
+          "type": "correct",
+          "stem": "She is looking forward to meet her old classmates at the reunion.",
+          "answer": "She is looking forward to meeting her old classmates at the reunion.",
+          "accept": [
+            "She is looking forward to meeting her old classmates at the reunion."
+          ],
+          "explain": "look forward to 的 to 是介词，后面必须接动名词 meeting，不能用动词原形。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.three-part.d4",
+          "type": "choice",
+          "stem": "The manager ___ a new plan at yesterday's meeting.",
+          "options": [
+            "came up with",
+            "came up",
+            "came with",
+            "came up to"
+          ],
+          "answer": "came up with",
+          "explain": "空后是宾语 a new plan，需要由介词 with 引入，构成 come up with“想出”。",
+          "trap": "came up 单独是不及物短语，意为“被提出”，不能直接带宾语。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.phrasal_verbs.three-part.d5",
+          "type": "translate",
+          "stem": "我们办公室的打印纸用完了。",
+          "answer": "Our office has run out of printer paper.",
+          "require": [
+            [
+              "run out of"
+            ],
+            [
+              "printer paper"
+            ]
+          ],
+          "forbid": [
+            "run out printer paper",
+            "ran out paper"
+          ],
+          "explain": "run out of 是三段式，of 负责引出被用完的事物，漏掉 of 后短语不及物，无法带宾语。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.phrasal_verbs.three-part.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "She",
+            "is",
+            "looking",
+            "forward",
+            "to",
+            "visiting",
+            "her",
+            "grandparents."
+          ],
+          "answer": "She is looking forward to visiting her grandparents.",
+          "explain": "三段式中 forward 与 to 依次保留，to 是介词，后接动名词 visiting。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.phrasal_verbs.object-position",
+      "title": "短语动词的宾语位置",
+      "brief": "先看小品词性质，再看宾语是名词、代词还是从句",
+      "difficulty": 3,
+      "tags": [
+        "易错",
+        "高频"
+      ],
+      "prereq": [
+        "collocation.phrasal_verbs.adverbial"
+      ],
+      "concept": {
+        "summary": "宾语位置由两个变量共同决定：小品词是介词还是副词，宾语是名词、代词还是从句。判定顺序固定——先看短语类型，再看宾语形态。动 + 介：宾语只能在介词后。动 + 副：名词宾语可前可后，代词宾语必须插中间，that 从句必须后置。三段式同动 + 介，宾语只在介词后。",
+        "sections": [
+          {
+            "h": "四条位置规则",
+            "p": "把短语类型与宾语形态交叉，只剩下四种情况。做题时先分类，再套位置，不要凭语感试。",
+            "bullets": [
+              "动 + 介 + 宾语：look after the baby，宾语只在介词后",
+              "动 + 副 + 名词：turn off the light = turn the light off",
+              "动 + 副 + 代词：turn it off（唯一合法位置）",
+              "动 + 副 + that 从句：point out that...，从句整体后置"
+            ]
+          },
+          {
+            "h": "代词为什么必须插中间",
+            "p": "句末是信息焦点与重音的位置，代词本身不提供新信息，占据该位置会造成焦点落空；同时代词轻读，必须紧贴它依附的动词。名词短语带词汇内容，可以承担句末重音，所以两种位置都成立。",
+            "bullets": [
+              "√ turn it off；× turn off it",
+              "√ turn the tap off；√ turn off the tap",
+              "长名词短语通常后置：She turned off all the lights in the corridor."
+            ]
+          },
+          {
+            "h": "两种越界",
+            "p": "把“动 + 副”的插入规则搬到“动 + 介”上，或把宾语塞进三段式中间，都会破坏介词与补足语的结合。这两类越界是改错题的主要来源。",
+            "bullets": [
+              "× look her after（介词 after 被宾语劈开）",
+              "× put up the tent with（三段式中间插宾语）",
+              "名词宾语也不能改变介词的粘着性：× depend the result on"
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "She turned the tap off.",
+            "zh": "她把水龙头关上了。",
+            "ok": true,
+            "note": "名词宾语 the tap 提到副词 off 之前，动 + 副结构允许这种语序。"
+          },
+          {
+            "en": "She turned off the tap.",
+            "zh": "她把水龙头关上了。",
+            "ok": true,
+            "note": "名词宾语留在副词之后，是默认语序，与上一句同义。"
+          },
+          {
+            "en": "She turned it off.",
+            "zh": "她把它关上了。",
+            "ok": true,
+            "note": "代词 it 插在动词与副词之间，这是代词宾语的唯一合法位置。"
+          },
+          {
+            "en": "She turned off it.",
+            "zh": "她把它关上了。",
+            "ok": false,
+            "note": "代词不能落在副词之后，应改为 turned it off。"
+          },
+          {
+            "en": "The teacher pointed out that the exercise was too easy.",
+            "zh": "老师指出这道练习太简单了。",
+            "ok": true,
+            "note": "that 从句作宾语时整体后置，副词 out 紧跟动词。"
+          },
+          {
+            "en": "The teacher pointed that the exercise was too easy out.",
+            "zh": "老师指出这道练习太简单了。",
+            "ok": false,
+            "note": "从句不能插在动词与副词之间，应改为 pointed out that..."
+          },
+          {
+            "en": "He looked after the children while their parents were away.",
+            "zh": "父母外出时他照顾这些孩子。",
+            "ok": true,
+            "note": "look after 是动 + 介，宾语只能跟在介词之后。"
+          },
+          {
+            "en": "He looked the children after while their parents were away.",
+            "zh": "父母外出时他照顾这些孩子。",
+            "ok": false,
+            "note": "after 是介词，宾语不能插到动词与介词之间。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "Could you pick up me at six?",
+            "right": "Could you pick me up at six?",
+            "why": "代词不承载句末焦点，只能紧贴动词，落在副词之前。"
+          },
+          {
+            "wrong": "The nurse looked the patient after.",
+            "right": "The nurse looked after the patient.",
+            "why": "after 是介词，必须紧邻补足语；动 + 介没有拆分自由，插入规则只属于动 + 副。"
+          },
+          {
+            "wrong": "She pointed that she would be late out.",
+            "right": "She pointed out that she would be late.",
+            "why": "that 从句只能整体后置，插在动词与副词之间会使从句失去结构位置。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "动词 + 介词型短语动词",
+          "diff": "该点讲短语本身的构成与及物性；本点把不同形态的宾语代入，给出名词、代词、从句三类位置及其判定顺序。"
+        },
+        "mnemonic": "介后宾，副可移；代词夹中间，从句往后放。"
+      },
+      "review": {
+        "core": [
+          "动 + 介：宾语只能在介词之后",
+          "动 + 副 + 名词：可前可后，语义不变",
+          "动 + 副 + 代词：必须插在动词与副词之间",
+          "动 + 副 + that 从句：从句整体后置",
+          "判定顺序：先看小品词性质，再看宾语形态"
+        ],
+        "trigger": "看到动副短语后面跟着代词 → 立刻把代词移到动词与副词之间",
+        "quickCheck": [
+          {
+            "q": "turn off it 与 turn it off 哪个对？",
+            "a": "turn it off。"
+          },
+          {
+            "q": "look after 的宾语能插在 look 与 after 之间吗？",
+            "a": "不能，after 是介词。"
+          },
+          {
+            "q": "point out 后接 that 从句时，out 放在哪里？",
+            "a": "紧跟动词，从句整体放在 out 之后。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.phrasal_verbs.object-position.d1",
+          "type": "choice",
+          "stem": "These old newspapers are useless. Could you ___?",
+          "options": [
+            "throw them away",
+            "throw away them",
+            "throw away",
+            "away them throw"
+          ],
+          "answer": "throw them away",
+          "explain": "throw away 是动 + 副结构，代词 them 必须插在动词与副词之间。",
+          "trap": "throw away them 把代词放到副词之后，是最典型的代词位置错误。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.object-position.d2",
+          "type": "fill",
+          "stem": "She read the letter twice and then ___ in anger. (tear / it / up)",
+          "answer": "tore it up",
+          "accept": [
+            "tore it up"
+          ],
+          "hint": "句子是过去时，三个词都要用上。",
+          "explain": "tear 的过去式是 tore；代词 it 必须插在 tore 与副词 up 之间，构成 tore it up。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.phrasal_verbs.object-position.d3",
+          "type": "correct",
+          "stem": "He picked up me at the station at seven.",
+          "answer": "He picked me up at the station at seven.",
+          "accept": [
+            "He picked me up at the station at seven."
+          ],
+          "explain": "pick up 是动 + 副结构，代词宾语 me 必须插在 picked 与 up 之间。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.object-position.d4",
+          "type": "choice",
+          "stem": "The baby is crying again; someone should ___.",
+          "options": [
+            "look after her",
+            "look her after",
+            "look after",
+            "after look her"
+          ],
+          "answer": "look after her",
+          "explain": "look after 是动 + 介结构，宾语只能跟在介词 after 之后，代词也一样。",
+          "trap": "look her after 把动 + 副的代词插入规则套到动 + 介结构上，介词被宾语劈开，句子不成立。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.phrasal_verbs.object-position.d5",
+          "type": "translate",
+          "stem": "请把它们扔掉。",
+          "answer": "Please throw them away.",
+          "require": [
+            [
+              "throw them away"
+            ]
+          ],
+          "forbid": [
+            "throw away them"
+          ],
+          "explain": "throw away 是动 + 副结构，代词 them 必须插在 throw 与 away 之间。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.object-position.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "The",
+            "teacher",
+            "pointed",
+            "out",
+            "that",
+            "the",
+            "answer",
+            "was",
+            "wrong."
+          ],
+          "answer": "The teacher pointed out that the answer was wrong.",
+          "explain": "that 从句作宾语必须整体后置，副词 out 紧跟在 pointed 之后。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.phrasal_verbs.passive-form",
+      "title": "短语动词的被动化与及物性判定",
+      "brief": "宾语上前，小品词全部留句末",
+      "difficulty": 3,
+      "tags": [
+        "高频",
+        "易错"
+      ],
+      "prereq": [
+        "tense_voice.passive.phrasal-verbs"
+      ],
+      "concept": {
+        "summary": "短语动词变被动时，整条短语被当作一个及物动词处理：宾语提作主语，动词变成 be + 过去分词，其余小品词原样留在句末。能否被动只看整条短语是否及物，不看中心动词——look 单独不及物，look after 却及物。没有宾语的不及物短语动词（take off 起飞、break down 抛锚）不能变被动。",
+        "sections": [
+          {
+            "h": "转换三步",
+            "p": "第一步找宾语，第二步提作主语，第三步把短语剩余部分整体保留在过去分词之后。三步都不能跳，尤其是第三步最容易被省略。",
+            "bullets": [
+              "They put off the match. → The match was put off.",
+              "They looked after the children. → The children were looked after.",
+              "Someone must deal with the problem. → The problem must be dealt with."
+            ]
+          },
+          {
+            "h": "及物性看整条短语",
+            "p": "中心动词的及物性与短语的及物性可以不一致，被动化只认整条短语。判断方法仍是把宾语提作主语：提得动就是及物。",
+            "bullets": [
+              "listen to 可被动：The teacher was listened to politely.",
+              "arrive at 不被动：× The station was arrived at.",
+              "break down 不被动：× The car was broken down."
+            ]
+          },
+          {
+            "h": "三段式与名词短语的被动",
+            "p": "三段式的两个小品词依次保留；由“动词 + 名词 + 介词”构成的固定搭配，被动时把名词提作主语，动词与介词分居两侧。",
+            "bullets": [
+              "Such behaviour cannot be put up with.",
+              "The visit is looked forward to by the whole family.",
+              "pay attention to → Attention should be paid to safety."
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "The match was put off until next Friday.",
+            "zh": "比赛推迟到了下周五。",
+            "ok": true,
+            "note": "宾语 the match 提作主语，副词 off 留在过去分词之后。"
+          },
+          {
+            "en": "The children were well looked after by their grandmother.",
+            "zh": "孩子们由祖母照顾得很好。",
+            "ok": true,
+            "note": "被动化的是 look after 整条短语，after 不能丢。"
+          },
+          {
+            "en": "The children were well looked by their grandmother.",
+            "zh": "孩子们由祖母照顾得很好。",
+            "ok": false,
+            "note": "look 单独不带宾语，被动中必须保留 after，改为 looked after。"
+          },
+          {
+            "en": "Such behaviour cannot be put up with.",
+            "zh": "这种行为不能被容忍。",
+            "ok": true,
+            "note": "三段式被动化后 up 与 with 依次留在句末。"
+          },
+          {
+            "en": "Such behaviour cannot be put up.",
+            "zh": "这种行为不能被容忍。",
+            "ok": false,
+            "note": "put up 单独意为“搭建”，丢掉 with 后短语不再表示“容忍”，也失去及物性。"
+          },
+          {
+            "en": "Attention should be paid to safety.",
+            "zh": "应当注意安全。",
+            "ok": true,
+            "note": "pay attention to 被动时名词 attention 提作主语，paid to 保留。"
+          },
+          {
+            "en": "The car was broken down on the motorway an hour ago.",
+            "zh": "车一小时前在高速公路上抛锚了。",
+            "ok": false,
+            "note": "break down 是不及物短语，没有宾语可提作主语，应改为 The car broke down。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "The problem will be dealt next week.",
+            "right": "The problem will be dealt with next week.",
+            "why": "deal 单独不及物，只有 deal with 整体及物，被动中 with 必须保留。"
+          },
+          {
+            "wrong": "The baby is looked by her aunt.",
+            "right": "The baby is looked after by her aunt.",
+            "why": "被动化的对象是整条短语而不是中心动词，漏掉 after 后句子没有及物性。"
+          },
+          {
+            "wrong": "The plane was taken off at seven.",
+            "right": "The plane took off at seven.",
+            "why": "take off 作“起飞”讲是不及物短语，没有宾语，不能构成被动。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "双宾语动词的两种被动形式",
+          "diff": "双宾语要决定哪个宾语作主语并补 to/for；短语动词没有选择余地，小品词一律留在过去分词之后。"
+        },
+        "mnemonic": "宾语上前，短语不动；小品词站句末，一个都不能少。"
+      },
+      "review": {
+        "core": [
+          "三步：宾语提作主语 → be + 过去分词 → 小品词原样保留",
+          "及物性看整条短语：look 不及物，look after 及物",
+          "三段式被动两个小品词都在：be put up with",
+          "不及物短语动词不能被动：take off, break down, arrive at",
+          "名词宾语短语被动时名词作主语：attention is paid to"
+        ],
+        "trigger": "看到被动句的谓语动词后面缺宾语 → 回查原短语是否还有介词或副词没写",
+        "quickCheck": [
+          {
+            "q": "look after 的被动形式？",
+            "a": "be looked after。"
+          },
+          {
+            "q": "take off（起飞）能变被动吗？",
+            "a": "不能，它是不及物短语动词。"
+          },
+          {
+            "q": "put up with 变被动后 with 在哪？",
+            "a": "留在句末，构成 be put up with。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.phrasal_verbs.passive-form.d1",
+          "type": "choice",
+          "stem": "The old factory ___ last month to make room for a park.",
+          "options": [
+            "was pulled down",
+            "was pulled",
+            "pulled down",
+            "has pulled"
+          ],
+          "answer": "was pulled down",
+          "explain": "pull down 意为“拆除”，被动中副词 down 必须保留在过去分词之后，构成 was pulled down。",
+          "trap": "was pulled 删掉 down 后 pull 退回“拉”的字面义，短语不再表示“拆除”。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.passive-form.d2",
+          "type": "fill",
+          "stem": "All the applications will be ___ before Friday. (look through)",
+          "answer": "looked through",
+          "accept": [
+            "looked through"
+          ],
+          "hint": "will be 后面接过去分词，副词要跟着一起写。",
+          "explain": "look through 是及物短语，被动形式为 be looked through，副词 through 不能省略。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.passive-form.d3",
+          "type": "correct",
+          "stem": "The children were well looked by their grandmother.",
+          "answer": "The children were well looked after by their grandmother.",
+          "accept": [
+            "The children were well looked after by their grandmother."
+          ],
+          "explain": "被动化的是 look after 整条短语，after 是及物性的来源，不能删去。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.passive-form.d4",
+          "type": "choice",
+          "stem": "The flight ___ at seven despite the heavy fog.",
+          "options": [
+            "took off",
+            "was taken off",
+            "has been taken off",
+            "was taken"
+          ],
+          "answer": "took off",
+          "explain": "take off 作“起飞”讲是不及物短语，没有宾语可提作主语，只能用主动形式。",
+          "trap": "was taken off 把不及物短语当及物动词处理，被动句缺少逻辑宾语。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.phrasal_verbs.passive-form.d5",
+          "type": "translate",
+          "stem": "这个问题必须马上处理。",
+          "answer": "The problem must be dealt with at once.",
+          "require": [
+            [
+              "dealt with"
+            ],
+            [
+              "at once"
+            ]
+          ],
+          "forbid": [
+            "must deal with",
+            "deal at once"
+          ],
+          "explain": "deal with 是及物短语，被动形式为 be dealt with；deal 单独不及物，不能省掉 with。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.phrasal_verbs.passive-form.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "The",
+            "plan",
+            "was",
+            "carried",
+            "out",
+            "without",
+            "any",
+            "difficulty."
+          ],
+          "answer": "The plan was carried out without any difficulty.",
+          "explain": "carry out 的宾语 the plan 提作主语，副词 out 留在过去分词之后。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.phrasal_verbs.semantic-contrast",
+      "title": "高频短语动词语义辨析",
+      "brief": "同一动词换小品词即换词义，靠宾语定向",
+      "difficulty": 4,
+      "tags": [
+        "高频",
+        "难点"
+      ],
+      "prereq": [
+        "collocation.phrasal_verbs.adverbial"
+      ],
+      "concept": {
+        "summary": "短语动词的语义由动词与小品词共同决定，同一动词换一个小品词就换一个词，不能按字面拼接推测。辨析方法是给每条短语固定一个典型宾语：turn down 的宾语是提议、请求或音量，turn up 的宾语是人、音量或机会。做题时先看宾语类型，再看小品词，最后看语体是否合适。",
+        "sections": [
+          {
+            "h": "turn / put / take 三组",
+            "p": "这三组在完形与改错中出现频率最高，且每一组内部至少有两个方向相反的义项，必须成对记。",
+            "bullets": [
+              "turn down 拒绝（提议）、调低（音量）；turn up 出现（人）、调高",
+              "put off 推迟；put out 扑灭；put up 搭建、张贴；put up with 容忍",
+              "take off 起飞、脱下；take over 接管；take up 占用（时间空间）、开始从事"
+            ]
+          },
+          {
+            "h": "look / get / come 三组",
+            "p": "这三组的共同点是介词承担了几乎全部语义差别，动词只提供“看、得到、来”的抽象方向。",
+            "bullets": [
+              "look after 照顾；look for 寻找；look into 调查；look up 查阅、好转",
+              "get over 克服、康复；get through 通过、接通；get along with 与…相处",
+              "come up with 想出；come across 偶遇；come down with 患病"
+            ]
+          },
+          {
+            "h": "宾语与语境定向",
+            "p": "同一个短语在宾语不同时义项也不同，这时宾语就是判据。make up 的四种义项分别由“故事、成分、脸、争吵”四类宾语锁定；run out of 的主语是人，run out 的主语是被消耗的东西。",
+            "bullets": [
+              "make up a story 编造；be made up of 由…构成；make up one's face 化妆；make up after a quarrel 和好",
+              "We have run out of paper.（人作主语）→ The paper has run out.（物作主语）",
+              "break down：车抛锚、人崩溃、数据分解"
+            ]
+          }
+        ],
+        "examples": [
+          {
+            "en": "They turned down my application without explanation.",
+            "zh": "他们没作解释就拒绝了我的申请。",
+            "ok": true,
+            "note": "宾语是申请，turn down 取“拒绝”义。"
+          },
+          {
+            "en": "Please turn down the music; the baby is asleep.",
+            "zh": "请把音乐调低，宝宝睡着了。",
+            "ok": true,
+            "note": "宾语是音量，turn down 取“调低”义，同一短语的第二个义项。"
+          },
+          {
+            "en": "He turned up my offer of help.",
+            "zh": "他拒绝了我的帮助。",
+            "ok": false,
+            "note": "turn up 表“出现、调高”，不表“拒绝”，应改为 turned down。"
+          },
+          {
+            "en": "The fire was put out in ten minutes.",
+            "zh": "火十分钟内被扑灭了。",
+            "ok": true,
+            "note": "put out 的宾语是火，取“扑灭”义。"
+          },
+          {
+            "en": "We have to put off the picnic because of the rain.",
+            "zh": "因为下雨我们不得不推迟野餐。",
+            "ok": true,
+            "note": "put off 的宾语是活动，取“推迟”义。"
+          },
+          {
+            "en": "The plane took over at seven in the morning.",
+            "zh": "飞机早上七点起飞。",
+            "ok": false,
+            "note": "take over 意为“接管”，起飞是 take off，应改为 took off。"
+          },
+          {
+            "en": "I came across an old friend in the library.",
+            "zh": "我在图书馆偶遇一位老朋友。",
+            "ok": true,
+            "note": "come across 的宾语是人，取“偶遇”义。"
+          },
+          {
+            "en": "She looked after her keys everywhere but could not find them.",
+            "zh": "她到处找钥匙却没找到。",
+            "ok": false,
+            "note": "look after 意为“照顾”，寻找是 look for，应改为 looked for。"
+          }
+        ],
+        "pitfalls": [
+          {
+            "wrong": "The plane took over at seven.",
+            "right": "The plane took off at seven.",
+            "why": "over 表“接管、接手”，off 表“离开地面”，小品词决定方向义，不能互换。"
+          },
+          {
+            "wrong": "He turned up the invitation politely.",
+            "right": "He turned down the invitation politely.",
+            "why": "up 表“出现、提高”，down 才表“拒绝、降低”，拒绝义只属于 turn down。"
+          },
+          {
+            "wrong": "The police are looking after the cause of the fire.",
+            "right": "The police are looking into the cause of the fire.",
+            "why": "after 表“照顾”，into 表“深入某事物内部”，调查义由 into 承担。"
+          }
+        ],
+        "contrast": {
+          "withTitle": "动词 + 副词型短语动词",
+          "diff": "该点讲结构与小品词位置；本点讲同一动词配不同小品词造成的词义分化，判据是宾语类型与语境。"
+        },
+        "mnemonic": "同动不同副，词义各自走；先看宾语，再定小品词。"
+      },
+      "review": {
+        "core": [
+          "语义 = 动词 + 小品词，整体记，不按字面拼接",
+          "turn down 拒绝、调低；turn up 出现、调高",
+          "put off 推迟；put out 扑灭；put up 搭建；put up with 容忍",
+          "take off 起飞；take over 接管；take up 占用、开始从事",
+          "look into 调查；look up 查阅；get over 克服；come up with 想出"
+        ],
+        "trigger": "看到熟悉的动词配了陌生的小品词 → 先按整条短语查义，不要拆开逐词翻译",
+        "quickCheck": [
+          {
+            "q": "turn down 的两个主要意思？",
+            "a": "拒绝（提议、申请）与调低（音量）。"
+          },
+          {
+            "q": "take over 与 take off 的区别？",
+            "a": "前者是接管，后者是起飞或脱下。"
+          },
+          {
+            "q": "look into 是什么意思？",
+            "a": "调查。"
+          }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.phrasal_verbs.semantic-contrast.d1",
+          "type": "choice",
+          "stem": "The company decided to ___ the takeover bid because the price was too low.",
+          "options": [
+            "turn down",
+            "turn up",
+            "turn over",
+            "turn out"
+          ],
+          "answer": "turn down",
+          "explain": "宾语是收购报价，属于“提议”类，turn down 在此取“拒绝”义。",
+          "trap": "turn up 表“出现、调高”，不能带“报价、申请”这类表示提议的宾语。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.semantic-contrast.d2",
+          "type": "fill",
+          "stem": "The firefighters ___ the fire before it spread to the next building. (put / out)",
+          "answer": "put out",
+          "accept": [
+            "put out"
+          ],
+          "hint": "宾语是火，需要“扑灭”义。",
+          "explain": "put out 的宾语为火时表示“扑灭”；put off 表“推迟”，与火搭配不成立。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.semantic-contrast.d3",
+          "type": "correct",
+          "stem": "The plane took over at seven in the morning.",
+          "answer": "The plane took off at seven in the morning.",
+          "accept": [
+            "The plane took off at seven in the morning."
+          ],
+          "explain": "“起飞”是 take off；take over 意为“接管”，宾语通常为公司、职务或工作。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.phrasal_verbs.semantic-contrast.d4",
+          "type": "choice",
+          "stem": "The police are ___ the cause of the accident.",
+          "options": [
+            "looking into",
+            "looking after",
+            "looking for",
+            "looking up"
+          ],
+          "answer": "looking into",
+          "explain": "宾语是事故原因，需要“调查”义，look into 表示深入查证。",
+          "trap": "looking after 意为“照顾”，与“事故原因”无法搭配；looking for 只表寻找具体对象。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.phrasal_verbs.semantic-contrast.d5",
+          "type": "translate",
+          "stem": "因为大雨，我们不得不推迟运动会。",
+          "answer": "We had to put off the sports meeting because of the heavy rain.",
+          "require": [
+            [
+              "put off",
+              "postpone"
+            ],
+            [
+              "sports meeting"
+            ],
+            [
+              "because of"
+            ]
+          ],
+          "forbid": [
+            "put on",
+            "put up"
+          ],
+          "explain": "“推迟”用 put off 或 postpone；put on 是“穿上、举办”，put up 是“搭建、张贴”，都不能表示推迟。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.phrasal_verbs.semantic-contrast.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": [
+            "He",
+            "turned",
+            "down",
+            "the",
+            "offer",
+            "without",
+            "a",
+            "word."
+          ],
+          "answer": "He turned down the offer without a word.",
+          "explain": "offer 属“提议”类宾语，turn down 取“拒绝”义，副词 down 留在宾语之前。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

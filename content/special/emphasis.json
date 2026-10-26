@@ -1,0 +1,545 @@
+{
+  "level1": "special",
+  "chapter": "emphasis",
+  "items": [
+    {
+      "id": "special.emphasis.it-cleft",
+      "title": "it 强调句的结构与判定方法",
+      "brief": "去掉 It is/was 与 that 能还原才是强调句",
+      "difficulty": 3,
+      "tags": ["高频", "难点"],
+      "prereq": ["syntax.it_usage.cleft"],
+      "concept": {
+        "summary": "判定标准只有还原测试：去掉句首的 It is 或 It was 与连接词 that/who，把被强调成分放回原来的位置，剩余部分能组成主谓齐全、时态自洽的句子，才是强调句。可进入强调槽的成分只有主语、宾语和状语；谓语动词不能强调，须改用 do/does/did；宾语补足语和定语也不能强调。",
+        "sections": [
+          {
+            "h": "结构与连接词",
+            "p": "被强调成分夹在 It is/was 与连接词之间，位置固定；还原时必须放回它原本承担的句子成分位置。",
+            "bullets": [
+              "强调主语：It was the manager who approved the budget.",
+              "强调宾语：It was the budget that the manager approved.",
+              "强调状语：It was in 1998 that she moved to Beijing.",
+              "指人时连接词可用 who 或 that，其余成分一律用 that",
+              "It is/was 不随被强调成分的单复数变化：It is they who are responsible."
+            ]
+          },
+          {
+            "h": "还原测试四步",
+            "p": "四步按顺序做完再下结论，不能只看 that 前后是否顺眼。",
+            "bullets": [
+              "第一步：划掉句首的 It is 或 It was。",
+              "第二步：划掉 that 或 who。",
+              "第三步：把中间的被强调成分搬回它原来的位置。",
+              "第四步：读剩下的部分，能构成完整句子才是强调句。",
+              "通过：It was in 1998 that she moved to Beijing. → She moved to Beijing in 1998.",
+              "不通过：It is clear that she left. → Clear she left. 不成句，说明 It 是形式主语。"
+            ]
+          },
+          {
+            "h": "可强调与不可强调",
+            "p": "强调槽只接纳主语、宾语和状语；谓语动词、宾语补足语、定语都进不去，需要换用别的强调手段。",
+            "bullets": [
+              "可强调：主语、宾语，以及时间、地点、原因、方式、目的状语",
+              "谓语动词不可强调，改用 do/does/did：He did call me.",
+              "宾语补足语不可强调：× It was chairperson that they elected him.",
+              "定语不可强调：× It was red that she bought a car.",
+              "系表结构中的名词性表语可有限强调：It is a genius that he is."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It was in the library that I first met her.", "zh": "我第一次遇见她是在图书馆。", "ok": true, "note": "强调地点状语 in the library，删去 It was 与 that 后还原为 I first met her in the library." },
+          { "en": "It was in the library where I first met her.", "zh": "我第一次遇见她是在图书馆。", "ok": false, "note": "强调地点状语的连接词固定用 that；where 只能引导定语从句，前面需要地点名词作先行词。" },
+          { "en": "It is his honesty that I admire most.", "zh": "我最欣赏的是他的诚实。", "ok": true, "note": "强调宾语 his honesty，还原为 I admire his honesty most.，句子完整。" },
+          { "en": "It was because he was ill that he stayed at home.", "zh": "他待在家里是因为生病。", "ok": true, "note": "强调原因状语从句 because he was ill，还原后主句与从句关系完整。" },
+          { "en": "It was chairperson that they elected him.", "zh": "他们选他当主席。", "ok": false, "note": "宾语补足语不能进入强调槽；him 仍在宾语位置，还原后句子出现两个宾语，应改写原句或改为强调宾语 him。" },
+          { "en": "It is Mary who is in charge of the project.", "zh": "负责这个项目的是玛丽。", "ok": true, "note": "强调主语 Mary，指人用 who，who 后的谓语与 Mary 保持一致，用 is。" },
+          { "en": "It was very carefully that he checked the figures.", "zh": "他非常仔细地核对了这些数字。", "ok": true, "note": "强调方式状语 very carefully，还原为 He checked the figures very carefully." },
+          { "en": "It was red that she bought a car.", "zh": "她买了一辆红色的车。", "ok": false, "note": "定语 red 不能进入强调槽；还原后 red 无处归位，应改为 It was a red car that she bought." }
+        ],
+        "pitfalls": [
+          { "wrong": "It was in 2010 when we first met.", "right": "It was in 2010 that we first met.", "why": "强调时间状语的连接词固定为 that；when 只能引导定语从句，且前面必须有表示时间的先行词。" },
+          { "wrong": "It was chairman that the committee elected him.", "right": "The committee elected him chairman.", "why": "宾语补足语不能进入强调槽；把 chairman 提前后，原宾语 him 仍在原位，还原结果不成立。" },
+          { "wrong": "It is I who is to blame.", "right": "It is I who am to blame.", "why": "强调主语时 who 后的谓语与被强调成分保持一致，I 对应 am，不能用第三人称单数 is。" }
+        ],
+        "contrast": { "withTitle": "强调句与定语从句、主语从句的区分", "diff": "强调句的 that 不充当成分，删去后剩余部分能还原成完整句；定语从句的 that 充当成分，主语从句的 that 后是完整从句但 It 只是形式主语。" },
+        "mnemonic": "一划 It is，二划 that，成分归位读一遍；读得通是强调句，读不通是形式主语。"
+      },
+      "review": {
+        "core": [
+          "结构：It is/was + 被强调成分 + that/who + 其余部分",
+          "判定：去掉 It is/was 与 that/who 后能还原成完整句",
+          "可强调主语、宾语、各类状语；指人可用 who",
+          "谓语动词不能强调，改用 do/does/did",
+          "宾语补足语、定语不能进入强调槽"
+        ],
+        "trigger": "看到 It is/was ... that/who → 先做还原测试 → 还原成句才按强调句处理",
+        "quickCheck": [
+          { "q": "It is clear that he lied. 是强调句吗？", "a": "不是，还原后 Clear he lied 不成句，It 是形式主语。" },
+          { "q": "强调谓语动词用什么手段？", "a": "用 do/does/did，如 He did call me." },
+          { "q": "强调地点状语用 that 还是 where？", "a": "用 that。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.emphasis.it-cleft.d1",
+          "type": "choice",
+          "stem": "It was not until 2019 ___ he returned to his hometown.",
+          "options": ["that", "when", "which", "then"],
+          "answer": "that",
+          "explain": "这是对 not until 时间状语的强调，结构固定为 It was not until ... that ...，连接词只能用 that。",
+          "trap": "when 受汉语“当……时候”影响，但强调句的连接词不随状语类型改变。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.it-cleft.d2",
+          "type": "fill",
+          "stem": "It ___ his patience that impressed the interviewer most.",
+          "answer": "was",
+          "accept": ["was"],
+          "hint": "后半句 impressed 是过去式。",
+          "explain": "强调句的 be 动词时态与原句一致；原句 His patience impressed the interviewer most 为一般过去时，故用 was。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.it-cleft.d3",
+          "type": "correct",
+          "stem": "It was in the small café where they discussed the plan for the first time.",
+          "answer": "It was in the small café that they discussed the plan for the first time.",
+          "accept": ["It was in the small café that they discussed the plan for the first time."],
+          "explain": "被强调的是地点状语 in the small café，强调句连接词固定用 that；where 需要地点名词作先行词，此处没有。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.it-cleft.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "was", "his", "sense", "of", "humour", "that", "won", "her", "over."],
+          "answer": "It was his sense of humour that won her over.",
+          "explain": "强调主语 his sense of humour，连接词用 that，that 后 won her over 是完整谓语部分。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.it-cleft.d5",
+          "type": "choice",
+          "stem": "It is the way he treats his staff ___ makes him so popular.",
+          "options": ["that", "what", "how", "who"],
+          "answer": "that",
+          "explain": "被强调成分是主语 the way he treats his staff，强调句连接词用 that；that 后 makes him so popular 是完整谓语。",
+          "trap": "what 不能用于强调句的连接位置；how 会把结构变成方式状语从句。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.emphasis.it-cleft.d6",
+          "type": "translate",
+          "stem": "我是在火车站第一次见到他的。",
+          "answer": "It was at the railway station that I first met him.",
+          "require": [["it was"], ["that i first met"]],
+          "forbid": ["where i first met", "when i first met"],
+          "explain": "强调地点状语 at the railway station，用 It was ... that ... 结构，that 后接陈述语序的完整分句。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.emphasis.cleft-vs-clauses",
+      "title": "强调句与定语从句、主语从句的区分",
+      "brief": "that 后缺成分是定语从句，完整是强调句",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["special.emphasis.it-cleft", "clause.relative_clause.that-vs-which"],
+      "concept": {
+        "summary": "判定标准有两条，必须交叉使用：一是还原测试，去掉 It is/was 与 that/who 后能还原成完整句的是强调句；二是看 that 后是否完整，强调句的 that 不作成分，后面必须是完整分句，定语从句的 that 作主语或宾语，删掉后从句缺成分。形式主语句式中 It 只是占位，that 从句才是真正主语，去掉 It is 与 that 后只剩形容词或名词短语，无法还原。",
+        "sections": [
+          {
+            "h": "三句同形不同构",
+            "p": "三个句子都以 It is/was 开头，结构归属完全不同，判断依据是删除之后的残留物。",
+            "bullets": [
+              "强调句：It was the book that he bought. → He bought the book. 完整",
+              "定语从句：It is a book that sells well. → that 作主语，删掉后 sells well 缺主语",
+              "主语从句：It is important that we stay calm. → important 是表语，that 从句是真正主语"
+            ]
+          },
+          {
+            "h": "两条判据的配合",
+            "p": "还原测试判断“是不是强调句”，that 是否充当成分判断“是不是定语从句”，两条一起用可以覆盖绝大多数考题。",
+            "bullets": [
+              "还原后成句 → 强调句；还原后只剩名词或形容词短语 → 主语从句",
+              "that 后缺主语或宾语 → 定语从句；that 后完整 → 强调句",
+              "强调句的 that 可以删去；定语从句的 that 作成分，删掉后从句不成立",
+              "It is said / reported / believed that ... 是形式主语的被动结构，that 从句作主语"
+            ]
+          },
+          {
+            "h": "三类常见误判",
+            "p": "误判集中在连接词、代词复指和形式主语三个位置。",
+            "bullets": [
+              "地点、时间状语被强调时仍用 that：It was in the park that we met.",
+              "强调句 that 后不能再出现代词复指：× the book that he bought it",
+              "It is a pity that ... / It is important that ... 中 It 是形式主语，不能按强调句还原",
+              "强调句的 It 不能换成 This 或 That"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It was the book that he bought yesterday.", "zh": "他昨天买的是那本书。", "ok": true, "note": "强调宾语 the book，删去 It was 与 that 后还原为 He bought the book yesterday.，完整。" },
+          { "en": "It is a book that sells well in Europe.", "zh": "这是一本在欧洲卖得很好的书。", "ok": true, "note": "定语从句：that 作 sells 的主语，删掉后从句缺主语，故不是强调句。" },
+          { "en": "It is important that we stay calm.", "zh": "我们保持冷静很重要。", "ok": true, "note": "主语从句：It 是形式主语，that we stay calm 是真正主语，important 是表语。" },
+          { "en": "It was the book that he bought it yesterday.", "zh": "他昨天买的是那本书。", "ok": false, "note": "强调句的 that 不作成分，宾语已提到 that 之前，that 后不能再出现代词 it。" },
+          { "en": "It was in the park that we took the photo.", "zh": "我们是在公园拍的那张照片。", "ok": true, "note": "强调地点状语，连接词用 that，that 后 we took the photo 是完整分句。" },
+          { "en": "It was in the park where we took the photo.", "zh": "我们是在公园拍的那张照片。", "ok": false, "note": "地点状语被强调时连接词仍是 that；where 需要地点名词作先行词，此处没有。" },
+          { "en": "It is said that the bridge will open next month.", "zh": "据说这座桥下个月通车。", "ok": true, "note": "形式主语的被动结构，that 从句作主语，不能用还原测试按强调句处理。" }
+        ],
+        "pitfalls": [
+          { "wrong": "It was the book that he bought it.", "right": "It was the book that he bought.", "why": "强调句的 that 不充当成分，原句宾语已移到 that 之前，that 后不能再出现代词 it 复指。" },
+          { "wrong": "It was in the park where we met.", "right": "It was in the park that we met.", "why": "强调句的连接词不随状语类型变化，地点状语也用 that；where 引导定语从句时需要地点名词作先行词。" }
+        ],
+        "contrast": { "withTitle": "it 强调句的结构与判定方法", "diff": "本点处理“不是强调句时它是什么”，用 that 是否作成分和删除 It is 后的残片类型做三分类；前者只负责确认强调句本身。" },
+        "mnemonic": "that 后缺成分是定语从句，that 后完整是强调句，只剩形容词或名词是主语从句。"
+      },
+      "review": {
+        "core": [
+          "判据一：还原成句 → 强调句；只剩短语 → 主语从句",
+          "判据二：that 后缺成分 → 定语从句；that 后完整 → 强调句",
+          "强调句 that 不充当成分，后面不能再出现代词复指",
+          "It is said/reported that ... 是形式主语被动结构",
+          "地点、时间状语被强调时连接词仍是 that"
+        ],
+        "trigger": "看到 It is/was ... that → 先删 that 看后面缺不缺成分 → 再删 It is 看能不能还原",
+        "quickCheck": [
+          { "q": "It is a book that sells well. 是强调句吗？", "a": "不是，that 作主语，删掉后 sells well 缺主语，是定语从句。" },
+          { "q": "It is important that we stay calm. 中 It 是什么成分？", "a": "形式主语，that 从句才是真正主语。" },
+          { "q": "It was the book that he bought it. 错在哪？", "a": "that 后多了一个代词 it，强调句的 that 不作成分。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.emphasis.cleft-vs-clauses.d1",
+          "type": "choice",
+          "stem": "It is the village ___ we visited last summer.",
+          "options": ["that", "where", "when", "what"],
+          "answer": "that",
+          "explain": "强调宾语 the village，连接词用 that；visit 是及物动词，从句需要宾语，where 无法充当宾语。",
+          "trap": "where 受“村庄是地点”影响，但此处 village 是 visited 的宾语，不是地点状语。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.emphasis.cleft-vs-clauses.d2",
+          "type": "fill",
+          "stem": "It was not the money ___ he cared about, but the respect.",
+          "answer": "that",
+          "accept": ["that"],
+          "hint": "强调宾语，连接词不随被强调成分变化。",
+          "explain": "这是强调句，被强调成分是 not the money 与 but the respect，连接词固定用 that，care about 后不再重复宾语。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.cleft-vs-clauses.d3",
+          "type": "correct",
+          "stem": "It was the book that he bought it yesterday.",
+          "answer": "It was the book that he bought yesterday.",
+          "accept": ["It was the book that he bought yesterday."],
+          "explain": "强调句的 that 只起连接作用，宾语 the book 已经提到 that 之前，that 后不能再出现代词 it。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.emphasis.cleft-vs-clauses.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "is", "not", "what", "he", "said", "but", "how", "he", "said", "it", "that", "matters."],
+          "answer": "It is not what he said but how he said it that matters.",
+          "explain": "被强调成分是 not what he said but how he said it 这一整块主语，连接词用 that，matters 是谓语。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.emphasis.cleft-vs-clauses.d5",
+          "type": "choice",
+          "stem": "___ that the company will announce the results tomorrow.",
+          "options": ["It is said", "It says", "That is said", "It said"],
+          "answer": "It is said",
+          "explain": "It is said that ... 是形式主语的被动结构，It 占主语位置，that 从句是真正主语，不能按强调句处理。",
+          "trap": "It says 把 It 当作有实义的主语，但 say 在此需要被动形式，且主语不能是形式主语 It。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.cleft-vs-clauses.d6",
+          "type": "translate",
+          "stem": "我们第一次见面的地方是那个公园。",
+          "answer": "It was in that park that we first met.",
+          "require": [["it was"], ["that we first met"]],
+          "forbid": ["where we first met", "when we first met"],
+          "explain": "强调地点状语 in that park，用 It was ... that ... 结构；that 后是完整分句，不再用 where。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.emphasis.not-until-cleft",
+      "title": "not until 的强调结构",
+      "brief": "not until 强调后接 that 与陈述语序",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["special.emphasis.it-cleft", "special.inversion.negative-fronting"],
+      "concept": {
+        "summary": "判定标准：把 not until 引导的时间状语整体放进强调槽，结构固定为 It is/was not until + 时间点或从句 + that + 陈述语序的主句。被强调部分含否定词 not，that 后必须用陈述语序，不能再倒装；时态由原句决定，原句为过去时则用 It was。该结构与 Not until 置于句首的倒装句可以互相改写。",
+        "sections": [
+          {
+            "h": "结构的三个固定点",
+            "p": "not、until、that 三者的位置都不能动，任何一处移位都会导致结构或意义出错。",
+            "bullets": [
+              "not 必须与 until 一起进入强调槽：It was not until midnight that he came back.",
+              "until 后可接时间点，也可接从句：It was not until he lost his job that he realized the truth.",
+              "连接词只能是 that：× It was not until midnight when he came back.",
+              "that 后用陈述语序：× It was not until midnight did he come back."
+            ]
+          },
+          {
+            "h": "与倒装句互改",
+            "p": "同一语义有两种书面形式：Not until 置于句首时主句倒装；加上 It was ... that 框架后，倒装被取消。",
+            "bullets": [
+              "倒装句：Not until midnight did he come back.",
+              "强调句：It was not until midnight that he came back.",
+              "改写动作：把 Not until 部分放进 It was ... that 之间，did 撤回，came 恢复过去式",
+              "时态不变：原句过去时，强调句仍用 was 与 came"
+            ]
+          },
+          {
+            "h": "三处高频错误",
+            "p": "这三处错误都来自把强调句与倒装句混在一起。",
+            "bullets": [
+              "that 后再倒装：× It was not until midnight did he come back.",
+              "用 when 代替 that：× It was not until midnight when he came back.",
+              "漏掉 not：× It was until midnight that he came back.（否定焦点丢失，意义反转）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It was not until midnight that he came back.", "zh": "直到午夜他才回来。", "ok": true, "note": "not until 整体进入强调槽，that 后 he came back 用陈述语序。" },
+          { "en": "It was not until midnight did he come back.", "zh": "直到午夜他才回来。", "ok": false, "note": "that 后不能再倒装，应改为 that he came back；倒装只属于 Not until 置于句首的句式。" },
+          { "en": "Not until midnight did he come back.", "zh": "直到午夜他才回来。", "ok": true, "note": "Not until 置于句首，主句部分倒装，did 提前，came 还原为 come。" },
+          { "en": "It was not until he lost his job that he realized the value of time.", "zh": "直到失业他才意识到时间的价值。", "ok": true, "note": "until 引导从句时用陈述语序，that 后主句同样用陈述语序。" },
+          { "en": "It was not until he lost his job when he realized the value of time.", "zh": "直到失业他才意识到时间的价值。", "ok": false, "note": "强调结构的连接词固定为 that；when 不能承担这个连接位置。" },
+          { "en": "It was until midnight that he came back.", "zh": "直到午夜他才回来。", "ok": false, "note": "漏掉 not 后否定焦点消失，句子只剩时间状语被强调，与原意不符。" },
+          { "en": "He did not come back until midnight.", "zh": "他直到午夜才回来。", "ok": true, "note": "这是未经强调和倒装的原句，可作为改写回强调句的起点。" }
+        ],
+        "pitfalls": [
+          { "wrong": "It was not until midnight did he come back.", "right": "It was not until midnight that he came back.", "why": "强调句 that 后必须用陈述语序；倒装只出现在 Not until 直接置于句首的句式中。" },
+          { "wrong": "It was not until he lost his job when he realized the truth.", "right": "It was not until he lost his job that he realized the truth.", "why": "强调结构的连接词固定为 that，when 只能引导时间状语从句或修饰时间名词。" },
+          { "wrong": "It was until midnight that he came back.", "right": "It was not until midnight that he came back.", "why": "not 是否定焦点的一部分，与 until 一起构成“直到……才”，省略后意义反转为“一直到午夜”。" }
+        ],
+        "contrast": { "withTitle": "部分倒装：否定词置于句首", "diff": "同一语义有两种形式：Not until 置于句首时主句倒装；It was not until ... that 结构中 that 后必须用陈述语序。" },
+        "mnemonic": "not 跟着 until 走，that 后老老实实陈述句；倒装只在 Not until 打头时。"
+      },
+      "review": {
+        "core": [
+          "结构：It is/was not until + 时间 + that + 陈述语序主句",
+          "not 必须与 until 一起进入强调槽，不能省略",
+          "that 后不倒装，倒装只属于 Not until 置首句",
+          "连接词只能是 that，不能用 when",
+          "时态与原句一致：过去时用 It was"
+        ],
+        "trigger": "看到“直到……才”要强调 → 套 It was not until ... that ... → 检查 that 后是否陈述语序",
+        "quickCheck": [
+          { "q": "It was not until midnight ___ he came back. 填什么？", "a": "that。" },
+          { "q": "that 后能倒装成 did he come back 吗？", "a": "不能，必须用陈述语序。" },
+          { "q": "Not until midnight did he come back 改成强调句？", "a": "It was not until midnight that he came back." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.emphasis.not-until-cleft.d1",
+          "type": "choice",
+          "stem": "It was not until the lights went out ___ the students left the library.",
+          "options": ["that", "when", "then", "did"],
+          "answer": "that",
+          "explain": "这是 not until 的强调结构，框架为 It was not until ... that ...，连接词固定用 that。",
+          "trap": "did 是把强调句与 Not until 置首的倒装句混淆，强调句 that 后不倒装。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.not-until-cleft.d2",
+          "type": "fill",
+          "stem": "It ___ not until last week that she told me the truth.",
+          "answer": "was",
+          "accept": ["was"],
+          "hint": "后半句 told 是过去式。",
+          "explain": "原句为一般过去时，强调句的 be 动词同样用过去式 was，构成 It was not until ... that ...。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.emphasis.not-until-cleft.d3",
+          "type": "correct",
+          "stem": "It was not until he graduated when he understood his teacher's advice.",
+          "answer": "It was not until he graduated that he understood his teacher's advice.",
+          "accept": ["It was not until he graduated that he understood his teacher's advice."],
+          "explain": "强调结构的连接词固定为 that，不能用 when；until 从句与 that 后的主句都用陈述语序。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.not-until-cleft.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "was", "not", "until", "midnight", "that", "the", "noise", "stopped."],
+          "answer": "It was not until midnight that the noise stopped.",
+          "explain": "not until midnight 整体进入强调槽，that 后 the noise stopped 用陈述语序，不再倒装。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.not-until-cleft.d5",
+          "type": "choice",
+          "stem": "Not until all the evidence had been checked ___ the final decision.",
+          "options": ["did they announce", "they announced", "they did announce", "announced they"],
+          "answer": "did they announce",
+          "explain": "Not until 直接置于句首时主句部分倒装，补 did 并把 announce 还原为原形；until 从句保持陈述语序。",
+          "trap": "they announced 保留了陈述语序，忽略了 Not until 置首的倒装要求。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.emphasis.not-until-cleft.d6",
+          "type": "translate",
+          "stem": "直到那时我才意识到他一直在撒谎。",
+          "answer": "It was not until then that I realized he had been lying.",
+          "require": [["not until"], ["that i realized"]],
+          "forbid": ["did i realize", "when i realized"],
+          "explain": "not until 整体进入强调槽，that 后用陈述语序 I realized；宾语从句用过去完成进行时表示一直持续到那时。",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "id": "special.emphasis.do-emphatic",
+      "title": "do/does/did 强调谓语",
+      "brief": "只在一般现在/过去时肯定句强调谓语",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["morph.verbs.do-emphasis"],
+      "concept": {
+        "summary": "判定标准：要强调句子的谓语动词，在实义动词前加 do/does/did，实义动词一律用原形，只用于一般现在时和一般过去时的肯定陈述句与肯定祈使句。do 承担人称、数和时态并重读；陈述句中 be 动词、情态动词、完成时助动词前都不能再插入 do，疑问句和否定句里的 do 只是语法助动词，不表示强调。",
+        "sections": [
+          {
+            "h": "形式与位置",
+            "p": "do 的形式随人称和时态变化，位置固定在实义动词之前；它不能移到句首，也不能单独使用。",
+            "bullets": [
+              "一般现在时：I do agree. / She does agree. / They do agree.",
+              "一般过去时：He did warn me about the risk.",
+              "祈使句：Do come in. / Do be careful.（祈使句的 be 前也可用 do）",
+              "语用功能：反驳对方或确认事实，do 必须重读"
+            ]
+          },
+          {
+            "h": "四条限制",
+            "p": "强调用法的边界由谓语类型和句子语气共同决定，违反任何一条都会写出不合语法的句子。",
+            "bullets": [
+              "只用于肯定陈述句和肯定祈使句：× I don't do like it.",
+              "后接动词原形：× She does goes. → She does go.",
+              "不能与情态动词或已有助动词叠加：× He does can swim. / × I did have seen it.",
+              "陈述句中 be 动词不加 do：× He does be patient.；祈使句 Do be careful. 是固定强调形式",
+              "疑问句和否定句里的 do 是语法助动词：Did you enjoy it? 不表示强调"
+            ]
+          },
+          {
+            "h": "与相邻现象的分工",
+            "p": "同样出现 do/does/did，功能可能是强调、倒装或替代，判断依据是它前后出现了什么。",
+            "bullets": [
+              "强调谓语：He did call me.（did 重读，后接原形，句子为肯定）",
+              "倒装中的 did：Never did he call me.（did 由否定词前置触发，不表强调）",
+              "替代中的 did：—Who called? —He did.（did 替代整个谓语，后面不接动词）",
+              "it 强调句不能强调谓语，谓语只能靠 do/does/did"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He does enjoy working with children.", "zh": "他确实喜欢和孩子们一起工作。", "ok": true, "note": "does 承担第三人称单数，实义动词 enjoy 用原形，强调谓语。" },
+          { "en": "He does enjoys working with children.", "zh": "他确实喜欢和孩子们一起工作。", "ok": false, "note": "does 已经承担第三人称单数，实义动词必须用原形 enjoy。" },
+          { "en": "She did warn me about the risk, but I ignored her.", "zh": "她确实警告过我风险，但我没听。", "ok": true, "note": "did 表强调，后接原形 warn，时态由 did 承担。" },
+          { "en": "She did warned me about the risk.", "zh": "她确实警告过我风险。", "ok": false, "note": "did 后必须用动词原形，warned 应改为 warn。" },
+          { "en": "Do come in and make yourself at home.", "zh": "请进，别客气。", "ok": true, "note": "祈使句用 Do + 动词原形表示强调和礼貌。" },
+          { "en": "He does be very patient with beginners.", "zh": "他对初学者确实很有耐心。", "ok": false, "note": "陈述句中 be 动词不能加 do 强调；应直接说 He is very patient with beginners." },
+          { "en": "I did have seen the film before.", "zh": "我以前确实看过这部电影。", "ok": false, "note": "完成时已有助动词 have，不能再插入 did；强调可放在 have 上或改用其他手段。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He does can speak French.", "right": "He can speak French.", "why": "情态动词与 do 争夺同一个助动词位置，不能叠加；需要强调时重读 can。" },
+          { "wrong": "She does goes to the gym every morning.", "right": "She does go to the gym every morning.", "why": "does 已承担第三人称单数，实义动词必须用原形，不能再带 -es。" },
+          { "wrong": "Did you did enjoy the concert?", "right": "Did you enjoy the concert?", "why": "疑问句已由句首 Did 承担时态，第二个 did 多余，实义动词直接用原形。" }
+        ],
+        "contrast": { "withTitle": "it 强调句的结构与判定方法", "diff": "强调句把主语、宾语或状语放进 It is/was ... that 框架，谓语动词进不去；强调谓语只能在动词前加 do/does/did。" },
+        "mnemonic": "谓语要强调，do/does/did 前面放，动词回原形；be、情态、完成时都不加。"
+      },
+      "review": {
+        "core": [
+          "公式：do/does/did + 动词原形，do 承担人称与时态",
+          "只用于一般现在时、一般过去时的肯定句和肯定祈使句",
+          "不能与 be 动词、情态动词、完成时助动词叠加",
+          "疑问句和否定句里的 do 是语法助动词，不表强调",
+          "与倒装中的 did、替代中的 did 靠上下文区分"
+        ],
+        "trigger": "想强调谓语动词 → 先确认是肯定句且为一般现在/过去时 → 再加 do/does/did",
+        "quickCheck": [
+          { "q": "She does ___ (like) jazz. 填什么？", "a": "like，does 后接原形。" },
+          { "q": "He does be patient 对吗？", "a": "不对，陈述句 be 动词不加 do。" },
+          { "q": "Never did he call me 中的 did 是强调吗？", "a": "不是，是否定词前置触发的倒装助动词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.emphasis.do-emphatic.d1",
+          "type": "choice",
+          "stem": "She ___ appreciate every bit of help you give her, though she seldom says so.",
+          "options": ["does", "do", "did", "is"],
+          "answer": "does",
+          "explain": "句子为一般现在时肯定句，主语 She 为第三人称单数，强调谓语用 does，后接原形 appreciate。",
+          "trap": "did 会与从句的 give 以及整句的现在时语境冲突；is 不能与实义动词原形搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.do-emphatic.d2",
+          "type": "fill",
+          "stem": "He ___ (do) warn us about the danger, but nobody listened.",
+          "answer": "did",
+          "accept": ["did"],
+          "hint": "warn 是原形，后面的 listened 是过去式。",
+          "explain": "句子为一般过去时肯定句，强调谓语用 did，后接动词原形 warn。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.emphasis.do-emphatic.d3",
+          "type": "correct",
+          "stem": "She does goes to the gym every morning before work.",
+          "answer": "She does go to the gym every morning before work.",
+          "accept": ["She does go to the gym every morning before work."],
+          "explain": "does 已经承担第三人称单数和时态，实义动词必须用原形 go，不能再加 -es。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.do-emphatic.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "do", "hope", "you", "will", "stay", "for", "dinner."],
+          "answer": "I do hope you will stay for dinner.",
+          "explain": "do 放在实义动词 hope 之前强调谓语，hope 用原形；will stay 是从句中的谓语，不受影响。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.do-emphatic.d5",
+          "type": "choice",
+          "stem": "___ sit down and tell me exactly what happened.",
+          "options": ["Do", "Does", "Did", "Done"],
+          "answer": "Do",
+          "explain": "祈使句强调用 Do + 动词原形，Do sit down 表示诚恳的邀请；祈使句没有第三人称单数或过去时形式。",
+          "trap": "Did 会把句子变成过去时疑问句，与祈使语气不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.emphasis.do-emphatic.d6",
+          "type": "translate",
+          "stem": "他确实为这次失败付出了很大代价。",
+          "answer": "He did pay a high price for this failure.",
+          "require": [["did pay"]],
+          "forbid": ["did paid", "does paid", "did payed"],
+          "explain": "强调一般过去时的谓语用 did + 动词原形 pay；did 承担时态，pay 不再变过去式。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

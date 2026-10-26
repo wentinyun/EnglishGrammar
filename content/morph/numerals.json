@@ -1,0 +1,801 @@
+{
+  "level1": "morph",
+  "chapter": "numerals",
+  "items": [
+    {
+      "id": "morph.numerals.cardinal-ordinal",
+      "title": "基数词与序数词的形式",
+      "brief": "序数词只变个位，整十改 y 为 ie 再加 th",
+      "difficulty": 1,
+      "tags": ["基础", "易错"],
+      "prereq": [],
+      "concept": {
+        "summary": "序数词的变形只发生在个位：1–3 为 first/second/third，4 起加 -th，整十把 y 变成 ie 再加 th，两位数以上只把个位改成序数词。基数词 21–99 的十位与个位之间必须用连字符，百位与十位之间英式英语加 and。序数词前一般用 the，表示“又一次”时改用 a。",
+        "sections": [
+          {
+            "h": "序数词的四条变形路径",
+            "p": "先判断这个数字落在哪一段，再决定变形方式。整十词与合成数词最容易出错，因为学生常把 -th 加在整个词尾。",
+            "bullets": [
+              "1–3：first, second, third，必须整记",
+              "4–19 加 th：fourth, sixth, seventh；fifth 由 five 变 ve 为 f，eighth 只加 h，ninth 去 e，twelfth 由 twelve 变 ve 为 f",
+              "整十：y 变 ie 再加 th，twentieth, thirtieth, fortieth, ninetieth",
+              "两位数以上只变个位：twenty-first, thirty-second, one hundred and first"
+            ]
+          },
+          {
+            "h": "基数词的连字符与 and",
+            "p": "基数词的书写规则只有两条：十位与个位之间用连字符，百位与十位之间英式英语用 and。千位以上按三位一组，书面语中可加逗号。",
+            "bullets": [
+              "twenty-one, ninety-nine：十位与个位之间的连字符不能省",
+              "one hundred and twenty-three：and 只出现在百位与后面的数之间",
+              "2,500 读作 two thousand five hundred，hundred 后不加 s"
+            ]
+          },
+          {
+            "h": "缩写与冠词",
+            "p": "序数词缩写由词尾两个字母决定，与数字大小无关。序数词前的冠词取决于是否指确定顺序：指顺序用 the，表示“再一个”用 a。",
+            "bullets": [
+              "1st, 2nd, 3rd, 4th；21st, 22nd, 23rd, 24th",
+              "the second chapter 指第二章；a second chapter 指又一个章节",
+              "the twenty-first century 中的 the 不能省"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She lives on the twelfth floor of that building.", "zh": "她住在那栋楼的十二层。", "ok": true, "note": "twelve 变序数词时把 ve 改成 f 再加 th。" },
+          { "en": "She lives on the twelveth floor of that building.", "zh": "她住在那栋楼的十二层。", "ok": false, "note": "twelve 不能直接加 th，正确形式是 twelfth。" },
+          { "en": "This is my twenty-first birthday.", "zh": "这是我二十一岁生日。", "ok": true, "note": "两位数只把个位 one 改成 first，十位 twenty 不变。" },
+          { "en": "Our seats are in the twenty-second row.", "zh": "我们的座位在第二十二排。", "ok": true, "note": "twenty-two 变序数词只改个位，构成 twenty-second。" },
+          { "en": "A third attempt was needed before the machine started.", "zh": "机器启动前又试了一次。", "ok": true, "note": "a + 序数词表示“又一次”，不表示确定顺序。" },
+          { "en": "He was the fourty-second runner to cross the line.", "zh": "他是第四十二个冲过终点线的选手。", "ok": false, "note": "forty 的拼写不含 u，应为 forty-second。" }
+        ],
+        "pitfalls": [
+          { "wrong": "My office is on the nineth floor.", "right": "My office is on the ninth floor.", "why": "nine 变序数词要去掉词尾的 e 再加 th，不能保留 e 直接拼 th。" },
+          { "wrong": "She was the twentyth customer of the day.", "right": "She was the twentieth customer of the day.", "why": "整十的序数词要把 y 变成 ie 再加 th，不能只加 th。" },
+          { "wrong": "There are twenty one students in the room.", "right": "There are twenty-one students in the room.", "why": "21–99 的十位与个位之间必须用连字符连接，这是一个书写单位。" }
+        ],
+        "contrast": { "withTitle": "分数、小数与百分数的表达", "diff": "序数词单独使用表示顺序；分数借用序数词表示分母，分子大于 1 时分母还要加 s。" },
+        "mnemonic": "一二三特殊记，四起加 th；整十 y 变 ie，几十几只变个位。"
+      },
+      "review": {
+        "core": [
+          "1–3：first, second, third，无规律，整记",
+          "4–19 加 th，fifth / eighth / ninth / twelfth 拼写特殊",
+          "整十 y 变 ie 再加 th：twentieth, fortieth",
+          "两位数以上只变个位：twenty-first, one hundred and first",
+          "指顺序用 the，表“又一次”用 a second"
+        ],
+        "trigger": "看到“第几”要写英文 → 先看是否整十 → 再只改个位 → 最后检查用 the 还是 a",
+        "quickCheck": [
+          { "q": "第十二怎么拼？", "a": "twelfth，twelve 的 ve 改成 f 再加 th。" },
+          { "q": "第二十一怎么拼？", "a": "twenty-first，只把个位 one 变成 first。" },
+          { "q": "a second try 与 the second try 有何不同？", "a": "前者是“又一次尝试”，后者是“第二次尝试”。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.numerals.cardinal-ordinal.d1",
+          "type": "choice",
+          "stem": "The reading room is on the ___ floor of the library.",
+          "options": ["twelfth", "twelveth", "twelfthth", "twelve"],
+          "answer": "twelfth",
+          "explain": "twelve 变序数词时把词尾 ve 改成 f 再加 th，构成 twelfth，用作定语修饰 floor。",
+          "trap": "twelveth 是把 th 直接加在 twelve 后面的拼写错误，没有处理 ve 的变化。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.cardinal-ordinal.d2",
+          "type": "fill",
+          "stem": "Our new office is on the ___ (twenty-one) floor of the tower.",
+          "answer": "twenty-first",
+          "accept": ["twenty-first"],
+          "hint": "两位数变序数词只改个位。",
+          "explain": "twenty-one 变序数词时十位 twenty 保持不变，只把个位 one 改成 first，并用连字符连接。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.cardinal-ordinal.d3",
+          "type": "correct",
+          "stem": "She was the fourty-second runner to reach the finish line.",
+          "answer": "She was the forty-second runner to reach the finish line.",
+          "accept": ["She was the forty-second runner to reach the finish line."],
+          "explain": "forty 的拼写是 f-o-r-t-y，不含 u；序数词部分只改个位 two 为 second。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.cardinal-ordinal.d4",
+          "type": "choice",
+          "stem": "He failed twice, but he decided to make ___ attempt.",
+          "options": ["a third", "the third", "third", "the three"],
+          "answer": "a third",
+          "explain": "a + 序数词表示“再一个、又一次”，此处指第三次尝试，不强调确定顺序，因此用 a third。",
+          "trap": "the third 强调顺序上的第三次，与“再试一次”的语义不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.numerals.cardinal-ordinal.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["This", "is", "my", "twenty-first", "birthday."],
+          "answer": "This is my twenty-first birthday.",
+          "explain": "twenty-first 为序数词，修饰 birthday；物主代词 my 已限定名词，不再加 the。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.cardinal-ordinal.d6",
+          "type": "translate",
+          "stem": "他住在十二楼。",
+          "answer": "He lives on the twelfth floor.",
+          "require": [["twelfth"], ["floor"]],
+          "forbid": ["twelveth", "twelve floor"],
+          "explain": "楼层用序数词，twelve 变 twelfth 时 ve 改 f 再加 th，且序数词前要用 the。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.numerals.fraction-decimal-percent",
+      "title": "分数、小数与百分数的表达",
+      "brief": "分子基数分母序数，percent 永不加 s",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.numerals.cardinal-ordinal"],
+      "concept": {
+        "summary": "分数用“分子基数词 + 分母序数词”，分子大于 1 时分母加 s；小数按位逐个读，小数点读 point；百分数用 percent，单复数同形。分数或百分数作主语时，谓语与 of 后面的名词一致，而不与前面的数字一致。",
+        "sections": [
+          {
+            "h": "分数的构成",
+            "p": "分母是序数词，分子是基数词。分子为 1 时分母用单数，分子大于 1 时分母必须加 s。几个高频分数有固定说法，写作中优先使用。",
+            "bullets": [
+              "1/3 one third；2/3 two thirds；3/4 three quarters",
+              "1/2 a half；1/4 a quarter；1/4 也可说 one fourth",
+              "带分数：one and a half、two and three quarters，后面接复数名词",
+              "分子大于 1 → 分母加 s：two fifths, three tenths"
+            ]
+          },
+          {
+            "h": "小数与百分数",
+            "p": "小数点读作 point，小数点后的数字一位一位读，不按整数读法合并。percent 是固定形式，前面无论是什么数字都不加 s。",
+            "bullets": [
+              "3.14 读作 three point one four，不读 three point fourteen",
+              "0.5 读作 zero point five，也可省略 zero 说 point five",
+              "30 percent、5 percent：percent 单复数同形",
+              "升降幅度用 by：rise by 5 percent"
+            ]
+          },
+          {
+            "h": "作主语时的主谓一致",
+            "p": "分数与百分数只是修饰语，真正决定谓语的是 of 后面的名词。of 后是不可数名词或单数名词，谓语用单数；of 后是复数名词，谓语用复数。",
+            "bullets": [
+              "Two thirds of the land is covered with forest.",
+              "Two thirds of the students are from the countryside.",
+              "Seventy percent of the water was wasted."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Two thirds of the earth's surface is covered with water.", "zh": "地球表面三分之二被水覆盖。", "ok": true, "note": "分子 2 大于 1，分母用 thirds；谓语与不可数 surface 一致用 is。" },
+          { "en": "Two third of the earth's surface is covered with water.", "zh": "地球表面三分之二被水覆盖。", "ok": false, "note": "分子大于 1 时分母必须加 s，应为 two thirds。" },
+          { "en": "Nearly seventy percent of the students passed the exam.", "zh": "将近百分之七十的学生通过了考试。", "ok": true, "note": "percent 不加 s；谓语与复数 students 一致用 passed。" },
+          { "en": "Nearly seventy percents of the students passed the exam.", "zh": "将近百分之七十的学生通过了考试。", "ok": false, "note": "percent 单复数同形，永远不加 s。" },
+          { "en": "The price of the apartment has risen by 5 percent this year.", "zh": "今年公寓价格上涨了百分之五。", "ok": true, "note": "by + 百分数表示升降幅度，percent 用单数形式。" },
+          { "en": "Add one and a half cups of milk to the flour.", "zh": "往面粉里加一杯半牛奶。", "ok": true, "note": "带分数超过 1，后面的名词用复数 cups。" },
+          { "en": "Add one and a half cup of milk to the flour.", "zh": "往面粉里加一杯半牛奶。", "ok": false, "note": "数量超过 1，可数名词必须用复数，应为 cups。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Three fourth of the members were absent.", "right": "Three fourths of the members were absent.", "why": "分子 3 大于 1，分母序数词必须加 s 表示复数。" },
+          { "wrong": "Twenty percents of the land is desert.", "right": "Twenty percent of the land is desert.", "why": "percent 是固定形式，不随前面的数字变复数。" },
+          { "wrong": "One and a half hour is enough for the trip.", "right": "One and a half hours are enough for the trip.", "why": "数量超过 1，名词用复数，谓语也随之用复数。" }
+        ],
+        "contrast": { "withTitle": "倍数表达法", "diff": "分数表示部分与整体的比例，谓语看 of 后的名词；倍数表示两个量的比较结果，用 times 或 twice 并搭配 as...as 或 the size of。" },
+        "mnemonic": "分子基数分母序，分子过一分母加 s；percent 永远不加 s。"
+      },
+      "review": {
+        "core": [
+          "分数 = 分子基数词 + 分母序数词：two thirds",
+          "1/2 a half；1/4 a quarter；3/4 three quarters",
+          "小数逐位读，小数点读 point：3.14 = three point one four",
+          "percent 单复数同形，不加 s，不随数字变化",
+          "分数、百分数作主语，谓语与 of 后的名词一致"
+        ],
+        "trigger": "看到分数或百分数作主语 → 先看 of 后面名词的单复数 → 再定谓语",
+        "quickCheck": [
+          { "q": "三分之二怎么说？", "a": "two thirds，分母加 s。" },
+          { "q": "Fifty percent of the water ___ polluted. 填什么？", "a": "is，谓语与不可数名词 water 一致。" },
+          { "q": "percent 能加 s 吗？", "a": "不能，percent 单复数同形。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.numerals.fraction-decimal-percent.d1",
+          "type": "choice",
+          "stem": "About ___ of the surface of the earth is covered by water.",
+          "options": ["two third", "two thirds", "two-three", "second three"],
+          "answer": "two thirds",
+          "explain": "分子 two 用基数词，分母 three 用序数词；分子大于 1，分母要加 s，构成 two thirds。",
+          "trap": "two third 漏掉了分母的复数 s，是最常见的分数写法错误。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.fraction-decimal-percent.d2",
+          "type": "fill",
+          "stem": "Two ___ (three) of the members were absent from the meeting.",
+          "answer": "thirds",
+          "accept": ["thirds"],
+          "hint": "分子是 two，分母要用序数词的复数形式。",
+          "explain": "two 大于 1，分母 third 必须加 s 变成 thirds；谓语 were 也与复数主语一致。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.fraction-decimal-percent.d3",
+          "type": "correct",
+          "stem": "Seventy percents of the water in the lake has been polluted.",
+          "answer": "Seventy percent of the water in the lake has been polluted.",
+          "accept": ["Seventy percent of the water in the lake has been polluted."],
+          "explain": "percent 单复数同形，不能加 s；谓语 has 与不可数名词 water 一致，本身正确。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.fraction-decimal-percent.d4",
+          "type": "choice",
+          "stem": "The number 0.25 is read as ___.",
+          "options": ["zero point two five", "zero point twenty-five", "zero comma two five", "nought points two five"],
+          "answer": "zero point two five",
+          "explain": "小数点读 point，小数点后的每一位数字单独读出，0.25 即 zero point two five。",
+          "trap": "zero point twenty-five 把小数部分当成整数读，英语中小数点后必须逐位读。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.fraction-decimal-percent.d5",
+          "type": "translate",
+          "stem": "我们学校三分之二的学生住在校内。",
+          "answer": "Two thirds of the students in our school live on campus.",
+          "require": [["two thirds"], ["students"], ["live"]],
+          "forbid": ["two third of", "two thirds of student"],
+          "explain": "分子 two 大于 1，分母用 thirds；谓语与复数 students 一致，用 live 而不是 lives。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.numerals.fraction-decimal-percent.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Two", "thirds", "of", "the", "land", "is", "desert."],
+          "answer": "Two thirds of the land is desert.",
+          "explain": "分数作主语时谓语看 of 后的名词，land 不可数，谓语用 is。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.numerals.multiples",
+      "title": "倍数表达法",
+      "brief": "倍数放最前，配 as...as、比较级或 the size of",
+      "difficulty": 3,
+      "tags": ["高频", "难点"],
+      "prereq": ["morph.numerals.cardinal-ordinal"],
+      "concept": {
+        "summary": "倍数有三种句式：倍数 + as + 原级 + as；倍数 + 比较级 + than；倍数 + the + 名词（size/length/weight/height）+ of。倍数词一律位于第一个比较结构之前，句中不再叠加 more。第三种句式必须把形容词换成对应的名词，这是最易错的一步。",
+        "sections": [
+          {
+            "h": "三种可互换的句式",
+            "p": "同一组比较可以用三种句式表达，意思相同但结构不同。做题时先看句子里已经给出的是 as、than 还是 the + 名词，再补倍数词。",
+            "bullets": [
+              "A is three times as long as B.",
+              "A is three times longer than B.（教材与考试中视为同义）",
+              "A is three times the length of B.",
+              "第三种句式中的 length 不能换回 long：× three times the long of"
+            ]
+          },
+          {
+            "h": "倍数词与数量修饰",
+            "p": "倍数用 once, twice, three times...；表示“是……的两倍”只能用 twice，不能用 two times 之外的 once。涉及名词时按可数性选 many 或 much。",
+            "bullets": [
+              "twice as many books as；twice as much water as",
+              "half as expensive as（一半的价钱）",
+              "倍数词放在第一个 as 或比较级之前，不能放在句末"
+            ]
+          },
+          {
+            "h": "动词形式的倍数",
+            "p": "动词 double、triple 本身已含倍数义，后面不再加 times。increase by 后接百分数表示增幅，与“是几倍”不是同一表达。",
+            "bullets": [
+              "The company's profits doubled last year.",
+              "Output has tripled since 2010.",
+              "Sales rose by 40 percent, not by 40 times."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "This bridge is three times as long as that one.", "zh": "这座桥是那座桥的三倍长。", "ok": true, "note": "倍数 three times 放在第一个 as 之前，as 与 as 之间用原级 long。" },
+          { "en": "The new library is four times the size of the old one.", "zh": "新图书馆的面积是旧馆的四倍。", "ok": true, "note": "第三种句式用 the size of，形容词 large 已换成名词 size。" },
+          { "en": "The population of the city is now twice what it was in 2000.", "zh": "这座城市的人口现在是 2000 年的两倍。", "ok": true, "note": "twice 后接 what 从句，表示“是……的两倍”。" },
+          { "en": "This room is three times as larger as that one.", "zh": "这个房间是那个房间的三倍大。", "ok": false, "note": "as...as 之间必须用原级，larger 应改为 large。" },
+          { "en": "This road is three times the long of that one.", "zh": "这条路是那条路的三倍长。", "ok": false, "note": "the 后面要接名词，long 应改为 length。" },
+          { "en": "The company's profits doubled last year.", "zh": "公司去年的利润翻了一番。", "ok": true, "note": "double 作动词本身表示“变成两倍”，不再加 times。" },
+          { "en": "This box is twice as heavy as that one.", "zh": "这个箱子是那个箱子的两倍重。", "ok": true, "note": "两倍只能用 twice，结构为 twice as + 原级 + as。" }
+        ],
+        "pitfalls": [
+          { "wrong": "This room is three times as larger as that one.", "right": "This room is three times as large as that one.", "why": "as...as 是同级比较框架，中间只能放原级，比较级与它冲突。" },
+          { "wrong": "The river is twice the long of that stream.", "right": "The river is twice the length of that stream.", "why": "the 后必须是名词，表示长度的名词是 length，不能直接用形容词 long。" },
+          { "wrong": "The price is three times as high than before.", "right": "The price is three times as high as before.", "why": "as 必须与 as 配对，than 只用于比较级结构。" }
+        ],
+        "contrast": { "withTitle": "比较级的修饰语", "diff": "倍数词回答“几倍”，修饰语（much/far/even）回答“差距多大”；两者都放在比较结构前，但功能不同，不能互相替代。" },
+        "mnemonic": "倍数永远站最前；as...as 用原级，the 后一定接名词。"
+      },
+      "review": {
+        "core": [
+          "句式一：倍数 + as + 原级 + as",
+          "句式二：倍数 + 比较级 + than",
+          "句式三：倍数 + the + 名词（size/length/weight）+ of",
+          "倍数词放最前：twice, three times, four times",
+          "可数用 as many，不可数用 as much；翻倍用 double"
+        ],
+        "trigger": "看到“是……的几倍” → 先看句中给的是 as、than 还是 the → 再补倍数词并核对词性",
+        "quickCheck": [
+          { "q": "“三倍长”的三种说法？", "a": "three times as long as、three times longer than、three times the length of。" },
+          { "q": "as...as 中间能放比较级吗？", "a": "不能，只能用原级。" },
+          { "q": "“利润翻倍”用哪个动词？", "a": "double，如 Profits doubled。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.numerals.multiples.d1",
+          "type": "choice",
+          "stem": "The new stadium is almost three times ___ the old one.",
+          "options": ["as large as", "larger as", "as larger as", "the large of"],
+          "answer": "as large as",
+          "explain": "three times 后接同级比较结构 as + 原级 + as，因此是 as large as。",
+          "trap": "as larger as 在 as...as 框架中误用了比较级，是最高频的倍数错误。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.multiples.d2",
+          "type": "fill",
+          "stem": "The new bridge is three times the ___ (long) of the old one.",
+          "answer": "length",
+          "accept": ["length"],
+          "hint": "the 后面需要名词，不能填形容词。",
+          "explain": "第三种倍数句式为 倍数 + the + 名词 + of，long 对应的名词是 length。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.numerals.multiples.d3",
+          "type": "correct",
+          "stem": "This suitcase is twice as heavier as that one.",
+          "answer": "This suitcase is twice as heavy as that one.",
+          "accept": ["This suitcase is twice as heavy as that one."],
+          "explain": "as...as 之间必须用形容词原级，heavier 应改为 heavy；倍数 twice 位置正确。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.multiples.d4",
+          "type": "translate",
+          "stem": "这间教室是那间的两倍大。",
+          "answer": "This classroom is twice as large as that one.",
+          "require": [["twice"], ["as large as", "as big as"]],
+          "forbid": ["twice larger as", "two times as large than"],
+          "explain": "两倍用 twice，后接 as + 原级 + as；不能把 twice 与比较级或 than 混搭。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.numerals.multiples.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "new", "road", "is", "three", "times", "as", "wide", "as", "the", "old", "one."],
+          "answer": "The new road is three times as wide as the old one.",
+          "explain": "倍数 three times 置于第一个 as 之前，as 与 as 之间用原级 wide。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.multiples.d6",
+          "type": "choice",
+          "stem": "The company's profits ___ last year, from two million to four million dollars.",
+          "options": ["doubled", "twice", "were twice", "doubled up"],
+          "answer": "doubled",
+          "explain": "从两百万到四百万是“翻倍”，用动词 double 的过去式 doubled 作谓语。",
+          "trap": "twice 是限定词或副词，不能单独作谓语；doubled up 意为“笑弯了腰”，与数字无关。",
+          "difficulty": 3
+        }
+      ]
+    }
+,
+    {
+      "id": "morph.numerals.years-ages",
+      "title": "年代、世纪与年龄的表达",
+      "brief": "年代补 the 与 s，年龄用 one's 加复数",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.numerals.cardinal-ordinal"],
+      "concept": {
+        "summary": "年代写作 in the 1990s，the 与词尾的 s 都不能省；世纪用序数词 + century，即 in the 21st century；年龄的区间用 in one's thirties，必须用所有格加整十复数。年份按两位一组读，2000 年之后的年份也可读作 two thousand and eight。",
+        "sections": [
+          {
+            "h": "年代与世纪",
+            "p": "年代是“十年”这一整体，形式上必须是 the + 年份 + s；世纪是“第几个一百年”，形式上必须是序数词 + century。两种结构都带定冠词，不能省略。",
+            "bullets": [
+              "in the 1980s = in the eighties，指 1980 至 1989",
+              "in the 1990s 不能写成 in 1990s",
+              "in the 21st century = in the twenty-first century",
+              "the early / late 1990s 表示该年代的前期或后期"
+            ]
+          },
+          {
+            "h": "年龄的四种说法",
+            "p": "具体年龄用基数词，年龄段用整十词的复数并加所有格。作定语时改用带连字符的复合形容词，这一点与数词作定语的规则一致。",
+            "bullets": [
+              "at the age of ten；a boy of ten；aged ten",
+              "in his early thirties 表示三十出头",
+              "a ten-year-old boy 作前置定语，year 用单数",
+              "in one's forties 中的 one's 随主语变化：in her forties"
+            ]
+          },
+          {
+            "h": "年份的读法",
+            "p": "四位年份通常拆成两个两位数来读，中间有 0 的年份读作 oh。2000 年后的年份既可以按两位数读，也可以按千位读，两种都成立。",
+            "bullets": [
+              "1998 → nineteen ninety-eight",
+              "1805 → eighteen oh five",
+              "2008 → two thousand and eight",
+              "2020 → twenty twenty 或 two thousand and twenty"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The factory was built in the 1980s.", "zh": "这家工厂建于二十世纪八十年代。", "ok": true, "note": "年代结构为 the + 年份 + s，the 与 s 都不能省。" },
+          { "en": "The factory was built in 1980s.", "zh": "这家工厂建于二十世纪八十年代。", "ok": false, "note": "年代前必须有定冠词 the，应为 in the 1980s。" },
+          { "en": "She started learning the piano in her forties.", "zh": "她四十多岁时开始学钢琴。", "ok": true, "note": "年龄段用 in + 所有格 + 整十复数，forties 表四十多岁。" },
+          { "en": "She started learning the piano in her forty.", "zh": "她四十多岁时开始学钢琴。", "ok": false, "note": "年龄段必须用整十词的复数形式 forties，不能用基数词 forty。" },
+          { "en": "The castle dates back to the twelfth century.", "zh": "这座城堡可追溯到十二世纪。", "ok": true, "note": "世纪用序数词 + century，twelfth 表第十二个一百年。" },
+          { "en": "The castle dates back to the twelve century.", "zh": "这座城堡可追溯到十二世纪。", "ok": false, "note": "世纪必须用序数词，twelve 应改为 twelfth。" },
+          { "en": "He published his first novel at the age of twenty-three.", "zh": "他二十三岁时出版了第一部小说。", "ok": true, "note": "at the age of 后接基数词，表具体年龄。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He made his first million in his thirty.", "right": "He made his first million in his thirties.", "why": "年龄段表示“三十多岁”这一段区间，必须用整十词的复数加所有格。" },
+          { "wrong": "The war broke out in 1940s.", "right": "The war broke out in the 1940s.", "why": "年代是特指的一段十年，结构固定为 the + 年份复数，缺 the 即错。" },
+          { "wrong": "She was born in the twenty-one century.", "right": "She was born in the twenty-first century.", "why": "世纪用序数词而非基数词，twenty-one 应改为 twenty-first。" }
+        ],
+        "contrast": { "withTitle": "基数词与序数词的形式", "diff": "那一节点处理序数词本身的拼写规则；这里只处理年份、世纪、年龄三个固定格式中该用基数还是序数、该不该加 the 与 s。" },
+        "mnemonic": "年代 the 加 s，世纪用序数，年龄 in one's 加复数。"
+      },
+      "review": {
+        "core": [
+          "年代：in the 1990s，the 与 s 都不能省",
+          "世纪：in the 21st century = in the twenty-first century",
+          "年龄段：in his thirties / in her early forties",
+          "具体年龄：at the age of ten / a boy of ten / a ten-year-old boy",
+          "年份读法：1998 nineteen ninety-eight；2008 two thousand and eight"
+        ],
+        "trigger": "看到年代、世纪或年龄段 → 先补 the 或所有格 → 再检查 s 与序数词是否到位",
+        "quickCheck": [
+          { "q": "“在二十世纪九十年代”怎么说？", "a": "in the 1990s。" },
+          { "q": "“在他三十多岁时”怎么说？", "a": "in his thirties。" },
+          { "q": "二十一世纪用基数词还是序数词？", "a": "序数词，the twenty-first century。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.numerals.years-ages.d1",
+          "type": "choice",
+          "stem": "The old theatre was pulled down in ___.",
+          "options": ["the 1990s", "1990s", "the 1990", "1990's decade"],
+          "answer": "the 1990s",
+          "explain": "年代结构固定为 the + 年份复数，the 与 s 缺一不可，故用 the 1990s。",
+          "trap": "1990s 缺定冠词，年代是特指的一段十年，必须加 the。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.years-ages.d2",
+          "type": "fill",
+          "stem": "My grandfather learned to use a computer in his ___ (sixty).",
+          "answer": "sixties",
+          "accept": ["sixties"],
+          "hint": "年龄段用 in one's + 整十词的复数。",
+          "explain": "in his sixties 表示“六十多岁”，整十词 sixty 要变复数 sixties 并与所有格 his 搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.years-ages.d3",
+          "type": "correct",
+          "stem": "The bridge was completed in the twenty century.",
+          "answer": "The bridge was completed in the twentieth century.",
+          "accept": ["The bridge was completed in the twentieth century."],
+          "explain": "世纪用序数词而非基数词，twenty 应改为 twentieth，结构为 the + 序数词 + century。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.years-ages.d4",
+          "type": "choice",
+          "stem": "The famous writer produced most of his best work in his ___.",
+          "options": ["thirties", "thirty", "thirty's", "the thirty"],
+          "answer": "thirties",
+          "explain": "in one's thirties 是固定结构，用整十词的复数表示“三十多岁”这一区间。",
+          "trap": "thirty 是基数词，只能指确定的三十，无法表达年龄段。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.years-ages.d5",
+          "type": "translate",
+          "stem": "这座教堂建于十九世纪。",
+          "answer": "The church was built in the nineteenth century.",
+          "require": [["nineteenth"], ["century"]],
+          "forbid": ["nineteen century", "the nineteenth centuries"],
+          "explain": "世纪用序数词 + century，nineteen 应变为 nineteenth，且 century 用单数。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.numerals.years-ages.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "wrote", "her", "first", "novel", "at", "the", "age", "of", "twenty-three."],
+          "answer": "She wrote her first novel at the age of twenty-three.",
+          "explain": "at the age of 后接基数词表示具体年龄，twenty-three 不再变成序数词。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.numerals.attributive-plural",
+      "title": "数词作定语的单复数",
+      "brief": "连字符里不带 s，分数分母除外",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["morph.nouns.attributive"],
+      "concept": {
+        "summary": "数词与名词组成复合定语修饰后面的名词时，内部名词一律用单数，各成分之间加连字符：a five-year plan、a ten-year-old boy。只有分数作定语保留分母的复数（a two-thirds majority）。一旦该数量改到名词后作表语或后置修饰，名词恢复复数并去掉连字符。",
+        "sections": [
+          {
+            "h": "复合定语的基本格式",
+            "p": "复合定语是一个整体形容词，内部的数词与名词都不再独立计数。中心名词是单数还是复数，不影响内部形式。",
+            "bullets": [
+              "a five-year plan；a two-hour meeting",
+              "a 200-metre bridge；a six-foot man",
+              "a ten-year-old girl = a girl of ten years old",
+              "中心名词变复数时内部不变：two five-year plans"
+            ]
+          },
+          {
+            "h": "分数与百分数作定语",
+            "p": "分数作定语时分子与分母都保留，分子大于 1 分母仍加 s，因为这里保留的是分数本身的完整形式；percent 作定语依旧不加 s。",
+            "bullets": [
+              "a two-thirds majority（三分之二多数）",
+              "a 5 percent increase（百分之五的增长）",
+              "a half-hour walk（半小时的步行）"
+            ]
+          },
+          {
+            "h": "前置与后置的转换",
+            "p": "同一个数量放在名词前要压缩成单数加连字符，放在名词后则恢复正常数量短语。判断依据是它有没有紧贴名词作定语。",
+            "bullets": [
+              "a three-hour journey = a journey of three hours",
+              "a ten-year-old boy = a boy of ten",
+              "a six-foot man = a man of six feet"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "They carried out a five-year study on urban air quality.", "zh": "他们开展了一项为期五年的城市空气质量研究。", "ok": true, "note": "five-year 作前置定语，year 用单数并加连字符。" },
+          { "en": "They carried out a five-years study on urban air quality.", "zh": "他们开展了一项为期五年的城市空气质量研究。", "ok": false, "note": "复合定语内部的名词必须用单数，five-years 应改为 five-year。" },
+          { "en": "He is a ten-year-old boy with a gift for music.", "zh": "他是个有音乐天赋的十岁男孩。", "ok": true, "note": "数词 + 名词 + 形容词构成复合定语，三个成分用连字符连接。" },
+          { "en": "He is a ten-years-old boy with a gift for music.", "zh": "他是个有音乐天赋的十岁男孩。", "ok": false, "note": "复合定语内部的 year 不能加 s，应为 ten-year-old。" },
+          { "en": "The motion was passed by a two-thirds majority.", "zh": "这项动议以三分之二多数通过。", "ok": true, "note": "分数作定语时保留分母的复数形式 thirds。" },
+          { "en": "The country recorded a 5 percent growth rate last year.", "zh": "该国去年录得百分之五的增长率。", "ok": true, "note": "百分数作定语，percent 保持单数形式。" },
+          { "en": "The country recorded a 5 percents growth rate last year.", "zh": "该国去年录得百分之五的增长率。", "ok": false, "note": "percent 在复合定语中同样不加 s，应为 5 percent。" }
+        ],
+        "pitfalls": [
+          { "wrong": "They held a three-hours meeting yesterday.", "right": "They held a three-hour meeting yesterday.", "why": "复合定语内部的名词不承担计数功能，hour 必须用单数。" },
+          { "wrong": "The reform won a two-third majority.", "right": "The reform won a two-thirds majority.", "why": "分数作定语时分子大于 1，分母仍要保留复数词尾 s。" },
+          { "wrong": "The company reported a 5 percents increase in sales.", "right": "The company reported a 5 percent increase in sales.", "why": "percent 单复数同形，作定语时也不加 s。" }
+        ],
+        "contrast": { "withTitle": "名词作定语的单复数", "diff": "那一节点讨论类别名词作定语要不要加 s；这里专门处理数词参与构成的复合定语，核心是连字符与内部名词单数。" },
+        "mnemonic": "连字符里不带 s，分数分母是唯一例外。"
+      },
+      "review": {
+        "core": [
+          "数词 + 名词作定语：内部名词单数 + 连字符（a five-year plan）",
+          "数词 + 名词 + 形容词：a ten-year-old boy",
+          "分数作定语保留分母复数：a two-thirds majority",
+          "百分数作定语：a 5 percent increase，percent 不加 s",
+          "改后置后恢复复数：a journey of three hours"
+        ],
+        "trigger": "看到连字符前的数词 → 内部名词一律写单数 → 分数与 percent 单独核对",
+        "quickCheck": [
+          { "q": "“一项五年的计划”怎么写？", "a": "a five-year plan。" },
+          { "q": "“一个十岁的男孩”怎么写？", "a": "a ten-year-old boy。" },
+          { "q": "“三分之二多数”怎么说？", "a": "a two-thirds majority，分母保留 s。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.numerals.attributive-plural.d1",
+          "type": "choice",
+          "stem": "The committee approved a ___ plan for the redevelopment of the district.",
+          "options": ["five-year", "five-years", "five year", "five years"],
+          "answer": "five-year",
+          "explain": "数词 + 名词作前置定语时，名词用单数并以连字符连接，构成 five-year。",
+          "trap": "five years 单独使用是正确的数量短语，但作前置定语必须压缩成单数加连字符。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.numerals.attributive-plural.d2",
+          "type": "fill",
+          "stem": "She is a ___ girl who has already published two novels. (fourteen year old)",
+          "answer": "fourteen-year-old",
+          "accept": ["fourteen-year-old"],
+          "hint": "数词、名词、形容词三个成分之间都要加连字符。",
+          "explain": "数词 + 名词 + 形容词构成复合定语，内部名词 year 用单数，写作 fourteen-year-old。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.numerals.attributive-plural.d3",
+          "type": "correct",
+          "stem": "The mayor announced a three-years project to repair the old sewers.",
+          "answer": "The mayor announced a three-year project to repair the old sewers.",
+          "accept": ["The mayor announced a three-year project to repair the old sewers."],
+          "explain": "three-year 是复合定语，内部名词 year 用单数，不加 s。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.attributive-plural.d4",
+          "type": "choice",
+          "stem": "The reform was finally passed by a ___ majority.",
+          "options": ["two-thirds", "two-third", "two third", "two-thirds'"],
+          "answer": "two-thirds",
+          "explain": "分数作定语时分子 two 大于 1，分母 third 保留复数词尾，写作 two-thirds。",
+          "trap": "two-third 漏掉分母的 s，与分数本身的构成规则冲突。",
+          "difficulty": 4
+        },
+        {
+          "id": "morph.numerals.attributive-plural.d5",
+          "type": "translate",
+          "stem": "他们修建了一条五百米长的隧道。",
+          "answer": "They built a five-hundred-metre tunnel.",
+          "require": [["five-hundred-met"], ["tunnel"]],
+          "forbid": ["five-hundred-metres", "five hundreds metre"],
+          "explain": "复合定语内部的 metre 用单数并加连字符；hundred 前有确数 five 时也不加 s。",
+          "difficulty": 4
+        },
+        {
+          "id": "morph.numerals.attributive-plural.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "took", "a", "ten-minute", "break", "between", "classes."],
+          "answer": "He took a ten-minute break between classes.",
+          "explain": "ten-minute 为复合定语，minute 用单数并加连字符，中心名词 break 才是被数的对象。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.numerals.dozen-score-hundred",
+      "title": "dozen/score/hundred 的复数规则",
+      "brief": "确数用单数不带 of，概数用复数加 of",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.numerals.cardinal-ordinal"],
+      "concept": {
+        "summary": "hundred/thousand/million/dozen/score 前有确数时用单数、直接修饰名词，不加 of；表示不确定的“成百上千”时用复数加 of。确数后若接 the/these/物主代词等限定词，必须补回 of，表示“其中的……”。score 表 20，scores 只用于概数。",
+        "sections": [
+          {
+            "h": "确数：单数、无 of",
+            "p": "前面出现具体数字时，这些词只是数量单位，形式固定为单数，后面直接跟复数名词。这是判断的第一分支，也是最常考的分支。",
+            "bullets": [
+              "two hundred students；three thousand copies",
+              "five dozen eggs；two score years",
+              "two million dollars：million 不加 s"
+            ]
+          },
+          {
+            "h": "概数：复数 + of",
+            "p": "没有具体数字、只表示“很多”时，这些词变成复数并必须带 of。两层概数叠加时两部分都用复数。",
+            "bullets": [
+              "hundreds of people；thousands of books",
+              "dozens of times；scores of volunteers",
+              "hundreds of thousands of visitors"
+            ]
+          },
+          {
+            "h": "确数 + 限定词：补 of",
+            "p": "确数后如果出现 the/these/those/物主代词，说明是从一个确定范围中取出若干，此时必须用 of 连接，结构为 确数 + 复数单位 + of + 限定词。",
+            "bullets": [
+              "two hundred of the students（其中的两百名学生）",
+              "three dozen of them（其中的三打）",
+              "two hundred students（泛指两百名学生，无 of）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Two hundred students signed up for the lecture.", "zh": "两百名学生报名参加了讲座。", "ok": true, "note": "hundred 前有确数 two，用单数并直接修饰名词。" },
+          { "en": "Two hundreds students signed up for the lecture.", "zh": "两百名学生报名参加了讲座。", "ok": false, "note": "确数后 hundred 不能加 s，应为 two hundred students。" },
+          { "en": "Hundreds of people gathered outside the stadium.", "zh": "数百人聚集在体育场外。", "ok": true, "note": "表示不确定的“数百”，用复数 hundreds 并带 of。" },
+          { "en": "Hundred of people gathered outside the stadium.", "zh": "数百人聚集在体育场外。", "ok": false, "note": "概数必须用复数形式 hundreds，且 of 不可省。" },
+          { "en": "Two hundred of the students were absent because of the storm.", "zh": "学生中有两百人因暴风雨缺席。", "ok": true, "note": "确数后接限定词 the，必须用 of 表示“其中的两百名”。" },
+          { "en": "She bought three dozen eggs at the market.", "zh": "她在市场上买了三打鸡蛋。", "ok": true, "note": "dozen 前有确数 three，用单数形式，后面直接接名词。" },
+          { "en": "She bought three dozens eggs at the market.", "zh": "她在市场上买了三打鸡蛋。", "ok": false, "note": "确数后 dozen 不加 s，应为 three dozen eggs。" },
+          { "en": "Scores of volunteers helped clean the beach.", "zh": "数十名志愿者帮忙清理海滩。", "ok": true, "note": "score 表 20，scores of 表示“数十个”，只用于概数。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Five hundreds people attended the ceremony.", "right": "Five hundred people attended the ceremony.", "why": "前有确数 five 时 hundred 是数量单位，形式固定为单数。" },
+          { "wrong": "Thousands students took part in the survey.", "right": "Thousands of students took part in the survey.", "why": "概数结构是复数单位 + of + 名词，of 不能省略。" },
+          { "wrong": "Two millions dollars was raised for the project.", "right": "Two million dollars was raised for the project.", "why": "确数后 million 不加 s；金额作为一个整体，谓语用单数。" }
+        ],
+        "contrast": { "withTitle": "数词作定语的单复数", "diff": "这一节点处理数量单位自身该用单数还是复数、要不要 of；数词作定语处理的是复合定语中的连字符与名词单数。" },
+        "mnemonic": "确数单数不带 of，概数复数必带 of；the 一出现，of 补回来。"
+      },
+      "review": {
+        "core": [
+          "确数：two hundred students（单数、无 of）",
+          "概数：hundreds of students（复数 + of）",
+          "确数 + 限定词：two hundred of the students（其中的两百）",
+          "dozen / score 同规则：three dozen eggs, dozens of times, scores of people",
+          "million 同规则：two million dollars, millions of dollars"
+        ],
+        "trigger": "看到 hundred/thousand/million/dozen/score → 先看前面有没有确数 → 有则单数无 of，无则复数加 of",
+        "quickCheck": [
+          { "q": "“两百名学生”怎么说？", "a": "two hundred students。" },
+          { "q": "“数百人”怎么说？", "a": "hundreds of people。" },
+          { "q": "“学生中的两百名”怎么说？", "a": "two hundred of the students。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.numerals.dozen-score-hundred.d1",
+          "type": "choice",
+          "stem": "___ students volunteered to help at the charity event last weekend.",
+          "options": ["Hundreds of", "Hundred of", "Hundreds", "Two hundreds"],
+          "answer": "Hundreds of",
+          "explain": "此处表示不确定的“数百名”，用复数 hundreds 加 of 构成概数结构。",
+          "trap": "Hundred of 把概数写成单数，概数必须是 hundreds + of。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.dozen-score-hundred.d2",
+          "type": "fill",
+          "stem": "The museum receives ___ of visitors every summer. (thousand)",
+          "answer": "thousands",
+          "accept": ["thousands"],
+          "hint": "句中没有具体数字，说明表示的是概数。",
+          "explain": "没有确数而表示“成千上万”，thousand 要变复数并带 of，构成 thousands of。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.dozen-score-hundred.d3",
+          "type": "correct",
+          "stem": "Two millions people watched the opening ceremony on television.",
+          "answer": "Two million people watched the opening ceremony on television.",
+          "accept": ["Two million people watched the opening ceremony on television."],
+          "explain": "million 前有确数 two，只能用单数形式，不能加 s。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.numerals.dozen-score-hundred.d4",
+          "type": "choice",
+          "stem": "___ the students in our grade have signed up for the competition.",
+          "options": ["Two hundred of", "Two hundred", "Two hundreds of", "Hundred of"],
+          "answer": "Two hundred of",
+          "explain": "确数 two hundred 后接限定词 the，必须用 of 连接，表示“其中的两百名”。",
+          "trap": "Two hundred 后直接跟 the 缺少 of，只有不接限定词时才能省略 of。",
+          "difficulty": 4
+        },
+        {
+          "id": "morph.numerals.dozen-score-hundred.d5",
+          "type": "translate",
+          "stem": "成百上千的人参加了这次会议。",
+          "answer": "Hundreds of people attended the meeting.",
+          "require": [["hundreds of"], ["people"]],
+          "forbid": ["hundred of", "hundreds people"],
+          "explain": "概数用 hundreds 加 of 修饰 people；若写成 hundreds people 则丢了 of，结构不成立。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.numerals.dozen-score-hundred.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "factory", "employs", "two", "thousand", "workers."],
+          "answer": "The factory employs two thousand workers.",
+          "explain": "thousand 前有确数 two，用单数形式并直接修饰 workers，不加 of。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

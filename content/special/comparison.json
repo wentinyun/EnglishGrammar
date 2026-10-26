@@ -1,0 +1,677 @@
+{
+  "level1": "special",
+  "chapter": "comparison",
+  "items": [
+    {
+      "id": "special.comparison.symmetry",
+      "title": "比较对象的对称性",
+      "brief": "than 前后必须同类，缺名词用 that/those of",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.adj_adv.as-as", "morph.pronouns.one-it-that"],
+      "concept": {
+        "summary": "判定标准：than 或 as 前后必须是同一范畴、同一语法层级的东西。前项是“某人的某物”时，后项不能只留人或只留物，要用 that of / those of（或名词性物主代词）把被比较的名词补回同一层级，否则就是“人比城市”“产量比年份”的错误。",
+        "sections": [
+          {
+            "h": "对称性检验：把省略部分补全",
+            "p": "than 后面的成分常被省略，还原后必须与前项同类。检验办法是把 than 后补成完整短语，读一遍看是否“人比人、物比物、数量比数量”。",
+            "bullets": [
+              "The population of Shanghai is larger than that of Beijing.（that = the population）",
+              "The ears of a rabbit are longer than those of a cat.（those = the ears）",
+              "× The population of Shanghai is larger than Beijing.（人口与城市比）",
+              "× The ears of a rabbit are longer than a cat.（耳朵与猫比）"
+            ]
+          },
+          {
+            "h": "that of 与 those of 的选择",
+            "p": "替代前项名词时，单数或不可数用 that，复数用 those；指人时也可用 the one / the ones。所有格可以直接替代：than mine / than his。替代词不能省略成 than of。",
+            "bullets": [
+              "单数或不可数 → that：The climate here is milder than that of the north.",
+              "复数 → those：Cars made in Japan are cheaper than those made in Germany.",
+              "所有格 → mine/yours：His salary is higher than mine.",
+              "× than of Beijing：替代词 that 不能省"
+            ]
+          },
+          {
+            "h": "than 后代词的格",
+            "p": "than 后接代词时，用主格还是宾格取决于补全后它充当什么成分。正式书面语按补全后的成分选格，口语中宾格常见。",
+            "bullets": [
+              "She is taller than I am.（正式，I 作主语）",
+              "She is taller than me.（口语，可接受）",
+              "He likes her more than I do.（他比她更喜欢她）",
+              "He likes her more than me.（他喜欢她胜过喜欢我）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The population of Shanghai is larger than that of Beijing.", "zh": "上海的人口比北京多。", "ok": true, "note": "that 替代 the population，前后都是“人口”，比较对象对称。" },
+          { "en": "The population of Shanghai is larger than Beijing.", "zh": "上海的人口比北京多。", "ok": false, "note": "这样写成了人口与城市比较，须补 that of 才能与 the population 对应。" },
+          { "en": "The ears of a rabbit are longer than those of a cat.", "zh": "兔子的耳朵比猫的长。", "ok": true, "note": "前项是复数 the ears，故用 those of 替代。" },
+          { "en": "The ears of a rabbit are longer than a cat.", "zh": "兔子的耳朵比猫的长。", "ok": false, "note": "耳朵与猫不是同类事物，须改为 than those of a cat。" },
+          { "en": "Cars made in Japan are cheaper than those made in Germany.", "zh": "日本产的汽车比德国产的便宜。", "ok": true, "note": "those 替代 cars，后项保留了同一层级的分词定语。" },
+          { "en": "His monthly salary is higher than mine.", "zh": "他的月薪比我的高。", "ok": true, "note": "名词性物主代词 mine 替代 my salary，是 that of 结构的等价写法。" },
+          { "en": "The climate here is milder than of the north.", "zh": "这里的气候比北方温和。", "ok": false, "note": "替代词不能省略，须写成 than that of the north。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The output of this factory is higher than last year.", "right": "The output of this factory is higher than that of last year.", "why": "产量只能与产量比，last year 前必须补 that of 才构成同级比较。" },
+          { "wrong": "The students in Class One are more active than Class Two.", "right": "The students in Class One are more active than those in Class Two.", "why": "前项是学生，后项也必须是学生，用 those 替代 students 才能对等。" },
+          { "wrong": "The weather in Kunming is better than Beijing.", "right": "The weather in Kunming is better than that in Beijing.", "why": "天气不能与城市比较，单数不可数名词用 that 替代。" }
+        ],
+        "contrast": { "withTitle": "one/ones/it/that 的替代区别", "diff": "该知识点解决代词本身的选用；本知识点只关心比较结构里必须补出替代词，否则前后层级不对称。" },
+        "mnemonic": "前项带 of，后项也带 of；单数 that，复数 those，省了就错。"
+      },
+      "review": {
+        "core": [
+          "than/as 前后必须同类、同层级",
+          "单数或不可数用 that of，复数用 those of",
+          "名词性物主代词可直接替代：than mine",
+          "替代词不能省：× than of Beijing",
+          "检验办法：把 than 后补全，读一遍是否同类相比"
+        ],
+        "trigger": "看到 than + 名词，而前项是“X 的 Y” → 立刻补 that/those of",
+        "quickCheck": [
+          { "q": "The population of A is larger than ___ of B. 填什么？", "a": "that。" },
+          { "q": "The ears of a rabbit 后用 that of 还是 those of？", "a": "those of，因为 ears 是复数。" },
+          { "q": "His salary is higher than ___ (I). 怎么写？", "a": "than mine。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.comparison.symmetry.d1",
+          "type": "choice",
+          "stem": "The number of students in our school is larger than ___ in theirs.",
+          "options": ["that", "those", "it", "one"],
+          "answer": "that",
+          "explain": "被比较的是 the number，单数概念，用 that 替代，构成 that in theirs。",
+          "trap": "those 只能替代复数名词，the number 是单数，用 those 会让前后层级不一致。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.symmetry.d2",
+          "type": "fill",
+          "stem": "The weather in Kunming is milder than ___ in Harbin.",
+          "answer": "that",
+          "accept": ["that"],
+          "hint": "被比较的是 the weather，不可数名词。",
+          "explain": "weather 是不可数名词，替代时用 that，构成 than that in Harbin，避免天气与城市相比。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.symmetry.d3",
+          "type": "correct",
+          "stem": "The population of India is now larger than China.",
+          "answer": "The population of India is now larger than that of China.",
+          "accept": ["The population of India is now larger than that of China."],
+          "explain": "前项是印度的人口，后项必须也是人口，用 that of China 补出被比较的名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.symmetry.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "climate", "here", "is", "milder", "than", "that", "of", "the", "north."],
+          "answer": "The climate here is milder than that of the north.",
+          "explain": "climate 是不可数名词，用 that 替代，补出 of the north 使前后都是“气候”。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.symmetry.d5",
+          "type": "translate",
+          "stem": "上海的房价比北京的高。",
+          "answer": "House prices in Shanghai are higher than those in Beijing.",
+          "require": [["higher than those"], ["prices"]],
+          "forbid": ["higher than Beijing"],
+          "explain": "house prices 是复数，须用 those 替代，否则会写成房价与城市比较。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.comparison.symmetry.d6",
+          "type": "choice",
+          "stem": "The students in our class work harder than ___ in Class Two.",
+          "options": ["those", "that", "them", "ones"],
+          "answer": "those",
+          "explain": "前项是复数 the students，替代词用 those，构成 than those in Class Two，前后同为“学生”。",
+          "trap": "them 是宾格代词，无法带 in Class Two 作后置定语，也无法与 the students 形成同级比较。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.comparison.comparative-as-superlative",
+      "title": "比较级表最高级",
+      "brief": "把主语排除在范围外，比较级就是最高级",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.adj_adv.comparative-superlative-forms", "morph.adj_adv.superlative-scope"],
+      "concept": {
+        "summary": "判定标准：比较级要表达“最”的意思，必须把比较范围限定为“除主语之外的全部”。三种结构都能做到：否定词 + 比较级、比较级 + than any other + 单数名词、比较级 + than all the other + 复数名词。范围里排除掉主语自身，结构才成立。",
+        "sections": [
+          {
+            "h": "三种可互换的结构",
+            "p": "这三种结构语义相同，都可以与最高级互换。判断时先看有没有否定词，再看 than 后面是否带 other 或 all the other。",
+            "bullets": [
+              "否定词 + 比较级：Nothing is more important than health.",
+              "比较级 + than any other + 单数名词：He runs faster than any other boy in his class.",
+              "比较级 + than all the other + 复数名词：She is taller than all the other girls in her grade.",
+              "比较级 + than anyone else：He works harder than anyone else in the team.",
+              "never + 比较级：I have never seen a better film."
+            ]
+          },
+          {
+            "h": "为什么要 any other",
+            "p": "any 若不搭配 other，比较范围里就包含主语自身，句子会变成“他比自己跑得快”的逻辑错误。other 的唯一作用是把主语从范围中排除。",
+            "bullets": [
+              "× He runs faster than any boy in his class.（他在班里，等于比自己快）",
+              "√ He runs faster than any other boy in his class.",
+              "互换：He is the tallest boy in his class. = He is taller than any other boy in his class."
+            ]
+          },
+          {
+            "h": "否定比较级的两个细节",
+            "p": "“最”的意思由整个否定结构承担，比较级前用不定冠词 a，不用 the；否定词常用 nothing、no、never、few。换成最高级时去掉否定词即可。",
+            "bullets": [
+              "Nothing is more precious than time. = Time is the most precious thing.",
+              "I have never heard a more inspiring speech.",
+              "× I have never heard the more inspiring speech.",
+              "No other student is as diligent as she is.（同级比较的否定形式）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Nothing is more important than health.", "zh": "没有什么比健康更重要。", "ok": true, "note": "否定词 nothing + 比较级，表达“健康最重要”。" },
+          { "en": "He runs faster than any boy in his class.", "zh": "他比班里任何男孩都跑得快。", "ok": false, "note": "any boy 包含他自己，逻辑上成了比自己快，须加 other。" },
+          { "en": "He runs faster than any other boy in his class.", "zh": "他比班里其他任何男孩都跑得快。", "ok": true, "note": "other 把主语排除出比较范围，比较级在此等于最高级。" },
+          { "en": "She is taller than all the other girls in her grade.", "zh": "她比同年级其他所有女孩都高。", "ok": true, "note": "all the other + 复数，同样把主语排除在外。" },
+          { "en": "I have never seen a more inspiring speech.", "zh": "我从没听过比这更鼓舞人心的演讲。", "ok": true, "note": "never + a + 比较级，语义等于“这是最鼓舞人心的演讲”。" },
+          { "en": "I have never seen the more inspiring speech.", "zh": "我从没听过比这更鼓舞人心的演讲。", "ok": false, "note": "否定比较级表最高级时用不定冠词 a，the more 是特指比较，语义不通。" },
+          { "en": "No other city in China is as large as Shanghai.", "zh": "中国没有别的城市像上海这么大。", "ok": true, "note": "no other + 同级比较 as...as，是最高级的另一种否定写法。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is taller than any student in his class.", "right": "He is taller than any other student in his class.", "why": "any student 把主语本人也纳入范围，比较出现自我比较的逻辑矛盾，须加 other 排除。" },
+          { "wrong": "Nothing is more useful as a good dictionary.", "right": "Nothing is more useful than a good dictionary.", "why": "more 是比较级，只能搭配 than；as 用于原级的同级比较 as...as。" },
+          { "wrong": "I have never read the better novel.", "right": "I have never read a better novel.", "why": "否定比较级表“最好”时比较级前用不定冠词 a，用 the 会变成特定两本之间的比较。" }
+        ],
+        "contrast": { "withTitle": "最高级的范围限定", "diff": "最高级靠 in/of 短语限定范围；比较级表最高级靠 other、all the other 或否定词排除主语，形式不同但语义等价。" },
+        "mnemonic": "比较级想称“最”，先把主语踢出圈；any 要配 other，否定配 a。"
+      },
+      "review": {
+        "core": [
+          "三种结构：否定词 + 比较级 / than any other + 单数 / than all the other + 复数",
+          "other 的作用是把主语排除出比较范围",
+          "否定比较级用 a + 比较级，不用 the",
+          "可与最高级直接互换",
+          "never + 比较级也表示“最”"
+        ],
+        "trigger": "看到“比较级 + than any” → 检查有没有 other → 没有就是逻辑错误",
+        "quickCheck": [
+          { "q": "He is taller than any ___ student in his class. 填什么？", "a": "other。" },
+          { "q": "“我从没看过更好的电影”怎么写？", "a": "I have never seen a better film。" },
+          { "q": "Nothing is more important than health 相当于什么？", "a": "Health is the most important thing。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.comparison.comparative-as-superlative.d1",
+          "type": "choice",
+          "stem": "He runs faster than ___ student in his class.",
+          "options": ["any", "any other", "some", "all the"],
+          "answer": "any other",
+          "explain": "主语 he 也在班里，必须用 any other 把他排除出比较范围，比较级才等于最高级。",
+          "trap": "any student 把主语包含在内，句子会变成“他比自己跑得快”，逻辑不成立。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.comparative-as-superlative.d2",
+          "type": "fill",
+          "stem": "She is more diligent than ___ other student in the grade.",
+          "answer": "any",
+          "accept": ["any"],
+          "hint": "后面已经有 other，这里只缺一个限定词。",
+          "explain": "than any other student 是固定组合，any 与 other 分工：any 表任一个，other 排除主语。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.comparative-as-superlative.d3",
+          "type": "correct",
+          "stem": "He is taller than any boy in his class.",
+          "answer": "He is taller than any other boy in his class.",
+          "accept": ["He is taller than any other boy in his class."],
+          "explain": "any boy 包含主语 he 本人，须加 other 把主语排除，比较级才能表达“最高”。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.comparative-as-superlative.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Nothing", "is", "more", "important", "than", "health."],
+          "answer": "Nothing is more important than health.",
+          "explain": "否定词 nothing + 比较级 more important，整体表达“健康最重要”。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.comparison.comparative-as-superlative.d5",
+          "type": "translate",
+          "stem": "他比班上任何其他学生都用功。",
+          "answer": "He works harder than any other student in his class.",
+          "require": [["harder than any other", "more diligent than any other"]],
+          "forbid": ["than any student", "than all students"],
+          "explain": "other 把主语排除出比较范围；漏掉 other 就成了与自己比较，逻辑不成立。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.comparison.comparative-as-superlative.d6",
+          "type": "choice",
+          "stem": "He works harder than ___ in the workshop.",
+          "options": ["anyone else", "anyone", "someone", "all"],
+          "answer": "anyone else",
+          "explain": "else 的作用与 other 相同，把主语 he 排除在比较范围之外，比较级才表示“最用功”。",
+          "trap": "anyone 包含主语本人，等于说“他比自己用功”，逻辑矛盾。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.comparison.fixed-comparatives",
+      "title": "the same as / different from / superior to",
+      "brief": "介词由词本身决定，拉丁比较级不接 than",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["morph.adj_adv.as-as", "morph.adj_adv.comparative-modifiers"],
+      "concept": {
+        "summary": "判定标准：这三个结构的介词由词本身决定，不由“比较”这一语义决定——same 配 as，different 配 from，以 -ior 结尾的拉丁比较级（superior/inferior/senior/junior/prior）配 to。凡拉丁比较级，既不加 than，也不加 more。",
+        "sections": [
+          {
+            "h": "same 家族的搭配",
+            "p": "the same 后接 as 表“同类相同”，接 that 表“同一个”。两者不能互换，区别在所指是同一物还是同类型。",
+            "bullets": [
+              "the same as：Her reaction was exactly the same as mine.",
+              "the same ... as：I bought the same phone as you did.（同款）",
+              "the same ... that：This is the same phone that I lost last week.（同一部）",
+              "not the same as = different from"
+            ]
+          },
+          {
+            "h": "-ior 结尾的拉丁比较级",
+            "p": "这一类词本身已含比较义，因此不接 than，也不受 more 修饰。要表示程度差别，用 far、much、slightly 等程度副词。",
+            "bullets": [
+              "superior to / inferior to / senior to / junior to / prior to",
+              "This engine is far superior to the one we used before.",
+              "× superior than；× more superior",
+              "He is three years senior to me.（表年龄差用 senior to）"
+            ]
+          },
+          {
+            "h": "different 的介词选择",
+            "p": "different from 是书面语首选，different to 是英式口语变体，different than 多见于美式且后面常接从句。三种都真实存在，但考试改错以 from 为准。",
+            "bullets": [
+              "My answer is different from yours.（书面首选）",
+              "different to 在英式口语中可接受",
+              "different than 后常接从句：The result was different than we expected.",
+              "× different with：英语中不存在这一搭配"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "This engine is far superior to the one we used before.", "zh": "这台发动机比我们以前用的那台好得多。", "ok": true, "note": "superior 是拉丁比较级，配 to，程度用 far 修饰。" },
+          { "en": "This engine is far superior than the one we used before.", "zh": "这台发动机比我们以前用的那台好得多。", "ok": false, "note": "superior 已含比较义，固定搭配 to，不能换成 than。" },
+          { "en": "My answer is different from yours.", "zh": "我的答案和你的不同。", "ok": true, "note": "different 的书面固定搭配是 from。" },
+          { "en": "My answer is different with yours.", "zh": "我的答案和你的不同。", "ok": false, "note": "different 不与 with 搭配，应改为 different from。" },
+          { "en": "Her reaction was exactly the same as mine.", "zh": "她的反应和我的一模一样。", "ok": true, "note": "the same 配 as，exactly 修饰相同的程度。" },
+          { "en": "He is three years senior to me.", "zh": "他比我大三岁。", "ok": true, "note": "senior 属拉丁比较级，表年龄差用 senior to，不用 older than。" },
+          { "en": "This method is more superior to the old one.", "zh": "这种方法比旧方法更优越。", "ok": false, "note": "superior 已含比较义，不能再加 more，去掉 more 即可。" }
+        ],
+        "pitfalls": [
+          { "wrong": "This cloth is more superior to that one in quality.", "right": "This cloth is superior to that one in quality.", "why": "拉丁比较级本身已含“更”的意思，叠加 more 属双重比较，去掉 more 即可。" },
+          { "wrong": "His view is different than mine.", "right": "His view is different from mine.", "why": "than 只服务于比较级；different 的书面固定介词是 from，不接 than。" },
+          { "wrong": "She is the same age with me.", "right": "She is the same age as me.", "why": "the same 的固定搭配是 as，with 不表示同级相同。" }
+        ],
+        "contrast": { "withTitle": "比较级与最高级的构成", "diff": "普通形容词靠 -er/more 构成比较级并接 than；拉丁比较级词形固定、不接 than，只接 to，也不受 more 修饰。" },
+        "mnemonic": "same 配 as，different 配 from，-ior 一族只认 to。"
+      },
+      "review": {
+        "core": [
+          "the same as 同类相同；the same ... that 同一个",
+          "different from 书面首选，different to 英式口语",
+          "superior/inferior/senior/junior/prior + to",
+          "拉丁比较级不加 than，也不加 more",
+          "程度修饰用 far/much/slightly，不用 more"
+        ],
+        "trigger": "看到 same/different/-ior 形容词 → 先想固定介词，再想能不能接 than",
+        "quickCheck": [
+          { "q": "superior 后面接 than 还是 to？", "a": "to。" },
+          { "q": "different 的书面固定搭配？", "a": "different from。" },
+          { "q": "“他比我大两岁”用 senior 怎么说？", "a": "He is two years senior to me。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.comparison.fixed-comparatives.d1",
+          "type": "choice",
+          "stem": "Her reaction was exactly the same ___ mine.",
+          "options": ["as", "like", "with", "to"],
+          "answer": "as",
+          "explain": "the same 的固定搭配是 as，构成 the same as，表示两者完全相同。",
+          "trap": "like 是介词，表“像”，不能与 the same 构成同级相同的固定结构。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.fixed-comparatives.d2",
+          "type": "fill",
+          "stem": "This coffee is quite different ___ the one we had yesterday.",
+          "answer": "from",
+          "accept": ["from", "to"],
+          "hint": "书面语首选 from。",
+          "explain": "different 的固定介词是 from，英式口语中也可用 to；with 不是可选搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.fixed-comparatives.d3",
+          "type": "correct",
+          "stem": "This method is more superior to the old one.",
+          "answer": "This method is superior to the old one.",
+          "accept": ["This method is superior to the old one."],
+          "explain": "superior 本身已含比较义，不能再受 more 修饰，否则构成双重比较。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.comparison.fixed-comparatives.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["These", "goods", "are", "superior", "to", "those", "we", "bought", "last", "year."],
+          "answer": "These goods are superior to those we bought last year.",
+          "explain": "superior 固定接 to；those 替代 goods，保持比较对象对称。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.comparison.fixed-comparatives.d5",
+          "type": "translate",
+          "stem": "我的意见和你的不同。",
+          "answer": "My opinion is different from yours.",
+          "require": [["different from", "different to"]],
+          "forbid": ["different with"],
+          "explain": "different 的书面固定搭配是 from，yours 替代 your opinion，避免重复。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.fixed-comparatives.d6",
+          "type": "choice",
+          "stem": "He is three years senior ___ me, though he looks younger.",
+          "options": ["than", "to", "from", "over"],
+          "answer": "to",
+          "explain": "senior 是拉丁比较级，固定搭配 to；表年龄差时前置 three years 即可，不需要 than。",
+          "trap": "than 是普通比较级的搭配，senior 这类 -ior 结尾的词一律不接 than。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.comparison.more-than",
+      "title": "more than / no more than / not more than",
+      "brief": "一个说多，一个说少，一个只说上限",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["morph.adj_adv.comparative-modifiers", "syntax.negation.position-partial"],
+      "concept": {
+        "summary": "判定标准：三者的差别在“否定的对象”不同。more than 表多于；no more than 否定数量并强调少，意思是“只有”；not more than 只陈述客观上限，意思是“不多于”。修饰形容词时，no more ... than 表示“两者同样不”，not more ... than 表示“前者不如后者”。",
+        "sections": [
+          {
+            "h": "数量用法：多、只有、上限",
+            "p": "这一组只在名词或数词前使用，语义差别来自 no 与 not 的作用范围：no 否定整个数量，not 只否定“超过”这一部分。",
+            "bullets": [
+              "more than 30 = 三十多个（多于三十）",
+              "no more than 30 = 只有三十个（强调少）",
+              "not more than 30 = 不超过三十个（客观上限，不带感情）",
+              "no less than 30 = 多达三十个（强调多）；not less than 30 = 不少于三十个"
+            ]
+          },
+          {
+            "h": "程度用法：两者同样不 vs 前者不如",
+            "p": "修饰形容词时，no more ... than 是把两个主语一起否定，not more ... than 才是程度上的比较。这是本章最易错的一组，判断依据是句子后半能否译成“两者都不”。",
+            "bullets": [
+              "He is no more careful than his brother.（两人都不细心）",
+              "He is not more careful than his brother.（他不如哥哥细心，哥哥可能细心）",
+              "no more ... than = not ... any more than",
+              "类似结构：no better than = 和…一样不好"
+            ]
+          },
+          {
+            "h": "more than 的非比较义",
+            "p": "more than 还可表示“不止是、非常”，此时不构成比较，也不能换成 no more than。识别方法是看后面接的是数量还是名词性质。",
+            "bullets": [
+              "He is more than a teacher to us.（不止是老师）",
+              "I am more than happy to help.（非常乐意）",
+              "more than once（不止一次）",
+              "no more than a teacher = 只不过是个老师（贬低）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "There were no more than thirty people at the meeting, so the hall felt empty.", "zh": "会上只有三十个人，所以大厅显得空。", "ok": true, "note": "no more than 强调数量少，与“显得空”一致。" },
+          { "en": "There were no more thirty people at the meeting.", "zh": "会上只有三十个人。", "ok": false, "note": "no more than 是固定结构，than 不能省略。" },
+          { "en": "He is no more careful than his brother; both of them make silly mistakes.", "zh": "他并不比他哥哥细心，两人都犯低级错误。", "ok": true, "note": "no more ... than 表示两者同样不细心。" },
+          { "en": "He is not more careful than his brother, but he is certainly more patient.", "zh": "他不如哥哥细心，但确实更有耐心。", "ok": true, "note": "not more ... than 是程度比较，表示前者不如后者。" },
+          { "en": "I am more than happy to help you with the project.", "zh": "我非常乐意帮你做这个项目。", "ok": true, "note": "more than + 形容词表示“非常”，不构成比较。" },
+          { "en": "No less than fifty students attended the lecture.", "zh": "多达五十名学生听了讲座。", "ok": true, "note": "no less than 强调数量多，与 no more than 的“少”相反。" },
+          { "en": "No more than fifty students attended the lecture, which shows how popular it was.", "zh": "只有五十名学生听了讲座，这说明讲座很受欢迎。", "ok": false, "note": "no more than 强调“只有、少”，与“很受欢迎”矛盾；强调多须换成 no less than。" },
+          { "en": "The project took not more than three weeks.", "zh": "这个项目用了不超过三周时间。", "ok": true, "note": "not more than 只陈述上限，不含“只有”的强调。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is not more careful than his brother; neither of them is careful.", "right": "He is no more careful than his brother; neither of them is careful.", "why": "not more ... than 只表示程度较低，推不出“两人都不”；要表达两者同样不，须用 no more ... than。" },
+          { "wrong": "He earned no more than 3000 yuan a month and was proud of the high pay.", "right": "He earned no more than 3000 yuan a month and complained about the low pay.", "why": "no more than 强调“少”，与“为高薪自豪”自相矛盾；强调多要用 no less than。" },
+          { "wrong": "He is no more than a teacher to us; we all respect him deeply.", "right": "He is more than a teacher to us; we all respect him deeply.", "why": "no more than a teacher 意为“只不过是个老师”，带贬低意味，与“深受尊敬”冲突。" }
+        ],
+        "contrast": { "withTitle": "比较级表最高级", "diff": "比较级表最高级靠排除主语实现“最”；no more than 靠否定数量实现“只有”，两者都含否定义但作用对象不同。" },
+        "mnemonic": "no 否数量（只有），not 否超过（不超过）；no more 两头都不，not more 前者不如。"
+      },
+      "review": {
+        "core": [
+          "more than 30 = 多于三十",
+          "no more than 30 = 只有三十（强调少）",
+          "not more than 30 = 不超过三十（客观上限）",
+          "no more ... than = 两者同样不；not more ... than = 前者不如后者",
+          "no less than 强调多；more than + 形容词 = 非常"
+        ],
+        "trigger": "看到 no/not + more than → 先问否定的是数量还是“超过” → 再定译文",
+        "quickCheck": [
+          { "q": "no more than 与 not more than 的差别？", "a": "前者强调“只有”，后者只表“不超过”。" },
+          { "q": "He is no more careful than his brother 是什么意思？", "a": "他和他哥哥一样不细心。" },
+          { "q": "“非常乐意”用 more than 怎么说？", "a": "more than happy to do sth。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.comparison.more-than.d1",
+          "type": "choice",
+          "stem": "There were ___ thirty people at the meeting, so the hall felt empty.",
+          "options": ["no more than", "not more than", "more than", "no less than"],
+          "answer": "no more than",
+          "explain": "后半句“大厅显得空”说明说话人强调人少，no more than 正是“只有”的意思。",
+          "trap": "not more than 只陈述上限，不含“少得可怜”的强调，无法解释“显得空”的评价。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.comparison.more-than.d2",
+          "type": "fill",
+          "stem": "He is ___ more careful than his brother; both of them are careless.",
+          "answer": "no",
+          "accept": ["no"],
+          "hint": "后半句说两人都粗心，说明前半句是否定两个人。",
+          "explain": "no more ... than 表示两者同样不，与“两人都粗心”一致；not more 只能表示前者不如后者。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.comparison.more-than.d3",
+          "type": "correct",
+          "stem": "He is not more careful than his brother; neither of them checks the data.",
+          "answer": "He is no more careful than his brother; neither of them checks the data.",
+          "accept": ["He is no more careful than his brother; neither of them checks the data."],
+          "explain": "neither of them 说明两人都不细心，须用 no more ... than 表示两者同样不。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.comparison.more-than.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "project", "took", "no", "more", "than", "three", "weeks."],
+          "answer": "The project took no more than three weeks.",
+          "explain": "no more than + 数词表示“只有”，强调用时少。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.more-than.d5",
+          "type": "translate",
+          "stem": "他并不比我细心。",
+          "answer": "He is no more careful than I am.",
+          "require": [["no more careful than"]],
+          "forbid": ["not more careful than"],
+          "explain": "句意是“两人都不细心”，须用 no more ... than；not more ... than 会变成“他不如我细心”。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.comparison.more-than.d6",
+          "type": "choice",
+          "stem": "I am ___ happy to help you with the project.",
+          "options": ["more than", "no more than", "not more than", "more"],
+          "answer": "more than",
+          "explain": "more than + 形容词表示“非常”，是固定用法，不构成比较。",
+          "trap": "no more than happy 意为“并不比…更高兴”，与“非常乐意”的语义完全相反。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "special.comparison.multiples",
+      "title": "倍数的三种表达",
+      "brief": "三个公式各有槽位，as、of、than 不能混搭",
+      "difficulty": 4,
+      "tags": ["高频", "难点"],
+      "prereq": ["morph.numerals.multiples", "morph.adj_adv.as-as"],
+      "concept": {
+        "summary": "判定标准：倍数由“倍数词 + 比较结构”构成，三种写法语义相同——倍数 + as + 形容词原级 + as、倍数 + the size/length/weight of、倍数 + 比较级 + than。每个公式的槽位固定：as 必须成对、the size 后接 of、比较级后接 than，混搭即错。",
+        "sections": [
+          {
+            "h": "三个公式",
+            "p": "倍数词放在最前面，后面接哪一种结构都可以，语义基本一致。倍数词包括 twice、three times、four times，以及 half、one third 等分数。",
+            "bullets": [
+              "A is three times as large as B.（A 是 B 的三倍大）",
+              "A is three times the size of B.（A 的大小是 B 的三倍）",
+              "A is three times larger than B.（严格解读为“大四倍”，考试多按“是三倍”处理）",
+              "A is twice as heavy as B. / A is twice the weight of B."
+            ]
+          },
+          {
+            "h": "槽位不能混搭",
+            "p": "三种公式内部各自闭合，不能把一种公式的头接到另一种公式的尾上。改错题常在此处设错，判断办法是数“连接词”的个数。",
+            "bullets": [
+              "× three times as larger as：as 后必须用原级 large",
+              "× three times the size as B：the size 后必须接 of",
+              "× three times more as B：比较级 more 后必须接 than",
+              "√ three times as large as / three times the size of / three times larger than"
+            ]
+          },
+          {
+            "h": "倍数句同样要求对象对称",
+            "p": "倍数只是把差距量化，比较对象仍须同类。前项是“某地的人口”，后项也要是人口，不能直接接国家名。",
+            "bullets": [
+              "The population of China is about four times that of the United States.",
+              "× The population of China is four times as large as the United States.",
+              "The output of this factory is now three times that of 2010.",
+              "倍数 + that of 是把 the size of 公式与替代词结合的最简写法"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "This room is three times as large as that one.", "zh": "这个房间是那个房间的三倍大。", "ok": true, "note": "times as + 原级 + as，三个槽位齐全。" },
+          { "en": "This room is three times as larger as that one.", "zh": "这个房间是那个房间的三倍大。", "ok": false, "note": "as...as 中间必须用形容词原级，larger 是比较级，应改为 large。" },
+          { "en": "The new bridge is twice the length of the old one.", "zh": "新桥的长度是旧桥的两倍。", "ok": true, "note": "倍数 + the length of，length 是表维度的名词。" },
+          { "en": "The new bridge is twice the length as the old one.", "zh": "新桥的长度是旧桥的两倍。", "ok": false, "note": "the length 后必须接 of，不能接 as。" },
+          { "en": "This box is three times heavier than that one.", "zh": "这个箱子比那个箱子重三倍。", "ok": true, "note": "倍数 + 比较级 + than，是三种公式之一。" },
+          { "en": "The population of China is about four times that of the United States.", "zh": "中国的人口大约是美国的四倍。", "ok": true, "note": "倍数 + that of，that 替代 the population，比较对象对称。" },
+          { "en": "The output of this factory is now three times that of 2010.", "zh": "这家工厂现在的产量是 2010 年的三倍。", "ok": true, "note": "that 替代 the output，避免产量与年份相比。" }
+        ],
+        "pitfalls": [
+          { "wrong": "This box is three times as heavier as that one.", "right": "This box is three times as heavy as that one.", "why": "as...as 之间只能用原级，heavier 是比较级，与 as 的槽位冲突。" },
+          { "wrong": "The population of China is four times as large as the United States.", "right": "The population of China is four times that of the United States.", "why": "人口不能与国家的面积或整体相比，须用 that of 补出 the population。" },
+          { "wrong": "The hall is twice the size as the classroom.", "right": "The hall is twice the size of the classroom.", "why": "the size 属名词短语结构，后面固定接 of，不能接 as。" }
+        ],
+        "contrast": { "withTitle": "倍数表达法", "diff": "该知识点处理倍数词本身的构成（twice、three times、分数）；本知识点处理倍数与比较结构如何拼接，重点在槽位不能混搭。" },
+        "mnemonic": "as 要成对，of 跟 size，than 跟比较级；倍数放最前，槽位不串门。"
+      },
+      "review": {
+        "core": [
+          "倍数 + as + 原级 + as",
+          "倍数 + the size/length/weight/height + of",
+          "倍数 + 比较级 + than",
+          "as 后必须原级，the size 后必须 of，比较级后必须 than",
+          "倍数句仍需对象对称：four times that of the US"
+        ],
+        "trigger": "看到 times + 形容词 → 先确认走的是 as...as、the size of 还是比较级 than",
+        "quickCheck": [
+          { "q": "“三倍大”的三种写法？", "a": "three times as large as / three times the size of / three times larger than。" },
+          { "q": "three times as larger as 错在哪？", "a": "as 后必须用原级 large。" },
+          { "q": "“中国人口是美国的四倍”怎么说？", "a": "The population of China is four times that of the United States。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.comparison.multiples.d1",
+          "type": "choice",
+          "stem": "This room is three times ___ that one.",
+          "options": ["as large as", "larger as", "as larger as", "the size as"],
+          "answer": "as large as",
+          "explain": "times as + 形容词原级 + as 是同级比较的倍数公式，as 必须成对出现。",
+          "trap": "as larger as 把比较级塞进 as...as 的槽位，原级位置只能放 large。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.multiples.d2",
+          "type": "fill",
+          "stem": "The new bridge is twice ___ length of the old one.",
+          "answer": "the",
+          "accept": ["the"],
+          "hint": "倍数 + ___ + 维度名词 + of。",
+          "explain": "the length of 是固定名词短语结构，表维度时必须带定冠词 the。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.multiples.d3",
+          "type": "correct",
+          "stem": "This box is three times as heavier as that one.",
+          "answer": "This box is three times as heavy as that one.",
+          "accept": ["This box is three times as heavy as that one."],
+          "explain": "as...as 之间只能放形容词原级，heavier 是比较级，须改为 heavy。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.comparison.multiples.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "population", "of", "China", "is", "about", "four", "times", "that", "of", "the", "United", "States."],
+          "answer": "The population of China is about four times that of the United States.",
+          "explain": "倍数 four times 后接 that of，that 替代 the population，使比较对象保持对称。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.comparison.multiples.d5",
+          "type": "translate",
+          "stem": "这台机器的重量是那台的三倍。",
+          "answer": "This machine is three times as heavy as that one.",
+          "require": [["three times as heavy as", "three times the weight of"]],
+          "forbid": ["three times heavier as", "three times as heavier as"],
+          "explain": "三种公式任选其一，但槽位必须闭合：as...as 用原级，the weight 后接 of。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.comparison.multiples.d6",
+          "type": "choice",
+          "stem": "The output of this factory is now ___ of 2010.",
+          "options": ["three times that", "three times those", "as three times", "three times"],
+          "answer": "three times that",
+          "explain": "output 是不可数名词，用 that 替代，构成 three times that of 2010，表示产量是 2010 年的三倍。",
+          "trap": "three times those 用复数替代词，与不可数的 output 不一致。",
+          "difficulty": 4
+        }
+      ]
+    }
+  ]
+}

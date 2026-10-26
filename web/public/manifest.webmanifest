@@ -1,0 +1,24 @@
+{
+  "name": "英语语法全景",
+  "short_name": "语法全景",
+  "description": "词法 · 句法 · 时态语态 · 特殊句式，278 个知识点的讲解、训练与记忆曲线复习",
+  "lang": "zh-CN",
+  "start_url": "/#/today",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "portrait-primary",
+  "background_color": "#0d1016",
+  "theme_color": "#0d1016",
+  "categories": ["education", "productivity"],
+  "icons": [
+    { "src": "/icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "/icons/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "开始复习", "url": "/#/today", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "错题本", "url": "/#/errors", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "成长拓扑", "url": "/#/topology", "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}

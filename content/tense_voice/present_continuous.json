@@ -1,0 +1,405 @@
+{
+  "level1": "tense_voice",
+  "chapter": "present_continuous",
+  "items": [
+    {
+      "id": "tense_voice.present_continuous.core-meaning",
+      "title": "现在进行时的核心意义",
+      "brief": "be + 分词，动作在说话这一刻正在进行",
+      "difficulty": 1,
+      "tags": ["基础", "高频"],
+      "prereq": ["tense_voice.present_simple.core-meaning"],
+      "concept": {
+        "summary": "现在进行时由 be + 现在分词构成，表示动作在说话这一刻正在进行，或现阶段暂时持续。它的参照点就是“现在”，动作有起点、有延续、未必结束。判定信号是 now、at the moment、Look!、Listen! 或眼前正在发生的场景；与一般现在时的分界是“临时”与“一贯”：进行时只借一段时间，一般现在时说的是长期如此。",
+        "sections": [
+          {
+            "h": "两种现在：此刻与现阶段",
+            "p": "进行时可以只覆盖说话这一秒，也可以覆盖一段暂时性的日子。两种用法都强调“暂时”，与长期习惯相对。",
+            "bullets": [
+              "此刻正在：She is talking on the phone.",
+              "现阶段暂时：I'm staying with my aunt this week.",
+              "阶段性的反复：He is taking the bus to work while his car is being repaired."
+            ]
+          },
+          {
+            "h": "句式：只变 be，分词不动",
+            "p": "否定在 be 后加 not，疑问把 be 提到主语前，现在分词本身不随人称变化。这三点由 be 承担全部语法信息，分词只负责词义。",
+            "bullets": [
+              "否定：She is not working today.",
+              "一般疑问：Is she working today?",
+              "特殊疑问：What are you doing?"
+            ]
+          },
+          {
+            "h": "不进进行时的动词",
+            "p": "状态动词表示持续存在的关系或心理状态，没有“正在进行”的阶段，因此不用进行时。have 是两栖动词：表拥有时是状态，表吃、度过时是动作。",
+            "bullets": [
+              "心理状态：know, believe, understand, remember, prefer",
+              "所属与构成：belong, own, contain, consist of",
+              "感官与判断：seem, sound, taste（尝起来）, look（看起来）",
+              "have 两栖：She has a car.（拥有） / She is having lunch.（正在吃）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Look! The children are playing football in the yard.", "zh": "看！孩子们正在院子里踢足球。", "ok": true, "note": "Look! 把观察点定在此刻，用现在进行时。" },
+          { "en": "Listen! Someone is knocking at the door.", "zh": "听！有人在敲门。", "ok": true, "note": "Listen! 提示声音正在发生，谓语用进行时。" },
+          { "en": "I am staying with my aunt this week.", "zh": "这周我住在姑姑家。", "ok": true, "note": "this week 表示暂时状态，用进行时区别于长期居住。" },
+          { "en": "I am knowing the answer.", "zh": "我知道答案。", "ok": false, "note": "know 是状态动词，没有进行阶段，应改为 I know the answer." },
+          { "en": "She is belonging to the tennis club.", "zh": "她是网球俱乐部的成员。", "ok": false, "note": "belong 表所属关系，属状态，应改为 She belongs to the tennis club." },
+          { "en": "He is reading a novel by Mo Yan these days.", "zh": "他这些天在读莫言的一部小说。", "ok": true, "note": "these days 表示现阶段正在做的事，读的过程尚未结束。" },
+          { "en": "Water is consisting of hydrogen and oxygen.", "zh": "水由氢和氧组成。", "ok": false, "note": "consist of 表恒定构成关系，不用进行时，应改为 Water consists of..." },
+          { "en": "Is she working in the garden now?", "zh": "她现在在花园里干活吗？", "ok": true, "note": "疑问句把 be 提前，now 确认动作正在发生。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I am knowing the answer.", "right": "I know the answer.", "why": "know 表示持续的心理状态，没有起点与终点之间的过程，进行时无法承载。" },
+          { "wrong": "She is having a car.", "right": "She has a car.", "why": "have 表“拥有”时是状态；只有表示“吃、度过、进行”等动作时才可用进行时。" },
+          { "wrong": "He is belonging to the drama club.", "right": "He belongs to the drama club.", "why": "belong 描述成员关系，属状态而非动作，不能进入 be + doing 结构。" }
+        ],
+        "contrast": { "withTitle": "一般现在时的核心意义", "diff": "现在进行时只覆盖“此刻”或“这一段暂时的时间”；一般现在时陈述长期不变的习惯、状态与规律。" },
+        "mnemonic": "be 加分词，此刻正在做；状态动词不进，now 是信号。"
+      },
+      "review": {
+        "core": [
+          "结构：am/is/are + 现在分词",
+          "两个“现在”：说话这一刻；现阶段暂时（this week, these days）",
+          "信号：now、at the moment、Look!、Listen!、this week",
+          "状态动词 know/belong/contain/consist of/own/prefer 不用进行时",
+          "否定 be + not + doing；疑问把 be 提到主语前"
+        ],
+        "trigger": "看到 now、Look!、Listen! 或眼前正在发生的场景 → 用 be + 现在分词 → 再查谓语是不是状态动词",
+        "quickCheck": [
+          { "q": "“她正在打电话”怎么说？", "a": "She is talking on the phone." },
+          { "q": "I am knowing him. 错在哪里？", "a": "know 是状态动词，改为 I know him." },
+          { "q": "have 什么时候可以用进行时？", "a": "表示吃、度过等动作时，如 She is having lunch." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_continuous.core-meaning.d1",
+          "type": "choice",
+          "stem": "Listen! Someone ___ at the door.",
+          "options": ["knocked", "has knocked", "is knocking", "knocks"],
+          "answer": "is knocking",
+          "explain": "Listen! 把观察点定在此刻，动作正在发生，用现在进行时；主语 someone 为单数，be 取 is。",
+          "trap": "knocks 表经常性的动作，无法与 Listen! 所提示的眼前声音对应。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.present_continuous.core-meaning.d2",
+          "type": "fill",
+          "stem": "Don't disturb him; he ___ (prepare) for tomorrow's interview in his study.",
+          "answer": "is preparing",
+          "accept": ["is preparing", "'s preparing"],
+          "hint": "Don't disturb him 说明动作此刻正在进行。",
+          "explain": "Don't disturb him 表明动作正在此刻进行，用现在进行时；主语 he 搭配 is，prepare 直接加 -ing。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_continuous.core-meaning.d3",
+          "type": "correct",
+          "stem": "I am not believing a word of what he says.",
+          "answer": "I don't believe a word of what he says.",
+          "accept": ["I don't believe a word of what he says."],
+          "explain": "believe 表心理状态，没有“正在相信”的过程，须用一般现在时的否定形式 don't believe。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_continuous.core-meaning.d4",
+          "type": "choice",
+          "stem": "She ___ with her aunt this month while her flat is being repainted.",
+          "options": ["has stayed", "is staying", "stays", "stayed"],
+          "answer": "is staying",
+          "explain": "this month 与 while 从句说明这是暂时的居住安排，用现在进行时；主语 she 搭配 is。",
+          "trap": "stays 表长期习惯，与“房子正在粉刷”这一临时状况矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_continuous.core-meaning.d5",
+          "type": "translate",
+          "stem": "他这些天在一家书店打工。",
+          "answer": "He is working in a bookshop these days.",
+          "require": [["is working", "'s working"], ["these days"]],
+          "forbid": ["He work", "will working"],
+          "explain": "these days 指现阶段暂时的情况，用现在进行时；谓语必须是 be + 现在分词，不能只留 be 或只留原形。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_continuous.core-meaning.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "students", "are", "cleaning", "the", "classroom", "right", "now."],
+          "answer": "The students are cleaning the classroom right now.",
+          "explain": "right now 把动作锁定在此刻，用现在进行时；主语 the students 为复数，be 取 are。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.present_continuous.ing-form",
+      "title": "现在分词形式的构成规则",
+      "brief": "四类拼写变化，双写要过三道关",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["tense_voice.present_continuous.core-meaning"],
+      "concept": {
+        "summary": "现在分词由动词加 -ing 构成，拼写变化由词尾决定：一般直接加 -ing；以不发音的 e 结尾去 e 再加；重读闭音节末尾只有一个辅音字母时双写该字母；ie 结尾变 ie 为 y 再加 -ing。判断双写要同时满足三个条件：该音节重读、是闭音节、末尾只有一个辅音字母，缺一个都不双写。",
+        "sections": [
+          {
+            "h": "四条拼写规则",
+            "p": "判断顺序是先看词尾是不是 ie，再看是不是不发音的 e，最后才考虑双写。按这个顺序走，可以避开 see 与 write 这类看似相同实则不同的词。",
+            "bullets": [
+              "一般直接加：read → reading，play → playing，study → studying",
+              "不发音 e 结尾去 e：write → writing，make → making，take → taking",
+              "重读闭音节双写：run → running，sit → sitting，begin → beginning，admit → admitting",
+              "ie 变 y：lie → lying，die → dying，tie → tying"
+            ]
+          },
+          {
+            "h": "双写的三个条件",
+            "p": "三个条件必须同时成立：重音落在最后一个音节、该音节是“辅音 + 元音 + 辅音”的闭音节、末尾只有一个辅音字母。重音在前就不双写，这是 listen、visit、open 与 begin 分道的原因。",
+            "bullets": [
+              "listen → listening（重音在 lis，不双写）",
+              "visit → visiting（重音在 vis，不双写）",
+              "open → opening（重音在 o，不双写）",
+              "begin → beginning（重音在 gin，双写 n）"
+            ]
+          },
+          {
+            "h": "e 是否去掉的例外",
+            "p": "去 e 的规则只针对不发音的 e。see、agree、be 里的 e 要发音，因此保留；以 -ee 结尾的词一律不去 e。",
+            "bullets": [
+              "see → seeing；agree → agreeing；be → being",
+              "panic → panicking（先加 k 保住读音）",
+              "英式 travel → travelling，美式 travel → traveling"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She is writing a letter to her grandmother.", "zh": "她正在给祖母写信。", "ok": true, "note": "write 以不发音的 e 结尾，去 e 加 -ing 得 writing。" },
+          { "en": "She is writeing a letter to her grandmother.", "zh": "她正在给祖母写信。", "ok": false, "note": "不发音的 e 必须先去掉，应改为 writing。" },
+          { "en": "The boys are running around the playground.", "zh": "男孩们在操场上跑。", "ok": true, "note": "run 是重读闭音节且末尾只有一个辅音字母，双写 n。" },
+          { "en": "The boys are runing around the playground.", "zh": "男孩们在操场上跑。", "ok": false, "note": "run 需要双写末尾辅音，应改为 running。" },
+          { "en": "He is lying on the sofa.", "zh": "他躺在沙发上。", "ok": true, "note": "lie 以 ie 结尾，变 ie 为 y 再加 -ing 得 lying。" },
+          { "en": "He is lieing on the sofa.", "zh": "他躺在沙发上。", "ok": false, "note": "ie 结尾不能直接加 -ing，应改为 lying。" },
+          { "en": "They are visiting the museum.", "zh": "他们正在参观博物馆。", "ok": true, "note": "visit 重音在第一个音节，不满足双写条件。" },
+          { "en": "She is begining her new job today.", "zh": "她今天开始新工作。", "ok": false, "note": "begin 重音在 gin，须双写 n，应改为 beginning。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is runing in the park.", "right": "He is running in the park.", "why": "run 是重读闭音节，末尾只有一个辅音字母 n，必须双写后再加 -ing。" },
+          { "wrong": "She is makeing a cake.", "right": "She is making a cake.", "why": "make 末尾的 e 不发音，先去掉 e 再加 -ing。" },
+          { "wrong": "They are begining the meeting.", "right": "They are beginning the meeting.", "why": "begin 的重音在第二个音节 gin 上，符合双写条件，n 要重复。" }
+        ],
+        "contrast": { "withTitle": "现在进行时的核心意义", "diff": "本点只解决“分词怎么拼”，不改变句子的时间意义；什么时候该用进行时由核心意义那一条决定。" },
+        "mnemonic": "直接加 ing；不发音 e 要去掉；重读闭音节双写；ie 变 y 再收尾。"
+      },
+      "review": {
+        "core": [
+          "一般直接加 -ing：read → reading",
+          "不发音 e 结尾去 e：write → writing；see → seeing 保留",
+          "重读闭音节末尾单一辅音双写：run → running，begin → beginning",
+          "ie 结尾变 y：lie → lying，die → dying，tie → tying",
+          "双写三条件：重读 + 闭音节 + 末尾单个辅音字母"
+        ],
+        "trigger": "写分词前先看词尾 → ie 变 y → 不发音 e 去掉 → 最后判断是否双写",
+        "quickCheck": [
+          { "q": "write 的现在分词？", "a": "writing，去 e 加 ing。" },
+          { "q": "listen 的现在分词要双写吗？", "a": "不双写，listening，重音在第一个音节。" },
+          { "q": "lie 的现在分词？", "a": "lying。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_continuous.ing-form.d1",
+          "type": "choice",
+          "stem": "The children are ___ a sandcastle on the beach.",
+          "options": ["building", "builting", "buildding", "build"],
+          "answer": "building",
+          "explain": "build 的重音在第一个音节，末尾又是两个辅音字母 ld，不具备双写条件，直接加 -ing。",
+          "trap": "buildding 属过度双写，双写只发生在重读闭音节且末尾只有一个辅音字母时。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.present_continuous.ing-form.d2",
+          "type": "fill",
+          "stem": "Look! The cat ___ (lie) under the chair.",
+          "answer": "is lying",
+          "accept": ["is lying", "'s lying"],
+          "hint": "Look! 定时态，lie 的词尾决定拼写。",
+          "explain": "Look! 提示动作正在发生，用现在进行时；lie 以 ie 结尾，变 ie 为 y 再加 -ing 得 lying。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_continuous.ing-form.d3",
+          "type": "correct",
+          "stem": "He is runing to catch the last bus.",
+          "answer": "He is running to catch the last bus.",
+          "accept": ["He is running to catch the last bus."],
+          "explain": "run 是重读闭音节，末尾只有一个辅音字母 n，须双写后加 -ing。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_continuous.ing-form.d4",
+          "type": "choice",
+          "stem": "She is ___ her suitcase for the trip.",
+          "options": ["packking", "packeing", "pack", "packing"],
+          "answer": "packing",
+          "explain": "pack 是重读闭音节且末尾只有一个辅音字母 k，双写一次后加 -ing，得 packing。",
+          "trap": "packking 把同一个辅音字母写了三遍，属重复双写。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_continuous.ing-form.d5",
+          "type": "translate",
+          "stem": "他正躺在沙发上看电视。",
+          "answer": "He is lying on the sofa watching TV.",
+          "require": [["is lying", "'s lying"]],
+          "forbid": ["is lieing", "is laying"],
+          "explain": "“躺”是 lie，分词为 lying；laying 是 lay（放置）的分词，方向相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_continuous.ing-form.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["They", "are", "beginning", "to", "understand", "the", "problem."],
+          "answer": "They are beginning to understand the problem.",
+          "explain": "begin 的重音在 gin，符合重读闭音节条件，双写 n 再加 -ing 得 beginning。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.present_continuous.always",
+      "title": "进行时与 always 连用的情感色彩",
+      "brief": "always + 进行时把频率变情绪",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["tense_voice.present_continuous.core-meaning"],
+      "concept": {
+        "summary": "always 与进行时连用时，句子不再表示客观频率，而带上说话人的情绪评价，多为厌烦、责备或抱怨，也可以是赞叹。机制是进行时把反复动作描成一幕正在上演的场景，always 让这一幕不断重播，于是产生“老是……”的语感。与一般现在时 + always 的中性陈述形成对照：后者只报告频率，不带评价。",
+        "sections": [
+          {
+            "h": "抱怨与责备",
+            "p": "这类句子的语境几乎都带负面后果：事情被反复做，说话人受不了。常与 drives me crazy、gets on my nerves、I've told you 等评价性成分同现。",
+            "bullets": [
+              "He is always losing his keys.",
+              "She is always interrupting me when I speak.",
+              "You are always complaining about the food."
+            ]
+          },
+          {
+            "h": "赞叹与亲昵",
+            "p": "情绪是褒是贬由语境决定，结构完全相同。当评价性成分正面时，同一结构表达赞赏或亲切，而不是抱怨。",
+            "bullets": [
+              "She is always helping her classmates with their homework.",
+              "My little son is always smiling.",
+              "He is always thinking of others."
+            ]
+          },
+          {
+            "h": "位置与结构",
+            "p": "always 位于 be 之后、现在分词之前。进行时的谓语必须是 be + 分词，两个成分缺一不可，因此 always 不能插到主语与 be 之间，be 后也不能直接跟动词原形。",
+            "bullets": [
+              "√ He is always forgetting my name.",
+              "× He always is forgetting my name.",
+              "× He is always forget my name."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He is always losing his keys.", "zh": "他老是丢钥匙。", "ok": true, "note": "always + 进行时把反复丢钥匙描成一幕重播的场景，带责备语气。" },
+          { "en": "He always loses his keys.", "zh": "他总是丢钥匙。", "ok": true, "note": "一般现在时 + always 只报告频率，语气中性。" },
+          { "en": "She is always helping her classmates with their homework.", "zh": "她总是帮同学做作业。", "ok": true, "note": "同一结构在正面语境中表达赞赏。" },
+          { "en": "He always is losing his keys.", "zh": "他老是丢钥匙。", "ok": false, "note": "always 应位于 be 之后，改为 He is always losing his keys." },
+          { "en": "He is always lose his keys.", "zh": "他老是丢钥匙。", "ok": false, "note": "be 后必须接现在分词，改为 losing。" },
+          { "en": "You are always complaining about the food.", "zh": "你老是抱怨饭菜。", "ok": true, "note": "抱怨类语境，always + 进行时表达说话人的不满。" },
+          { "en": "They are always talking in class, which annoys the teacher.", "zh": "他们上课老讲话，这让老师很烦。", "ok": true, "note": "后置定语从句点明负面后果，与进行时的情绪色彩一致。" },
+          { "en": "My neighbour is always play loud music at night.", "zh": "我邻居晚上老是大声放音乐。", "ok": false, "note": "be 后不能接动词原形，应改为 playing。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He always is forgetting my name.", "right": "He is always forgetting my name.", "why": "always 的位置在 be 之后、分词之前，插在主语与 be 之间会切断 be + 分词的连续结构。" },
+          { "wrong": "She is always help others.", "right": "She is always helping others.", "why": "进行时的谓语由 be + 现在分词共同构成，缺分词就没有主要动词。" },
+          { "wrong": "He always loses his keys, and it drives me crazy.", "right": "He is always losing his keys, and it drives me crazy.", "why": "后半句的 drives me crazy 表明说话人带不满，需用 always + 进行时把反复动作写成重播的一幕。" }
+        ],
+        "contrast": { "withTitle": "现在进行时的核心意义", "diff": "常规进行时描写一次正在发生的动作；always 与进行时连用把反复动作打包成一幕，并附上说话人的评价。" },
+        "mnemonic": "always 进进行时，频率变情绪；always 放 be 后，分词不能丢。"
+      },
+      "review": {
+        "core": [
+          "always + 进行时 = 反复动作 + 说话人情绪（抱怨、责备、赞叹）",
+          "一般现在时 + always = 中性频率陈述，不带评价",
+          "位置：主语 + be + always + 现在分词",
+          "常见情绪触发语：drives me crazy、gets on my nerves、I've told you",
+          "结构不能省 be，也不能省分词"
+        ],
+        "trigger": "看到 always 与 now/these days 混搭，或句子后半带评价性后果 → 用 be + always + doing",
+        "quickCheck": [
+          { "q": "He is always losing his keys. 与 He always loses his keys. 有何区别？", "a": "前者带责备语气，后者只是中性报告频率。" },
+          { "q": "always 在句中的位置？", "a": "be 之后、现在分词之前。" },
+          { "q": "He is always forget my name. 错在哪里？", "a": "be 后须接现在分词，改为 forgetting。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_continuous.always.d1",
+          "type": "choice",
+          "stem": "She ___ the same question in every class, which drives the teacher crazy.",
+          "options": ["is always ask", "always is asking", "is always asking", "always asks"],
+          "answer": "is always asking",
+          "explain": "后半句 which drives the teacher crazy 表明说话人带不满，需用 always + 进行时把反复提问写成重播的一幕。",
+          "trap": "always asks 只报告频率，与后面的负面评价不匹配；always is asking 语序错误。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_continuous.always.d2",
+          "type": "fill",
+          "stem": "He ___ (always, leave) his dirty dishes in the sink; it really annoys me.",
+          "answer": "is always leaving",
+          "accept": ["is always leaving", "'s always leaving"],
+          "hint": "it really annoys me 透露了说话人的态度。",
+          "explain": "it really annoys me 表明说话人在抱怨，用 always + 进行时；always 插在 is 与 leaving 之间。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_continuous.always.d3",
+          "type": "correct",
+          "stem": "My neighbour always is playing loud music late at night.",
+          "answer": "My neighbour is always playing loud music late at night.",
+          "accept": ["My neighbour is always playing loud music late at night."],
+          "explain": "always 应放在 be 之后、现在分词之前，保持 be + 分词的连续结构。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_continuous.always.d4",
+          "type": "choice",
+          "stem": "Tom ___ up at six every morning; it is a habit he never breaks.",
+          "options": ["get", "gets", "is always getting", "is getting"],
+          "answer": "gets",
+          "explain": "后半句说明这是从不打破的固定习惯，属中性陈述，用一般现在时；主语 Tom 为三单，get 加 -s。",
+          "trap": "is always getting 带说话人的评价色彩，与“固定习惯”这种客观描述不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_continuous.always.d5",
+          "type": "translate",
+          "stem": "他老是打断别人说话，这很没礼貌。",
+          "answer": "He is always interrupting others, which is very rude.",
+          "require": [["is always interrupting", "'s always interrupting"]],
+          "forbid": ["always interrupts", "is always interrupt others"],
+          "explain": "“老是”加上“很没礼貌”的评价，需用 always + 进行时；谓语须完整写成 is always interrupting。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_continuous.always.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "is", "always", "complaining", "about", "the", "food."],
+          "answer": "She is always complaining about the food.",
+          "explain": "always 位于 is 与 complaining 之间，构成 be + always + doing，表达说话人的不满。",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

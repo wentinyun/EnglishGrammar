@@ -1,0 +1,404 @@
+{
+  "level1": "special",
+  "chapter": "exclamation",
+  "items": [
+    {
+      "id": "special.exclamation.what-how",
+      "title": "what 与 how 引导的感叹句",
+      "brief": "看被强调的中心词是名词还是形副",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["morph.articles.a-an-sound"],
+      "concept": {
+        "summary": "what 与 how 的分工由被强调的中心词决定：中心词是名词短语时用 what，中心词是形容词或副词时用 how。判定动作是「把感叹部分删掉，看剩下的是什么词性」——剩下名词用 what，剩下形容词或副词用 how。",
+        "sections": [
+          {
+            "h": "两条判定标准与固定语序",
+            "p": "what 后面必然跟名词短语，结构是 What + (a/an) + 形容词 + 名词 + 主谓；how 后面必然跟形容词或副词，结构是 How + 形容词/副词 + 主谓。名词是否可数决定要不要 a/an，与 what 本身无关。",
+            "bullets": [
+              "What a clever boy he is!（中心词 boy，可数单数，加 a）",
+              "What beautiful flowers they are!（中心词 flowers，复数，不加 a）",
+              "What terrible weather we are having!（中心词 weather，不可数，不加 a）",
+              "How clever the boy is! / How fast he runs!"
+            ]
+          },
+          {
+            "h": "省略与固定表达",
+            "p": "口语中主语和谓语常省略，只留感叹核心。部分表达已经固定成短语，不再分析成分，直接整体记忆。",
+            "bullets": [
+              "What a pity! / What a shame! / What a surprise!",
+              "How nice! / How interesting! / How time flies!",
+              "How I wish I could go with you!（how 修饰整个句子）"
+            ]
+          },
+          {
+            "h": "最易混的一组",
+            "p": "同一个意思可以有两种感叹结构，转换时被强调的成分随之改变。判断标准不是「哪个更常见」，而是你想强调名词还是形容词。",
+            "bullets": [
+              "What a beautiful day it is! ↔ How beautiful the day is!",
+              "What delicious food it is! ↔ How delicious the food is!",
+              "不能说 × How a beautiful day，也不能说 × What beautiful the day is"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "What a wonderful performance the students gave!", "zh": "学生们奉献了一场多么精彩的演出！", "ok": true, "note": "中心词是名词 performance，可数单数，用 What a + 形容词 + 名词。" },
+          { "en": "How a wonderful performance the students gave!", "zh": "学生们奉献了一场多么精彩的演出！", "ok": false, "note": "how 不能修饰名词短语，也不能与 a/an 连用，应改为 What a wonderful performance。" },
+          { "en": "How beautiful the sunrise is over the sea!", "zh": "海上的日出多美啊！", "ok": true, "note": "中心词是形容词 beautiful，用 How + 形容词 + 主谓。" },
+          { "en": "What terrible weather we are having!", "zh": "我们遇上多糟糕的天气啊！", "ok": true, "note": "weather 不可数，What 后不加 a，直接跟形容词 + 不可数名词。" },
+          { "en": "How fast the boy runs!", "zh": "这个男孩跑得多快啊！", "ok": true, "note": "中心词是副词 fast，用 How + 副词 + 主谓。" },
+          { "en": "What a clever the boy is!", "zh": "这个男孩多聪明啊！", "ok": false, "note": "a 后必须紧跟名词，此句 a 后是形容词 clever，结构残缺，应改为 How clever the boy is!" },
+          { "en": "What beautiful flowers they are!", "zh": "这些花多美啊！", "ok": true, "note": "flowers 是复数，What 后不加 a。" }
+        ],
+        "pitfalls": [
+          { "wrong": "How a lovely dog it is!", "right": "What a lovely dog it is!", "why": "被强调的是名词 dog，必须用 what；how 只能修饰形容词或副词，不能带 a/an。" },
+          { "wrong": "What beautiful the garden is!", "right": "How beautiful the garden is!", "why": "被强调的是形容词 beautiful，没有名词中心词，必须用 how。" },
+          { "wrong": "What a bad weather it is!", "right": "What bad weather it is!", "why": "weather 是不可数名词，不能加不定冠词 a。" }
+        ],
+        "contrast": { "withTitle": "感叹句与祈使句", "diff": "感叹句用 what/how 引出并带主谓（可省略），祈使句以动词原形开头且不带主语。" },
+        "mnemonic": "删掉 what/how 看剩下什么：剩名词用 what，剩形副用 how。"
+      },
+      "review": {
+        "core": [
+          "what + 名词短语；how + 形容词/副词",
+          "What + a/an + adj + 可数单数名词 + 主谓",
+          "What + adj + 复数/不可数名词 + 主谓（不加 a）",
+          "How + adj/adv + 主谓；how 也可修饰整句",
+          "how 永不与 a/an 连用"
+        ],
+        "trigger": "看到感叹句空格 → 先看空格后是名词还是形副 → 名词用 what，形副用 how",
+        "quickCheck": [
+          { "q": "___ beautiful flowers they are! 填什么？", "a": "What，flowers 是复数名词短语。" },
+          { "q": "___ fast he runs! 填什么？", "a": "How，fast 是副词。" },
+          { "q": "weather 前能用 a 吗？", "a": "不能，weather 不可数。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.exclamation.what-how.d1",
+          "type": "choice",
+          "stem": "___ beautiful the sunrise is over the sea this morning!",
+          "options": ["What", "What a", "How", "How a"],
+          "answer": "How",
+          "explain": "空格后紧跟形容词 beautiful，被强调的是形容词而非名词，因此用 How 构成 How + 形容词 + 主谓结构。",
+          "trap": "What a 是最强干扰项，受汉语「多美的日出」影响而误以为中心词是名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.exclamation.what-how.d2",
+          "type": "fill",
+          "stem": "___ a wonderful performance the students gave last night!",
+          "answer": "What",
+          "accept": ["What"],
+          "hint": "空格后是 a + 形容词 + 名词，注意 a 的位置。",
+          "explain": "a wonderful performance 是名词短语，被强调的是名词 performance，用 What 引导。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.exclamation.what-how.d3",
+          "type": "correct",
+          "stem": "How a clever boy he is to work out the puzzle so quickly!",
+          "answer": "What a clever boy he is to work out the puzzle so quickly!",
+          "accept": ["What a clever boy he is to work out the puzzle so quickly!"],
+          "explain": "中心词是名词 boy，应使用 What a + 形容词 + 名词结构；how 不能与 a/an 连用。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.exclamation.what-how.d4",
+          "type": "choice",
+          "stem": "___ terrible weather we are having this summer!",
+          "options": ["What", "What a", "How", "How a"],
+          "answer": "What",
+          "explain": "weather 是不可数名词，What 后直接跟形容词 terrible，不能加 a；被强调的仍是名词短语。",
+          "trap": "What a 受「一场天气」的汉语直觉影响，但 weather 不可数，不能加 a。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.exclamation.what-how.d5",
+          "type": "translate",
+          "stem": "这些花多美啊！",
+          "answer": "How beautiful these flowers are!",
+          "require": [["how beautiful"], ["flowers"]],
+          "forbid": ["what beautiful", "how a beautiful"],
+          "explain": "被强调的是形容词 beautiful，用 How + 形容词 + 主谓；若强调名词也可说 What beautiful flowers these are!",
+          "difficulty": 3
+        },
+        {
+          "id": "special.exclamation.what-how.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的感叹句。",
+          "tokens": ["What", "a", "surprise", "it", "was", "to", "see", "her."],
+          "answer": "What a surprise it was to see her.",
+          "explain": "surprise 在此被具体化为「一件令人意外的事」，是可数名词，用 What a + 名词 + 主谓结构。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.exclamation.imperative",
+      "title": "祈使句的构成与委婉形式",
+      "brief": "动词原形开头，否定用 Don't",
+      "difficulty": 2,
+      "tags": ["基础", "写作"],
+      "prereq": [],
+      "concept": {
+        "summary": "祈使句以动词原形开头，主语 you 通常不出现；否定式在动词原形前加 Don't（或 Never 表强调否定）。委婉请求靠 please、would you、could you 等软化标记实现，但软化后句子仍是祈使句，动词形式不变。",
+        "sections": [
+          {
+            "h": "肯定式、否定式与强调式",
+            "p": "肯定式直接用动词原形；否定式一律用 Don't + 动词原形，即使主语是第三人称也不用 doesn't；强调式在动词前加 Do，表示「务必」。be 动词作谓语时直接用 Be。",
+            "bullets": [
+              "Close the door, please. / Be careful.",
+              "Don't be late again. / Never give up.",
+              "Do come to the party tonight.（务必来）",
+              "× Don't late；√ Don't be late（形容词前必须有 be）"
+            ]
+          },
+          {
+            "h": "委婉请求的四种软化方式",
+            "p": "委婉不是改变语气词，而是增加情态动词或 please。加入 would/could 后句子变成疑问句形式，但语义仍是请求，回答用动词原形以外的正常句。",
+            "bullets": [
+              "Please + 动词原形：Please sit down.",
+              "Would you (please) + 动词原形：Would you please sit down?",
+              "Could you + 动词原形：Could you help me with this box?",
+              "Will you + 动词原形：Will you close the window?"
+            ]
+          },
+          {
+            "h": "祈使句的附加疑问",
+            "p": "祈使句后的附加疑问固定用 will you（否定祈使句用 won't you 较少见），Let's 开头的用 shall we。这一条没有例外，属于必须记死的规则。",
+            "bullets": [
+              "Open the window, will you?",
+              "Don't make any noise, will you?",
+              "Let's take a break, shall we?（不能 will you）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Don't be afraid of making mistakes when you speak English.", "zh": "说英语时不要怕犯错。", "ok": true, "note": "否定祈使句用 Don't + be + 形容词。" },
+          { "en": "Don't afraid of making mistakes when you speak English.", "zh": "说英语时不要怕犯错。", "ok": false, "note": "afraid 是形容词，前面必须有 be 动词，应改为 Don't be afraid。" },
+          { "en": "Be careful when you cross the street.", "zh": "过马路时要小心。", "ok": true, "note": "be 动词作谓语时直接用原形 Be 开头。" },
+          { "en": "Please you close the window before you leave.", "zh": "离开前请把窗户关上。", "ok": false, "note": "祈使句不出现主语 you，please 后直接跟动词原形。" },
+          { "en": "Would you please help me carry this box upstairs?", "zh": "你能帮我把这个箱子搬到楼上吗？", "ok": true, "note": "Would you please + 动词原形，是委婉请求的固定结构。" },
+          { "en": "Let's take a short break, shall we?", "zh": "我们休息一下吧，好吗？", "ok": true, "note": "Let's 开头的祈使句附加疑问用 shall we。" },
+          { "en": "Don't make any noise in the reading room, will you?", "zh": "在阅览室不要出声，好吗？", "ok": true, "note": "否定祈使句的附加疑问仍用 will you。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Please not to touch the exhibits.", "right": "Please don't touch the exhibits.", "why": "祈使句的否定用 Don't + 动词原形，不能借用不定式的否定形式。" },
+          { "wrong": "Let's go now, will you?", "right": "Let's go now, shall we?", "why": "Let's 包含听话者，附加疑问固定用 shall we。" },
+          { "wrong": "Doesn't be late for the meeting.", "right": "Don't be late for the meeting.", "why": "祈使句没有人称变化，否定一律用 Don't，与第三人称无关。" }
+        ],
+        "contrast": { "withTitle": "反意疑问句的基本构成", "diff": "祈使句的附加疑问固定为 will you / shall we，不遵循「前肯后否」的推导规则。" },
+        "mnemonic": "祈使句无主语，动词用原形；否定加 Don't，委婉加 please/would you。"
+      },
+      "review": {
+        "core": [
+          "祈使句以动词原形开头，不出现主语 you",
+          "否定一律 Don't + 动词原形；be 动词用 Don't be",
+          "强调用 Do + 动词原形",
+          "委婉：Please / Would you please / Could you / Will you",
+          "附加疑问：祈使句 will you，Let's 用 shall we"
+        ],
+        "trigger": "看到句首是动词原形 → 判断为祈使句 → 否定加 Don't，附加疑问用 will you",
+        "quickCheck": [
+          { "q": "「别迟到」怎么说？", "a": "Don't be late.（不是 Don't late）" },
+          { "q": "Let's go, ___? 填什么？", "a": "shall we。" },
+          { "q": "祈使句能出现主语 you 吗？", "a": "一般不能，please 后直接跟动词原形。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.exclamation.imperative.d1",
+          "type": "choice",
+          "stem": "___ be afraid of making mistakes when you speak English in public.",
+          "options": ["Don't", "Not", "Doesn't", "No"],
+          "answer": "Don't",
+          "explain": "否定祈使句的固定形式是 Don't + 动词原形，不受主语人称影响，afraid 前必须有 be。",
+          "trap": "Doesn't 是受第三人称单数影响的错误形式，祈使句没有人称变化。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.exclamation.imperative.d2",
+          "type": "fill",
+          "stem": "___ careful when you cross the busy street. (be)",
+          "answer": "Be",
+          "accept": ["Be", "be"],
+          "hint": "形容词 careful 前需要系动词，这里是祈使句。",
+          "explain": "祈使句用动词原形开头，be 动词的原形是 Be，构成 Be careful。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.exclamation.imperative.d3",
+          "type": "correct",
+          "stem": "Please you close the window before you leave the office.",
+          "answer": "Please close the window before you leave the office.",
+          "accept": ["Please close the window before you leave the office."],
+          "explain": "祈使句不出现主语 you，please 后应直接跟动词原形 close。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.exclamation.imperative.d4",
+          "type": "choice",
+          "stem": "Let's take a short break before we continue, ___?",
+          "options": ["shall we", "will you", "do we", "don't we"],
+          "answer": "shall we",
+          "explain": "Let's 包含听话者，表示共同建议，附加疑问固定用 shall we。",
+          "trap": "will you 用于普通祈使句的附加疑问，不用于 Let's 结构。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.exclamation.imperative.d5",
+          "type": "translate",
+          "stem": "请不要再迟到了。",
+          "answer": "Please don't be late again.",
+          "require": [["don't be late"]],
+          "forbid": ["please not be late", "don't late"],
+          "explain": "祈使句否定用 Don't + be + 形容词；please 后直接跟否定形式，不加主语。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.exclamation.imperative.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的祈使句。",
+          "tokens": ["Don't", "forget", "to", "lock", "the", "door."],
+          "answer": "Don't forget to lock the door.",
+          "explain": "否定祈使句用 Don't + 动词原形 forget，后接不定式 to lock 作宾语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "special.exclamation.let-inversion",
+      "title": "Let 引导的祈使句与倒装祈使",
+      "brief": "let's 与 let us 的附加疑问不同",
+      "difficulty": 3,
+      "tags": ["难点", "易错"],
+      "prereq": ["special.exclamation.imperative"],
+      "concept": {
+        "summary": "Let 引导的祈使句按是否包含听话者分成两类：Let's 包含听话者，表共同建议，附加疑问用 shall we；Let us 不含听话者，表请求许可，附加疑问用 will you。倒装祈使句则以方位副词开头，主语置于动词前，用于催促或指示方向。",
+        "sections": [
+          {
+            "h": "Let's 与 Let us 的分野",
+            "p": "判断依据是听话者是否被包含在动作里。缩写的 Let's 一定包含；分开写的 Let us 在正式语境中表示「请允许我们」，听话者是审批者而不是参与者。",
+            "bullets": [
+              "Let's go now, shall we?（我们一起走，听话者同去）",
+              "Let us go now, will you?（请允许我们走，听话者是审批者）",
+              "Let me have a try, will you?（请求许可，用 will you）"
+            ]
+          },
+          {
+            "h": "Let 结构的否定与形式",
+            "p": "否定有两种：口语常用 Don't let + 宾语 + 动词原形；正式书面可用 Let + 宾语 + not + 动词原形。Let 后接动词原形，绝不能接 to do。",
+            "bullets": [
+              "Don't let the children play near the river.",
+              "Let him not go there alone.（正式）",
+              "× Let's to start；√ Let's start",
+              "× Let him to solve it；√ Let him solve it"
+            ]
+          },
+          {
+            "h": "倒装祈使句",
+            "p": "方位副词或副词性短语置于句首，主语紧跟其后，动词常省略或后置，用于催促、驱赶或指示方向。这类句子数量有限，属于固定表达。",
+            "bullets": [
+              "Off you go!（你走吧！）",
+              "Out you go!（出去！）",
+              "Away with you!（走开！）",
+              "In you come!（进来吧！）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Let's meet at the library at four, shall we?", "zh": "我们四点图书馆见，好吗？", "ok": true, "note": "Let's 包含听话者，附加疑问用 shall we。" },
+          { "en": "Let's meet at the library at four, will you?", "zh": "我们四点图书馆见，好吗？", "ok": false, "note": "Let's 的附加疑问固定为 shall we，will you 用于普通祈使句。" },
+          { "en": "Let him solve the problem by himself.", "zh": "让他自己解决这个问题。", "ok": true, "note": "Let + 宾语 + 动词原形，不加 to。" },
+          { "en": "Let him to solve the problem by himself.", "zh": "让他自己解决这个问题。", "ok": false, "note": "Let 后的宾语补足语用不带 to 的不定式，应删去 to。" },
+          { "en": "Don't let the children play near the river.", "zh": "别让孩子们在河边玩。", "ok": true, "note": "口语否定形式为 Don't let + 宾语 + 动词原形。" },
+          { "en": "Off you go, and don't come back until you calm down.", "zh": "你走吧，冷静下来再回来。", "ok": true, "note": "倒装祈使句以方位副词 Off 开头，主语 you 紧跟其后。" },
+          { "en": "Away with you!", "zh": "走开！", "ok": true, "note": "Away with + 代词是固定的倒装祈使表达，表示驱赶。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Let's to start the meeting now.", "right": "Let's start the meeting now.", "why": "Let 后的补足语用不带 to 的不定式，加 to 是受不定式规则干扰的典型错误。" },
+          { "wrong": "Let us go now, shall we?", "right": "Let us go now, will you?", "why": "分开写的 Let us 不含听话者，是请求许可，附加疑问用 will you。" },
+          { "wrong": "Not let him go alone.", "right": "Don't let him go alone.", "why": "祈使句否定用 Don't 置于句首，not 不能单独放在 let 前构成否定祈使句。" }
+        ],
+        "contrast": { "withTitle": "反意疑问句的基本构成", "diff": "Let's 的附加疑问是 shall we，这条规则优先于「前肯后否」的一般推导。" },
+        "mnemonic": "缩写含对方 shall we，分开求许可 will you；let 后原形不加 to。"
+      },
+      "review": {
+        "core": [
+          "Let's 含听话者 → 附加疑问 shall we",
+          "Let us / Let me 不含听话者 → 附加疑问 will you",
+          "Let + 宾语 + 动词原形，绝不加 to",
+          "否定：Don't let... 或 Let...not...（正式）",
+          "倒装祈使：Off you go! / Away with you! / In you come!"
+        ],
+        "trigger": "看到 Let's 就填 shall we；看到 Let us 就填 will you",
+        "quickCheck": [
+          { "q": "Let's go, ___?", "a": "shall we。" },
+          { "q": "Let us go, ___?", "a": "will you。" },
+          { "q": "Let him ___ (solve) it. 填什么？", "a": "solve，不加 to。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.exclamation.let-inversion.d1",
+          "type": "choice",
+          "stem": "Let's meet at the school gate at seven, ___?",
+          "options": ["shall we", "will you", "do we", "shan't we"],
+          "answer": "shall we",
+          "explain": "Let's 包含听话者，表示共同建议，附加疑问固定用 shall we。",
+          "trap": "will you 是普通祈使句的附加疑问，不能用于 Let's 结构。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.exclamation.let-inversion.d2",
+          "type": "fill",
+          "stem": "Let ___ solve the problem by himself; he is old enough. (he)",
+          "answer": "him",
+          "accept": ["him"],
+          "hint": "let 后接宾格代词作宾语。",
+          "explain": "Let 后接宾格代词 him 作宾语，再接不带 to 的不定式 solve 作补足语。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.exclamation.let-inversion.d3",
+          "type": "correct",
+          "stem": "Let's to start the meeting as soon as everyone arrives.",
+          "answer": "Let's start the meeting as soon as everyone arrives.",
+          "accept": ["Let's start the meeting as soon as everyone arrives."],
+          "explain": "Let 后的补足语用不带 to 的不定式，start 前不能加 to。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.exclamation.let-inversion.d4",
+          "type": "choice",
+          "stem": "___ you go, young man, and come back when you have calmed down.",
+          "options": ["Off", "Off do", "Off are", "Off with"],
+          "answer": "Off",
+          "explain": "Off you go! 是固定的倒装祈使表达，方位副词 Off 置句首，主语 you 紧跟其后，动词用原形 go。",
+          "trap": "Off with 后接名词或代词（Away with you），不能接 you go 这样的主谓结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.exclamation.let-inversion.d5",
+          "type": "translate",
+          "stem": "让他自己解决这个问题。",
+          "answer": "Let him solve the problem by himself.",
+          "require": [["let him"], ["by himself"]],
+          "forbid": ["let him to solve"],
+          "explain": "Let + 宾格 him + 动词原形 solve，by himself 表示「靠他自己」。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.exclamation.let-inversion.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Don't", "let", "the", "children", "play", "near", "the", "river."],
+          "answer": "Don't let the children play near the river.",
+          "explain": "否定祈使句用 Don't + let + 宾语 + 动词原形，play 不加 to。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

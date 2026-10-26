@@ -1,0 +1,412 @@
+{
+  "level1": "collocation",
+  "chapter": "cloze_strategy",
+  "items": [
+    {
+      "id": "collocation.cloze_strategy.prompted",
+      "title": "有提示词的填空判定路径",
+      "brief": "先数谓语，再定时态语态与非谓语形式",
+      "difficulty": 3,
+      "tags": ["高频", "难点"],
+      "prereq": ["morph.word_formation.cloze-path", "morph.verbs.four-forms"],
+      "concept": {
+        "summary": "拿到题先看空格后有没有括号：有括号走本条路径。有提示词时，第一步不是看句意，而是看括号里词的词性：给动词先数句中谓语，已有谓语填非谓语（doing/done/to do），没有谓语填谓语并定时态、语态、主谓一致；给名词判单复数、所有格或派生；给形容词或副词判比较级、最高级或派生。顺序固定，跳步最常见的后果是把非谓语填成谓语。",
+        "sections": [
+          {
+            "h": "给动词：先数谓语",
+            "p": "一个分句只能有一个谓语。句中已有谓语且没有连词引入新分句，空格处的动词只能是非谓语；若空格所在分句没有谓语，则填谓语形式。确定谓语身份后，再按时间状语定时态、按主语与动词的关系定语态、按主语单复数定一致。",
+            "bullets": [
+              "已有谓语 → 非谓语：The girl ___ (sit) by the window is my sister. → sitting",
+              "无谓语 → 谓语：She ___ (sit) by the window when I came in. → was sitting",
+              "被动关系 → done：The letter ___ (write) yesterday was sent out. → written",
+              "目的与将来 → to do：He went to the station ___ (meet) his uncle. → to meet"
+            ]
+          },
+          {
+            "h": "给名词：单复数、所有格与派生",
+            "p": "名词提示词只有三类考点：可数性决定加不加 s；有生命主体出现在另一个名词前时可能填所有格；空格需要形容词或副词时，把名词派生成相应词性。先看空格前的限定词与谓语，再决定形式。",
+            "bullets": [
+              "two ___ (box) → boxes；much ___ (information) → information",
+              "the ___ (student) books → students'（复数所有格只加撇号）",
+              "a ___ (success) attempt → successful（名词前需要形容词）",
+              "He answered the question ___ (confidence). → confidently（修饰动词用副词）"
+            ]
+          },
+          {
+            "h": "给形容词/副词：级与派生",
+            "p": "空格前有 than、much、far、even 或 the，提示比较级或最高级；空格修饰名词时可能需要形容词，修饰动词或形容词时可能需要副词；句意含否定时考虑否定前缀。比较级与派生可以叠加，先定词性再定级。",
+            "bullets": [
+              "much ___ (easy) → easier；the ___ (good) of the three → best",
+              "a ___ (care) driver → careless（否定语境）",
+              "She spoke ___ (clear) than the others. → more clearly",
+              "This is the ___ (use) method of all. → most useful"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The girl sitting by the window is my sister.", "zh": "坐在窗边的女孩是我妹妹。", "ok": true, "note": "句中已有谓语 is，sit 只能作非谓语；girl 与 sit 是主动关系，用现在分词。" },
+          { "en": "The girl sat by the window is my sister.", "zh": "坐在窗边的女孩是我妹妹。", "ok": false, "note": "一个分句出现两个谓语 sat 与 is，应把 sat 改为非谓语 sitting。" },
+          { "en": "The letter written yesterday was sent out this morning.", "zh": "昨天写好的信今天早上寄出了。", "ok": true, "note": "letter 与 write 是被动关系，用过去分词作后置定语。" },
+          { "en": "The letter writing yesterday was sent out this morning.", "zh": "昨天写好的信今天早上寄出了。", "ok": false, "note": "write 与 letter 是被动关系，须用过去分词 written。" },
+          { "en": "She has collected a large amount of information.", "zh": "她收集了大量信息。", "ok": true, "note": "information 不可数，不加 s，数量由 amount 承担。" },
+          { "en": "She has collected a large amount of informations.", "zh": "她收集了大量信息。", "ok": false, "note": "information 不可数，不能加 s。" },
+          { "en": "He answered the question confidently.", "zh": "他自信地回答了这个问题。", "ok": true, "note": "修饰动词 answered 用副词 confidently。" },
+          { "en": "He answered the question with confident.", "zh": "他自信地回答了这个问题。", "ok": false, "note": "confident 是形容词，介词 with 后应接名词 confidence。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The man stood at the gate is our coach.", "right": "The man standing at the gate is our coach.", "why": "句中已有谓语 is，stand 必须降为非谓语；man 与 stand 是主动关系，用现在分词。" },
+          { "wrong": "The books writing by Lu Xun are popular.", "right": "The books written by Lu Xun are popular.", "why": "books 与 write 是被动关系，非谓语必须用过去分词。" },
+          { "wrong": "He spoke to us very confident.", "right": "He spoke to us very confidently.", "why": "修饰动词 spoke 须用副词，confident 是形容词，不能充当状语。" }
+        ],
+        "contrast": { "withTitle": "无提示词的填空判定路径", "diff": "有提示词时形式由提示词的词性与句法角色决定；无提示词时先靠空格位置猜词性，再从冠词、介词、连词等封闭词类中选词。" },
+        "mnemonic": "先数谓语再定形式：有谓语填非谓语，没谓语填谓语；名词看数和格，形容词副词看级和派生。"
+      },
+      "review": {
+        "core": [
+          "给动词：数句中谓语，已有谓语填非谓语，没有谓语填谓语",
+          "非谓语三选一：主动 doing、被动 done、目的或将来 to do",
+          "谓语三查：时态、语态、主谓一致",
+          "给名词：可数性定单复数，另一名词前可能填所有格",
+          "空格需要形容词或副词时用派生，修饰动词用副词",
+          "than、much、the 是比较级与最高级的信号"
+        ],
+        "trigger": "看到括号里的提示词 → 先判词性 → 再数谓语 → 最后定时态语态或非谓语形式",
+        "quickCheck": [
+          { "q": "句中已有谓语，括号里的动词填什么？", "a": "填非谓语：doing、done 或 to do。" },
+          { "q": "修饰动词用形容词还是副词？", "a": "用副词。" },
+          { "q": "much 出现在空格前通常提示什么？", "a": "比较级。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.cloze_strategy.prompted.d1",
+          "type": "choice",
+          "stem": "The bridge ___ in 1998 is still in good condition.",
+          "options": ["built", "building", "to build", "builds"],
+          "answer": "built",
+          "explain": "句中已有谓语 is，空格处只能填非谓语；bridge 与 build 是被动关系，用过去分词 built。",
+          "trap": "building 表示主动进行，但桥是被建造的对象，逻辑关系不成立。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.cloze_strategy.prompted.d2",
+          "type": "fill",
+          "stem": "___ (walk) along the river, she met an old friend.",
+          "answer": "Walking",
+          "accept": ["Walking", "walking"],
+          "hint": "句首非谓语，与主语 she 是主动关系。",
+          "explain": "句子已有谓语 met，句首的 walk 作状语，she 与 walk 是主动关系，用现在分词 Walking。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.cloze_strategy.prompted.d3",
+          "type": "correct",
+          "stem": "The man stood at the gate is our new coach.",
+          "answer": "The man standing at the gate is our new coach.",
+          "accept": ["The man standing at the gate is our new coach."],
+          "explain": "句中已有谓语 is，stood 必须改为非谓语；man 与 stand 是主动关系，用现在分词 standing。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.cloze_strategy.prompted.d4",
+          "type": "fill",
+          "stem": "She has collected a large amount of ___ (information) about the case.",
+          "answer": "information",
+          "accept": ["information"],
+          "hint": "information 可数吗？",
+          "explain": "information 是不可数名词，没有复数形式，括号里的原形直接填入。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.cloze_strategy.prompted.d5",
+          "type": "choice",
+          "stem": "The professor spoke ___ than any other speaker at the conference.",
+          "options": ["more clearly", "most clearly", "clearer", "clear"],
+          "answer": "more clearly",
+          "explain": "than 要求比较级，spoke 是动词，修饰动词须用副词比较级 more clearly。",
+          "trap": "clearer 是形容词比较级，不能修饰动词 spoke；most clearly 是最高级，与 than 冲突。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.cloze_strategy.prompted.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "letter", "written", "yesterday", "was", "sent", "out", "this", "morning."],
+          "answer": "The letter written yesterday was sent out this morning.",
+          "explain": "written yesterday 是过去分词短语作后置定语，was sent out 是谓语，主句结构完整。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "collocation.cloze_strategy.unprompted",
+      "title": "无提示词的填空判定路径",
+      "brief": "按空格位置定词性，再选封闭词类",
+      "difficulty": 3,
+      "tags": ["高频", "难点"],
+      "prereq": ["collocation.cloze_strategy.prompted", "morph.word_formation.cloze-path"],
+      "concept": {
+        "summary": "拿到题先看空格后有没有括号：没有括号走本条路径。无提示词时，空格只能填封闭词类：冠词、介词、连词、代词或助动词。判定路径按位置走：主语或宾语位置缺成分填名词或代词；谓语位置缺成分填助动词、情态动词或 be；名词前填冠词、形容词或限定词；句首或两个分句之间填连词或副词。位置定词性，词性定候选词，不必先理解整句意思。",
+        "sections": [
+          {
+            "h": "四个位置，四类答案",
+            "p": "先把句子切成主语、谓语、宾语三段，再看空格落在哪一段。位置决定词性，词性决定候选范围。这一步只看结构，不看语义。",
+            "bullets": [
+              "主宾位 → 名词或代词：___ is known to all that...（It）；He gave ___ a book.（me）",
+              "谓语位 → 助动词、情态动词或 be：He ___ finished the work.（has）；You ___ not smoke here.（must）",
+              "名词前 → 冠词、形容词或限定词：___ honest boy；___ two books（both）",
+              "句首或分句之间 → 连词或副词：___ it rains, we will stay at home.（If）；He was tired, ___ he kept working.（but）"
+            ]
+          },
+          {
+            "h": "从句引导词与逻辑关系",
+            "p": "空格位于两个分句之间时，先判前后是并列还是主从，再判逻辑关系。并列看转折、因果、并列；主从看名词性从句、定语从句、状语从句。从句缺主语或宾语用关系代词、连接代词，成分完整用关系副词或 that。",
+            "bullets": [
+              "定语从句缺宾语 → which/that：the book ___ he wrote",
+              "定语从句成分完整 → where/when/why：the house ___ he lived",
+              "状语从句缺连词 → because/although/unless：___ it was raining, they went out.（Although）",
+              "名词性从句缺主语 → what：___ he said surprised us."
+            ]
+          },
+          {
+            "h": "固定搭配与介词",
+            "p": "空格前后构成固定短语时，答案由搭配决定而不是句法位置：介词短语、动词短语、名词短语各有一套高频清单。看到空格前是形容词或动词、空格后是名词或动名词，优先考虑介词。",
+            "bullets": [
+              "be interested ___ → in；depend ___ → on",
+              "___ spite of → In；___ addition → In",
+              "have difficulty ___ doing → in（可省）",
+              "the reason ___ his absence → for"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It is known to all that the earth moves around the sun.", "zh": "众所周知，地球围绕太阳转。", "ok": true, "note": "主语位置缺形式主语，用 it 占据，真正主语是 that 从句。" },
+          { "en": "That is known to all that the earth moves around the sun.", "zh": "众所周知，地球围绕太阳转。", "ok": false, "note": "形式主语只能用 it，that 不能既占据主语位置又引导后面的从句。" },
+          { "en": "Although it was raining, they went out for a walk.", "zh": "尽管在下雨，他们还是出去散步了。", "ok": true, "note": "两个分句之间缺让步连词，although 单独使用。" },
+          { "en": "Although it was raining, but they went out for a walk.", "zh": "尽管在下雨，他们还是出去散步了。", "ok": false, "note": "although 与 but 不能同时使用，只能保留一个。" },
+          { "en": "This is the house where he lived for ten years.", "zh": "这就是他住了十年的房子。", "ok": true, "note": "从句成分完整，先行词表地点，用关系副词 where。" },
+          { "en": "This is the house which he lived for ten years.", "zh": "这就是他住了十年的房子。", "ok": false, "note": "live 是不及物动词，从句缺地点状语，须用 where 或 in which。" },
+          { "en": "She is interested in ancient architecture.", "zh": "她对古建筑感兴趣。", "ok": true, "note": "interested 后固定接介词 in。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He gave the book to I.", "right": "He gave the book to me.", "why": "介词后接宾格代词，主格 I 不能作介词宾语。" },
+          { "wrong": "Because he was ill, so he did not come.", "right": "Because he was ill, he did not come.", "why": "because 与 so 不能在同一个主从结构中同时出现，只能保留一个。" },
+          { "wrong": "The reason why he was late is because he missed the bus.", "right": "The reason why he was late is that he missed the bus.", "why": "表语从句说明 reason 的内容用 that，because 只能引导原因状语从句。" }
+        ],
+        "contrast": { "withTitle": "有提示词的填空判定路径", "diff": "无提示词时答案来自封闭词类，靠位置与逻辑关系确定；有提示词时答案来自提示词的形态变化。" },
+        "mnemonic": "主宾缺名词，谓语缺助动，名前缺冠形，句首缺连词，搭配缺介词。"
+      },
+      "review": {
+        "core": [
+          "无提示词只填封闭词类：冠词、介词、连词、代词、助动词",
+          "主宾位 → 名词或代词；谓语位 → 助动词、情态动词或 be",
+          "名词前 → 冠词、形容词或限定词；句首或分句间 → 连词或副词",
+          "定语从句缺成分用 which/that，成分完整用 where/when/why",
+          "although 与 but、because 与 so 不能同现",
+          "形容词、动词后接名词或动名词时优先考虑介词"
+        ],
+        "trigger": "看到没有括号的空格 → 先定位它在主谓宾的哪一段 → 再按位置列候选词",
+        "quickCheck": [
+          { "q": "句首空格后面直接跟谓语，通常填什么？", "a": "填主语，如代词 it 或名词。" },
+          { "q": "两个分句之间缺连接成分，先判什么？", "a": "先判并列还是主从，再判逻辑关系。" },
+          { "q": "interested 后面填什么介词？", "a": "in。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.cloze_strategy.unprompted.d1",
+          "type": "choice",
+          "stem": "___ is reported that the new library will open next month.",
+          "options": ["It", "That", "This", "There"],
+          "answer": "It",
+          "explain": "空格位于主语位置，真正主语是后面的 that 从句，须用形式主语 it。",
+          "trap": "That 不能既作形式主语又引导后面的从句；There 需要 be 动词才能构成存在句。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.cloze_strategy.unprompted.d2",
+          "type": "fill",
+          "stem": "He is not only a good teacher ___ also a respected writer.",
+          "answer": "but",
+          "accept": ["but"],
+          "hint": "not only...but also 是固定关联结构。",
+          "explain": "not only 必须与 but also 配对，空格处填 but，构成关联连词的平行结构。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.cloze_strategy.unprompted.d3",
+          "type": "correct",
+          "stem": "Although the task was difficult, but they finished it on time.",
+          "answer": "Although the task was difficult, they finished it on time.",
+          "accept": ["Although the task was difficult, they finished it on time."],
+          "explain": "although 已经标明让步关系，主句不能再加 but，两者只能保留一个。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.cloze_strategy.unprompted.d4",
+          "type": "choice",
+          "stem": "This is the village ___ we spent our childhood.",
+          "options": ["where", "which", "that", "what"],
+          "answer": "where",
+          "explain": "spent 后已有宾语 our childhood，从句缺地点状语，先行词是 village，须用关系副词 where。",
+          "trap": "which/that 在从句中必须充当主语或宾语，此处成分已齐全，用它们会留下悬空的状语。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.cloze_strategy.unprompted.d5",
+          "type": "fill",
+          "stem": "She has been interested ___ classical music since childhood.",
+          "answer": "in",
+          "accept": ["in"],
+          "hint": "be interested 后固定搭配哪个介词？",
+          "explain": "be interested in 是固定搭配，in 后接名词短语 classical music。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.cloze_strategy.unprompted.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "reason", "why", "he", "left", "was", "that", "he", "found", "a", "better", "job."],
+          "answer": "The reason why he left was that he found a better job.",
+          "explain": "why 引导定语从句修饰 reason，was 后是表语从句，用 that 说明原因内容而不是 because。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "collocation.cloze_strategy.pos-traps",
+      "title": "词性转换陷阱",
+      "brief": "先定词性，再派生并补屈折变化",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["morph.word_formation.derivation", "collocation.cloze_strategy.prompted"],
+      "concept": {
+        "summary": "词性转换的失分点不在派生本身，而在“派生后还要不要屈折变化”。判定顺序是：先由修饰关系定词性（名词前用形容词、动词后用副词、限定词后用名词），再选派生词，最后补复数、比较级或否定前缀。同根词族要按名词、动词、形容词、副词四个位置整记。",
+        "sections": [
+          {
+            "h": "四步判定：位置 → 词性 → 派生 → 屈折",
+            "p": "先看空格被谁修饰、修饰谁，确定词性；再从词族里选对应形式；最后检查该形式是否需要复数、比较级或否定前缀。跳过最后一步是最高频的失分点。",
+            "bullets": [
+              "限定词或形容词后 → 名词：a great ___ (achieve) → achievement",
+              "名词前 → 形容词：a ___ (success) attempt → successful",
+              "动词或形容词前 → 副词：He spoke ___ (confident). → confidently",
+              "than 前 → 比较级：___ (careful) than before → more carefully"
+            ]
+          },
+          {
+            "h": "同根词族的四个位置",
+            "p": "同一词根常覆盖四个位置，括号给的原词往往不是答案所需的词性。按“名词—动词—形容词—副词”四格整记，比逐词背更稳。",
+            "bullets": [
+              "success / succeed / successful / successfully",
+              "difficulty / — / difficult / with difficulty",
+              "care / care / careful, careless / carefully, carelessly",
+              "economy / economize / economic, economical / economically"
+            ]
+          },
+          {
+            "h": "三个高频陷阱",
+            "p": "一是 -ly 结尾不一定是副词（friendly, lovely, likely 是形容词）；二是 -ing 与 -ed 形容词的分工由“修饰物还是人”决定；三是抽象名词不可数，派生为名词后不能随意加 s 或 a。",
+            "bullets": [
+              "√ a friendly smile / × He smiled friendly.",
+              "√ an interesting book / √ I am interested in the book.",
+              "√ make great progress / × make a great progress",
+              "√ His explanation was clear. / √ He explained it clearly."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Her performance was a great success.", "zh": "她的表演非常成功。", "ok": true, "note": "限定词 a 与形容词 great 后需要名词中心词，success 符合。" },
+          { "en": "Her performance was a great successful.", "zh": "她的表演非常成功。", "ok": false, "note": "successful 是形容词，不能作 a great 的中心词，应改为 success。" },
+          { "en": "He explained the rule clearly.", "zh": "他把规则解释得很清楚。", "ok": true, "note": "修饰动词 explained 用副词 clearly。" },
+          { "en": "He explained the rule clear.", "zh": "他把规则解释得很清楚。", "ok": false, "note": "clear 是形容词，不能修饰动词，应改为 clearly。" },
+          { "en": "The film was so boring that half the audience fell asleep.", "zh": "这部电影太无聊了，一半观众都睡着了。", "ok": true, "note": "boring 修饰物 the film，表示“令人厌烦的”。" },
+          { "en": "The audience were boring by the film.", "zh": "观众觉得这部电影很无聊。", "ok": false, "note": "人作主语表感受用 -ed 形式 bored，boring 表示“令人厌烦的”。" },
+          { "en": "They made great progress in a single term.", "zh": "他们在一个学期里取得了很大进步。", "ok": true, "note": "progress 不可数，不加 a，也不用复数。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She is a very friend person.", "right": "She is a very friendly person.", "why": "friendly 以 -ly 结尾但词性是形容词，可以直接修饰名词，不需要再派生。" },
+          { "wrong": "The news was very excited.", "right": "The news was very exciting.", "why": "修饰事物用 -ing 形容词，-ed 形式描述人的感受。" },
+          { "wrong": "He made a great progress in maths.", "right": "He made great progress in maths.", "why": "progress 是不可数名词，不能加 a。" }
+        ],
+        "contrast": { "withTitle": "语法填空中的词性判定路径", "diff": "词性判定路径解决“该填哪一类词”；本知识点解决“选定词性后，派生形式与屈折变化是否到位”。" },
+        "mnemonic": "位置定词性，词族选形式，最后补复数和级；-ly 未必是副词，-ing 修饰物、-ed 修饰人。"
+      },
+      "review": {
+        "core": [
+          "四步：位置 → 词性 → 派生 → 屈折",
+          "限定词后填名词，名词前填形容词，动词后填副词",
+          "同根四格：success/succeed/successful/successfully",
+          "-ly 结尾可能是形容词：friendly, lovely, likely",
+          "-ing 修饰物，-ed 修饰人的感受",
+          "抽象名词不可数：progress, advice, information 不加 a 或 s"
+        ],
+        "trigger": "看到括号给名词或形容词 → 先问空格需要什么词性 → 派生后再查复数、比较级与否定前缀",
+        "quickCheck": [
+          { "q": "friendly 是什么词性？", "a": "形容词，虽然以 -ly 结尾。" },
+          { "q": "修饰物用 -ing 还是 -ed 形容词？", "a": "用 -ing：an interesting book。" },
+          { "q": "progress 能加 a 吗？", "a": "不能，不可数。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.cloze_strategy.pos-traps.d1",
+          "type": "choice",
+          "stem": "Her ___ of the problem was clear and convincing.",
+          "options": ["explanation", "explain", "explainable", "explained"],
+          "answer": "explanation",
+          "explain": "Her 后需要名词中心词，of the problem 修饰它，explain 的名词形式是 explanation。",
+          "trap": "explainable 是形容词“可解释的”，explained 是分词，都不能作 Her 的中心词。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.cloze_strategy.pos-traps.d2",
+          "type": "fill",
+          "stem": "The teacher explained the rule ___ (clear) so that everyone could follow.",
+          "answer": "clearly",
+          "accept": ["clearly"],
+          "hint": "修饰动词 explained 用什么词性？",
+          "explain": "空格修饰动词 explained，需要副词，clear 的副词形式是 clearly。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.cloze_strategy.pos-traps.d3",
+          "type": "correct",
+          "stem": "The students were very boring by the long lecture.",
+          "answer": "The students were very bored by the long lecture.",
+          "accept": ["The students were very bored by the long lecture."],
+          "explain": "主语是人的感受，须用 -ed 形容词 bored；boring 表示“令人厌烦的”，用于修饰事物。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.cloze_strategy.pos-traps.d4",
+          "type": "choice",
+          "stem": "She is a ___ person who always greets you with a smile.",
+          "options": ["friendly", "friend", "friendlily", "friends"],
+          "answer": "friendly",
+          "explain": "名词 person 前需要形容词，friendly 虽以 -ly 结尾，词性仍是形容词。",
+          "trap": "friendlily 是误把 -ly 当副词后缀再副词化的产物，英语中不存在这个词。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.cloze_strategy.pos-traps.d5",
+          "type": "fill",
+          "stem": "Winning the prize was a remarkable ___ (achieve) for the young team.",
+          "answer": "achievement",
+          "accept": ["achievement"],
+          "hint": "a remarkable 后需要名词。",
+          "explain": "a remarkable 后需要单数名词中心词，achieve 的名词形式是 achievement。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.cloze_strategy.pos-traps.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "film", "was", "so", "boring", "that", "we", "left", "early."],
+          "answer": "The film was so boring that we left early.",
+          "explain": "boring 修饰物 the film，so...that 引导结果状语从句，left 与 was 时态一致。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

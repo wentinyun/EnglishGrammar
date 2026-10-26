@@ -1,0 +1,403 @@
+{
+  "level1": "tense_voice",
+  "chapter": "future_in_past",
+  "items": [
+    {
+      "id": "tense_voice.future_in_past.formation",
+      "title": "过去将来时的构成与语境",
+      "brief": "过去参照点之后的将来：would do",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.verbs.four-forms"],
+      "concept": {
+        "summary": "过去将来时表示以过去某一时刻为参照点、在该点之后才发生的动作，构成是 would + 动词原形，或 was/were going to + 动词原形。它的出现条件是句中必须存在过去参照点：主句谓语为过去时（said, thought, knew, promised），或出现明确的过去时间状语。它与一般将来时的唯一区别是参照点落在过去，因此不能脱离过去语境单独使用。",
+        "sections": [
+          {
+            "h": "四条构成路径",
+            "p": "过去将来不是一个单词形式，而是四种结构的统称：would do、was/were going to do、was/were to do、was/were about to do。它们在计划性与正式程度上依次不同，但都要求过去参照点。",
+            "bullets": [
+              "would + 原形：He told me he would wait at the gate.",
+              "was/were going to + 原形：She said she was going to resign.",
+              "was/were to + 原形：The minister was to arrive at noon.（正式，表安排）",
+              "was/were about to + 原形：We were about to leave when the phone rang.（表即将）"
+            ]
+          },
+          {
+            "h": "参照点是必要条件",
+            "p": "过去将来时是相对时态，时间定位完全依赖另一个过去动作或过去时间。没有参照点，句子就没有“将来”可言。间接引语是最集中的语境：直接引语中的 will 后移为 would，is going to 后移为 was going to。",
+            "bullets": [
+              "He said, \"I will come.\" → He said he would come.",
+              "She said, \"I am going to quit.\" → She said she was going to quit.",
+              "I was sure the plan would work.",
+              "They knew the train would be late."
+            ]
+          },
+          {
+            "h": "与表过去习惯的 would 区分",
+            "p": "would 还有第二个身份：表示过去反复发生的习惯动作。两者形式相同，靠语境分辨——过去将来的动作只发生一次且位于参照点之后，过去习惯的动作反复发生，常与 often, every day, whenever 连用。",
+            "bullets": [
+              "过去将来：He promised he would write once a week.（一次承诺，指向未来）",
+              "过去习惯：When I was a boy, I would swim in this river every summer.（反复）",
+              "过去习惯可用 used to 替换，过去将来不能"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He promised he would send me the files that evening.", "zh": "他答应那天晚上把文件发给我。", "ok": true, "note": "主句 promised 为过去时，宾语从句的将来后移为 would send。" },
+          { "en": "I thought the train was going to be late, and it was.", "zh": "我当时觉得火车会晚点，果然如此。", "ok": true, "note": "thought 提供过去参照点，was going to be 表示当时的预料。" },
+          { "en": "She said she was to hand in the paper on Monday.", "zh": "她说她周一要交论文。", "ok": true, "note": "was to do 表按安排应当发生，是过去将来时的正式形式。" },
+          { "en": "We were about to leave when the phone rang.", "zh": "我们正要离开，电话响了。", "ok": true, "note": "was/were about to do 表示过去某点即将发生，常与 when 从句连用。" },
+          { "en": "He told me he would went there alone.", "zh": "他告诉我他会一个人去那里。", "ok": false, "note": "would 是情态助动词，后面必须接动词原形 go，不能用过去式 went。" },
+          { "en": "She said she will be busy that night.", "zh": "她说她那天晚上会很忙。", "ok": false, "note": "主句 said 为过去时，间接引语中的将来要后移为 would be，不能保留 will。" },
+          { "en": "They told us they would arrived at noon.", "zh": "他们告诉我们中午到。", "ok": false, "note": "would 后接动词原形 arrive，任何情况下都不能接过去式。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She said she will be busy that night.", "right": "She said she would be busy that night.", "why": "主句谓语 said 是过去时，宾语从句的将来时间必须后移为过去将来，will 变 would。" },
+          { "wrong": "They told us they would arrived at noon.", "right": "They told us they would arrive at noon.", "why": "would 是情态助动词，只带动词原形，时态信息已经由 would 承担，主动词不再变形。" },
+          { "wrong": "I was going to called you, but I lost your number.", "right": "I was going to call you, but I lost your number.", "why": "be going to 中的 to 是不定式符号，后面一律接动词原形。" }
+        ],
+        "contrast": { "withTitle": "would do 与 was going to do 的差别", "diff": "本知识点解决“怎么构成、何时必须出现”；would 与 be going to 的语义分工（意愿推测还是已有计划）由下一知识点处理。" },
+        "mnemonic": "过去时刻往后看，will 变 would；有参照点才成立，无参照点不成句。"
+      },
+      "review": {
+        "core": [
+          "四种形式：would do / was going to do / was to do / was about to do",
+          "必要条件：句中必须有过去参照点（said, thought, promised 或过去时间状语）",
+          "间接引语后移：will → would，is going to → was going to",
+          "would 后永远接动词原形，不接过去式",
+          "与过去习惯的 would 靠“一次还是反复”区分"
+        ],
+        "trigger": "看到主句是 said / thought / promised 且从句讲以后的事 → 把 will 换成 would",
+        "quickCheck": [
+          { "q": "He said he ___ (come) the next day. 填什么？", "a": "would come。" },
+          { "q": "would 后面能接 went 吗？", "a": "不能，只能接动词原形 go。" },
+          { "q": "was about to do 表示什么？", "a": "过去某点即将发生，常与 when 从句连用。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.future_in_past.formation.d1",
+          "type": "choice",
+          "stem": "He promised that he ___ us at the airport at seven.",
+          "options": ["would meet", "will meet", "would met", "would have met"],
+          "answer": "would meet",
+          "explain": "主句 promised 是过去时，宾语从句表示该过去时刻之后的动作，须用过去将来时 would + 原形。",
+          "trap": "will meet 没有随主句时态后移；would have met 表“本来会见面”，与承诺语义不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_in_past.formation.d2",
+          "type": "fill",
+          "stem": "She told me she ___ (be) free that afternoon.",
+          "answer": "would be",
+          "accept": ["would be"],
+          "hint": "主句 told 是过去时，从句讲的是那之后的状态。",
+          "explain": "宾语从句的将来随主句过去时后移，will be 变为 would be，且 would 后接原形 be。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_in_past.formation.d3",
+          "type": "correct",
+          "stem": "The manager said he will sign the contract the next day.",
+          "answer": "The manager said he would sign the contract the next day.",
+          "accept": ["The manager said he would sign the contract the next day."],
+          "explain": "主句 said 为过去时，间接引语中的 will 必须后移为 would，才能与参照点一致。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_in_past.formation.d4",
+          "type": "choice",
+          "stem": "We ___ leave when the lights suddenly went out.",
+          "options": ["were about to", "would", "were going", "will"],
+          "answer": "were about to",
+          "explain": "was/were about to do 表示过去某一点即将发生，与 when 引导的突发动作搭配，构成“正要……这时……”的典型句式。",
+          "trap": "would 后虽可接原形 leave，但只表意愿或推测，无法表达“即将”这一时间紧迫感。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_in_past.formation.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "said", "he", "would", "return", "the", "following", "week."],
+          "answer": "He said he would return the following week.",
+          "explain": "主句 said 提供过去参照点，从句用 would + 原形 return，the following week 是间接引语中 tomorrow 类时间的后移形式。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_in_past.formation.d6",
+          "type": "translate",
+          "stem": "她告诉我她第二天会给我打电话。",
+          "answer": "She told me she would call me the next day.",
+          "require": [["told"], ["would call"], ["the next day", "the following day"]],
+          "forbid": ["will call", "would called", "would call to me"],
+          "explain": "主句 told 为过去时，从句的将来后移为 would call；直接引语中的 tomorrow 在间接引语中改为 the next day。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.future_in_past.would-vs-was-going-to",
+      "title": "would do 与 was going to do 的差别",
+      "brief": "would 表意愿或推测，be going to 表已有计划",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["tense_voice.future_in_past.formation"],
+      "concept": {
+        "summary": "两者都能表过去将来，但语义侧重不同：would do 强调主语当时的意愿、承诺或说话人的推测，计划性弱；was/were going to do 强调参照点之前已经形成的计划，或已有迹象表明即将发生。句中若出现 plan, decide, intend, make up one's mind 等计划性词语，或要表达“原本打算却没做”，只能用 be going to。",
+        "sections": [
+          {
+            "h": "would：意愿、承诺与推测",
+            "p": "would 的核心是主语的主观态度，动作是否真的发生并不确定。它常跟在 say, promise, hope, think, be sure 之后，也可以是说话人对过去情况的判断。",
+            "bullets": [
+              "意愿：He said he would do anything to help.",
+              "承诺：She promised she would never tell anyone.",
+              "推测：We were sure the scheme would work.",
+              "注意：Would you like...? 是礼貌请求，与过去将来无关"
+            ]
+          },
+          {
+            "h": "be going to：已有计划与已有迹象",
+            "p": "be going to 的前提是“参照点之前事情已经定了”，因此常与表示决定的词语同现。它还能表示根据当前迹象推断即将发生，此时 would 完全不能用。",
+            "bullets": [
+              "计划：She had decided that she was going to study law.",
+              "迹象：Dark clouds gathered; it was going to rain.",
+              "原本打算：I was going to call you, but my phone died."
+            ]
+          },
+          {
+            "h": "两处不能互换",
+            "p": "第一处是“计划落空”，只有 was/were going to 能承载“本来打算却没实现”的含义。第二处是形式叠加，would 与 be going to 是两套独立结构，不能拼成 would going to。",
+            "bullets": [
+              "计划落空：We were going to leave the next morning, but the flight was cancelled.",
+              "形式错误：× She said she would going to resign.",
+              "正确改写：She said she was going to resign. / She said she would resign."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He said he would do anything to help us.", "zh": "他说他愿意尽一切努力帮我们。", "ok": true, "note": "would 表意愿，是否落实并不确定。" },
+          { "en": "She had made up her mind that she was going to become a doctor.", "zh": "她当时已下定决心要当医生。", "ok": true, "note": "made up her mind 是计划性信号，用 was going to 表示决定已形成。" },
+          { "en": "I was going to tell you, but you had already heard the news.", "zh": "我本来想告诉你，可你已经听说这个消息了。", "ok": true, "note": "was going to 表“原本打算却没做”，but 分句交代计划落空。" },
+          { "en": "We were sure the experiment would fail without more data.", "zh": "我们确信没有更多数据实验会失败。", "ok": true, "note": "would 表当时的推测，没有计划含义。" },
+          { "en": "She told me she would going to resign.", "zh": "她告诉我她打算辞职。", "ok": false, "note": "would 与 be going to 是两套结构，不能叠加，应改为 was going to resign 或 would resign。" },
+          { "en": "I was going to called you last night.", "zh": "我昨晚本来想给你打电话。", "ok": false, "note": "be going to 后接动词原形 call，不能接过去式。" },
+          { "en": "The sky was dark and the wind was rising; it was going to rain.", "zh": "天色暗下来，风也起了，快要下雨了。", "ok": true, "note": "根据眼前迹象推断即将发生，只能用 be going to，不能用 would。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She told me she would going to resign.", "right": "She told me she was going to resign.", "why": "would 与 be going to 分属两套结构，不能拼接；表已有计划应整体换成 was going to。" },
+          { "wrong": "We would leave the next morning, but the flight was cancelled.", "right": "We were going to leave the next morning, but the flight was cancelled.", "why": "“原本打算却未实现”只能由 was/were going to 承担，would 只表意愿或推测，不含计划落空义。" },
+          { "wrong": "Look at those clouds. It would rain.", "right": "Look at those clouds. It was going to rain.", "why": "根据迹象推断即将发生必须用 be going to，would 不能用来描述眼前可见的迹象。" }
+        ],
+        "contrast": { "withTitle": "过去将来时的构成与语境", "diff": "构成点解决形式与出现条件，本点解决同一语境下 would 与 be going to 的语义分工：一个是主观意愿，一个是既定计划。" },
+        "mnemonic": "would 是心里想，going to 是已经定；计划落空用后者，两套结构不叠加。"
+      },
+      "review": {
+        "core": [
+          "would：意愿、承诺、推测，计划性弱",
+          "be going to：参照点之前已定的计划，或已有迹象",
+          "plan / decide / intend / make up one's mind 出现时选 be going to",
+          "原本打算却没做，只能用 was/were going to",
+          "would 与 be going to 不能叠加成 would going to"
+        ],
+        "trigger": "看到 but 分句交代计划落空，或句中有 plan / decide → 用 was/were going to",
+        "quickCheck": [
+          { "q": "“我本来想打电话给你，但手机没电了”用哪个结构？", "a": "I was going to call you." },
+          { "q": "would going to 能说吗？", "a": "不能，两套结构不能叠加。" },
+          { "q": "看见乌云说“要下雨了”，用 would 还是 was going to？", "a": "was going to，因为是根据迹象推断。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.future_in_past.would-vs-was-going-to.d1",
+          "type": "choice",
+          "stem": "I ___ call you yesterday, but I couldn't find your number.",
+          "options": ["was going to", "would", "will", "am going to"],
+          "answer": "was going to",
+          "explain": "but 分句说明计划没有实现，只有 was/were going to 能表达“原本打算却没做”。",
+          "trap": "would 只表意愿或推测，不承载“计划落空”的含义，与 but 分句的逻辑接不上。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_in_past.would-vs-was-going-to.d2",
+          "type": "fill",
+          "stem": "At first the managers ___ (not / be going to) approve the budget, but they changed their minds.",
+          "answer": "were not going to",
+          "accept": ["were not going to", "weren't going to"],
+          "hint": "括号已给出结构，只需把 be going to 变过去式并加否定。",
+          "explain": "主语 managers 为复数，be going to 的过去式用 were，否定为 were not going to，表示“原本不打算”，与 but 分句的改变主意形成对照。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_in_past.would-vs-was-going-to.d3",
+          "type": "correct",
+          "stem": "She told me she would going to resign at the end of the month.",
+          "answer": "She told me she was going to resign at the end of the month.",
+          "accept": ["She told me she was going to resign at the end of the month."],
+          "explain": "would 与 be going to 是两套独立结构，不能叠加；辞职是已定的计划，应整体改为 was going to resign。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_in_past.would-vs-was-going-to.d4",
+          "type": "choice",
+          "stem": "Nobody expected that the little firm ___ such a huge order.",
+          "options": ["would win", "would won", "will win", "was winning"],
+          "answer": "would win",
+          "explain": "expected 为过去时，从句用过去将来时 would + 动词原形 win 表示当时对未来结果的推测。",
+          "trap": "would won 把情态助动词当成了时态标记，后面又重复使用过去式，属于双重变形。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_in_past.would-vs-was-going-to.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "was", "going", "to", "tell", "you,", "but", "you", "already", "knew."],
+          "answer": "I was going to tell you, but you already knew.",
+          "explain": "was going to tell 表示原本打算说，but 分句说明这个打算没有必要实现，构成计划落空的典型表达。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_in_past.would-vs-was-going-to.d6",
+          "type": "translate",
+          "stem": "我本来打算昨天给你打电话，但我的手机没电了。",
+          "answer": "I was going to call you yesterday, but my phone was dead.",
+          "require": [["was going to call"], ["yesterday"], ["but"]],
+          "forbid": ["would call you yesterday, but", "was going to called"],
+          "explain": "“本来打算”必须用 was going to do，but 分句说明计划没有实现；would 不能承担这一含义。",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.future_in_past.perfect",
+      "title": "过去将来完成时",
+      "brief": "站在过去看：到过去某点将会已完成",
+      "difficulty": 4,
+      "tags": ["难点"],
+      "prereq": ["tense_voice.future_in_past.formation", "tense_voice.future_perfect.by-future-time"],
+      "concept": {
+        "summary": "过去将来完成时 would have done 表示以过去某一时刻为参照点，动作在该点之前将会完成。它是将来完成时 will have done 的整体后移：will 变 would，have done 保持不变。常见于间接引语与过去的预期，判定关键是句中同时存在“过去参照点”和“早于该点的完成界限”。同一形式也出现在虚拟语气主句，需靠条件句或反事实语境区分。",
+        "sections": [
+          {
+            "h": "整体后移的三条对应",
+            "p": "时态后移只改第一个助动词，完成体内部结构不动。记住三条对应，就能把直接引语中的任何将来完成形式改写成过去将来完成形式。",
+            "bullets": [
+              "will have done → would have done",
+              "will have been doing → would have been doing",
+              "will be doing → would be doing",
+              "例句：He said, \"I will have finished by Friday.\" → He said he would have finished by Friday."
+            ]
+          },
+          {
+            "h": "两个典型语境",
+            "p": "第一是间接引语，主句为过去时，从句的将来完成随之后移。第二是过去的预期，主句用 expected, hoped, believed 等，从句说明“到某个过去时点之前应已完成”。",
+            "bullets": [
+              "间接引语：She said she would have left by the time we arrived.",
+              "过去预期：We expected that the workers would have finished by June.",
+              "被动形式：We hoped the bridge would have been rebuilt by then."
+            ]
+          },
+          {
+            "h": "与虚拟语气同形，如何区分",
+            "p": "would have done 有两种身份：过去将来完成时，动作在过去的预期中可能真的发生了；虚拟语气主句，动作与过去事实相反，实际没有发生。判断依据是有无 if 条件句或明确的反事实语境。",
+            "bullets": [
+              "过去将来完成：He told me he would have completed the draft by Friday.（可能完成）",
+              "虚拟语气：If you had told me earlier, I would have booked the tickets.（实际没订）",
+              "虚拟条件句的从句用 had done，would have done 只出现在主句"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He told me he would have completed the draft by the end of the week.", "zh": "他告诉我他到周末会把初稿写完。", "ok": true, "note": "told 是过去参照点，by the end of the week 是完成界限，构成过去将来完成时。" },
+          { "en": "We hoped that the bridge would have been rebuilt by the time the school opened.", "zh": "我们曾希望学校开学时桥已经重建好。", "ok": true, "note": "hoped 提供过去参照点，被动形式为 would have been + 过去分词。" },
+          { "en": "She said she would have been working there for ten years by then.", "zh": "她说那时她就在那里工作满十年了。", "ok": true, "note": "would have been doing 是将来完成进行时的后移形式，强调持续到该点。" },
+          { "en": "If you had told me earlier, I would have booked the tickets.", "zh": "你要是早点告诉我，我就订票了。", "ok": true, "note": "这是与过去事实相反的虚拟语气，would have done 出现在主句，不是过去将来完成时。" },
+          { "en": "He said he would has finished the report by Friday.", "zh": "他说他周五前会写完报告。", "ok": false, "note": "would 后必须接原形 have，完成体固定为 would have done，不能写成 would has。" },
+          { "en": "By the time we got there, they would finished the meal.", "zh": "我们到的时候，他们本该已经吃完那顿饭了。", "ok": false, "note": "完成体缺少 have，应为 would have finished；would 不能直接接过去分词。" },
+          { "en": "He said he will have finished the work by then.", "zh": "他说到那时他已经完成这项工作了。", "ok": false, "note": "主句 said 为过去时，从句的将来完成须后移为 would have finished。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She said she would have finish the essay by Monday.", "right": "She said she would have finished the essay by Monday.", "why": "would have 后必须接过去分词构成完成体，finish 是原形，不能直接跟在 have 之后。" },
+          { "wrong": "We expected that they would finished the design by May.", "right": "We expected that they would have finished the design by May.", "why": "表“到过去某点之前已完成”必须用 would have done；would finished 在结构上不成立。" },
+          { "wrong": "If I would have known the schedule, I would have come earlier.", "right": "If I had known the schedule, I would have come earlier.", "why": "虚拟条件句的从句用 had done，would have done 只能出现在主句，放在 if 从句里是典型错误。" }
+        ],
+        "contrast": { "withTitle": "将来完成时", "diff": "将来完成时以现在为出发点看向将来某点，过去将来完成时以过去某点为出发点，形式只差 will 与 would。" },
+        "mnemonic": "will 变 would，have done 不动；有 if 是虚拟，无 if 是后移。"
+      },
+      "review": {
+        "core": [
+          "结构：would have + 过去分词，被动 would have been done",
+          "由将来完成时整体后移：will → would，have done 不变",
+          "典型语境：间接引语、过去的预期（expected / hoped / believed）",
+          "与虚拟语气同形，靠有无 if 条件句或反事实语境区分",
+          "完成体里 have 永远是原形，不随主语变 has"
+        ],
+        "trigger": "看到主句为过去时，从句又有 by + 过去时间 → 用 would have done",
+        "quickCheck": [
+          { "q": "will have finished 后移成什么？", "a": "would have finished。" },
+          { "q": "would has finished 对不对？", "a": "不对，have 不变形。" },
+          { "q": "如何判断 would have done 是虚拟还是过去将来完成？", "a": "看有无 if 条件句或反事实语境。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.future_in_past.perfect.d1",
+          "type": "choice",
+          "stem": "He told us that the workers ___ the roof by the time the rainy season began.",
+          "options": ["would have repaired", "would repair", "will have repaired", "would have repair"],
+          "answer": "would have repaired",
+          "explain": "told 是过去参照点，by the time the rainy season began 是过去的完成界限，须用过去将来完成时 would have done。",
+          "trap": "would repair 只表过去将来，未体现“在雨季开始之前已完成”的先后关系。",
+          "difficulty": 4
+        },
+        {
+          "id": "tense_voice.future_in_past.perfect.d2",
+          "type": "fill",
+          "stem": "She said she ___ (finish) the translation by the end of that month.",
+          "answer": "would have finished",
+          "accept": ["would have finished"],
+          "hint": "主句 said 是过去时，by the end of that month 是过去的截止点。",
+          "explain": "将来完成时 will have finished 随主句过去时后移，will 变 would，完成体部分不变。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_in_past.perfect.d3",
+          "type": "correct",
+          "stem": "They expected that the new library would has opened by September.",
+          "answer": "They expected that the new library would have opened by September.",
+          "accept": ["They expected that the new library would have opened by September."],
+          "explain": "would 后接原形 have，构成 would have done；have 不随主语变化，不能写成 has。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_in_past.perfect.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "said", "he", "would", "have", "left", "by", "then."],
+          "answer": "He said he would have left by then.",
+          "explain": "said 提供过去参照点，by then 指过去某点之前，从句用 would have left 表完成。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_in_past.perfect.d5",
+          "type": "choice",
+          "stem": "By the time the guests arrived, the cook ___ the whole meal.",
+          "options": ["would have prepared", "would prepare", "would have preparing", "will have prepared"],
+          "answer": "would have prepared",
+          "explain": "arrived 是过去参照点，prepare 的动作发生在该点之前并已完成，用 would have prepared。",
+          "trap": "would prepare 只表示过去将来，无法体现“在客人到达前已完成”的先后关系。",
+          "difficulty": 4
+        },
+        {
+          "id": "tense_voice.future_in_past.perfect.d6",
+          "type": "translate",
+          "stem": "他说到那时他已经写完论文了。",
+          "answer": "He said he would have finished his paper by then.",
+          "require": [["said"], ["would have finished"], ["by then"]],
+          "forbid": ["would has finished", "will have finished", "would have finish"],
+          "explain": "主句 said 为过去时，by then 指过去某点之前，从句用过去将来完成时 would have finished。",
+          "difficulty": 4
+        }
+      ]
+    }
+  ]
+}

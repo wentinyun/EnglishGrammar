@@ -1,0 +1,408 @@
+{
+  "level1": "tense_voice",
+  "chapter": "past_perfect",
+  "items": [
+    {
+      "id": "tense_voice.past_perfect.reference",
+      "title": "过去完成时的“过去的过去”参照",
+      "brief": "先有过去锚点，才有 had done",
+      "difficulty": 3,
+      "tags": ["基础", "高频"],
+      "prereq": ["tense_voice.present_perfect.core-meaning"],
+      "concept": {
+        "summary": "过去完成时由 had + 过去分词构成，它必须依附于一个过去的时间参照点，表示动作发生在那个参照点之前，也就是过去的过去。判断方法是先找句中的过去锚点（另一个过去动作或过去时间），再看谁更早。句中只有一个过去动作、没有更早的参照对象时，用一般过去时即可，滥用 had done 是这一知识点最常见的错误。",
+        "sections": [
+          {
+            "h": "时间轴上的三个点",
+            "p": "现在完成时以现在为参照，过去完成时把参照点整体后移到一个过去时刻。参照点之前的动作用 had done，参照点本身用一般过去时，当下叙述仍回到现在。",
+            "bullets": [
+              "过去完成 ← 过去参照点 ← 现在",
+              "When I arrived, the train had left.（left 早于 arrived）",
+              "By the end of last term, we had learned 1,500 words.（参照点是上学期末）"
+            ]
+          },
+          {
+            "h": "锚点的三种来源",
+            "p": "过去锚点可以是一个过去时间状语、一个过去时的从句谓语，也可以由上下文提供。没有显性锚点时，需要前文已经确立了过去的叙述时间。",
+            "bullets": [
+              "时间状语：by then / by the end of last year / before 1990",
+              "从句谓语：When I got there, ... / He said that ...",
+              "上下文：前句已交代过去时间，后句用 had done 交代更早的事"
+            ]
+          },
+          {
+            "h": "不要滥用的两种情形",
+            "p": "一是只有一个过去动作，没有更早的比较对象；二是两个动作按顺序发生、时间先后已由连词表明。这两种情况用一般过去时更自然，加上 had done 反而让时间关系悬空。",
+            "bullets": [
+              "× I had seen him yesterday. → √ I saw him yesterday.",
+              "√ He cleaned the room and then went out.（顺序清楚，无需 had done）",
+              "√ After he had finished the work, he went home.（强调完成，可用 had done）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "When I arrived at the station, the train had already left.", "zh": "我到车站时，火车已经开走了。", "ok": true, "note": "arrived 是过去锚点，left 更早，用 had left。" },
+          { "en": "By the end of last term, we had learned 1,500 words.", "zh": "到上学期末，我们已经学了一千五百个单词。", "ok": true, "note": "by the end of last term 是过去锚点，学习发生在此之前。" },
+          { "en": "He told me he had never been abroad.", "zh": "他告诉我他从未出过国。", "ok": true, "note": "宾语从句的 told 是过去锚点，更早的经历用 had been。" },
+          { "en": "I had seen him yesterday.", "zh": "我昨天见过他。", "ok": false, "note": "yesterday 只是单一过去时间，没有更早的参照点，应改为 I saw him yesterday." },
+          { "en": "When I arrived at the station, the train already left.", "zh": "我到车站时，火车已经开走了。", "ok": false, "note": "left 早于 arrived，须用过去完成时 had already left。" },
+          { "en": "She had finished her homework before her mother came home.", "zh": "妈妈回家前她就做完了作业。", "ok": true, "note": "before 从句的 came 是锚点，完成作业更早。" },
+          { "en": "The film had already begun when we got to the cinema.", "zh": "我们到电影院时电影已经开演了。", "ok": true, "note": "got 是锚点，begun 更早，两个过去动作层次分明。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I had seen the film last week.", "right": "I saw the film last week.", "why": "last week 只是单一过去时间，句中不存在更早的参照动作，过去完成时失去比较对象。" },
+          { "wrong": "When I got to the cinema, the film has begun.", "right": "When I got to the cinema, the film had begun.", "why": "参照点 got 是过去时，比它更早的动作必须用 had done，不能跨到现在的 has begun。" },
+          { "wrong": "After he had finished the work, he had gone home.", "right": "After he had finished the work, he went home.", "why": "两个动作一先一后，只有较早的那个用过去完成时，较晚的动作用一般过去时。" }
+        ],
+        "contrast": { "withTitle": "一般过去时", "diff": "一般过去时只需要一个过去时间点；过去完成时必须再有一个更晚的过去参照点，否则没有过去的过去可依。" },
+        "mnemonic": "两个过去排先后，先发生用 had done；只有一个过去点，老老实实用过去式。"
+      },
+      "review": {
+        "core": [
+          "构成：had + 过去分词，所有人称同形",
+          "必须有过去锚点：过去时间状语、过去时从句或上下文",
+          "先发生的动作用 had done，锚点本身用一般过去时",
+          "只有一个过去动作时不要用 had done",
+          "常见锚点：by then / by the end of last year / when I got there"
+        ],
+        "trigger": "句中已有过去时谓语 → 问还有没有更早的动作 → 有就把更早的写成 had done",
+        "quickCheck": [
+          { "q": "“我到车站时火车已经开走了”怎么说？", "a": "When I got to the station, the train had already left." },
+          { "q": "I had seen him yesterday 错在哪里？", "a": "只有一个过去时间点，没有更早的参照，应改为 I saw him yesterday." },
+          { "q": "过去完成时的构成是什么？", "a": "had 加过去分词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.past_perfect.reference.d1",
+          "type": "choice",
+          "stem": "By the time the fire brigade arrived, the fire ___ most of the warehouse.",
+          "options": ["had destroyed", "destroyed", "has destroyed", "was destroying"],
+          "answer": "had destroyed",
+          "explain": "by the time 从句的 arrived 是过去锚点，烧毁发生在此之前，用 had 加过去分词。",
+          "trap": "destroyed 与 arrived 处于同一时间层，无法体现先烧毁、后到达的先后关系。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_perfect.reference.d2",
+          "type": "fill",
+          "stem": "When I got to the airport, I found that I ___ (leave) my passport at home.",
+          "answer": "had left",
+          "accept": ["had left", "'d left"],
+          "hint": "found 是过去锚点，护照落在家里更早。",
+          "explain": "宾语从句的 found 确立了过去参照点，更早发生的忘带护照用过去完成时 had left。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_perfect.reference.d3",
+          "type": "correct",
+          "stem": "When I reached the top of the hill, the sun has risen.",
+          "answer": "When I reached the top of the hill, the sun had risen.",
+          "accept": ["When I reached the top of the hill, the sun had risen."],
+          "explain": "reached 是过去锚点，太阳升起更早，须用过去完成时 had risen；has risen 会把动作拉到现在，破坏时间层次。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_perfect.reference.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She had", "never", "seen the sea", "before that", "trip."],
+          "answer": "She had never seen the sea before that trip.",
+          "explain": "that trip 是过去锚点，never seen 表示在此之前的经历，用过去完成时；never 放在 had 与过去分词之间。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_perfect.reference.d5",
+          "type": "translate",
+          "stem": "等我赶到车站时，火车已经开走了。",
+          "answer": "When I got to the station, the train had already left.",
+          "require": [["got to", "arrived at"], ["had already left", "had left"]],
+          "forbid": ["has already left"],
+          "explain": "got 是过去锚点，开走更早，用过去完成时；already 放在 had 与过去分词之间。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect.reference.d6",
+          "type": "fill",
+          "stem": "By the end of last year, he ___ (write) three novels.",
+          "answer": "had written",
+          "accept": ["had written", "'d written"],
+          "hint": "by the end of last year 是过去锚点。",
+          "explain": "by the end of 加过去时间表示到那时为止，动作在此之前完成，用过去完成时 had written。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.past_perfect.triggers",
+      "title": "过去完成时的常见触发结构",
+      "brief": "看到固定框架就直接写 had done",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["tense_voice.past_perfect.reference"],
+      "concept": {
+        "summary": "有五类结构一旦出现就基本锁定过去完成时：by the time 加过去时从句、It was the first/second time that、hardly 或 scarcely 加 when 与 no sooner 加 than、before 与 after 引导的先后关系、以及宾语从句中的时态呼应。这些结构的共同点是都提供了一个明确的过去参照点，过去完成时负责填充参照点之前的动作。no sooner 与 hardly 置于句首时还要把 had 提到主语之前，构成部分倒装。",
+        "sections": [
+          {
+            "h": "by the time 与 by 加过去时间",
+            "p": "by the time 从句用一般过去时，主句用过去完成时，表示到那个过去时刻为止已经完成。by 加过去时间点同理，常与表示完成、积累的动词连用。",
+            "bullets": [
+              "By the time we got to the hall, the lecture had begun.",
+              "By the end of 2020, the company had opened 40 stores.",
+              "从句用过去时、主句用 had done，顺序不能颠倒"
+            ]
+          },
+          {
+            "h": "It was the first time that",
+            "p": "主句是 It was the first/second/last time that 时，从句用过去完成时；主句若改为 It is the first time that，从句则用现在完成时。这条对应关系是语法填空的高频考点。",
+            "bullets": [
+              "It was the first time that she had flown alone.",
+              "It is the first time that she has flown alone.",
+              "It was the third time that he had visited the museum."
+            ]
+          },
+          {
+            "h": "hardly when 与 no sooner than 的倒装",
+            "p": "这两个结构表示刚一就，主句用过去完成时，从句用一般过去时。hardly 与 no sooner 置于句首时，主句必须部分倒装，把 had 提到主语之前。",
+            "bullets": [
+              "Hardly had I sat down when the phone rang.",
+              "No sooner had he arrived than the meeting began.",
+              "× No sooner he had arrived than ... → √ No sooner had he arrived than ..."
+            ]
+          },
+          {
+            "h": "宾语从句与未实现的打算",
+            "p": "主句是过去的 said, told, thought, knew 时，从句中更早的动作要用过去完成时，这是时态呼应的要求。had hoped、had expected、had intended to do 则表示本来打算却没做成。",
+            "bullets": [
+              "He said he had finished the work the day before.",
+              "I had hoped to see you at the party, but you didn't come.",
+              "She had intended to call, but her phone died."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It was the first time that she had flown alone.", "zh": "那是她第一次独自坐飞机。", "ok": true, "note": "主句 was 决定从句用过去完成时。" },
+          { "en": "Hardly had I sat down when the phone rang.", "zh": "我刚坐下电话就响了。", "ok": true, "note": "hardly 置句首引起部分倒装，主句用 had done。" },
+          { "en": "By the time we got to the hall, the lecture had begun.", "zh": "我们到礼堂时讲座已经开始了。", "ok": true, "note": "by the time 从句为过去时，主句用过去完成时。" },
+          { "en": "It was the first time that she has flown alone.", "zh": "那是她第一次独自坐飞机。", "ok": false, "note": "主句是 was，从句须用 had flown，不能用现在完成时。" },
+          { "en": "No sooner he had arrived than the meeting began.", "zh": "他刚到会议就开始了。", "ok": false, "note": "no sooner 置句首必须倒装，应改为 No sooner had he arrived than ..." },
+          { "en": "He said he had finished the work the day before.", "zh": "他说他前一天就完成了工作。", "ok": true, "note": "宾语从句中更早的动作须用 had done，符合时态呼应。" },
+          { "en": "I had hoped to see you at the party, but you didn't come.", "zh": "我本希望在聚会上见到你，可你没来。", "ok": true, "note": "had hoped 表示本来希望却没实现。" }
+        ],
+        "pitfalls": [
+          { "wrong": "It was the third time that he has visited the museum.", "right": "It was the third time that he had visited the museum.", "why": "主句 was 把参照点定在过去，从句中已经去过须用过去完成时，has visited 会跳到现在。" },
+          { "wrong": "No sooner he had got home than it started to rain.", "right": "No sooner had he got home than it started to rain.", "why": "no sooner 置于句首时主句要部分倒装，把 had 提到主语之前。" },
+          { "wrong": "By the time the police arrived, the thieves ran away.", "right": "By the time the police arrived, the thieves had run away.", "why": "by the time 从句的 arrived 是锚点，逃跑更早，须用过去完成时。" }
+        ],
+        "contrast": { "withTitle": "过去完成时的“过去的过去”参照", "diff": "参照点讲原理，必须先有过去锚点；本点给可套用的固定框架，看到 by the time、It was the first time、hardly when 就直接写 had done。" },
+        "mnemonic": "by the time、the first time、hardly when，三处见到写 had done；no sooner 要倒装。"
+      },
+      "review": {
+        "core": [
+          "by the time 加过去时从句 → 主句 had done",
+          "It was the first time that 加 had done；It is the first time that 加 have done",
+          "Hardly had ... when / No sooner had ... than，主句倒装且用 had done",
+          "宾语从句主句为过去时，更早动作用 had done",
+          "had hoped / had intended to do 表示本来打算却没实现"
+        ],
+        "trigger": "看到 by the time、the first time、hardly 或 no sooner → 立刻检查主句是否已用 had done 并倒装",
+        "quickCheck": [
+          { "q": "It was the second time that he ___ (visit) the city. 填什么？", "a": "had visited，主句是 was。" },
+          { "q": "No sooner ___ he arrived than it began to rain. 填什么？", "a": "had，no sooner 置句首要倒装。" },
+          { "q": "had hoped to do 表示什么？", "a": "本来希望却没实现。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.past_perfect.triggers.d1",
+          "type": "choice",
+          "stem": "It was the second time that the team ___ the championship.",
+          "options": ["had won", "has won", "won", "was winning"],
+          "answer": "had won",
+          "explain": "主句是 It was，参照点在过去，从句表示在此之前已经赢过，须用过去完成时。",
+          "trap": "has won 把参照点拉到现在，与主句的 was 冲突，破坏了时态呼应。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_perfect.triggers.d2",
+          "type": "fill",
+          "stem": "Hardly ___ he arrived home when the storm broke.",
+          "answer": "had",
+          "accept": ["had"],
+          "hint": "hardly 置于句首，主句要部分倒装。",
+          "explain": "hardly when 结构表示刚一就，主句用过去完成时并部分倒装，had 提到主语 he 之前。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect.triggers.d3",
+          "type": "correct",
+          "stem": "No sooner he had left the office than the printer caught fire.",
+          "answer": "No sooner had he left the office than the printer caught fire.",
+          "accept": ["No sooner had he left the office than the printer caught fire."],
+          "explain": "no sooner 置于句首时主句必须部分倒装，把助动词 had 提到主语之前，构成 No sooner had he left。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect.triggers.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It was", "the first time", "that I had", "seen such", "a sunset."],
+          "answer": "It was the first time that I had seen such a sunset.",
+          "explain": "It was the first time that 是从句用过去完成时的固定框架，had seen 表示在此之前从未见过。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect.triggers.d5",
+          "type": "translate",
+          "stem": "到去年年底，我们已经完成了三个项目。",
+          "answer": "By the end of last year, we had completed three projects.",
+          "require": [["by the end of last year"], ["had completed"]],
+          "forbid": ["have completed", "have been completing"],
+          "explain": "by the end of 加过去时间表示到那时为止已完成，主句用过去完成时 had completed。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect.triggers.d6",
+          "type": "choice",
+          "stem": "He said that he ___ the film twice, so he didn't want to see it again.",
+          "options": ["had seen", "has seen", "saw", "sees"],
+          "answer": "had seen",
+          "explain": "主句 said 是过去时，从句中已经看过两遍发生在更早，须用过去完成时，符合时态呼应。",
+          "trap": "has seen 是现在完成时，与主句的过去时 said 不在同一时间层，破坏呼应。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.past_perfect.vs-past-simple",
+      "title": "过去完成时与一般过去时的顺序辨析",
+      "brief": "先发生的降为 had done，后发生的留过去式",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["tense_voice.past_perfect.reference"],
+      "concept": {
+        "summary": "两个过去动作并存时，时态由先后顺序决定：较早的用 had done，较晚的、作为参照点的用一般过去时。句子出现的顺序不等于时间顺序，The train had left when we arrived 与 We arrived after the train had left 讲的是同一件事。常见错误是把两个动作都写成 had done，或把 had done 用在较晚的动作上。",
+        "sections": [
+          {
+            "h": "三步判定法",
+            "p": "第一步找出两个过去动作，第二步比较谁先发生，第三步把先发生的降级为 had done。顺序连词 before 与 after 已经表明先后时，两个一般过去时也可以；若要强调完成，仍可用 had done。",
+            "bullets": [
+              "先发生：had done；后发生（锚点）：一般过去时",
+              "When we arrived, the concert had begun.（先开始，后到达）",
+              "We arrived after the concert had begun.（同一事实，语序不同）"
+            ]
+          },
+          {
+            "h": "两类典型误用",
+            "p": "一是把整段叙述都套上 had done，造成没有参照点的过去完成时；二是把 had done 放在较晚发生的动作上，使时间关系颠倒。",
+            "bullets": [
+              "× She had woken up and had made breakfast. → √ She woke up and made breakfast.",
+              "× The train had left when we had arrived. → √ The train had left when we arrived.",
+              "连续动作按顺序叙述时，一般过去时足够"
+            ]
+          },
+          {
+            "h": "when 与 before after 的分工",
+            "p": "when 只表明两个动作在时间上相邻，先后要靠时态体现；before 与 after 已由词义表明先后，时态可以简化。理解这一点，才能在改错题中判断 had done 是否必要。",
+            "bullets": [
+              "When I got home, my wife had cooked dinner.（饭先做好）",
+              "After she finished the report, she went home.（先后已由 after 表明）",
+              "Before he came, we had cleaned the room.（强调完成，用 had done）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The film had started when we got to the cinema.", "zh": "我们到电影院时电影已经开演了。", "ok": true, "note": "started 早于 got，用过去完成时；got 是锚点。" },
+          { "en": "We got to the cinema after the film had started.", "zh": "电影开演之后我们才到电影院。", "ok": true, "note": "同一事实换语序，after 表明先后，had started 仍表更早。" },
+          { "en": "He cleaned the room and then went out.", "zh": "他打扫完房间就出去了。", "ok": true, "note": "连续动作用一般过去时，顺序由 and then 表明。" },
+          { "en": "The train had left when we had arrived.", "zh": "我们到达时火车已经开走了。", "ok": false, "note": "到达是较晚的动作，是参照点，应用一般过去时 arrived。" },
+          { "en": "She had woken up and had made breakfast.", "zh": "她起床做了早饭。", "ok": false, "note": "两个连续动作不需要都用过去完成时，应改为 woke up and made breakfast." },
+          { "en": "When we arrived, the concert had already begun.", "zh": "我们到达时音乐会已经开始了。", "ok": true, "note": "arrived 是锚点，begun 更早。" },
+          { "en": "By the time he was twenty, he had written two novels.", "zh": "到二十岁时他已经写了两部小说。", "ok": true, "note": "was twenty 是过去锚点，写作更早完成。" }
+        ],
+        "pitfalls": [
+          { "wrong": "When we got to the theatre, the play has begun.", "right": "When we got to the theatre, the play had begun.", "why": "got 是过去锚点，开演更早，须用过去完成时；has begun 会把动作拉到现在。" },
+          { "wrong": "She had woken up and had made breakfast.", "right": "She woke up and made breakfast.", "why": "按时间顺序叙述的一连串动作用一般过去时，过去完成时只留给更早于锚点的那一个动作。" },
+          { "wrong": "We had arrived at the station after the train had left.", "right": "We arrived at the station after the train had left.", "why": "到达是较晚的动作，充当参照点，必须用一般过去时，否则两个动作都悬空。" }
+        ],
+        "contrast": { "withTitle": "过去完成时的常见触发结构", "diff": "触发结构靠信号词套句式；顺序辨析靠比较两个过去动作的先后，决定哪一个降级为 had done。" },
+        "mnemonic": "先发生 had done，后发生过去式；句子顺序不算数，时间先后才算数。"
+      },
+      "review": {
+        "core": [
+          "两个过去动作：先发生的 had done，后发生的用一般过去时",
+          "句子语序不等于时间顺序，先比较先后再定时态",
+          "连续动作按顺序叙述用一般过去时即可",
+          "before/after 已表明先后，时态可简化；when 需要时态体现先后",
+          "不能两个动作都用 had done，也不能把 had done 放在较晚的动作上"
+        ],
+        "trigger": "一句里出现两个过去动作 → 比较先后 → 只给较早的那个加 had",
+        "quickCheck": [
+          { "q": "“我到的时候电影已经开演了”怎么说？", "a": "The film had started when I arrived." },
+          { "q": "She had woken up and had made breakfast 有什么问题？", "a": "连续动作用一般过去时即可：She woke up and made breakfast." },
+          { "q": "after 从句已表明先后，主句还能用 had done 吗？", "a": "可以，但通常用一般过去时更简洁。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.past_perfect.vs-past-simple.d1",
+          "type": "choice",
+          "stem": "The meeting ___ when I walked into the room, so I said nothing.",
+          "options": ["had begun", "has begun", "began", "was beginning"],
+          "answer": "had begun",
+          "explain": "walked 是过去锚点，会议开始更早，用过去完成时；后半句因此我没说话也说明会议已处于进行中。",
+          "trap": "began 会理解为“我进门时会议才开始”，与因此我没说话的语境不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_perfect.vs-past-simple.d2",
+          "type": "fill",
+          "stem": "By the time the guests arrived, she ___ (prepare) a whole table of dishes.",
+          "answer": "had prepared",
+          "accept": ["had prepared", "'d prepared"],
+          "hint": "by the time 从句是过去时，主句表示更早完成的动作。",
+          "explain": "arrived 是过去锚点，准备饭菜在此之前完成，用过去完成时 had prepared。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect.vs-past-simple.d3",
+          "type": "correct",
+          "stem": "The train had left when we had arrived at the platform.",
+          "answer": "The train had left when we arrived at the platform.",
+          "accept": ["The train had left when we arrived at the platform."],
+          "explain": "到达是较晚的动作，充当参照点，必须用一般过去时 arrived；只有更早的离开用过去完成时。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect.vs-past-simple.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The film", "had already", "started", "when we", "got there."],
+          "answer": "The film had already started when we got there.",
+          "explain": "started 早于 got，用过去完成时；already 放在 had 与过去分词之间，when 从句用一般过去时作锚点。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_perfect.vs-past-simple.d5",
+          "type": "translate",
+          "stem": "我到家的时候，妻子已经做好了晚饭。",
+          "answer": "When I got home, my wife had already cooked dinner.",
+          "require": [["got home", "arrived home"], ["had already cooked", "had cooked"]],
+          "forbid": ["has already cooked", "had got home"],
+          "explain": "got home 是过去锚点，做饭更早完成，用过去完成时；already 位于 had 与过去分词之间。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_perfect.vs-past-simple.d6",
+          "type": "choice",
+          "stem": "She ___ up, ___ her teeth and left for work.",
+          "options": ["woke; brushed", "had woken; had brushed", "had woken; brushed", "woke; had brushed"],
+          "answer": "woke; brushed",
+          "explain": "起床、刷牙、出门是按时间顺序发生的一连串动作，都用一般过去时，先后由语序和并列结构表明。",
+          "trap": "had woken; had brushed 把连续动作全部降级为过去的过去，句中没有任何更早的参照点支撑。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

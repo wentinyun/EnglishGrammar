@@ -1,0 +1,401 @@
+{
+  "level1": "nonfinite",
+  "chapter": "nonfinite_traps",
+  "items": [
+    {
+      "id": "nonfinite.nonfinite_traps.dangling-modifier",
+      "title": "悬垂修饰语",
+      "brief": "分词主语与主句主语错位",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["nonfinite.present_participle.adverbial", "nonfinite.past_participle.adverbial"],
+      "concept": {
+        "summary": "悬垂修饰语指分词短语的逻辑主语与主句主语不一致，且没有把这个主语写出来。判定只问一句：分词的动作是谁做的？如果答案不是主句主语，句子就悬垂，必须改主句主语、扩成状语从句或改成独立主格。",
+        "sections": [
+          {
+            "h": "经典错例：逻辑主语错位",
+            "p": "Walking in the park, the flowers looked beautiful. 这句话里 walking 的动作只能由人发出，主句主语却是 the flowers，花不会散步。分词短语孤零零挂在句首，找不到自己的主语，这就是悬垂修饰语。修复方向有两个：让主句主语成为走路的人，或把分词扩展成完整从句。",
+            "bullets": [
+              "× Walking in the park, the flowers looked beautiful.（walking 的主语缺失，与 flowers 冲突）",
+              "√ Walking in the park, I found the flowers beautiful.（主句主语改成 I）",
+              "√ When I was walking in the park, the flowers looked beautiful.（扩成状语从句）"
+            ]
+          },
+          {
+            "h": "四类高发场景",
+            "p": "悬垂不只出现在 -ing 上，被动分词、完成式、being 开头同样会错位。共同点是分词的语义要求一个特定类型的主语，而主句恰好不是这类主语。",
+            "bullets": [
+              "感官与心理：× Looking out of the window, the street was empty.",
+              "被动分词：× Written in a hurry, he made many mistakes.",
+              "being 开头：× Being a teacher, my students respect me.",
+              "完成式：× Having finished the report, it was sent to the manager."
+            ]
+          },
+          {
+            "h": "三种修复路径",
+            "p": "修改时优先保留原句主干，只动一处。三条路径各有适用场合：主语可以替换时改主语；原主语必须保留时改从句或独立主格。",
+            "bullets": [
+              "改主句主语：Looking out of the window, she saw an empty street.",
+              "扩成状语从句：When she looked out of the window, the street was empty.",
+              "改独立主格：The report finished, she sent it to the manager."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Walking in the park, the flowers looked beautiful.", "zh": "走在公园里，花儿看起来很美。", "ok": false, "note": "逻辑主语错位：walking 只能由人发出，主句主语却是 the flowers。" },
+          { "en": "Walking in the park, I found the flowers beautiful.", "zh": "走在公园里，我觉得花儿很美。", "ok": true, "note": "把主句主语改成 I，分词与主句共用一个主语，句子成立。" },
+          { "en": "Looking out of the window, she saw an empty street.", "zh": "她向窗外望去，看到一条空荡的街。", "ok": true, "note": "looking 与 saw 的主语同为 she，没有错位。" },
+          { "en": "Looking out of the window, the street was empty.", "zh": "向窗外望去，街道空无一人。", "ok": false, "note": "street 不会向窗外看，分词的主语缺失，属典型悬垂。" },
+          { "en": "Having finished the report, it was sent to the manager.", "zh": "报告写完后，被送到了经理那里。", "ok": false, "note": "it 不能完成报告，完成式的逻辑主语必须是人。" },
+          { "en": "Written in a hurry, the essay contained several mistakes.", "zh": "由于写得匆忙，这篇文章有几处错误。", "ok": true, "note": "essay 是被写的对象，与过去分词构成被动关系，主语一致。" },
+          { "en": "When I walked in the park, the flowers looked beautiful.", "zh": "我在公园散步时，花儿看起来很美。", "ok": true, "note": "扩成状语从句后，walk 有了明确的主语 I，错位消失。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Being a teacher, my students respect me.", "right": "Being a teacher, I am respected by my students.", "why": "being a teacher 的主语必须是人，my students 不是老师；改主句主语才能让分词找到主语。" },
+          { "wrong": "Having finished the report, it was sent to the manager.", "right": "Having finished the report, she sent it to the manager.", "why": "it 不能完成报告，完成式的逻辑主语须换成执行动作的人。" },
+          { "wrong": "Encouraged by the teacher, the confidence grew.", "right": "Encouraged by the teacher, she grew in confidence.", "why": "confidence 不会受到鼓励，被鼓励的是人，主句主语须相应调整。" }
+        ],
+        "contrast": { "withTitle": "非谓语的逻辑主语判定", "diff": "悬垂是判定失败后产生的病句类型；逻辑主语判定是找出并修正这种错位的方法。" },
+        "mnemonic": "句首一分词，先问谁在做；答不上来就是悬垂，改主语或改从句。"
+      },
+      "review": {
+        "core": [
+          "定义：分词短语的逻辑主语与主句主语不一致，且未写出",
+          "一问判定：分词的动作是谁做的",
+          "典型错例：Walking in the park, the flowers looked beautiful.",
+          "被动分词与完成式同样会悬垂：主语必须能承受该动作，否则同样错位",
+          "三种修复：改主句主语、扩成状语从句、改独立主格"
+        ],
+        "trigger": "看到句首分词短语 → 立刻问“谁在做这个动作” → 答案不是主句主语就改写",
+        "quickCheck": [
+          { "q": "Walking in the park, the flowers looked beautiful. 错在哪里？", "a": "walking 的主语应是人，与主句主语 flowers 错位。" },
+          { "q": "完成式分句以 it 作主语为什么错？", "a": "it 不能完成动作，须让执行动作的人作主句主语，如 she sent it to the manager。" },
+          { "q": "三种修复路径是什么？", "a": "改主句主语、扩成状语从句、改成独立主格。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.nonfinite_traps.dangling-modifier.d1",
+          "type": "choice",
+          "stem": "___, the flowers looked beautiful.",
+          "options": ["When I walked in the park", "Walking in the park", "Walked in the park", "To walk in the park"],
+          "answer": "When I walked in the park",
+          "explain": "主句主语是 the flowers，不会走路，因此分词短语无法与它共用主语。改成状语从句并补出主语 I，walk 才有合法的发出者。",
+          "trap": "Walking in the park 是典型悬垂结构，flower 不能作 walking 的主语。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.dangling-modifier.d2",
+          "type": "fill",
+          "stem": "___ (walk) through the market, I bought some fresh fruit.",
+          "answer": "Walking",
+          "accept": ["Walking", "walking"],
+          "hint": "先确认主句主语是谁，再判断主动被动。",
+          "explain": "一问逻辑主语：主句主语 I；二问关系：I 主动走；三问时间：与谓语 bought 同时，故填 Walking，主语一致，不构成悬垂。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.dangling-modifier.d3",
+          "type": "correct",
+          "stem": "Having finished the work, the report was submitted.",
+          "answer": "Having finished the work, she submitted the report.",
+          "accept": ["Having finished the work, she submitted the report."],
+          "explain": "完成式的逻辑主语必须与主句主语一致，report 不能完成工作。把主句主语改为执行动作的人，悬垂即消除。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.dangling-modifier.d4",
+          "type": "choice",
+          "stem": "___ from the top of the tower, the city looks like a map.",
+          "options": ["Seen", "Seeing", "To see", "See"],
+          "answer": "Seen",
+          "explain": "一问逻辑主语：the city；二问关系：城市是被看的对象，被动；三问时间：与谓语同时的状态，用过去分词。主语一致，句子不悬垂。",
+          "trap": "Seeing 会让城市成为看的主体，与主句主语冲突，形成悬垂。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.dangling-modifier.d5",
+          "type": "translate",
+          "stem": "走在街上，我发现所有商店都关门了。",
+          "answer": "Walking along the street, I found all the shops closed.",
+          "require": [["walking along the street"], ["i found"]],
+          "forbid": ["walking along the street, all the shops", "walking along the street, the shops found"],
+          "explain": "walking 的逻辑主语必须是主句主语，故主句用 I found；若让 all the shops 作主句主语，分词就失去主语，形成悬垂。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.dangling-modifier.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Shocked", "by", "the", "news,", "she", "could", "not", "say", "a", "word."],
+          "answer": "Shocked by the news, she could not say a word.",
+          "explain": "shocked 的逻辑主语是主句主语 she，她是感到震惊的人；by 短语引出刺激的来源，主句主语与分词一致，句子不悬垂。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.nonfinite_traps.logical-subject",
+      "title": "非谓语的逻辑主语判定",
+      "brief": "先定逻辑主语，再定形式与时间",
+      "difficulty": 3,
+      "tags": ["难点", "高频"],
+      "prereq": ["nonfinite.nonfinite_traps.dangling-modifier", "nonfinite.present_participle.adverbial"],
+      "concept": {
+        "summary": "非谓语的逻辑主语由句法位置决定：作状语时是主句主语，作定语时是被修饰的名词，作宾补时是宾语，作主语或宾语时不另有主语。确定逻辑主语后，再按主动被动与先后选择形式，这是所有非谓语题的统一入口。",
+        "sections": [
+          {
+            "h": "四种位置，四种主语来源",
+            "p": "同一个 -ing 形式，在不同位置上的主语完全不同。做题时先看它占的是哪个句法槽，主语随之确定，不需要猜。",
+            "bullets": [
+              "状语 → 主句主语：Burnt by the sun, he went indoors.",
+              "定语 → 被修饰名词：the letter written yesterday",
+              "宾补 → 宾语：I heard him singing.",
+              "主语、宾语 → 不另有主语：Swimming is good exercise."
+            ]
+          },
+          {
+            "h": "主动被动由逻辑主语决定",
+            "p": "逻辑主语一确定，主动被动就没有第二种可能。主语发出动作用 -ing 或 to do，主语承受动作用 -ed 或 to be done。",
+            "bullets": [
+              "He was surprised to hear the news.（he 感到惊讶 → -ed）",
+              "The news was surprising to everyone.（news 使人惊讶 → -ing）",
+              "The problem is hard to solve.（主语与不定式构成动宾关系时，不定式用主动形式）"
+            ]
+          },
+          {
+            "h": "先后由时间关系决定",
+            "p": "动作先于谓语用 having done / having been done；同时用 doing / done；后于谓语（将要发生）用 to do。三层时间关系与非谓语形式一一对应。",
+            "bullets": [
+              "先发生：Having finished the work, he left.",
+              "同时：Walking home, he saw a friend.",
+              "后发生：He has a meeting to attend this afternoon."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The letter written by hand was hard to read.", "zh": "那封手写的信很难辨认。", "ok": true, "note": "定语位置的逻辑主语是 the letter，letter 是被写的对象，用过去分词。" },
+          { "en": "I saw the boy climbing over the wall.", "zh": "我看见那个男孩正在翻墙。", "ok": true, "note": "宾补位置的逻辑主语是宾语 the boy，男孩主动翻墙，用现在分词。" },
+          { "en": "Burnt by the sun, his shoulders were red.", "zh": "被太阳晒过，他的肩膀发红。", "ok": true, "note": "状语位置的逻辑主语是主句主语 his shoulders，肩膀被晒，用过去分词。" },
+          { "en": "The book writing by him became a bestseller.", "zh": "他写的那本书成了畅销书。", "ok": false, "note": "定语位置的逻辑主语是 the book，书是被写的，应改为 written。" },
+          { "en": "He has a meeting attending this afternoon.", "zh": "他下午有一个会要参加。", "ok": false, "note": "会议尚未发生，逻辑主语 he 主动参加，应用不定式 to attend。" },
+          { "en": "I heard my name called in the crowd.", "zh": "我听到人群中有人叫我的名字。", "ok": true, "note": "宾补位置的逻辑主语是 my name，名字是被叫的，用过去分词。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The film is very interested.", "right": "The film is very interesting.", "why": "film 是使人感兴趣的主体，不是感到兴趣的人，-ed 只能描述感受者。" },
+          { "wrong": "I have a lot of homework finishing tonight.", "right": "I have a lot of homework to finish tonight.", "why": "作业尚未完成，且 I 是 finish 的发出者，须用不定式表将来。" },
+          { "wrong": "The house building in 1900 is a museum now.", "right": "The house built in 1900 is a museum now.", "why": "定语位置的逻辑主语是 the house，房子是被建造的，须用过去分词。" }
+        ],
+        "contrast": { "withTitle": "悬垂修饰语", "diff": "逻辑主语判定是方法：先找主语再定形式；悬垂修饰语是判定失败后产生的病句类型。" },
+        "mnemonic": "状语的看主句，定语的看名词，宾补的看宾语；主语定了，主动被动与先后才有答案。"
+      },
+      "review": {
+        "core": [
+          "状语 → 主句主语；定语 → 被修饰名词；宾补 → 宾语",
+          "主语、宾语位置的非谓语不另有逻辑主语",
+          "逻辑主语发出动作用 -ing / to do，承受动作用 -ed / to be done",
+          "先发生用 having done，同时用 doing，后发生用 to do",
+          "形容词后的不定式与主语构成动宾关系时用主动形式"
+        ],
+        "trigger": "拿到非谓语题 → 先看它占哪个句法槽 → 由此锁定逻辑主语 → 再判主动被动与先后",
+        "quickCheck": [
+          { "q": "I saw the boy climbing over the wall. 中 climbing 的主语是谁？", "a": "宾语 the boy。" },
+          { "q": "The film is very interested 错在哪里？", "a": "film 是使人感兴趣的主体，应为 interesting。" },
+          { "q": "He has a meeting ___ this afternoon. 填什么？", "a": "to attend，动作尚未发生。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.nonfinite_traps.logical-subject.d1",
+          "type": "choice",
+          "stem": "The question ___ at the meeting is still under discussion.",
+          "options": ["raised", "raising", "to raise", "raise"],
+          "answer": "raised",
+          "explain": "定语位置的逻辑主语是被修饰的 the question；问题是被提出的对象，被动，且提出在先，故用过去分词 raised。",
+          "trap": "raising 会让问题变成提出动作的发出者，与 question 的受动身份矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.logical-subject.d2",
+          "type": "fill",
+          "stem": "I heard my name ___ (call) in the crowd.",
+          "answer": "called",
+          "accept": ["called"],
+          "hint": "宾补的逻辑主语是宾语，不是句子的主语 I。",
+          "explain": "一问逻辑主语：宾补修饰的宾语 my name；二问关系：名字是被叫的，被动；三问时间：与谓语 heard 同时，故填 called。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.logical-subject.d3",
+          "type": "correct",
+          "stem": "The film was really excited, and the children loved it.",
+          "answer": "The film was really exciting, and the children loved it.",
+          "accept": ["The film was really exciting, and the children loved it."],
+          "explain": "表语的逻辑主语是 the film，电影是使人兴奋的主体，不是感到兴奋的人，须用 exciting；excited 只能描述人的感受。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.logical-subject.d4",
+          "type": "choice",
+          "stem": "He has a large family ___.",
+          "options": ["to support", "supporting", "supported", "support"],
+          "answer": "to support",
+          "explain": "逻辑主语 he 主动供养家庭，且这是尚未发生的责任，用不定式 to support 作后置定语；family 是 support 的宾语。",
+          "trap": "supported 表被动，会把家庭变成被供养者之外的角色，与 he 的主动关系相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.logical-subject.d5",
+          "type": "translate",
+          "stem": "正在会上讨论的那个问题很难回答。",
+          "answer": "The problem being discussed at the meeting is hard to answer.",
+          "require": [["being discussed"], ["hard to answer"]],
+          "forbid": ["discussing at the meeting", "hard to be answered"],
+          "explain": "定语的逻辑主语是 the problem，问题正被讨论，用 being done；hard 后的不定式与主语构成动宾关系，习惯用主动形式 to answer。",
+          "difficulty": 4
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.logical-subject.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "had", "her", "hair", "cut", "before", "the", "wedding."],
+          "answer": "She had her hair cut before the wedding.",
+          "explain": "宾补 cut 的逻辑主语是宾语 her hair，头发是被剪的对象；主句主语 she 只是请人剪发的人，与宾补不共享主语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.nonfinite_traps.parallel-forms",
+      "title": "并列结构中非谓语形式的一致性",
+      "brief": "并列项的非谓语形式必须对应",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["nonfinite.nonfinite_traps.logical-subject", "morph.conjunctions.coordinating"],
+      "concept": {
+        "summary": "由 and/or/but/not only...but also 连接的成分必须语法形式一致：前面是 to do，后面也应是 to do；前面是 doing，后面也应是 doing；不能把不定式、动名词、分词混在一起并列。判定方法：把并列项单独拎出来，看它们能否放进同一个句法槽。",
+        "sections": [
+          {
+            "h": "三条对应原则",
+            "p": "平行不是语义问题，而是形式复制问题。并列连词要求两侧成分在词性、结构层次、语法功能上完全对应，任何一项不对应都算不平行。",
+            "bullets": [
+              "形式对应：to do ↔ to do；doing ↔ doing；done ↔ done",
+              "功能对应：主语 ↔ 主语，宾语 ↔ 宾语，状语 ↔ 状语",
+              "省略 to 也要一致：to sit and read 共用前面的 to，不能写成 to sit and reading"
+            ]
+          },
+          {
+            "h": "四种高频不平行写法",
+            "p": "这四种错误都源于写到第二个并列项时切换了思维，把动名词换成了不定式，或把名词换成了动名词。改法统一：以第一个并列项为准，把后面的改成同一形式。",
+            "bullets": [
+              "× I like swimming and to run. → swimming and running",
+              "× She is good at singing and to dance. → singing and dancing",
+              "× The job requires patience, accuracy and working hard. → patience, accuracy and hard work",
+              "× To finish the task on time and working overtime are both necessary. → To finish the task on time and to work overtime are both necessary."
+            ]
+          },
+          {
+            "h": "三项以上的并列",
+            "p": "三项以上并列时，形式必须完全一致，冠词与介词通常一并保留或一并省略。平行不仅决定对错，也决定句子的节奏与可读性。",
+            "bullets": [
+              "The course teaches students to read critically, to write clearly, and to think independently.",
+              "She spent the afternoon cleaning the kitchen, washing the dishes, and watering the plants.",
+              "× He is responsible for cleaning the room, watering the plants and to feed the cat."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She enjoys reading novels and listening to jazz.", "zh": "她喜欢读小说和听爵士乐。", "ok": true, "note": "and 两侧同为动名词，作 enjoys 的并列宾语。" },
+          { "en": "She enjoys reading novels and to listen to jazz.", "zh": "她喜欢读小说和听爵士乐。", "ok": false, "note": "and 连接的两个宾语形式不一致，to listen 应改为 listening。" },
+          { "en": "The job requires patience, accuracy, and hard work.", "zh": "这份工作需要耐心、准确和勤奋。", "ok": true, "note": "三项并列同为名词，形式一致。" },
+          { "en": "The job requires patience, accuracy, and working hard.", "zh": "这份工作需要耐心、准确和勤奋。", "ok": false, "note": "前两项是名词，第三项却是动名词，应改为 hard work。" },
+          { "en": "He went out to buy some milk and to post a letter.", "zh": "他出去买牛奶和寄信。", "ok": true, "note": "两个不定式并列，同表目的，形式一致。" },
+          { "en": "The teacher asked us to read the text carefully and to underline the key words.", "zh": "老师让我们仔细阅读课文并划出关键词。", "ok": true, "note": "两个不定式并列作宾语补足语，第二个 to 保留使结构更清晰。" },
+          { "en": "The teacher asked us to read the text carefully and underlining the key words.", "zh": "老师让我们仔细阅读课文并划出关键词。", "ok": false, "note": "and 前是不定式，后是现在分词，形式不对应，应改为 to underline。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I like swimming and to run in the morning.", "right": "I like swimming and running in the morning.", "why": "and 连接的是 like 的两个宾语，必须同为动名词；换成不定式会破坏平行。" },
+          { "wrong": "He is responsible for cleaning the room and to water the plants.", "right": "He is responsible for cleaning the room and watering the plants.", "why": "介词 for 后的并列宾语必须同为动名词，to water 无法与 cleaning 并列。" },
+          { "wrong": "To master a language needs practice and to be patient.", "right": "To master a language needs practice and patience.", "why": "并列的是 needs 的两个宾语，前者是名词 practice，后者也须是名词 patience。" }
+        ],
+        "contrast": { "withTitle": "平行结构的语法对应原则", "diff": "平行结构章节处理名词、形容词、从句等各类成分的对应；本点只处理并列项为非谓语时的形式统一。" },
+        "mnemonic": "并列看左边，左边什么形式右边就什么形式；不平行就改右边。"
+      },
+      "review": {
+        "core": [
+          "并列连词两侧必须形式对应：to do ↔ to do，doing ↔ doing",
+          "功能也要对应：宾语 ↔ 宾语，状语 ↔ 状语",
+          "共用 to 时后续动词用原形：to sit and read",
+          "三项以上并列形式完全一致，冠词介词同留同省",
+          "改法：以第一个并列项为准，改后面的那一项"
+        ],
+        "trigger": "看到 and/or/but 两侧都有动词性成分 → 逐个核对形式是否相同 → 不同就改后项",
+        "quickCheck": [
+          { "q": "I like swimming and to run. 怎么改？", "a": "I like swimming and running." },
+          { "q": "be responsible for cleaning and to water 错在哪里？", "a": "for 后并列宾语须同为动名词，应改为 watering。" },
+          { "q": "to sit and read 中 read 为什么不用 reading？", "a": "两个动词共用前面的 to，形式必须一致。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.nonfinite_traps.parallel-forms.d1",
+          "type": "choice",
+          "stem": "She spends her weekends ___ and volunteering at the animal shelter.",
+          "options": ["hiking", "to hike", "hike", "hiked"],
+          "answer": "hiking",
+          "explain": "and 右侧是 volunteering，spend time doing 结构中的并列成分必须同为动名词，故左侧也用 hiking。",
+          "trap": "to hike 是不定式，与 volunteering 形式不对应，破坏平行。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.parallel-forms.d2",
+          "type": "fill",
+          "stem": "He is good at ___ (draw) and painting.",
+          "answer": "drawing",
+          "accept": ["drawing"],
+          "hint": "先看 and 右侧是什么形式，介词后接什么。",
+          "explain": "介词 at 后接动名词，逻辑主语是 he，他主动画画；and 右侧已是 painting，两个并列宾语必须同为动名词，故填 drawing。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.parallel-forms.d3",
+          "type": "correct",
+          "stem": "She likes reading novels and to listen to jazz.",
+          "answer": "She likes reading novels and listening to jazz.",
+          "accept": ["She likes reading novels and listening to jazz."],
+          "explain": "and 连接的是 likes 的两个宾语，前项是动名词 reading，后项也须改为动名词 listening，形式才对应。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.parallel-forms.d4",
+          "type": "choice",
+          "stem": "___ the room and watering the plants took her a whole hour.",
+          "options": ["Cleaning", "To clean", "Clean", "Cleaned"],
+          "answer": "Cleaning",
+          "explain": "主语位置由 and 连接两个动名词，右侧是 watering，左侧也须用动名词 Cleaning，两者共同作 took 的主语。",
+          "trap": "To clean 是不定式，与 watering 形式不一致，破坏平行。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.parallel-forms.d5",
+          "type": "translate",
+          "stem": "她花了一下午打扫房间和给花浇水。",
+          "answer": "She spent the afternoon cleaning the room and watering the plants.",
+          "require": [["cleaning"], ["watering"]],
+          "forbid": ["to water", "clean the room and water"],
+          "explain": "spend time doing 结构中两个动名词并列，and 两侧形式必须一致；用 to water 或谓语形式 water 都会破坏平行。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.nonfinite_traps.parallel-forms.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "course", "teaches", "students", "to", "read", "critically", "and", "to", "write", "clearly."],
+          "answer": "The course teaches students to read critically and to write clearly.",
+          "explain": "and 连接两个不定式作宾语补足语，read 与 write 前都保留 to，形式完全对应；省略后一个 to 也合法，但不能换成 -ing。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

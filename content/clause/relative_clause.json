@@ -1,0 +1,1200 @@
+{
+  "level1": "clause",
+  "chapter": "relative_clause",
+  "items": [
+    {
+      "id": "clause.relative_clause.who-whom-whose",
+      "title": "关系代词 who/whom/whose 的选用",
+      "brief": "指人时看从句缺主语、宾语还是定语",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.pronouns.interrogative-relative"],
+      "concept": {
+        "summary": "定语从句选关系词走四步：先确定先行词指人还是指物；再看从句缺什么成分，缺主语或宾语用关系代词，缺状语用关系副词；再看是否限定性；最后看有没有介词提前。先行词指人时，缺主语用 who，缺宾语用 whom（口语可用 who 或 that），缺定语用 whose。",
+        "sections": [
+          {
+            "h": "四步选词流程",
+            "p": "四步按顺序走，每步都有可判定的依据，走完之后关系词的候选范围只剩一个。判定成分的方法是把先行词代回从句：代回后作主语就是缺主语，作宾语就是缺宾语，后有名词需要限定就是缺定语。",
+            "bullets": [
+              "第一步 先行词：指人 → who/whom/whose；指物 → which/that；指时间、地点、原因 → 先假设关系副词",
+              "第二步 缺什么成分：代回后作主语 → who；作宾语 → whom；后面紧跟名词且表所属 → whose",
+              "第三步 是否限定性：非限定性从句不用 that，指人也不能用 that",
+              "第四步 介词：介词提到关系词前，指人只能用 whom，指物只能用 which"
+            ]
+          },
+          {
+            "h": "whom 的三处硬性场景",
+            "p": "whom 只能作宾语，因此它是否出现取决于宾语的位置是否显著。介词之后、非限定性从句之中、以及数量词 + of 的结构里，whom 不可替换为 who。其余场合的口语与一般书面语中，who 或 that 作宾语是正常用法。",
+            "bullets": [
+              "介词 + whom：the colleague with whom I share an office",
+              "非限定性从句作宾语：The dean, whom I met last week, agreed to fund the project.",
+              "数量词 + of whom：twenty applicants, three of whom were shortlisted",
+              "限定性从句作宾语且无介词：the man (who/that) I met yesterday，关系词可以省略"
+            ]
+          },
+          {
+            "h": "whose 的两种指向",
+            "p": "whose 的唯一功能是把先行词与后面的名词连接成所属关系，后面的名词前不再加 the、my 这类限定词。whose 既能指人也能指物，指物时等于 of which，可以互换。",
+            "bullets": [
+              "指人：a writer whose novels sell millions of copies",
+              "指物：a house whose roof leaks = a house the roof of which leaks",
+              "whose + 名词整体可在从句中作主语、宾语或介词宾语：in whose honour the party was held"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The engineer who designed the bridge received a national award.", "zh": "设计这座桥的工程师获得了国家级奖项。", "ok": true, "note": "从句缺主语，先行词指人，用主格 who。" },
+          { "en": "The engineer whom we interviewed yesterday has left the company.", "zh": "我们昨天面试的那位工程师已经离开公司了。", "ok": true, "note": "从句缺宾语，正式书面语用宾格 whom。" },
+          { "en": "The engineer with who we signed the contract has retired.", "zh": "与我们签合同的那位工程师已经退休。", "ok": false, "note": "介词 with 后必须用宾格 whom，who 不能作介词宾语，应改为 with whom。" },
+          { "en": "The student who father teaches chemistry is my cousin.", "zh": "父亲教化学的那个学生是我表弟。", "ok": false, "note": "从句中 father 前缺少所有格限定词，应用 whose father，who 不能表示所属。" },
+          { "en": "She has a brother whose ambition is to become a pilot.", "zh": "她有个弟弟，他的志向是成为飞行员。", "ok": true, "note": "whose 连接先行词 brother 与名词 ambition，表示“他的志向”。" },
+          { "en": "They moved into an old cottage whose windows face the sea.", "zh": "他们搬进了一座窗户朝海的旧农舍。", "ok": true, "note": "whose 指物，等于 the windows of which，因此后面不再加定冠词。" },
+          { "en": "Twenty candidates applied, three of whom were invited to interview.", "zh": "二十名候选人提交了申请，其中三人获邀面试。", "ok": true, "note": "数量词 + of whom 是书面语中关系词作介词宾语的固定结构。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The girl who mother is a nurse sits next to me.", "right": "The girl whose mother is a nurse sits next to me.", "why": "从句中 mother 前缺少限定词，先行词与 mother 是所属关系，只能由 whose 承接。" },
+          { "wrong": "The professor to who I sent my paper replied within a day.", "right": "The professor to whom I sent my paper replied within a day.", "why": "介词 to 已提到关系词之前，介词宾语必须用宾格 whom。" },
+          { "wrong": "The candidate whom won the election promised to cut taxes.", "right": "The candidate who won the election promised to cut taxes.", "why": "从句缺主语，whom 只能作宾语，主格位置必须换成 who。" }
+        ],
+        "contrast": { "withTitle": "关系代词 that 与 which 的区别", "diff": "本知识点解决指人时主格、宾格、所有格的分工；that 与 which 的分工由先行词类型、修饰语和限定性决定，与格无关。" },
+        "mnemonic": "指人先问缺什么：主语 who，宾语 whom，后面紧跟名词就是 whose。"
+      },
+      "review": {
+        "core": [
+          "四步流程：先行词 → 从句缺什么成分 → 限定性 → 介词搭配",
+          "who 作主语；whom 只作宾语，介词后与非限定性从句中不能换成 who",
+          "whose + 名词表所属，指人指物皆可，指物等于 of which",
+          "数量词 + of whom 用于非限定性从句，表整体中的一部分",
+          "限定性从句作宾语且无介词时，口语可用 who 或 that，也可以省略"
+        ],
+        "trigger": "看到先行词指人 → 把先行词代回从句 → 缺主语填 who，缺宾语填 whom，后面紧跟名词填 whose",
+        "quickCheck": [
+          { "q": "The man ___ car was stolen called the police. 填什么？", "a": "whose，从句缺的是修饰 car 的所有格限定词。" },
+          { "q": "介词后面的关系代词指人时用哪个形式？", "a": "whom，如 with whom、to whom。" },
+          { "q": "whom 能作从句主语吗？", "a": "不能，whom 只有宾格功能。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.relative_clause.who-whom-whose.d1",
+          "type": "choice",
+          "stem": "The journalist ___ articles appear in several national newspapers will speak at the forum.",
+          "options": ["who", "whose", "whom", "which"],
+          "answer": "whose",
+          "explain": "从句的谓语是 appear，主语是 articles，空格处需要的是修饰 articles 的所有格限定词，只有 whose 能承担这一功能。",
+          "trap": "选 who 会让从句出现 articles 与 appear 两个主语，句子结构崩掉；which 指物，与指人的先行词不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.relative_clause.who-whom-whose.d2",
+          "type": "fill",
+          "stem": "The consultant with ___ we signed the contract is based in Singapore.",
+          "answer": "whom",
+          "accept": ["whom"],
+          "hint": "介词 with 已经提到关系词前面。",
+          "explain": "sign a contract with sb 是固定搭配，介词 with 提前后必须接宾格，指人用 whom，构成 with whom。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.relative_clause.who-whom-whose.d3",
+          "type": "correct",
+          "stem": "The pianist who performance impressed the judges is only seventeen.",
+          "answer": "The pianist whose performance impressed the judges is only seventeen.",
+          "accept": ["The pianist whose performance impressed the judges is only seventeen."],
+          "explain": "performance 前缺少限定词，先行词 pianist 与 performance 构成所属关系，关系词须用 whose。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.who-whom-whose.d4",
+          "type": "choice",
+          "stem": "The delegate ___ the committee spoke was elected chairman of the board.",
+          "options": ["to whom", "whom", "to who", "who"],
+          "answer": "to whom",
+          "explain": "speak to sb 是固定搭配，从句中的介词 to 不能省略；介词提到关系词前，指人须用宾格 whom。",
+          "trap": "to who 把主格 who 放在介词后，介词宾语只能用宾格；只填 whom 则让 spoke 失去介词，语义不完整。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.who-whom-whose.d5",
+          "type": "translate",
+          "stem": "我昨天采访的那位工程师曾在德国工作。",
+          "answer": "The engineer whom I interviewed yesterday once worked in Germany.",
+          "require": [["engineer"], ["interviewed"], ["Germany"]],
+          "forbid": ["which I interviewed", "that I interviewed him"],
+          "explain": "先行词指人且从句缺宾语，用 whom；interview 后已带宾语 whom，不能再加 him。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.who-whom-whose.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "girl", "whose", "father", "teaches", "chemistry", "is", "my", "cousin."],
+          "answer": "The girl whose father teaches chemistry is my cousin.",
+          "explain": "whose father 在从句中作主语，teaches chemistry 是谓语和宾语，is my cousin 是主句的系表结构。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.relative_clause.that-vs-which",
+      "title": "关系代词 that 与 which 的区别",
+      "brief": "三类硬条件决定 that 与 which 的取舍",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["clause.relative_clause.who-whom-whose"],
+      "concept": {
+        "summary": "that 与 which 指物时多数场合可互换，取舍靠三类硬条件：先行词为不定代词或被 only、very、same、last、序数词、最高级修饰时只能用 that；介词提前或从句为非限定性时只能用 which；其余限定性从句两者皆可，非限定性从句绝对不用 that。",
+        "sections": [
+          {
+            "h": "只能用 that 的四类先行词",
+            "p": "这四类条件的共同点是先行词的范围被压到极窄或极不确定，that 在这种语境中承担“唯一指向”的功能。判定时先查先行词本身，再看它的修饰语。",
+            "bullets": [
+              "不定代词作先行词：all, everything, anything, nothing, little, much, none, few",
+              "被 the only / the very / the same / the last / 序数词 / 最高级修饰：the best film that I have seen",
+              "被 all / every / any / no / some 等限定词修饰：all the work that was assigned",
+              "先行词同时包含人与物：the people and the places that impressed us",
+              "主句以 who 或 which 开头，避免重复：Who is the girl that is standing by the door?"
+            ]
+          },
+          {
+            "h": "只能用 which 的三类结构",
+            "p": "这三条与先行词无关，只与结构位置有关：介词之后、逗号之后、以及先行词本身是 that 或 those 的场合。前两条是高频考点，第三条出现频率低但规则明确。",
+            "bullets": [
+              "介词提前：the room in which he lives，介词后不能用 that",
+              "非限定性从句：逗号之后绝不用 that",
+              "先行词本身是 that 或 those：What is that which he is holding?",
+              "流程位置：先行词 → 成分 → 限定性（即“逗号后”）→ 介词（即“介词提前”），两条 which 专属条件正是后两步的产物"
+            ]
+          },
+          {
+            "h": "可以互换时的取舍",
+            "p": "限定性从句中两条硬条件都不触发时，that 更口语、更紧凑，which 更正式。同一句里已经出现 that 作指示代词或连词时，改用 which 可以避免重复；先行词与从句被较长成分隔开时，which 的指向更清楚。",
+            "bullets": [
+              "The letter that arrived this morning is from my old teacher.",
+              "The letter which arrived this morning is from my old teacher.",
+              "两个句子语法都成立，差别只在语体，考点通常落在前两条硬条件上"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "All that glitters is not gold.", "zh": "闪光的不都是金子。", "ok": true, "note": "先行词 all 是不定代词，关系代词只能用 that。" },
+          { "en": "All which glitters is not gold.", "zh": "闪光的不都是金子。", "ok": false, "note": "不定代词 all 后不能接 which，应改为 that。" },
+          { "en": "This is the only copy that the library still keeps.", "zh": "这是图书馆仍然保存的唯一一本。", "ok": true, "note": "先行词被 the only 修饰，关系代词用 that。" },
+          { "en": "The village in which she grew up has become a tourist attraction.", "zh": "她长大的那个村庄已经成了旅游景点。", "ok": true, "note": "介词 in 提前，指物只能用 which。" },
+          { "en": "The village in that she grew up has become a tourist attraction.", "zh": "她长大的那个村庄已经成了旅游景点。", "ok": false, "note": "介词后的关系代词不能用 that，应改为 in which。" },
+          { "en": "He showed me the photos and the letters that he had kept for years.", "zh": "他给我看了他保存多年的照片和信件。", "ok": true, "note": "先行词同时包含物与人，只能用 that 覆盖两者。" },
+          { "en": "The novel, that was published in 1925, is still widely read.", "zh": "这部小说出版于1925 年，至今仍被广泛阅读。", "ok": false, "note": "逗号后是非限定性从句，that 不能引导非限定性从句，应改为 which。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Everything which he said was recorded.", "right": "Everything that he said was recorded.", "why": "先行词是复合不定代词 everything，关系代词只能用 that。" },
+          { "wrong": "The house in that I was born has been pulled down.", "right": "The house in which I was born has been pulled down.", "why": "介词 in 已提到关系词前，介词宾语只能用 which，that 不能作介词宾语。" },
+          { "wrong": "The Great Wall, that attracts millions of tourists, dates back to ancient times.", "right": "The Great Wall, which attracts millions of tourists, dates back to ancient times.", "why": "逗号后为非限定性从句，that 一律不进入这一结构。" }
+        ],
+        "contrast": { "withTitle": "限制性与非限制性定语从句", "diff": "本知识点只解决限定性从句里 that 与 which 的取舍；是否加逗号、从句能否删除由限制性判定决定，一旦是非限定性，that 直接出局。" },
+        "mnemonic": "不定代词、only、最高级、人物混合 → 只认 that；介词前、逗号后 → 只认 which。"
+      },
+      "review": {
+        "core": [
+          "只能用 that：先行词为不定代词、被 only/very/same/last/序数词/最高级修饰、人物混合、主句以 who/which 开头",
+          "只能用 which：介词提前、非限定性从句、先行词为 that 或 those",
+          "非限定性从句绝不用 that，这条没有例外",
+          "限定性从句中两者皆可时，that 偏口语，which 偏正式",
+          "介词 + that 是硬错，介词后只能接 which 或 whom"
+        ],
+        "trigger": "看到指物的先行词 → 先查三条 that 专属条件 → 再看有没有逗号和提前的介词 → 都不触发才谈互换",
+        "quickCheck": [
+          { "q": "先行词是 everything 时用 that 还是 which？", "a": "只能用 that。" },
+          { "q": "the only 修饰先行词时关系词用什么？", "a": "用 that，不用 which。" },
+          { "q": "非限定性从句能用 that 吗？", "a": "不能，只能用 which 或 who。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.relative_clause.that-vs-which.d1",
+          "type": "choice",
+          "stem": "This is the only reference book ___ the library keeps on open shelves.",
+          "options": ["that", "which", "what", "whose"],
+          "answer": "that",
+          "explain": "先行词被 the only 修饰，属于 that 的专属条件；which 在这种结构中不规范，what 不能引导定语从句。",
+          "trap": "which 在普通限定性从句中确实可以替代 that，但 the only 修饰先行词时规范用法只接受 that。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.relative_clause.that-vs-which.d2",
+          "type": "fill",
+          "stem": "The village in ___ she grew up has become a popular tourist attraction.",
+          "answer": "which",
+          "accept": ["which"],
+          "hint": "介词 in 已经提到空格前面。",
+          "explain": "介词 in 提前后只能接 which，构成 in which；that 不能作介词宾语。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.relative_clause.that-vs-which.d3",
+          "type": "correct",
+          "stem": "The Great Wall, that attracts millions of visitors every year, dates back to ancient times.",
+          "answer": "The Great Wall, which attracts millions of visitors every year, dates back to ancient times.",
+          "accept": ["The Great Wall, which attracts millions of visitors every year, dates back to ancient times."],
+          "explain": "专有名词后的从句只能是限定性以外的补充说明，即非限定性从句，而非限定性从句不能用 that。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.that-vs-which.d4",
+          "type": "choice",
+          "stem": "He told us about the people and the customs ___ he had observed during his stay.",
+          "options": ["that", "which", "who", "what"],
+          "answer": "that",
+          "explain": "先行词同时包含人 the people 与物 the customs，which 只能指物、who 只能指人，只有 that 能覆盖两者。",
+          "trap": "which 是最强干扰项，它只覆盖 the customs，会让 the people 失去关系词。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.that-vs-which.d5",
+          "type": "translate",
+          "stem": "他所说的一切都被记录了下来。",
+          "answer": "Everything that he said was recorded.",
+          "require": [["Everything"], ["that"], ["recorded"]],
+          "forbid": ["Everything which", "Everything what"],
+          "explain": "先行词 everything 是不定代词，关系代词只能用 that；what 本身已包含先行词，不能再与 everything 并用。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.that-vs-which.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["This", "is", "the", "best", "film", "that", "I", "have", "ever", "seen."],
+          "answer": "This is the best film that I have ever seen.",
+          "explain": "先行词被最高级 best 修饰，关系代词用 that；that 在从句中作 seen 的宾语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.relative_clause.as-vs-which",
+      "title": "as 与 which 引导定语从句的区别",
+      "brief": "位置定 as，语义分“正如”与“这一点”",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["clause.relative_clause.that-vs-which"],
+      "concept": {
+        "summary": "as 与 which 都能引导非限定性定语从句指代整个主句，判据有两条：位置——as 从句可放在句首、句中、句末，which 从句只能跟在主句之后；语义——as 意为“正如”，表示从句内容与主句一致或为人们熟知，which 意为“这一点”，对主句事实作出评论或说明结果。",
+        "sections": [
+          {
+            "h": "判据一：位置",
+            "p": "which 从句在结构上依附于前面的主句，因此不能出现在句首；as 从句位置自由，句首是它最典型的落点。两句话意思相同，能否放在句首直接决定用哪个词。",
+            "bullets": [
+              "句首：As is often the case, he arrived without his notes.",
+              "句中：The plan, as we had expected, was approved.",
+              "句末：He was late again, as he often is.",
+              "which 只能跟在主句后：He was late again, which annoyed the teacher.",
+              "流程位置：先行词与成分两步已确定从句指代整句，位置与语义只用来在 as 与 which 之间二选一"
+            ]
+          },
+          {
+            "h": "判据二：语义",
+            "p": "as 表示“正如”，从句内容是对主句的印证，常与 know、say、expect、report、mention 等动词的被动式或 be often the case 搭配；which 表示“这一点”，从句对主句作出评价、补充或说明结果。语义判据用来处理位置判据不起作用的情形，即两者都位于主句之后时。",
+            "bullets": [
+              "as 的固定搭配：as is well known / as we all know / as has been said above / as is often the case",
+              "which 的评论谓语：which is why... / which made him angry / which shows that...",
+              "as 从句不承担“导致、说明”这类评论功能，出现这类谓语时用 which"
+            ]
+          },
+          {
+            "h": "the same...as 与 such...as",
+            "p": "as 还能在限定性从句中与 the same、such 呼应。这时不涉及位置判据，只靠语义区分：the same...that 指同一物，the same...as 指同类物。",
+            "bullets": [
+              "This is the same book that I borrowed last week.（同一本）",
+              "This is the same book as I borrowed last week.（同样的书，不是同一本）",
+              "Such problems as you describe are common among beginners."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "As is often the case with beginners, she makes a few spelling mistakes.", "zh": "正如初学者常有的情况，她犯了几个拼写错误。", "ok": true, "note": "as 从句置于句首，表示“正如”，which 不能出现在这个位置。" },
+          { "en": "Which is often the case with beginners, she makes a few spelling mistakes.", "zh": "正如初学者常有的情况，她犯了几个拼写错误。", "ok": false, "note": "which 引导的非限定性从句不能置于句首，应改为 As。" },
+          { "en": "He missed the last train, which meant he had to walk home.", "zh": "他错过了末班车，这意味着他只能走回家。", "ok": true, "note": "which 指代整个主句，说明结果，从句位于主句之后。" },
+          { "en": "He missed the last train, as meant he had to walk home.", "zh": "他错过了末班车，这意味着他只能走回家。", "ok": false, "note": "从句在说明主句造成的结果，属于“这一点”的评论语义，须用 which。" },
+          { "en": "As we all know, the earth moves around the sun.", "zh": "众所周知，地球围绕太阳运行。", "ok": true, "note": "as 在从句中作 know 的宾语，整个从句置于句首。" },
+          { "en": "As we all know it, the earth moves around the sun.", "zh": "众所周知，地球围绕太阳运行。", "ok": false, "note": "as 已在从句中充当 know 的宾语，再加 it 会造成宾语重复。" },
+          { "en": "She is wearing the same dress as I bought last week.", "zh": "她穿着一条和我上周买的一样的裙子。", "ok": true, "note": "the same...as 表示同类，不是同一件。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Which is known to all, practice makes perfect.", "right": "As is known to all, practice makes perfect.", "why": "which 从句不能出现在句首，句首指代整个主句只能用 as。" },
+          { "wrong": "The company raised its prices again, as caused a wave of complaints.", "right": "The company raised its prices again, which caused a wave of complaints.", "why": "从句说明主句造成的结果，属“这一点”的评论语义，as 只表“正如”，不能承担这一功能。" },
+          { "wrong": "As we had expected it, the team won easily.", "right": "As we had expected, the team won easily.", "why": "as 在从句中已作 expected 的宾语，再加 it 会形成双重宾语。" }
+        ],
+        "contrast": { "withTitle": "关系代词 that 与 which 的区别", "diff": "本知识点比较两个都能指代整个主句的词，判据是位置与语义；that 与 which 的分工发生在先行词为名词的限定性从句里，that 根本不进入非限定性结构。" },
+        "mnemonic": "句首只能用 as，评论结果用 which；as 译“正如”，which 译“这一点”。"
+      },
+      "review": {
+        "core": [
+          "位置：as 可句首、句中、句末，which 只能跟在主句之后",
+          "语义：as 表“正如”（与主句一致、众所周知），which 表“这一点”（评论、结果）",
+          "固定搭配：as is well known / as we all know / as is often the case",
+          "which 常见谓语：which is why / which made / which shows",
+          "the same...that 指同一物，the same...as 指同类物"
+        ],
+        "trigger": "看到逗号后指代整句 → 先看能否放到句首 → 再问语义是“正如”还是“这一点”",
+        "quickCheck": [
+          { "q": "句首指代整个主句用 as 还是 which？", "a": "只能用 as。" },
+          { "q": "He was late, ___ made the teacher angry. 填什么？", "a": "which，表示“这一点”，说明结果。" },
+          { "q": "the same book as I bought 与 the same book that I bought 有何区别？", "a": "前者是同类的另一本，后者是同一本。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.relative_clause.as-vs-which.d1",
+          "type": "choice",
+          "stem": "___ is often the case in winter, the roads become icy before dawn.",
+          "options": ["As", "Which", "That", "It"],
+          "answer": "As",
+          "explain": "空格位于句首并且指代整个主句，只有 as 能在句首引导这类非限定性从句。",
+          "trap": "Which 在语义上可以指代主句，但它引导的从句不能置于句首，这是位置判据的直接结果。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.as-vs-which.d2",
+          "type": "fill",
+          "stem": "He failed to show up at the meeting, ___ made his colleagues rather annoyed.",
+          "answer": "which",
+          "accept": ["which"],
+          "hint": "从句位于主句之后，说明这件事造成的后果。",
+          "explain": "从句对主句事实作出评论并说明结果，属于“这一点”的语义，用 which 而不用 as。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.as-vs-which.d3",
+          "type": "correct",
+          "stem": "Which is well known to all, the Yangtze is the longest river in China.",
+          "answer": "As is well known to all, the Yangtze is the longest river in China.",
+          "accept": ["As is well known to all, the Yangtze is the longest river in China."],
+          "explain": "从句位于句首，which 不能放在主句之前，须换成 as，构成 as is well known to all。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.as-vs-which.d4",
+          "type": "choice",
+          "stem": "The manager praised the whole team, ___ was exactly what we had hoped for.",
+          "options": ["which", "as", "that", "what"],
+          "answer": "which",
+          "explain": "从句对主句事实作出“这正是我们所希望的”这类评论，属于 which 的“这一点”语义；that 不能引导非限定性从句。",
+          "trap": "as 表“正如”，要求从句内容与主句一致或为人熟知，与这里的评论语义不合。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.relative_clause.as-vs-which.d5",
+          "type": "translate",
+          "stem": "正如我们所预料的，比赛因大雨推迟了。",
+          "answer": "As we had expected, the match was postponed because of heavy rain.",
+          "require": [["As we had expected", "As we expected"], ["postponed"]],
+          "forbid": ["Which we had expected", "As we had expected it"],
+          "explain": "从句位于句首且表示“正如”，用 as；as 在从句中作 expected 的宾语，后面不能再加 it。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.relative_clause.as-vs-which.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["As", "is", "often", "the", "case,", "students", "forget", "their", "passwords."],
+          "answer": "As is often the case, students forget their passwords.",
+          "explain": "as 在从句中作主语，is often the case 是系表结构，从句置于句首，主句说明具体现象。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "clause.relative_clause.relative-adverbs",
+      "title": "关系副词 when/where/why 的选用",
+      "brief": "从句缺状语才用关系副词，缺主宾用代词",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["clause.relative_clause.who-whom-whose"],
+      "concept": {
+        "summary": "关系副词只在从句缺状语时使用：把先行词代回从句，若需要补一个介词短语（on that day、in that city、for that reason）才能成句，就用 when、where、why；若代回后作主语或宾语，则必须用关系代词 which 或 that。三个关系副词分别等于 at/on/in which、at/in/on which 与 for which。",
+        "sections": [
+          {
+            "h": "四步流程落到关系副词",
+            "p": "前两步决定用代词还是副词，后两步决定用哪一个副词、以及能否改写成“介词 + which”。判定成分的唯一动作是把先行词代回原位置。",
+            "bullets": [
+              "第一步 先行词：时间名词 → when；地点或抽象“局面”名词 → where；reason → why",
+              "第二步 缺什么成分：主宾齐全、只缺状语 → 关系副词；缺主语或缺宾语 → 关系代词",
+              "第三步 限定性：非限定性从句同样可用 when/where，此时不能用 that 替代",
+              "第四步 介词：when = at/on/in which；where = at/in/on which；why = for which"
+            ]
+          },
+          {
+            "h": "抽象名词 + where",
+            "p": "where 的先行词不限于具体地点。situation、case、point、stage、condition、atmosphere 这类表示局面、阶段、程度的名词后也用 where，因为从句同样缺一个地点状语，只是这个“地点”是抽象的。",
+            "bullets": [
+              "We have reached a point where further discussion is pointless.",
+              "She grew up in an atmosphere where criticism was constant.",
+              "case / situation / stage / condition + where 是书面语高频结构"
+            ]
+          },
+          {
+            "h": "两个高频误判",
+            "p": "一是看到时间或地点名词就填关系副词，忽略从句缺的是宾语；二是把 The reason why... is because 当成正确结构，而 is 后面是表语从句，须用 that。",
+            "bullets": [
+              "the day when we met（met 不及物，缺时间状语）；the day (that/which) we spent together（spent 缺宾语）",
+              "The reason why he resigned is that he found a better job.",
+              "why 的先行词只能是 reason，the cause why 不是规范搭配"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I still remember the afternoon when we first discussed the plan.", "zh": "我仍然记得我们第一次讨论这个计划的那个下午。", "ok": true, "note": "从句主宾齐全，只缺时间状语，用 when，等于 on which。" },
+          { "en": "I still remember the afternoon when we spent together in the old library.", "zh": "我仍然记得我们在旧图书馆一起度过的那个下午。", "ok": false, "note": "spent 缺宾语，先行词在从句中作宾语，应改为 that 或 which，也可以省略。" },
+          { "en": "This is the village where my grandparents spent their whole lives.", "zh": "这就是我祖父母度过一生的村庄。", "ok": true, "note": "spent 的宾语是 their whole lives，从句缺地点状语，用 where。" },
+          { "en": "This is the village where we visited last summer.", "zh": "这就是我们去年夏天参观的村庄。", "ok": false, "note": "visited 缺宾语，先行词作 visited 的宾语，应改为 that 或 which。" },
+          { "en": "We have reached a point where further argument achieves nothing.", "zh": "我们已经到了再争论也没有用的地步。", "ok": true, "note": "point 是抽象名词，从句缺地点状语，用 where。" },
+          { "en": "The reason why she left the company remains unclear.", "zh": "她离开公司的原因仍不清楚。", "ok": true, "note": "先行词 reason 加从句缺原因状语，用 why，等于 for which。" },
+          { "en": "The reason because she left the company remains unclear.", "zh": "她离开公司的原因仍不清楚。", "ok": false, "note": "because 不能引导定语从句，原因状语由 why 或 for which 承担。" }
+        ],
+        "pitfalls": [
+          { "wrong": "This is the museum where we visited yesterday.", "right": "This is the museum that we visited yesterday.", "why": "visited 是及物动词，从句缺的是宾语而不是地点状语，先行词代回后作宾语，须用关系代词。" },
+          { "wrong": "The reason why he was absent is because he was ill.", "right": "The reason why he was absent is that he was ill.", "why": "why 从句是定语从句，is 后面是表语从句，表语从句用 that 引导，because 只能引导状语从句。" },
+          { "wrong": "I will never forget the days when I spent in Beijing.", "right": "I will never forget the days that I spent in Beijing.", "why": "spend 需要宾语，先行词 the days 在从句中作 spent 的宾语，因此用关系代词。" }
+        ],
+        "contrast": { "withTitle": "介词 + 关系代词结构", "diff": "关系副词是“介词 + which”的压缩形式，先行词明确时优先用 when/where/why；需要突出具体介词或先行词有固定搭配时，才展开成“介词 + which”。" },
+        "mnemonic": "先代回、再看缺：缺状语用副词，缺主宾用代词；when=on which，where=in which，why=for which。"
+      },
+      "review": {
+        "core": [
+          "判据：把先行词代回从句，缺状语用关系副词，缺主宾用关系代词",
+          "when = at/on/in which；where = at/in/on which；why = for which",
+          "where 可用于 point、case、situation、stage 等抽象名词后",
+          "why 的先行词只能是 reason，表语从句用 that 不用 because",
+          "时间、地点名词后并非一律用关系副词，先检验成分"
+        ],
+        "trigger": "看到时间、地点、reason 名词 → 把先行词代回从句 → 缺状语才填 when/where/why",
+        "quickCheck": [
+          { "q": "the village ___ we visited last year 填什么？", "a": "that 或 which，visited 缺宾语。" },
+          { "q": "why 等于哪个介词短语？", "a": "for which。" },
+          { "q": "The reason why he left is ___ he was ill. 填什么？", "a": "that，表语从句用 that。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.relative_clause.relative-adverbs.d1",
+          "type": "choice",
+          "stem": "We have reached a stage ___ any further delay would ruin the whole project.",
+          "options": ["where", "which", "that", "when"],
+          "answer": "where",
+          "explain": "从句 any further delay would ruin the whole project 主宾齐全，只缺一个抽象的地点状语，stage 后用 where。",
+          "trap": "which 和 that 在从句中必须作主语或宾语，而本句从句结构已经完整，填进去没有成分可承担。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.relative-adverbs.d2",
+          "type": "fill",
+          "stem": "I will never forget the day ___ I first stood on a stage.",
+          "answer": "when",
+          "accept": ["when", "on which"],
+          "hint": "从句 stood on a stage 结构完整，缺的是时间状语。",
+          "explain": "先行词是表示时间的 the day，从句不缺主语和宾语，只缺时间状语，用 when 或 on which。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.relative_clause.relative-adverbs.d3",
+          "type": "correct",
+          "stem": "This is the factory where we visited last week.",
+          "answer": "This is the factory that we visited last week.",
+          "accept": ["This is the factory that we visited last week.", "This is the factory which we visited last week."],
+          "explain": "visited 是及物动词，需要宾语，先行词 the factory 在从句中作宾语，因此用 that 或 which 而不是 where。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.relative-adverbs.d4",
+          "type": "choice",
+          "stem": "The reason ___ he gave for his absence sounded convincing.",
+          "options": ["that", "why", "when", "where"],
+          "answer": "that",
+          "explain": "gave 缺少宾语，先行词 the reason 在从句中作 gave 的宾语，属于缺主宾的情形，用关系代词 that。",
+          "trap": "why 要求从句缺原因状语，而本句从句缺的是宾语，先行词不是状语成分。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.relative_clause.relative-adverbs.d5",
+          "type": "translate",
+          "stem": "我们已经到了无法回头的地步。",
+          "answer": "We have reached a point where there is no turning back.",
+          "require": [["point"], ["where"]],
+          "forbid": ["point which", "point that"],
+          "explain": "point 是抽象名词，后面的从句 there is no turning back 结构完整，只缺抽象地点状语，用 where。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.relative-adverbs.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["This", "is", "the", "town", "where", "my", "mother", "was", "born."],
+          "answer": "This is the town where my mother was born.",
+          "explain": "was born 是被动结构，后面不需要宾语，从句只缺地点状语，因此用 where。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.relative_clause.prep-plus-relative",
+      "title": "介词 + 关系代词结构",
+      "brief": "介词后只接 whom 或 which，介词看搭配",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["clause.relative_clause.who-whom-whose", "morph.prepositions.stranded"],
+      "concept": {
+        "summary": "介词提到关系词之前时，指人只能用 whom，指物只能用 which，that 与 who 一律不行。介词选哪一个由三条线索决定：从句中动词的固定搭配、从句中形容词的搭配、先行词本身的常用搭配。介词留在句末时，关系词可用 that，也可以省略。",
+        "sections": [
+          {
+            "h": "先走流程，再定介词",
+            "p": "四步流程照常走，只是第四步在这里权重最大：介词一旦提前，关系词的形式就被锁死，只有 whom 与 which 两个选项。此时“介词 + 关系词”整体在从句中作状语，从句其余部分必须完整。",
+            "bullets": [
+              "第一步 先行词：指人 → whom；指物 → which",
+              "第二步 缺什么成分：介词 + 关系词整体作状语，其余成分齐全",
+              "第三步 限定性：非限定性从句中同样可用，逗号位置不变",
+              "第四步 介词：动词搭配、形容词搭配、先行词搭配三条线索决定"
+            ]
+          },
+          {
+            "h": "三条定介词的线索",
+            "p": "介词不是凭语感挑的，而是从原句的搭配里搬过来的。先把从句还原成独立句，看动词或形容词原本带什么介词，再把这个介词提到关系词前。",
+            "bullets": [
+              "动词搭配：the problem (which) we talked about → the problem about which we talked",
+              "形容词搭配：the conditions (which) we are accustomed to → the conditions to which we are accustomed",
+              "先行词搭配：the extent to which / the degree to which / the rate at which / the way in which"
+            ]
+          },
+          {
+            "h": "数量词与 of which/whom",
+            "p": "some、many、most、all、both、none、each 加 of whom/which，以及 the + 名词 + of which，是书面语常见结构，通常出现在逗号之后，表示整体中的一部分或所属关系。",
+            "bullets": [
+              "The committee has twelve members, most of whom are lawyers.",
+              "He wrote several novels, two of which were adapted for film.",
+              "a theory the origin of which is obscure"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The problem about which we argued for hours was finally solved.", "zh": "我们争论了好几个小时的那个问题终于解决了。", "ok": true, "note": "argue about 是固定搭配，介词提前后指物用 which。" },
+          { "en": "The problem about that we argued for hours was finally solved.", "zh": "我们争论了好几个小时的那个问题终于解决了。", "ok": false, "note": "介词后不能使用 that，指物只能用 which。" },
+          { "en": "The colleague with whom I share an office is on holiday.", "zh": "与我共用一间办公室的同事正在休假。", "ok": true, "note": "share sth with sb，介词 with 提前后指人用宾语 whom。" },
+          { "en": "The colleague with who I share an office is on holiday.", "zh": "与我共用一间办公室的同事正在休假。", "ok": false, "note": "介词 with 后必须用宾格 whom，who 不能作介词宾语。" },
+          { "en": "The committee has twelve members, most of whom are lawyers.", "zh": "委员会有十二名成员，其中大多数是律师。", "ok": true, "note": "most of whom 是数量词 + of + 宾格结构，用于非限定性从句。" },
+          { "en": "He wrote several novels, two of which were adapted for film.", "zh": "他写了好几部小说，其中两部被改编成电影。", "ok": true, "note": "two of which 指物，of 后只能用 which。" },
+          { "en": "The rate in that the rainforest is disappearing worries scientists.", "zh": "雨林消失的速度令科学家担忧。", "ok": false, "note": "介词 in 提前后只能用 which，that 不能作介词宾语。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The tool with that he repaired the engine is missing.", "right": "The tool with which he repaired the engine is missing.", "why": "介词 with 提前，指物只能用 which；that 不能出现在介词之后。" },
+          { "wrong": "She is the teacher from who I learned the most.", "right": "She is the teacher from whom I learned the most.", "why": "learn from sb 的介词提前，指人须用宾格 whom，主格 who 不能作介词宾语。" },
+          { "wrong": "The lecture which we listened was rather dull.", "right": "The lecture to which we listened was rather dull.", "why": "listen 是不及物动词，必须带介词 to；关系词提前时介词不能丢。" }
+        ],
+        "contrast": { "withTitle": "关系副词 when/where/why 的选用", "diff": "关系副词是固定的“介词 + which”合并形式（when=on which）；本知识点处理介词需要按搭配自由选择的场合，以及数量词 + of which/whom 这类结构。" },
+        "mnemonic": "介词在前只认两个：人 whom，物 which；介词选谁看搭配，动词、形容词、先行词。"
+      },
+      "review": {
+        "core": [
+          "介词提前后只接 whom（人）与 which（物），that 与 who 都不能用",
+          "介词由动词搭配、形容词搭配、先行词搭配三条线索决定",
+          "介词留在句末时，关系词可用 that 或省略，语义不变",
+          "数量词 + of whom/which 表整体中的一部分，多用于非限定性从句",
+          "不及物动词的介词不能丢，否则从句成分残缺"
+        ],
+        "trigger": "看到空格前有介词 → 先看先行词指人还是指物 → 再回原句找动词或形容词原本的介词",
+        "quickCheck": [
+          { "q": "介词后面能用 that 吗？", "a": "不能，只能用 which 或 whom。" },
+          { "q": "the rate ___ which 填什么介词？", "a": "at，at the rate 是固定搭配。" },
+          { "q": "most of ___ are lawyers，先行词是成员时填什么？", "a": "whom。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.relative_clause.prep-plus-relative.d1",
+          "type": "choice",
+          "stem": "The method ___ the team solved the problem was surprisingly simple.",
+          "options": ["by which", "which", "by that", "by whom"],
+          "answer": "by which",
+          "explain": "solve the problem by a method 是固定搭配，介词 by 提前后指物用 which，by which 在从句中作方式状语。",
+          "trap": "只填 which 会让 solved 缺少方式状语；by that 则违反了介词后不能用 that 的规则。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.prep-plus-relative.d2",
+          "type": "fill",
+          "stem": "She is the professor from ___ I learned most of what I know about linguistics.",
+          "answer": "whom",
+          "accept": ["whom"],
+          "hint": "learn from sb，介词 from 已经提前。",
+          "explain": "learn from sb 的介词 from 提到关系词前，指人必须用宾格 whom。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.relative_clause.prep-plus-relative.d3",
+          "type": "correct",
+          "stem": "The tool with that he repaired the engine is missing.",
+          "answer": "The tool with which he repaired the engine is missing.",
+          "accept": ["The tool with which he repaired the engine is missing."],
+          "explain": "repair sth with a tool 的介词 with 已提前，指物的介词宾语只能用 which，that 不能出现在介词之后。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.prep-plus-relative.d4",
+          "type": "choice",
+          "stem": "The company employs three hundred workers, forty ___ are qualified engineers.",
+          "options": ["of whom", "of who", "of them", "of which"],
+          "answer": "of whom",
+          "explain": "先行词 workers 指人，数量词 + of + 关系词构成非限定性从句，介词 of 后必须用宾格 whom。",
+          "trap": "of them 会让逗号后变成独立分句，构成逗号拼接；of who 则是介词后误用主格。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.prep-plus-relative.d5",
+          "type": "translate",
+          "stem": "我们争论了好几个小时的那个问题终于解决了。",
+          "answer": "The problem about which we argued for hours was finally solved.",
+          "require": [["about which"], ["solved"]],
+          "forbid": ["about that", "argued about it"],
+          "explain": "argue about sth 的介词 about 提到关系词前，指物用 which；关系词已作 about 的宾语，从句中不能再加 it。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.relative_clause.prep-plus-relative.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "house", "in", "which", "she", "grew", "up", "has", "been", "sold."],
+          "answer": "The house in which she grew up has been sold.",
+          "explain": "grow up in a house 的介词 in 提前，指物用 which；主句谓语 has been sold 与主语 the house 一致。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.relative_clause.restrictive-nonrestrictive",
+      "title": "限制性与非限制性定语从句",
+      "brief": "逗号决定从句能否删除，也决定能否用 that",
+      "difficulty": 3,
+      "tags": ["基础", "高频"],
+      "prereq": ["clause.relative_clause.that-vs-which"],
+      "concept": {
+        "summary": "限定性从句与先行词结合成一个整体，删掉后主句指代不清；非限定性从句只补充信息，用逗号隔开，删掉后主句仍成立。判定用删除测试：去掉从句，看主句是否还能明确指认对象。非限定性从句不能用 that，关系词不能省略，which 还可指代整个主句。",
+        "sections": [
+          {
+            "h": "删除测试与两类先行词",
+            "p": "删除测试是唯一可靠的判据，不看逗号先看语义：去掉从句后主句所指是否改变。先行词本身已经唯一（专有名词、my/this 限定、独一无二事物）时，从句只能是补充信息。",
+            "bullets": [
+              "删除后指代不明 → 限定性：The students who failed the test must retake it.",
+              "删除后仍明确 → 非限定性：My brother, who lives in Berlin, is a translator.",
+              "专有名词、独一无二事物、my/this/最高级等唯一性限定之后 → 非限定性",
+              "泛指一类人或物的整体陈述 → 非限定性：Elephants, which are the largest land animals, live in herds."
+            ]
+          },
+          {
+            "h": "非限定性的三条形式要求",
+            "p": "四步选词流程的第三步就落在这里：限定性一旦排除，that 也随之排除，同时关系词不能再省。三条要求互相关联，本质是同一条——非限定性从句是独立的补充成分。",
+            "bullets": [
+              "逗号：从句前后加逗号，位于句末时前面加逗号",
+              "关系词：不能用 that；指人用 who/whom，指物用 which",
+              "省略：关系词即使作宾语也不能省略"
+            ]
+          },
+          {
+            "h": "语义差别与 which 指代整句",
+            "p": "同一先行词加不加逗号，句子的预设完全不同。非限制性从句中的 which 还可以指代前面整个主句，这时不能换成 that。",
+            "bullets": [
+              "The students who passed were praised.（只有通过的学生受表扬）",
+              "The students, who passed, were praised.（全体学生都通过了，因此都受表扬）",
+              "He failed the exam, which surprised nobody."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "My father, who works in a bank, retires next month.", "zh": "我父亲在银行工作，下个月退休。", "ok": true, "note": "先行词由 my 限定已唯一，从句只补充信息，用逗号隔开。" },
+          { "en": "My father, that works in a bank, retires next month.", "zh": "我父亲在银行工作，下个月退休。", "ok": false, "note": "非限定性从句不能用 that，指人应改为 who。" },
+          { "en": "The students who failed the test must retake it in September.", "zh": "考试不及格的学生必须在九月补考。", "ok": true, "note": "限定性从句说明“哪些学生”，删掉后主句所指改变。" },
+          { "en": "The students, who had all passed the test, were given certificates.", "zh": "这些学生全都通过了考试，都拿到了证书。", "ok": true, "note": "非限定性从句补充说明全体学生都通过了，删掉不影响主句成立。" },
+          { "en": "He introduced me to his editor, that had worked with him for years.", "zh": "他把我介绍给了他的编辑，那位编辑与他合作多年。", "ok": false, "note": "逗号后的非限定性从句不能用 that，指人应改为 who。" },
+          { "en": "She arrived an hour late, which made the interviewer impatient.", "zh": "她迟到了一个小时，这让面试官很不耐烦。", "ok": true, "note": "which 指代整个主句，非限定性从句作补充评论。" },
+          { "en": "The book, I borrowed from the library, is overdue.", "zh": "我从图书馆借的那本书逾期了。", "ok": false, "note": "非限定性从句的关系词作宾语也不能省略，应补上 which。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Beijing, that is the capital of China, attracts millions of tourists.", "right": "Beijing, which is the capital of China, attracts millions of tourists.", "why": "专有名词后只能是非限定性从句，而非限定性从句不允许 that。" },
+          { "wrong": "My uncle, that I visited last summer, lives in a village.", "right": "My uncle, whom I visited last summer, lives in a village.", "why": "非限定性从句不能用 that；关系词作 visited 的宾语，正式文体用 whom。" },
+          { "wrong": "He passed the exam, that delighted his parents.", "right": "He passed the exam, which delighted his parents.", "why": "指代整个主句只能用 which，且非限定性从句不能用 that。" }
+        ],
+        "contrast": { "withTitle": "定语从句与其他从句的辨识", "diff": "本知识点解决“加不加逗号、能不能用 that”；辨识知识点解决“这个从句到底是不是定语从句”，判据是有无先行词以及关系词是否充当成分。" },
+        "mnemonic": "能删的是补充，有逗号不用 that；不能删的是限定，删了主句就说不清。"
+      },
+      "review": {
+        "core": [
+          "判据：删除从句，主句是否还能明确指认对象",
+          "限定性：无逗号，可用 that，作宾语的关系词可省略",
+          "非限定性：有逗号，不用 that，关系词不能省略",
+          "专有名词、唯一性限定、整体类指之后用非限定性",
+          "同一先行词加不加逗号，句子的预设完全不同"
+        ],
+        "trigger": "看到逗号 + 关系词 → 先做删除测试 → 排除 that 并检查关系词有没有被省略",
+        "quickCheck": [
+          { "q": "非限定性从句能用 that 吗？", "a": "不能，指人用 who，指物用 which。" },
+          { "q": "The students, who passed, were praised. 说明多少人通过？", "a": "全体学生都通过了。" },
+          { "q": "非限定性从句作宾语时关系词能省略吗？", "a": "不能省略。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.relative_clause.restrictive-nonrestrictive.d1",
+          "type": "choice",
+          "stem": "My grandfather, ___ fought in the war, never talked about it.",
+          "options": ["who", "that", "which", "whom"],
+          "answer": "who",
+          "explain": "逗号之间是非限定性从句，不能用 that；关系词在从句中作 fought 的主语，指人用 who。",
+          "trap": "that 是最强干扰项，它在限定性从句中常替代 who，但非限定性从句一律排除 that。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.relative_clause.restrictive-nonrestrictive.d2",
+          "type": "fill",
+          "stem": "The volunteers, most of ___ had no medical training, worked around the clock.",
+          "answer": "whom",
+          "accept": ["whom"],
+          "hint": "先行词 the volunteers 指人，空格前是介词 of。",
+          "explain": "非限定性从句中数量词 + of + 关系词，先行词指人，介词后必须用宾格 whom。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.relative_clause.restrictive-nonrestrictive.d3",
+          "type": "correct",
+          "stem": "The Great Wall, that runs across northern China, was built over many centuries.",
+          "answer": "The Great Wall, which runs across northern China, was built over many centuries.",
+          "accept": ["The Great Wall, which runs across northern China, was built over many centuries."],
+          "explain": "专有名词后的逗号从句属非限定性，that 不能引导非限定性从句，指物改用 which。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.restrictive-nonrestrictive.d4",
+          "type": "choice",
+          "stem": "The players who were injured were replaced at half time. 这句话的意思是：",
+          "options": ["只有受伤的球员被替换下场", "所有球员都受伤了，因此全被替换", "球员们拒绝被替换下场", "受伤的球员拒绝下场"],
+          "answer": "只有受伤的球员被替换下场",
+          "explain": "句中 who were injured 前没有逗号，是限定性从句，用来限定 the players 的范围，说明被替换的只是受伤的那部分。",
+          "trap": "若读成“所有球员”，等于把从句当非限定性，但非限定性必须有逗号，本句没有。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.restrictive-nonrestrictive.d5",
+          "type": "translate",
+          "stem": "我哥哥住在柏林，他是一名翻译。",
+          "answer": "My brother, who lives in Berlin, is a translator.",
+          "require": [["brother"], ["who"], ["translator"]],
+          "forbid": ["that lives", "which lives"],
+          "explain": "先行词由 my 限定已唯一，从句只是补充信息，须用逗号隔开并采用 who，不能用 that。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.restrictive-nonrestrictive.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["My", "brother,", "who", "lives", "in", "Berlin,", "is", "a", "translator."],
+          "answer": "My brother, who lives in Berlin, is a translator.",
+          "explain": "非限定性从句前后各有一个逗号，关系词 who 不能省略，主句是 My brother is a translator。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.relative_clause.agreement",
+      "title": "定语从句中的主谓一致",
+      "brief": "从句谓语跟先行词，不跟紧邻的名词",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["clause.relative_clause.who-whom-whose", "syntax.subject_verb_agreement.grammatical"],
+      "concept": {
+        "summary": "定语从句谓语动词的单复数由先行词决定，与从句中紧邻谓语的词无关。判定分两步：先定位先行词，再看它是单数还是复数。one of + 复数名词 + 关系词后用复数谓语；the only one of + 复数名词 + 关系词后用单数谓语。",
+        "sections": [
+          {
+            "h": "两步判定",
+            "p": "选词流程的第二步确定关系词之后，才轮到谓语的形式。第一步永远是定位先行词：关系词前面的那个名词，而不是从句里离谓语最近的名词，也不是主句的主语。",
+            "bullets": [
+              "第一步 定位先行词：关系词前面的名词性成分",
+              "第二步 定数：先行词单数 → 从句谓语单数；先行词复数 → 从句谓语复数",
+              "The books on the shelf which was bought last week... 中 which 的先行词是 shelf，不是 books"
+            ]
+          },
+          {
+            "h": "one of 与 the only one of",
+            "p": "这两个结构是核心考点，差别只在 only 一词：加了 only，先行词从复数名词收缩为单数的 one，从句谓语随之变单数。",
+            "bullets": [
+              "He is one of the students who have won the scholarship.（先行词 students）",
+              "He is the only one of the students who has won the scholarship.（先行词 one）",
+              "This is one of the problems that remain unsolved."
+            ]
+          },
+          {
+            "h": "特殊先行词的数",
+            "p": "先行词本身的数不由形式决定，而由语义决定：集合名词看强调整体还是成员，数量短语看中心词，which 指代整句时按单数处理。",
+            "bullets": [
+              "集合名词 the team / the family / the government：强调整体用单数，强调成员用复数",
+              "each / every / either / neither + 单数名词 → 从句谓语单数",
+              "the number of + 复数名词 → 单数；a number of + 复数名词 → 复数",
+              "which 指代整个主句时，从句谓语用单数：He came late, which annoys everyone."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She is one of the few women who have won that prize.", "zh": "她是少数获得该奖项的女性之一。", "ok": true, "note": "one of + 复数名词结构中先行词是 women，从句谓语用复数 have。" },
+          { "en": "She is one of the few women who has won that prize.", "zh": "她是少数获得该奖项的女性之一。", "ok": false, "note": "one of 后先行词是复数名词 women，从句谓语须用复数。" },
+          { "en": "He is the only one of the applicants who has passed the interview.", "zh": "他是申请者中唯一通过面试的人。", "ok": true, "note": "the only one of 把先行词限定为单数的 one，从句谓语用单数 has。" },
+          { "en": "He is the only one of the applicants who have passed the interview.", "zh": "他是申请者中唯一通过面试的人。", "ok": false, "note": "only 限定了先行词为单数的 one，从句谓语须用 has。" },
+          { "en": "The number of students who study abroad has risen steadily.", "zh": "出国留学的学生人数稳步上升。", "ok": true, "note": "从句先行词是复数 students，用 study；主句主语 the number 为单数，用 has。" },
+          { "en": "The books on the top shelf, which was built into the wall, are rare editions.", "zh": "顶层书架上的书都是珍本，那个书架是嵌在墙里的。", "ok": true, "note": "which 的先行词是 shelf 而非 books，从句谓语用单数 was。" },
+          { "en": "Anyone who want to join the trip should sign up by Friday.", "zh": "想参加这次旅行的人应在周五前报名。", "ok": false, "note": "先行词 anyone 为单数，从句谓语应为 wants。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Tom is one of the boys who has joined the club.", "right": "Tom is one of the boys who have joined the club.", "why": "one of 结构中先行词是复数名词 boys，从句谓语与 boys 一致用复数。" },
+          { "wrong": "She is the only one of the students who have read the whole novel.", "right": "She is the only one of the students who has read the whole novel.", "why": "the only one of 把先行词收回单数的 one，从句谓语随之变为单数。" },
+          { "wrong": "The price of the houses that was built last year has doubled.", "right": "The price of the houses that were built last year has doubled.", "why": "that 的先行词是 houses，不是紧邻的 last year，也不是主句主语 price。" }
+        ],
+        "contrast": { "withTitle": "语法一致原则", "diff": "语法一致处理主句主语与谓语的关系；定语从句的一致多了一步定位——先找到先行词，再套用同一条一致原则。" },
+        "mnemonic": "先找先行词，再定单复数；one of 用复数，the only one of 用单数。"
+      },
+      "review": {
+        "core": [
+          "从句谓语与先行词一致，不与紧邻名词一致",
+          "one of + 复数名词 + 关系词 → 复数谓语",
+          "the only one of + 复数名词 + 关系词 → 单数谓语",
+          "集合名词看语义：整体单数，成员复数",
+          "the number of 用单数，a number of 用复数；which 指代整句用单数"
+        ],
+        "trigger": "看到定语从句里的谓语 → 先往前找关系词 → 再往前锁定先行词 → 最后定单复数",
+        "quickCheck": [
+          { "q": "He is one of the students who ___ (be) late. 填什么？", "a": "are，先行词是 students。" },
+          { "q": "the only one of 结构从句谓语用单数还是复数？", "a": "单数，先行词是 one。" },
+          { "q": "which 指代整个主句时谓语用什么？", "a": "单数，如 which annoys everyone。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.relative_clause.agreement.d1",
+          "type": "choice",
+          "stem": "She is one of the engineers who ___ worked on the new engine.",
+          "options": ["have", "has", "is", "was"],
+          "answer": "have",
+          "explain": "one of + 复数名词结构中，关系词的先行词是复数名词 engineers，从句谓语用复数 have。",
+          "trap": "has 是受紧邻的 one 干扰而误判，先行词不在 one 上。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.relative_clause.agreement.d2",
+          "type": "fill",
+          "stem": "He is the only one of the candidates who ___ (speak) three languages fluently.",
+          "answer": "speaks",
+          "accept": ["speaks"],
+          "hint": "注意 the only one of 已经把先行词限定为单数。",
+          "explain": "the only one of 结构中先行词是单数的 one，从句谓语用第三人称单数 speaks。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.agreement.d3",
+          "type": "correct",
+          "stem": "Tom is one of the boys who has joined the drama club.",
+          "answer": "Tom is one of the boys who have joined the drama club.",
+          "accept": ["Tom is one of the boys who have joined the drama club."],
+          "explain": "one of 结构的先行词是复数名词 boys，从句谓语须与 boys 一致，用 have joined。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.agreement.d4",
+          "type": "choice",
+          "stem": "The number of people who ___ online every day keeps growing.",
+          "options": ["shop", "shops", "is shopping", "has shopped"],
+          "answer": "shop",
+          "explain": "从句的先行词是复数名词 people，谓语用 shop；主句主语 the number 才是单数，由 keeps 承担。",
+          "trap": "shops 是误把主句主语 the number 当作从句先行词，两个谓语因此都被写成单数。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.agreement.d5",
+          "type": "translate",
+          "stem": "他是唯一一个通过这场考试的学生。",
+          "answer": "He is the only one of the students who has passed the exam.",
+          "require": [["only one"], ["who has"]],
+          "forbid": ["who have"],
+          "explain": "the only one of 把先行词限定为单数的 one，从句谓语用 has passed；若说 one of the students，谓语才用 have。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.relative_clause.agreement.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "number", "of", "students", "who", "study", "abroad", "is", "rising."],
+          "answer": "The number of students who study abroad is rising.",
+          "explain": "从句先行词是复数 students，谓语用 study；主句主语是 the number，谓语用 is。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "clause.relative_clause.identification",
+      "title": "定语从句与其他从句的辨识",
+      "brief": "先行词加成分双重检验，判断从句性质",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["clause.relative_clause.relative-adverbs"],
+      "concept": {
+        "summary": "判定是不是定语从句用两道检验：一看从句前有没有名词性先行词，二看引导词在从句里是否充当成分。两条都成立是定语从句；引导词只连接、不作成分，且从句内容就是前面抽象名词的内容，是同位语从句；从句前没有先行词、修饰主句谓语，是状语从句。",
+        "sections": [
+          {
+            "h": "定语从句与同位语从句",
+            "p": "两类从句都跟在抽象名词后，区别在 that 是否在从句中作成分，以及从句是不是该名词的内容。这一点必须先于选词流程的第一步完成：定性不对，后面缺主、缺宾的判断全部落空。",
+            "bullets": [
+              "The news that he told us was false.（that 作 told 的宾语 → 定语从句）",
+              "The news that our team had won spread quickly.（that 不作成分，从句就是 news 的内容 → 同位语从句）",
+              "检验：能说 The news is that... 成立 → 同位语从句",
+              "which 与 who 不能引导同位语从句，同位语从句的引导词限于 that、whether 等",
+              "流程位置：先确认有没有先行词、引导词占不占成分，再进入“先行词 → 成分 → 限定性 → 介词”四步"
+            ]
+          },
+          {
+            "h": "定语从句与状语从句",
+            "p": "where 与 when 两类引导词都能出现在两种从句里，区别是有没有先行词。有先行词、从句修饰该名词 → 定语从句；没有先行词、从句修饰主句谓语 → 状语从句。",
+            "bullets": [
+              "Put the box where you can reach it.（地点状语从句，无先行词）",
+              "Put the box in the place where you can reach it.（定语从句，先行词是 the place）",
+              "I will call you when I arrive.（时间状语从句）；I still remember the day when we met.（定语从句）"
+            ]
+          },
+          {
+            "h": "定语从句与强调句",
+            "p": "强调句的结构是 It is/was + 被强调部分 + that，去掉这一框架后句子仍然完整。定语从句的 that 可以换成 which 而句意不变，强调句的 that 不能换成 which，这是第二条可操作的检验。",
+            "bullets": [
+              "It was in 1990 that the bridge was built.（去掉框架后 In 1990 the bridge was built. 成立 → 强调句）",
+              "It was the bridge that was built in 1990.（that 可换成 which → 定语从句）",
+              "强调句中被强调的成分可以是状语，定语从句的关系词永远不能充当被强调成分"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The news that he told us turned out to be false.", "zh": "他告诉我们的那个消息结果是假的。", "ok": true, "note": "that 在从句中作 told 的宾语，从句修饰 news，是定语从句。" },
+          { "en": "The news that the factory would close spread through the town.", "zh": "工厂将要关闭的消息传遍了全镇。", "ok": true, "note": "that 不作成分，从句内容就是 news 本身，是同位语从句。" },
+          { "en": "The news which the factory would close spread through the town.", "zh": "工厂将要关闭的消息传遍了全镇。", "ok": false, "note": "从句说明 news 的内容且不缺成分，须用 that 引导同位语从句，which 不能这样用。" },
+          { "en": "She put the documents where the manager could find them.", "zh": "她把文件放在经理能找到的地方。", "ok": true, "note": "没有先行词，where 从句修饰 put 的地点，是地点状语从句。" },
+          { "en": "She put the documents in the drawer where the manager could find them.", "zh": "她把文件放在经理能找到的那个抽屉里。", "ok": true, "note": "有先行词 the drawer，where 从句修饰它，是定语从句。" },
+          { "en": "I will never forget the days when I spent in the countryside.", "zh": "我永远不会忘记在乡下度过的那些日子。", "ok": false, "note": "spent 缺宾语，先行词在从句中作宾语，应改为 that 或 which。" },
+          { "en": "The reason because he gave sounded convincing.", "zh": "他给出的理由听起来很有说服力。", "ok": false, "note": "because 不能引导定语从句；先行词在从句中作 gave 的宾语，应用 that 或 which。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The fact which she had resigned surprised nobody.", "right": "The fact that she had resigned surprised nobody.", "why": "从句结构完整、内容就是 fact 本身，属同位语从句，只能用 that 引导。" },
+          { "wrong": "This is the house where he was born in.", "right": "This is the house where he was born.", "why": "where 已包含 in which，句末再加 in 会造成介词重复。" },
+          { "wrong": "It was in the library where I first met her.", "right": "It was in the library that I first met her.", "why": "被强调的是地点状语 in the library，强调句的框架固定用 that，where 不能替代。" }
+        ],
+        "contrast": { "withTitle": "状语从句与定语从句的辨析", "diff": "本知识点用先行词与成分两条检验给从句定性；该辨析专攻 where/when 类引导词在两类从句中的分工与语义差别。" },
+        "mnemonic": "有先行词、引导词作成分 → 定语从句；只连接不作成分 → 同位语；没有先行词 → 状语从句。"
+      },
+      "review": {
+        "core": [
+          "两道检验：有无名词性先行词，引导词在从句中是否充当成分",
+          "同位语从句的 that 不作成分，从句内容等于前面抽象名词的内容",
+          "which 与 who 不能引导同位语从句",
+          "where/when 前有先行词是定语从句，无先行词是状语从句",
+          "强调句去掉 It is/was 与 that 后句子仍完整，且 that 不能换成 which"
+        ],
+        "trigger": "看到抽象名词后的 that 或 where/when → 先查先行词 → 再把引导词代回从句看它占不占成分",
+        "quickCheck": [
+          { "q": "The news that he told me 中 that 作什么成分？", "a": "作 told 的宾语，所以是定语从句。" },
+          { "q": "同位语从句能用 which 引导吗？", "a": "不能，只能用 that、whether 等。" },
+          { "q": "It was in 1990 ___ the bridge was built. 填什么？", "a": "that，这是强调句。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.relative_clause.identification.d1",
+          "type": "choice",
+          "stem": "The news ___ the company was closing down spread within an hour.",
+          "options": ["that", "which", "what", "when"],
+          "answer": "that",
+          "explain": "从句结构完整，内容就是 news 本身，属于同位语从句，只能用 that 引导。",
+          "trap": "which 在从句中必须充当主语或宾语，而本句从句主宾齐全，which 没有成分可以承担。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.identification.d2",
+          "type": "fill",
+          "stem": "She hid the letter in a place ___ nobody would think of looking.",
+          "answer": "where",
+          "accept": ["where", "in which"],
+          "hint": "空格前有先行词 a place。",
+          "explain": "a place 是先行词，从句缺地点状语，用 where 或 in which 引导定语从句。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.relative_clause.identification.d3",
+          "type": "correct",
+          "stem": "The fact which she had never learned to swim surprised her classmates.",
+          "answer": "The fact that she had never learned to swim surprised her classmates.",
+          "accept": ["The fact that she had never learned to swim surprised her classmates."],
+          "explain": "从句不缺主语也不缺宾语，内容就是 fact 本身，属于同位语从句，引导词只能用 that。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.relative_clause.identification.d4",
+          "type": "choice",
+          "stem": "It was in the small café ___ they first discussed the business plan.",
+          "options": ["that", "where", "which", "when"],
+          "answer": "that",
+          "explain": "去掉 It was 与空格后的部分，In the small café they first discussed the business plan 仍然成立，说明这是强调句，框架词用 that。",
+          "trap": "where 会让句子读成“咖啡馆里讨论”，但此处被强调的是地点状语 in the small café，强调句不能用 where。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.relative_clause.identification.d5",
+          "type": "translate",
+          "stem": "他辞职的消息让所有人感到意外。",
+          "answer": "The news that he had resigned surprised everyone.",
+          "require": [["news"], ["that"], ["surprised"]],
+          "forbid": ["news which", "news what"],
+          "explain": "从句说明 news 的内容且不缺成分，是同位语从句，用 that 引导；what 自带先行词，不能与 news 并用。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.identification.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "news", "that", "our", "team", "had", "won", "spread", "quickly."],
+          "answer": "The news that our team had won spread quickly.",
+          "explain": "that 从句内容即 news 本身，是同位语从句；主句谓语 spread 与主语 the news 搭配。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "clause.relative_clause.reduction",
+      "title": "定语从句的简化",
+      "brief": "关系词作主语才能压成分词短语",
+      "difficulty": 4,
+      "tags": ["难点", "写作"],
+      "prereq": ["clause.relative_clause.who-whom-whose", "nonfinite.present_participle.attributive"],
+      "concept": {
+        "summary": "定语从句简化的前提是关系词在从句中作主语。主动语态改为现在分词，被动语态改为过去分词，系表结构可省略 be 只留表语。关系词作宾语时不能压成分词短语，只能省略关系词保留从句，或改用不定式表示将来与顺序。",
+        "sections": [
+          {
+            "h": "三步简化",
+            "p": "简化发生在选词流程之后：先按流程确定关系词与成分，关系词作主语才谈得上压缩。压缩时删掉关系词与 be，再用分词承担原谓语的动作。",
+            "bullets": [
+              "第一步 看关系词在从句中作什么成分：作主语才能简化成分词短语",
+              "第二步 判断主动还是被动：主动 → 现在分词；被动 → 过去分词",
+              "第三步 检查逻辑主语：分词短语的逻辑主语必须就是先行词",
+              "The bridge which was built in 1990 → the bridge built in 1990",
+              "The students who are studying abroad → the students studying abroad"
+            ]
+          },
+          {
+            "h": "作宾语时的两条出路",
+            "p": "关系词作宾语时，从句主语与先行词不一致，无法压成分词短语。此时只有两种处理：省略关系词保留从句，或用不定式改写。",
+            "bullets": [
+              "The book (which) I bought yesterday is a classic.（省略关系词，从句保留）",
+              "He was the first man who walked on the moon. → He was the first man to walk on the moon.",
+              "序数词、最高级、the only 之后的定语从句常简化为不定式"
+            ]
+          },
+          {
+            "h": "不能简化的情形",
+            "p": "三类情况必须保留从句：从句含情态动词表推测或虚拟；从句时态与主句不在同一时间平面（完成、将来）；非限定性从句简化后会失去补充说明的独立性。",
+            "bullets": [
+              "the man who might have seen her 不能压成 the man having seen her",
+              "the questions that will be discussed tomorrow 常保留从句或用 to be discussed",
+              "非限定性从句在正式写作中一般保留，避免信息层级被压平"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The bridge built in 1990 is still in use.", "zh": "1990 年建成的那座桥仍在使用。", "ok": true, "note": "原从句 which was built 为被动，简化后保留过去分词 built。" },
+          { "en": "The bridge building in 1990 is still in use.", "zh": "1990 年建成的那座桥仍在使用。", "ok": false, "note": "bridge 与 build 是被动关系，应用过去分词 built；现在分词表主动。" },
+          { "en": "The students studying abroad will return next month.", "zh": "在国外学习的那些学生下个月回国。", "ok": true, "note": "原从句 who are studying 为主动进行，简化为现在分词短语。" },
+          { "en": "The students studied abroad will return next month.", "zh": "在国外学习的那些学生下个月回国。", "ok": false, "note": "学生是学习行为的发出者，主动关系须用现在分词 studying，过去分词表被动。" },
+          { "en": "Anyone wishing to join the club should fill in this form.", "zh": "想加入俱乐部的人应填写这张表。", "ok": true, "note": "who wishes 简化为现在分词 wishing，逻辑主语 anyone 与先行词一致。" },
+          { "en": "She was the first woman to win the prize.", "zh": "她是第一位获得该奖项的女性。", "ok": true, "note": "序数词 first 后的定语从句简化为不定式 to win。" },
+          { "en": "The novel writing by Lu Xun in 1921 is still widely read.", "zh": "鲁迅1921 年写的那部小说至今仍被广泛阅读。", "ok": false, "note": "novel 与 write 是被动关系，应用过去分词 written。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The man walked along the river is my uncle.", "right": "The man walking along the river is my uncle.", "why": "man 是 walk 的执行者，主动关系须用现在分词 walking；过去分词表被动或完成。" },
+          { "wrong": "The report publishing last week caused a stir.", "right": "The report published last week caused a stir.", "why": "report 与 publish 是被动关系，简化时用过去分词 published。" },
+          { "wrong": "The questions that discussed at the meeting remain open.", "right": "The questions discussed at the meeting remain open.", "why": "简化时关系词与 be 必须一起删除；只删 be 会留下 that + 过去分词这种残缺结构。" }
+        ],
+        "contrast": { "withTitle": "现在分词作定语", "diff": "本知识点处理从句到短语的转换，先有从句再压缩；分词作定语处理短语内部主动与被动的选择，两者共用“逻辑主语 + 主动/被动”这一条判据。" },
+        "mnemonic": "主语位置才能压：主动 -ing，被动 -ed；宾语位置只能省，序数最高用 to do。"
+      },
+      "review": {
+        "core": [
+          "前提：关系词在从句中作主语，才能简化成分词短语",
+          "主动用现在分词，被动用过去分词，系表结构省略 be",
+          "关系词作宾语时只省略关系词，或改用不定式",
+          "序数词、最高级、the only 之后常用不定式",
+          "情态、将来、非限定性从句一般保留原句"
+        ],
+        "trigger": "看到 who/which + be + 分词或形容词 → 试着删掉关系词与 be → 再核对逻辑主语与主动被动",
+        "quickCheck": [
+          { "q": "the bridge which was built 简化后是什么？", "a": "the bridge built。" },
+          { "q": "关系词作宾语时能压成分词短语吗？", "a": "不能，只能省略关系词或用不定式。" },
+          { "q": "the first man who walked on the moon 怎么简化？", "a": "the first man to walk on the moon。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.relative_clause.reduction.d1",
+          "type": "choice",
+          "stem": "The problems ___ at yesterday's meeting remain unsolved.",
+          "options": ["discussed", "discussing", "to discuss", "discuss"],
+          "answer": "discussed",
+          "explain": "problems 与 discuss 是被动关系，简化 which were discussed 后保留过去分词 discussed。",
+          "trap": "discussing 表主动，等于问题在讨论别人，与 problems 的逻辑关系相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.reduction.d2",
+          "type": "fill",
+          "stem": "The girl ___ (sing) on the stage is my cousin.",
+          "answer": "singing",
+          "accept": ["singing"],
+          "hint": "女孩与唱歌是主动关系。",
+          "explain": "原从句 who is singing 为主动进行，简化后去掉关系词与 be，保留现在分词 singing。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.relative_clause.reduction.d3",
+          "type": "correct",
+          "stem": "The bridge building in 1990 is still in use.",
+          "answer": "The bridge built in 1990 is still in use.",
+          "accept": ["The bridge built in 1990 is still in use."],
+          "explain": "桥是被建造的对象，与 build 构成被动关系，简化 which was built 时须用过去分词 built。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.relative_clause.reduction.d4",
+          "type": "choice",
+          "stem": "He was the first scientist ___ a vaccine against the disease.",
+          "options": ["to develop", "developing", "developed", "who develop"],
+          "answer": "to develop",
+          "explain": "先行词被序数词 first 修饰，定语从句常简化为不定式，表示“第一个做某事的人”。",
+          "trap": "developing 表示正在研发，与“第一个研制出”的完成意义不符；who develop 主谓不一致。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.relative_clause.reduction.d5",
+          "type": "translate",
+          "stem": "这座用竹子建成的桥已经有一百年历史了。",
+          "answer": "The bridge built of bamboo is already a hundred years old.",
+          "require": [["bridge built"], ["hundred years"]],
+          "forbid": ["bridge building", "bridge which built"],
+          "explain": "桥与 build 是被动关系，which was built of bamboo 简化为过去分词短语 built of bamboo。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.relative_clause.reduction.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "students", "studying", "abroad", "will", "return", "next", "month."],
+          "answer": "The students studying abroad will return next month.",
+          "explain": "who are studying abroad 简化为现在分词短语 studying abroad，逻辑主语 students 与先行词一致。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

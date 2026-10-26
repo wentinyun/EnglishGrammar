@@ -1,0 +1,543 @@
+{
+  "level1": "syntax",
+  "chapter": "sentence_elements",
+  "items": [
+    {
+      "id": "syntax.sentence_elements.subject-forms",
+      "title": "主语的形式与位置",
+      "brief": "先定位谓语，谓语之前被陈述的成分即主语",
+      "difficulty": 1,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "判定主语只看两条：它是谓语动词陈述的对象，且与谓语保持人称和数的一致。英语陈述句的主语必须在谓语之前，只有在疑问句、完全倒装句和 there be 句型中才移到谓语之后。主语不能是介词短语。",
+        "sections": [
+          {
+            "h": "主语的四种形式",
+            "p": "凡是能充当名词的成分都能作主语。判定时不必先看形式，先看它在句中的位置与功能，形式只是结果。",
+            "bullets": [
+              "名词或名词短语：The old bridge collapsed last winter.",
+              "代词：Nobody expected such an ending.",
+              "动名词、不定式：Reading aloud helps pronunciation. / To master a language takes years.",
+              "名词性从句：What she said surprised everyone.",
+              "the + 形容词：The disabled need better access to public transport."
+            ]
+          },
+          {
+            "h": "位置的三种例外",
+            "p": "主语并非永远在最前面。疑问句把助动词提到主语前，完全倒装把整个谓语提到主语前，there be 句型用 there 占主语位置而把真正的主语放在 be 之后。这三处的主语都在谓语之后，不能因为位置靠后就否认它是主语。",
+            "bullets": [
+              "疑问句：Has the train left?（the train 仍是主语）",
+              "完全倒装：In the corner stood an old piano.",
+              "存在句：There is a book on the desk.（a book 是真正主语）",
+              "祈使句没有主语，这是唯一合法的空缺：Close the door, please."
+            ]
+          },
+          {
+            "h": "三步定位法",
+            "p": "第一步划出句中的限定动词，第二步用「谁/什么 + 这个动作」提问，第三步确认答句中的名词与谓语在人称和数上一致。三步走完，剩下的成分才是宾语、状语或表语。",
+            "bullets": [
+              "The students in the front row raised their hands. → 谁举手？the students，不是 the front row。",
+              "There are three errors in this paragraph. → 什么存在？three errors。",
+              "To finish the report by Friday seems impossible. → 什么似乎不可能？整个不定式短语。"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Reading aloud every morning helps improve pronunciation.", "zh": "每天早晨朗读有助于改善发音。", "ok": true, "note": "动名词短语作主语，视为一个整体概念，谓语用单数 helps。" },
+          { "en": "What she said at the meeting surprised everyone.", "zh": "她在会上说的话让所有人都感到意外。", "ok": true, "note": "名词性从句作主语，谓语用单数 surprised。" },
+          { "en": "The disabled need better access to public transport.", "zh": "残疾人需要更便利的公共交通。", "ok": true, "note": "the + 形容词指一类人，是复数概念，谓语用 need。" },
+          { "en": "In the corner stood an old piano.", "zh": "角落里立着一架旧钢琴。", "ok": true, "note": "地点状语前置引起完全倒装，主语 an old piano 位于谓语 stood 之后。" },
+          { "en": "Reading books are good for children.", "zh": "读书对孩子有好处。", "ok": false, "note": "动名词短语作主语是一个整体概念，谓语须用单数 is。" },
+          { "en": "Is very important to keep a balanced diet.", "zh": "保持均衡饮食非常重要。", "ok": false, "note": "句子缺少主语，须用 it 作形式主语：It is very important to keep a balanced diet." },
+          { "en": "In the front row sat the guests of honour.", "zh": "前排坐着贵宾们。", "ok": true, "note": "完全倒装中主语后置，谓语 sat 与复数主语 the guests 一致。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Collecting stamps are his favourite hobby.", "right": "Collecting stamps is his favourite hobby.", "why": "动名词短语作主语时被视为一个不可分割的概念，谓语按单数处理，不受 stamps 的复数词尾影响。" },
+          { "wrong": "There are a book on the desk.", "right": "There is a book on the desk.", "why": "there be 的真正主语是 be 之后的名词，be 动词与该名词一致，而不是与 there 一致。" },
+          { "wrong": "Learn a language without practice is difficult.", "right": "Learning a language without practice is difficult.", "why": "动词原形不能占据主语位置，须改为动名词或不定式才能名词化。" }
+        ],
+        "contrast": { "withTitle": "形式主语 it", "diff": "真正主语是不定式或从句时，it 只占主语位置并承担与谓语的一致关系；真正的主语本身不再具备主语功能。" },
+        "mnemonic": "先找谓语再问谁，谓语之前是主语；疑问倒装存在句，主语跑到动词后。"
+      },
+      "review": {
+        "core": [
+          "主语 = 谓语陈述的对象，且与谓语保持人称和数的一致",
+          "四种形式：名词短语、代词、动名词与不定式、名词性从句、the + 形容词",
+          "陈述句主语在谓语前；疑问句、完全倒装、there be 中主语后置",
+          "动名词、不定式、主语从句作主语，谓语一律用单数",
+          "祈使句无主语，是唯一合法的空缺"
+        ],
+        "trigger": "看到句子先划出限定动词，再问「谁/什么 + 这个动作」，答案就是主语",
+        "quickCheck": [
+          { "q": "There are three errors in this paragraph 的主语是哪个词？", "a": "three errors，be 动词与它一致。" },
+          { "q": "Reading books ___ (be) good for children. 填什么？", "a": "is，动名词短语作主语按单数处理。" },
+          { "q": "In the corner stood an old piano 中哪个是主语？", "a": "an old piano，完全倒装使它位于谓语之后。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.sentence_elements.subject-forms.d1",
+          "type": "choice",
+          "stem": "___ seems that the train has been delayed by the heavy snow.",
+          "options": ["It", "That", "There", "This"],
+          "answer": "It",
+          "explain": "真正的主语是 that 引导的名词性从句，it 作形式主语占据句首位置，谓语 seems 与 it 一致用单数。",
+          "trap": "That 引导主语从句时要直接位于句首作主语，如 That the train has been delayed seems obvious，不能与形式主语 it 的结构混用；此处句首需要一个无实义的形式主语。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.subject-forms.d2",
+          "type": "fill",
+          "stem": "___ (read) English newspapers aloud every day improves your sense of language.",
+          "answer": "Reading",
+          "accept": ["Reading"],
+          "hint": "空格位于句首、谓语是 improves，说明需要一个单数概念作主语。",
+          "explain": "动名词短语作主语表示一种习惯性行为，被当作一个整体，谓语用单数 improves；动词原形不能充当主语。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.subject-forms.d3",
+          "type": "correct",
+          "stem": "Collecting stamps are his favourite hobby.",
+          "answer": "Collecting stamps is his favourite hobby.",
+          "accept": ["Collecting stamps is his favourite hobby."],
+          "explain": "动名词短语 collecting stamps 作主语时是单数概念，谓语须用 is，不能被 stamps 的复数形式带偏。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.subject-forms.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["What", "she", "said", "at", "the", "meeting", "surprised", "everyone."],
+          "answer": "What she said at the meeting surprised everyone.",
+          "explain": "what 引导的名词性从句整体作主语，surprised 是谓语，everyone 是宾语。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.subject-forms.d5",
+          "type": "translate",
+          "stem": "在公共场合大声喧哗是不礼貌的。",
+          "answer": "It is impolite to talk loudly in public.",
+          "require": [["it is"], ["to talk", "to speak"], ["in public"]],
+          "forbid": ["talk loudly in public is", "to talk loudly in public is impolite"],
+          "explain": "真正的主语是不定式短语 to talk loudly in public，英语习惯用 it 作形式主语把它后置，避免头重脚轻。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.sentence_elements.subject-forms.d6",
+          "type": "choice",
+          "stem": "At the front of the hall ___ the guests of honour.",
+          "options": ["sat", "did the guests of honour sit", "was sitting", "were sat"],
+          "answer": "sat",
+          "explain": "地点状语置于句首引起完全倒装，整个谓语 sat 提到主语之前；主语 the guests of honour 是复数，sat 没有单复数变化。",
+          "trap": "was sitting 与复数主语不一致；were sat 把不及物动词 sit 误作被动，sit 表示「坐」时没有被动语态。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.sentence_elements.predicate",
+      "title": "谓语的构成与唯一性",
+      "brief": "一个简单句只有一个承担时态的限定谓语",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["syntax.sentence_elements.subject-forms"],
+      "concept": {
+        "summary": "谓语的判定标准是能独立承担时态、人称和数的变化。一个简单句只能有一个限定谓语；助动词与实义动词叠在一起仍算同一个谓语。句中若出现第二个动词，必须把它降级为非谓语、并入并列谓语或放进从句。",
+        "sections": [
+          {
+            "h": "谓语的四种构成",
+            "p": "谓语可以很短，也可以很长，长度不影响它的唯一性。判断时数的是「承担时态的核心」，不是单词个数。",
+            "bullets": [
+              "单一实义动词：She teaches history.",
+              "助动词 + 实义动词：He has been working all night.（完成进行体）",
+              "情态动词 + 实义动词：You must hand in the form today.",
+              "系动词 + 表语：The soup tastes salty.（系动词单独充当谓语）",
+              "被动结构：The window was broken by the storm."
+            ]
+          },
+          {
+            "h": "唯一性原则与三条出路",
+            "p": "一个分句只能有一个限定谓语。出现第二个能变时态的动词时，只有三条合法出路：改成非谓语形式、用连词构成并列谓语、或把它放进从句。三条路都不走，句子就错。",
+            "bullets": [
+              "降级为非谓语：The man standing at the gate is my uncle.",
+              "并列谓语：He got up early and caught the first bus.",
+              "进入从句：The girl who sings well won the contest.",
+              "错误示范：× There are many students study in the library."
+            ]
+          },
+          {
+            "h": "谓语与主语的呼应位置",
+            "p": "时态与人称只体现在第一个助动词上，后面的动词一律用非限定形式。判定主谓一致时，看的也是这个位置。",
+            "bullets": [
+              "She has finished the report. / They have finished the report.",
+              "The letters were sent yesterday. / The letter was sent yesterday.",
+              "情态动词不体现人称与数：He can swim. / They can swim."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She has been working on the report since Monday.", "zh": "她从周一起一直在写这份报告。", "ok": true, "note": "has been working 由两个助动词加现在分词构成，整体只是一个谓语。" },
+          { "en": "The window was broken by the storm.", "zh": "窗户被暴风雨打破了。", "ok": true, "note": "was broken 是被动语态的谓语，be 动词承担时态与数。" },
+          { "en": "He got up early and caught the first bus.", "zh": "他起得很早，赶上了第一班公交车。", "ok": true, "note": "and 连接两个限定动词，构成并列谓语，仍属同一个简单句。" },
+          { "en": "The man standing at the gate is my uncle.", "zh": "站在门口的那个人是我叔叔。", "ok": true, "note": "standing 是非谓语作定语，is 是句中唯一的限定谓语。" },
+          { "en": "He can plays the piano very well.", "zh": "他钢琴弹得很好。", "ok": false, "note": "情态动词后必须接动词原形，一个谓语内部不能出现两个承担时态的形式，应改为 can play。" },
+          { "en": "There are many students study in the library every evening.", "zh": "每天晚上都有很多学生在图书馆学习。", "ok": false, "note": "are 已是限定谓语，study 须降级为 studying 作定语，或删去 there be 改写为 Many students study..." },
+          { "en": "My father is watching the news in the living room.", "zh": "我父亲正在客厅看新闻。", "ok": true, "note": "is watching 是现在进行体的一个谓语，is 承担人称与数。" }
+        ],
+        "pitfalls": [
+          { "wrong": "My father is watch TV now.", "right": "My father is watching TV now.", "why": "be 动词不能与动词原形并列作谓语，进行体必须是 be + 现在分词。" },
+          { "wrong": "The girl sings well won the contest.", "right": "The girl who sings well won the contest.", "why": "sings 与 won 两个限定动词之间没有连词，须把前一个降为定语从句。" },
+          { "wrong": "He was died in 1990.", "right": "He died in 1990.", "why": "die 是不及物动词，没有被动语态，过去式 died 本身即可作谓语。" }
+        ],
+        "contrast": { "withTitle": "非谓语动词", "diff": "谓语承担时态与人称变化且每句只有一个；非谓语不承担时态与人称变化，只能充当主语、宾语、定语或状语。" },
+        "mnemonic": "一句一谓语，助动词不算多；第二个动词要降级，非谓语、连词、从句三选一。"
+      },
+      "review": {
+        "core": [
+          "谓语 = 句中承担时态、人称、数变化的动词部分",
+          "be/do/have/情态 + 实义动词属于同一个谓语，不违反唯一性",
+          "一个简单句只有一个限定谓语，第二个动词必须降级或加连词",
+          "并列谓语由 and/but/or 连接，主语仍是同一个",
+          "系动词 + 表语结构中，系动词就是谓语"
+        ],
+        "trigger": "数句中的动词，找出能变时态的那个，其余动词必须降级或进入从句",
+        "quickCheck": [
+          { "q": "has been working 算几个谓语？", "a": "一个，助动词叠加不增加谓语数量。" },
+          { "q": "There are many students study here 错在哪里？", "a": "are 与 study 两个限定谓语之间没有连词。" },
+          { "q": "He was died in 1990 为什么错？", "a": "die 是不及物动词，不能用被动语态。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.sentence_elements.predicate.d1",
+          "type": "choice",
+          "stem": "The bridge ___ next year will connect the two villages.",
+          "options": ["to be built", "will build", "is built", "building"],
+          "answer": "to be built",
+          "explain": "句中已有谓语 will connect，空格处只能放非谓语；bridge 与 build 是被动关系且动作在未来，故用不定式被动式 to be built 作后置定语。",
+          "trap": "will build 会造出 will build 与 will connect 两个限定谓语，违反唯一性原则。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.sentence_elements.predicate.d2",
+          "type": "fill",
+          "stem": "By the time we arrived, the concert ___ (begin).",
+          "answer": "had begun",
+          "accept": ["had begun"],
+          "hint": "by the time 加过去时间，说明动作发生在另一个过去动作之前。",
+          "explain": "谓语由助动词 had 加过去分词 begun 构成，整体是一个过去完成时谓语，表示「过去的过去」；助动词的存在不违反唯一性。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.sentence_elements.predicate.d3",
+          "type": "correct",
+          "stem": "There are many students study in the reading room every evening.",
+          "answer": "There are many students studying in the reading room every evening.",
+          "accept": ["There are many students studying in the reading room every evening."],
+          "explain": "are 已经是限定谓语，study 必须降级为现在分词 studying 作后置定语，修饰 students。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.predicate.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "man", "standing", "at", "the", "gate", "is", "my", "uncle."],
+          "answer": "The man standing at the gate is my uncle.",
+          "explain": "standing at the gate 是非谓语短语作定语，is 是句中唯一的限定谓语。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.predicate.d5",
+          "type": "translate",
+          "stem": "他每天早起并赶第一班公交车。",
+          "answer": "He gets up early every day and catches the first bus.",
+          "require": [["gets up"], ["catches"]],
+          "forbid": ["and catch the first bus", "get up early every day and"],
+          "explain": "and 连接两个并列谓语，两个动词都要与第三人称单数主语 He 一致，因此都用 -s 形式。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.sentence_elements.predicate.d6",
+          "type": "choice",
+          "stem": "The soup ___ delicious, but it is actually quite salty.",
+          "options": ["tastes", "is tasted", "tasting", "taste"],
+          "answer": "tastes",
+          "explain": "taste 在此是系动词，本身即谓语，与单数主语 The soup 一致用 tastes，后接形容词作表语。",
+          "trap": "is tasted 把系动词误当及物动词变成被动，系动词没有被动形式。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "syntax.sentence_elements.object-vs-complement",
+      "title": "宾语与宾语补足语的辨识",
+      "brief": "补足语与宾语之间有逻辑主谓关系",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["syntax.sentence_elements.predicate"],
+      "concept": {
+        "summary": "判定标准只有一条：在宾语和后面的成分之间插入 be 动词，若能构成合理的命题（宾语 + be + 该成分），它就是宾语补足语；若不能，则要么是双宾语中的第二个宾语，要么是状语。宾语补足语与宾语有逻辑主谓关系，双宾语之间没有。",
+        "sections": [
+          {
+            "h": "插入 be 的三步判定",
+            "p": "第一步找出动词后的第一个名词短语，第二步在它与后面的成分之间插入 be，第三步读一遍：语义成立即宾补，语义荒谬即双宾语。双宾语的验证方法是把间接宾语改成介词短语，句子仍成立。",
+            "bullets": [
+              "They elected him chairman. → He is chairman. 成立，chairman 是宾补。",
+              "She gave him a book. → He is a book. 不成立，him 与 a book 是双宾语。",
+              "We found the room empty. → The room is empty. 成立，empty 是宾补。",
+              "He sent his sister a parcel. → He sent a parcel to his sister. 成立，双宾语。"
+            ]
+          },
+          {
+            "h": "常带宾补的动词",
+            "p": "这几类动词的宾语后必须跟一个补充说明成分，否则语义不完整。记住类别比记单词更有效。",
+            "bullets": [
+              "使役类：make, let, have, get",
+              "感官类：see, hear, watch, notice, feel, observe",
+              "认定类：consider, find, think, believe, elect, appoint, call, name",
+              "保持类：keep, leave, hold"
+            ]
+          },
+          {
+            "h": "宾补的五种形式与 to 的取舍",
+            "p": "宾补可以是名词、形容词、副词、介词短语、不定式或分词。使役动词与感官动词后的不定式省略 to，但句子变为被动语态时 to 必须还原。",
+            "bullets": [
+              "名词：They named the baby Tom.",
+              "形容词：Keep the door open.",
+              "副词与介词短语：I found him out. / She left the key under the mat.",
+              "不带 to 的不定式：He made us wait. → We were made to wait.",
+              "分词：I saw him crossing the street.（进行）/ I heard my name called.（被动）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "They appointed her manager of the branch.", "zh": "他们任命她为分公司经理。", "ok": true, "note": "her 与 manager 有逻辑主谓关系（She is manager），manager 是宾补。" },
+          { "en": "We found the classroom empty.", "zh": "我们发现教室空无一人。", "ok": true, "note": "The classroom is empty 成立，形容词 empty 作宾补。" },
+          { "en": "She asked me to close the window.", "zh": "她让我关上窗户。", "ok": true, "note": "不定式作宾补，me 是 to close 的逻辑主语。" },
+          { "en": "I saw him crossing the street.", "zh": "我看见他正在过马路。", "ok": true, "note": "现在分词作宾补，表示宾语正在进行的动作。" },
+          { "en": "The news made him happily.", "zh": "这个消息让他很高兴。", "ok": false, "note": "宾补描述宾语的状态，须用形容词 happy，副词 happily 不能作宾补。" },
+          { "en": "I heard him to sing in the next room.", "zh": "我听见他在隔壁房间唱歌。", "ok": false, "note": "感官动词 hear 后的宾补不定式省略 to，应改为 heard him sing。" },
+          { "en": "He kept the door open all night.", "zh": "他让门整夜开着。", "ok": true, "note": "open 是形容词作宾补，补充说明宾语 the door 的状态。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The teacher made us to clean the classroom.", "right": "The teacher made us clean the classroom.", "why": "使役动词 make 后的宾补不定式省略 to；只有句子变被动时 to 才还原为 we were made to clean。" },
+          { "wrong": "We found the room cleanly.", "right": "We found the room clean.", "why": "宾补描述宾语本身的状态，须用形容词；副词 cleanly 只能修饰动作。" },
+          { "wrong": "She explained me the rule.", "right": "She explained the rule to me.", "why": "explain 不能带双宾语，也不存在宾补关系，接受者必须用 to 引出。" }
+        ],
+        "contrast": { "withTitle": "双宾语结构", "diff": "双宾语是两个各自独立的受事，中间不能插入 be；宾补依附于宾语，中间插入 be 后语义成立。" },
+        "mnemonic": "中间加个 be，通就是宾补，不通就是双宾语。"
+      },
+      "review": {
+        "core": [
+          "判定式：宾语 + be + 后一成分，成立即宾补",
+          "双宾语之间无逻辑主谓关系，可改写为 动词 + 直接宾语 + to/for + 间接宾语",
+          "使役与感官动词后的宾补不定式省略 to，变被动时还原",
+          "宾补可由名词、形容词、副词、介词短语、不定式、分词充当",
+          "宾补说明宾语的状态或身份，不能用副词"
+        ],
+        "trigger": "看到 动词 + 名词 + 名词/形容词，先插入 be 试一次再定性",
+        "quickCheck": [
+          { "q": "We found the room empty 中 empty 是什么成分？", "a": "宾语补足语，The room is empty 成立。" },
+          { "q": "make 的被动语态中 to 要不要还原？", "a": "要，We were made to wait。" },
+          { "q": "explain 能接双宾语吗？", "a": "不能，只能说 explain sth to sb。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.sentence_elements.object-vs-complement.d1",
+          "type": "choice",
+          "stem": "They painted the wall ___ before the guests arrived.",
+          "options": ["white", "whitely", "whiteness", "in white"],
+          "answer": "white",
+          "explain": "white 是形容词作宾补，说明宾语 the wall 被涂成的状态；The wall is white 成立。",
+          "trap": "in white 是介词短语，通常表示人穿白色衣服，与墙的颜色无关，且无法与 the wall is... 构成命题。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.object-vs-complement.d2",
+          "type": "fill",
+          "stem": "The teacher made us ___ (hand) in the essay before Friday.",
+          "answer": "hand",
+          "accept": ["hand"],
+          "hint": "make 属于使役动词，注意宾补中 to 的去留。",
+          "explain": "make 后作宾补的不定式省略 to，直接用动词原形 hand，与宾语 us 构成逻辑主谓关系。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.object-vs-complement.d3",
+          "type": "correct",
+          "stem": "I heard her to sing a folk song at the party.",
+          "answer": "I heard her sing a folk song at the party.",
+          "accept": ["I heard her sing a folk song at the party."],
+          "explain": "感官动词 hear 后的宾补不定式省略 to，改为 heard her sing；若强调动作正在进行则用 heard her singing。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.object-vs-complement.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["They", "appointed", "her", "manager", "of", "the", "branch."],
+          "answer": "They appointed her manager of the branch.",
+          "explain": "appoint 属认定类动词，her 是宾语，manager 是宾补，二者构成 She is manager 的逻辑主谓关系。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.object-vs-complement.d5",
+          "type": "translate",
+          "stem": "我们发现教室空无一人。",
+          "answer": "We found the classroom empty.",
+          "require": [["found"], ["classroom"], ["empty"]],
+          "forbid": ["found the classroom emptily", "found the classroom is empty"],
+          "explain": "find 后接宾语加形容词作宾补，empty 直接说明 classroom 的状态，不需 be 动词；加 is 会形成两个谓语。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.sentence_elements.object-vs-complement.d6",
+          "type": "choice",
+          "stem": "He asked me ___ the door open while he carried the boxes in.",
+          "options": ["to keep", "keep", "keeping", "kept"],
+          "answer": "to keep",
+          "explain": "ask 不属于使役动词，其宾补不定式必须带 to，构成 ask sb to do sth。",
+          "trap": "keep 只有 make/let/have 这类使役动词才省略 to，ask 后的 to 不能省。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.sentence_elements.attributive-adverbial-predicative",
+      "title": "定语、状语、表语的功能判定",
+      "brief": "看它修饰谁：名词是定语，动词是状语，系动词后是表语",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["syntax.sentence_elements.object-vs-complement"],
+      "concept": {
+        "summary": "三种成分靠「修饰对象 + 位置」区分：定语修饰名词或代词，回答「哪一个、什么样的」；状语修饰动词、形容词、副词或整句，回答「何时、何地、如何、为何」；表语位于系动词之后，说明主语的身份或状态。同一形式可以承担不同功能，判定必须回到被修饰对象。",
+        "sections": [
+          {
+            "h": "定语：向名词靠拢",
+            "p": "定语的功能是把名词的范围缩小。前置定语由形容词、名词、分词充当；后置定语由介词短语、不定式、分词短语、定语从句充当。判定方法是把它改写成 which/that is... 的形式，能改写的是定语。",
+            "bullets": [
+              "前置：a wooden desk, the rising sun, a broken window",
+              "后置：the girl in the blue coat, a book to read, the man standing there",
+              "改写测试：the girl in the blue coat = the girl who is in the blue coat",
+              "位置限制：形容词修饰 something/anything 一类复合不定代词时必须后置"
+            ]
+          },
+          {
+            "h": "状语：向动词靠拢",
+            "p": "状语修饰谓语或整个句子，删掉后句子仍然成立，只是信息减少。这正是它与宾语、宾补的分界线：宾语和宾补删掉后句子会残缺或改变语义。",
+            "bullets": [
+              "时间与地点：He left for Paris last Friday.",
+              "方式：She spoke to me in a whisper.",
+              "原因与目的：He stayed home because of the rain.",
+              "位置灵活：Last Friday he left for Paris. / He left for Paris last Friday."
+            ]
+          },
+          {
+            "h": "表语：系动词的搭档",
+            "p": "表语只出现在系动词之后，说明主语是什么或处于什么状态。系动词后的位置只能用名词、形容词、介词短语、不定式或从句，不能用副词。",
+            "bullets": [
+              "常见系动词：be, become, seem, look, feel, taste, smell, sound, remain, stay, keep, turn, grow, get",
+              "The plan sounds reasonable.（形容词）",
+              "She remained in bed all day.（介词短语）",
+              "His only aim was to win.（不定式）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The girl in the blue coat is my cousin.", "zh": "穿蓝外套的那个女孩是我表妹。", "ok": true, "note": "介词短语修饰 girl，可改写为 the girl who is in the blue coat，是定语。" },
+          { "en": "She spoke to me in a whisper.", "zh": "她低声跟我说话。", "ok": true, "note": "介词短语修饰 spoke，说明方式，是状语。" },
+          { "en": "His explanation sounds convincing.", "zh": "他的解释听起来很有说服力。", "ok": true, "note": "形容词位于系动词 sounds 之后，说明主语的性质，是表语。" },
+          { "en": "The letter written in 1943 was found in the attic.", "zh": "那封写于 1943 年的信在阁楼里被找到了。", "ok": true, "note": "过去分词短语修饰 letter，是后置定语。" },
+          { "en": "The soup smells badly.", "zh": "这汤闻起来很糟糕。", "ok": false, "note": "smell 是系动词，后接形容词作表语，应改为 smells bad。" },
+          { "en": "He explained the rule clear.", "zh": "他把规则解释得很清楚。", "ok": false, "note": "修饰实义动词 explained 须用副词 clearly 作状语；若要用 clear，须改为 made the rule clear。" },
+          { "en": "The children are playing happily in the garden.", "zh": "孩子们正在花园里开心地玩。", "ok": true, "note": "happily 修饰 playing，in the garden 说明地点，都是状语。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The flowers smell sweetly.", "right": "The flowers smell sweet.", "why": "smell 在此是系动词，后接形容词作表语；sweetly 是副词，只能修饰动作。" },
+          { "wrong": "He finished the work success.", "right": "He finished the work successfully.", "why": "修饰动词 finished 的成分须是副词，success 是名词不能作状语。" },
+          { "wrong": "This is the book I bought it yesterday.", "right": "This is the book I bought yesterday.", "why": "定语从句中关系代词作宾语时已占据宾语位置，不能再保留代词 it。" }
+        ],
+        "contrast": { "withTitle": "宾语补足语", "diff": "表语说明主语，位置固定在系动词后；宾补说明宾语，位置固定在宾语后，两者都可用形容词，但描述对象不同。" },
+        "mnemonic": "定语问「哪一个」，状语问「怎么、何时、何地」，表语答「主语是什么」。"
+      },
+      "review": {
+        "core": [
+          "定语修饰名词，可用 which/that is... 改写验证",
+          "状语修饰动词或整句，删掉后句子仍成立",
+          "表语只在系动词后，说明主语的身份或状态",
+          "系动词后接形容词，不能接副词",
+          "修饰实义动词一律用副词，修饰名词用形容词"
+        ],
+        "trigger": "先问这个成分在修饰谁：名词定语，动词状语，系动词后表语",
+        "quickCheck": [
+          { "q": "The soup smells ___ (bad/badly). 填哪个？", "a": "bad，系动词后接形容词作表语。" },
+          { "q": "in the blue coat 在 The girl in the blue coat is my cousin 中是什么成分？", "a": "定语，修饰 the girl。" },
+          { "q": "状语删掉后句子还成立吗？", "a": "成立，只是信息减少，这是它与宾语、宾补的分界。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.sentence_elements.attributive-adverbial-predicative.d1",
+          "type": "choice",
+          "stem": "Her voice sounded ___ over the phone, as if she had been crying.",
+          "options": ["strange", "strangely", "stranger", "strangeness"],
+          "answer": "strange",
+          "explain": "sound 在此是系动词，后接形容词 strange 作表语，说明主语 her voice 的性质。",
+          "trap": "strangely 是副词，只能修饰动作，不能占据系动词后的表语位置。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.attributive-adverbial-predicative.d2",
+          "type": "fill",
+          "stem": "He answered the interviewer's question ___ (confident).",
+          "answer": "confidently",
+          "accept": ["confidently"],
+          "hint": "空格修饰的是实义动词 answered。",
+          "explain": "修饰实义动词的成分是状语，须用副词 confidently；形容词 confident 只能作定语或表语。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.attributive-adverbial-predicative.d3",
+          "type": "correct",
+          "stem": "The teacher explained the rule very clear to the whole class.",
+          "answer": "The teacher explained the rule very clearly to the whole class.",
+          "accept": ["The teacher explained the rule very clearly to the whole class."],
+          "explain": "very clear 修饰的是动词 explained，须改为副词 clearly 作状语；clear 只有在 make the rule clear 这类结构中才作宾补。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.attributive-adverbial-predicative.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "girl", "in", "the", "blue", "coat", "is", "my", "cousin."],
+          "answer": "The girl in the blue coat is my cousin.",
+          "explain": "in the blue coat 是介词短语作后置定语修饰 the girl，is my cousin 是系表结构。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_elements.attributive-adverbial-predicative.d5",
+          "type": "translate",
+          "stem": "花园里的花闻起来很香。",
+          "answer": "The flowers in the garden smell sweet.",
+          "require": [["flowers"], ["smell"], ["sweet"]],
+          "forbid": ["smell sweetly", "smells sweet"],
+          "explain": "in the garden 是定语修饰 flowers，主语中心词为复数，谓语用 smell；smell 是系动词，后接形容词 sweet 作表语。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.sentence_elements.attributive-adverbial-predicative.d6",
+          "type": "choice",
+          "stem": "The book ___ on the desk belongs to my sister.",
+          "options": ["lying", "lain", "lies", "lay"],
+          "answer": "lying",
+          "explain": "句中已有谓语 belongs，空格处须用非谓语作后置定语；lie 表示「平放」时现在分词为 lying，与 book 构成主动关系。",
+          "trap": "lies 会造成两个限定谓语；lain 是 lie 的过去分词，不能表示主动持续的状态。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

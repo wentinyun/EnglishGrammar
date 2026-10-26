@@ -1,0 +1,1101 @@
+{
+  "level1": "morph",
+  "chapter": "conjunctions",
+  "items": [
+    {
+      "id": "morph.conjunctions.coordinating",
+      "title": "并列连词的逻辑关系",
+      "brief": "先定分句间的逻辑关系，再选对应连接词",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "并列连词把两个语法地位相同的成分连接起来，选哪一个由分句之间的逻辑关系决定：添加用 and，转折用 but 或 yet，选择用 or，结果用 so，补充理由用 for，否定并列用 nor。两条硬约束：同一对分句不能同时出现两个连接词，如 although 与 but、because 与 so；连词两边的成分必须语法形式一致。",
+        "sections": [
+          {
+            "h": "五种逻辑与对应连词",
+            "p": "判断时先说出前后两句是什么关系，再对号入座。汉语里“和、但是、或者、所以、因为”几乎能一一对应，唯一需要留意的是 for 与 so 的方向相反。",
+            "bullets": [
+              "添加：and, both...and, not only...but also",
+              "转折：but, yet, while（对比）",
+              "选择：or（选择或“否则”）、either...or",
+              "结果：so",
+              "原因：for（补充说明依据，不能置句首）",
+              "否定并列：nor, neither...nor"
+            ]
+          },
+          {
+            "h": "so 与 for 的方向",
+            "p": "so 后面是结果，for 后面是理由，两者位置不能互换。for 引导的分句只能放在结论之后，用逗号隔开，作用类似“补充说明我为什么这样说”。",
+            "bullets": [
+              "so：He studied hard, so he passed the exam.（前因后果）",
+              "for：He passed the exam, for he had studied hard.（前果后因）",
+              "× For he was ill, he did not come. → He did not come, for he was ill."
+            ]
+          },
+          {
+            "h": "祈使句 + and / or",
+            "p": "这一结构里，and 引出顺接的好结果，or 引出相反的坏结果，相当于“否则”。选错会直接把句意反转，是选择题的高频陷阱。",
+            "bullets": [
+              "Work hard, and you will succeed.（努力，你就会成功）",
+              "Hurry up, or you will miss the train.（快点，否则你会误车）",
+              "or 还可表纯选择：Would you like tea or coffee?"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He studied hard, so he passed the exam.", "zh": "他学习刻苦，所以通过了考试。", "ok": true, "note": "so 引出结果，前一分句是原因。" },
+          { "en": "Because he studied hard, so he passed the exam.", "zh": "因为他学习刻苦，所以通过了考试。", "ok": false, "note": "because 是从属连词，so 是并列连词，同一因果关系只能用一个，须删去 so。" },
+          { "en": "It was raining, for the streets were wet.", "zh": "当时在下雨，因为街道都湿了。", "ok": true, "note": "for 引出推断依据，分句置于结论之后。" },
+          { "en": "For he was ill, he did not come to the meeting.", "zh": "因为病了，他没来开会。", "ok": false, "note": "for 引导的分句只能后置，应改为 He did not come to the meeting, for he was ill." },
+          { "en": "Hurry up, or you will miss the train.", "zh": "快点，否则你会误车。", "ok": true, "note": "祈使句 + or 表示“否则”，引出相反的坏结果。" },
+          { "en": "Hurry up, and you will miss the train.", "zh": "快点，你就会误车。", "ok": false, "note": "and 表顺接，会得出“快点就能误车”的荒谬结论，此处须用 or。" },
+          { "en": "She is a doctor, while her brother is a lawyer.", "zh": "她是医生，而她弟弟是律师。", "ok": true, "note": "while 在此表对比，连接两个并列分句。" },
+          { "en": "He didn't apologize, nor did he explain.", "zh": "他没有道歉，也没有解释。", "ok": true, "note": "nor 连接否定分句，且引起部分倒装。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Although he was tired, but he kept working.", "right": "Although he was tired, he kept working.", "why": "although 引导让步从句，but 连接并列分句，两者功能重复，同一转折只能保留一个。" },
+          { "wrong": "For he was ill, he stayed at home.", "right": "He stayed at home, for he was ill.", "why": "for 引导的分句只能放在结论之后，补充说明判断依据。" },
+          { "wrong": "He is rich, and he is not happy.", "right": "He is rich, but he is not happy.", "why": "and 只表添加，前后语义相反时必须用转折连词。" }
+        ],
+        "contrast": { "withTitle": "连接副词与连词的区别", "diff": "并列连词能直接用逗号连接两个分句，连接副词不能；后者必须靠分号或句号承担连接功能。" },
+        "mnemonic": "and 加、but 转、or 选或否、so 结果、for 补理由；一个关系只用一个词。"
+      },
+      "review": {
+        "core": [
+          "五种关系：添加 and、转折 but/yet、选择 or、结果 so、原因 for",
+          "so 前因后果，for 前果后因，且 for 只能后置",
+          "祈使句 + and 表好结果，+ or 表“否则”",
+          "同一对分句不能同时用 although 与 but、because 与 so",
+          "并列连词连接的成分必须语法形式一致"
+        ],
+        "trigger": "看到两个分句 → 先判定是添加、转折、选择、结果还是原因 → 再检查是否已有另一个连接词",
+        "quickCheck": [
+          { "q": "because 与 so 能同时出现吗？", "a": "不能，一个因果只保留一个连接词。" },
+          { "q": "“快点，否则你会迟到”用 and 还是 or？", "a": "用 or，表“否则”。" },
+          { "q": "for 引导的分句能放在句首吗？", "a": "不能，只能放在结论之后。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.conjunctions.coordinating.d1",
+          "type": "choice",
+          "stem": "Hurry up, ___ we will miss the opening ceremony.",
+          "options": ["or", "and", "so", "but"],
+          "answer": "or",
+          "explain": "祈使句后接“否则会错过”的坏结果，用 or；此时 or 等于 otherwise。",
+          "trap": "and 是最强干扰项：祈使句 + and 表“那么就会”，会把句意变成“快点就能错过”。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.conjunctions.coordinating.d2",
+          "type": "fill",
+          "stem": "She has never been abroad, ___ has her husband.",
+          "answer": "nor",
+          "accept": ["nor", "neither"],
+          "hint": "后一分句是倒装语序，且与前面的否定保持一致。",
+          "explain": "前句是否定，后句用 nor 或 neither 引出倒装，表示“也没有”，不能用 or 或 and。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.coordinating.d3",
+          "type": "correct",
+          "stem": "Although the task was difficult, but we finished it on time.",
+          "answer": "Although the task was difficult, we finished it on time.",
+          "accept": ["Although the task was difficult, we finished it on time."],
+          "explain": "although 引导让步从句，已经承担了转折功能，再加并列连词 but 会造成重复，须删去 but。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.coordinating.d4",
+          "type": "choice",
+          "stem": "He must be ill, ___ he looks so pale.",
+          "options": ["for", "so", "or", "but"],
+          "answer": "for",
+          "explain": "前一分句是判断，后一分句是做出这个判断的依据，属于“前果后因”，用 for。",
+          "trap": "so 是强干扰项：so 要求前因后果，而这里 pale 是“他病了”的依据，方向正好相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.coordinating.d5",
+          "type": "translate",
+          "stem": "快点，否则你会迟到。",
+          "answer": "Hurry up, or you will be late.",
+          "require": [["or"], ["late"]],
+          "forbid": ["and you will be late", "hurry up and"],
+          "explain": "祈使句 + or 表示“否则”，引出与期望相反的结果；用 and 会把句意变成“快点就会迟到”。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.coordinating.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "is", "a", "doctor,", "while", "her", "brother", "is", "a", "lawyer."],
+          "answer": "She is a doctor, while her brother is a lawyer.",
+          "explain": "while 在此连接两个并列分句，表示两种身份的对比，前后结构完全对称。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.conjunctions.correlative-agreement",
+      "title": "关联连词的主谓一致",
+      "brief": "both...and 用复数，其余四组就近一致",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["morph.conjunctions.coordinating"],
+      "concept": {
+        "summary": "关联连词决定谓语单复数时有两条相反的规则：both...and 连接两个并列主语，谓语一律用复数；either...or、neither...nor、not only...but also、not...but 采用就近原则，谓语与最靠近它的那个主语一致。此外 not only 置于句首时，前一分句要部分倒装。",
+        "sections": [
+          {
+            "h": "一律复数：both...and",
+            "p": "both...and 把两个主语合成一个复数概念，谓语永远用复数，即使两项都是单数。这一组不用于否定句，否定要用 neither...nor。",
+            "bullets": [
+              "Both the teacher and the students were surprised.",
+              "Both his father and his mother are teachers.",
+              "× Both he and I am wrong. → Both he and I are wrong."
+            ]
+          },
+          {
+            "h": "就近一致的四组",
+            "p": "这四组把两个主语并列，但谓语只看离它最近的那一个。做题时把两个主语遮挡其中一个，只留靠近谓语的那一项，就能直接读出单复数。",
+            "bullets": [
+              "Neither the manager nor his assistants were informed.（就近 assistants，用复数）",
+              "Neither the assistants nor the manager was informed.（就近 manager，用单数）",
+              "Not only the students but also the teacher was excited.",
+              "Either you or he is responsible for the accident."
+            ]
+          },
+          {
+            "h": "not only 句首的倒装",
+            "p": "not only 提到句首时，它所在的前一分句要部分倒装，把助动词或情态动词放到主语之前；but also 引导的后一分句保持正常语序。",
+            "bullets": [
+              "Not only did she finish the report, but she also presented it.",
+              "Not only has he read the book, but he also remembers the details.",
+              "× Not only she finished the report... → Not only did she finish..."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Both the teacher and the students were surprised.", "zh": "老师和学生都很惊讶。", "ok": true, "note": "both...and 连接两个主语，谓语一律用复数 were。" },
+          { "en": "Both the teacher and the students was surprised.", "zh": "老师和学生都很惊讶。", "ok": false, "note": "both...and 视为复数概念，谓语不能用 was。" },
+          { "en": "Neither the manager nor his assistants were informed of the change.", "zh": "经理和助手们都没有被告知这一变动。", "ok": true, "note": "neither...nor 就近，最近的主语 assistants 是复数，用 were。" },
+          { "en": "Neither the manager nor his assistants was informed of the change.", "zh": "经理和助手们都没有被告知这一变动。", "ok": false, "note": "就近原则要求谓语与 assistants 一致，须用 were。" },
+          { "en": "Not only the students but also the teacher was excited about the trip.", "zh": "不仅学生，老师也对这次旅行感到兴奋。", "ok": true, "note": "not only...but also 就近，最近的主语 the teacher 是单数，用 was。" },
+          { "en": "Not only the students but also the teacher were excited about the trip.", "zh": "不仅学生，老师也对这次旅行感到兴奋。", "ok": false, "note": "谓语应就近与 the teacher 一致，用 was 而不是 were。" },
+          { "en": "Not only did she finish the report, but she also presented it.", "zh": "她不仅完成了报告，还做了汇报。", "ok": true, "note": "not only 置于句首，前一分句部分倒装，助动词 did 提到主语前。" },
+          { "en": "Not only she finished the report, but she also presented it.", "zh": "她不仅完成了报告，还做了汇报。", "ok": false, "note": "not only 在句首时前一分句必须倒装，应改为 Not only did she finish..." }
+        ],
+        "pitfalls": [
+          { "wrong": "Not only the parents but also the headmaster were present.", "right": "Not only the parents but also the headmaster was present.", "why": "not only...but also 用就近原则，最近的主语 the headmaster 是单数。" },
+          { "wrong": "Neither the students nor the teacher were satisfied.", "right": "Neither the students nor the teacher was satisfied.", "why": "neither...nor 用就近原则，最近的主语 teacher 是单数。" },
+          { "wrong": "Not only he did apologize, but he also paid for the damage.", "right": "Not only did he apologize, but he also paid for the damage.", "why": "not only 置于句首时前一分句部分倒装，助动词须提到主语之前。" }
+        ],
+        "contrast": { "withTitle": "and 连接主语的一致问题", "diff": "并列连词 and 连接的两个主语一般按复数处理；本知识点处理的是带关联词的主语，其中四组改用就近原则。" },
+        "mnemonic": "both...and 全复数；either、neither、not only 三组看最近；not only 在句首，前半句倒装。"
+      },
+      "review": {
+        "core": [
+          "both...and 连接主语，谓语一律用复数",
+          "either...or、neither...nor、not only...but also、not...but 用就近原则",
+          "就近判断法：遮住较远的主语，只看靠近谓语的那一个",
+          "not only 置于句首时前一分句部分倒装",
+          "both...and 不用于否定，否定用 neither...nor"
+        ],
+        "trigger": "看到关联连词连接两个主语 → 先认词，both 用复数，其余四组只看最近的主语",
+        "quickCheck": [
+          { "q": "Neither the driver nor the passengers ___ hurt. 填什么？", "a": "were，就近 passengers。" },
+          { "q": "Both his father and his mother ___ teachers. 填什么？", "a": "are，both...and 用复数。" },
+          { "q": "Not only 在句首要注意什么？", "a": "前一分句要部分倒装，助动词提到主语前。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.conjunctions.correlative-agreement.d1",
+          "type": "choice",
+          "stem": "Neither the driver nor the passengers ___ hurt in the accident.",
+          "options": ["were", "was", "is", "has been"],
+          "answer": "were",
+          "explain": "neither...nor 采用就近原则，最靠近谓语的主语 passengers 是复数，且事故发生在过去，用 were。",
+          "trap": "was 是最强干扰项：受 the driver 单数的影响，忽略了就近原则只看最近的主语。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.correlative-agreement.d2",
+          "type": "fill",
+          "stem": "Both my brother and my sister ___ (be) fond of jazz.",
+          "answer": "are",
+          "accept": ["are"],
+          "hint": "两个主语由 both...and 连接。",
+          "explain": "both...and 把两个单数主语合成复数概念，谓语用 are，不遵循就近原则。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.conjunctions.correlative-agreement.d3",
+          "type": "correct",
+          "stem": "Not only the students but also their teacher were invited to the ceremony.",
+          "answer": "Not only the students but also their teacher was invited to the ceremony.",
+          "accept": ["Not only the students but also their teacher was invited to the ceremony."],
+          "explain": "not only...but also 用就近原则，最靠近谓语的主语 their teacher 是单数，谓语须用 was。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.correlative-agreement.d4",
+          "type": "choice",
+          "stem": "Not only ___ the deadline, but he also delivered a better report.",
+          "options": ["did he meet", "he met", "he did meet", "met he"],
+          "answer": "did he meet",
+          "explain": "not only 位于句首，前一分句须部分倒装，把助动词 did 提到主语 he 之前，实义动词还原为原形。",
+          "trap": "he met 是强干扰项：语序正常，但 not only 在句首时不倒装即属语法错误。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.correlative-agreement.d5",
+          "type": "translate",
+          "stem": "不仅学生，老师也对这次参观感到兴奋。",
+          "answer": "Not only the students but also the teacher was excited about the visit.",
+          "require": [["not only"], ["but also"], ["was"]],
+          "forbid": ["but also the teacher were"],
+          "explain": "not only...but also 就近，最近的主语 the teacher 是单数，谓语用 was。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.correlative-agreement.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Both", "the", "manager", "and", "his", "assistant", "were", "absent."],
+          "answer": "Both the manager and his assistant were absent.",
+          "explain": "both...and 连接两个单数主语构成复数概念，谓语用 were。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.conjunctions.subordinator-vs-prep",
+      "title": "从属连词与介词短语的易混",
+      "brief": "空后是主谓结构用连词，是名词用介词",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["morph.prepositions.reason"],
+      "concept": {
+        "summary": "分界线只有一条：空后接的是完整的主谓结构，还是名词性成分。接从句就用从属连词 because、although、while、unless、when；接名词、代词或动名词就用介词短语 because of、despite、in spite of、during、without。判断时先看空后有没有自己的主语和谓语，再决定词性。",
+        "sections": [
+          {
+            "h": "五组成对清单",
+            "p": "这五组意思几乎相同，差别只在后面接什么。记住成对关系，做题时先看空后结构再取词。",
+            "bullets": [
+              "because + 从句 / because of + 名词",
+              "although, though, even though + 从句 / despite, in spite of + 名词",
+              "while + 从句 / during + 名词",
+              "unless + 从句 / without + 名词或动名词",
+              "when + 从句 / on + 动名词（on arriving）"
+            ]
+          },
+          {
+            "h": "两步判定",
+            "p": "第一步看空后是否出现主语加谓语：有则用连词。第二步若只有名词性成分，则用介词，且介词后的动词必须变成动名词。",
+            "bullets": [
+              "× despite he worked hard → despite his hard work / although he worked hard",
+              "× because of it rained → because it rained / because of the rain",
+              "× without he said goodbye → without saying goodbye"
+            ]
+          },
+          {
+            "h": "语义相同不等于可以直接换",
+            "p": "介词短语与从句可以互相改写，但改写时必须补出或删去主语和谓语，不能只替换一个词。改写的方向决定句子结构，不是两个词的自由互换。",
+            "bullets": [
+              "despite the rain = although it rained",
+              "during the lecture = while the lecture was going on",
+              "because of his illness = because he was ill"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Although the weather was bad, the match went on.", "zh": "虽然天气不好，比赛照常进行。", "ok": true, "note": "空后是完整从句 the weather was bad，用从属连词 although。" },
+          { "en": "Despite the weather was bad, the match went on.", "zh": "虽然天气不好，比赛照常进行。", "ok": false, "note": "despite 是介词，只能带名词性成分，此处应改为 Although the weather was bad 或 Despite the bad weather。" },
+          { "en": "He was absent because of a family emergency.", "zh": "他因家中急事缺席。", "ok": true, "note": "a family emergency 是名词短语，用介词短语 because of。" },
+          { "en": "He was absent because a family emergency.", "zh": "他因家中急事缺席。", "ok": false, "note": "because 后必须接从句，此处只有名词短语，应改为 because of。" },
+          { "en": "During the lecture, several students took notes.", "zh": "讲座期间，几名学生做了笔记。", "ok": true, "note": "the lecture 是名词短语，表示“在…期间”用介词 during。" },
+          { "en": "While the lecture, several students took notes.", "zh": "讲座期间，几名学生做了笔记。", "ok": false, "note": "while 是从属连词，必须引导从句，此处应改为 During the lecture。" },
+          { "en": "She finished the report without asking for help.", "zh": "她没求助就完成了报告。", "ok": true, "note": "without 是介词，后面接动名词 asking。" },
+          { "en": "He left without he said goodbye.", "zh": "他没说再见就离开了。", "ok": false, "note": "without 是介词，不能接从句，应改为 without saying goodbye。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Despite he worked hard, he failed the test.", "right": "Although he worked hard, he failed the test.", "why": "despite 是介词，只能带名词性成分；空后是完整从句，须换成从属连词 although。" },
+          { "wrong": "Because of the traffic was heavy, we were late.", "right": "Because the traffic was heavy, we were late.", "why": "because of 后不能接从句，the traffic was heavy 有主语和谓语，须改用 because。" },
+          { "wrong": "While the holiday, the museum is crowded.", "right": "During the holiday, the museum is crowded.", "why": "while 必须引导从句；只有名词短语 the holiday 时用介词 during。" }
+        ],
+        "contrast": { "withTitle": "表示原因与理由的介词", "diff": "本知识点判断“用连词还是介词短语”，原因介词那一点判断“在介词里选哪一个”，前者看空后结构，后者看原因的性质。" },
+        "mnemonic": "空后有主谓，选连词；空后只有名词，选介词；介词后面跟动词，一律变 doing。"
+      },
+      "review": {
+        "core": [
+          "判定只看空后：有主谓结构用连词，只有名词性成分用介词",
+          "because / because of；although / despite；while / during；unless / without",
+          "介词后的动词必须用动名词：without saying goodbye",
+          "介词短语与从句改写时要补出或删去主语谓语",
+          "while 后不能只跟名词，during 后不能跟从句"
+        ],
+        "trigger": "看到空 → 先扫一遍空后有没有主语和谓语 → 有则连词，无则介词",
+        "quickCheck": [
+          { "q": "despite 后面能接句子吗？", "a": "不能，despite 是介词，须接名词或动名词。" },
+          { "q": "“在讲座期间”用 during 还是 while？", "a": "the lecture 是名词短语，用 during the lecture。" },
+          { "q": "without 后面的动词用什么形式？", "a": "动名词，如 without asking for help。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.conjunctions.subordinator-vs-prep.d1",
+          "type": "choice",
+          "stem": "___ the heavy snow, all the flights were cancelled.",
+          "options": ["Because of", "Because", "Although", "Since"],
+          "answer": "Because of",
+          "explain": "空后只有名词短语 the heavy snow，没有主谓结构，只能用介词短语 because of。",
+          "trap": "Because 是最强干扰项：它必须引导完整从句，不能直接带名词短语。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.subordinator-vs-prep.d2",
+          "type": "fill",
+          "stem": "He failed the exam ___ of his laziness.",
+          "answer": "because",
+          "accept": ["because"],
+          "hint": "空后是 of + 名词，说明这里需要一个能与 of 搭配的词。",
+          "explain": "because of 是固定介词短语，意为“由于”，of 不能单独承担这一功能。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.conjunctions.subordinator-vs-prep.d3",
+          "type": "correct",
+          "stem": "Despite the weather was terrible, the ceremony went on as planned.",
+          "answer": "Although the weather was terrible, the ceremony went on as planned.",
+          "accept": [
+            "Although the weather was terrible, the ceremony went on as planned.",
+            "Though the weather was terrible, the ceremony went on as planned.",
+            "Despite the terrible weather, the ceremony went on as planned."
+          ],
+          "explain": "despite 是介词，只能带名词性成分；空后 the weather was terrible 是完整从句，须改用连词 although，或把从句压缩成名词短语。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.subordinator-vs-prep.d4",
+          "type": "choice",
+          "stem": "___ the meeting, he took detailed notes.",
+          "options": ["During", "While", "When", "As"],
+          "answer": "During",
+          "explain": "空后只有名词短语 the meeting，表示“在…期间”须用介词 during。",
+          "trap": "While 是强干扰项：while 必须引导从句，后面不能只跟一个名词短语。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.subordinator-vs-prep.d5",
+          "type": "translate",
+          "stem": "尽管很累，他还是完成了工作。",
+          "answer": "Although he was tired, he finished the work.",
+          "require": [["although", "though"], ["finished", "completed"]],
+          "forbid": ["despite he", "although but"],
+          "explain": "空后需要完整从句，用从属连词 although；despite 是介词，只能接名词性成分。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.subordinator-vs-prep.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "was", "absent", "because", "of", "a", "family", "emergency."],
+          "answer": "He was absent because of a family emergency.",
+          "explain": "a family emergency 是名词短语，用 because of；若换成从句则须改写为 because his family had an emergency。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.conjunctions.time-conjunctions",
+      "title": "时间状语连词 before/after/until/when/while/as",
+      "brief": "按两个动作的先后、并行、持续选连词",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "选哪个时间连词取决于两个动作的时间关系：同时且都在持续用 while；同时发生并带“随着、一边…一边”的并行或变化用 as；一个动作在另一个时点发生用 when；有明显先后用 before 或 after；一直持续到某个终点用 until。所有时间状语从句都遵守主将从现，用一般现在时或现在完成时表示将来。",
+        "sections": [
+          {
+            "h": "when / while / as 的分工",
+            "p": "三者都可能译成“当…时”，区别在动作性质：when 兼容瞬间与延续，还可表示“就在这时”；while 强调一段时间的持续，从句动词必须能延续；as 强调两个动作同步推进或同步变化。",
+            "bullets": [
+              "when：When he arrived, we were having dinner.（arrive 是瞬间动词）",
+              "while：While I was reading, my brother was watching TV.（两个持续动作）",
+              "as：As time went by, he grew more confident.（同步变化）",
+              "be about to do ... when：I was about to leave when the phone rang."
+            ]
+          },
+          {
+            "h": "before / after / until",
+            "p": "before 与 after 只标记先后，主从句时态按实际时间安排。until 标记持续的终点，谓语必须是延续性动词；瞬间动词要把句子改成否定式，构成 not...until，表示“直到…才”。",
+            "bullets": [
+              "She cleaned the room before the guests arrived.",
+              "Wait here until I come back.（wait 延续）",
+              "He didn't go to bed until he finished the report.（go to bed 瞬间，故用否定）"
+            ]
+          },
+          {
+            "h": "主将从现",
+            "p": "时间状语从句不用 will 表示将来，而用一般现在时或现在完成时；主句才用将来时。这条规则同样适用于条件状语从句。",
+            "bullets": [
+              "I will call you when I arrive.（不是 when I will arrive）",
+              "We will start as soon as the rain has stopped.",
+              "× I will tell him when I will see him."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "While I was reading, my brother was watching TV.", "zh": "我在看书的时候，弟弟在看电视。", "ok": true, "note": "两个动作同时持续，用 while 引导从句。" },
+          { "en": "While the phone rang, I was cooking dinner.", "zh": "电话响的时候，我正在做晚饭。", "ok": false, "note": "rang 是瞬间动作，while 要求从句动词可以延续，应改为 When the phone rang。" },
+          { "en": "As time went by, he grew more confident.", "zh": "随着时间推移，他变得越来越自信。", "ok": true, "note": "两个变化同步推进，用 as 表示“随着”。" },
+          { "en": "I was about to leave when the phone rang.", "zh": "我正要出门，这时电话响了。", "ok": true, "note": "be about to do ... when 是固定结构，when 表“就在这时”。" },
+          { "en": "I will call you when I will arrive.", "zh": "我到了就给你打电话。", "ok": false, "note": "时间状语从句用一般现在时表将来，应改为 when I arrive。" },
+          { "en": "He didn't go to bed until he finished the report.", "zh": "他直到写完报告才去睡觉。", "ok": true, "note": "go to bed 是瞬间动作，与 until 连用须用否定式 not...until。" },
+          { "en": "He went to bed until he finished the report.", "zh": "他直到写完报告才去睡觉。", "ok": false, "note": "肯定式的 went to bed 无法持续到某点，须改为 didn't go to bed until。" },
+          { "en": "She cleaned the room before the guests arrived.", "zh": "她在客人到之前打扫了房间。", "ok": true, "note": "before 标记先后，主句动作先发生。" }
+        ],
+        "pitfalls": [
+          { "wrong": "While he arrived, we were having dinner.", "right": "When he arrived, we were having dinner.", "why": "arrive 是瞬间动词，while 要求从句动作表示持续状态，瞬间动作用 when。" },
+          { "wrong": "I will tell him the news as soon as I will see him.", "right": "I will tell him the news as soon as I see him.", "why": "时间状语从句用一般现在时表将来，不能出现 will。" },
+          { "wrong": "He left until midnight.", "right": "He didn't leave until midnight.", "why": "leave 是瞬间动词，与 until 连用须用否定式，表示“直到…才”。" }
+        ],
+        "contrast": { "withTitle": "时间状语从句 when/while/as 的辨析", "diff": "本知识点把 when/while/as 放进 before/after/until 的完整体系中按时间关系选词，那一处只对比三者内部的差别。" },
+        "mnemonic": "同时持续用 while，同步变化用 as，瞬间时点用 when；until 要延续，瞬间就否定。"
+      },
+      "review": {
+        "core": [
+          "while 要求从句动作持续，瞬间动词用 when",
+          "as 强调两个动作同步推进或同步变化",
+          "be about to do ... when 表“就在这时”",
+          "before / after 只标记先后，时态按实际时间安排",
+          "until 要求延续性动词，瞬间动词须用 not...until",
+          "时间状语从句用一般现在时表将来"
+        ],
+        "trigger": "看到两个动作 → 先判同时还是先后 → 再判是否持续、是否瞬间",
+        "quickCheck": [
+          { "q": "While the phone rang 对吗？", "a": "不对，rang 是瞬间动作，应改为 When the phone rang。" },
+          { "q": "“他直到午夜才离开”怎么说？", "a": "He didn't leave until midnight。" },
+          { "q": "时间状语从句能出现 will 吗？", "a": "不能，用一般现在时表将来。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.conjunctions.time-conjunctions.d1",
+          "type": "choice",
+          "stem": "___ the phone rang, I was taking a shower.",
+          "options": ["When", "While", "Until", "Since"],
+          "answer": "When",
+          "explain": "rang 是瞬间动作，不能构成一段持续的时间，因此用 when 引导从句。",
+          "trap": "While 是最强干扰项：主句是进行时，容易被误判为“正在进行”，但 while 要求从句动词本身能延续。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.time-conjunctions.d2",
+          "type": "fill",
+          "stem": "I will send you the file as soon as I ___ (get) to the office.",
+          "answer": "get",
+          "accept": ["get"],
+          "hint": "时间状语从句表示将来，但谓语形式要变。",
+          "explain": "as soon as 引导时间状语从句，用一般现在时表将来，get 不加 will，也不用 gets。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.conjunctions.time-conjunctions.d3",
+          "type": "correct",
+          "stem": "He went to bed until he finished all the work.",
+          "answer": "He didn't go to bed until he finished all the work.",
+          "accept": ["He didn't go to bed until he finished all the work."],
+          "explain": "go to bed 是瞬间动作，不能持续到某点，须改为否定结构 not...until，表示“直到…才”。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.time-conjunctions.d4",
+          "type": "choice",
+          "stem": "___ time passed, the small town changed beyond recognition.",
+          "options": ["As", "While", "When", "Until"],
+          "answer": "As",
+          "explain": "两个变化同步推进，as 表示“随着”，是这一语义的固定选择。",
+          "trap": "While 是强干扰项：while 只表示两个持续动作并存，不能表达“随着…而变化”的同步推进关系。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.time-conjunctions.d5",
+          "type": "translate",
+          "stem": "直到雨停，我们才离开。",
+          "answer": "We didn't leave until the rain stopped.",
+          "require": [["didn't leave", "did not leave"], ["until"]],
+          "forbid": ["left until"],
+          "explain": "leave 是瞬间动词，与 until 连用须采用否定结构 not...until，表示“直到…才”。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.time-conjunctions.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "was", "about", "to", "leave", "when", "the", "phone", "rang."],
+          "answer": "I was about to leave when the phone rang.",
+          "explain": "be about to do ... when 是固定结构，when 在此表示“就在这时”，引出突然发生的动作。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.conjunctions.cause-concession",
+      "title": "因果与让步连词的语义差异",
+      "brief": "因果看已知与否，让步看事实还是假设",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["morph.conjunctions.coordinating"],
+      "concept": {
+        "summary": "因果连词按“原因是不是听话人已知的信息”分层：because 提供新信息、语气最强，可作强调句的焦点；since 与 as 表示“既然、由于”，原因被视为已知前提；for 是并列连词，只补充推断依据。让步连词按“事实还是假设”分层：although 与 though 承认既成事实，even though 强调事实确实如此，even if 表示假设未必成立；as 引导让步必须倒装。",
+        "sections": [
+          {
+            "h": "因果的三层",
+            "p": "because 回答 why，是信息的核心，因此可以被强调句聚焦；since 与 as 把原因当作双方已知的背景，重点在后面的结论，不能用来回答 why 的焦点问句。",
+            "bullets": [
+              "because：He was late because the bus broke down.（回答 why）",
+              "强调句：It was because the bus broke down that he was late.",
+              "since / as：Since you are already here, you may as well stay.",
+              "× Why are you late? Since the bus broke down. → Because the bus broke down."
+            ]
+          },
+          {
+            "h": "让步的两类",
+            "p": "although、though、even though 都承认一个事实成立，然后说结果与预期相反；even if 则把条件当作假设，事实未必如此。两者互换会改变预设，是选择题的核心考点。",
+            "bullets": [
+              "Even though he was ill, he came to the meeting.（他确实病了）",
+              "Even if it rains tomorrow, the match will go on.（明天未必下雨）",
+              "although 与 though 可互换，though 还可置于句末：It was a good try, though."
+            ]
+          },
+          {
+            "h": "as 引导让步必须倒装",
+            "p": "as 表让步时要把表语、状语或动词原形提到主语之前，构成倒装；不倒装时 as 会被读成“因为”，句子意思随之改变。though 也可用于同样的倒装结构。",
+            "bullets": [
+              "Tired as he was, he kept working.",
+              "Much as I respect him, I cannot agree with him.",
+              "× Tired although he was, he kept working.（although 不用于倒装）"
+            ]
+          },
+          {
+            "h": "不能叠加",
+            "p": "让步从句不能与 but 并存，但可以与 yet、still 并存；因果从句不能与 so 并存。这类叠加在改错题中出现频率极高。",
+            "bullets": [
+              "× Although he was tired, but he kept working.",
+              "√ Although he was tired, yet he kept working.",
+              "× Because he was ill, so he stayed at home."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He was late because the bus broke down.", "zh": "他迟到是因为公交车抛锚了。", "ok": true, "note": "because 提供新信息，回答“为什么”。" },
+          { "en": "Since you are already here, you may as well stay for dinner.", "zh": "既然你已经来了，不妨留下吃饭。", "ok": true, "note": "since 把原因当作双方已知的前提，重点在后面的建议。" },
+          { "en": "Why are you late? Since the bus broke down.", "zh": "你为什么迟到？因为公交车抛锚了。", "ok": false, "note": "since 不能回答 why 的焦点问句，此处须用 Because the bus broke down." },
+          { "en": "Even if it rains tomorrow, the match will go on.", "zh": "即使明天下雨，比赛也照常进行。", "ok": true, "note": "明天下雨只是假设，用 even if。" },
+          { "en": "Even though he was ill, he came to the meeting.", "zh": "尽管他病了，还是来开会了。", "ok": true, "note": "他生病是既成事实，用 even though 承认这一事实。" },
+          { "en": "Even though it rains tomorrow, the match will go on.", "zh": "虽然明天下雨，比赛也照常进行。", "ok": false, "note": "明天是否下雨尚未确定，even though 预设事实成立，应改为 Even if it rains tomorrow。" },
+          { "en": "Tired as he was, he kept working.", "zh": "尽管很累，他还是继续工作。", "ok": true, "note": "as 引导让步时表语提前构成倒装，全句意为“尽管他很累”。" },
+          { "en": "Tired although he was, he kept working.", "zh": "尽管很累，他还是继续工作。", "ok": false, "note": "让步倒装只能用 as 或 though，although 不能用于这种前置结构。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Since you are tired, so you should rest.", "right": "Since you are tired, you should rest.", "why": "since 是从属连词，so 是并列连词，同一因果关系只能用一个。" },
+          { "wrong": "Even though it will rain tomorrow, we will go hiking.", "right": "Even if it rains tomorrow, we will go hiking.", "why": "even though 预设事实成立，even if 才表假设；且条件从句用一般现在时表将来。" },
+          { "wrong": "Tired although he was, he kept working.", "right": "Tired as he was, he kept working.", "why": "让步倒装只由 as 或 though 引导，although 没有这种用法。" }
+        ],
+        "contrast": { "withTitle": "让步状语从句", "diff": "本知识点比较因果与让步两套连词的分层依据，那一处专门列举让步从句的全部引导词与倒装形式。" },
+        "mnemonic": "because 答 why，since 讲既然；even though 是事实，even if 是假设；as 让步必倒装。"
+      },
+      "review": {
+        "core": [
+          "because 回答 why，可作强调句焦点；since / as 的原因视为已知",
+          "for 只补充推断依据，不作回答 why 的焦点",
+          "even though 预设事实成立，even if 表假设",
+          "as 引导让步必须倒装：Tired as he was...",
+          "让步不与 but 并存，可与 yet / still 并存；因果不与 so 并存"
+        ],
+        "trigger": "看到原因 → 先判是不是回答 why；看到让步 → 先判是事实还是假设",
+        "quickCheck": [
+          { "q": "Why are you late? 能用 Since... 回答吗？", "a": "不能，须用 Because，since 的原因被视为已知信息。" },
+          { "q": "Even though 与 even if 的区别是什么？", "a": "前者预设事实成立，后者表假设未必成立。" },
+          { "q": "“尽管很累”用 as 怎么表达？", "a": "Tired as he was，表语提前构成倒装。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.conjunctions.cause-concession.d1",
+          "type": "choice",
+          "stem": "___ it rains tomorrow, the ceremony will be held indoors.",
+          "options": ["Even if", "Even though", "Because", "Since"],
+          "answer": "Even if",
+          "explain": "明天下雨只是一种假设，结果尚未确定，表示“即使”用 even if。",
+          "trap": "Even though 是最强干扰项：它预设“下雨”已经成立，与 tomorrow 的未来语境冲突。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.cause-concession.d2",
+          "type": "fill",
+          "stem": "Tired ___ he was, he refused to take a break.",
+          "answer": "as",
+          "accept": ["as", "though"],
+          "hint": "表语 tired 已提到句首，说明这里要用能构成让步倒装的词。",
+          "explain": "as 或 though 引导让步时须把表语提前，构成 Tired as he was 这一倒装结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.cause-concession.d3",
+          "type": "correct",
+          "stem": "Since you have no experience, so you should start with small tasks.",
+          "answer": "Since you have no experience, you should start with small tasks.",
+          "accept": ["Since you have no experience, you should start with small tasks."],
+          "explain": "since 已承担因果引导功能，再加并列连词 so 会造成重复，须删去 so。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.cause-concession.d4",
+          "type": "choice",
+          "stem": "___ he had trained for months, he still lost the final.",
+          "options": ["Although", "Because", "Since", "So"],
+          "answer": "Although",
+          "explain": "训练了几个月却仍然输了，前后是让步关系，用 although 引导让步从句。",
+          "trap": "Because 是强干扰项：它表因果，与 still 所表达的“出乎预期”直接冲突。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.cause-concession.d5",
+          "type": "translate",
+          "stem": "即使明天下雨，比赛也照常进行。",
+          "answer": "Even if it rains tomorrow, the match will go on as planned.",
+          "require": [["even if"], ["rains"]],
+          "forbid": ["even though"],
+          "explain": "明天下雨是假设，用 even if；条件从句用一般现在时 rains 表将来，不用 will rain。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.cause-concession.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Even", "if", "it", "rains,", "the", "match", "will", "go", "on."],
+          "answer": "Even if it rains, the match will go on.",
+          "explain": "even if 引导假设条件，从句用一般现在时 rains，主句用将来时 will go on。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.conjunctions.conditionals",
+      "title": "条件连词 if/unless/provided that",
+      "brief": "unless 已含否定，条件从句不用 will",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": [],
+      "concept": {
+        "summary": "条件连词的分工由条件的性质决定：if 引出一般条件；unless 是唯一的否定条件，等于 if...not，从句本身不再带否定；provided that 与 on condition that 引出“只有…才”的书面条件；as long as 引出“只要”的必要条件；in case 引出“以防”的预防性条件。所有条件从句用一般现在时或现在完成时表将来，不用 will。",
+        "sections": [
+          {
+            "h": "if 与 unless",
+            "p": "unless 相当于 if...not，因此后面的从句必须是肯定形式。再加一个否定词就构成双重否定，句意会反转到原意的对立面。",
+            "bullets": [
+              "Unless you hurry, you will miss the train. = If you don't hurry, ...",
+              "× Unless you don't hurry, you will miss the train.",
+              "unless 可用于虚拟或真实条件，但不能引导宾语从句"
+            ]
+          },
+          {
+            "h": "书面条件与必要条件",
+            "p": "provided that、providing that、on condition that 语气最严格，表示“只有满足这个条件才行”；as long as 表示“只要”，强调这是唯一必要条件；in case 表示“以防”，后面的动作是预防措施。",
+            "bullets": [
+              "You may borrow the car provided that you return it by Sunday.",
+              "As long as you keep practising, you will improve.",
+              "Take an umbrella in case it rains.（in case of + 名词）"
+            ]
+          },
+          {
+            "h": "主将从现与唯一的例外",
+            "p": "条件从句用一般现在时表将来：If it rains, we will cancel. 但当 if 引导的是宾语从句、意为“是否”时，可以用将来时，因为它已经不再是条件从句。",
+            "bullets": [
+              "If it rains tomorrow, we will cancel the picnic.",
+              "× If it will rain tomorrow, we will cancel the picnic.",
+              "I don't know if he will join us.（宾语从句，可用 will）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "If it rains tomorrow, we will cancel the picnic.", "zh": "如果明天下雨，我们就取消野餐。", "ok": true, "note": "条件从句用一般现在时 rains 表将来。" },
+          { "en": "If it will rain tomorrow, we will cancel the picnic.", "zh": "如果明天下雨，我们就取消野餐。", "ok": false, "note": "条件从句不能用 will 表将来，应改为 If it rains tomorrow。" },
+          { "en": "Unless you hurry, you will miss the train.", "zh": "除非你快点，否则你会误车。", "ok": true, "note": "unless 等于 if...not，从句用肯定形式 hurry。" },
+          { "en": "Unless you don't hurry, you will miss the train.", "zh": "除非你不快点，否则你会误车。", "ok": false, "note": "unless 本身已含否定，再加 don't 构成双重否定，须删去 don't。" },
+          { "en": "You may borrow the car provided that you return it by Sunday.", "zh": "只要你周日之前归还，就可以借这辆车。", "ok": true, "note": "provided that 引出书面条件，语气比 if 更严格。" },
+          { "en": "Take an umbrella in case it rains.", "zh": "带把伞，以防下雨。", "ok": true, "note": "in case 引出预防性条件，从句用一般现在时表将来。" },
+          { "en": "Take an umbrella in case it will rain.", "zh": "带把伞，以防下雨。", "ok": false, "note": "in case 从句与条件从句一样用一般现在时，应改为 in case it rains。" },
+          { "en": "I don't know if he will join us.", "zh": "我不知道他是否会加入我们。", "ok": true, "note": "此处 if 引导宾语从句，意为“是否”，可以用将来时。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Unless you don't study hard, you will fail.", "right": "Unless you study hard, you will fail.", "why": "unless 本身等于 if...not，再加 don't 就变成双重否定，句意反转为“只有不努力才会失败”。" },
+          { "wrong": "If he will come, tell me.", "right": "If he comes, tell me.", "why": "条件从句用一般现在时表将来，不能出现 will。" },
+          { "wrong": "I will take a taxi in case I will be late.", "right": "I will take a taxi in case I am late.", "why": "in case 从句与条件从句同规则，用一般现在时表将来。" }
+        ],
+        "contrast": { "withTitle": "条件状语从句", "diff": "本知识点比较 if、unless、provided that、in case 的语义差别，那一处列举条件从句的全部引导词与时态规则。" },
+        "mnemonic": "unless 自带 not，从句不再否；条件从句表将来，一律用现在。"
+      },
+      "review": {
+        "core": [
+          "unless = if...not，从句用肯定形式，不能再加否定词",
+          "provided that / on condition that 表“只有…才”，语气最严格",
+          "as long as 表“只要”，是唯一必要条件",
+          "in case 表“以防”，in case of 后接名词",
+          "条件从句用一般现在时表将来；if 引导宾语从句表“是否”时可用 will"
+        ],
+        "trigger": "看到条件从句 → 先查有没有 will，再看 unless 后面是否多了一个否定词",
+        "quickCheck": [
+          { "q": "Unless you don't hurry 对吗？", "a": "不对，unless 已含否定，应改为 Unless you hurry。" },
+          { "q": "If it will rain tomorrow 对吗？", "a": "不对，条件从句用一般现在时，应改为 If it rains tomorrow。" },
+          { "q": "“以防下雨”怎么说？", "a": "in case it rains，或 in case of rain。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.conjunctions.conditionals.d1",
+          "type": "choice",
+          "stem": "___ you book the tickets in advance, you will not get a seat.",
+          "options": ["Unless", "If", "Provided that", "As long as"],
+          "answer": "Unless",
+          "explain": "主句是否定结果，从句需要表达“如果不提前订票”，用含否定意义的 unless。",
+          "trap": "If 是最强干扰项：if 表肯定条件，与主句的 not 连读会变成“如果订票就买不到座位”。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.conditionals.d2",
+          "type": "fill",
+          "stem": "You can stay here as ___ as you keep the room tidy.",
+          "answer": "long",
+          "accept": ["long"],
+          "hint": "as ... as 中间填一个形容词，构成“只要”。",
+          "explain": "as long as 是固定搭配，意为“只要”，引出唯一必要条件。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.conjunctions.conditionals.d3",
+          "type": "correct",
+          "stem": "Unless you don't apologize, she will never forgive you.",
+          "answer": "Unless you apologize, she will never forgive you.",
+          "accept": ["Unless you apologize, she will never forgive you."],
+          "explain": "unless 已经包含否定意义，再加 don't 构成双重否定，句意反转，须删去 don't。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.conditionals.d4",
+          "type": "choice",
+          "stem": "I will lend you the book ___ that you return it next week.",
+          "options": ["provided", "unless", "in case", "even if"],
+          "answer": "provided",
+          "explain": "provided that 表示“只有…才”，与“下周归还才借给你”的严格条件相符。",
+          "trap": "in case 是强干扰项：in case 表“以防”，是预防措施，不是交换条件。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.conditionals.d5",
+          "type": "translate",
+          "stem": "如果明天天气好，我们就去爬山。",
+          "answer": "If the weather is fine tomorrow, we will go hiking.",
+          "require": [["if"], ["is"], ["will"]],
+          "forbid": ["if the weather will be"],
+          "explain": "条件从句用一般现在时 is 表将来，主句才用 will；不能写成 if the weather will be fine。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.conditionals.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Unless", "you", "hurry,", "you", "will", "miss", "the", "train."],
+          "answer": "Unless you hurry, you will miss the train.",
+          "explain": "unless 引导否定条件，从句用肯定形式 hurry，主句用将来时 will miss。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.conjunctions.conjunctive-adverbs",
+      "title": "连接副词与连词的区别",
+      "brief": "连接副词不是连词，须用分号或句号",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["morph.conjunctions.coordinating"],
+      "concept": {
+        "summary": "however、therefore、moreover、otherwise、nevertheless 这类词在语义上像连词，在语法上却是副词：它们没有连接两个分句的功能，不能像 but、so 那样只用逗号连接两个句子。正确写法是分号加连接副词加逗号，或者用句号断开另起一句。判定方法很直接：把逗号换成句号，句子仍成立，说明此处只能用连接副词。",
+        "sections": [
+          {
+            "h": "为什么不能用逗号连接",
+            "p": "逗号只表示停顿，不表示连接。连词本身具备连接功能，可以承担两个分句之间的关系；连接副词只修饰自己所在的句子，关系必须由分号或句号承担。只用逗号会形成逗号粘连。",
+            "bullets": [
+              "√ He was tired, but he kept working.（but 是连词）",
+              "× He was tired, however he kept working.（逗号粘连）",
+              "√ He was tired; however, he kept working.",
+              "√ He was tired. However, he kept working."
+            ]
+          },
+          {
+            "h": "常用连接副词与对应连词",
+            "p": "每一类逻辑关系都有“连词版”和“连接副词版”，写作时按语体选择：连词更口语，连接副词更书面。",
+            "bullets": [
+              "转折：however, nevertheless ↔ but, yet",
+              "结果：therefore, thus, hence ↔ so",
+              "递进：moreover, furthermore, besides ↔ and, in addition",
+              "选择与否则：otherwise ↔ or",
+              "同时：meanwhile, at the same time"
+            ]
+          },
+          {
+            "h": "位置与标点",
+            "p": "连接副词在句中的位置比连词自由，可置于句首、句中或句末；句首时后面通常加逗号，句中时前后各一个逗号。它不能与同一逻辑关系的连词叠加使用。",
+            "bullets": [
+              "句首：However, the plan failed.",
+              "句中：The plan, however, failed.",
+              "句末（口语）：The plan failed, however.",
+              "× but however；× although ... however"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The plan was expensive; however, it was the only workable one.", "zh": "这个方案很贵，但它是唯一可行的。", "ok": true, "note": "分号承担连接功能，however 后的逗号标记它的插入位置。" },
+          { "en": "The plan was expensive, however, it was the only workable one.", "zh": "这个方案很贵，但它是唯一可行的。", "ok": false, "note": "however 是连接副词，不能只用逗号连接两个分句，须改为分号或句号。" },
+          { "en": "He had no money. Therefore, he could not buy the ticket.", "zh": "他没有钱，因此买不起票。", "ok": true, "note": "用句号断开，therefore 另起一句，符合连接副词的用法。" },
+          { "en": "The rent is high; moreover, the flat is far from the station.", "zh": "房租高，而且公寓离车站远。", "ok": true, "note": "moreover 表递进，用分号与前句隔开。" },
+          { "en": "He was tired, but however he kept working.", "zh": "他很累，但仍然继续工作。", "ok": false, "note": "but 与 however 都表转折，叠加使用造成冗余，保留一个即可。" },
+          { "en": "Leave now; otherwise, you will miss the train.", "zh": "现在就走，否则你会误车。", "ok": true, "note": "otherwise 相当于 or，用分号隔开两个分句。" },
+          { "en": "She trained hard, therefore she won the race.", "zh": "她训练刻苦，因此赢了比赛。", "ok": false, "note": "therefore 不能只用逗号连接分句，应改为分号加逗号，或用 so。" },
+          { "en": "The weather was bad; nevertheless, the match went on.", "zh": "天气不好，然而比赛照常进行。", "ok": true, "note": "nevertheless 表转折，用分号连接并加逗号。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She studied hard, however she failed the exam.", "right": "She studied hard; however, she failed the exam.", "why": "however 是连接副词，没有连接功能，逗号会造成粘连，须用分号或句号。" },
+          { "wrong": "The weather was bad, therefore the match was cancelled.", "right": "The weather was bad; therefore, the match was cancelled.", "why": "therefore 同样是连接副词，不能替代 so 用逗号连接两个分句。" },
+          { "wrong": "Although it was late, however we continued.", "right": "Although it was late, we continued.", "why": "although 已表转折，however 再表转折即重复，同一关系只保留一个标记。" }
+        ],
+        "contrast": { "withTitle": "并列连词的逻辑关系", "diff": "两者逻辑关系相同，差别在语法功能：连词能直接用逗号连接分句，连接副词必须依靠分号或句号。" },
+        "mnemonic": "however 不是 but，therefore 不是 so；中间要分号，或者干脆断句。"
+      },
+      "review": {
+        "core": [
+          "however / therefore / moreover / otherwise / nevertheless 都是连接副词",
+          "连接副词无连接功能，不能只用逗号连接两个分句",
+          "正确标点：分号 + 连接副词 + 逗号，或句号另起一句",
+          "位置灵活：句首、句中、句末皆可",
+          "不能与同义连词叠加：× but however"
+        ],
+        "trigger": "看到 however、therefore 前只有逗号 → 立刻改成分号或句号",
+        "quickCheck": [
+          { "q": "however 能像 but 一样用逗号连接两个句子吗？", "a": "不能，须用分号或句号。" },
+          { "q": "therefore 对应的连词是什么？", "a": "so。" },
+          { "q": "but however 能连用吗？", "a": "不能，两者都表转折，重复。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.conjunctions.conjunctive-adverbs.d1",
+          "type": "choice",
+          "stem": "The hotel was far from the centre; ___, it was clean and quiet.",
+          "options": ["however", "but", "although", "so"],
+          "answer": "however",
+          "explain": "空处位于分号之后、逗号之前，只能填连接副词；however 表转折，与“远但干净安静”吻合。",
+          "trap": "but 是强干扰项：but 是连词，应直接跟在逗号后连接分句，不能放在分号加逗号的位置。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.conjunctive-adverbs.d2",
+          "type": "fill",
+          "stem": "Leave now; ___, you will miss the train.",
+          "answer": "otherwise",
+          "accept": ["otherwise"],
+          "hint": "空处表示“否则”，相当于 or，但它是副词。",
+          "explain": "otherwise 意为“否则”，在分号后作连接副词，与前句构成“做某事，否则会…”的关系。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.conjunctive-adverbs.d3",
+          "type": "correct",
+          "stem": "She trained hard, however she did not win the race.",
+          "answer": "She trained hard; however, she did not win the race.",
+          "accept": [
+            "She trained hard; however, she did not win the race.",
+            "She trained hard. However, she did not win the race."
+          ],
+          "explain": "however 是连接副词，不能只用逗号连接两个分句，须改分号为分号或句号，并补上 however 后的逗号。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.conjunctive-adverbs.d4",
+          "type": "choice",
+          "stem": "下列哪一句的标点与连接词搭配正确？",
+          "options": [
+            "The road was icy, therefore we drove slowly.",
+            "The road was icy; therefore, we drove slowly.",
+            "The road was icy, therefore, we drove slowly.",
+            "The road was icy therefore, we drove slowly."
+          ],
+          "answer": "The road was icy; therefore, we drove slowly.",
+          "explain": "therefore 是连接副词，必须用分号或句号与前句隔开，它后面再加逗号。",
+          "trap": "第三句是强干扰项：两个逗号看似把 therefore 括了起来，实际仍是用逗号连接两个分句，属粘连。",
+          "difficulty": 4
+        },
+        {
+          "id": "morph.conjunctions.conjunctive-adverbs.d5",
+          "type": "translate",
+          "stem": "他很累，但仍然继续工作。",
+          "answer": "He was tired; however, he kept working.",
+          "require": [["however"], ["kept working"]],
+          "forbid": ["but however", "tired, however"],
+          "explain": "however 是连接副词，须用分号与前句隔开；若用 but，则应写成 He was tired, but he kept working.",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.conjunctive-adverbs.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "plan", "was", "expensive;", "however,", "it", "was", "the", "only", "option."],
+          "answer": "The plan was expensive; however, it was the only option.",
+          "explain": "分号承担连接功能，however 后接逗号，构成标准的“分号 + 连接副词 + 逗号”格式。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.conjunctions.fragment",
+      "title": "连词误用导致的句子残缺",
+      "brief": "数谓语、查引导词，判断是否缺主句",
+      "difficulty": 4,
+      "tags": ["难点", "写作"],
+      "prereq": ["morph.conjunctions.subordinator-vs-prep"],
+      "concept": {
+        "summary": "一个完整句子必须有一个不带引导词的主句，从句只能依附于主句。判定分三步：数出全部谓语；看每个谓语前是否有连词引导；若所有谓语都被引导，说明缺主句，句子残缺。常见的三种破坏方式是：从句单独成句、两个主句只用逗号粘连、连词重复或成分不平行。",
+        "sections": [
+          {
+            "h": "残缺：只有从句没有主句",
+            "p": "although、because、when、if、while、since 引导的从句不能独立成句，它需要一个主句来承载主要信息。句号一旦把它与主句切开，剩下的就是一个残缺片段。",
+            "bullets": [
+              "× Although he was exhausted. He finished the race.",
+              "√ Although he was exhausted, he finished the race.",
+              "√ He was exhausted. He finished the race anyway.（去掉连词即可独立）"
+            ]
+          },
+          {
+            "h": "粘连：两个主句只有逗号",
+            "p": "两个都能独立成句的分句之间，必须用并列连词、分号或句号连接。只用逗号会造成逗号粘连，这也是连词缺失的一种表现。",
+            "bullets": [
+              "× The road was closed, we took a detour.",
+              "√ The road was closed, so we took a detour.",
+              "√ The road was closed; we took a detour."
+            ]
+          },
+          {
+            "h": "冗余与不平行",
+            "p": "结构完整但连词重复，同样判为错误：reason 与 because 语义重复，although 与 but 功能重复。连词两边的成分还须语法形式一致，动名词不能与不定式并列。",
+            "bullets": [
+              "× The reason is because he was late. → The reason is that he was late.",
+              "× Although he was tired, but he kept working.",
+              "× He likes swimming and to run. → He likes swimming and running."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Although he was exhausted, he finished the race.", "zh": "尽管筋疲力尽，他还是跑完了比赛。", "ok": true, "note": "从句与主句用逗号连接，构成一个完整句子。" },
+          { "en": "Although he was exhausted. He finished the race.", "zh": "尽管筋疲力尽。他跑完了比赛。", "ok": false, "note": "although 引导的从句没有主句依附，句号把它切成了残缺句，应改用逗号连接。" },
+          { "en": "The reason he left is that he found a better job.", "zh": "他离开的原因是他找到了更好的工作。", "ok": true, "note": "表语从句用 that 引导，避免与 reason 语义重复。" },
+          { "en": "The reason he left is because he found a better job.", "zh": "他离开的原因是因为他找到了更好的工作。", "ok": false, "note": "reason 与 because 都表原因，语义重复，表语从句须用 that。" },
+          { "en": "He likes swimming and running.", "zh": "他喜欢游泳和跑步。", "ok": true, "note": "and 连接两个动名词，形式完全平行。" },
+          { "en": "He likes swimming and to run.", "zh": "他喜欢游泳和跑步。", "ok": false, "note": "and 两边的成分形式不一致，动名词不能与不定式并列，应改为 running。" },
+          { "en": "Because the road was closed, we took a detour.", "zh": "因为道路封闭，我们绕道而行。", "ok": true, "note": "because 引导从句，主句紧随其后，结构完整。" },
+          { "en": "Because the road was closed, so we took a detour.", "zh": "因为道路封闭，所以我们绕道而行。", "ok": false, "note": "because 与 so 功能重复，同一因果关系只能用一个，须删去 so。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Although the weather was bad. The match went on.", "right": "Although the weather was bad, the match went on.", "why": "although 引导的是从句，必须有主句依附；句号把主句切断，留下一个残缺片段。" },
+          { "wrong": "The reason why he was late is because he missed the bus.", "right": "The reason why he was late is that he missed the bus.", "why": "reason 与 because 都表原因，语义重复；表语从句用 that 引导。" },
+          { "wrong": "He enjoys reading, and to write poems.", "right": "He enjoys reading and writing poems.", "why": "and 连接的成分必须语法形式一致，动名词不能与不定式并列。" }
+        ],
+        "contrast": { "withTitle": "从属连词与介词短语的易混", "diff": "本知识点判断句子是否完整，那一点判断空格该填连词还是介词，前者看全句结构，后者只看空后成分。" },
+        "mnemonic": "数谓语、找引导词；全被引导就是残缺，全靠逗号就是粘连。"
+      },
+      "review": {
+        "core": [
+          "完整句 = 一个无引导词的主句 + 若干从句或短语",
+          "三步判定：数谓语 → 查每个谓语前有无引导词 → 判断是否缺主句",
+          "从句单独成句是残缺，两个主句只用逗号是粘连",
+          "The reason is that...，不用 because",
+          "连词两边成分必须语法形式一致"
+        ],
+        "trigger": "看到句号前是 although / because / when 引导的从句 → 立刻检查后半句是否被切开",
+        "quickCheck": [
+          { "q": "Although he was tired. 这句话完整吗？", "a": "不完整，是从句，需要主句依附。" },
+          { "q": "The reason is because... 有什么问题？", "a": "reason 与 because 语义重复，应改为 The reason is that..." },
+          { "q": "He likes swimming and to run. 错在哪里？", "a": "and 两边形式不一致，应改为 swimming and running。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.conjunctions.fragment.d1",
+          "type": "choice",
+          "stem": "___ he had prepared carefully, he still felt nervous before the speech.",
+          "options": ["Although", "Because", "Therefore", "So"],
+          "answer": "Although",
+          "explain": "准备了很久却仍然紧张，前后是让步关系；although 引导让步从句，主句用 he still felt nervous。",
+          "trap": "Because 是强干扰项：它表因果，与 still 所暗示的“出乎预期”冲突。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.fragment.d2",
+          "type": "fill",
+          "stem": "The reason she resigned is ___ the working hours were too long.",
+          "answer": "that",
+          "accept": ["that"],
+          "hint": "表语从句的引导词，避免与 reason 语义重复。",
+          "explain": "reason 已表达“原因”，表语从句用 that 引导即可；用 because 会造成语义重复。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.fragment.d3",
+          "type": "correct",
+          "stem": "Because the flight was delayed, so we missed the connection.",
+          "answer": "Because the flight was delayed, we missed the connection.",
+          "accept": ["Because the flight was delayed, we missed the connection."],
+          "explain": "because 已承担因果引导功能，再加并列连词 so 造成重复，须删去 so。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.conjunctions.fragment.d4",
+          "type": "choice",
+          "stem": "下列哪一句是结构完整的句子？",
+          "options": [
+            "Although the train was late.",
+            "Because he forgot his passport.",
+            "The train was late, so we missed the connection.",
+            "When the meeting finally began."
+          ],
+          "answer": "The train was late, so we missed the connection.",
+          "explain": "这一句由两个主句加并列连词 so 构成，谓语都有归属，结构完整。",
+          "trap": "第一句是强干扰项：although 引导的从句没有主句依附，是典型的残缺句。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.fragment.d5",
+          "type": "translate",
+          "stem": "他迟到的原因是他错过了公交车。",
+          "answer": "The reason why he was late is that he missed the bus.",
+          "require": [["reason"], ["is that"]],
+          "forbid": ["is because"],
+          "explain": "reason 已表原因，表语从句须用 that 引导；用 because 会与 reason 语义重复。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.conjunctions.fragment.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Although", "it", "was", "raining,", "the", "children", "played", "outside."],
+          "answer": "Although it was raining, the children played outside.",
+          "explain": "although 引导让步从句，与主句用逗号连接，构成一个完整句子；不能在两半之间加句号。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

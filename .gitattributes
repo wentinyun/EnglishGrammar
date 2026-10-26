@@ -1,0 +1,5 @@
+# 统一用 LF 入库：服务器上 bash 脚本出现 CRLF 会报 $'\r': command not found
+* text=auto eol=lf
+*.bat text eol=crlf
+*.png binary
+*.ico binary

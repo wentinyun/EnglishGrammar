@@ -1,0 +1,1333 @@
+{
+  "level1": "morph",
+  "chapter": "adj_adv",
+  "items": [
+    {
+      "id": "morph.adj_adv.attributive-predicative",
+      "title": "形容词作定语与表语的位置限制",
+      "brief": "a- 开头多只作表语，main/only 只作定语",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": [],
+      "concept": {
+        "summary": "形容词分三类：绝大多数既能作定语又能作表语；以 a- 开头的（asleep, awake, alive, alone, afraid, aware, ashamed, alike, ill）只能作表语；main, chief, only, mere, utter, elder 只能作定语。判定方法是把这个词分别放到名词前和 be 动词后各试一次，哪一边不通就记住这一边。",
+        "sections": [
+          {
+            "h": "只能作表语的形容词",
+            "p": "这类词多源自中世纪英语的介词短语，历史上就不能直接修饰名词。它们出现在名词前时必须换成同义的定语形容词，不能靠加冠词补救。",
+            "bullets": [
+              "asleep → a sleeping baby；afraid → a frightened child",
+              "alive → a living writer / a live fish；alone → a lone traveller",
+              "ill → a sick man；well（健康）→ a healthy man",
+              "其余高频：awake, aware, ashamed, alike, unable, worth"
+            ]
+          },
+          {
+            "h": "只能作定语的形容词",
+            "p": "这类词表示等级、顺序或强调，语义上依附于名词中心语，不能独立作表语。把它们放到 be 动词后，句子在语义上就不成立。",
+            "bullets": [
+              "main, chief, principal：the main reason，× The reason is main.",
+              "only, mere, utter, sole：a mere child，× The child is mere.",
+              "elder / eldest 指家庭成员的长幼：my elder sister",
+              "former / latter, inner / outer, daily / weekly 也只作定语"
+            ]
+          },
+          {
+            "h": "表语位置的触发条件",
+            "p": "系动词后是表语位置，除 be 之外还包括 seem, look, feel, become, remain, stay, sound, taste, smell。副词修饰表语形容词时位置固定，fast asleep、wide awake、fully aware 都是固定搭配。",
+            "bullets": [
+              "She felt alone in the new city.",
+              "The baby is fast asleep.",
+              "He remained silent throughout the meeting."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The baby is fast asleep in the crib.", "zh": "婴儿在婴儿床里睡得很熟。", "ok": true, "note": "asleep 只作表语，位于系动词 is 之后，fast 是固定修饰语。" },
+          { "en": "The asleep baby is in the crib.", "zh": "睡着的婴儿在婴儿床里。", "ok": false, "note": "asleep 不能作前置定语，应改为 the sleeping baby。" },
+          { "en": "He was ill for a week and missed two exams.", "zh": "他病了一周，错过了两场考试。", "ok": true, "note": "ill 表“生病”时只作表语，此处位于 was 之后。" },
+          { "en": "He is an ill man and needs rest.", "zh": "他是个病人，需要休息。", "ok": false, "note": "ill 不能作定语修饰 man，应改为 a sick man。" },
+          { "en": "This is the main entrance to the building.", "zh": "这是大楼的主入口。", "ok": true, "note": "main 只作定语，位置在名词 entrance 之前。" },
+          { "en": "The entrance of the building is main.", "zh": "大楼的入口是主要的。", "ok": false, "note": "main 不能作表语，应改为 The main entrance is..." },
+          { "en": "The two brothers look very much alike.", "zh": "这两兄弟长得很像。", "ok": true, "note": "alike 只作表语，用 very much 而不是 very 修饰。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The asleep child was carried upstairs.", "right": "The sleeping child was carried upstairs.", "why": "asleep 只能作表语，作前置定语必须换成 sleeping。" },
+          { "wrong": "He bought an alive fish at the market.", "right": "He bought a live fish at the market.", "why": "alive 只作表语，修饰名词表“活的”要用 live。" },
+          { "wrong": "The reason he gave for being late was main.", "right": "The main reason he gave for being late was the weather.", "why": "main 只作定语，不能放在系动词后作表语。" }
+        ],
+        "contrast": { "withTitle": "形容词后置定语的情形", "diff": "这一节点判断形容词能不能作定语；后置定语判断能作定语的形容词在什么条件下必须移到名词后面。" },
+        "mnemonic": "a- 开头多表语，main/only 只定语；要前置先换词，asleep 换 sleeping。"
+      },
+      "review": {
+        "core": [
+          "表语专用：asleep, awake, alive, alone, afraid, aware, ashamed, alike, ill, worth",
+          "定语专用：main, chief, only, mere, utter, elder, former, inner",
+          "表语形容词作定语要换词：sleeping / frightened / live / sick",
+          "系动词后为表语位置：be, seem, look, feel, become, remain, taste",
+          "固定搭配：fast asleep, wide awake, fully aware"
+        ],
+        "trigger": "看到 a- 开头的形容词想放名词前 → 立刻换成对应的定语形容词",
+        "quickCheck": [
+          { "q": "“睡着的孩子”怎么说？", "a": "a sleeping child，不能用 asleep。" },
+          { "q": "main 能作表语吗？", "a": "不能，只能说 the main reason。" },
+          { "q": "“他病了”与“他是个病人”分别怎么说？", "a": "He is ill. / He is a sick man." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.adj_adv.attributive-predicative.d1",
+          "type": "choice",
+          "stem": "The baby has been ___ for two hours and is crying again.",
+          "options": ["awake", "wake", "waken", "awaking"],
+          "answer": "awake",
+          "explain": "has been 后需要形容词作表语，awake 表示“醒着的”，符合此处状态。",
+          "trap": "wake 与 waken 都是动词，不能直接放在 be 动词后作表语。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.adj_adv.attributive-predicative.d2",
+          "type": "fill",
+          "stem": "Although he lives ___ in the village, he never feels lonely. (alone)",
+          "answer": "alone",
+          "accept": ["alone"],
+          "hint": "live 后需要表语形容词，括号中的词本身即为形容词。",
+          "explain": "alone 只作表语，放在 lives 之后表示“独自居住”；lonely 表“孤独的”，与后半句形成对比。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.attributive-predicative.d3",
+          "type": "correct",
+          "stem": "She keeps an asleep cat on the sofa all afternoon.",
+          "answer": "She keeps a sleeping cat on the sofa all afternoon.",
+          "accept": ["She keeps a sleeping cat on the sofa all afternoon."],
+          "explain": "asleep 只能作表语，修饰名词 cat 必须换成 sleeping，同时冠词由 an 改为 a。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.attributive-predicative.d4",
+          "type": "choice",
+          "stem": "Safety is the ___ concern of every airline.",
+          "options": ["chief", "chiefly", "chiefest", "in chief"],
+          "answer": "chief",
+          "explain": "concern 前需要定语形容词，chief 表示“主要的”，只作定语。",
+          "trap": "chiefly 是副词，不能修饰名词 concern；chief 本身没有比较级和最高级形式。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.attributive-predicative.d5",
+          "type": "translate",
+          "stem": "这个睡着的孩子是他唯一的儿子。",
+          "answer": "The sleeping child is his only son.",
+          "require": [["sleeping"], ["only son"]],
+          "forbid": ["asleep child", "the only son of his"],
+          "explain": "asleep 不能作定语，须改用 sleeping；only 只作定语，直接放在名词前。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.attributive-predicative.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "two", "sisters", "look", "very", "much", "alike."],
+          "answer": "The two sisters look very much alike.",
+          "explain": "alike 只作表语，位于系动词 look 之后，且用 very much 修饰。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.adj_adv.postpositive",
+      "title": "形容词后置定语的情形",
+      "brief": "不定代词、表语形容词、度量短语都要后置",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.adj_adv.attributive-predicative"],
+      "concept": {
+        "summary": "形容词后置有四个触发条件：修饰 some/any/no/every 构成的不定代词；形容词本身只能作表语（present, alive, asleep, available）；形容词短语带度量或介词短语（two hundred years old）；以及 best/only/first + 名词 + available/possible 这类固定搭配。除此之外，形容词一律前置。",
+        "sections": [
+          {
+            "h": "修饰不定代词必须后置",
+            "p": "something, anything, nothing, everything, someone, anybody, nobody 等由 some/any/no/every 合成的代词，自身已带限定成分，形容词只能跟在后面。else 也遵循同一条规则。",
+            "bullets": [
+              "something important；nothing new；anything else",
+              "everyone present；nobody alive",
+              "× important something；× new nothing"
+            ]
+          },
+          {
+            "h": "表语形容词作定语要后置",
+            "p": "present, alive, asleep, available, awake 等词不能放在名词前，但可以放在名词后构成后置定语，相当于省略了关系从句。",
+            "bullets": [
+              "the people present = the people who were present",
+              "the baby asleep in the crib",
+              "the best seat available；the only man alive"
+            ]
+          },
+          {
+            "h": "度量短语与固定词条",
+            "p": "表示年龄、长度、高度、深度的形容词短语必须后置，因为中心数量词在前。少数源于法语的官职、法律词条也固定后置，需要整记。",
+            "bullets": [
+              "a house two hundred years old；a river ten metres deep",
+              "the president elect；attorney general；court martial",
+              "present 前置意为“现在的”，后置意为“出席的”：the present situation / the people present"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Is there anything interesting in today's newspaper?", "zh": "今天的报纸上有什么有趣的内容吗？", "ok": true, "note": "anything 是不定代词，形容词 interesting 必须后置。" },
+          { "en": "Is there interesting anything in today's newspaper?", "zh": "今天的报纸上有什么有趣的内容吗？", "ok": false, "note": "不定代词的修饰语不能前置，应改为 anything interesting。" },
+          { "en": "All the people present agreed with the proposal.", "zh": "所有在场的人都同意这项提议。", "ok": true, "note": "present 后置表示“出席的”，相当于 who were present。" },
+          { "en": "All the present people agreed with the proposal.", "zh": "所有在场的人都同意这项提议。", "ok": false, "note": "present 前置意为“现在的”，与“出席的”语义不同，此处应后置。" },
+          { "en": "This is the best hotel available in this price range.", "zh": "这是这个价位上能订到的最好的酒店。", "ok": true, "note": "available 后置修饰 hotel，是 best + 名词 + available 的固定搭配。" },
+          { "en": "They live in a house two hundred years old.", "zh": "他们住在一栋有两百年历史的房子里。", "ok": true, "note": "度量短语 two hundred years old 后置修饰 house。" },
+          { "en": "He told us new nothing about the plan.", "zh": "关于这个计划，他没有告诉我们任何新情况。", "ok": false, "note": "nothing 的修饰语必须后置，应改为 nothing new。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I have important something to tell you.", "right": "I have something important to tell you.", "why": "不定代词 something 的修饰语只能后置，形容词不能插在代词前。" },
+          { "wrong": "The asleep baby in the crib is only three months old.", "right": "The baby asleep in the crib is only three months old.", "why": "asleep 不能前置，作定语时放在名词后，相当于省略了 who was。" },
+          { "wrong": "Is there else anything I can do for you?", "right": "Is there anything else I can do for you?", "why": "else 与形容词一样，修饰不定代词时必须后置。" }
+        ],
+        "contrast": { "withTitle": "形容词作定语与表语的位置限制", "diff": "那一节点看形容词能否作定语；这里看能作定语的形容词在什么条件下必须移到名词之后。" },
+        "mnemonic": "不定代词、a- 形容词、度量短语，三者一来就后置。"
+      },
+      "review": {
+        "core": [
+          "修饰 something/anything/nothing/everyone 等，形容词后置",
+          "else 同样后置：anything else, somebody else",
+          "表语形容词作定语须后置：the people present, the baby asleep",
+          "度量短语后置：a house two hundred years old",
+          "best/only/first + 名词 + available/possible；present 前置表“现在的”"
+        ],
+        "trigger": "形容词要修饰不定代词或度量数量 → 一律放到名词后面",
+        "quickCheck": [
+          { "q": "“有什么重要的事”怎么说？", "a": "something important。" },
+          { "q": "the people present 中的 present 是什么意思？", "a": "出席的、在场的。" },
+          { "q": "“一栋两百年的房子”怎么写？", "a": "a house two hundred years old。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.adj_adv.postpositive.d1",
+          "type": "choice",
+          "stem": "There is ___ in the report that you should pay attention to.",
+          "options": ["nothing new", "new nothing", "nothing newly", "no new thing"],
+          "answer": "nothing new",
+          "explain": "nothing 是不定代词，形容词 new 只能后置修饰，构成 nothing new。",
+          "trap": "new nothing 把形容词放在不定代词前，违反后置规则。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.postpositive.d2",
+          "type": "fill",
+          "stem": "The students ___ at the meeting were asked to sign the form. (present)",
+          "answer": "present",
+          "accept": ["present"],
+          "hint": "此处表示“出席的”，需要用后置定语。",
+          "explain": "present 后置表示“出席的”，相当于 who were present；前置则意为“现在的”。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.postpositive.d3",
+          "type": "correct",
+          "stem": "I have important something to discuss with you after class.",
+          "answer": "I have something important to discuss with you after class.",
+          "accept": ["I have something important to discuss with you after class."],
+          "explain": "something 的修饰语必须后置，important 应移到 something 之后。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.postpositive.d4",
+          "type": "choice",
+          "stem": "This is the only room ___ at the moment, so we should book it now.",
+          "options": ["available", "availablely", "availing", "availability"],
+          "answer": "available",
+          "explain": "available 是形容词，后置修饰 room，构成 the only room available。",
+          "trap": "availablely 是把形容词误加 ly 造出的副词，英语中不存在；availability 是名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.postpositive.d5",
+          "type": "translate",
+          "stem": "会上在场的人都同意这个计划。",
+          "answer": "Everyone present at the meeting agreed to the plan.",
+          "require": [["present"], ["agreed"]],
+          "forbid": ["present everyone", "the present people"],
+          "explain": "present 修饰不定代词 everyone 必须后置；agreed 与复数意义的主语搭配用过去式。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.postpositive.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Is", "there", "anything", "else", "I", "can", "do", "for", "you?"],
+          "answer": "Is there anything else I can do for you?",
+          "explain": "else 修饰不定代词 anything 时必须后置，且后面接省略了 that 的定语从句。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.adj_adv.order-of-adjectives",
+      "title": "多个形容词并列的排序",
+      "brief": "观点到用途，越靠本质越近名词",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": [],
+      "concept": {
+        "summary": "多个形容词修饰同一名词时按固定顺序排列：观点 → 大小 → 形状 → 年龄 → 颜色 → 国籍或产地 → 材料 → 用途，越接近事物本质的属性越靠近名词。顺序由“主观评价在外、客观属性在内”决定，不能随意调换。实际考试多为三个形容词的组合。",
+        "sections": [
+          {
+            "h": "完整顺序链条",
+            "p": "这八类属性按固定次序排列，理论上可以全部出现，实际写作中通常只取其中三类。判断时从最主观的一类往最客观的一类推。",
+            "bullets": [
+              "观点：beautiful, ugly, lovely, nice, comfortable",
+              "大小 → 形状 → 年龄：small, round, old",
+              "颜色 → 国籍 → 材料：brown, French, wooden",
+              "用途或类别紧贴名词：a writing desk, a sleeping bag"
+            ]
+          },
+          {
+            "h": "三条硬性相邻关系",
+            "p": "整条链条记不全时，先记这三组相对位置，它们覆盖了绝大多数考题。颜色在材料前、国籍在材料前、观点在最外层，这三条不能违反。",
+            "bullets": [
+              "颜色在材料前：a black leather jacket",
+              "国籍在材料前：a Chinese wooden box",
+              "观点在大小前：a beautiful small garden",
+              "大小在国籍前：a small Japanese camera"
+            ]
+          },
+          {
+            "h": "常见组合示例",
+            "p": "三个形容词的组合最常考，通常按“观点 + 大小/年龄 + 颜色/材料”的模式出现。四个以上属于书面描写，考试中出现频率低。",
+            "bullets": [
+              "a lovely old Chinese vase",
+              "a big black leather bag",
+              "a small round wooden table"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She bought a beautiful small round wooden table.", "zh": "她买了一张漂亮的小圆木桌。", "ok": true, "note": "顺序为观点 beautiful、大小 small、形状 round、材料 wooden。" },
+          { "en": "She bought a wooden small round beautiful table.", "zh": "她买了一张漂亮的小圆木桌。", "ok": false, "note": "材料 wooden 应最靠近名词，观点 beautiful 应在最外层。" },
+          { "en": "He was wearing a black leather jacket.", "zh": "他穿着一件黑色皮夹克。", "ok": true, "note": "颜色 black 在材料 leather 之前。" },
+          { "en": "He was wearing a leather black jacket.", "zh": "他穿着一件黑色皮夹克。", "ok": false, "note": "材料不能排在颜色前，应为 a black leather jacket。" },
+          { "en": "They live in a lovely old Chinese house.", "zh": "他们住在一栋漂亮的中国老房子里。", "ok": true, "note": "顺序为观点 lovely、年龄 old、国籍 Chinese。" },
+          { "en": "They live in a Chinese lovely old house.", "zh": "他们住在一栋漂亮的中国老房子里。", "ok": false, "note": "国籍 Chinese 应靠近名词，观点 lovely 应移到最前。" },
+          { "en": "There is a big old brown wooden box in the attic.", "zh": "阁楼上有一个又大又旧的棕色木箱。", "ok": true, "note": "顺序为大小 big、年龄 old、颜色 brown、材料 wooden。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He was wearing a leather black jacket.", "right": "He was wearing a black leather jacket.", "why": "颜色属于外观属性，材料属于本质属性，材料必须更靠近名词。" },
+          { "wrong": "They visited an old beautiful church.", "right": "They visited a beautiful old church.", "why": "观点形容词主观性最强，位置在最外层，不能被年龄词挤到后面。" },
+          { "wrong": "She bought a Japanese small camera.", "right": "She bought a small Japanese camera.", "why": "大小属于尺寸属性，位置在国籍之前。" }
+        ],
+        "contrast": { "withTitle": "形容词后置定语的情形", "diff": "这一节点处理多个形容词前置时的相对顺序；后置定语处理单个形容词在什么条件下移到名词后，两者位置方向相反。" },
+        "mnemonic": "观大形龄色国材用，越靠本质越近名词。"
+      },
+      "review": {
+        "core": [
+          "顺序：观点 → 大小 → 形状 → 年龄 → 颜色 → 国籍 → 材料 → 用途",
+          "观点最远，材料与用途最近",
+          "颜色在材料前：a black leather jacket",
+          "国籍在材料前：a Chinese wooden box",
+          "大小在国籍前：a small Japanese camera"
+        ],
+        "trigger": "看到两个以上形容词修饰同一名词 → 先挑出观点词放最前，再把材料词推到名词前",
+        "quickCheck": [
+          { "q": "“黑色皮夹克”怎么排序？", "a": "a black leather jacket。" },
+          { "q": "“漂亮的中国老房子”怎么排序？", "a": "a lovely old Chinese house。" },
+          { "q": "材料形容词应该放在哪里？", "a": "最靠近名词的位置，只在用途词之前。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.adj_adv.order-of-adjectives.d1",
+          "type": "choice",
+          "stem": "She put the flowers in a ___ vase.",
+          "options": ["small old glass", "glass old small", "old small glass", "small glass old"],
+          "answer": "small old glass",
+          "explain": "按大小 → 年龄 → 材料的顺序排列，glass 表材料，必须最靠近名词。",
+          "trap": "glass old small 把材料提到最前，违反了材料最贴近名词的规则。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.order-of-adjectives.d2",
+          "type": "fill",
+          "stem": "They bought a ___ table for the dining room. (round / wooden)",
+          "answer": "round wooden",
+          "accept": ["round wooden"],
+          "hint": "形状在前，材料在后。",
+          "explain": "shape 类形容词 round 位于材料 wooden 之前，且材料紧贴名词 table。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.order-of-adjectives.d3",
+          "type": "correct",
+          "stem": "They moved into an old beautiful house near the river.",
+          "answer": "They moved into a beautiful old house near the river.",
+          "accept": ["They moved into a beautiful old house near the river."],
+          "explain": "观点形容词 beautiful 应在年龄词 old 之前，同时冠词由 an 改为 a。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.order-of-adjectives.d4",
+          "type": "choice",
+          "stem": "At the fair she bought a ___ scarf.",
+          "options": ["lovely red silk", "red lovely silk", "silk red lovely", "lovely silk red"],
+          "answer": "lovely red silk",
+          "explain": "顺序为观点 lovely、颜色 red、材料 silk，材料 silk 紧贴名词 scarf。",
+          "trap": "lovely silk red 把颜色放到材料之后，颜色必须排在材料前。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.order-of-adjectives.d5",
+          "type": "translate",
+          "stem": "她穿着一件漂亮的红色丝绸连衣裙。",
+          "answer": "She was wearing a beautiful red silk dress.",
+          "require": [["beautiful"], ["red"], ["silk"], ["dress"]],
+          "forbid": ["red beautiful silk", "silk red"],
+          "explain": "按观点 → 颜色 → 材料的顺序排列，beautiful 最前，silk 紧贴中心名词 dress。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.order-of-adjectives.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "bought", "a", "big", "old", "brown", "wooden", "box."],
+          "answer": "He bought a big old brown wooden box.",
+          "explain": "按大小 big、年龄 old、颜色 brown、材料 wooden 的顺序排列，材料最靠近名词。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.adj_adv.adverb-position",
+      "title": "副词的位置规则",
+      "brief": "频度在动词前、be 后，方式随宾语后",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": [],
+      "concept": {
+        "summary": "副词位置由类别决定：频度副词放在实义动词之前、be 动词与助动词之后；方式副词放在动词或宾语之后；程度副词放在所修饰的形容词或副词之前；评注副词置于句首并用逗号隔开。方式副词不能插在动词与宾语之间。",
+        "sections": [
+          {
+            "h": "频度副词的三处落点",
+            "p": "频度副词的位置由谓语构成决定：只有实义动词时放在动词前；有 be 动词时放在 be 后；有助动词时放在第一个助动词之后。这条规则覆盖 always, usually, often, sometimes, seldom, hardly, never。",
+            "bullets": [
+              "She always walks to work.",
+              "She is always late for meetings.",
+              "She has never been abroad.",
+              "× She arrives always late."
+            ]
+          },
+          {
+            "h": "方式副词与程度副词",
+            "p": "方式副词修饰动作，位置在动词后；若动词带宾语，则放在宾语之后，不能插入动词与宾语之间。程度副词修饰形容词或另一个副词时前置，只有 enough 例外，必须后置。",
+            "bullets": [
+              "He speaks English fluently.",
+              "× He speaks fluently English.",
+              "The room is big enough for twenty people.",
+              "very / quite / rather + 形容词：quite difficult"
+            ]
+          },
+          {
+            "h": "评注副词与状语顺序",
+            "p": "评注副词表达说话人的态度，通常置于句首并用逗号与主句隔开。句末同时出现地点与时间状语时，地点在前、时间在后。",
+            "bullets": [
+              "Fortunately, no one was hurt.",
+              "I met him at the station yesterday.",
+              "两个时间单位并列时，小单位在前：at seven on Monday morning"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She always arrives at the office before eight.", "zh": "她总是八点前到办公室。", "ok": true, "note": "频度副词 always 位于实义动词 arrives 之前。" },
+          { "en": "She arrives always at the office before eight.", "zh": "她总是八点前到办公室。", "ok": false, "note": "频度副词不能放在实义动词后，应移到 arrives 之前。" },
+          { "en": "He has never been to Japan.", "zh": "他从没去过日本。", "ok": true, "note": "频度副词 never 位于助动词 has 之后、过去分词之前。" },
+          { "en": "He has been never to Japan.", "zh": "他从没去过日本。", "ok": false, "note": "never 应放在第一个助动词之后，而不是 be 动词或介词短语前。" },
+          { "en": "He speaks English fluently.", "zh": "他英语说得很流利。", "ok": true, "note": "方式副词 fluently 位于宾语 English 之后。" },
+          { "en": "He speaks fluently English.", "zh": "他英语说得很流利。", "ok": false, "note": "方式副词不能插在动词与宾语之间，应移到宾语后。" },
+          { "en": "Fortunately, no one was hurt in the accident.", "zh": "幸运的是，事故中没有人受伤。", "ok": true, "note": "评注副词置于句首，并用逗号与主句隔开。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I very like this novel.", "right": "I like this novel very much.", "why": "very 不能直接修饰动词，修饰动词要用 very much 并置于句末。" },
+          { "wrong": "She goes always to the gym after work.", "right": "She always goes to the gym after work.", "why": "频度副词必须放在实义动词之前，不能放在动词与介词短语之间。" },
+          { "wrong": "He explained clearly the rules to the new students.", "right": "He explained the rules clearly to the new students.", "why": "方式副词不能插在动词与宾语之间，须置于宾语 rules 之后。" }
+        ],
+        "contrast": { "withTitle": "副词与形容词的易混形式", "diff": "这一节点管副词的“位置”，那一节点管副词的“形式”；位置错是语序问题，形式错是词性选错。" },
+        "mnemonic": "频度在动词前、be 后；方式跟宾语后；very 不碰动词。"
+      },
+      "review": {
+        "core": [
+          "频度副词：实义动词前，be 动词与助动词后",
+          "方式副词：动词后或宾语后，不能插在动词与宾语之间",
+          "程度副词修饰形容词或副词前置，enough 后置",
+          "评注副词置于句首，用逗号隔开",
+          "地点状语在时间状语之前，时间小单位在前"
+        ],
+        "trigger": "要放副词 → 先判类别（频度/方式/程度/评注）→ 再按该类别的固定落点安放",
+        "quickCheck": [
+          { "q": "She ___ (always) is late. 怎么改？", "a": "She is always late，频度副词在 be 后。" },
+          { "q": "“他英语说得好”怎么排序？", "a": "He speaks English well，方式副词在宾语后。" },
+          { "q": "enough 修饰形容词时放在哪里？", "a": "形容词之后，如 good enough。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.adj_adv.adverb-position.d1",
+          "type": "choice",
+          "stem": "She ___ goes to the gym before work.",
+          "options": ["usually", "usual", "is usually", "usualy"],
+          "answer": "usually",
+          "explain": "句中已有实义动词 goes，频度副词 usually 直接放在它之前，不需要 be 动词。",
+          "trap": "usual 是形容词，不能修饰动词 goes；is usually 会与 goes 冲突，造成两个谓语。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.adj_adv.adverb-position.d2",
+          "type": "fill",
+          "stem": "He has ___ been to Japan, though he has travelled widely in Asia. (never)",
+          "answer": "never",
+          "accept": ["never"],
+          "hint": "句中已有助动词 has，频度副词放在助动词之后。",
+          "explain": "频度副词位于第一个助动词之后，构成 has never been，表示“从未去过”。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.adverb-position.d3",
+          "type": "correct",
+          "stem": "He explained clearly the rules to the new students.",
+          "answer": "He explained the rules clearly to the new students.",
+          "accept": ["He explained the rules clearly to the new students."],
+          "explain": "方式副词 clearly 不能插在动词 explained 与宾语 the rules 之间，须移到宾语之后。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.adverb-position.d4",
+          "type": "choice",
+          "stem": "The room is ___ for twenty people to sit comfortably.",
+          "options": ["big enough", "enough big", "bigger enough", "enough bigger"],
+          "answer": "big enough",
+          "explain": "enough 修饰形容词时必须后置，结构为形容词 + enough，故用 big enough。",
+          "trap": "enough big 按汉语语序排列，英语中 enough 只能放在形容词之后。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.adverb-position.d5",
+          "type": "translate",
+          "stem": "他通常七点前到办公室。",
+          "answer": "He usually arrives at the office before seven.",
+          "require": [["usually"], ["arrives"]],
+          "forbid": ["arrives usually", "usual arrives"],
+          "explain": "频度副词 usually 位于实义动词 arrives 之前；usual 是形容词，不能修饰动词。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.adverb-position.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "has", "never", "seen", "such", "a", "beautiful", "sunset."],
+          "answer": "She has never seen such a beautiful sunset.",
+          "explain": "频度副词 never 位于助动词 has 之后、实义动词 seen 之前。",
+          "difficulty": 2
+        }
+      ]
+    }
+,
+    {
+      "id": "morph.adj_adv.adverb-vs-adjective",
+      "title": "副词与形容词的易混形式",
+      "brief": "ly 结尾未必是副词，hardly 表几乎不",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": [],
+      "concept": {
+        "summary": "加 -ly 不一定变副词，也不一定保留原义：hard 是“努力地”，hardly 是“几乎不”；late 是“迟”，lately 是“最近”；high 指空间高度，highly 指抽象程度。friendly, lovely, lonely, lively, likely, daily, early 虽以 ly 结尾仍是形容词，不能直接修饰动词。",
+        "sections": [
+          {
+            "h": "同形而分化的六组",
+            "p": "这些词的两个形式都能独立使用，但语义已经分开，选错会直接改变句意。判断时先确定要表达的是字面义还是引申义。",
+            "bullets": [
+              "hard 努力地 / hardly 几乎不",
+              "late 迟 / lately 最近",
+              "near 近 / nearly 几乎",
+              "high 空间高度 / highly 高度地、非常",
+              "wide 宽 / widely 广泛地；close 近 / closely 密切地",
+              "most 最 / mostly 主要地；deep 深 / deeply 深深地"
+            ]
+          },
+          {
+            "h": "形为 ly 的形容词",
+            "p": "这类词由名词加 -ly 构成，本身就是形容词，不能作状语。需要副词表达时，改用介词短语 in a ... way，或换一个真正的副词。",
+            "bullets": [
+              "friendly, lovely, lonely, lively, likely, silly, ugly",
+              "daily, weekly, monthly, yearly；early, costly, deadly",
+              "× He greeted me friendly. → He greeted me in a friendly way."
+            ]
+          },
+          {
+            "h": "系动词后用形容词",
+            "p": "look, sound, taste, smell, feel, seem, remain 后是表语位置，必须用形容词。well 只有在表示“健康”时才是形容词，表示“好”时是副词，不能放在系动词后描述事物。",
+            "bullets": [
+              "The soup tastes good.（不是 well）",
+              "He looks tired after the long flight.",
+              "She feels well again.（well 表健康）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He works hard and rarely takes a day off.", "zh": "他工作努力，很少休息。", "ok": true, "note": "hard 作副词表示“努力地”，修饰 works。" },
+          { "en": "He works hardly and rarely takes a day off.", "zh": "他几乎不工作，很少休息。", "ok": false, "note": "hardly 意为“几乎不”，与“工作努力”的语义相反。" },
+          { "en": "She has been very busy lately.", "zh": "她最近很忙。", "ok": true, "note": "lately 表示“最近”，与现在完成时搭配。" },
+          { "en": "She has been very busy late.", "zh": "她最近很忙。", "ok": false, "note": "late 意为“迟”，表示“最近”必须用 lately。" },
+          { "en": "He greeted us in a friendly way.", "zh": "他很友好地跟我们打招呼。", "ok": true, "note": "friendly 是形容词，作状语要用 in a friendly way 这一介词短语。" },
+          { "en": "He greeted us friendly.", "zh": "他很友好地跟我们打招呼。", "ok": false, "note": "friendly 不是副词，不能直接修饰动词 greeted。" },
+          { "en": "The soup tastes good.", "zh": "这汤味道不错。", "ok": true, "note": "taste 是系动词，后面用形容词 good 作表语。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He works hardly every day.", "right": "He works hard every day.", "why": "hardly 意为“几乎不”，要表达“努力”必须用 hard。" },
+          { "wrong": "She arrived lately for the meeting.", "right": "She arrived late for the meeting.", "why": "late 表示“迟”，lately 表示“最近”，两者语义不同。" },
+          { "wrong": "The plane flew highly above the clouds.", "right": "The plane flew high above the clouds.", "why": "high 指空间上的高度，highly 表示抽象的程度，不能描述飞行高度。" }
+        ],
+        "contrast": { "withTitle": "副词的位置规则", "diff": "这一节点判断该用形容词还是副词、用哪一个 -ly 词；位置规则解决选定之后放在句中什么位置。" },
+        "mnemonic": "hard 努力 hardly 几乎不；late 迟到 lately 最近；ly 结尾未必是副词。"
+      },
+      "review": {
+        "core": [
+          "hard 努力地 / hardly 几乎不",
+          "late 迟 / lately 最近；near 近 / nearly 几乎",
+          "high 空间高度 / highly 抽象程度",
+          "friendly, lovely, lively, daily, early 是形容词，不是副词",
+          "系动词后用形容词：tastes good，不用 well"
+        ],
+        "trigger": "看到 -ly 词要作状语 → 先查它是不是形容词 → 是则改用 in a ... way 或换词",
+        "quickCheck": [
+          { "q": "“他几乎不工作”怎么说？", "a": "He hardly works。" },
+          { "q": "“她最近很忙”用 late 还是 lately？", "a": "lately，She has been busy lately." },
+          { "q": "friendly 能修饰动词吗？", "a": "不能，要用 in a friendly way。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.adj_adv.adverb-vs-adjective.d1",
+          "type": "choice",
+          "stem": "He studies very ___, so his grades have improved a lot.",
+          "options": ["hard", "hardly", "harder", "hardly ever"],
+          "answer": "hard",
+          "explain": "此处表示“努力地学习”，用副词 hard 修饰 studies，与后半句成绩提高相呼应。",
+          "trap": "hardly 意为“几乎不”，若填入则与“成绩大幅提高”自相矛盾。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.adj_adv.adverb-vs-adjective.d2",
+          "type": "fill",
+          "stem": "I have not seen him ___ ; he must be busy with his thesis. (late)",
+          "answer": "lately",
+          "accept": ["lately"],
+          "hint": "现在完成时 + 否定，表示“最近一直没见到”。",
+          "explain": "lately 表示“最近”，与现在完成时的否定结构搭配；late 意为“迟”，语义不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.adverb-vs-adjective.d3",
+          "type": "correct",
+          "stem": "She greeted the guests friendly and showed them to their seats.",
+          "answer": "She greeted the guests in a friendly way and showed them to their seats.",
+          "accept": ["She greeted the guests in a friendly way and showed them to their seats."],
+          "explain": "friendly 是形容词，不能作状语修饰 greeted，须改用介词短语 in a friendly way。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.adverb-vs-adjective.d4",
+          "type": "choice",
+          "stem": "The little girl is very ___ and often sings for the neighbours.",
+          "options": ["lively", "livelyly", "alive", "living"],
+          "answer": "lively",
+          "explain": "lively 虽以 ly 结尾却是形容词，表示“活泼的”，放在 is 后作表语。",
+          "trap": "livelyly 是把形容词误当词根再加 ly 造出的形式，英语中不存在。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.adverb-vs-adjective.d5",
+          "type": "translate",
+          "stem": "他几乎不锻炼，所以身体不太好。",
+          "answer": "He hardly ever exercises, so he is not very fit.",
+          "require": [["hardly"], ["exercise"]],
+          "forbid": ["hardly exercises not", "hard exercises"],
+          "explain": "“几乎不”用 hardly，本身已含否定意义，句中不再加 not；hard 则表示“努力地”。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.adverb-vs-adjective.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "has", "been", "working", "very", "hard", "lately."],
+          "answer": "She has been working very hard lately.",
+          "explain": "hard 表“努力地”修饰 working，lately 表“最近”修饰整个完成进行时结构。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.adj_adv.comparative-superlative-forms",
+      "title": "比较级与最高级的构成",
+      "brief": "单音节加 er/est，多音节用 more/most",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "比较级与最高级的构成由音节数和词尾决定：单音节及少数双音节加 -er/-est，多音节以及 -ful/-less/-ous/-ive/-ing/-ed 结尾的词用 more/most。以 e 结尾直接加 r/st，辅音加 y 变 ier/iest，重读闭音节双写末尾辅音。同一个词不能同时使用 more 与 -er。",
+        "sections": [
+          {
+            "h": "加 -er/-est 的四条细则",
+            "p": "单音节词一律走这一条路，双音节中只有少数常用词（narrow, quiet, clever, simple, polite）可以加 -er。变化时先处理词尾拼写，再加词缀。",
+            "bullets": [
+              "一般加 er/est：tall → taller → tallest",
+              "以 e 结尾加 r/st：nice → nicer → nicest",
+              "辅音 + y 变 ier/iest：happy → happier → happiest",
+              "重读闭音节双写：big → bigger → biggest；hot, thin, fat, wet"
+            ]
+          },
+          {
+            "h": "用 more/most 的情形",
+            "p": "三个音节以上的词一律用 more/most；双音节中带 -ful, -less, -ous, -ive, -ing, -ed 后缀的词也用 more/most，因为这些后缀本身已构成一个音节单位。",
+            "bullets": [
+              "interesting → more interesting → most interesting",
+              "careful, famous, active, tiring, tired 均用 more/most",
+              "以 ly 结尾的副词（early 除外）用 more/most：more quickly"
+            ]
+          },
+          {
+            "h": "不规则形式",
+            "p": "不规则变化必须整记，其中 far 有两套形式，old 的 elder/eldest 只作定语，不能作表语。",
+            "bullets": [
+              "good / well → better → best；bad / badly → worse → worst",
+              "many / much → more → most；little → less → least",
+              "far → farther / further → farthest / furthest",
+              "old → older / elder → oldest / eldest（elder, eldest 只作定语）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "This box is heavier than that one.", "zh": "这个箱子比那个重。", "ok": true, "note": "heavy 是辅音加 y 结尾，变 y 为 i 再加 er。" },
+          { "en": "She is the most intelligent student in the class.", "zh": "她是班上最聪明的学生。", "ok": true, "note": "intelligent 是多音节词，最高级用 most。" },
+          { "en": "He runs faster than his brother.", "zh": "他跑得比他哥哥快。", "ok": true, "note": "fast 是单音节副词，比较级加 er。" },
+          { "en": "This book is more easier than that one.", "zh": "这本书比那本容易。", "ok": false, "note": "easy 已用 er 构成比较级，不能再加 more，应改为 easier。" },
+          { "en": "He is the most tallest boy in the class.", "zh": "他是班上最高的男孩。", "ok": false, "note": "tallest 已是最高级，不能再加 most，应改为 the tallest。" },
+          { "en": "My elder sister works in a hospital.", "zh": "我姐姐在医院工作。", "ok": true, "note": "elder 只作前置定语，表示家庭成员中的年长者。" },
+          { "en": "The weather is getting worse.", "zh": "天气越来越糟。", "ok": true, "note": "bad 的比较级是不规则形式 worse。" }
+        ],
+        "pitfalls": [
+          { "wrong": "This problem is more easier than the last one.", "right": "This problem is easier than the last one.", "why": "easy 属辅音加 y 的双音节词，已经通过变 ier 构成比较级，不能再叠加 more。" },
+          { "wrong": "She is the most tallest girl in her class.", "right": "She is the tallest girl in her class.", "why": "tall 是单音节词，最高级由 est 承担，most 与 est 不能同时出现。" },
+          { "wrong": "He is more taller than his father.", "right": "He is taller than his father.", "why": "比较级只能由一个标记承担，more 与 er 叠加属于双重比较级。" }
+        ],
+        "contrast": { "withTitle": "比较级的修饰语", "diff": "这一节点解决“比较级怎么写”，修饰语解决“比较级前面能加什么词”，如 much、far、even。" },
+        "mnemonic": "单音节加 er，多音节加 more；一个词只走一条路。"
+      },
+      "review": {
+        "core": [
+          "单音节加 er/est；以 e 结尾加 r/st；辅音加 y 变 ier/iest",
+          "重读闭音节双写末尾辅音：bigger, hottest",
+          "多音节与 -ful/-less/-ous/-ive/-ing/-ed 用 more/most",
+          "不规则：better/best, worse/worst, more/most, less/least, further/furthest",
+          "禁止双重比较：× more easier，× most tallest"
+        ],
+        "trigger": "要写比较级 → 先数音节 → 再查后缀 → 最后确认没有叠加 more",
+        "quickCheck": [
+          { "q": "happy 的比较级和最高级？", "a": "happier, happiest。" },
+          { "q": "careful 用 more 还是加 er？", "a": "用 more careful, most careful。" },
+          { "q": "elder 能作表语吗？", "a": "不能，elder 只作定语，如 my elder brother。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.adj_adv.comparative-superlative-forms.d1",
+          "type": "choice",
+          "stem": "This street is much ___ than the one we walked along yesterday.",
+          "options": ["wider", "more wide", "widest", "more wider"],
+          "answer": "wider",
+          "explain": "wide 是单音节词，比较级直接加 r 构成 wider，than 也印证了比较级结构。",
+          "trap": "more wide 把单音节词误按多音节处理；more wider 则是双重比较级。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.comparative-superlative-forms.d2",
+          "type": "fill",
+          "stem": "Of all the subjects, chemistry is the ___ (difficult) for me.",
+          "answer": "most difficult",
+          "accept": ["most difficult"],
+          "hint": "difficult 是多音节词，最高级用 most。",
+          "explain": "多音节形容词的最高级由 most + 原级构成，且前面要加 the。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.adj_adv.comparative-superlative-forms.d3",
+          "type": "correct",
+          "stem": "This exercise is more easier than the one in the textbook.",
+          "answer": "This exercise is easier than the one in the textbook.",
+          "accept": ["This exercise is easier than the one in the textbook."],
+          "explain": "easy 变比较级时把 y 改为 i 再加 er，已经承担了比较级标记，不能再加 more。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.comparative-superlative-forms.d4",
+          "type": "choice",
+          "stem": "He sings ___ than anyone else in the choir.",
+          "options": ["better", "gooder", "more well", "best"],
+          "answer": "better",
+          "explain": "well 的比较级是不规则形式 better，than 表明此处需要比较级。",
+          "trap": "gooder 是按规则类推造出的错误形式；more well 同样不成立。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.adj_adv.comparative-superlative-forms.d5",
+          "type": "translate",
+          "stem": "这条河比那条长得多。",
+          "answer": "This river is much longer than that one.",
+          "require": [["much longer"], ["than"]],
+          "forbid": ["more longer", "much long than"],
+          "explain": "long 是单音节词，比较级为 longer，程度由 much 修饰，形成 much longer than。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.comparative-superlative-forms.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "is", "the", "most", "careful", "student", "in", "her", "class."],
+          "answer": "She is the most careful student in her class.",
+          "explain": "careful 带 -ful 后缀，最高级用 most，并与 the 搭配。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.adj_adv.as-as",
+      "title": "同级比较结构 as...as",
+      "brief": "as 与 as 之间只用原级，数量分 many/much",
+      "difficulty": 2,
+      "tags": ["高频", "基础"],
+      "prereq": ["morph.adj_adv.comparative-superlative-forms"],
+      "concept": {
+        "summary": "同级比较用 as + 形容词或副词原级 + as，否定式为 not as/so + 原级 + as，中间绝不出现比较级。涉及数量时用 as many + 可数名词复数 + as 或 as much + 不可数名词 + as。倍数、half、twice 等修饰语放在第一个 as 之前。",
+        "sections": [
+          {
+            "h": "基本结构与否定式",
+            "p": "as...as 是一个封闭框架，两个 as 必须成对出现。否定句可把第一个 as 换成 so，肯定句不能换成 so。",
+            "bullets": [
+              "He is as tall as his father.",
+              "This film is not as interesting as the book.",
+              "否定也可用 not so interesting as，肯定句只能用 as",
+              "× as taller as：框架内必须是原级"
+            ]
+          },
+          {
+            "h": "数量的同级比较",
+            "p": "比较数量时，形容词换成 many 或 much，依据是后面名词的可数性。名词必须放在第二个 as 之前。",
+            "bullets": [
+              "She has as many books as her brother.",
+              "He earns as much money as his colleague.",
+              "We need as many as twenty chairs.（数量可达）"
+            ]
+          },
+          {
+            "h": "修饰语与常见变体",
+            "p": "倍数与 half 放在第一个 as 之前，不能放在句中其他位置。as...as possible 与 as...as one can 是固定表达，表示“尽可能”。",
+            "bullets": [
+              "twice as fast as；half as expensive as",
+              "Please reply as soon as possible.",
+              "Come as early as you can."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He is as tall as his father.", "zh": "他和他父亲一样高。", "ok": true, "note": "as 与 as 之间用原级 tall，构成同级比较。" },
+          { "en": "He is as taller as his father.", "zh": "他和他父亲一样高。", "ok": false, "note": "as...as 框架内不能用比较级，taller 应改为 tall。" },
+          { "en": "This film is not as interesting as the book.", "zh": "这部电影不如书有趣。", "ok": true, "note": "否定句中第一个 as 可用 as 或 so，第二个 as 不变。" },
+          { "en": "She has as many books as her brother.", "zh": "她的书和她哥哥一样多。", "ok": true, "note": "books 可数，数量比较用 as many as。" },
+          { "en": "She has as much books as her brother.", "zh": "她的书和她哥哥一样多。", "ok": false, "note": "books 是可数名词复数，必须用 as many as，不能用 much。" },
+          { "en": "The new machine works twice as fast as the old one.", "zh": "新机器运转速度是旧机器的两倍。", "ok": true, "note": "倍数 twice 放在第一个 as 之前。" },
+          { "en": "Please reply as soon as possible.", "zh": "请尽快回复。", "ok": true, "note": "as...as possible 表示“尽可能”，是固定表达。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is as taller as his brother.", "right": "He is as tall as his brother.", "why": "as...as 是同级比较框架，中间只能放原级。" },
+          { "wrong": "She has as much friends as her sister.", "right": "She has as many friends as her sister.", "why": "friends 是可数名词复数，数量比较要用 many 而不是 much。" },
+          { "wrong": "The question is not so easier as it looks.", "right": "The question is not so easy as it looks.", "why": "so...as 结构同样要求原级，easier 应改为 easy。" }
+        ],
+        "contrast": { "withTitle": "比较级的修饰语", "diff": "as...as 表示两者相同，中间用原级；比较级表示差异，前面可加 much/far/even，两者不能混用。" },
+        "mnemonic": "as 与 as 之间只有原级；可数 many，不可数 much。"
+      },
+      "review": {
+        "core": [
+          "肯定：as + 原级 + as；否定：not as/so + 原级 + as",
+          "框架内绝不出现比较级",
+          "可数用 as many + 复数名词 + as",
+          "不可数用 as much + 名词 + as",
+          "倍数与 half 放在第一个 as 之前"
+        ],
+        "trigger": "看到 as...as → 先检查中间是不是原级 → 再看名词可数性选 many 还是 much",
+        "quickCheck": [
+          { "q": "“和他一样高”怎么说？", "a": "as tall as him。" },
+          { "q": "“一样多的书”用 many 还是 much？", "a": "as many books as。" },
+          { "q": "twice 放在 as...as 的哪个位置？", "a": "第一个 as 之前，twice as fast as。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.adj_adv.as-as.d1",
+          "type": "choice",
+          "stem": "Her handwriting is ___ as her sister's.",
+          "options": ["as clear", "as clearer", "so clear", "clearer"],
+          "answer": "as clear",
+          "explain": "句中出现第二个 as，说明是同级比较，第一个空必须用 as + 原级 clear。",
+          "trap": "as clearer 在 as...as 框架中误用比较级，是本题最强干扰项。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.as-as.d2",
+          "type": "fill",
+          "stem": "The exam was not so ___ (hard) as we had expected.",
+          "answer": "hard",
+          "accept": ["hard"],
+          "hint": "so...as 结构中同样要用原级。",
+          "explain": "not so...as 是同级比较的否定形式，中间必须用原级 hard。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.adj_adv.as-as.d3",
+          "type": "correct",
+          "stem": "This room is as larger as the one upstairs.",
+          "answer": "This room is as large as the one upstairs.",
+          "accept": ["This room is as large as the one upstairs."],
+          "explain": "as...as 之间只能用原级，larger 应改为 large。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.as-as.d4",
+          "type": "choice",
+          "stem": "He earns ___ money as his colleague, though he works longer hours.",
+          "options": ["as much", "as many", "so much", "as more"],
+          "answer": "as much",
+          "explain": "money 是不可数名词，同级比较的数量表达用 as much...as；肯定句不用 so。",
+          "trap": "as many 只能修饰可数名词复数；so much 只用于否定或疑问的同级比较。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.as-as.d5",
+          "type": "translate",
+          "stem": "这本书和那本一样有趣。",
+          "answer": "This book is as interesting as that one.",
+          "require": [["as interesting as"]],
+          "forbid": ["as more interesting", "so interesting than"],
+          "explain": "同级比较用 as + 原级 + as；so...than 与 as...more 都破坏了框架的对称性。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.as-as.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "can", "run", "as", "fast", "as", "her", "brother."],
+          "answer": "She can run as fast as her brother.",
+          "explain": "as 与 as 之间用副词原级 fast，构成同级比较，修饰动词 run。",
+          "difficulty": 2
+        }
+      ]
+    }
+,
+    {
+      "id": "morph.adj_adv.comparative-modifiers",
+      "title": "比较级的修饰语",
+      "brief": "much/far/even 修饰比较级，very 不行",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.adj_adv.comparative-superlative-forms"],
+      "concept": {
+        "summary": "能修饰比较级的词有 much, far, a lot, a great deal, even, still, rather, slightly, a little, a bit, no, any 以及数量短语（two years）。very, quite, so, too, fairly 只能修饰原级。修饰语一律放在比较级之前，句中不能再出现第二个比较级标记。",
+        "sections": [
+          {
+            "h": "可以修饰比较级的词",
+            "p": "这些词表示差距的大小或递进关系，与比较级搭配构成固定组合。数量短语表示具体差距，位置同样在比较级之前。",
+            "bullets": [
+              "much / far / a lot / a great deal + 比较级：much taller",
+              "even / still + 比较级：表递进，even colder",
+              "slightly / a little / a bit + 比较级：表差距微小",
+              "数量短语：three years older, two kilos heavier"
+            ]
+          },
+          {
+            "h": "不能修饰比较级的词",
+            "p": "very, quite, so, too, fairly, pretty 的语义是“程度很高”，它们只能修饰原级形容词或副词。要表达同样的意思，须换成 much 或 far。",
+            "bullets": [
+              "× very taller；√ very tall / much taller",
+              "× quite better；√ quite good / much better",
+              "× too more expensive；√ much more expensive"
+            ]
+          },
+          {
+            "h": "no 与 not 的语义差别",
+            "p": "no + 比较级表示“并不更……”，是对两者的同时否定；not + 比较级只表示程度上的不如。no more than 意为“只有”，not more than 意为“不超过”。",
+            "bullets": [
+              "He is no more careful than his brother.（两人都不细心）",
+              "He is not more careful than his brother.（不如他哥哥细心）",
+              "no more than ten = only ten；not more than ten = at most ten"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "This problem is much more difficult than the previous one.", "zh": "这道题比上一道难得多。", "ok": true, "note": "much 修饰多音节形容词的比较级 more difficult。" },
+          { "en": "This problem is very more difficult than the previous one.", "zh": "这道题比上一道难得多。", "ok": false, "note": "very 只能修饰原级，修饰比较级要用 much。" },
+          { "en": "He is two years older than his sister.", "zh": "他比妹妹大两岁。", "ok": true, "note": "数量短语 two years 表示具体差距，放在比较级之前。" },
+          { "en": "The weather is even colder than it was yesterday.", "zh": "今天天气比昨天还冷。", "ok": true, "note": "even 修饰比较级 colder，表示程度递进。" },
+          { "en": "She is very taller than her mother.", "zh": "她比她妈妈高很多。", "ok": false, "note": "very 不能修饰比较级，应改为 much taller。" },
+          { "en": "This bag is slightly heavier than that one.", "zh": "这个包比那个稍重一点。", "ok": true, "note": "slightly 表示差距很小，修饰比较级 heavier。" },
+          { "en": "He is no more careful than his brother.", "zh": "他和他哥哥一样不细心。", "ok": true, "note": "no more...than 对两者同时否定，意为“两者都不”。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is very taller than his brother.", "right": "He is much taller than his brother.", "why": "very 修饰原级，比较级前的程度词必须换成 much 或 far。" },
+          { "wrong": "This box is a bit more heavier than that one.", "right": "This box is a bit heavier than that one.", "why": "a bit 可以修饰比较级，但 heavier 已含比较级标记，不能再加 more。" },
+          { "wrong": "The tickets are very cheaper this month.", "right": "The tickets are much cheaper this month.", "why": "cheaper 是比较级，前面不能用 very，只能用 much、far 一类词。" }
+        ],
+        "contrast": { "withTitle": "同级比较结构 as...as", "diff": "同级比较用原级并受 as...as 框架约束；比较级表差异，前面用 much/far/even 等程度词修饰，两者标记词不同。" },
+        "mnemonic": "very 只爱原级，much 专宠比较级。"
+      },
+      "review": {
+        "core": [
+          "可修饰比较级：much, far, a lot, even, still, rather, slightly, a little, a bit, no, any",
+          "不可修饰比较级：very, quite, so, too, fairly, pretty",
+          "数量短语表差距：three years older",
+          "修饰语位置在比较级之前",
+          "no more than = 只有；not more than = 不超过"
+        ],
+        "trigger": "看到比较级前要加程度词 → 先排除 very/quite/too → 换成 much/far/even",
+        "quickCheck": [
+          { "q": "very 能修饰比较级吗？", "a": "不能，要用 much 或 far。" },
+          { "q": "“大两岁”怎么说？", "a": "two years older。" },
+          { "q": "no more than ten 是什么意思？", "a": "只有十个。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.adj_adv.comparative-modifiers.d1",
+          "type": "choice",
+          "stem": "The new library is ___ larger than the old one.",
+          "options": ["much", "very", "so", "too"],
+          "answer": "much",
+          "explain": "larger 是比较级，前面只能用 much、far 一类程度词修饰。",
+          "trap": "very 只能修饰原级 large，不能与比较级 larger 搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.comparative-modifiers.d2",
+          "type": "fill",
+          "stem": "My sister is three years ___ (old) than me.",
+          "answer": "older",
+          "accept": ["older"],
+          "hint": "three years 表具体差距，后面要用比较级。",
+          "explain": "数量短语 three years 后接比较级 older，构成 three years older than。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.adj_adv.comparative-modifiers.d3",
+          "type": "correct",
+          "stem": "This laptop is very more expensive than the one I bought last year.",
+          "answer": "This laptop is much more expensive than the one I bought last year.",
+          "accept": ["This laptop is much more expensive than the one I bought last year."],
+          "explain": "more expensive 是比较级结构，前面的程度词不能用 very，须改为 much。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.comparative-modifiers.d4",
+          "type": "choice",
+          "stem": "The final exam was ___ easier than we had expected.",
+          "options": ["a lot", "very", "too", "so"],
+          "answer": "a lot",
+          "explain": "a lot 可以修饰比较级 easier，表示差距很大；其余三个词只能修饰原级。",
+          "trap": "very 是最强干扰项，学生常按汉语“非常容易”直译，但 very 不能与比较级连用。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.comparative-modifiers.d5",
+          "type": "translate",
+          "stem": "他比我高一点。",
+          "answer": "He is a little taller than me.",
+          "require": [["a little taller", "a bit taller", "slightly taller"]],
+          "forbid": ["very taller", "a little more taller"],
+          "explain": "“一点”用 a little / a bit / slightly 修饰比较级 taller，不能叠加 more。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.comparative-modifiers.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "weather", "is", "even", "worse", "than", "it", "was", "yesterday."],
+          "answer": "The weather is even worse than it was yesterday.",
+          "explain": "even 修饰不规则比较级 worse，表示“比昨天还糟”。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.adj_adv.superlative-scope",
+      "title": "最高级的范围限定",
+      "brief": "最高级要带 the，并用 in 或 of 限定范围",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.adj_adv.comparative-superlative-forms"],
+      "concept": {
+        "summary": "最高级要满足两个条件：前面加 the（副词最高级可省），后面给出比较范围。范围用 in + 场所或组织（in the class, in China），或 of + 同类个体（of the three, of all）。有物主代词时不再加 the；one of the + 最高级 + 复数名词，谓语用单数。",
+        "sections": [
+          {
+            "h": "the 与范围的配套",
+            "p": "最高级表示“三者及以上中最突出的一个”，必须有明确的比较范围，否则句子在逻辑上不完整。定冠词 the 与范围标记通常同时出现。",
+            "bullets": [
+              "She is the tallest girl in her class.",
+              "The Yangtze is the longest river in China.",
+              "This is the best of the three.",
+              "副词最高级可省 the：He runs fastest in the team."
+            ]
+          },
+          {
+            "h": "in 与 of 的分工",
+            "p": "in 后接场所、组织或整体范围，of 后接同类个体的集合。与集体比较用 in，与若干同类事物比较用 of。",
+            "bullets": [
+              "in the world / in China / in our class",
+              "of the three / of all the students",
+              "× the tallest of his class（应为 in his class）"
+            ]
+          },
+          {
+            "h": "三个固定句式",
+            "p": "这三个句式把最高级与名词、完成时、序数词绑定，形式固定，考试中出现频率高。",
+            "bullets": [
+              "one of the most + 形容词 + 复数名词：one of the most important cities",
+              "the + 序数词 + 最高级：the second largest city",
+              "the + 最高级 + 名词 + I have ever seen / read"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She is the tallest girl in her class.", "zh": "她是班上最高的女孩。", "ok": true, "note": "最高级 tallest 前加 the，范围用 in her class。" },
+          { "en": "She is tallest girl in her class.", "zh": "她是班上最高的女孩。", "ok": false, "note": "最高级前缺定冠词 the，这是最高频的漏词错误。" },
+          { "en": "It is one of the most beautiful cities in the world.", "zh": "它是世界上最美丽的城市之一。", "ok": true, "note": "one of 后接最高级加复数名词 cities。" },
+          { "en": "It is one of the most beautiful city in the world.", "zh": "它是世界上最美丽的城市之一。", "ok": false, "note": "one of 后的名词必须是复数，city 应改为 cities。" },
+          { "en": "This is the best novel I have ever read.", "zh": "这是我读过的最好的小说。", "ok": true, "note": "最高级与 ever 连用，后面接省略了 that 的定语从句。" },
+          { "en": "Shanghai is the largest city in China.", "zh": "上海是中国最大的城市。", "ok": true, "note": "与国家这一整体范围比较用 in。" },
+          { "en": "He is the tallest of his class.", "zh": "他是班上最高的。", "ok": false, "note": "与集体范围比较应用 in his class，of 后应接同类个体。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Shanghai is largest city in China.", "right": "Shanghai is the largest city in China.", "why": "最高级前必须加定冠词 the，表示独一无二的那一个。" },
+          { "wrong": "He is one of the tallest student in the class.", "right": "He is one of the tallest students in the class.", "why": "one of 表示“其中之一”，后面的名词必须是复数。" },
+          { "wrong": "He is the tallest of his class.", "right": "He is the tallest in his class.", "why": "his class 是一个集体范围，与集体比较用 in，of 后应接同类个体。" }
+        ],
+        "contrast": { "withTitle": "比较级的修饰语", "diff": "最高级要与范围和 the 搭配，比较级要与 than 搭配；看到 than 就不能用最高级，看到 in/of 范围就不能用比较级。" },
+        "mnemonic": "最高级两件套：the 加范围；集体用 in，同类用 of。"
+      },
+      "review": {
+        "core": [
+          "最高级前加 the，副词最高级可省",
+          "范围：in + 场所或组织；of + 同类个体",
+          "one of the + 最高级 + 复数名词，谓语用单数",
+          "the + 序数词 + 最高级：the second largest city",
+          "物主代词前不加 the：my best friend"
+        ],
+        "trigger": "写最高级 → 先补 the → 再问“在什么范围内” → 集体用 in，同类用 of",
+        "quickCheck": [
+          { "q": "“班上最高的男孩”怎么说？", "a": "the tallest boy in his class。" },
+          { "q": "one of 后面用单数还是复数名词？", "a": "复数，one of the best students。" },
+          { "q": "“我最好的朋友”要不要加 the？", "a": "不加，my best friend。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.adj_adv.superlative-scope.d1",
+          "type": "choice",
+          "stem": "The Yellow River is the second ___ river in China.",
+          "options": ["longest", "longer", "long", "most long"],
+          "answer": "longest",
+          "explain": "the second 后接最高级表示“第二长”，范围由 in China 限定。",
+          "trap": "longer 是比较级，与 the second 和范围短语 in China 都不匹配。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.superlative-scope.d2",
+          "type": "fill",
+          "stem": "This is one of the most interesting ___ (book) I have ever read.",
+          "answer": "books",
+          "accept": ["books"],
+          "hint": "one of 表示“其中之一”，后面的名词要用复数。",
+          "explain": "one of the most interesting books 中，of 后是若干同类个体，名词必须用复数。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.superlative-scope.d3",
+          "type": "correct",
+          "stem": "He is tallest student in his class.",
+          "answer": "He is the tallest student in his class.",
+          "accept": ["He is the tallest student in his class."],
+          "explain": "最高级 tallest 前必须加定冠词 the，与范围 in his class 配套。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.adj_adv.superlative-scope.d4",
+          "type": "choice",
+          "stem": "It is ___ film I have ever seen.",
+          "options": ["the best", "the better", "best", "a best"],
+          "answer": "the best",
+          "explain": "与 ever 连用的最高级句式要求 the + 最高级 + 名词，故用 the best film。",
+          "trap": "best 前缺 the 是最高频错误；the better 用于两者比较，与 ever 不搭。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.superlative-scope.d5",
+          "type": "translate",
+          "stem": "他是班上最高的男孩。",
+          "answer": "He is the tallest boy in his class.",
+          "require": [["the tallest"], ["in his class"]],
+          "forbid": ["tallest boy of his class", "more tallest"],
+          "explain": "最高级前加 the，与集体范围比较用 in his class，不用 of。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.superlative-scope.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["This", "is", "one", "of", "the", "most", "important", "cities", "in", "the", "world."],
+          "answer": "This is one of the most important cities in the world.",
+          "explain": "one of 后接最高级与复数名词 cities，范围由 in the world 限定。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.adj_adv.the-more-the-more",
+      "title": "the more..., the more... 结构",
+      "brief": "两个 the 各带一个比较级，前因后果",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["morph.adj_adv.comparative-modifiers"],
+      "concept": {
+        "summary": "the + 比较级..., the + 比较级... 表示“越……就越……”，前一分句是条件，后一分句是结果。两个 the 都不能省，比较级必须紧跟 the，主句不能用倒装；从句用一般现在时表将来，主句用将来时。比较级后可直接接名词，如 the more money。",
+        "sections": [
+          {
+            "h": "结构与语序",
+            "p": "这个结构由两个分句组成，每个分句都以 the + 比较级开头。the 是副词，修饰后面的比较级，不是冠词，因此不能省略也不能换成 more。",
+            "bullets": [
+              "The more you read, the more you know.",
+              "× More you read, more you know.",
+              "比较级紧跟 the：the more fluent you will become",
+              "主句不倒装：× the more will you know"
+            ]
+          },
+          {
+            "h": "时态与省略",
+            "p": "从句用一般现在时表示将来，主句才用 will。两个分句的主语谓语在语义清楚时可以省略，形成 the more, the better 这类固定说法。",
+            "bullets": [
+              "The earlier you start, the sooner you will finish.",
+              "× The earlier you will start...",
+              "The more, the better. / The sooner, the better.",
+              "The less you worry, the better you sleep."
+            ]
+          },
+          {
+            "h": "与 more and more 的分工",
+            "p": "more and more + 原级表示同一事物程度持续加深，只涉及一个变化；the more..., the more... 表示两个变化之间的因果关联，必须有两条比较级。",
+            "bullets": [
+              "Life is getting more and more expensive.（一个变化）",
+              "The more expensive life becomes, the less people save.（两个变化相关联）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The more you practise, the more confident you become.", "zh": "你练习得越多，就越自信。", "ok": true, "note": "两个 the 各带一个比较级，前为条件，后为结果。" },
+          { "en": "More you practise, more confident you become.", "zh": "你练习得越多，就越自信。", "ok": false, "note": "两个 the 都不能省，缺 the 就不是该关联结构。" },
+          { "en": "The earlier you book the tickets, the cheaper they will be.", "zh": "你越早订票，票价就越便宜。", "ok": true, "note": "从句用一般现在时 book，主句用将来时 will be。" },
+          { "en": "The more carefully you plan, the fewer mistakes you will make.", "zh": "你计划得越仔细，犯的错误就越少。", "ok": true, "note": "比较级 carefully 与 fewer 分别紧跟两个 the。" },
+          { "en": "The more you eat, the more you will get fat.", "zh": "你吃得越多，就会越胖。", "ok": false, "note": "第二个 the 后必须紧跟比较级，应改为 the fatter you will get。" },
+          { "en": "The more, the better.", "zh": "越多越好。", "ok": true, "note": "省略主语和谓语后的固定说法，两个 the 仍保留。" },
+          { "en": "Life is getting more and more expensive.", "zh": "生活变得越来越贵。", "ok": true, "note": "more and more 表示单一程度的持续加深，不是关联结构。" }
+        ],
+        "pitfalls": [
+          { "wrong": "More you read, more you know.", "right": "The more you read, the more you know.", "why": "该结构中的 the 是修饰比较级的副词，两个都不能省略。" },
+          { "wrong": "The more you practise, the more you will become confident.", "right": "The more you practise, the more confident you will become.", "why": "第二个 the 后必须紧跟比较级，more confident 应连在一起放在分句前部。" },
+          { "wrong": "The earlier you will start, the sooner you will finish.", "right": "The earlier you start, the sooner you will finish.", "why": "从句用一般现在时表将来，will 只出现在主句中。" }
+        ],
+        "contrast": { "withTitle": "比较级的修饰语", "diff": "本结构要求两个 the 与两个比较级成对出现；修饰语只是在单个比较级前加程度词，不构成关联结构。" },
+        "mnemonic": "两 the 两比较，前条件后结果；从句现在时，主句将来时。"
+      },
+      "review": {
+        "core": [
+          "结构：the + 比较级 + 分句，the + 比较级 + 分句",
+          "两个 the 都不能省，比较级紧跟 the",
+          "前一分句是条件，后一分句是结果",
+          "从句用一般现在时表将来，主句用 will",
+          "与 more and more 的区别：一个变化对比两个关联变化"
+        ],
+        "trigger": "看到“越……越……” → 先写两个 the，再各接一个比较级，最后核对时态",
+        "quickCheck": [
+          { "q": "“你越练越自信”怎么说？", "a": "The more you practise, the more confident you become." },
+          { "q": "从句能用 will 吗？", "a": "不能，从句用一般现在时表将来。" },
+          { "q": "The more, the better 为什么可以省略？", "a": "语义清楚时两个分句的主语和谓语可以省略。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.adj_adv.the-more-the-more.d1",
+          "type": "choice",
+          "stem": "___ you read, the more you will understand the author's intention.",
+          "options": ["The more", "More", "The most", "Much more"],
+          "answer": "The more",
+          "explain": "该结构要求两个 the 成对出现，后半句已有 the more，前半句也必须用 The more。",
+          "trap": "More 缺少 the，无法构成 the + 比较级 的关联结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.the-more-the-more.d2",
+          "type": "fill",
+          "stem": "The earlier you leave, the ___ (soon) you will arrive.",
+          "answer": "sooner",
+          "accept": ["sooner"],
+          "hint": "the 后面必须接比较级形式。",
+          "explain": "第二个 the 后要接比较级，soon 的比较级是 sooner，与前句 the earlier 形成对应。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.adj_adv.the-more-the-more.d3",
+          "type": "correct",
+          "stem": "The more you practise, the more you will become fluent.",
+          "answer": "The more you practise, the more fluent you will become.",
+          "accept": ["The more you practise, the more fluent you will become."],
+          "explain": "第二个 the 后必须紧跟比较级，more fluent 应连在一起，构成 the more fluent you will become。",
+          "difficulty": 4
+        },
+        {
+          "id": "morph.adj_adv.the-more-the-more.d4",
+          "type": "choice",
+          "stem": "The ___ the economy grows, the more energy the country consumes.",
+          "options": ["faster", "fast", "fastest", "more fast"],
+          "answer": "faster",
+          "explain": "the 后必须接比较级，fast 的比较级是 faster，与后半句 the more 对应。",
+          "trap": "fast 是原级，fastest 是最高级，两者都不能进入 the + 比较级 的槽位。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.adj_adv.the-more-the-more.d5",
+          "type": "translate",
+          "stem": "你越早开始，就越早完成。",
+          "answer": "The earlier you start, the sooner you will finish.",
+          "require": [["the earlier"], ["the sooner"]],
+          "forbid": ["more early", "the earlier you will start"],
+          "explain": "两个 the 各带一个比较级；从句用一般现在时 start，将来由主句的 will finish 承担。",
+          "difficulty": 4
+        },
+        {
+          "id": "morph.adj_adv.the-more-the-more.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "more", "careful", "you", "are,", "the", "fewer", "mistakes", "you", "will", "make."],
+          "answer": "The more careful you are, the fewer mistakes you will make.",
+          "explain": "第一个 the 后接 more careful，第二个 the 后接 fewer mistakes，两个分句由逗号分隔。",
+          "difficulty": 4
+        }
+      ]
+    }
+  ]
+}

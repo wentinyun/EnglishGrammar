@@ -1,0 +1,1197 @@
+{
+  "level1": "clause",
+  "chapter": "adverbial_clause",
+  "items": [
+    {
+      "id": "clause.adverbial_clause.time-when-while-as",
+      "title": "时间状语从句 when/while/as 的辨析",
+      "brief": "时点用 when，时段用 while，同步用 as",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.conjunctions.time-conjunctions", "tense_voice.past_continuous.time-reference"],
+      "concept": {
+        "summary": "三条判据按顺序用：从句给的是主句动作发生的时间点，用 when；从句给的是主句动作持续的时间段，用 while；两个动作同时推进、后者随前者变化，用 as。判据的落点是谓语动词的持续长度——瞬间动词只能提供时点，延续性动词才能提供时段。",
+        "sections": [
+          {
+            "h": "三条判据的落点",
+            "p": "先看从句谓语是瞬间动词还是延续性动词，再看两个动作是“打断”还是“并行”，最后看有没有“随着”的比例关系。三者对应 when、while、as，顺序不能颠倒。",
+            "bullets": [
+              "when：从句动作是一个时点，主句动作在此时点发生或被打断；谓语多为 went out、arrived、rang、heard 这类瞬间动词",
+              "while：从句动作占据一段时间，主句动作在这段时间内持续；谓语必须是延续性动词，通常是进行时或状态动词",
+              "as：两个动作同时推进，常译“随着”“一边……一边”，从句谓语多为 grow、become、increase 这类表变化的动词"
+            ]
+          },
+          {
+            "h": "while 的动词限制",
+            "p": "while 的语义是“在整段时间里”，所以从句谓语必须能延续。瞬间动词无法铺满一段时间，放进 while 从句后句子不成立，这不是习惯问题，而是体（aspect）与连词语义冲突。",
+            "bullets": [
+              "√ While I was preparing dinner, the phone rang.",
+              "× While she heard the news, she burst into tears.（heard 是瞬间动作，改 When）",
+              "主语一致时可省略为 while doing：While walking home, I met an old friend."
+            ]
+          },
+          {
+            "h": "as 的同步变化义",
+            "p": "as 的核心不是“同时”，而是“同步”：两个过程按同一节奏推进，或一个人在做一个动作的过程中做另一个动作。表示“随着……越来越……”时只能用 as，while 没有这个含义。",
+            "bullets": [
+              "As he grew older, he became more patient.（年龄增长与耐心增长同步）",
+              "As the temperature rises, the ice melts faster.",
+              "as 还可表“一边……一边”：He whistled as he walked."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "When the lights went out, the audience gasped.", "zh": "灯灭的那一刻，观众倒吸了一口气。", "ok": true, "note": "went out 是瞬间动作，只提供一个时点，用 when。" },
+          { "en": "While I was preparing dinner, the phone rang three times.", "zh": "我做饭的时候，电话响了三次。", "ok": true, "note": "was preparing 是延续性动作，构成一段时间背景，用 while。" },
+          { "en": "As the temperature rises, the ice melts faster.", "zh": "随着温度升高，冰融化得更快。", "ok": true, "note": "温度上升与融化加速同步推进，构成比例关系，用 as。" },
+          { "en": "While she heard the news, she burst into tears.", "zh": "她听到消息就哭了。", "ok": false, "note": "heard 是瞬间动词，不能铺满 while 要求的时段，应改为 When she heard the news。" },
+          { "en": "While the train arrived, we were waiting on the platform.", "zh": "火车到站时，我们正在站台上等。", "ok": false, "note": "arrived 是瞬间动作，无法充当持续背景，应改为 When the train arrived。" },
+          { "en": "While my brother prefers tea, I drink coffee every morning.", "zh": "我弟弟喜欢茶，而我每天早上喝咖啡。", "ok": true, "note": "while 在此表对比“而”，不表时间，两边都可以是状态动词。" },
+          { "en": "As he grew older, he became more patient with his students.", "zh": "随着年龄增长，他对学生越来越有耐心。", "ok": true, "note": "grow 与 become 同步变化，用 as 而不能用 while。" }
+        ],
+        "pitfalls": [
+          { "wrong": "While he heard the doorbell, he opened the door.", "right": "When he heard the doorbell, he opened the door.", "why": "heard 是瞬间动作，不能构成 while 所需的持续时段；时点由 when 承担。" },
+          { "wrong": "While he grew older, he became more patient.", "right": "As he grew older, he became more patient.", "why": "while 只说明两个动作在时间上重叠，不表达“随着”的比例变化，同步变化必须用 as。" },
+          { "wrong": "I was reading while the phone rang.", "right": "I was reading when the phone rang.", "why": "while 从句应提供一段持续背景，rang 是打断背景的瞬间动作，只能用 when。" }
+        ],
+        "contrast": { "withTitle": "时间状语连词 before/after/until/when/while/as", "diff": "本点只切分“同时”内部的三分（时点、时段、同步）；before/after/until 处理先后顺序与终点，靠动作发生的次序判断。" },
+        "mnemonic": "点用 when，段用 while，变用 as；先看动词能不能延续，再看两动作是否同步。"
+      },
+      "review": {
+        "core": [
+          "when：从句给时点，谓语多为瞬间动词，主句动作在此点发生或被打断",
+          "while：从句给时段，谓语必须是延续性动词或进行时",
+          "as：两过程同步推进，可译“随着”“一边……一边”",
+          "while 另有对比义“而”，此时不表时间",
+          "判断顺序：先看从句动词是点还是段，再看是否同步变化"
+        ],
+        "trigger": "空格后是从句且句中有两个动作 → 先看从句谓语能延续多久 → 点选 when、段选 while、同步变化选 as",
+        "quickCheck": [
+          { "q": "While he ___ (knock) at the door, I was cooking. 这句能成立吗？", "a": "不能。knocked 是瞬间动作，应改为 When he knocked at the door, I was cooking." },
+          { "q": "“随着他年龄增长，他变得更有耐心”用哪个连词？", "a": "as。这是同步变化，while 不表此义。" },
+          { "q": "while 除了时间还能表达什么关系？", "a": "对比“而”，如 While he likes tea, I prefer coffee." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.adverbial_clause.time-when-while-as.d1",
+          "type": "choice",
+          "stem": "___ the goalkeeper caught the ball, the referee blew his whistle.",
+          "options": ["While", "When", "Until", "Even if"],
+          "answer": "When",
+          "explain": "caught 是瞬间动词，只提供一个时点，主句的 blew 就在这一时点发生，因此用 when；while 需要从句谓语能延续。",
+          "trap": "While 是最强干扰项，学生只记住“当……时候”就套用，忽略了 while 要求从句动词可持续。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.time-when-while-as.d2",
+          "type": "fill",
+          "stem": "As she ___ (grow) older, she became more tolerant of other people's mistakes.",
+          "answer": "grew",
+          "accept": ["grew"],
+          "hint": "主句 became 是过去时，从句的同步变化也要用过去时。",
+          "explain": "as 表两个过程同步推进，主句用 became，从句的 grow 同样用一般过去时 grew，构成“随着年龄增长，她越来越宽容”。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.time-when-while-as.d3",
+          "type": "correct",
+          "stem": "While the fire alarm rang, the students were taking an exam.",
+          "answer": "When the fire alarm rang, the students were taking an exam.",
+          "accept": ["When the fire alarm rang, the students were taking an exam.", "As the fire alarm rang, the students were taking an exam."],
+          "explain": "rang 是瞬间动作，只能给时点，不能充当 while 需要的持续背景；改用 when（或表同时的 as）后，主句的过去进行时正好表示被警报打断的持续动作。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.time-when-while-as.d4",
+          "type": "choice",
+          "stem": "___ her sister is outgoing, Jane prefers to spend evenings alone with a book.",
+          "options": ["While", "As soon as", "By the time", "The moment"],
+          "answer": "While",
+          "explain": "两句是性格对比，while 在此表“而”，属于对比用法而非时间用法，两边都可以是状态动词。",
+          "trap": "As soon as 与 The moment 都要求主句动作发生在从句动作之后，本句没有先后关系，只是并列对比。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.time-when-while-as.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["As", "he", "grew", "older,", "he", "became", "more", "patient."],
+          "answer": "As he grew older, he became more patient.",
+          "explain": "as 引导的从句置于句首，主句在后；grew 与 became 同为过去时，体现两个过程的同步推进。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.time-when-while-as.d6",
+          "type": "translate",
+          "stem": "我正沿着河边散步，这时遇到了多年未见的老同学。",
+          "answer": "I was walking along the river when I met an old classmate I had not seen for years.",
+          "require": [["was walking"], ["when"], ["met"]],
+          "forbid": ["while I met"],
+          "explain": "主句是持续的过去进行时，met 是突然打断这一背景的瞬间动作，因此用 when 而不能用 while。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "clause.adverbial_clause.future-in-subordinate",
+      "title": "时间状语从句中的主将从现",
+      "brief": "状语从句表将来用现在时，主句才用 will",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["clause.adverbial_clause.time-when-while-as", "tense_voice.future_simple.will-vs-going-to"],
+      "concept": {
+        "summary": "时间、条件、让步状语从句指将来时，从句谓语降为一般现在时，完成意义降为现在完成时，主句才用 will、be going to 或祈使句。判据是“从句连词管的是状语还是其他成分”：when、if、unless、until、as soon as、before、after、even if 引导状语从句时一律不用 will。",
+        "sections": [
+          {
+            "h": "时态降级对照",
+            "p": "所谓“主将从现”不是把将来时换成现在时，而是同一时间意义换一种表达：从句用现在时系统承担将来所指，主句照常保留将来标记。",
+            "bullets": [
+              "will do → do / does：I will call you when I arrive.",
+              "will have done → have / has done：We will start when everyone has arrived.",
+              "will be doing → is / are doing（较少）：He will feel better when he is resting.",
+              "主句可用 will、be going to、情态动词或祈使句：Tell me as soon as you decide."
+            ]
+          },
+          {
+            "h": "三类从句不适用",
+            "p": "这条规则只管状语从句。一旦从句在主句中充当主语、宾语或定语，它就不是状语，将来意义照常用 will。判断方法是问“这个从句能不能移到句首作状语”。",
+            "bullets": [
+              "宾语从句：I don't know whether he will join us.（whether 从句作 know 的宾语）",
+              "主语从句：When he will arrive is still unknown.（when 从句作主语）",
+              "if 表“是否”时同样是宾语从句：She asked if I would stay."
+            ]
+          },
+          {
+            "h": "三个高频失分点",
+            "p": "即便记住了规则，以下三处仍会出错：从句主语的第三人称单数、until 从句的完成意义、as soon as 与现在完成时的搭配。",
+            "bullets": [
+              "从句主语第三人称单数要加 s：He will call you when he gets home.",
+              "until 强调“到……为止已完成”用现在完成时：Wait here until I have finished.",
+              "as soon as 两个动作紧接，常用一般现在时即可：I will leave as soon as the meeting ends."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I will call you as soon as I arrive at the airport.", "zh": "我一到机场就给你打电话。", "ok": true, "note": "as soon as 引导时间状语从句指将来，从句用一般现在时 arrive。" },
+          { "en": "If it rains tomorrow, the match will be put off.", "zh": "如果明天下雨，比赛将推迟。", "ok": true, "note": "if 条件从句用一般现在时表示将来，主句保留 will。" },
+          { "en": "We will not start the meeting until everyone has arrived.", "zh": "等所有人都到齐，我们才开会。", "ok": true, "note": "until 从句强调“到那时已完成”，用现在完成时替代将来完成时。" },
+          { "en": "I will call you as soon as I will arrive at the airport.", "zh": "我一到机场就给你打电话。", "ok": false, "note": "时间状语从句不能用 will 表将来，应改为 as soon as I arrive。" },
+          { "en": "I do not know if it will rain, but if it will rain, we will stay at home.", "zh": "我不知道会不会下雨，但如果下雨，我们就待在家里。", "ok": false, "note": "第一个 if 表“是否”，是宾语从句，用 will 正确；第二个 if 是条件状语从句，须改为 if it rains。" },
+          { "en": "I do not know whether he will join us for dinner.", "zh": "我不知道他会不会来和我们一起吃晚饭。", "ok": true, "note": "whether 从句作 know 的宾语，属于名词性从句，将来意义照常用 will。" },
+          { "en": "When he will arrive is still unknown.", "zh": "他什么时候到仍然不清楚。", "ok": true, "note": "when 从句在此作主语，是主语从句，不受主将从现约束。" }
+        ],
+        "pitfalls": [
+          { "wrong": "We will go out when the rain will stop.", "right": "We will go out when the rain stops.", "why": "when 引导的是时间状语从句，将来意义由一般现在时承担，主句才用 will。" },
+          { "wrong": "I will wait here until he will come back.", "right": "I will wait here until he comes back.", "why": "until 从句指将来的终点，同样降级为一般现在时；用 will 会造成两个将来标记并存。" },
+          { "wrong": "He will tell you the truth if he will know it.", "right": "He will tell you the truth if he knows it.", "why": "条件从句里 will 只表意愿，不表将来；此处是纯粹的将来条件，必须用一般现在时。" }
+        ],
+        "contrast": { "withTitle": "宾语从句的语序与时态", "diff": "主将从现只约束状语从句；宾语从句表示将来时照常用 will，且要用陈述语序，两者的判断入口分别是“从句能否移到句首”和“主句动词是否需要宾语”。" },
+        "mnemonic": "从句让位，主句带队；状语从句讲将来，谓语退回现在时。"
+      },
+      "review": {
+        "core": [
+          "适用：时间（when/before/after/until/as soon as）、条件（if/unless）、让步（even if）状语从句",
+          "替换：will do → do/does；will have done → have/has done",
+          "主句照常用 will、be going to、情态动词或祈使句",
+          "不适用：宾语从句、主语从句、定语从句，以及 if 表“是否”",
+          "从句主语第三人称单数别忘了加 s",
+          "判据：从句能移到句首作状语 → 受主将从现约束"
+        ],
+        "trigger": "从句连词 + 将来意义 → 先把从句谓语降为现在时 → 再回头看主句是否保留了 will",
+        "quickCheck": [
+          { "q": "I will tell him the news as soon as he ___ (come) back. 填什么？", "a": "comes。时间状语从句用一般现在时表将来。" },
+          { "q": "I don't know whether he ___ (come). 填什么？", "a": "will come。whether 从句是宾语从句，不受主将从现约束。" },
+          { "q": "until 从句要表达“到那时已完成”，用什么时态？", "a": "现在完成时，如 until everyone has arrived。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.adverbial_clause.future-in-subordinate.d1",
+          "type": "choice",
+          "stem": "We will not leave the classroom until the rain ___.",
+          "options": ["stops", "will stop", "stopped", "is stopping"],
+          "answer": "stops",
+          "explain": "until 引导时间状语从句，主句用 will not leave 表将来，从句必须降为一般现在时 stops。",
+          "trap": "will stop 是汉语“直到雨会停”的逐字翻译，两个将来标记不能同时出现在主从结构里。",
+          "difficulty": 1
+        },
+        {
+          "id": "clause.adverbial_clause.future-in-subordinate.d2",
+          "type": "fill",
+          "stem": "As soon as the report ___ (finish), it will be sent to the manager.",
+          "answer": "is finished",
+          "accept": ["is finished", "has been finished"],
+          "hint": "report 是被完成的，从句要用被动；主句已经是 will be sent。",
+          "explain": "时间状语从句指将来，用一般现在时的被动 is finished；强调“完成之后”也可用现在完成时的被动 has been finished。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.future-in-subordinate.d3",
+          "type": "correct",
+          "stem": "I will call you as soon as I will get the results.",
+          "answer": "I will call you as soon as I get the results.",
+          "accept": ["I will call you as soon as I get the results."],
+          "explain": "as soon as 引导时间状语从句，从句不能用 will 表将来，改为一般现在时 get；将来标记只保留在主句 will call 上。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.future-in-subordinate.d4",
+          "type": "choice",
+          "stem": "Nobody knows when the spacecraft ___ the moon next year.",
+          "options": ["will reach", "reaches", "reached", "has reached"],
+          "answer": "will reach",
+          "explain": "这里的 when 从句作 knows 的宾语，是宾语从句而不是时间状语从句，将来意义必须用 will reach；next year 也印证了将来时间。",
+          "trap": "reaches 是把主将从现机械套用到宾语从句的典型错误，本句从句无法移到句首作状语。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.future-in-subordinate.d5",
+          "type": "translate",
+          "stem": "如果明天天气好，我们就去爬山。",
+          "answer": "If the weather is fine tomorrow, we will go climbing.",
+          "require": [["if"], ["is fine", "is good", "is nice"], ["will go", "are going to go"]],
+          "forbid": ["if the weather will", "if it will"],
+          "explain": "if 引导条件状语从句，从句用一般现在时 is fine 表将来，主句保留 will go；两个将来标记不能都放在从句里。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.future-in-subordinate.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "will call", "you", "as soon as", "I", "arrive", "at the airport."],
+          "answer": "I will call you as soon as I arrive at the airport.",
+          "explain": "主句用 will call 表将来，as soon as 从句用一般现在时 arrive，构成标准的主将从现结构。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.adverbial_clause.place",
+      "title": "地点状语从句",
+      "brief": "where 前无先行词即为地点状语从句",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["syntax.sentence_elements.attributive-adverbial-predicative"],
+      "concept": {
+        "summary": "where 引导地点状语从句时，主句中没有表示地点的先行词，where 自身等于 in/at/to the place，从句说明动作发生或指向的地点。判定只有一条：where 前有没有地点名词作先行词——有则是定语从句，可换成 in which；没有则是状语从句，不能换成 in which。",
+        "sections": [
+          {
+            "h": "一条判据：有无先行词",
+            "p": "把 where 前面的成分看一遍，若紧邻的是一个地点名词且这个名词在主句中充当成分，where 从句修饰它，是定语从句；若 where 直接跟在动词或介词之后，前面没有可修饰的地点名词，就是状语从句。",
+            "bullets": [
+              "Put the book where it belongs.（无先行词 → 地点状语从句）",
+              "Put the book on the shelf where it belongs.（shelf 是先行词 → 定语从句，可换 on which）",
+              "He works where the air is clean.（无先行词 → 状语从句，不能换成 in which）"
+            ]
+          },
+          {
+            "h": "wherever 与省略形式",
+            "p": "表示“无论哪里”用 wherever，它引导的仍是地点状语从句，可置于句首；where 还可构成 where possible、where necessary 这类省略结构，相当于 where it is possible。",
+            "bullets": [
+              "Wherever she goes, she carries a notebook.",
+              "You may sit wherever you like.（= in any place you like）",
+              "Add a comma where necessary.（= where it is necessary）"
+            ]
+          },
+          {
+            "h": "两条形式限制",
+            "p": "where 本身是地点副词，已经在从句中充当状语，因此不能再被 in、at、to 支配；它也不能与 that 叠加使用。这两点是写作中最常见的结构错误。",
+            "bullets": [
+              "× in where / × at where / × to where（表示“往……”时 where 已含 to）",
+              "× You may sit wherever that you like.（wherever 已是连词）",
+              "√ 从句可前置：Where there is a will, there is a way."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Put the chair where you found it.", "zh": "把椅子放回你找到它的地方。", "ok": true, "note": "where 前没有地点名词，从句直接作 put 的地点状语。" },
+          { "en": "Where there is a will, there is a way.", "zh": "有志者事竟成。", "ok": true, "note": "地点状语从句置于句首，主句在后，两个 there be 结构各自完整。" },
+          { "en": "Wherever she goes, she carries a notebook.", "zh": "她走到哪里都带着一个笔记本。", "ok": true, "note": "wherever 表“无论哪里”，引导让步性质的地点状语从句。" },
+          { "en": "Leave the package where the guard can see it.", "zh": "把包裹放在保安能看到的地方。", "ok": true, "note": "where 从句修饰 leave 的地点，前面没有先行词。" },
+          { "en": "I found my keys in where I had left them.", "zh": "我在原来放钥匙的地方找到了钥匙。", "ok": false, "note": "where 已含 in，前面不能再加介词，应改为 I found my keys where I had left them." },
+          { "en": "Where he went, he made friends with the local people.", "zh": "无论走到哪里，他都和当地人交朋友。", "ok": false, "note": "此处是“无论哪里”的概括意义，须用 Wherever he went。" },
+          { "en": "Add a comma where necessary.", "zh": "在必要的地方加逗号。", "ok": true, "note": "where necessary 是 where it is necessary 的省略形式，仍属地点状语从句。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He put the box in where it was dry.", "right": "He put the box where it was dry.", "why": "where 等于 in the place，本身已带介词，再加 in 会造成介词重复。" },
+          { "wrong": "Where he went, he made friends easily.", "right": "Wherever he went, he made friends easily.", "why": "where 指一个确定地点，表示“无论哪里”的概括意义必须用 wherever。" },
+          { "wrong": "You may sit wherever that you like.", "right": "You may sit wherever you like.", "why": "wherever 已经是引导从句的连词，不能再叠加 that，否则从句出现两个引导词。" }
+        ],
+        "contrast": { "withTitle": "关系副词 when/where/why 的选用", "diff": "定语从句的 where 前必有地点先行词，可用 in which 替换；地点状语从句的 where 前没有先行词，不能换成 in which。" },
+        "mnemonic": "where 前找名词：找到是定语，找不到是状语；where 自带介词，别再补 in。"
+      },
+      "review": {
+        "core": [
+          "where 前无地点名词 → 地点状语从句；有 → 定语从句",
+          "where = in/at/to the place，因此不能再加 in/at/to",
+          "wherever = 无论哪里，可置于句首",
+          "where 从句位置灵活：Where there is a will, there is a way.",
+          "省略形式：where possible / where necessary",
+          "状语从句不能换成 in which，定语从句可以"
+        ],
+        "trigger": "看到 where → 往前找一个地点名词 → 找到就按定语从句处理，找不到就按地点状语从句处理",
+        "quickCheck": [
+          { "q": "Put it where you like. 中 where 引导什么从句？", "a": "地点状语从句，前面没有先行词。" },
+          { "q": "the house where I grew up 中 where 引导什么从句？", "a": "定语从句，house 是先行词，可换成 in which。" },
+          { "q": "where 前面能加 in 吗？", "a": "不能。where 本身等于 in the place，加 in 会重复。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.adverbial_clause.place.d1",
+          "type": "choice",
+          "stem": "The medicine should be kept ___ children cannot reach it.",
+          "options": ["where", "which", "that", "in which"],
+          "answer": "where",
+          "explain": "前面没有地点名词作先行词，从句直接说明 kept 的地点，用 where 引导地点状语从句。",
+          "trap": "in which 只在定语从句中替代 where，本句没有先行词，无法使用；which 与 that 需要先行词或成分空缺。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.place.d2",
+          "type": "fill",
+          "stem": "___ you go, remember to send me a postcard.",
+          "answer": "Wherever",
+          "accept": ["Wherever"],
+          "hint": "表示“无论哪里”，不是某一个确定地点。",
+          "explain": "句意是“无论你到哪里”，需要表概括地点的 wherever；where 只能指一个确定地点，无法与 you go 构成泛指。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.place.d3",
+          "type": "correct",
+          "stem": "He put the box in where it was dry.",
+          "answer": "He put the box where it was dry.",
+          "accept": ["He put the box where it was dry."],
+          "explain": "where 相当于 in the place，本身已包含介词，前面再加 in 会造成介词重复；删去 in 后从句直接作 put 的地点状语。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.place.d4",
+          "type": "choice",
+          "stem": "This is the village ___ we stayed last summer.",
+          "options": ["where", "which", "that", "when"],
+          "answer": "where",
+          "explain": "village 是地点先行词，从句中 stayed 是不及物动词、不缺宾语，缺的是地点状语，因此用关系副词 where，等于 in which。",
+          "trap": "which 与 that 必须在从句中充当主语或宾语，而 stayed 后已有完整结构，选它们会造成成分悬空。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.place.d5",
+          "type": "translate",
+          "stem": "把书放回你原来拿的地方。",
+          "answer": "Put the book back where you took it.",
+          "require": [["put"], ["where"], ["took"]],
+          "forbid": ["in where", "to where"],
+          "explain": "where 引导地点状语从句，自身等于 to the place，因此前面不能再加 in 或 to；take 的过去式 took 与主句祈使语气搭配。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.place.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Wherever", "he", "goes,", "he", "makes", "new", "friends."],
+          "answer": "Wherever he goes, he makes new friends.",
+          "explain": "wherever 引导的地点状语从句置于句首，主句用一般现在时表习惯，两个分句各有完整主谓。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.adverbial_clause.cause",
+      "title": "原因状语从句",
+      "brief": "because 给新信息，since 给已知前提",
+      "difficulty": 2,
+      "tags": ["高频", "写作"],
+      "prereq": ["morph.conjunctions.cause-concession"],
+      "concept": {
+        "summary": "原因从句按“原因是不是听话人已知的信息”分三层：because 提供新信息、语气最强，可回答 why，也可作强调句的焦点；since 与 as 把原因当作已知前提，译“既然、由于”，多置于句首；now that 表示“既然现在已经……”，隐含情况发生了变化。for 是并列连词，只补充推断依据，不能置句首。",
+        "sections": [
+          {
+            "h": "三层强度与位置",
+            "p": "判断用哪个词，先问这个原因对方知不知道。对方不知道、正是我要告诉他的信息，用 because；双方都清楚、只是拿它当下文的前提，用 since 或 as。",
+            "bullets": [
+              "because：回答 why、可作强调句焦点（It was because...that...）、位置灵活",
+              "since / as：原因已知，通常前置；不能回答 why",
+              "now that：强调“现在情况变了”，只能指现在"
+            ]
+          },
+          {
+            "h": "两个结构禁忌",
+            "p": "汉语的“因为……所以……”在英语里只能保留一个标记。because 是从属连词，so 是并列连词，两者同时出现会让同一因果关系被标记两次。另外 because of 是介词短语，后面只能接名词性成分。",
+            "bullets": [
+              "× Because he was ill, so he stayed at home.",
+              "√ Because he was ill, he stayed at home. / He was ill, so he stayed at home.",
+              "× because of + 从句；√ because of + 名词 / 动名词"
+            ]
+          },
+          {
+            "h": "for 的边界",
+            "p": "for 引导的是并列分句，作用是补充一个推断依据，语气最弱，且不能置于句首。判断方法是：把它换成 because 后句子是否仍然自然；若只是“由此推断”，就只能用 for。",
+            "bullets": [
+              "He must be out, for the lights are off.（由灯灭推断他不在）",
+              "× For the lights were off, he was out.",
+              "书面变体：seeing that / considering that + 从句"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He was late because the subway broke down.", "zh": "他迟到了，因为地铁出了故障。", "ok": true, "note": "地铁故障是听话人不知道的新信息，用 because 直接给出原因。" },
+          { "en": "Since you have finished your work, you may leave early.", "zh": "既然你完成了工作，可以早点走。", "ok": true, "note": "“你完成了工作”是双方都清楚的前提，用 since 引出结论。" },
+          { "en": "Now that everyone is here, let's begin.", "zh": "既然大家都到齐了，我们开始吧。", "ok": true, "note": "now that 强调情况刚刚发生变化，只能指现在。" },
+          { "en": "It was because the road was blocked that we missed the flight.", "zh": "正是因为道路被封，我们才错过了航班。", "ok": true, "note": "because 从句可作强调句的焦点，since 与 as 不能进入这一结构。" },
+          { "en": "He must be out, for the lights are off.", "zh": "他肯定出门了，因为灯是灭的。", "ok": true, "note": "for 分句只是推断依据，不能换成 because 提前。" },
+          { "en": "Because he was ill, so he did not attend the meeting.", "zh": "因为生病，他没有参加会议。", "ok": false, "note": "because 与 so 不能同时标记同一因果关系，删去 so 或将 because 从句改为独立分句。" },
+          { "en": "Because of he was ill, he did not attend the meeting.", "zh": "因为生病，他没有参加会议。", "ok": false, "note": "because of 是介词短语，后面不能接主谓结构，应改为 Because he was ill 或 because of his illness。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Since he was ill, so he stayed at home.", "right": "Since he was ill, he stayed at home.", "why": "since 已标明原因，so 再标结果会让同一逻辑关系出现两个连接词，英语只保留一个。" },
+          { "wrong": "Because of the weather was bad, the flight was cancelled.", "right": "Because the weather was bad, the flight was cancelled.", "why": "because of 后只能接名词性成分；后面是完整主谓结构时必须用连词 because。" },
+          { "wrong": "Why did you leave so early? — Since I was tired.", "right": "Why did you leave so early? — Because I was tired.", "why": "since 把原因当作双方已知的前提，无法承担答句中“新信息”的功能，回答 why 只能用 because。" }
+        ],
+        "contrast": { "withTitle": "目的状语从句", "diff": "because 说明已经发生的事实的原因；so that 说明做某事想要达到的目的，从句带情态动词，两者不能互换。" },
+        "mnemonic": "新信息用 because，已知前提用 since，补充推断用 for；because 与 so 不同框。"
+      },
+      "review": {
+        "core": [
+          "because：直接原因、新信息，可回答 why，可作强调句焦点",
+          "since / as：原因视为已知前提，多前置，不能回答 why",
+          "now that：既然现在……，隐含情况变化，只指现在",
+          "for 是并列连词，只补充推断依据，不能置句首",
+          "because 与 so 不能同现；because of 后接名词性成分"
+        ],
+        "trigger": "要写“因为” → 先问对方是否已经知道这个原因 → 不知道用 because，已知用 since/as，推断用 for",
+        "quickCheck": [
+          { "q": "回答 Why...? 只能用哪个连词？", "a": "because。" },
+          { "q": "Because he was ill, so he stayed at home. 错在哪里？", "a": "because 与 so 重复标记同一因果关系，只能留一个。" },
+          { "q": "because of 后面能接从句吗？", "a": "不能。它后面只能接名词、代词或动名词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.adverbial_clause.cause.d1",
+          "type": "choice",
+          "stem": "The match was cancelled ___ the heavy rain.",
+          "options": ["because of", "because", "since", "as"],
+          "answer": "because of",
+          "explain": "空格后只有名词短语 the heavy rain，没有主谓结构，必须用介词短语 because of；其余三个都是连词，后面要接从句。",
+          "trap": "because 是最强干扰项，学生只记“因为”的词义，忽略了空后是名词短语而非从句。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.cause.d2",
+          "type": "choice",
+          "stem": "It was ___ the traffic was heavy that we arrived late.",
+          "options": ["because", "since", "as", "for"],
+          "answer": "because",
+          "explain": "这是 it was...that 强调句，被强调的部分是原因状语从句；只有 because 能作强调句的焦点，since、as、for 都不能。",
+          "trap": "since 与 as 也能表原因，但它们在语义上把原因当作已知前提，无法成为被强调的新信息。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.cause.d3",
+          "type": "fill",
+          "stem": "___ the exam is over, we can relax for a while.",
+          "answer": "Now that",
+          "accept": ["Now that", "now that"],
+          "hint": "强调“既然现在已经……”，暗示情况刚刚改变。",
+          "explain": "考试结束是一个刚刚发生的变化，用 now that 引出“既然如此”的结论，比 since 更能体现时间上的转折。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.cause.d4",
+          "type": "correct",
+          "stem": "Because the road was blocked, so we had to take another route.",
+          "answer": "Because the road was blocked, we had to take another route.",
+          "accept": ["Because the road was blocked, we had to take another route.", "The road was blocked, so we had to take another route."],
+          "explain": "because 与 so 不能同时出现：前者是从属连词，后者是并列连词，同一个因果关系只能由一个连接词标记。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.cause.d5",
+          "type": "translate",
+          "stem": "他因为生病没来上课。",
+          "answer": "He did not come to class because he was ill.",
+          "require": [["because"], ["ill", "sick"]],
+          "forbid": ["because of he", "so he did not come"],
+          "explain": "“生病”是听话人不知道的新信息，用 because 引导从句；同时不能加 so，也不能用 because of 接主谓结构。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.cause.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "was", "because", "the road", "was blocked", "that", "we", "missed", "the flight."],
+          "answer": "It was because the road was blocked that we missed the flight.",
+          "explain": "强调句结构 it was...that 中被强调的成分是 because 从句，去掉 it was 与 that 后句子仍完整，说明结构成立。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "clause.adverbial_clause.purpose",
+      "title": "目的状语从句",
+      "brief": "目的从句带情态动词，so that 不置句首",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["nonfinite.infinitive.adverbial"],
+      "concept": {
+        "summary": "目的从句由 so that、in order that、lest、for fear that 引导，从句谓语几乎总带 can/could/may/might/will/would 或 should，这个情态动词就是“目的”的标记。判据：从句有情态动词且表“为了能够”→ 目的；从句无情态动词、陈述已发生的事实 → 结果。",
+        "sections": [
+          {
+            "h": "三个引导词的分工",
+            "p": "so that 最常用，但不能置于句首；in order that 更书面，可以置于句首；lest 与 for fear that 表否定目的“以免”，从句用 should + 动词原形，should 可省略。",
+            "bullets": [
+              "She spoke slowly so that everyone could follow her.",
+              "In order that the samples would not be damaged, they were packed in foam.",
+              "Take an umbrella lest it (should) rain."
+            ]
+          },
+          {
+            "h": "情态动词是目的标记",
+            "p": "目的在说话时尚未实现，所以从句要用情态动词表示“能够、可以”。一旦从句改用陈述语气陈述实际发生的事，句子就变成结果，语义也随之改变。",
+            "bullets": [
+              "目的：He got up early so that he could catch the first bus.",
+              "结果：He got up early, so he caught the first bus.",
+              "so that 引导结果时常有逗号，引导目的时通常不加逗号"
+            ]
+          },
+          {
+            "h": "否定目的与非谓语替换",
+            "p": "否定目的在从句内否定：so that...not；若主从句主语一致，可换成非谓语 in order not to / so as not to。注意 so as to 不能置于句首，in order to 可以。",
+            "bullets": [
+              "She whispered so that she would not wake the baby.",
+              "She whispered so as not to wake the baby.",
+              "× so that to do；so that 后面必须是从句"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She spoke slowly so that everyone could follow her.", "zh": "她说得很慢，好让每个人都能跟上。", "ok": true, "note": "could 表明这是尚未实现的目的，so that 引导目的状语从句。" },
+          { "en": "In order that the samples would not be damaged, they were packed in foam.", "zh": "为了不使样品受损，它们被用泡沫包装起来。", "ok": true, "note": "in order that 可置于句首，从句用 would not 表否定目的。" },
+          { "en": "He studied hard so as to pass the exam.", "zh": "他努力学习以通过考试。", "ok": true, "note": "主从句主语一致时可用 so as to 不定式替换目的从句。" },
+          { "en": "Take an umbrella with you lest it should rain.", "zh": "带把伞，以防下雨。", "ok": true, "note": "lest 表否定目的，从句用 should + 原形，should 也可省略。" },
+          { "en": "She spoke slowly so that everyone can follow her.", "zh": "她说得很慢，好让每个人都能跟上。", "ok": false, "note": "主句是过去时 spoke，目的从句的情态动词须相应用 could，保持时态呼应。" },
+          { "en": "He studied hard so that to pass the exam.", "zh": "他努力学习以通过考试。", "ok": false, "note": "so that 后面必须接完整从句，接不定式要用 so as to 或 in order to。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He got up early so that he could caught the train.", "right": "He got up early so that he could catch the train.", "why": "情态动词 could 后必须接动词原形，caught 是过去式，不能跟在情态动词之后。" },
+          { "wrong": "He studied hard so that to pass the exam.", "right": "He studied hard so that he could pass the exam.", "why": "so that 是从属连词，只能引导从句；要接不定式必须换成 so as to。" },
+          { "wrong": "Lest he will miss the train, he left home early.", "right": "Lest he should miss the train, he left home early.", "why": "lest 后的谓语固定为 should + 原形（should 可省），不能用 will 表将来。" }
+        ],
+        "contrast": { "withTitle": "结果状语从句 so...that 与 such...that", "diff": "目的从句带情态动词、动作尚未发生；结果从句不带情态动词、陈述已经发生的事实，这是区分两者的唯一可靠标志。" },
+        "mnemonic": "目的带情态，结果带逗号；so that 不抬头，in order that 可前置。"
+      },
+      "review": {
+        "core": [
+          "引导词：so that / in order that / lest / for fear that",
+          "目的标记：从句带 can/could/may/might/will/would/should",
+          "so that 不置句首；in order that 可置句首",
+          "lest / for fear that 后接 should + 原形，should 可省",
+          "否定目的：so that...not；非谓语用 in order not to / so as not to",
+          "so that 后不能直接接不定式"
+        ],
+        "trigger": "看到“为了/以便” → 先写从句 → 给从句补一个情态动词 → 再检查主句时态是否呼应",
+        "quickCheck": [
+          { "q": "so that 后面能直接接动词原形吗？", "a": "不能。so that 后必须是从句；接不定式要用 so as to。" },
+          { "q": "lest 后面的谓语怎么构成？", "a": "should + 动词原形，should 可以省略。" },
+          { "q": "目的从句和结果从句怎么一眼分开？", "a": "目的从句带情态动词，结果从句不带且常与逗号同现。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.adverbial_clause.purpose.d1",
+          "type": "choice",
+          "stem": "She whispered ___ wake the sleeping baby.",
+          "options": ["so as not to", "so that not to", "in order that not", "lest to"],
+          "answer": "so as not to",
+          "explain": "空后是动词原形 wake，没有主语，只能用不定式结构；否定目的用 so as not to，也可用 in order not to。",
+          "trap": "so that not to 把从句连词与不定式混在一起，so that 后必须接完整的主谓结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.purpose.d2",
+          "type": "choice",
+          "stem": "He left the door open ___ the cat could come in.",
+          "options": ["so that", "so as to", "in order to", "lest"],
+          "answer": "so that",
+          "explain": "空后是完整从句 the cat could come in，需要从属连词 so that；could 正是目的从句的情态标记。",
+          "trap": "so as to 与 in order to 后面只能接动词原形，不能接主谓结构；lest 表否定目的，与 could come in 的肯定意义冲突。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.purpose.d3",
+          "type": "fill",
+          "stem": "He wrote down my address ___ he should forget it.",
+          "answer": "lest",
+          "accept": ["lest"],
+          "hint": "填一个词，表示“以免”，后面接 should + 原形。",
+          "explain": "lest 引导否定目的从句，谓语用 should forget，should 也可省略为 lest he forget it。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.purpose.d4",
+          "type": "correct",
+          "stem": "She spoke slowly so that everyone can follow her.",
+          "answer": "She spoke slowly so that everyone could follow her.",
+          "accept": ["She spoke slowly so that everyone could follow her."],
+          "explain": "主句谓语是过去时 spoke，目的从句的情态动词要相应用 could，构成时态呼应；can 会把目的拉到现在的语境。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.purpose.d5",
+          "type": "translate",
+          "stem": "为了提高口语，她每天大声朗读。",
+          "answer": "She reads aloud every day so that she can improve her spoken English.",
+          "require": [["so that", "in order that"], ["improve"], ["spoken English"]],
+          "forbid": ["so that to", "for improve"],
+          "explain": "目的从句用 so that 引导，从句补情态动词 can 表“能够”，主句用一般现在时表习惯。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.purpose.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "got up", "early", "so that", "he", "could catch", "the first bus."],
+          "answer": "He got up early so that he could catch the first bus.",
+          "explain": "so that 引导目的状语从句，从句用 could catch 与主句 got up 的过去时呼应。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.adverbial_clause.result-so-such",
+      "title": "结果状语从句 so...that 与 such...that",
+      "brief": "看 that 前紧邻成分：形容词用 so，名词用 such",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["syntax.sentence_types.exclamation"],
+      "concept": {
+        "summary": "选用只看 that 前面紧挨着什么：紧挨形容词或副词用 so + adj/adv + that；紧挨名词短语用 such + (a/an) + adj + n + that。唯一的例外是数量限定词 many、much、few、little，它们本身被 so 修饰，构成 so many/much/few/little + 名词 + that。",
+        "sections": [
+          {
+            "h": "三步判定",
+            "p": "把 that 前面的部分读一遍：如果最后一个词是形容词或副词，用 so；如果最后一个词是名词，用 such，并检查名词前有没有 a/an。判定不需要理解句意，只看词性。",
+            "bullets": [
+              "so + adj/adv：The box was so heavy that nobody could lift it.",
+              "such + a/an + adj + n：It was such a heavy box that nobody could lift it.",
+              "such + adj + 复数/不可数名词：such fine weather, such interesting books"
+            ]
+          },
+          {
+            "h": "数量词的例外",
+            "p": "many、much、few、little 是限定词，作用相当于数量，被 so 修饰，所以即使后面有名词也用 so。little 有歧义：表“少”用 so little，表“小”用 such little。",
+            "bullets": [
+              "so many people / so much money / so few mistakes / so little time",
+              "such little children（little = 年纪小）",
+              "such a lot of people（a lot of 是量词短语，整体被 such 修饰）"
+            ]
+          },
+          {
+            "h": "两种可互换形式",
+            "p": "so + adj + a/an + n 与 such + a/an + adj + n 同义，前者更书面。so 置于句首时主句要部分倒装，这是考试中的高频句式。",
+            "bullets": [
+              "It was so good a film that I watched it twice. = It was such a good film that...",
+              "So tired was he that he fell asleep at once.（so 置句首 → 倒装）",
+              "结果从句的 that 在口语中可省略，书面语建议保留"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The box was so heavy that nobody could lift it.", "zh": "箱子太重了，没人能抬起来。", "ok": true, "note": "that 前紧邻形容词 heavy，用 so 修饰。" },
+          { "en": "It was such a heavy box that nobody could lift it.", "zh": "那是一个重得没人抬得起的箱子。", "ok": true, "note": "that 前是名词短语 a heavy box，用 such 修饰整个名词短语。" },
+          { "en": "So many people came that the hall was full.", "zh": "来了太多人，大厅都满了。", "ok": true, "note": "many 是数量限定词，被 so 修饰，构成 so many + 复数名词。" },
+          { "en": "It was so good a film that I watched it twice.", "zh": "那部电影太好了，我看了两遍。", "ok": true, "note": "so + 形容词 + a/an + 名词是 such a good film 的书面变体。" },
+          { "en": "They are such little children that they cannot dress themselves.", "zh": "他们太小了，还不能自己穿衣服。", "ok": true, "note": "little 在此表“年纪小”，修饰名词，用 such。" },
+          { "en": "It was so a moving story that everyone cried.", "zh": "那是一个感人的故事，大家都哭了。", "ok": false, "note": "so 不能直接修饰 a + 形容词 + 名词，应改为 such a moving story 或 so moving a story。" },
+          { "en": "I have never seen such a beautiful scenery.", "zh": "我从没见过这么美的风景。", "ok": false, "note": "scenery 是不可数名词，不能加 a，应改为 such beautiful scenery。" },
+          { "en": "It was so cold weather that we stayed indoors.", "zh": "天气太冷了，我们待在室内。", "ok": false, "note": "that 前紧邻名词 weather，须用 such cold weather；so 只能修饰形容词 cold，不能带出名词。" }
+        ],
+        "pitfalls": [
+          { "wrong": "There were such many students that the room was crowded.", "right": "There were so many students that the room was crowded.", "why": "many 是数量限定词，被 so 修饰构成 so many；such 只能修饰名词短语本身。" },
+          { "wrong": "He is so a kind man that everyone likes him.", "right": "He is such a kind man that everyone likes him.", "why": "so 与 a/an 不能直接相邻，such 才能带出 a + 形容词 + 名词的整体结构。" },
+          { "wrong": "The film was such interesting that we watched it twice.", "right": "The film was so interesting that we watched it twice.", "why": "such 后面必须出现名词，interesting 是形容词，缺少名词时只能用 so。" }
+        ],
+        "contrast": { "withTitle": "目的状语从句", "diff": "结果从句陈述已经发生的事实、不带情态动词；目的从句用情态动词表示尚未实现的目标。" },
+        "mnemonic": "看 that 前一站：形容词下车用 so，名词下车用 such；数量词永远跟 so 走。"
+      },
+      "review": {
+        "core": [
+          "判据：that 前紧邻形容词/副词 → so；紧邻名词短语 → such",
+          "语序：so + adj/adv + that；such + a/an + adj + n + that",
+          "so + adj + a/an + n = such + a/an + adj + n（前者更书面）",
+          "数量词例外：so many/much/few/little + 名词",
+          "little 表“少”用 so，表“小”用 such",
+          "so 置句首时主句部分倒装"
+        ],
+        "trigger": "看到 that 前要选 so 还是 such → 只看紧挨 that 的那个词是形容词还是名词 → 名词再查有没有 a/an",
+        "quickCheck": [
+          { "q": "so many 还是 such many？", "a": "so many，many 是数量限定词。" },
+          { "q": "such little children 中的 little 是什么意思？", "a": "年纪小，修饰名词，所以用 such。" },
+          { "q": "“这么好的电影”两种写法？", "a": "such a good film / so good a film。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.adverbial_clause.result-so-such.d1",
+          "type": "choice",
+          "stem": "It was ___ that we decided to stay another day.",
+          "options": ["so beautiful a place", "such beautiful a place", "so a beautiful place", "such beautiful place"],
+          "answer": "so beautiful a place",
+          "explain": "so 修饰形容词 beautiful，后接 a + 名词构成 so beautiful a place，是 such a beautiful place 的书面变体。",
+          "trap": "such beautiful a place 把 such 与 a 的固定语序颠倒，such 必须紧接 a/an；such beautiful place 则缺少冠词。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.result-so-such.d2",
+          "type": "choice",
+          "stem": "There were ___ mistakes in the report that it had to be rewritten.",
+          "options": ["so many", "such many", "so much", "such a lot"],
+          "answer": "so many",
+          "explain": "mistakes 是可数名词复数，many 是数量限定词被 so 修饰，构成 so many mistakes；so much 只能修饰不可数名词。",
+          "trap": "such many 是把 such 当作通用强调词的结果，such 后面必须直接跟名词短语，不能跟 many。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.result-so-such.d3",
+          "type": "fill",
+          "stem": "It was ___ a moving film that many in the audience wept.",
+          "answer": "such",
+          "accept": ["such"],
+          "hint": "空后是 a + 形容词 + 名词。",
+          "explain": "空后紧跟 a moving film 这一名词短语，需要 such 构成 such a moving film that；若用 so 则须改为 so moving a film。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.result-so-such.d4",
+          "type": "correct",
+          "stem": "There were such many visitors that the museum had to close early.",
+          "answer": "There were so many visitors that the museum had to close early.",
+          "accept": ["There were so many visitors that the museum had to close early."],
+          "explain": "many 是数量限定词，只能被 so 修饰，构成 so many visitors；such 不能与 many 直接搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.result-so-such.d5",
+          "type": "translate",
+          "stem": "他跑得那么快，没人能追上他。",
+          "answer": "He ran so fast that nobody could catch up with him.",
+          "require": [["so fast"], ["catch"]],
+          "forbid": ["such fast"],
+          "explain": "fast 是副词，只能被 so 修饰，构成 so fast that；such 后面必须出现名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.result-so-such.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "was", "such", "a heavy box", "that", "nobody", "could lift", "it."],
+          "answer": "It was such a heavy box that nobody could lift it.",
+          "explain": "such 修饰 a heavy box 这一名词短语，that 引导结果从句，could 在此表能力而非目的。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.adverbial_clause.condition",
+      "title": "条件状语从句",
+      "brief": "unless 已含否定，条件从句用现在时表将来",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.conjunctions.conditionals", "tense_voice.future_simple.present-forms-for-future"],
+      "concept": {
+        "summary": "条件从句按条件的性质选连词：if 引出一般条件；unless 是唯一的否定条件，等于 if...not；provided that 与 on condition that 引出“只有……才”的书面条件；as long as 引出“只要”的必要条件；in case 引出“以防”的预防条件。所有真实条件从句都用一般现在时或现在完成时表将来，不用 will。",
+        "sections": [
+          {
+            "h": "五个连词的分工",
+            "p": "先判断条件是“满足即可”“只有才”“只要”还是“以防”，再选连词。unless 与 if 的否定形式等价，但语气更书面，且从句本身不能再出现否定。",
+            "bullets": [
+              "if：一般条件；unless = if not，从句不再带 not",
+              "provided that / on condition that：只有……才，书面语",
+              "as long as / so long as：只要，强调必要条件",
+              "in case：以防，从句可用 should 或一般现在时"
+            ]
+          },
+          {
+            "h": "时态与双重否定",
+            "p": "条件从句指将来时用一般现在时，主句才用 will。unless 已经包含否定，若从句再写 not，就会出现“除非你不……”的双重否定，逻辑反转。",
+            "bullets": [
+              "√ Unless you book in advance, you will not get a seat.",
+              "× Unless you don't book in advance, you will not get a seat.",
+              "现在完成时表“先完成”：If you have finished, you may leave."
+            ]
+          },
+          {
+            "h": "省略形式与虚拟分界",
+            "p": "主语与主句一致且谓语是 be 时，条件从句可省略主语和 be，形成 if necessary、if possible、if any 等固定形式。若 if 从句用 were 或过去式，则属于虚拟语气，表示与事实相反，不在真实条件范围内。",
+            "bullets": [
+              "If necessary, you can reach me at home.",
+              "If I were you, I would apologize.（虚拟，用 were）",
+              "if only 表愿望，不表条件"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "If you finish the report today, we can submit it tomorrow.", "zh": "如果你今天写完报告，我们明天就能提交。", "ok": true, "note": "if 引导真实条件从句，用一般现在时 finish 表将来。" },
+          { "en": "Unless you book in advance, you will not get a seat.", "zh": "除非你提前预订，否则订不到位子。", "ok": true, "note": "unless 本身等于 if not，从句用肯定形式，主句是否定结果。" },
+          { "en": "As long as the temperature stays above zero, the pipes will not freeze.", "zh": "只要温度保持在零度以上，水管就不会冻住。", "ok": true, "note": "as long as 引出必要条件，从句用现在时 stays。" },
+          { "en": "You may borrow my bike provided that you return it by Sunday.", "zh": "只要你周日之前还回来，就可以借我的自行车。", "ok": true, "note": "provided that 表“只有……才”，书面语中常替代 if。" },
+          { "en": "If necessary, you can reach me at home.", "zh": "如果有必要，你可以打家里电话找我。", "ok": true, "note": "if necessary 是 if it is necessary 的省略形式，主语与主句一致。" },
+          { "en": "Unless you do not hurry, you will miss the train.", "zh": "除非你不快点，否则会误车。", "ok": false, "note": "unless 已含否定，再加 do not 构成双重否定，应改为 Unless you hurry。" },
+          { "en": "If it will snow tomorrow, the flight will be delayed.", "zh": "如果明天下雪，航班会延误。", "ok": false, "note": "条件从句不能用 will 表将来，应改为 If it snows tomorrow。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Unless you do not work hard, you will fail.", "right": "Unless you work hard, you will fail.", "why": "unless 等于 if not，已经承担否定；从句再否定一次，逻辑会反转成“如果你不努力才失败”。" },
+          { "wrong": "If it will rain tomorrow, we will cancel the trip.", "right": "If it rains tomorrow, we will cancel the trip.", "why": "真实条件从句用一般现在时表将来，will 只保留在主句。" },
+          { "wrong": "We will start on time provided that everyone will arrive.", "right": "We will start on time provided that everyone arrives.", "why": "provided that 与 if 同为条件从句连词，同样要求从句用现在时表将来。" }
+        ],
+        "contrast": { "withTitle": "条件连词 if/unless/provided that", "diff": "连词章节解决“选哪个词表哪种条件”；本点解决从句内部的时态降级、unless 的双重否定与省略形式。" },
+        "mnemonic": "unless 自带 not，从句不再否定；条件讲将来，从句退回现在时。"
+      },
+      "review": {
+        "core": [
+          "if 表一般条件；unless = if not，从句不再带 not",
+          "provided that / on condition that 表“只有……才”，书面语",
+          "as long as 表“只要”，in case 表“以防”",
+          "条件从句用一般现在时或现在完成时表将来，主句用 will",
+          "省略形式：if necessary / if possible / if any",
+          "if 从句用 were 或过去式时属虚拟语气"
+        ],
+        "trigger": "看到 if / unless / provided that → 先把从句谓语降为现在时 → 再检查 unless 从句是否多了一个 not",
+        "quickCheck": [
+          { "q": "Unless you ___ (hurry), you will be late. 填什么？", "a": "hurry。unless 已含否定，从句用肯定形式。" },
+          { "q": "If it ___ (rain) tomorrow, we will stay at home. 填什么？", "a": "rains。条件从句用一般现在时表将来。" },
+          { "q": "if necessary 是什么的省略？", "a": "if it is necessary。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.adverbial_clause.condition.d1",
+          "type": "choice",
+          "stem": "___ you practise every day, you will not make real progress.",
+          "options": ["Unless", "If", "Provided that", "As long as"],
+          "answer": "Unless",
+          "explain": "主句是否定结果 you will not make progress，从句需要“除非”的否定条件，只有 unless 能承担这一意义。",
+          "trap": "If 与 as long as 都表肯定条件，与主句的否定结果连用会变成“如果每天练习就没进步”，逻辑相反。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.condition.d2",
+          "type": "choice",
+          "stem": "You can use my laptop ___ you do not change any settings.",
+          "options": ["as long as", "unless", "even if", "in case"],
+          "answer": "as long as",
+          "explain": "句意是“只要你不改动任何设置”，从句本身已带否定，需要肯定条件的 as long as；unless 再加否定会双重否定。",
+          "trap": "unless 与 do not 连用是典型的双重否定错误，会让条件反转成“除非你不改设置”。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.condition.d3",
+          "type": "fill",
+          "stem": "If ___, the nurse will call you at home.",
+          "answer": "necessary",
+          "accept": ["necessary"],
+          "hint": "if + 形容词，省略了主语和 be 动词。",
+          "explain": "if necessary 是 if it is necessary 的省略形式，主语与主句一致时可省略 it is，只保留形容词。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.condition.d4",
+          "type": "correct",
+          "stem": "Unless you do not take notes, you will forget the details.",
+          "answer": "Unless you take notes, you will forget the details.",
+          "accept": ["Unless you take notes, you will forget the details."],
+          "explain": "unless 已含否定，等于 if you do not take notes；从句再用 do not 构成双重否定，逻辑反转，删去 do not 即可。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.condition.d5",
+          "type": "translate",
+          "stem": "只要你提前预订，就能买到便宜的机票。",
+          "answer": "As long as you book in advance, you can get cheap air tickets.",
+          "require": [["as long as", "so long as"], ["book"], ["cheap"]],
+          "forbid": ["will book"],
+          "explain": "as long as 引导必要条件，从句用一般现在时 book 表将来，主句用 can get 表能力与结果。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.condition.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Unless", "it", "rains,", "the ceremony", "will be held", "outdoors."],
+          "answer": "Unless it rains, the ceremony will be held outdoors.",
+          "explain": "unless 从句用一般现在时 rains 表将来，主句用 will be held，构成主将从现加被动语态的组合。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.adverbial_clause.concession",
+      "title": "让步状语从句",
+      "brief": "让步靠倒装与 wh-ever，两个连词不能叠加",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["morph.conjunctions.cause-concession"],
+      "concept": {
+        "summary": "让步从句承认一个与预期相反的情况，主句不再用 but。引导词分三类：although/though/even though 承认事实，even if 承认假设；as/though 引导让步必须倒装，把表语、状语或动词原形提到句首；no matter wh- 与 wh-ever 表“无论”，其中 no matter wh- 只能引导状语从句，wh-ever 还能引导主语从句和宾语从句。",
+        "sections": [
+          {
+            "h": "as/though 倒装让步的三条公式",
+            "p": "as 引导让步时不能按正常语序写，必须把被强调的成分提到 as 之前，形成“表语/状语/动词原形 + as + 主语 + 谓语”。though 可用同一倒装，although 不能。",
+            "bullets": [
+              "表语提前：Child as he is, he knows a lot.（单数可数名词前省冠词）",
+              "状语提前：Hard as she tried, she could not persuade him. / Much as I like it, I cannot afford it.",
+              "动词原形提前：Try as he might, he could not open the door.（谓语含 might/may）",
+              "比较：Although he is a child, he knows a lot.（although 不倒装）"
+            ]
+          },
+          {
+            "h": "no matter wh- 与 wh-ever 的分工",
+            "p": "两者在状语从句中可互换，但 wh-ever 还能充当主语、宾语，no matter wh- 不能。判断方法：把这个短语从原位置拿掉，句子是否还缺一个成分；缺，就说明它在句中作成分，只能用 wh-ever。",
+            "bullets": [
+              "状语从句：No matter what happens, stay calm. = Whatever happens, stay calm.",
+              "主语从句：Whatever he said was true.（× No matter what he said was true.）",
+              "宾语从句：I will take whatever you give me.（× ...no matter what you give me）"
+            ]
+          },
+          {
+            "h": "不能叠加的连接词",
+            "p": "英语一个分句只能有一个引导词。although 与 but、though 与 yet 都是中英对译造成的重复标记；whether...or 表让步时也不能再加 although。",
+            "bullets": [
+              "× Although it was raining, but we went out.",
+              "√ Although it was raining, we went out. / It was raining, but we went out.",
+              "whether...or：Whether you like it or not, the rule applies."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Although the task was difficult, they finished it on time.", "zh": "尽管任务很难，他们还是按时完成了。", "ok": true, "note": "although 承认既成事实，主句不再加 but。" },
+          { "en": "Child as he is, he can solve the problem on his own.", "zh": "尽管他是个孩子，他也能独立解决这个问题。", "ok": true, "note": "表语 child 提到 as 之前构成倒装让步，单数可数名词前省去冠词。" },
+          { "en": "Hard as she tried, she could not persuade him.", "zh": "尽管她努力劝说，还是没能说服他。", "ok": true, "note": "副词 hard 提至句首，构成“状语 + as + 主谓”的倒装让步。" },
+          { "en": "No matter where you go, you will find this brand.", "zh": "无论你走到哪里，都会看到这个品牌。", "ok": true, "note": "no matter where 引导让步状语从句，可换成 wherever。" },
+          { "en": "Whatever he said at the meeting surprised everyone.", "zh": "他在会上说的话让所有人都感到意外。", "ok": true, "note": "whatever 在此作主语从句的引导词并在从句中作 said 的宾语，不能换成 no matter what。" },
+          { "en": "Try as he might, he could not open the door.", "zh": "尽管他使劲试，还是打不开门。", "ok": true, "note": "动词原形 try 提至句首，谓语含 might，构成倒装让步。" },
+          { "en": "Although he was tired, but he kept working.", "zh": "尽管他很累，还是继续工作。", "ok": false, "note": "although 与 but 不能同时标记同一转折关系，删去 but。" },
+          { "en": "No matter what he said was true.", "zh": "他说的话是真的。", "ok": false, "note": "此处从句作主语，只能用 Whatever he said was true.；no matter what 只能引导状语从句。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Although it was raining, but we went out.", "right": "Although it was raining, we went out.", "why": "although 是从属连词，but 是并列连词，同一转折关系只需一个标记，叠加会造成分句结构重复。" },
+          { "wrong": "As he is a child, he knows a lot about stars.", "right": "Child as he is, he knows a lot about stars.", "why": "as 引导让步必须把表语提到句首构成倒装；不倒装时 as 只能表原因“因为”，句意随之改变。" },
+          { "wrong": "No matter what you do is fine with me.", "right": "Whatever you do is fine with me.", "why": "no matter what 只能引导状语从句，无法在句中充当主语；此处需要能作主语的 wh-ever 结构。" }
+        ],
+        "contrast": { "withTitle": "as/though 引导让步的倒装", "diff": "倒装章节处理语序操作本身（表语、状语、动词原形前置）；本点处理让步语义的三类引导词分工与 no matter wh- 的适用边界。" },
+        "mnemonic": "让步不倒装不是让步；no matter 只做状语，wh-ever 才能当主语宾语。"
+      },
+      "review": {
+        "core": [
+          "although/though/even though 承认事实，even if 承认假设，主句不再加 but",
+          "as/though 让步必须倒装：表语/状语/动词原形 + as + 主语 + 谓语",
+          "倒装时单数可数名词作表语省冠词：Child as he is",
+          "no matter wh- 只能引导状语从句",
+          "wh-ever 既可引导状语从句（= no matter wh-），也可引导主语、宾语从句",
+          "whether...or 也可表让步"
+        ],
+        "trigger": "看到 as 或 though 后面语序反常 → 先确认是不是倒装让步 → 再看 no matter 是否被误用为句子成分",
+        "quickCheck": [
+          { "q": "“尽管他是个孩子”用 as 怎么写？", "a": "Child as he is，表语提前且不加冠词。" },
+          { "q": "No matter what he said was true. 错在哪里？", "a": "no matter what 只能引导状语从句，此处是主语从句，应用 Whatever。" },
+          { "q": "although 后面能再加 but 吗？", "a": "不能。同一转折关系只能有一个连接词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.adverbial_clause.concession.d1",
+          "type": "choice",
+          "stem": "___ the journey was exhausting, they arrived in high spirits.",
+          "options": ["Although", "But", "Despite", "However"],
+          "answer": "Although",
+          "explain": "空后是完整的主谓结构 the journey was exhausting，需要从属连词 although 引导让步状语从句。",
+          "trap": "Despite 是介词，后面只能接名词性成分；However 是连接副词，必须另起分句并用逗号隔开。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.concession.d2",
+          "type": "choice",
+          "stem": "Hard ___ he tried, he could not solve the puzzle.",
+          "options": ["as", "although", "because", "so"],
+          "answer": "as",
+          "explain": "副词 hard 已提到句首，构成倒装让步，只有 as 能插在提前的表语或状语与主语之间。",
+          "trap": "although 引导让步时用正常语序且不能倒装；because 表原因，与“尽管”的语义相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.concession.d3",
+          "type": "fill",
+          "stem": "___ as he is, he knows a great deal about astronomy.",
+          "answer": "Child",
+          "accept": ["Child"],
+          "hint": "表语提前构成倒装让步，单数可数名词前不用冠词。",
+          "explain": "child 作表语提到 as 之前，冠词 a 必须省去，写成 Child as he is；若保留冠词则倒装结构不成立。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.adverbial_clause.concession.d4",
+          "type": "correct",
+          "stem": "Although the weather was bad, but the match went on.",
+          "answer": "Although the weather was bad, the match went on.",
+          "accept": ["Although the weather was bad, the match went on.", "The weather was bad, but the match went on."],
+          "explain": "although 与 but 分别是从属连词和并列连词，同一转折关系只能保留一个，删去 but 后主从结构完整。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.adverbial_clause.concession.d5",
+          "type": "choice",
+          "stem": "___ he promised turned out to be an empty promise.",
+          "options": ["No matter what", "What", "That", "Which"],
+          "answer": "What",
+          "explain": "空格所在部分是整个句子的主语，需要一个能引导主语从句并在从句中作 promised 宾语的词，what 同时满足这两个条件。",
+          "trap": "No matter what 只能引导状语从句，不能充当主语；that 引导主语从句时不在从句中作成分，promised 会缺宾语。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.adverbial_clause.concession.d6",
+          "type": "translate",
+          "stem": "尽管他是个孩子，他却懂很多天文知识。",
+          "answer": "Child as he is, he knows a lot about astronomy.",
+          "require": [["child as he is", "child though he is"], ["astronomy"]],
+          "forbid": ["although he is a child, but"],
+          "explain": "as 引导让步必须倒装，表语 child 提至句首并省去冠词；主句不再加 but，避免两个转折标记叠加。",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "id": "clause.adverbial_clause.manner-comparison",
+      "title": "方式与比较状语从句",
+      "brief": "as 表方式不能加 what，比较对象必须对等",
+      "difficulty": 4,
+      "tags": ["难点", "写作"],
+      "prereq": ["morph.adj_adv.as-as", "morph.adj_adv.comparative-superlative-forms"],
+      "concept": {
+        "summary": "方式从句由 as、as if/as though、the way 引导，说明主句动作是“怎样”做的，从句中与主句相同的成分常被省略；比较从句由 as...as、than、the more...the more 引导，比较对象必须同类对等。两条判据各管一边：as 从句看它是否已在从句中充当成分（充当就不能再加 what），比较从句看 than 前后是否同一个范畴。",
+        "sections": [
+          {
+            "h": "as 方式从句与省略",
+            "p": "as 在方式从句中既是连词又是从句的一个成分，常作 say、do、leave 的宾语或状语，因此后面不能再加 what。从句中与主句重复的成分可以省略，形成 as it is、as before 这类固定形式。",
+            "bullets": [
+              "Do as the instructions say.（as 作 say 的宾语）",
+              "Leave the room as it is.（as it is = 保持原样）",
+              "the way (that) 也可引导方式从句：He did it the way his father did."
+            ]
+          },
+          {
+            "h": "as if / as though 的语气",
+            "p": "as if 从句的语气由事实决定：可能是真的，用陈述语气；与事实相反，用虚拟语气（be 用 were，过去的假设用 had done）。判断依据是说话人是否认为它成立。",
+            "bullets": [
+              "It looks as if it is going to rain.（很可能下，陈述语气）",
+              "He acted as if nothing had happened.（与过去事实相反，用 had done）",
+              "She talks as if she knew everything.（与现在事实相反，用过去式）"
+            ]
+          },
+          {
+            "h": "比较从句的对等与省略",
+            "p": "than 与 as...as 后面接的是从句，可省略与主句重复的部分。省略后留下的名词必须与前面的比较对象同类：人口比人口，气候比气候，否则要用 that of / those of 补出范畴。",
+            "bullets": [
+              "× The climate here is milder than Beijing.",
+              "√ The climate here is milder than that of Beijing.",
+              "the more..., the more...：前后两个分句都要用“the + 比较级 + 主谓”的语序"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Do as the instructions say.", "zh": "按说明书上说的做。", "ok": true, "note": "as 引导方式从句，并在从句中作 say 的宾语，因此不能再加 what。" },
+          { "en": "Leave the room as it is.", "zh": "让房间保持原样。", "ok": true, "note": "as it is 是方式从句的固定省略形式，表示“照现在的样子”。" },
+          { "en": "He acted as if nothing had happened.", "zh": "他表现得好像什么都没发生过。", "ok": true, "note": "与过去事实相反，as if 从句用过去完成时。" },
+          { "en": "The more you practise, the more confident you become.", "zh": "你练习得越多，就越自信。", "ok": true, "note": "the + 比较级引导两个分句，前为条件、后为结果，语序均为陈述语序。" },
+          { "en": "The service here is better than that of the hotel across the street.", "zh": "这里的服务比街对面那家旅馆的好。", "ok": true, "note": "用 that of 补出比较范畴，避免把 service 与 hotel 直接相比。" },
+          { "en": "Do as what the teacher tells you.", "zh": "按老师说的做。", "ok": false, "note": "as 已在从句中作 tells 的宾语，再加 what 会造成宾语重复，应改为 Do as the teacher tells you." },
+          { "en": "He spoke as if he has been there before.", "zh": "他说话的口气好像以前去过那里。", "ok": false, "note": "与过去事实相反，as if 从句须用过去完成时 had been，不能用现在完成时。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Do as what the teacher tells you.", "right": "Do as the teacher tells you.", "why": "as 兼作从句中 tells 的宾语，再加 what 会出现两个宾语，结构重叠。" },
+          { "wrong": "He spoke as if he has been there before.", "right": "He spoke as if he had been there before.", "why": "as if 从句表示与过去事实相反，须用过去完成时把假设时间前移一层。" },
+          { "wrong": "The climate here is milder than Beijing.", "right": "The climate here is milder than that of Beijing.", "why": "than 前后必须是同类事物，气候不能与城市相比，须用 that of 补出所属范畴。" }
+        ],
+        "contrast": { "withTitle": "同级比较结构 as...as", "diff": "as...as 章节处理形容词、副词同级比较的构成与修饰语位置；本点处理 as 引导的方式从句（是否作成分）与 than 引导的比较从句（对等与省略）。" },
+        "mnemonic": "as 已在句中作成分，就别再塞 what；比较要对等，范畴不同加 that of。"
+      },
+      "review": {
+        "core": [
+          "as 方式从句：表“按照、像”，as 本身在从句中充当成分",
+          "as 后不能加 what，否则宾语重复",
+          "as if/as though：可能为真用陈述语气，与事实相反用虚拟",
+          "比较从句：than、as...as 后可省略与主句重复的部分",
+          "比较对象必须对等，不同范畴用 that of / those of",
+          "the more..., the more... 前后都用陈述语序"
+        ],
+        "trigger": "看到 as 引导从句 → 先看 as 在从句里作不作成分 → 再判断 as if 从句该用陈述还是虚拟",
+        "quickCheck": [
+          { "q": "Do as what I say. 错在哪里？", "a": "as 已作 say 的宾语，what 多余，应改为 Do as I say." },
+          { "q": "as if 从句什么时候用 had done？", "a": "表示与过去事实相反时。" },
+          { "q": "“这里的气候比北京温和”怎么说？", "a": "The climate here is milder than that of Beijing." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.adverbial_clause.manner-comparison.d1",
+          "type": "choice",
+          "stem": "Do ___ the instructions say, and you will not go wrong.",
+          "options": ["as", "like", "what", "that"],
+          "answer": "as",
+          "explain": "空后是完整从句 the instructions say，需要 as 引导方式从句，as 同时作 say 的宾语，表示“按照说明书所说的做”。",
+          "trap": "like 是介词，只能接名词性成分，不能引导从句；what 会与 as 的宾语功能重复。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.manner-comparison.d2",
+          "type": "fill",
+          "stem": "He speaks ___ he had witnessed the whole accident.",
+          "answer": "as if",
+          "accept": ["as if", "as though"],
+          "hint": "表“好像”，后面的 had witnessed 说明与过去事实相反。",
+          "explain": "从句用过去完成时，说明是与过去事实相反的假设，需要 as if 或 as though 引出虚拟语气的方式从句。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.manner-comparison.d3",
+          "type": "correct",
+          "stem": "He spoke as if he has been to Paris many times.",
+          "answer": "He spoke as if he had been to Paris many times.",
+          "accept": ["He spoke as if he had been to Paris many times."],
+          "explain": "主句是过去时 spoke，as if 从句表示与过去事实相反的假设，须用过去完成时 had been，把假设时间前移一层。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.adverbial_clause.manner-comparison.d4",
+          "type": "choice",
+          "stem": "The service in this hotel is far better than ___ in the one across the street.",
+          "options": ["that", "those", "it", "one"],
+          "answer": "that",
+          "explain": "比较对象是 service，是不可数名词，用 that 替代前面提到的同类事物，构成 the service...than that in...的对等比较。",
+          "trap": "it 指同一个事物，而此处是两家旅馆各自的服务，不是同一个；those 只能替代复数名词。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.adverbial_clause.manner-comparison.d5",
+          "type": "translate",
+          "stem": "他说起话来好像他亲眼见过这件事。",
+          "answer": "He talks as if he had seen it with his own eyes.",
+          "require": [["as if", "as though"], ["seen", "witnessed"]],
+          "forbid": ["as if what", "as though what"],
+          "explain": "as if 引导方式从句表与事实相反的假设，用过去完成时 had seen；as if 后不能再接 what，因为它已在从句中充当连接成分。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.adverbial_clause.manner-comparison.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The more", "you", "practise,", "the more", "confident", "you", "become."],
+          "answer": "The more you practise, the more confident you become.",
+          "explain": "the more 引导的两个分句都用陈述语序，前一分句表条件，后一分句表随之而来的结果。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

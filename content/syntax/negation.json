@@ -1,0 +1,413 @@
+{
+  "level1": "syntax",
+  "chapter": "negation",
+  "items": [
+    {
+      "id": "syntax.negation.position-partial",
+      "title": "否定词的位置与部分否定",
+      "brief": "not 紧邻量化词是部分否定，none 才是全部否定",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["morph.pronouns.both-either-neither-all-none"],
+      "concept": {
+        "summary": "全部否定由 no、none、neither、nobody、nothing、never 这些本身含否定的词承担；部分否定则把 not 放在 all、both、every、each、always 之前，意为“并非都”。判定方法只有一条：看 not 与量化词的相对位置——not 紧邻量化词时否定的是范围，得到部分否定；否定词本身就是 none/neither 时才是全部否定。",
+        "sections": [
+          {
+            "h": "not 的三个固定位置",
+            "p": "not 紧跟第一个操作词，位置由句法决定，不能随语义移动。要否定非谓语或某个成分时，not 直接放在该成分之前。",
+            "bullets": [
+              "否定谓语：He has not finished. / They did not come. / She is not ready.",
+              "否定非谓语：He asked me not to smoke. / Not knowing what to say, she kept silent.",
+              "否定主语或状语：Not everyone agreed. / Not surprisingly, he refused.",
+              "no + 名词 = not any + 名词：I have no time. = I don't have any time."
+            ]
+          },
+          {
+            "h": "部分否定与全部否定的对照",
+            "p": "同一个量化词，前面加 not 是部分否定，换成 none/neither 是全部否定。两者的谓语形式也不同：none of 接单复数皆可，neither of 接单数。",
+            "bullets": [
+              "Not all birds can fly.（并非所有鸟都会飞）↔ None of the birds can fly.（全都不会）",
+              "Not both of them agreed.（并非两个都同意）↔ Neither of them agreed.（两个都不同意）",
+              "Not every student passed.（并非每个都及格）↔ No student passed.（全都不及格）",
+              "not always / not necessarily 也是部分否定：He is not always right.",
+              "none 用于三者及以上，两者用 neither：× none of the two"
+            ]
+          },
+          {
+            "h": "位置改变造成的歧义",
+            "p": "把 not 放在谓语上、量化词留在原位时，句子会被读成全部否定，与想表达的部分否定相反。写作中要让否定词与量化词相邻，才能锁定范围。",
+            "bullets": [
+              "想表部分否定：Not all the answers are correct.",
+              "易被误读：All the answers are not correct.（可理解为“全都不对”）",
+              "both 的同类问题：Both of them are not teachers. → Not both of them are teachers.",
+              "not...because 有两种读法，需靠语序或强调句消除：It was not because he was ill that he left."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Not every suggestion was practical.", "zh": "并非每条建议都可行。", "ok": true, "note": "not 紧邻 every，否定的是范围，属部分否定。" },
+          { "en": "None of the three candidates had the required experience.", "zh": "三位候选人都不具备所要求的经验。", "ok": true, "note": "none 本身含否定，用于三者及以上，构成全部否定。" },
+          { "en": "None of the two candidates had the required experience.", "zh": "两位候选人都不具备所要求的经验。", "ok": false, "note": "none 只用于三者及以上，两者须用 neither。" },
+          { "en": "Not all of the money was spent on equipment.", "zh": "这笔钱并非全部花在设备上。", "ok": true, "note": "not all of + 不可数名词，谓语用单数 was。" },
+          { "en": "Not all of the students didn't finish the test.", "zh": "并非所有学生都没完成测验。", "ok": false, "note": "部分否定只需一个 not，再加 didn't 构成双重否定，语义反转。" },
+          { "en": "Neither of the twins likes spicy food.", "zh": "这对双胞胎都不喜欢辣的食物。", "ok": true, "note": "neither 表两者全部否定，作主语谓语用单数 likes。" },
+          { "en": "Every student didn't pass the exam.", "zh": "并非每个学生都通过了考试。", "ok": false, "note": "not 落在谓语上会被读成“每个学生都没通过”，表部分否定须写 Not every student passed the exam." },
+          { "en": "He is not always as patient as he looks.", "zh": "他并不总是像看上去那么有耐心。", "ok": true, "note": "not 修饰 always，属部分否定，意为“有时不是”。" }
+        ],
+        "pitfalls": [
+          { "wrong": "None of the two roads leads to the village.", "right": "Neither of the two roads leads to the village.", "why": "none 指三者及以上，两者全部否定必须用 neither。" },
+          { "wrong": "All the students don't want to postpone the exam.", "right": "Not all the students want to postpone the exam.", "why": "not 放在句末否定整个谓语，会被读成全部否定；表“并非都”须把 not 提到 all 之前。" },
+          { "wrong": "Not everyone don't know the answer.", "right": "Not everyone knows the answer.", "why": "not 与 don't 在同一分句内叠加构成双重否定，语义反转，且与部分否定的意图相反。" }
+        ],
+        "contrast": { "withTitle": "否定转移", "diff": "部分否定否定的是数量范围（all/both/every），not 留在量化词旁；否定转移把 not 从从句提到主句谓语，语义仍落在从句。" },
+        "mnemonic": "not 挨着 all/both/every 才是“并非都”；none/neither 才是“全都不”。"
+      },
+      "review": {
+        "core": [
+          "全部否定：none / neither / nobody / nothing / never / no + 名词",
+          "部分否定：not all / not both / not every / not always",
+          "not 的位置决定否定范围，写作时让 not 紧邻量化词",
+          "none 用于三者及以上，两者用 neither",
+          "not 与 don't 不能在同一分句叠加"
+        ],
+        "trigger": "看到 all/both/every 与 not 同句 → 先看两者是否相邻 → 不相邻就调整位置以免误读",
+        "quickCheck": [
+          { "q": "“并非两个都同意”怎么说？", "a": "Not both of them agreed." },
+          { "q": "“两个都不同意”怎么说？", "a": "Neither of them agreed." },
+          { "q": "none of the two 为什么错？", "a": "none 用于三者及以上，两者须用 neither。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.negation.position-partial.d1",
+          "type": "choice",
+          "stem": "___ of the two proposals was accepted, so the project was shelved.",
+          "options": ["Neither", "None", "Not both", "No one"],
+          "answer": "Neither",
+          "explain": "两者全部否定用 neither，作主语时谓语用单数 was；后文“项目被搁置”说明两个都没通过。",
+          "trap": "None 只用于三者及以上；No one 只能指人，不能指 proposal。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.negation.position-partial.d2",
+          "type": "fill",
+          "stem": "___ all the seats were taken; a few were still free at the back.",
+          "answer": "Not",
+          "accept": ["Not"],
+          "hint": "后半句说还有几个空位。",
+          "explain": "后半句“还有几个空位”说明只是部分被占，须用 not all 构成部分否定；Not all the seats were taken.",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.negation.position-partial.d3",
+          "type": "correct",
+          "stem": "None of the two witnesses could identify the driver.",
+          "answer": "Neither of the two witnesses could identify the driver.",
+          "accept": ["Neither of the two witnesses could identify the driver."],
+          "explain": "two witnesses 明确是两者，全部否定须用 neither，谓语仍用单数 could；none 只用于三者及以上。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.negation.position-partial.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Not", "every", "member", "of", "the", "committee", "supported", "the", "proposal."],
+          "answer": "Not every member of the committee supported the proposal.",
+          "explain": "not 紧邻 every member，构成部分否定“并非每位委员都支持”，谓语用单数 supported。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.negation.position-partial.d5",
+          "type": "translate",
+          "stem": "并非所有的学生都通过了考试。",
+          "answer": "Not all the students passed the exam.",
+          "require": [["not all"], ["passed"]],
+          "forbid": ["all the students didn't pass", "none of the students passed"],
+          "explain": "部分否定须把 not 提到 all 之前；若用 none 则变成全部否定，与“并非所有”意思相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.negation.position-partial.d6",
+          "type": "choice",
+          "stem": "___ the questions were difficult, but the last one was almost impossible.",
+          "options": ["Not all", "All not", "None", "Neither"],
+          "answer": "Not all",
+          "explain": "but 转折说明前面的题目并非全都难，只有最后一道极难，须用 not all 构成部分否定。",
+          "trap": "None 是全部否定，与 but 后的“最后一道极难”形成矛盾：若全都不难，就不会有极难的一题。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.negation.transfer",
+      "title": "否定转移",
+      "brief": "think/believe 类动词的 not 前移到主句",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["syntax.negation.position-partial"],
+      "concept": {
+        "summary": "否定转移指语义上否定的是宾语从句，形式上却把 not 放在主句谓语前。适用范围限于表示看法与推测的动词：think, believe, suppose, expect, imagine（reckon, feel 同类），主语多为 I 或 we。判定方法是把 not 移回从句，若句意不变即为否定转移；hope、be afraid 等不转移。",
+        "sections": [
+          {
+            "h": "适用范围与条件",
+            "p": "三个条件同时满足才发生转移：动词表看法或推测、主语是第一人称、从句是 that 引导的陈述性内容。缺一条就按普通否定处理。",
+            "bullets": [
+              "可以转移：think, believe, suppose, expect, imagine, reckon, feel",
+              "主语多为 I / we：I don't think he knew the answer.",
+              "不能转移：hope, be afraid, fear, guess（英式）",
+              "从句含 must、need 时通常不移：I think he needn't go."
+            ]
+          },
+          {
+            "h": "转换与等义表达",
+            "p": "转移与否可以互换，但语气不同：not 提前的写法更委婉、更常见；留在从句里语气更直接、更强调否定。写作中第一人称多用转移形式。",
+            "bullets": [
+              "I don't think she will agree. = I think she will not agree.",
+              "I don't believe he has finished. = I believe he has not finished.",
+              "委婉请求：I don't suppose you could help me?",
+              "与部分否定叠加：I don't think all of them will come.（我认为不是所有人都会来）"
+            ]
+          },
+          {
+            "h": "附加问句与不能转移的情形",
+            "p": "发生转移后，主句形式上是否定，但语义否定在从句，因此附加问句要与从句的主语和谓语一致，并用肯定形式。这一点是考试中的固定考点。",
+            "bullets": [
+              "I don't think he is right, is he?（与从句 he is 一致，用肯定）",
+              "She doesn't expect the talks to resume, does she?",
+              "hope 不移：× I don't hope it rains. → I hope it doesn't rain.",
+              "be afraid 不移：× I am not afraid he will fail.（此句意为“我不怕他失败”，语义已改变）",
+              "简答固定说法：I hope not. / I'm afraid not."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I don't think the plan will work without more funding.", "zh": "我认为没有更多资金这个计划行不通。", "ok": true, "note": "语义否定的是从句 will work，not 前移到 think 之前。" },
+          { "en": "I think the plan will not work without more funding.", "zh": "我认为没有更多资金这个计划行不通。", "ok": true, "note": "不转移的等义表达，否定留在从句，语气更直接。" },
+          { "en": "I don't hope it rains tomorrow.", "zh": "我希望明天不要下雨。", "ok": false, "note": "hope 不参与否定转移，应说 I hope it doesn't rain tomorrow." },
+          { "en": "I don't suppose you have a spare pen, do you?", "zh": "你身上没有多余的笔吧？", "ok": true, "note": "否定转移 + 委婉请求，附加问句与从句一致且用肯定形式。" },
+          { "en": "She doesn't expect the talks to resume before June.", "zh": "她预计谈判不会在六月前恢复。", "ok": true, "note": "expect 属可转移动词，语义否定的是 to resume。" },
+          { "en": "I don't think he is right, doesn't he?", "zh": "我认为他不对，是吗？", "ok": false, "note": "主句已是否定形式，附加问句须用肯定，且与从句主语一致，应为 is he?" },
+          { "en": "I don't imagine anyone will object to the change.", "zh": "我想不会有人反对这项变动。", "ok": true, "note": "imagine 属可转移动词，否定落在从句 anyone will object 上。" },
+          { "en": "I think not he will come to the party.", "zh": "我认为他不会来参加聚会。", "ok": false, "note": "not 不能直接放在从句主语前，应改为 I don't think he will come 或 I think he won't come." }
+        ],
+        "pitfalls": [
+          { "wrong": "I don't hope you mind the noise.", "right": "I hope you don't mind the noise.", "why": "hope 不参与否定转移，not 必须留在宾语从句中。" },
+          { "wrong": "I don't think he is qualified, isn't he?", "right": "I don't think he is qualified, is he?", "why": "否定转移后主句形式为否定，附加问句取肯定形式，并与从句的主语、谓语一致。" },
+          { "wrong": "I am not believing he is honest.", "right": "I don't believe he is honest.", "why": "believe 表“认为”时不用进行时，否定由 don't 承担并前移到主句。" }
+        ],
+        "contrast": { "withTitle": "否定词的位置与部分否定", "diff": "否定转移是 not 从从句移到主句谓语，语义仍指向从句；部分否定是 not 修饰量化词，语义指向数量范围。" },
+        "mnemonic": "想、信、猜、料、想象，not 往前站；hope 和 afraid 原地不动。"
+      },
+      "review": {
+        "core": [
+          "可转移动词：think, believe, suppose, expect, imagine, reckon, feel",
+          "主语多为第一人称，从句为 that 引导的陈述内容",
+          "hope、be afraid 不转移，not 留在从句",
+          "转移后附加问句用肯定形式，并与从句一致：..., is he?",
+          "简答固定说法：I hope not. / I'm afraid not."
+        ],
+        "trigger": "看到 I don't think/believe/suppose + 从句 → 语义否定在从句 → 附加问句按从句写肯定",
+        "quickCheck": [
+          { "q": "“我认为他不会来”最常用的说法？", "a": "I don't think he will come." },
+          { "q": "I don't hope it rains. 错在哪里？", "a": "hope 不转移，应说 I hope it doesn't rain." },
+          { "q": "I don't think she knows, ___? 填什么？", "a": "does she，与从句一致且用肯定形式。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.negation.transfer.d1",
+          "type": "choice",
+          "stem": "I ___ think the committee has reached a final decision yet.",
+          "options": ["don't", "not", "haven't", "am not"],
+          "answer": "don't",
+          "explain": "主句谓语是实义动词 think，否定须借 don't 构成，语义上否定的是从句 has reached。",
+          "trap": "not 不能单独作谓语否定，必须依附于操作词；haven't 与 think 的时态和结构都不匹配。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.negation.transfer.d2",
+          "type": "fill",
+          "stem": "I don't believe she ___ (be) serious about resigning.",
+          "answer": "is",
+          "accept": ["is"],
+          "hint": "否定虽然在主句，从句仍按肯定形式写。",
+          "explain": "否定转移只是把 not 前移，从句本身仍是肯定陈述，故用 is；若把 not 留在从句则写 isn't。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.negation.transfer.d3",
+          "type": "correct",
+          "stem": "I don't hope the flight is delayed again.",
+          "answer": "I hope the flight isn't delayed again.",
+          "accept": ["I hope the flight isn't delayed again.", "I hope the flight is not delayed again."],
+          "explain": "hope 不参与否定转移，否定必须留在宾语从句中，用 isn't 否定 is delayed。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.negation.transfer.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "don't", "suppose", "she", "will", "agree", "to", "the", "terms."],
+          "answer": "I don't suppose she will agree to the terms.",
+          "explain": "suppose 属可转移动词，not 前移到主句，从句保持肯定形式 will agree。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.negation.transfer.d5",
+          "type": "translate",
+          "stem": "我认为他不会接受这个提议。",
+          "answer": "I don't think he will accept the offer.",
+          "require": [["don't think", "do not think"], ["accept"]],
+          "forbid": ["I think not he will accept", "I don't think he will accepts"],
+          "explain": "第一人称 + think 构成否定转移，not 放在主句；从句用肯定形式 will accept，accept 不加 s。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.negation.transfer.d6",
+          "type": "choice",
+          "stem": "— Do you think it will rain this afternoon? — I ___.",
+          "options": ["hope not", "don't hope so", "hope no", "not hope so"],
+          "answer": "hope not",
+          "explain": "hope 的否定简答固定为 I hope not，not 直接跟在 hope 之后，不发生前移。",
+          "trap": "don't hope so 是把否定转移规则错误地套到 hope 上，hope 只能用 I hope not。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.negation.double-negative-lexical",
+      "title": "双重否定与否定的词汇表达",
+      "brief": "两个否定相消表肯定，也可换用含否定义的词",
+      "difficulty": 3,
+      "tags": ["难点", "写作"],
+      "prereq": ["syntax.negation.position-partial"],
+      "concept": {
+        "summary": "标准英语中同一分句内的两个否定相互抵消，构成肯定：not uncommon 意为 fairly common，never fail to 意为 always。但三重否定或否定词与否定副词叠加会造成语义混乱，属不规范。另一条路径是用本身含否定义的词（fail, deny, refuse, hardly, seldom, few, little, without）承担否定，避免 not 重复。",
+        "sections": [
+          {
+            "h": "双重否定的两种结果",
+            "p": "判断依据是两个否定是否在同一分句内修饰同一成分。若是，则相互抵消表肯定，语气比直接肯定更委婉；若叠加到三重或与否定副词混用，则语义失控。",
+            "bullets": [
+              "相消表肯定（书面、保守）：not uncommon, not impossible, not without reason",
+              "never fail to do = always do：He never fails to write.",
+              "不规范的双重否定：× I don't need no help. → I don't need any help.",
+              "否定词 + 否定副词要避免：× He doesn't hardly work. → He hardly works."
+            ]
+          },
+          {
+            "h": "半否定词",
+            "p": "这些词本身含否定意义，句子整体视为否定句，因此附加问句用肯定形式，且不能再加 not。它们在句中的位置与普通副词相同。",
+            "bullets": [
+              "hardly, scarcely, barely, seldom, rarely, never",
+              "few 表“几乎没有”（否定），a few 表“一些”（肯定）；little 与 a little 同理",
+              "He hardly ever calls, does he?（附加问句用肯定）",
+              "× He hardly has time, hasn't he?"
+            ]
+          },
+          {
+            "h": "词汇否定的四条路径",
+            "p": "写作中把 not + 动词换成含否定义的词，可以让句子更紧凑，也避免否定堆叠。但替换前须核对语义是否等值：refuse 含“拒绝”的意愿义，不能随意替换 didn't do。",
+            "bullets": [
+              "否定前缀：un-, in-/im-/il-/ir-, dis-, non-, mis-；后缀：-less",
+              "否定动词：fail to, refuse to, deny, avoid, lack",
+              "否定介词短语：without, instead of, far from, free from",
+              "转换示例：He didn't pass the exam. → He failed the exam. / The package arrived without any damage."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The results are not uncommon in coastal areas.", "zh": "这种结果在沿海地区并不罕见。", "ok": true, "note": "not + uncommon 两个否定相消，意为 fairly common，语气比直接说 common 委婉。" },
+          { "en": "He never fails to send his mother a card on her birthday.", "zh": "他从不会忘记在母亲生日时寄一张卡片。", "ok": true, "note": "never + fail 构成双重否定，等于 always remembers。" },
+          { "en": "I don't need no advice from someone who has never done the job.", "zh": "我不需要一个从没做过这工作的人给建议。", "ok": false, "note": "两个否定在同一分句内不规范，应改为 I don't need any advice。" },
+          { "en": "She hardly ever complains about the workload.", "zh": "她几乎从不抱怨工作量。", "ok": true, "note": "hardly 是半否定词，句子整体为否定意义。" },
+          { "en": "She hardly ever complains, doesn't she?", "zh": "她几乎从不抱怨，是吗？", "ok": false, "note": "含半否定词的句子按否定句处理，附加问句须用肯定形式 does she。" },
+          { "en": "Few of the students had read the article before the seminar.", "zh": "讨论课前几乎没有学生读过那篇文章。", "ok": true, "note": "few 表“几乎没有”，是否定意义，与 a few 相反。" },
+          { "en": "The package arrived without any damage.", "zh": "包裹送到时完好无损。", "ok": true, "note": "without 承担否定意义，句中不再需要 not。" },
+          { "en": "He failed to not attend the meeting.", "zh": "他没能不出席会议。", "ok": false, "note": "fail to 已含否定，再加 not 造成双重否定且语义混乱，应直接说 He attended the meeting." }
+        ],
+        "pitfalls": [
+          { "wrong": "I don't have no idea what he means.", "right": "I don't have any idea what he means.", "why": "标准英语一个分句只允许一个否定词，no 与 don't 重复，须把 no 换成 any。" },
+          { "wrong": "He hardly has time to breathe, hasn't he?", "right": "He hardly has time to breathe, has he?", "why": "hardly 使句子成为否定句，附加问句必须用肯定形式。" },
+          { "wrong": "He denied that he had not seen the document.", "right": "He denied that he had seen the document.", "why": "deny 已含否定，从句再加 not 会使语义变成“他否认自己没看见”，与原意相反。" }
+        ],
+        "contrast": { "withTitle": "否定词的位置与部分否定", "diff": "双重否定在同一分句内叠加两个否定、结果表肯定；部分否定只有一个 not，作用在 all/both/every 上，结果表“并非全部”。" },
+        "mnemonic": "一个分句一个否定；两个否定相消表肯定；hardly 已是否定，后面别再加 not。"
+      },
+      "review": {
+        "core": [
+          "同一分句两个否定相消表肯定：not uncommon = fairly common",
+          "标准英语一个分句只用一个否定词，× don't need no",
+          "半否定词 hardly/seldom/rarely/few/little 视为否定，附加问句用肯定",
+          "few 表几乎没有，a few 表一些",
+          "词汇否定：fail to / deny / without / 否定前缀与后缀"
+        ],
+        "trigger": "看到句中出现两个否定词 → 先判断是否同一分句 → 同一分句就去掉一个或换成 any",
+        "quickCheck": [
+          { "q": "not uncommon 是什么意思？", "a": "并不罕见，即 fairly common。" },
+          { "q": "He hardly works, ___? 填什么？", "a": "does he，半否定句的附加问句用肯定。" },
+          { "q": "I don't need no help. 怎么改？", "a": "I don't need any help." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.negation.double-negative-lexical.d1",
+          "type": "choice",
+          "stem": "The task is not ___ for a beginner, but it does take patience.",
+          "options": ["impossible", "possible", "unpossible", "impossibly"],
+          "answer": "impossible",
+          "explain": "not + impossible 两个否定相消，意为“并非不可能”，与 but 从句的让步语气一致。",
+          "trap": "possible 会构成“并非可能”，即“不可能”，与后文“但确实需要耐心”的转折矛盾；unpossible 不是英语词。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.negation.double-negative-lexical.d2",
+          "type": "fill",
+          "stem": "She ___ ever eats meat; she has been a vegetarian for years.",
+          "answer": "hardly",
+          "accept": ["hardly"],
+          "hint": "需要一个表“几乎不”的半否定副词。",
+          "explain": "hardly ever 意为“几乎从不”，是半否定表达，与后半句“多年素食”一致；此处不能再用 not。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.negation.double-negative-lexical.d3",
+          "type": "correct",
+          "stem": "I don't need no help with the luggage.",
+          "answer": "I don't need any help with the luggage.",
+          "accept": ["I don't need any help with the luggage."],
+          "explain": "don't 与 no 在同一分句内构成不规范的双重否定，须把 no 换成 any，只保留一个否定词。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.negation.double-negative-lexical.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "never", "fails", "to", "reply", "to", "emails."],
+          "answer": "He never fails to reply to emails.",
+          "explain": "never 与 fail to 构成双重否定，整体表肯定“他总是回复邮件”，谓语用第三人称单数 fails。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.negation.double-negative-lexical.d5",
+          "type": "translate",
+          "stem": "他几乎不抱怨工作负担。",
+          "answer": "He hardly ever complains about his workload.",
+          "require": [["hardly"], ["complains"]],
+          "forbid": ["doesn't hardly", "hardly doesn't"],
+          "explain": "hardly ever 已是半否定，谓语用肯定形式 complains；再加 doesn't 会形成双重否定且不合规范。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.negation.double-negative-lexical.d6",
+          "type": "choice",
+          "stem": "There is ___ point in arguing; the decision has been made.",
+          "options": ["little", "a little", "few", "a few"],
+          "answer": "little",
+          "explain": "point 在此不可数，little 表“几乎没有”，与“决定已经作出”的语境一致，构成否定意义。",
+          "trap": "a little 表“有一些”，会得出“争论还有点意义”的相反结论；few 与 a few 只能修饰可数名词复数。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,688 @@
+{
+  "level1": "syntax",
+  "chapter": "it_usage",
+  "items": [
+    {
+      "id": "syntax.it_usage.formal-subject",
+      "title": "it 作形式主语",
+      "brief": "it 占主语位，真主语后置为不定式或从句",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "判定分三步：一看句首的 it 是否有所指，二看后面是否有不定式、动名词或 that 从句，三做还原测试——把后置成分搬到句首，若句子仍成立，it 就是形式主语。it 在这里不指任何具体事物，只负责占住主语位置，避免头重脚轻。",
+        "sections": [
+          {
+            "h": "判定三步",
+            "p": "三步按顺序执行，任何一步不通过就不是形式主语。第一步排除指代用法，第二步确认后置成分存在，第三步用还原测试作最终结论。",
+            "bullets": [
+              "第一步：it 能否换成前文某个名词？能换的是人称代词 it，不能换的才是形式主语。",
+              "第二步：后面是否有 to do、doing 或 that/whether 从句？没有则不是形式主语。",
+              "第三步：还原测试。It is hard to please everyone. → To please everyone is hard. 成立，确认为形式主语。",
+              "还原后不成立说明是别的结构，不能按形式主语处理。"
+            ]
+          },
+          {
+            "h": "三类后置真主语",
+            "p": "真正的主语可以是三种非谓语或从句形式，选哪种由前面的形容词或名词决定，这一点决定了填空时该写 to do 还是 doing。",
+            "bullets": [
+              "不定式：It is important to arrive early. / It takes two hours to get there.",
+              "动名词：It is no use crying over spilt milk. / It is worth trying again.",
+              "从句：It is clear that he lied. / It matters whether we act now.",
+              "被动 + 从句：It is said that the bridge will reopen in May."
+            ]
+          },
+          {
+            "h": "逻辑主语的介词选择",
+            "p": "需要标出“谁来做”时，用 for 或 of 引出逻辑主语。判断依据是形容词修饰事情还是修饰人：描述事情性质的用 for，描述人的品性的用 of。",
+            "bullets": [
+              "It is important for you to rest.（important 描述事情）",
+              "It is kind of you to help.（kind 描述人的品性）",
+              "× It is important of you to rest. / × It is kind for you to help.",
+              "no use / no good 后只能接动名词：It is no good complaining."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It is essential to back up your files before updating the system.", "zh": "更新系统前备份文件是必要的。", "ok": true, "note": "it 占主语位，真主语是不定式 to back up your files。" },
+          { "en": "It is no use arguing with the referee.", "zh": "和裁判争论没有用。", "ok": true, "note": "no use 后接动名词，arguing 是真正的主语。" },
+          { "en": "It is no use to argue with the referee.", "zh": "和裁判争论没有用。", "ok": false, "note": "no use / no good 后固定接动名词，不能用不定式。" },
+          { "en": "It is clear that the two sides will not reach an agreement today.", "zh": "很明显双方今天不会达成协议。", "ok": true, "note": "真主语是 that 从句，it 只是占位。" },
+          { "en": "Is clear that the two sides will not reach an agreement today.", "zh": "很明显双方今天不会达成协议。", "ok": false, "note": "缺少形式主语 it，句子没有主语；从句后置时 it 不能省。" },
+          { "en": "It seems that the train has been delayed.", "zh": "火车似乎晚点了。", "ok": true, "note": "seem 后用 that 从句，it 作形式主语。" },
+          { "en": "It took me three hours to finish the report.", "zh": "我花了三个小时完成这份报告。", "ok": true, "note": "it 为形式主语，真主语是 to finish the report，me 是间接宾语。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Is necessary to check the data twice.", "right": "It is necessary to check the data twice.", "why": "不定式后置后句首没有主语，英语陈述句必须有主语，须用 it 占位。" },
+          { "wrong": "It is no good to smoke here.", "right": "It is no good smoking here.", "why": "no good / no use 后的真主语固定为动名词，不定式不成立。" },
+          { "wrong": "It is important for you study every day.", "right": "It is important for you to study every day.", "why": "for 引出的是不定式的逻辑主语，后面必须接完整的 to do，不能直接跟动词原形。" }
+        ],
+        "contrast": { "withTitle": "it 作形式宾语", "diff": "形式主语在句首、真主语在谓语之后；形式宾语在动词之后、真宾语在宾补之后，位置和触发结构完全不同。" },
+        "mnemonic": "it 站前排占位，真主语排队在后；能搬回句首的是形式主语。"
+      },
+      "review": {
+        "core": [
+          "判定三步：it 是否有所指 → 后面有无后置成分 → 还原测试是否成立",
+          "真主语可以是不定式、动名词或 that/whether 从句",
+          "no use / no good / worth 后接动名词，不接不定式",
+          "描述事情性质用 for sb.，描述人的品性用 of sb.",
+          "it 不能省略，否则句子没有主语"
+        ],
+        "trigger": "看到句首 it 后面跟着形容词 + to do/that 从句 → 立刻做还原测试 → 成立即形式主语",
+        "quickCheck": [
+          { "q": "It is hard to please everyone. 的真主语是什么？", "a": "to please everyone，it 是形式主语。" },
+          { "q": "It is no use ___ (cry) over spilt milk. 填什么？", "a": "crying，no use 后接动名词。" },
+          { "q": "It is kind ___ you to help. 填 for 还是 of？", "a": "of，kind 描述人的品性。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.it_usage.formal-subject.d1",
+          "type": "choice",
+          "stem": "___ is essential that every applicant submit two references.",
+          "options": ["It", "That", "There", "This"],
+          "answer": "It",
+          "explain": "that 从句后置，句首需要形式主语 it 占位；essential 是对事情的评价，符合 it is + adj. + that 从句的结构。",
+          "trap": "That 会与后面的 that 从句重复，且句首仍然缺主语；There 只能构成 there be 存在句。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.formal-subject.d2",
+          "type": "fill",
+          "stem": "It is no use ___ (complain) about the decision now.",
+          "answer": "complaining",
+          "accept": ["complaining"],
+          "hint": "no use 后面接什么形式？",
+          "explain": "no use 后的真主语固定为动名词，须用 complaining；不定式 to complain 不成立。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.it_usage.formal-subject.d3",
+          "type": "correct",
+          "stem": "Is important to read the instructions before you start.",
+          "answer": "It is important to read the instructions before you start.",
+          "accept": ["It is important to read the instructions before you start."],
+          "explain": "不定式作主语后置后，句首缺主语，必须补形式主语 it，构成 It is important to do sth.。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.formal-subject.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "takes", "about", "two", "hours", "to", "get", "there", "by", "bus."],
+          "answer": "It takes about two hours to get there by bus.",
+          "explain": "it 为形式主语，真主语 to get there by bus 后置；take 在此表“花费时间”，后接时间量。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.formal-subject.d5",
+          "type": "translate",
+          "stem": "每天练习三十分钟是必要的。",
+          "answer": "It is necessary to practise for thirty minutes every day.",
+          "require": [["it is necessary"], ["practise", "practice"]],
+          "forbid": ["that is necessary to", "it is necessary for practise"],
+          "explain": "不定式作真主语须后置，句首用 it 占位；necessary 描述事情，若引出逻辑主语应用 for sb. 而非直接跟动词。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.it_usage.formal-subject.d6",
+          "type": "choice",
+          "stem": "It is careless ___ him to leave the door unlocked.",
+          "options": ["of", "for", "to", "with"],
+          "answer": "of",
+          "explain": "careless 描述的是人的品性，属于“某人具有某种特质”，须用 of + 人 + to do 的结构。",
+          "trap": "for 用于描述事情性质的形容词，如 important、necessary、difficult，与 careless 的语义指向不同。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.it_usage.formal-object",
+      "title": "it 作形式宾语",
+      "brief": "宾补紧跟 it，真宾语后置到补语之后",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["syntax.it_usage.formal-subject"],
+      "concept": {
+        "summary": "判定标准：动词后先出现 it，接着是形容词或名词作宾语补足语，最后才是真正宾语（不定式、动名词或从句）。英语要求宾补紧跟宾语，长宾语必须后移，因此需要 it 占位；it 不能省略，也不能换成 this 或 that。",
+        "sections": [
+          {
+            "h": "结构公式与判定",
+            "p": "判定按三步走：先确认 it 无所指，再确认它后面紧跟补足语，最后确认补足语之后还有真宾语。三步都成立才是形式宾语，缺一步就是别的结构。",
+            "bullets": [
+              "第一步：找到动词后的 it，看它是否指代前文名词；不指代才继续。",
+              "第二步：看 it 后是否紧跟形容词或名词作补足语（hard, clear, necessary, a privilege）。",
+              "第三步：看补足语之后是否有 to do、doing 或 that 从句，这段才是真宾语。",
+              "公式：主语 + 动词 + it + 宾补 + 真宾语，如 I find it hard to concentrate.",
+              "反证：把真宾语搬到 it 的位置（× I find to concentrate hard.）不成立，说明 it 不可省。"
+            ]
+          },
+          {
+            "h": "允许该结构的动词",
+            "p": "这类动词都是“认为、使得、发现”类，允许宾语后接补足语。动词本身决定结构是否成立，不能凭汉语“我觉得……”直接类推。",
+            "bullets": [
+              "make, find, think, consider, feel, believe, regard, take, count, deem",
+              "take it for granted that...（想当然认为）",
+              "appreciate it if...（若……将不胜感激）",
+              "see to it that... / depend on it that...（介词后也可用 it 占位）",
+              "× suggest it necessary to do；× explain it that..."
+            ]
+          },
+          {
+            "h": "与相邻结构的分工",
+            "p": "同一个动词可以带不同结构，判断依据是宾语的长度与是否带补足语。宾语是短名词时不需要 it；宾语是不定式或从句时才需要后移。",
+            "bullets": [
+              "形式宾语：I find it hard to concentrate in noise.",
+              "复合宾语（短名词作宾语）：I find the task hard.",
+              "形式主语：It is hard to concentrate in noise.",
+              "宾语从句（无补足语）：I think that he is right."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I find it difficult to keep up with the reading list.", "zh": "我发现很难跟上书单的进度。", "ok": true, "note": "it 占宾语位，difficult 作宾补，真宾语 to keep up... 后置。" },
+          { "en": "I find difficult to keep up with the reading list.", "zh": "我发现很难跟上书单的进度。", "ok": false, "note": "缺形式宾语 it，difficult 直接跟宾语不成立，宾补必须有宾语支撑。" },
+          { "en": "She made it clear that she would not accept the offer.", "zh": "她明确表示不会接受这个提议。", "ok": true, "note": "that 从句后置，it 占位，clear 作宾补。" },
+          { "en": "They consider it a privilege to work with him.", "zh": "他们认为与他共事是一种荣幸。", "ok": true, "note": "名词 a privilege 作宾补，真宾语是不定式。" },
+          { "en": "He explained it that the delay was unavoidable.", "zh": "他解释说延误是不可避免的。", "ok": false, "note": "explain 不接 it 作形式宾语，应直接说 He explained that the delay was unavoidable." },
+          { "en": "We take it for granted that clean water is available.", "zh": "我们想当然地认为干净的水随时都有。", "ok": true, "note": "take it for granted that 是固定结构，it 不可省。" },
+          { "en": "I would appreciate it if you could reply by Friday.", "zh": "如果你能在周五前回复，我将不胜感激。", "ok": true, "note": "appreciate it if 是固定搭配，it 指代后面 if 从句的内容。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I consider impossible to finish the work by Friday.", "right": "I consider it impossible to finish the work by Friday.", "why": "不定式作宾语太长须后移，impossible 作宾补需要宾语支撑，缺 it 则结构断裂。" },
+          { "wrong": "She made clear that she disagreed.", "right": "She made it clear that she disagreed.", "why": "make 的宾语从句后移后，宾补 clear 前必须有 it 占位，否则 clear 直接跟在 made 后无宾语。" },
+          { "wrong": "We take that he is honest for granted.", "right": "We take it for granted that he is honest.", "why": "take...for granted 是固定结构，it 固定在 take 与 for granted 之间，从句置于句末。" }
+        ],
+        "contrast": { "withTitle": "it 作形式主语", "diff": "形式主语在句首、真主语在谓语之后；形式宾语在动词之后、真宾语在宾补之后，两者的位置与触发结构都不同。" },
+        "mnemonic": "宾补不能悬空，it 先垫个位；长宾语往后排。"
+      },
+      "review": {
+        "core": [
+          "公式：动词 + it + 宾补（形容词/名词）+ 真宾语",
+          "常用动词：make, find, think, consider, feel, believe, regard, take",
+          "固定搭配：take it for granted that / appreciate it if / see to it that",
+          "it 不能省略，because 宾补必须紧跟宾语",
+          "宾语是短名词时不用 it：I find the task hard."
+        ],
+        "trigger": "看到 find/think/make + 形容词/名词 + to do 或 that 从句 → 中间必须有 it",
+        "quickCheck": [
+          { "q": "I find it hard to concentrate. 中 it 是什么成分？", "a": "形式宾语，真宾语是 to concentrate。" },
+          { "q": "We take ___ for granted that he is honest. 填什么？", "a": "it，take it for granted 是固定结构。" },
+          { "q": "I find the task hard. 需要加 it 吗？", "a": "不需要，宾语 the task 是短名词，直接跟宾补。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.it_usage.formal-object.d1",
+          "type": "choice",
+          "stem": "She found ___ hard to admit that she had been wrong.",
+          "options": ["it", "that", "this", "what"],
+          "answer": "it",
+          "explain": "hard 是宾补，真正宾语是 to admit that she had been wrong，须用 it 占住宾语位置。",
+          "trap": "that 会引导从句，但 hard 后面无法直接接从句，宾补前的空位只能由 it 填充。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.formal-object.d2",
+          "type": "fill",
+          "stem": "The new rules make ___ compulsory for all staff to wear badges.",
+          "answer": "it",
+          "accept": ["it"],
+          "hint": "compulsory 是宾补，真宾语是后面的不定式。",
+          "explain": "make 后接宾补 compulsory，真宾语 to wear badges 后置，中间必须用形式宾语 it 占位。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.formal-object.d3",
+          "type": "correct",
+          "stem": "I think important to check the figures before publication.",
+          "answer": "I think it important to check the figures before publication.",
+          "accept": ["I think it important to check the figures before publication."],
+          "explain": "think 后接宾补 important，真宾语是不定式，须先用 it 占位，否则宾补没有依附对象。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.formal-object.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["They", "consider", "it", "a", "privilege", "to", "work", "with", "her."],
+          "answer": "They consider it a privilege to work with her.",
+          "explain": "名词 a privilege 作宾补，真宾语 to work with her 后置，it 占宾语位置不可省。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.it_usage.formal-object.d5",
+          "type": "translate",
+          "stem": "我们认为有必要重新考虑这个决定。",
+          "answer": "We consider it necessary to reconsider the decision.",
+          "require": [["consider it necessary"], ["reconsider"]],
+          "forbid": ["consider necessary to", "consider it is necessary to"],
+          "explain": "consider 后接宾补 necessary，真宾语 to reconsider the decision 后置，须用 it 占位；consider 后不接 that 从句与宾补混用。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.it_usage.formal-object.d6",
+          "type": "choice",
+          "stem": "I would appreciate ___ if you could send the file today.",
+          "options": ["it", "that", "this", "one"],
+          "answer": "it",
+          "explain": "appreciate it if 是固定结构，it 指代后面 if 从句表达的情况，不能换成 that 或 this。",
+          "trap": "that 会让人误以为要接宾语从句，但 appreciate 后接 if 从句时必须先用 it 占位。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.it_usage.cleft",
+      "title": "it 在强调句中的用法",
+      "brief": "去掉 It is/was...that 仍成句才是强调句",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["syntax.it_usage.formal-subject"],
+      "concept": {
+        "summary": "强调句的结构是 It is/was + 被强调成分 + that/who + 其余部分，可强调主语、宾语和各类状语，但不能强调谓语动词。判定的唯一硬标准是还原测试：删去 It is/was 与 that/who，把被强调成分放回原位，若剩余部分能组成语法完整的句子，才是强调句。",
+        "sections": [
+          {
+            "h": "结构与可强调的成分",
+            "p": "被强调成分夹在 It is/was 与 that 之间，位置固定。它原本在句中作什么成分，还原后就要放回什么位置。指人时连接词可用 who 或 that，其余一律用 that。",
+            "bullets": [
+              "强调主语：It was the manager who approved the budget.",
+              "强调宾语：It was the budget that the manager approved.",
+              "强调时间状语：It was in 1998 that she moved to Beijing.",
+              "强调地点状语：It was in the library that I first met her.",
+              "谓语动词不能这样强调，改用 do/does/did：He did call me."
+            ]
+          },
+          {
+            "h": "还原测试的四个动作",
+            "p": "这套动作要按顺序做完，不能只看一眼就下结论。前两步是拆，第三步是归位，第四步是验句；四步中任何一步失败，就不是强调句。",
+            "bullets": [
+              "动作一：划掉句首的 It is 或 It was。",
+              "动作二：划掉连接词 that 或 who。",
+              "动作三：把中间那段被强调成分搬回原句被抽走的位置。",
+              "动作四：读一遍剩下部分。若是一个语法完整的句子（有主语、谓语，时态自洽），即为强调句；若只剩下“形容词/名词 + that 从句”这类残片，则为形式主语。",
+              "示例：It was in 1998 that she moved to Beijing. → 去掉 It was 与 that → in 1998 归位 → She moved to Beijing in 1998. 完整，确认强调句。",
+              "反例：It is clear that she moved to Beijing. → 去掉 It is 与 that → clear 归位 → Clear she moved to Beijing. 不成句，故为形式主语而非强调句。"
+            ]
+          },
+          {
+            "h": "辅助检查：that 是否充当成分",
+            "p": "当还原测试仍有疑问时，用第二个标准交叉验证：看 that 后面是不是一个完整分句。强调句的 that 只起连接作用，不作成分，因此它后面必须自成完整分句；定语从句的 that 充当主语或宾语，删掉后从句就会缺成分。",
+            "bullets": [
+              "强调句：It was in 1998 that she moved to Beijing. → that 后 she moved to Beijing 是完整分句。",
+              "定语从句：It is a habit that is hard to break. → that 后 is hard to break 缺主语，that 是从句主语。",
+              "主谓一致：It is I who am responsible.（正式）／It is me who is responsible.（口语）",
+              "not until 的强调：It was not until midnight that he came back.（that 后不倒装）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It was in 1998 that she moved to Beijing.", "zh": "她是在 1998 年搬到北京的。", "ok": true, "note": "强调时间状语，还原为 She moved to Beijing in 1998. 完整。" },
+          { "en": "It was the manager who approved the budget.", "zh": "批准预算的是经理。", "ok": true, "note": "强调主语，指人可用 who，还原为 The manager approved the budget." },
+          { "en": "It was in 1998 when she moved to Beijing.", "zh": "她是在 1998 年搬到北京的。", "ok": false, "note": "强调时间状语连接词固定用 that，用 when 会使结构变成含定语从句的句子。" },
+          { "en": "It was not until midnight that he came back.", "zh": "直到午夜他才回来。", "ok": true, "note": "not until 的强调结构，that 后用陈述语序，不倒装。" },
+          { "en": "It was in the library where I first met her.", "zh": "我第一次遇见她是在图书馆。", "ok": false, "note": "强调地点状语用 that，where 只能引导定语从句修饰表地点的名词。" },
+          { "en": "It is I who is responsible for the delay.", "zh": "造成延误的人是我。", "ok": false, "note": "强调主语时 who 后的谓语与被强调成分一致，I 对应 am，应改为 who am。" },
+          { "en": "It was not his words but his silence that hurt her.", "zh": "伤害她的不是他的话，而是他的沉默。", "ok": true, "note": "被强调成分是并列名词短语，连接词仍用 that。" },
+          { "en": "It is I who am to blame for the mistake.", "zh": "这个错误该由我负责。", "ok": true, "note": "正式文体中 who 后的谓语与被强调的 I 保持一致，用 am。" }
+        ],
+        "pitfalls": [
+          { "wrong": "It was in 2010 when he joined the company.", "right": "It was in 2010 that he joined the company.", "why": "强调句的连接词固定为 that（指人可用 who），when 会把句子变成含定语从句的结构。" },
+          { "wrong": "It is Tom who have finished the report.", "right": "It is Tom who has finished the report.", "why": "强调主语时，who 后的谓语与被强调的名词 Tom 保持一致，用单数 has。" },
+          { "wrong": "It was the window that Tom broke it.", "right": "It was the window that Tom broke.", "why": "被强调成分已经回到宾语位置，that 后不能再保留一个代词 it，否则宾语重复。" }
+        ],
+        "contrast": { "withTitle": "it 作形式主语", "diff": "形式主语去掉 it 后句子不成立，真主语是后面的不定式或从句；强调句去掉 It is...that 后剩余部分能还原成一个完整句子。" },
+        "mnemonic": "拆掉 It is 和 that，成分归位还成句——是强调；还不了原的是形式主语。"
+      },
+      "review": {
+        "core": [
+          "结构：It is/was + 被强调成分 + that/who + 其余部分",
+          "还原测试：删 It is/was 与 that/who，成分归位，仍成句才是强调句",
+          "辅助检查：that 后必须是完整分句，that 不作成分",
+          "指人可用 who，其余一律 that；not until 强调后用陈述语序",
+          "谓语动词不能强调，改用 do/does/did"
+        ],
+        "trigger": "看到 It is/was ... that ... → 先做还原测试 → 归位后成句才按强调句处理",
+        "quickCheck": [
+          { "q": "It is clear that he lied. 是强调句吗？", "a": "不是，去掉 It is 与 that 后 clear he lied 不成句，属于形式主语。" },
+          { "q": "It was in 1998 ___ she moved to Beijing. 填什么？", "a": "that，强调时间状语用 that。" },
+          { "q": "强调谓语动词用什么手段？", "a": "用助动词 do/does/did，如 He did call me." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.it_usage.cleft.d1",
+          "type": "choice",
+          "stem": "It was not until she read the letter ___ she realized the truth.",
+          "options": ["that", "when", "which", "then"],
+          "answer": "that",
+          "explain": "not until 的强调结构固定为 It was not until...that...，that 只起连接作用；还原后 She did not realize the truth until she read the letter. 完整。",
+          "trap": "when 会让人按时间状语从句理解，但前面已有 It was 框架，连接词只能是 that。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.it_usage.cleft.d2",
+          "type": "fill",
+          "stem": "It ___ his encouragement that helped me through the hardest year.",
+          "answer": "was",
+          "accept": ["was"],
+          "hint": "看后面 helped 的时态。",
+          "explain": "从句谓语 helped 是过去时，强调句的 be 须与之呼应，用 was；被强调成分 his encouragement 是单数，也用 was。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.cleft.d3",
+          "type": "correct",
+          "stem": "It was in the library where I first met her.",
+          "answer": "It was in the library that I first met her.",
+          "accept": ["It was in the library that I first met her."],
+          "explain": "被强调的是地点状语 in the library，强调句的连接词用 that；where 只能引导定语从句修饰地点名词。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.it_usage.cleft.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "was", "his", "attitude", "that", "impressed", "the", "interviewers."],
+          "answer": "It was his attitude that impressed the interviewers.",
+          "explain": "被强调的是主语 his attitude，还原为 His attitude impressed the interviewers. 结构完整，确认为强调句。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.cleft.d5",
+          "type": "translate",
+          "stem": "正是这位老师改变了我对数学的看法。",
+          "answer": "It was this teacher who changed my view of mathematics.",
+          "require": [["it was"], ["who", "that"], ["changed"]],
+          "forbid": ["it was this teacher changed", "it is this teacher who changed"],
+          "explain": "强调主语且指人，用 It was...who...；连接词不能省略，也不能用现在时 is 与过去动作搭配。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.it_usage.cleft.d6",
+          "type": "choice",
+          "stem": "He ___ call you yesterday, but you did not answer.",
+          "options": ["did", "was", "is", "does"],
+          "answer": "did",
+          "explain": "强调谓语动词只能用助动词 do/does/did 加动词原形，过去时用 did，不能用 It is/was...that 结构。",
+          "trap": "was 会让人误用强调句框架，但句中没有 that 从句，且强调对象是谓语动词 call。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.it_usage.impersonal",
+      "title": "it 表时间、天气、距离的无人称用法",
+      "brief": "无所指的 it 作唯一主语，汉语常不译出",
+      "difficulty": 1,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "判定标准：it 既不指代前文名词，也不是形式主语（后面没有可还原的不定式或从句），而是句子的唯一主语，用于时间、日期、天气、温度、距离与环境。这类 it 在汉语里通常不译出，但英语句子里不能省略，也不能换成 there be。",
+        "sections": [
+          {
+            "h": "六类无人称 it",
+            "p": "这六类覆盖了绝大多数出现场景，判断时只需看 it 后面的中心词属于哪一类，不需要分析句子成分。",
+            "bullets": [
+              "时间与日期：It is ten past six. / It is Monday. / It is already midnight.",
+              "天气与气候：It is raining. / It is getting colder. / It was windy yesterday.",
+              "温度：It is twenty degrees outside.",
+              "距离：It is three miles to the station. / It is a long way from here.",
+              "环境与情况：It is noisy in here. / It is getting dark.",
+              "笼统指代：How is it going? / It is my turn."
+            ]
+          },
+          {
+            "h": "三条形式限制",
+            "p": "无人称 it 是句法上的强制主语，删掉句子就不合法。天气动词尤其严格，主语只能是 it，不能换成 today 或 there。",
+            "bullets": [
+              "不能省：× Is very cold today. → It is very cold today.",
+              "不能换 there：× There is raining. → It is raining.",
+              "天气动词 rain/snow/drizzle/thunder/pour 只能以 it 作主语：× Today is raining.",
+              "距离常用 it is + 距离 + to/from：It is two miles from here to the beach."
+            ]
+          },
+          {
+            "h": "与形式主语的分界",
+            "p": "两者句首都是 it，用同一套动作区分：一看 it 后面紧跟什么，二找有没有能搬回句首的成分，三看搬回后是否成句。搬不回去、也找不到后置成分的，就是无人称 it。",
+            "bullets": [
+              "第一步：看 it 后面紧跟的是形容词、名词还是时间，而不是 to do 或从句。",
+              "第二步：找句中有没有可以搬到句首作主语的不定式、动名词或 that 从句。",
+              "第三步：有且搬回后成立 → 形式主语；没有可搬成分 → 无人称 it。",
+              "无人称：It is cold.（无后置成分，搬不回去）",
+              "形式主语：It is cold to stand outside in such weather.（真主语是 to stand outside）",
+              "无人称：It is a long way to the airport.",
+              "形式主语：It is important to book a taxi in advance."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It is freezing outside, so put on a thicker coat.", "zh": "外面冷极了，穿件厚一点的外套。", "ok": true, "note": "it 表天气，无具体所指，是句子的唯一主语。" },
+          { "en": "There is freezing outside, so put on a thicker coat.", "zh": "外面冷极了，穿件厚一点的外套。", "ok": false, "note": "there be 表存在，不能带表天气的形容词；天气须用无人称 it 作主语。" },
+          { "en": "It is about twenty minutes' walk from the station to the hotel.", "zh": "从车站到酒店大约步行二十分钟。", "ok": true, "note": "it 表距离，后接距离短语与 from...to 结构。" },
+          { "en": "Is about twenty minutes' walk from the station to the hotel.", "zh": "从车站到酒店大约步行二十分钟。", "ok": false, "note": "英语陈述句必须有主语，距离表达同样需要 it 占位。" },
+          { "en": "It rained heavily all night, and the roads were flooded.", "zh": "整夜下大雨，道路被淹了。", "ok": true, "note": "rain 是天气动词，主语固定为 it。" },
+          { "en": "It is already midnight, and the children are still awake.", "zh": "已经午夜了，孩子们还醒着。", "ok": true, "note": "it 表时间，汉语不译出，但英语不能省。" },
+          { "en": "Today is raining heavily, so we stayed indoors.", "zh": "今天下大雨，所以我们待在室内。", "ok": false, "note": "天气动词的主语只能是无人称 it，today 是时间状语，不能作 rain 的主语。" }
+        ],
+        "pitfalls": [
+          { "wrong": "There is raining hard outside.", "right": "It is raining hard outside.", "why": "rain 是天气动词，主语固定为无人称 it；there be 只表存在，不能带天气谓语。" },
+          { "wrong": "Is very hot in July here.", "right": "It is very hot in July here.", "why": "英语陈述句必须有主语，表天气的形容词前要用 it 占位。" },
+          { "wrong": "It is three miles walk to the beach.", "right": "It is a three-mile walk to the beach.", "why": "距离作前置定语时用复合定语 three-mile，名词用单数并加连字符；不能直接用 three miles walk。" }
+        ],
+        "contrast": { "withTitle": "it 作形式主语", "diff": "无人称 it 后面没有可还原的后置真主语；形式主语后面一定有不定式、动名词或从句能搬回句首。" },
+        "mnemonic": "时间天气和距离，it 必到场；汉语不说它，英语不能少。"
+      },
+      "review": {
+        "core": [
+          "it 表时间、日期、天气、温度、距离、环境，无具体所指",
+          "it 不能省略，也不能换成 there be 或 today",
+          "天气动词 rain/snow/thunder 的主语固定为 it",
+          "距离用 it is + 距离 + to/from 结构",
+          "后面没有 to do 或从句时是无人称 it，不是形式主语"
+        ],
+        "trigger": "看到汉语“下雨了/很冷/六点了/很远” → 英语一律先写 It is",
+        "quickCheck": [
+          { "q": "“外面在下雪”怎么说？", "a": "It is snowing outside." },
+          { "q": "There is raining. 错在哪里？", "a": "天气动词的主语是无人称 it，应用 It is raining." },
+          { "q": "It is cold. 与 It is cold to stand outside. 有何不同？", "a": "前者是无人称 it 表天气，后者是形式主语，真主语是 to stand outside。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.it_usage.impersonal.d1",
+          "type": "choice",
+          "stem": "___ has been raining since early morning, so the pitch is soaked.",
+          "options": ["It", "There", "That", "Weather"],
+          "answer": "It",
+          "explain": "rain 是天气动词，主语只能是无人称 it；现在完成进行时由 has been raining 承担。",
+          "trap": "There 会构成 there be 存在句，而存在句不能带 rain 的进行时谓语。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.impersonal.d2",
+          "type": "fill",
+          "stem": "___ is only a ten-minute walk from my flat to the office.",
+          "answer": "It",
+          "accept": ["It"],
+          "hint": "句首需要一个表距离的主语。",
+          "explain": "表距离的句子需要无人称 it 作主语，后接距离短语与 from...to 结构；ten-minute 为复合定语，用单数。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.impersonal.d3",
+          "type": "correct",
+          "stem": "There is snowing heavily in the mountains.",
+          "answer": "It is snowing heavily in the mountains.",
+          "accept": ["It is snowing heavily in the mountains."],
+          "explain": "snow 是天气动词，主语固定为无人称 it；there be 表存在，不能与天气动词的进行时搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.impersonal.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "is", "getting", "dark,", "so", "let's", "head", "back."],
+          "answer": "It is getting dark, so let's head back.",
+          "explain": "it 表环境变化（天黑），是无人称用法；后一分句用 so 连接表结果。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.impersonal.d5",
+          "type": "translate",
+          "stem": "从这儿到机场大约三十公里。",
+          "answer": "It is about thirty kilometres from here to the airport.",
+          "require": [["it is"], ["kilometres", "kilometers"]],
+          "forbid": ["there is about thirty", "it has about thirty"],
+          "explain": "距离表达用无人称 it 作主语，后接距离量与 from...to 结构，不能用 there be 或 have。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.impersonal.d6",
+          "type": "choice",
+          "stem": "How far ___ from the campus to the nearest metro station?",
+          "options": ["is it", "is there", "it is", "there is"],
+          "answer": "is it",
+          "explain": "特殊疑问句中无人称 it 作主语，与 be 倒装为 is it；how far 问距离。",
+          "trap": "is there 会构成存在句，问的是“有没有”，与 how far 问距离不相容。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.it_usage.fixed-patterns",
+      "title": "it 的固定句型",
+      "brief": "六组高频 it 句型，见标志直接套结构",
+      "difficulty": 3,
+      "tags": ["高频", "写作"],
+      "prereq": ["syntax.it_usage.formal-subject"],
+      "concept": {
+        "summary": "固定句型的判定线索是 it 后面已经绑定了特定动词或名词，例如 it is said/reported that、it seems that、it is the first time that、it is high time that、it is no use doing、it is up to sb. to do。看到这些标志不必再做还原测试，直接按句型要求填形式与时态即可。",
+        "sections": [
+          {
+            "h": "传闻与推测类",
+            "p": "这类句型有两个等价形式：it + be + 过去分词 + that 从句，或主语 + be + 过去分词 + 不定式。转换时先分清动作先后：先发生的动作改用不定式完成式。",
+            "bullets": [
+              "It is said that he owns three houses. = He is said to own three houses.",
+              "It is reported/believed/thought/estimated that...",
+              "It seems/appears that he knows the answer. = He seems to know the answer.",
+              "It is said that he left. → He is said to have left.（动作先于谓语）"
+            ]
+          },
+          {
+            "h": "时间与次数类",
+            "p": "这一类靠主句时态决定从句时态，是语法填空的高频点。记法是：主句现在时，从句用现在完成；主句过去时，从句用过去完成。",
+            "bullets": [
+              "It is the first time that + 现在完成：It is the first time that I have seen the sea.",
+              "It was the third time that + 过去完成：It was the third time that she had failed.",
+              "It is (high) time that + 一般过去（或 should do）：It is high time we left.",
+              "It is/has been + 时间段 + since + 一般过去：It is three years since we met."
+            ]
+          },
+          {
+            "h": "评价与习惯表达",
+            "p": "这些结构已经词汇化，形式固定，不能按语义自由替换动词形式。写作中直接整块使用即可。",
+            "bullets": [
+              "It is no use / no good / useless doing sth.",
+              "It is worth doing sth. / It is no wonder that...",
+              "It is up to sb. to do sth.（由某人决定）",
+              "习惯表达：make it（成功/赶到）、take it easy、as I see it"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It is said that the old bridge will be rebuilt next year.", "zh": "据说这座老桥明年会重建。", "ok": true, "note": "It is said that 是传闻类固定句型，从句用完整主谓。" },
+          { "en": "He is said to have left the country last month.", "zh": "据说他上个月已经离开这个国家了。", "ok": true, "note": "从句改为不定式时，先发生的动作须用完成式 to have left。" },
+          { "en": "It is said that he to own three houses.", "zh": "据说他拥有三套房子。", "ok": false, "note": "that 从句必须有完整谓语，应说 that he owns three houses，或改用 He is said to own..." },
+          { "en": "It is the first time that I have flown in a helicopter.", "zh": "这是我第一次坐直升机。", "ok": true, "note": "the first time 后的从句用现在完成时，与主句 is 呼应。" },
+          { "en": "It is the first time that I flew in a helicopter.", "zh": "这是我第一次坐直升机。", "ok": false, "note": "主句为现在时，the first time 后的从句须用现在完成时 have flown。" },
+          { "en": "It is high time we started to take the problem seriously.", "zh": "我们早该认真对待这个问题了。", "ok": true, "note": "It is high time that 从句用一般过去时表虚拟，也可用 should + 动词原形。" },
+          { "en": "It is no wonder that sales have dropped since the price rise.", "zh": "难怪涨价后销量下降了。", "ok": true, "note": "It is no wonder that 后接完整从句，表“难怪”。" },
+          { "en": "It is high time we start to take the problem seriously.", "zh": "我们早该认真对待这个问题了。", "ok": false, "note": "It is high time that 从句须用一般过去时或 should + 动词原形，不能用一般现在时。" }
+        ],
+        "pitfalls": [
+          { "wrong": "It is three years since we have met.", "right": "It is three years since we met.", "why": "since 从句的参照点是过去的那次见面，用一般过去时；主句 is 已经承担了“到现在为止三年”的意义。" },
+          { "wrong": "It was the second time that he has visited Japan.", "right": "It was the second time that he had visited Japan.", "why": "主句是过去时，the...time 从句须用过去完成时，表示动作先于主句。" },
+          { "wrong": "It is no good to argue with the referee.", "right": "It is no good arguing with the referee.", "why": "no good / no use 后固定接动名词，不接不定式。" }
+        ],
+        "contrast": { "withTitle": "there be 与 have 的区别及非谓语形式", "diff": "it 固定句型用形式主语承载评价、传闻或时间关系；there be 句型主语后置，只表存在，两者不能互换。" },
+        "mnemonic": "first time 用完成，high time 用过去；said 后面接从句，改不定式要补 have。"
+      },
+      "review": {
+        "core": [
+          "It is said/reported/believed that... 可换成 sb./sth. is said to do",
+          "动作先于谓语时不定式用完成式：is said to have left",
+          "It is the first time that + 现在完成；It was the third time that + 过去完成",
+          "It is high time that + 一般过去或 should do",
+          "It is/has been + 时间段 + since + 一般过去"
+        ],
+        "trigger": "看到 the first time / high time / since / it is said → 直接按对应时态模板填，不再分析成分",
+        "quickCheck": [
+          { "q": "It is the first time that I ___ (see) the sea. 填什么？", "a": "have seen，主句现在时配现在完成。" },
+          { "q": "It is high time we ___ (leave). 填什么？", "a": "left 或 should leave。" },
+          { "q": "It is three years since we ___ (meet). 填什么？", "a": "met，since 从句用一般过去时。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.it_usage.fixed-patterns.d1",
+          "type": "choice",
+          "stem": "It is the first time that she ___ a speech in front of such a large audience.",
+          "options": ["has given", "gave", "gives", "had given"],
+          "answer": "has given",
+          "explain": "主句 It is 为现在时，the first time 后的从句须用现在完成时，表示从过去到现在的经历。",
+          "trap": "gave 受汉语“第一次演讲”的过去意味影响，但与主句现在时冲突。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.it_usage.fixed-patterns.d2",
+          "type": "fill",
+          "stem": "It is high time that we ___ (take) the safety regulations seriously.",
+          "answer": "took",
+          "accept": ["took", "should take"],
+          "hint": "high time 后的从句要用虚拟语气。",
+          "explain": "It is high time that 从句用一般过去时表虚拟，也可用 should + 动词原形，故填 took 或 should take。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.it_usage.fixed-patterns.d3",
+          "type": "correct",
+          "stem": "It is three years since we have met each other.",
+          "answer": "It is three years since we met each other.",
+          "accept": ["It is three years since we met each other."],
+          "explain": "since 从句的起点是过去那次见面，用一般过去时；主句 is 已表示“到现在三年”。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.it_usage.fixed-patterns.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "is", "said", "that", "the", "company", "is", "moving", "abroad."],
+          "answer": "It is said that the company is moving abroad.",
+          "explain": "It is said that 后接完整从句，从句用现在进行时表即将发生的安排。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.it_usage.fixed-patterns.d5",
+          "type": "translate",
+          "stem": "据说这座桥已经使用了一百多年。",
+          "answer": "It is said that the bridge has been in use for over a hundred years.",
+          "require": [["it is said that"], ["bridge"], ["hundred"]],
+          "forbid": ["it is said the bridge", "it said that"],
+          "explain": "传闻类句型用 It is said that 加完整从句；从句用现在完成时表持续到现在，被动含义由 be in use 承担。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.it_usage.fixed-patterns.d6",
+          "type": "choice",
+          "stem": "It is no use ___ him for advice; he never answers his phone.",
+          "options": ["asking", "to ask", "ask", "asked"],
+          "answer": "asking",
+          "explain": "no use 后的真主语固定为动名词，asking 表示“向他请教”这件事，后置由 it 占位。",
+          "trap": "to ask 是学习者最常写的形式，但 no use / no good 只接动名词。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

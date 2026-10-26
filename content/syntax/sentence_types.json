@@ -1,0 +1,546 @@
+{
+  "level1": "syntax",
+  "chapter": "sentence_types",
+  "items": [
+    {
+      "id": "syntax.sentence_types.yes-no-wh",
+      "title": "一般疑问句与特殊疑问句的构成",
+      "brief": "找操作词提前，无操作词借 do；疑问词作主语不倒装",
+      "difficulty": 1,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.verbs.main-vs-aux"],
+      "concept": {
+        "summary": "一般疑问句的操作规则只有一条：把操作词移到主语前。操作词包括 be、情态动词和助动词；句中没有任何操作词时，借 do/does/did 并让实义动词回到原形。特殊疑问句在一般疑问句语序前加疑问词，但疑问词本身作主语时语序与陈述句相同。",
+        "sections": [
+          {
+            "h": "找操作词的三条路径",
+            "p": "先扫描句子有没有 be、情态动词、完成体 have，再决定是否借 do。扫描顺序固定，因为一条路径走通就不需要下一条。",
+            "bullets": [
+              "有 be 或情态动词：直接提前。Is he a doctor? / Can she swim?",
+              "有完成体 have：提前 have。Has he left? / Have they arrived?",
+              "只有实义动词：借 do/does/did，动词还原。Does he work here? / Did they arrive?",
+              "借了助动词后不能再保留第三人称单数或过去式：× Does he works / × Did they arrived"
+            ]
+          },
+          {
+            "h": "特殊疑问句的两条语序",
+            "p": "疑问词在句中作什么成分，决定了要不要倒装。作宾语或状语时要倒装，作主语时按陈述语序。",
+            "bullets": [
+              "疑问词作宾语或状语：疑问词 + 操作词 + 主语 + 动词。Where did you buy it? / Why is she crying?",
+              "疑问词作主语：疑问词 + 谓语 + 其余。Who broke the window? / Which train goes to Oxford?",
+              "疑问词修饰主语的一部分时也不倒装：How many students attended the lecture?",
+              "介词位置：正式 With whom did you speak? ／口语 Who did you speak with?"
+            ]
+          },
+          {
+            "h": "四类高频错误",
+            "p": "这些错误的共同点是“多写一个操作词”或“少还原一次动词形式”，都属于操作词规则没走完。",
+            "bullets": [
+              "双重操作词：× Does he can swim? → Can he swim?",
+              "动词未还原：× Does she has a car? → Does she have a car?",
+              "疑问词作主语仍借 do：× Who did break the window? → Who broke the window?",
+              "宾语从句误倒装：× I don't know where does he live. → I don't know where he lives."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Does your brother work at the airport?", "zh": "你哥哥在机场工作吗？", "ok": true, "note": "实义动词 work 前无操作词，借 does，work 用原形。" },
+          { "en": "Does your brother works at the airport?", "zh": "你哥哥在机场工作吗？", "ok": false, "note": "已借 does 承担第三人称单数，实义动词须还原为原形 work。" },
+          { "en": "Who broke the window in the corridor?", "zh": "谁打破了走廊的窗户？", "ok": true, "note": "who 作主语，语序与陈述句相同，不借 do。" },
+          { "en": "Where you bought the ticket?", "zh": "你在哪里买的票？", "ok": false, "note": "特殊疑问句须把操作词提前，缺 did，应为 Where did you buy the ticket?" },
+          { "en": "Why is she crying so loudly?", "zh": "她为什么哭得这么厉害？", "ok": true, "note": "句中有 be，直接把 is 提到主语前。" },
+          { "en": "Which train goes to Oxford?", "zh": "哪趟火车去牛津？", "ok": true, "note": "which train 作主语，谓语用第三人称单数 goes，不倒装。" },
+          { "en": "Does he can swim across the river?", "zh": "他能游过这条河吗？", "ok": false, "note": "情态动词 can 本身就是操作词，不能再借 does，应为 Can he swim across the river?" }
+        ],
+        "pitfalls": [
+          { "wrong": "Where you did buy the ticket?", "right": "Where did you buy the ticket?", "why": "疑问词后须紧跟操作词，再跟主语，语序是疑问词 + 助动词 + 主语 + 动词原形。" },
+          { "wrong": "Does she has a driving licence?", "right": "Does she have a driving licence?", "why": "借用 does 后，第三人称单数的标记已经由 does 承担，实义动词必须用原形 have。" },
+          { "wrong": "What did happen at the meeting?", "right": "What happened at the meeting?", "why": "what 在句中作主语，不需要借 do，谓语直接用过去式 happened。" }
+        ],
+        "contrast": { "withTitle": "选择疑问句的构成", "diff": "一般疑问句用 yes/no 回答；选择疑问句用 or 给出两个选项，回答必须落到具体一项。" },
+        "mnemonic": "有 be 有情态就提前，没有就借 do；问谁做什么，谁在前就不倒装。"
+      },
+      "review": {
+        "core": [
+          "操作词 = be / 情态动词 / 助动词，提前即可构成一般疑问句",
+          "无操作词时借 do/does/did，实义动词回原形",
+          "疑问词作宾语或状语要倒装，作主语不倒装",
+          "不能同时出现两个操作词：× Does he can swim?",
+          "宾语从句用陈述语序：I don't know where he lives."
+        ],
+        "trigger": "要造疑问句 → 先找 be/情态/have → 找不到就借 do → 再检查动词是否已还原",
+        "quickCheck": [
+          { "q": "He works here. 怎么改成一般疑问句？", "a": "Does he work here?" },
+          { "q": "Who ___ (break) the window? 填什么？", "a": "broke，who 作主语不倒装、不借 do。" },
+          { "q": "Does he can swim. 错在哪里？", "a": "can 已是操作词，不能再借 does。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.sentence_types.yes-no-wh.d1",
+          "type": "choice",
+          "stem": "___ your parents live in the countryside?",
+          "options": ["Do", "Does", "Are", "Have"],
+          "answer": "Do",
+          "explain": "主语 parents 是复数，谓语是实义动词 live，须借 do 构成一般疑问句，live 保持原形。",
+          "trap": "Does 只用于第三人称单数主语，与复数 parents 不一致；Are 不能与实义动词 live 搭配。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.sentence_types.yes-no-wh.d2",
+          "type": "fill",
+          "stem": "Where ___ you buy that coat last winter?",
+          "answer": "did",
+          "accept": ["did"],
+          "hint": "看 last winter 的时态。",
+          "explain": "last winter 要求一般过去时，疑问句需借 did 并置于主语前，buy 保持原形。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.sentence_types.yes-no-wh.d3",
+          "type": "correct",
+          "stem": "Does she has any experience in teaching?",
+          "answer": "Does she have any experience in teaching?",
+          "accept": ["Does she have any experience in teaching?"],
+          "explain": "does 已承担第三人称单数信息，实义动词必须用原形 have，不能再保留 has。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_types.yes-no-wh.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Which", "platform", "does", "the", "train", "to", "York", "leave", "from?"],
+          "answer": "Which platform does the train to York leave from?",
+          "explain": "疑问词 which platform 作介词 from 的宾语，须倒装：疑问词 + does + 主语 + 动词原形。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_types.yes-no-wh.d5",
+          "type": "translate",
+          "stem": "你昨天为什么没来上课？",
+          "answer": "Why didn't you come to class yesterday?",
+          "require": [["why"], ["didn't", "did not"], ["come"]],
+          "forbid": ["why you didn't come", "why did not you come"],
+          "explain": "疑问词 why 后接操作词 did 的否定缩写，再接主语 you 与动词原形 come；时间状语 yesterday 置于句末。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.sentence_types.yes-no-wh.d6",
+          "type": "choice",
+          "stem": "___ told you about the change of plan?",
+          "options": ["Who", "Whom", "Who did", "Whom did"],
+          "answer": "Who",
+          "explain": "空处是句子的主语，用主格 who，谓语 told 直接用过去式，不需要借 do。",
+          "trap": "Who did 多借了一个助动词，疑问词作主语时语序与陈述句相同；whom 只能作宾语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "syntax.sentence_types.alternative",
+      "title": "选择疑问句的构成",
+      "brief": "or 连接两个选项，回答必须二选一",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["syntax.sentence_types.yes-no-wh"],
+      "concept": {
+        "summary": "选择疑问句用 or 连接两个或更多并列选项，前项升调、后项降调。结构有两种：一般疑问句 + or + 另一选项，或特殊疑问句 + A or B。判定标准是回答方式——它问的是“哪一个”，因此不能用 yes/no 回答，必须重复其中一项。",
+        "sections": [
+          {
+            "h": "两种基本结构",
+            "p": "有疑问词时，疑问词问的是选择的维度（哪一个、什么时候），or 后面给出候选；没有疑问词时，整句就是一个带选项的一般疑问句。",
+            "bullets": [
+              "一般选择：Would you like tea or coffee? / Are you coming by train or by car?",
+              "特殊选择：Which do you prefer, tea or coffee? / When will you arrive, Friday or Saturday?",
+              "三项以上：Do you want tea, coffee or juice?（前项之间用逗号，最后两项用 or）",
+              "or not 表不耐烦：Are you ready or not?"
+            ]
+          },
+          {
+            "h": "回答方式与语义",
+            "p": "回答必须落到一个具体选项上，或者说明“都不要”“都可以”。这一点把它与一般疑问句区分开：一般疑问句问真假，选择疑问句问取舍。",
+            "bullets": [
+              "直接选：Tea, please. / By train. / On Friday.",
+              "两项都不要：Neither, thanks.",
+              "都可以：Either is fine. / Both, actually.",
+              "× Yes, I do. 这种回答对选择疑问句不成立"
+            ]
+          },
+          {
+            "h": "选项必须同级",
+            "p": "or 是并列连词，两侧成分必须同一语法层级。这一条比语调更容易失分，因为错误常出现在第二个选项上。",
+            "bullets": [
+              "介词短语对介词短语：by bus or by taxi（不是 by bus or you take a taxi）",
+              "不定式对不定式：to stay here or to leave now",
+              "动名词对动名词：swimming or cycling",
+              "名词对名词：the blue one or the grey one",
+              "省略相同部分后仍须同级：Would you like to stay or to leave?"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Would you like tea or coffee?", "zh": "你想喝茶还是咖啡？", "ok": true, "note": "or 连接两个名词，回答须选其一，不能用 yes/no。" },
+          { "en": "Which do you prefer, the blue one or the grey one?", "zh": "你更喜欢哪一个，蓝色的还是灰色的？", "ok": true, "note": "特殊疑问句 + A or B 结构，which 问选择维度。" },
+          { "en": "Are you coming by train or you come by car?", "zh": "你坐火车来还是开车来？", "ok": false, "note": "or 两侧须同级，第二项误用完整分句，应改为 or by car。" },
+          { "en": "Shall we meet on Friday or Saturday?", "zh": "我们周五见还是周六见？", "ok": true, "note": "or 连接两个时间状语，结构对称。" },
+          { "en": "Which do you prefer, to stay here or leaving now?", "zh": "你更愿意留在这里还是现在离开？", "ok": false, "note": "or 两侧一项是不定式、一项是动名词，层级不一致，应统一为 to stay here or to leave now。" },
+          { "en": "Do you want tea, coffee or something cold?", "zh": "你要茶、咖啡还是冷饮？", "ok": true, "note": "三项选择，前项之间用逗号，最后用 or。" },
+          { "en": "Are you ready or not?", "zh": "你到底准备好了没有？", "ok": true, "note": "or not 是固定附加形式，表不耐烦，不提供具体选项。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Are you going by bus or you take the taxi?", "right": "Are you going by bus or by taxi?", "why": "or 连接的两个成分必须语法同级，第一项是介词短语，第二项不能突然变成完整分句。" },
+          { "wrong": "Which do you prefer, swimming or to cycle?", "right": "Which do you prefer, swimming or cycling?", "why": "选择项须同为动名词，第二项用不定式会破坏平行。" },
+          { "wrong": "Do you like tea or coffee? Yes, I do.", "right": "Do you like tea or coffee? — Tea, please.", "why": "or 给出的是一组选项，问的是取舍而非真假，yes/no 无法回答选择疑问句。" }
+        ],
+        "contrast": { "withTitle": "一般疑问句与特殊疑问句的构成", "diff": "一般疑问句问真假、用 yes/no 回答；选择疑问句用 or 给选项、必须选一项回答。" },
+        "mnemonic": "or 一出，yes/no 就失效；选项两边，词性要一样。"
+      },
+      "review": {
+        "core": [
+          "结构：一般疑问句 + or + 选项，或特殊疑问句 + A or B",
+          "回答必须选具体一项，不能用 yes/no",
+          "三项以上：前项用逗号，最后两项用 or",
+          "or 两侧成分必须同级：介词短语对介词短语、动名词对动名词",
+          "or not 是表不耐烦的固定附加形式"
+        ],
+        "trigger": "看到 or 连接两个候选 → 先判是否需要疑问词 → 再检查两侧词性是否一致",
+        "quickCheck": [
+          { "q": "Would you like tea or coffee? 能回答 Yes, please 吗？", "a": "不能，须选一项，如 Tea, please." },
+          { "q": "Which do you prefer, swimming or to cycle? 错在哪里？", "a": "第二项应改为 cycling，与 swimming 同为动名词。" },
+          { "q": "三项选择怎么连？", "a": "前项用逗号，最后两项用 or，如 tea, coffee or juice。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.sentence_types.alternative.d1",
+          "type": "choice",
+          "stem": "___ would you rather have, steak or salmon?",
+          "options": ["Which", "Who", "Whose", "Why"],
+          "answer": "Which",
+          "explain": "在给定的两个选项中问“哪一个”，用 which 提问；who 问人，whose 问所属，why 问原因。",
+          "trap": "Who 只能指人，steak 与 salmon 都是食物，与 who 的指代范围冲突。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.sentence_types.alternative.d2",
+          "type": "fill",
+          "stem": "Shall we walk ___ take a taxi to the station?",
+          "answer": "or",
+          "accept": ["or"],
+          "hint": "两个动词原形之间需要选择连词。",
+          "explain": "walk 与 take 是并列的动词原形，构成二选一，须用 or 连接。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.sentence_types.alternative.d3",
+          "type": "correct",
+          "stem": "Would you like to stay here or coming with us?",
+          "answer": "Would you like to stay here or come with us?",
+          "accept": ["Would you like to stay here or come with us.", "Would you like to stay here or to come with us?"],
+          "explain": "or 两侧须同级，第一项是 to stay，第二项应共用 to 用 come，或完整写成 to come。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_types.alternative.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Are", "you", "travelling", "by", "train", "or", "by", "plane?"],
+          "answer": "Are you travelling by train or by plane?",
+          "explain": "一般疑问句语序把 are 提前，or 连接两个同为介词短语的方式状语，结构对称。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_types.alternative.d5",
+          "type": "translate",
+          "stem": "你更喜欢哪一个，海边的房子还是山里的房子？",
+          "answer": "Which do you prefer, the house by the sea or the house in the mountains?",
+          "require": [["which do you prefer"], ["or"]],
+          "forbid": ["do you prefer which", "which you prefer"],
+          "explain": "特殊疑问句须倒装为 which + do + 主语 + 动词原形；or 两侧都是带介词短语的名词短语，结构对称。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.sentence_types.alternative.d6",
+          "type": "choice",
+          "stem": "— Would you like milk or lemon in your tea? — ___, thanks. Just a little milk.",
+          "options": ["Milk", "Either", "Neither", "Both"],
+          "answer": "Milk",
+          "explain": "选择疑问句必须落到具体一项，后句 Just a little milk 已明确指向 milk，回答用 Milk。",
+          "trap": "Both 与 or 的二选一语义冲突；Either 表示两者皆可，与“只要一点牛奶”矛盾。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "syntax.sentence_types.imperative",
+      "title": "祈使句的构成与否定",
+      "brief": "动词原形开头，否定用 Don't，主语不出现",
+      "difficulty": 1,
+      "tags": ["基础", "易错"],
+      "prereq": [],
+      "concept": {
+        "summary": "祈使句以动词原形开头，主语 you 隐含不出现；否定式在动词原形前加 Don't（正式场合用 Do not）。let 引导的祈使句以 Let me/us + 动词原形构成，否定用 Let's not。判断依据是句首是否为动词原形、句子是否在发出命令或请求。",
+        "sections": [
+          {
+            "h": "肯定式的三种写法",
+            "p": "祈使句没有主语，句子从动词原形开始。加上 please 或称呼语可以缓和语气，但不改变句式。",
+            "bullets": [
+              "动词原形 + 其他：Close the door. / Be careful. / Have a seat.",
+              "加 please：Please sit down. / Sit down, please.",
+              "用 do 强调：Do come in. / Do be quiet.",
+              "带称呼语：Tom, open the window.",
+              "× Please you sit down.（祈使句不带主语 you）"
+            ]
+          },
+          {
+            "h": "否定式的三条规则",
+            "p": "否定词固定放在动词原形之前，且只能用 Don't / Do not，不能改成 not to 或 not + 动词。let 型的否定位置不同。",
+            "bullets": [
+              "Don't + 动词原形：Don't touch the wires.",
+              "正式或书面：Do not smoke in this area. / Never leave the door unlocked.",
+              "let 型否定：Let's not argue about it.（口语也可说 Don't let's argue.）",
+              "× Not close the door. / × Don't closes the door. / × Let's don't argue."
+            ]
+          },
+          {
+            "h": "附加成分与并列用法",
+            "p": "祈使句后可以接附加问句来缓和语气；也可以用“祈使句 + and/or + 分句”表达条件与结果，这是写作中的高频句式。",
+            "bullets": [
+              "Close the door, will you? / Let's go, shall we?",
+              "祈使句 + and：Hurry up, and you will catch the train.",
+              "祈使句 + or：Hurry up, or you will miss the train.",
+              "更委婉的请求改用疑问句：Would you mind closing the window?"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Please turn off the lights before you leave.", "zh": "离开前请关灯。", "ok": true, "note": "please 置于句首，谓语用动词原形 turn off，主语 you 不出现。" },
+          { "en": "Not turn off the lights before you leave.", "zh": "离开前不要关灯。", "ok": false, "note": "祈使句否定须用 Don't / Do not + 动词原形，not 不能单独放在句首。" },
+          { "en": "Don't leave your luggage unattended.", "zh": "不要让行李无人看管。", "ok": true, "note": "否定祈使句用 Don't + 动词原形 leave。" },
+          { "en": "Let's not waste time on details.", "zh": "我们别在细节上浪费时间。", "ok": true, "note": "let 型祈使句的否定把 not 放在动词原形之前。" },
+          { "en": "Let's don't waste time on details.", "zh": "我们别在细节上浪费时间。", "ok": false, "note": "Let's 的否定是 Let's not，don't 不能插在 Let's 与动词之间。" },
+          { "en": "Be careful when you cross the road.", "zh": "过马路时要小心。", "ok": true, "note": "祈使句用 be 的原形开头，表状态提醒。" },
+          { "en": "Hurry up, or we will miss the opening.", "zh": "快点，否则我们会错过开场。", "ok": true, "note": "祈使句 + or 表“否则”，or 后接结果分句。" },
+          { "en": "Don't to touch the exhibits.", "zh": "不要触摸展品。", "ok": false, "note": "否定祈使句用 Don't + 动词原形，不加 to。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Not to touch the exhibits.", "right": "Do not touch the exhibits.", "why": "not to do 是否定不定式的形式，不能构成祈使句；祈使句否定用 Do not + 动词原形。" },
+          { "wrong": "Let's don't tell him the news yet.", "right": "Let's not tell him the news yet.", "why": "let 型祈使句的否定词 not 直接置于动词原形之前，don't 不能嵌入 Let's 之后。" },
+          { "wrong": "Don't closing the window.", "right": "Don't close the window.", "why": "祈使句谓语固定为动词原形，加了 don't 之后不再有进行时或第三人称变化。" }
+        ],
+        "contrast": { "withTitle": "感叹句 what 与 how 的选择", "diff": "祈使句以动词原形开头、表达命令或请求；感叹句以 what/how 开头、表达情感，句子起点完全不同。" },
+        "mnemonic": "祈使句没主语，动词原形站首位；否定只在前面加 Don't。"
+      },
+      "review": {
+        "core": [
+          "祈使句以动词原形开头，主语 you 不出现",
+          "否定用 Don't / Do not + 动词原形",
+          "let 型否定用 Let's not + 动词原形",
+          "强调用 do：Do come in.",
+          "祈使句 + and/or 表条件与结果"
+        ],
+        "trigger": "看到句首是动词原形且无主语 → 按祈使句处理 → 否定先加 Don't 再保原形",
+        "quickCheck": [
+          { "q": "“别碰电线”怎么说？", "a": "Don't touch the wires." },
+          { "q": "Let's not go. 的另一种口语说法？", "a": "Don't let's go.，但 Let's don't go 不成立。" },
+          { "q": "祈使句能带主语 you 吗？", "a": "一般不带，加 you 会变成陈述句语序，如 You sit down." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.sentence_types.imperative.d1",
+          "type": "choice",
+          "stem": "___ the equipment before you switch it on.",
+          "options": ["Check", "Checking", "To check", "Checked"],
+          "answer": "Check",
+          "explain": "祈使句谓语必须是动词原形，check 的原形直接置于句首，主语 you 隐含。",
+          "trap": "To check 是不定式，不能单独作祈使句谓语；Checking 会变成分词短语，句子没有谓语。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.sentence_types.imperative.d2",
+          "type": "fill",
+          "stem": "___ worry about the results; the exam was hard for everyone.",
+          "answer": "Don't",
+          "accept": ["Don't", "Do not"],
+          "hint": "否定祈使句，句首大写。",
+          "explain": "否定祈使句在动词原形前加 Don't，worry 保持原形，构成 Don't worry about...。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.sentence_types.imperative.d3",
+          "type": "correct",
+          "stem": "Let's don't mention the delay to the client.",
+          "answer": "Let's not mention the delay to the client.",
+          "accept": ["Let's not mention the delay to the client."],
+          "explain": "let 型祈使句的否定把 not 放在动词原形 mention 之前，don't 不能插入 Let's 之后。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_types.imperative.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Please", "keep", "your", "voice", "down", "in", "the", "library."],
+          "answer": "Please keep your voice down in the library.",
+          "explain": "please 置于句首缓和语气，谓语用动词原形 keep，地点状语 in the library 置于句末。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.sentence_types.imperative.d5",
+          "type": "translate",
+          "stem": "别把湿衣服留在阳台上。",
+          "answer": "Don't leave the wet clothes on the balcony.",
+          "require": [["don't", "do not"], ["leave"], ["balcony"]],
+          "forbid": ["not leave", "don't leaves"],
+          "explain": "否定祈使句用 Don't + 动词原形 leave；leave 后接宾语 the wet clothes，再加地点状语。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_types.imperative.d6",
+          "type": "choice",
+          "stem": "___ careful when you handle the samples.",
+          "options": ["Be", "Are", "Being", "To be"],
+          "answer": "Be",
+          "explain": "祈使句用 be 的原形开头，构成 Be careful，主语 you 不出现。",
+          "trap": "Are 是陈述句的谓语形式，用于祈使句会把句子变成疑问语序或无主句。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "syntax.sentence_types.exclamation",
+      "title": "感叹句 what 与 how 的选择",
+      "brief": "中心词是名词用 what，是形容词或副词用 how",
+      "difficulty": 2,
+      "tags": ["易错", "基础"],
+      "prereq": ["morph.adj_adv.attributive-predicative"],
+      "concept": {
+        "summary": "判定只看被感叹的中心词：中心词是名词用 what，结构为 what + a/an + 形容词 + 单数可数名词；中心词是形容词或副词用 how，结构为 how + 形容词/副词 + 主谓。判断方法是把它还原成陈述句，看感叹词后紧跟的成分是名词短语还是形容词、副词。",
+        "sections": [
+          {
+            "h": "what 的三种形态",
+            "p": "what 后面必须是名词短语，冠词的有无由名词的可数性决定，这是最容易失分的地方。",
+            "bullets": [
+              "单数可数名词：What a lovely day! / What an interesting idea!",
+              "复数名词：What beautiful flowers!（不加 a）",
+              "不可数名词：What terrible weather! / What useful advice!（不加 a）",
+              "主谓可省略：What a mess! / What a relief!"
+            ]
+          },
+          {
+            "h": "how 的三种形态",
+            "p": "how 修饰形容词或副词，也可以直接修饰整个句子表达程度。它后面不能直接跟名词短语。",
+            "bullets": [
+              "how + 形容词：How clever she is! / How kind of you!",
+              "how + 副词：How fast he runs! / How quickly the children adapted!",
+              "how + 形容词 + a/an + 名词（书面）：How clever a girl she is!",
+              "how + 主谓（省略形容词）：How time flies!"
+            ]
+          },
+          {
+            "h": "判定与改写",
+            "p": "先把感叹句还原成陈述句，找出被强调的那个词，再按词性选 what 或 how。改写的方向反过来：陈述句里的名词短语换成 what，形容词或副词换成 how。",
+            "bullets": [
+              "还原：What a beautiful garden it is! → It is a beautiful garden.（名词短语 → what）",
+              "还原：How beautiful the garden is! → The garden is beautiful.（形容词 → how）",
+              "同一内容两种写法：What a clever boy he is! = How clever the boy is!",
+              "× How a beautiful garden! / × What beautiful the flowers are!"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "What a generous offer that is!", "zh": "那是多么慷慨的提议啊！", "ok": true, "note": "中心词是单数可数名词 offer，用 what a + 形容词 + 名词。" },
+          { "en": "How a generous offer that is!", "zh": "那是多么慷慨的提议啊！", "ok": false, "note": "中心词是名词 offer，须用 what；how 不能直接带 a/an + 名词。" },
+          { "en": "What terrible weather we had last weekend!", "zh": "上周末的天气真糟糕！", "ok": true, "note": "weather 不可数，what 后不加 a。" },
+          { "en": "What a terrible weather we had last weekend!", "zh": "上周末的天气真糟糕！", "ok": false, "note": "weather 是不可数名词，不能加不定冠词，应删去 a。" },
+          { "en": "How quickly the children adapted to the new school!", "zh": "孩子们适应新学校的速度真快！", "ok": true, "note": "中心词是副词 quickly，用 how + 副词 + 主谓。" },
+          { "en": "What quickly the children adapted to the new school!", "zh": "孩子们适应新学校的速度真快！", "ok": false, "note": "中心词是副词 quickly，须用 how；what 后面必须接名词短语。" },
+          { "en": "What beautiful flowers these are!", "zh": "这些花真美！", "ok": true, "note": "flowers 是复数，what 后不加 a，直接用形容词 + 复数名词。" },
+          { "en": "How kind of you to help me with the luggage!", "zh": "你帮我搬行李真是太好了！", "ok": true, "note": "how 修饰形容词 kind，of you 说明品性归属。" }
+        ],
+        "pitfalls": [
+          { "wrong": "How a wonderful performance it was!", "right": "What a wonderful performance it was!", "why": "被感叹的中心词是名词 performance，须用 what；how 只修饰形容词或副词。" },
+          { "wrong": "What delicious the soup is!", "right": "How delicious the soup is!", "why": "中心词是形容词 delicious，用 how；what 后必须出现名词短语。" },
+          { "wrong": "What a useful advice you gave me!", "right": "What useful advice you gave me!", "why": "advice 是不可数名词，what 后不能加 a/an。" }
+        ],
+        "contrast": { "withTitle": "祈使句的构成与否定", "diff": "感叹句用 what/how 引出被感叹的成分，句子表达情感；祈使句以动词原形开头，表达请求或命令。" },
+        "mnemonic": "名词前面用 what，形副前面用 how；可数单数才带 a。"
+      },
+      "review": {
+        "core": [
+          "what 修饰名词短语，how 修饰形容词或副词",
+          "what + a/an + 形容词 + 单数可数名词；复数与不可数不加 a",
+          "how + 形容词/副词 + 主谓",
+          "改写前先还原成陈述句，确认被感叹词的词性",
+          "同一内容可互换：What a clever boy! = How clever the boy is!"
+        ],
+        "trigger": "看到感叹句 → 先找感叹词后紧跟的中心词 → 名词用 what，形容词/副词用 how",
+        "quickCheck": [
+          { "q": "“多么糟糕的天气！”怎么说？", "a": "What terrible weather!（不加 a）" },
+          { "q": "How a beautiful garden! 错在哪里？", "a": "中心词是名词 garden，应改为 What a beautiful garden!" },
+          { "q": "“他跑得多快啊！”怎么说？", "a": "How fast he runs!" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.sentence_types.exclamation.d1",
+          "type": "choice",
+          "stem": "___ difficult decision it must have been for her!",
+          "options": ["What a", "What", "How", "How a"],
+          "answer": "What a",
+          "explain": "中心词是单数可数名词 decision，须用 what a + 形容词 + 名词的结构。",
+          "trap": "How 只修饰形容词或副词，不能直接带 a decision；What 缺少冠词，与单数可数名词不匹配。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_types.exclamation.d2",
+          "type": "fill",
+          "stem": "___ crowded the station was on Friday evening!",
+          "answer": "How",
+          "accept": ["How"],
+          "hint": "看空后是形容词还是名词。",
+          "explain": "空后是形容词 crowded，中心词为形容词时用 how，构成 how + 形容词 + 主谓。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.sentence_types.exclamation.d3",
+          "type": "correct",
+          "stem": "What a beautiful weather we have today!",
+          "answer": "What beautiful weather we have today!",
+          "accept": ["What beautiful weather we have today!"],
+          "explain": "weather 是不可数名词，what 后不能加不定冠词 a，直接用 what + 形容词 + 不可数名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_types.exclamation.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["What", "a", "remarkable", "recovery", "she", "has", "made!"],
+          "answer": "What a remarkable recovery she has made!",
+          "explain": "中心词 recovery 是单数可数名词，用 what a + 形容词 + 名词，后接主谓 she has made。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.sentence_types.exclamation.d5",
+          "type": "translate",
+          "stem": "这些孩子多有礼貌啊！",
+          "answer": "How polite these children are!",
+          "require": [["how polite"], ["children"]],
+          "forbid": ["what polite", "how a polite"],
+          "explain": "中心词是形容词 polite，用 how + 形容词 + 主谓；children 是复数，不能加 a。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.sentence_types.exclamation.d6",
+          "type": "choice",
+          "stem": "___ lovely flowers you have in your garden!",
+          "options": ["What", "What a", "How", "How a"],
+          "answer": "What",
+          "explain": "中心词是复数名词 flowers，用 what + 形容词 + 复数名词，不加冠词。",
+          "trap": "What a 只能修饰单数可数名词，与复数 flowers 不匹配；How 后须接形容词或副词而非名词短语。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,572 @@
+{
+  "level1": "special",
+  "chapter": "ellipsis",
+  "items": [
+    {
+      "id": "special.ellipsis.coordinate-complex",
+      "title": "并列句与复合句中的省略",
+      "brief": "省略靠唯一还原把关，共有成分才能删",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["syntax.compound_sentence.ellipsis-parallel"],
+      "concept": {
+        "summary": "省略合法与否只看一条：删掉的成分能否从上下文唯一还原，且还原后句子语法完整。并列句删的是两个分句共有的主语、谓语或助动词，复合句删的是主句已经交代过的谓语或整个从句。补出的成分有两种以上可能时，一律不能省。",
+        "sections": [
+          {
+            "h": "先做还原测试，再决定删不删",
+            "p": "在空缺处往回找候选成分，能补回的只有一种写法才算合格省略。补回两种都通，说明省略制造了歧义，必须写全。",
+            "bullets": [
+              "唯一还原：She can sing and dance.（补回 can，只有一种可能）",
+              "歧义不可省：Tom likes Mary more than Susan. 既可读作 than Susan does，也可读作 than he likes Susan",
+              "省略的是同形同功能的成分，不能只删一半"
+            ]
+          },
+          {
+            "h": "并列句：删共有成分",
+            "p": "两个分句主语相同时，第二个主语可删；谓语部分相同时，可只留助动词；系动词相同时，第二个系动词可连同表语一起省略。",
+            "bullets": [
+              "省主语：He opened the door and walked into the room.",
+              "省系动词：The room was clean and tidy.",
+              "省谓语只留助动词：He didn't attend the meeting, but he said he would.",
+              "共用介词：He is fond of music and painting."
+            ]
+          },
+          {
+            "h": "复合句：删主句已交代的谓语或从句",
+            "p": "状语从句与比较从句常删掉与主句重复的谓语，只保留主语和助动词；宾语从句与定语从句则常删掉引导词。",
+            "bullets": [
+              "状语从句：I will help you if I can.",
+              "比较从句：The weather is warmer today than yesterday.（补回 it was）",
+              "宾语从句省 that：I believe she is right.",
+              "定语从句省作宾语的关系代词：The novel you lent me is excellent."
+            ]
+          },
+          {
+            "h": "三条不能省的边界",
+            "p": "省略必须保证每个分句仍有自己的主语和谓语核心。主语换了、助动词换了、宾语换了，都不能沿用前一分的结构。",
+            "bullets": [
+              "主语不同，谓语不能省：第二分句必须补出自己的谓语，不能只留表语",
+              "助动词形式不同，不能共用：前句用 has finished，后句必须沿用 has",
+              "省略后指代不明，必须写全：比较句中出现两个可能的比较对象时不能省"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He opened the door and walked into the room.", "zh": "他打开门，走进了房间。", "ok": true, "note": "第二分句与第一分句主语相同，删掉重复的 he，谓语保持并列。" },
+          { "en": "The room was clean and tidy.", "zh": "房间干净整洁。", "ok": true, "note": "两个表语共用系动词 was，第二个 was 省略。" },
+          { "en": "I will help you if I can.", "zh": "如果我能帮你，我会帮的。", "ok": true, "note": "状语从句删掉与主句重复的 help you，只保留情态动词 can。" },
+          { "en": "He didn't attend the meeting, but he said he would.", "zh": "他没参加会议，但他说过会参加。", "ok": true, "note": "would 后省略 attend the meeting，助动词承载了整个谓语的意思。" },
+          { "en": "She was excited, and her friends also excited.", "zh": "她很兴奋，她的朋友们也是。", "ok": false, "note": "两个分句主语不同，第二分句缺谓语，应补出 were：her friends were excited too." },
+          { "en": "This is the novel which I borrowed it from the library.", "zh": "这就是我从图书馆借的那本小说。", "ok": false, "note": "关系代词 which 已作 borrowed 的宾语，从句里再出现 it 就重复了，应删去 it。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She was tired, and her colleagues also tired.", "right": "She was tired, and her colleagues were tired too.", "why": "第二分句主语换成复数 colleagues，不能沿用第一分句的 was，也不能把系动词整个删掉，否则分句没有谓语。" },
+          { "wrong": "This is the novel which I borrowed it from the library.", "right": "This is the novel which I borrowed from the library.", "why": "关系代词 which 在从句中充当 borrowed 的宾语，宾语位置已被占据，再加 it 就是同一个成分出现两次。" },
+          { "wrong": "He didn't come, but he said he will.", "right": "He didn't come, but he said he would.", "why": "省略后保留的助动词必须与主句时态一致，said 是过去时，只能用 would，不能用 will。" }
+        ],
+        "contrast": { "withTitle": "状语从句中的省略", "diff": "本知识点处理并列与主从结构中共有成分的删除；状语从句省略另有一条硬前提——从句主语与主句主语一致且谓语含 be。" },
+        "mnemonic": "删之前先补一遍，补得唯一才敢删。"
+      },
+      "review": {
+        "core": [
+          "合法省略 = 能从上下文唯一还原 + 还原后语法完整",
+          "并列句删共有主语、共有系动词、共有助动词",
+          "复合句常删与主句重复的谓语，或删 that 与作宾语的关系代词",
+          "主语不同则谓语不能省，助动词形式不同则不能共用",
+          "同一成分不能在从句中出现两次：which 已作宾语就不再加 it"
+        ],
+        "trigger": "看到 and/but 或从句前有空缺 → 先补回候选成分 → 只有一种补法才保留省略",
+        "quickCheck": [
+          { "q": "The room was clean and tidy. 省略了什么？", "a": "省略了第二个表语前的系动词 was。" },
+          { "q": "He didn't come, but he said he will. 错在哪里？", "a": "said 是过去时，省略后保留的助动词应为 would。" },
+          { "q": "关系代词 which 作宾语时，从句里还能用 it 吗？", "a": "不能，宾语位置已被 which 占据，再用 it 就重复了。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.ellipsis.coordinate-complex.d1",
+          "type": "choice",
+          "stem": "The staff have completed the training, and the manager ___.",
+          "options": ["has too", "have too", "does too", "has completed too"],
+          "answer": "has too",
+          "explain": "前一分句是现在完成时 have completed，后一分句共用 completed the training，只保留助动词；主语 the manager 是单数，助动词用 has。",
+          "trap": "does too 借了 do，与前面的完成时不对应；has completed too 没有删掉重复的实义动词，省略失效。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.coordinate-complex.d2",
+          "type": "fill",
+          "stem": "He didn't finish the report, but he said he ___ (will).",
+          "answer": "would",
+          "accept": ["would"],
+          "hint": "看主句 said 的时态，再定省略后保留的助动词形式。",
+          "explain": "后一分句省略了 finish the report，只留助动词；主句 said 是过去时，助动词须相应用 would，构成过去将来。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.coordinate-complex.d3",
+          "type": "correct",
+          "stem": "This is the camera which I bought it in Japan last year.",
+          "answer": "This is the camera which I bought in Japan last year.",
+          "accept": ["This is the camera which I bought in Japan last year."],
+          "explain": "关系代词 which 在定语从句中作 bought 的宾语，宾语位置已被占据，代词 it 必须删去。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.coordinate-complex.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "can", "play", "the", "violin,", "and", "her", "brother", "can", "too."],
+          "answer": "She can play the violin, and her brother can too.",
+          "explain": "两个分句主语不同，因此第二个主语 her brother 必须保留；谓语部分相同，只留助动词 can，再用 too 收尾。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.coordinate-complex.d5",
+          "type": "translate",
+          "stem": "他去过北京，他父母也去过。",
+          "answer": "He has been to Beijing, and his parents have too.",
+          "require": [["has been"], ["Beijing"], ["parents"], ["have too"]],
+          "forbid": ["have been to too", "also have been to Beijing"],
+          "explain": "第二分句省略重复的 been to Beijing，只保留助动词 have；主语 parents 是复数，助动词用 have 而不是 has。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.ellipsis.coordinate-complex.d6",
+          "type": "choice",
+          "stem": "She opened the window and ___ the fresh air.",
+          "options": ["breathed in", "breathing in", "to breathe in", "breathe in"],
+          "answer": "breathed in",
+          "explain": "and 连接两个并列谓语，共用主语 she；前项 opened 是一般过去时，后项必须同为过去式 breathed in。",
+          "trap": "to breathe in 把并列谓语降级成目的状语；breathing in 使第二分句失去谓语。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "special.ellipsis.adverbial-clause",
+      "title": "状语从句中的省略",
+      "brief": "主语一致且谓语含 be，才删主语和 be",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["clause.adverbial_clause.time-when-while-as"],
+      "concept": {
+        "summary": "状语从句省略要同时满足两个前提：从句主语与主句主语一致，且从句谓语含 be。两条都成立时，把主语和 be 一起删掉，只留连词与剩余部分；缺少任何一条都不能省主语。主语为无人称 it 的 if necessary 一类固定表达是唯一例外。",
+        "sections": [
+          {
+            "h": "两个前提，缺一不可",
+            "p": "先找从句主语，再问它是否就是主句主语；再看从句谓语里有没有 be。两个答案都是“是”，才能删。",
+            "bullets": [
+              "主语一致 + 含 be：While he was waiting for the bus, he read a newspaper. → While waiting for the bus, he read a newspaper.",
+              "主语必须一致：从句的逻辑主语要能由主句主语充当，充当不了就不能省",
+              "谓语含 be 才能省：When walking 的原形是 When I was walking，be 是构成进行时的助动词",
+              "保留主语就必须保留 be：While I was watching TV 中 was 不能删"
+            ]
+          },
+          {
+            "h": "能带省略从句的连词",
+            "p": "只有引导状语从句的连词才能保留下来构成省略从句，连词本身不能删。",
+            "bullets": [
+              "时间：when, while, until, once, whenever",
+              "条件：if, unless, whether...or",
+              "让步：though, although, even if",
+              "方式：as if, as though"
+            ]
+          },
+          {
+            "h": "主语是 it 的固定表达",
+            "p": "if necessary / if possible / if any 这类固定表达，从句主语是无人称的 it，与主句主语并不相同，但已经固化成省略式，按整块记。",
+            "bullets": [
+              "If necessary, we can postpone the meeting.",
+              "Call me if possible.",
+              "There are few errors, if any.",
+              "When necessary, the system restarts itself."
+            ]
+          },
+          {
+            "h": "与独立主格的分界",
+            "p": "省略从句没有自己的主语，独立主格保留自己的主语。看到“名词 + 分词”且名词与主句主语不同，那是独立主格，不是省略。",
+            "bullets": [
+              "省略：Although tired, she finished the race.（逻辑主语 she）",
+              "独立主格：Weather permitting, we will set off tomorrow.（自带主语 weather）",
+              "悬垂：从句删去主语后，主句主语必须能充当它的逻辑主语，否则要补出从句主语"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "While waiting for the bus, he read a newspaper.", "zh": "等公交车时，他看了一份报纸。", "ok": true, "note": "从句主语 he 与主句主语一致，谓语是 was waiting，删去 he was。" },
+          { "en": "If necessary, we can change the date.", "zh": "如果有必要，我们可以改日期。", "ok": true, "note": "固定省略式，完整形式是 If it is necessary。" },
+          { "en": "Once published, the book sold well.", "zh": "这本书一出版就卖得很好。", "ok": true, "note": "从句主语 the book 与主句主语一致，谓语为 was published，删去 it was 后保留过去分词。" },
+          { "en": "Though exhausted, she finished the race.", "zh": "尽管筋疲力尽，她还是跑完了全程。", "ok": true, "note": "让步从句省略 she was，只留形容词 exhausted。" },
+          { "en": "While watching TV, the phone rang.", "zh": "看电视时，电话响了。", "ok": false, "note": "省略后从句的逻辑主语变成主句主语 the phone，电话不会看电视，应补出 I was 或改写主句主语。" },
+          { "en": "When walk in the park, I met an old friend.", "zh": "在公园散步时，我遇到了一位老朋友。", "ok": false, "note": "从句谓语不含 be 时不能删主语，应改为 When walking in the park 或 When I was walking in the park。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Although being tired, he kept working.", "right": "Although tired, he kept working.", "why": "省略只能删主语和 be，不能把 be 改写成 being；从句原本是 although he was tired。" },
+          { "wrong": "When compared with his brother, Tom's height is greater.", "right": "When compared with his brother, Tom is taller.", "why": "省略后从句的逻辑主语必须与主句主语一致，Tom's height 不能与 his brother 相比。" },
+          { "wrong": "While I watching TV, the phone rang.", "right": "While I was watching TV, the phone rang.", "why": "保留了主语 I，就必须保留谓语中的 be，省略只能成对删除主语和 be。" }
+        ],
+        "contrast": { "withTitle": "并列句与复合句中的省略", "diff": "并列与主从省略靠“共有成分可唯一还原”；状语从句省略另加一条硬前提——主语一致且谓语含 be，两条不满足就只能补全从句。" },
+        "mnemonic": "同主语、有 be，才能一起删；删完的逻辑主语看主句。"
+      },
+      "review": {
+        "core": [
+          "两个前提：从句主语与主句主语一致 + 从句谓语含 be",
+          "删的是“主语 + be”，连词必须保留",
+          "谓语不含 be 时不能删主语：When walking / When I was walking",
+          "主语是 it 的固定式：if necessary / if possible / if any",
+          "删完逻辑主语归主句，归不上就是悬垂修饰语"
+        ],
+        "trigger": "看到 when/while/if/though + 分词或形容词 → 先补主语和 be → 补出的主语是否等于主句主语",
+        "quickCheck": [
+          { "q": "While waiting for the bus, the phone rang. 为什么错？", "a": "省略后从句的逻辑主语成了 the phone，电话不会等车，应补出 I was。" },
+          { "q": "When walk in the park, I met him. 怎么改？", "a": "改为 When walking in the park，或补全为 When I was walking in the park。" },
+          { "q": "If necessary 的完整形式是什么？", "a": "If it is necessary，属于主语为 it 的固定省略式。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.ellipsis.adverbial-clause.d1",
+          "type": "choice",
+          "stem": "The documents should be checked again if ___.",
+          "options": ["necessary", "necessity", "it necessary", "necessarily"],
+          "answer": "necessary",
+          "explain": "if necessary 是 if it is necessary 的固定省略式，主语 it 与 be 一起删去，只留形容词 necessary 作表语。",
+          "trap": "it necessary 只删了 be 却保留主语，省略必须成对删除；necessarily 是副词，不能作表语。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.adverbial-clause.d2",
+          "type": "fill",
+          "stem": "When ___ (walk) in the park, I met an old friend of mine.",
+          "answer": "walking",
+          "accept": ["walking"],
+          "hint": "从句主语与主句主语同为 I，从句谓语是 was walking。",
+          "explain": "从句主语 I 与主句主语一致，谓语含 be（was walking），删去 I was 后剩下现在分词 walking。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.adverbial-clause.d3",
+          "type": "correct",
+          "stem": "While I watching TV, the phone rang.",
+          "answer": "While I was watching TV, the phone rang.",
+          "accept": ["While I was watching TV, the phone rang."],
+          "explain": "从句保留了主语 I，就必须保留谓语中的 be；省略只能把主语和 be 一起删掉，不能只删 be。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.ellipsis.adverbial-clause.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Although", "tired,", "she", "finished", "the", "race."],
+          "answer": "Although tired, she finished the race.",
+          "explain": "让步从句的主语与主句主语同为 she，谓语为 was tired，删去 she was 后只留形容词 tired。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.adverbial-clause.d5",
+          "type": "translate",
+          "stem": "虽然很累，他还是完成了工作。",
+          "answer": "Though tired, he still finished the work.",
+          "require": [["Though", "Although"], ["tired"], ["finished"]],
+          "forbid": ["Though he tired", "Although being tired"],
+          "explain": "从句为 though he was tired，主语与主句一致且含 be，删去 he was 后保留 tired；不能保留主语却删掉 be。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.ellipsis.adverbial-clause.d6",
+          "type": "choice",
+          "stem": "While ___ for the bus, he read a newspaper.",
+          "options": ["waiting", "waited", "wait", "to wait"],
+          "answer": "waiting",
+          "explain": "主句主语 he 就是从从句删去的主语，从句谓语为 was waiting，删去 he was 后保留现在分词 waiting。",
+          "trap": "waited 表被动，与 he 主动等车的逻辑关系不符；wait 和 to wait 都不能跟在 while 后作省略从句。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.adverbial-clause.d7",
+          "type": "correct",
+          "stem": "When comparing with the old model, the new one is much lighter.",
+          "answer": "When compared with the old model, the new one is much lighter.",
+          "accept": ["When compared with the old model, the new one is much lighter."],
+          "explain": "主句主语 the new one 是比较的对象，与 compare 之间是被动关系，省略前的从句是 when it is compared with the old model，须用过去分词。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.ellipsis.infinitive",
+      "title": "不定式的省略",
+      "brief": "留 to 还是连 to 一起省，看前面的词",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["nonfinite.infinitive.to-retention"],
+      "concept": {
+        "summary": "不定式的省略分两种：只删 to 后面的动词原形、保留 to（承前省略与固定搭配），或连 to 一起删（情态动词、使役动词、感官动词之后）。判定只看前面的词：助动词和形容词后要留 to，情态动词与使役感官动词后不带 to。",
+        "sections": [
+          {
+            "h": "留 to 删动词：承前省略",
+            "p": "前文已出现同一个不定式时，为避免重复只保留 to。这个 to 必须有先行语，前面找不到被替代的动词，句子就悬空。",
+            "bullets": [
+              "I asked him to help, but he didn't want to.",
+              "You may leave early if you want to.",
+              "— Will you join us? — I'd love to.",
+              "承前省略的 to 不能丢：want 后必须有 to 顶住宾语位置，说 didn't want to"
+            ]
+          },
+          {
+            "h": "留 to 的固定搭配",
+            "p": "这些结构里的 to 已经和前面的词粘成一个单位，省略时不能把 to 丢掉。",
+            "bullets": [
+              "have to / ought to / used to / be able to / be going to",
+              "I don't have to go, but she has to.",
+              "He didn't pass the test, though he ought to have.",
+              "— Can you swim? — I used to."
+            ]
+          },
+          {
+            "h": "连 to 一起省：情态、使役、感官",
+            "p": "这些位置本来就不出现 to，所以不是“省略 to”，而是结构本身要求动词原形。",
+            "bullets": [
+              "情态动词：can / must / should / may + 动词原形",
+              "使役动词：make / let / have + 宾语 + 动词原形",
+              "感官动词：see / hear / watch / feel + 宾语 + 动词原形",
+              "固定说法：had better do / would rather do / why not do"
+            ]
+          },
+          {
+            "h": "but 与 except 后的 to",
+            "p": "but / except 前出现实义动词 do 的任何形式时，后面的不定式省 to；前面没有 do 时，to 保留。",
+            "bullets": [
+              "He did nothing but complain about the food.",
+              "She had no choice but to wait.",
+              "There is nothing to do but wait."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I asked him to help, but he didn't want to.", "zh": "我请他帮忙，但他不愿意。", "ok": true, "note": "承前省略 help，只保留 to 作 want 的宾语。" },
+          { "en": "You don't have to come, but you ought to.", "zh": "你不必来，但你应该来。", "ok": true, "note": "ought to 是固定搭配，省略 come 后 to 必须保留。" },
+          { "en": "They made him wait outside for an hour.", "zh": "他们让他在外面等了一个小时。", "ok": true, "note": "使役动词 make 后的宾补用动词原形，不带 to。" },
+          { "en": "He did nothing but complain about the food.", "zh": "他除了抱怨饭菜什么也没做。", "ok": true, "note": "but 前有实义动词 did，后面的不定式省 to。" },
+          { "en": "He made me to clean the whole kitchen.", "zh": "他让我把整个厨房打扫干净。", "ok": false, "note": "make 是使役动词，宾补不带 to，应改为 made me clean。" },
+          { "en": "I asked her to stay, but she didn't want.", "zh": "我请她留下，但她不愿意。", "ok": false, "note": "want 是及物动词，省略后必须保留 to 作宾语，应改为 didn't want to。" },
+          { "en": "He had better to see a doctor.", "zh": "他最好去看医生。", "ok": false, "note": "had better 后直接接动词原形，to 不出现，应改为 had better see。" }
+        ],
+        "pitfalls": [
+          { "wrong": "You can leave now if you want.", "right": "You can leave now if you want to.", "why": "want 后需要宾语，省略 leave now 后必须用 to 顶住这个位置，否则 want 缺宾语。" },
+          { "wrong": "I have to finish it today, but he doesn't have.", "right": "I have to finish it today, but he doesn't have to.", "why": "have to 是固定搭配，省略 finish it 后 to 仍属于这个搭配，不能跟着动词一起删。" },
+          { "wrong": "She had nothing to do but to wait for the result.", "right": "She had nothing to do but wait for the result.", "why": "but 前出现了实义动词 do，其后的不定式省 to；前面没有 do 时才保留 to，如 had no choice but to wait。" }
+        ],
+        "contrast": { "withTitle": "不定式符号 to 的保留与省略", "diff": "本点处理“整个不定式短语被省略后留不留 to”；符号 to 与介词 to 的词性区分属于非谓语部分。" },
+        "mnemonic": "情态使役感官不带 to，助动词形容词后 to 站住。"
+      },
+      "review": {
+        "core": [
+          "承前省略只留 to：I asked him to help, but he didn't want to.",
+          "固定搭配的 to 不能丢：have to / ought to / used to / be able to",
+          "情态动词与使役感官动词后本就不用 to，直接接原形",
+          "had better / would rather / why not 后接动词原形",
+          "but / except 前有 do 才省 to，没有 do 就保留 to"
+        ],
+        "trigger": "看到 want / love / have to 后突然断句 → 问前面有没有被替代的不定式 → 有就补 to",
+        "quickCheck": [
+          { "q": "I asked her to stay, but she didn't want. 错在哪里？", "a": "want 缺宾语，承前省略必须保留 to，改为 didn't want to。" },
+          { "q": "make 后面的宾补要 to 吗？", "a": "不要，make sb. do sth.。" },
+          { "q": "He did nothing but complain. 为什么用 complain？", "a": "but 前有实义动词 did，后面的不定式省 to。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.ellipsis.infinitive.d1",
+          "type": "choice",
+          "stem": "You don't have to attend the meeting, but I ___.",
+          "options": ["have to", "have", "do", "must to"],
+          "answer": "have to",
+          "explain": "省略 attend the meeting 后，have to 这个固定搭配中的 to 必须保留；主语是 I，用 have to。",
+          "trap": "have 单独使用会变成实义动词“拥有”，句意被改写成“我有一场会议”；must to 本身不成立。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.infinitive.d2",
+          "type": "fill",
+          "stem": "He had nothing to do but ___ (wait) for the result.",
+          "answer": "wait",
+          "accept": ["wait"],
+          "hint": "but 前出现了实义动词 do。",
+          "explain": "but 前的 nothing to do 含实义动词 do，其后的不定式省略 to，直接用动词原形 wait。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.infinitive.d3",
+          "type": "correct",
+          "stem": "The teacher made us to rewrite the essay.",
+          "answer": "The teacher made us rewrite the essay.",
+          "accept": ["The teacher made us rewrite the essay."],
+          "explain": "make 是使役动词，宾语补足语用不带 to 的不定式，to 必须删去。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.ellipsis.infinitive.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "did", "nothing", "but", "complain", "about", "the", "noise."],
+          "answer": "He did nothing but complain about the noise.",
+          "explain": "but 前有实义动词 did，后面接省 to 的不定式 complain，构成 nothing to do but do 的结构。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.infinitive.d5",
+          "type": "translate",
+          "stem": "他不想去，但他不得不去。",
+          "answer": "He didn't want to go, but he had to.",
+          "require": [["didn't want to go", "did not want to go"], ["had to"]],
+          "forbid": ["must to"],
+          "explain": "后一分句省略 go，have to 中的 to 作为固定搭配必须保留；must 后不能加 to。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.ellipsis.infinitive.d6",
+          "type": "choice",
+          "stem": "Rather than ___ the train, she walked home.",
+          "options": ["take", "to take", "taking", "took"],
+          "answer": "take",
+          "explain": "rather than 后接与主句谓语平行的动词原形，与 walked 形成对比，不带 to。",
+          "trap": "to take 是受 rather than 可接不定式的说法误导；rather than 后接不定式时要省 to，与前面的动词形式保持一致。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.ellipsis.conventional",
+      "title": "习惯性省略",
+      "brief": "固化的省略式整块记，正式文体不照搬",
+      "difficulty": 2,
+      "tags": ["基础", "写作"],
+      "prereq": ["special.ellipsis.coordinate-complex"],
+      "concept": {
+        "summary": "习惯性省略是已经固化成型的省略式，不靠现场推导，而靠整块记忆。三类最常用：口语对话中省主语与助动词、告示与标题中省冠词与 be、固定框架中省掉整个从句。它们各有确定的使用场景，正式书面句中不能照搬。",
+        "sections": [
+          {
+            "h": "口语对话：省主语与助动词",
+            "p": "对话双方共享语境，主语和助动词可以不说；这类省略只出现在口语和非正式文字里。",
+            "bullets": [
+              "Got a minute?（省 Have you）",
+              "Sounds good.（省 It）",
+              "Hope to see you soon.（省 I）",
+              "Why not ask her?（省 do you）"
+            ]
+          },
+          {
+            "h": "告示、标题与标注：省冠词与 be",
+            "p": "空间有限，冠词、be、甚至主语都删去，只留实词。新闻标题还常省助动词。",
+            "bullets": [
+              "Tickets available at the door.（省冠词与 are）",
+              "Photos by Li Ming.（图片署名，只留名词短语）",
+              "Keep out of reach of children.（说明书祈使句）",
+              "Beijing, May 5 (Xinhua)（新闻电头）"
+            ]
+          },
+          {
+            "h": "固定框架：省掉整个从句",
+            "p": "这类结构里的省略部分无法逐词补出，只能整体记住搭配形式。",
+            "bullets": [
+              "as...as possible：Come as soon as possible.（省 it is）",
+              "if any / if ever：There are few errors, if any.",
+              "if so / if not：Are you free? If so, let's meet.",
+              "if necessary / if possible：Call me if possible."
+            ]
+          },
+          {
+            "h": "不能照搬的场合",
+            "p": "正式书面语要求主语和限定动词齐全；把口语省略式写进论文、公文、商务邮件会显得随意甚至造成歧义。",
+            "bullets": [
+              "正式书面语要补主语：口语的 Sounds good 在书面中写作 It sounds good",
+              "省略主语只限口语与非正式文字，合同、论文、公文的分句必须有明确主语"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Got a minute?", "zh": "有空吗？", "ok": true, "note": "口语省去 Have you，只剩实义部分。" },
+          { "en": "Tickets available at the door.", "zh": "门口有票。", "ok": true, "note": "告示省去冠词与 are，保留核心名词和形容词。" },
+          { "en": "Come as soon as possible.", "zh": "请尽快来。", "ok": true, "note": "as...as possible 是固定省略式，完整形式含 it is。" },
+          { "en": "There are few errors in the essay, if any.", "zh": "这篇文章即使有错误也很少。", "ok": true, "note": "if any 后省 there are，与前面的半否定 few 呼应。" },
+          { "en": "There are few errors in the essay, if some.", "zh": "这篇文章即使有错误也很少。", "ok": false, "note": "固定说法是 if any，用于否定或半否定语境，不能换成 if some。" },
+          { "en": "Please call me as soon as possibly.", "zh": "请尽快给我打电话。", "ok": false, "note": "固定形式是 as soon as possible，possible 是形容词作表语，possibly 不能替换。" }
+        ],
+        "pitfalls": [
+          { "wrong": "If possibly, send me the file today.", "right": "If possible, send me the file today.", "why": "固定省略式源自 if it is possible，possible 作表语；possibly 是副词，不能占据表语位置。" },
+          { "wrong": "There is little water left, if some.", "right": "There is little water left, if any.", "why": "if any 是固定省略式，专门与 little、few 这类半否定词呼应，if some 不是固定搭配。" },
+          { "wrong": "Sounds good, so we will start tomorrow.", "right": "It sounds good, so we will start tomorrow.", "why": "省主语是口语特征，正式书面分句必须出现主语 it，否则读者无法确认是谁在评价。" }
+        ],
+        "contrast": { "withTitle": "状语从句中的省略", "diff": "状语从句省略有可推导的前提（主语一致 + 含 be）；习惯性省略是固化形式，只能按场景整块使用。" },
+        "mnemonic": "口语省主语，告示省冠词，固定框架整块背。"
+      },
+      "review": {
+        "core": [
+          "习惯性省略是固化形式，不靠现场推导",
+          "口语可省主语与助动词：Got a minute? / Sounds good.",
+          "告示与标题省冠词和 be：Tickets available at the door.",
+          "固定框架：as...as possible / if any / if so / if necessary",
+          "正式书面语必须补全主语和限定动词"
+        ],
+        "trigger": "在告示或对话里看到没有主语的句子 → 先确认文体 → 正式文体一律补全",
+        "quickCheck": [
+          { "q": "as soon as possible 能说成 as soon as possibly 吗？", "a": "不能，固定形式是 as...as possible。" },
+          { "q": "few 后面的固定省略式是 if any 还是 if some？", "a": "if any，与半否定词呼应。" },
+          { "q": "论文里能写 Sounds good 吗？", "a": "不能，应补出主语写成 It sounds good。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.ellipsis.conventional.d1",
+          "type": "choice",
+          "stem": "If ___, please send me the file before Friday.",
+          "options": ["possible", "possibly", "it possible", "possibility"],
+          "answer": "possible",
+          "explain": "if possible 是 if it is possible 的固定省略式，主语 it 与 be 一起删去，possible 作表语。",
+          "trap": "it possible 只删了 be 却保留主语，省略必须成对删除；possibly 是副词，不能作表语。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.ellipsis.conventional.d2",
+          "type": "fill",
+          "stem": "There are few mistakes in your essay, if ___.",
+          "answer": "any",
+          "accept": ["any"],
+          "hint": "前半句用了半否定词 few。",
+          "explain": "if any 是固定省略式，与 few、little 这类半否定词呼应，完整形式是 if there are any。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.conventional.d3",
+          "type": "correct",
+          "stem": "Sounds good, so we will adopt the proposal.",
+          "answer": "It sounds good, so we will adopt the proposal.",
+          "accept": ["It sounds good, so we will adopt the proposal."],
+          "explain": "省主语只适用于口语对话，正式书面分句必须补出主语 it，否则 sounds 的主语缺失。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.ellipsis.conventional.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Come", "as", "soon", "as", "possible."],
+          "answer": "Come as soon as possible.",
+          "explain": "as...as possible 是固定省略框架，中间放形容词或副词原级 soon。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.ellipsis.conventional.d5",
+          "type": "translate",
+          "stem": "如有必要，我们可以改期。",
+          "answer": "If necessary, we can change the date.",
+          "require": [["If necessary"], ["change", "postpone"], ["date", "meeting"]],
+          "forbid": ["If it necessary", "If possibly"],
+          "explain": "if necessary 是 if it is necessary 的固定省略式，主语 it 与 be 一起删去。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

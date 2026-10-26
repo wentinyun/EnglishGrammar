@@ -1,0 +1,406 @@
+{
+  "level1": "syntax",
+  "chapter": "compound_sentence",
+  "items": [
+    {
+      "id": "syntax.compound_sentence.formation-punctuation",
+      "title": "并列句的构成与标点规则",
+      "brief": "两个独立分句只能靠连词、分号或句号连接",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["morph.conjunctions.coordinating"],
+      "concept": {
+        "summary": "判定标准：把两个都能独立成句的主谓结构放在一起，合法的连接手段只有三种——并列连词、分号、句号（或分号加连接副词）。缺连接手段即逗号粘连，连词与分号并用即重复连接。标点随连接手段变化：连词前用逗号，分号后不用连词。",
+        "sections": [
+          {
+            "h": "三种合法连接手段",
+            "p": "两个独立分句之间必须出现一个“连接信号”，信号的形式决定了标点。判断时先看有没有连词，再看有没有分号，两者都没有就说明句子还没连上。",
+            "bullets": [
+              "并列连词七个：for, and, nor, but, or, yet, so",
+              "分号：两分句关系紧密、不需要连词时用分号断开",
+              "句号或分号加连接副词：however, therefore, moreover, otherwise, besides",
+              "连接副词不是连词，单独用逗号连接两个分句仍然不合法"
+            ]
+          },
+          {
+            "h": "标点的三条配套规则",
+            "p": "标点不是随意选择，而是由连接手段和分句长度共同决定。连词前加逗号是最常见的默认写法，主语相同且分句很短时可省。",
+            "bullets": [
+              "逗号 + 并列连词连接两个独立分句：I knocked, but nobody answered.",
+              "分号后不再加连词：× He was tired; but he went to bed. → He was tired, but he went to bed.",
+              "同一主语共用一个谓语时不是并列句，不加逗号：He opened the door and walked in.",
+              "连词后面不加逗号：× He was tired, but, he kept working."
+            ]
+          },
+          {
+            "h": "三类高频结构错误",
+            "p": "汉语常用逗号把两个小句串起来，英语不允许；汉语的“虽然……但是”“因为……所以”成对出现，英语只能留一个连词。这些错误都源于把两套连接系统叠加。",
+            "bullets": [
+              "逗号粘连：× He was tired, he went to bed. → He was tired, so he went to bed.",
+              "粘连句：× The door opened the dog ran out. → The door opened and the dog ran out.",
+              "重复连接：× Although he was tired, but he kept working. → Although he was tired, he kept working."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The rain stopped, and the sun came out.", "zh": "雨停了，太阳出来了。", "ok": true, "note": "两个独立分句由并列连词 and 连接，连词前用逗号。" },
+          { "en": "The rain stopped, the sun came out.", "zh": "雨停了，太阳出来了。", "ok": false, "note": "两个独立分句之间只有逗号，构成逗号粘连，须补 and 或改用分号。" },
+          { "en": "The rain stopped; the sun came out.", "zh": "雨停了，太阳出来了。", "ok": true, "note": "分号本身就是合法的连接手段，此时不再加连词。" },
+          { "en": "The rain stopped, however the sun came out.", "zh": "雨停了，不过太阳出来了。", "ok": false, "note": "however 是连接副词而不是连词，前面须用分号或句号，写成 The rain stopped; however, the sun came out." },
+          { "en": "She spoke softly, for she did not want to wake the baby.", "zh": "她说话很轻，因为她不想吵醒孩子。", "ok": true, "note": "for 是并列连词，补充说明原因，前面用逗号。" },
+          { "en": "Although she was exhausted, but she finished the report.", "zh": "尽管她很疲惫，她还是完成了报告。", "ok": false, "note": "although 已把前一分句降级为从句，主句前不能再用并列连词 but。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I was late, therefore I missed the train.", "right": "I was late; therefore, I missed the train.", "why": "therefore 是连接副词，只能作状语，不能像连词那样仅靠逗号连接两个独立分句，须用分号或句号断开。" },
+          { "wrong": "The room was small, it was comfortable.", "right": "The room was small, but it was comfortable.", "why": "两个各有主谓的分句之间只有逗号，缺少连接词，构成逗号粘连。" },
+          { "wrong": "Because he was ill, so he stayed at home.", "right": "Because he was ill, he stayed at home.", "why": "because 已经把原因分句变成从句，主句因此可以独立，再加并列连词 so 使主句失去独立地位。" }
+        ],
+        "contrast": { "withTitle": "连接副词与连词的区别", "diff": "连词能直接把两个分句连成一个句子，只需一个逗号；连接副词本身是状语，必须借助分号或句号才能跨句连接。" },
+        "mnemonic": "两个整句要牵手，连词分号二选一；however 只是副词，前面必须有分号。"
+      },
+      "review": {
+        "core": [
+          "两个独立分句之间必须有连词或分号，否则是逗号粘连",
+          "七个并列连词：for, and, nor, but, or, yet, so",
+          "连接副词 however/therefore 前用分号或句号，不能只用逗号",
+          "连词前用逗号；同一主语共用一个谓语时不加逗号",
+          "although 与 but、because 与 so 不能同时出现"
+        ],
+        "trigger": "看到句中出现第二个主谓结构 → 先数连接信号 → 没有连词也没有分号就补一个",
+        "quickCheck": [
+          { "q": "I was tired, I went to bed. 错在哪里？", "a": "逗号粘连，两个独立分句之间缺连词，应改为 I was tired, so I went to bed." },
+          { "q": "however 前面能只用逗号吗？", "a": "不能，however 是连接副词，前面须用分号或句号。" },
+          { "q": "He opened the door and walked in. 是并列句吗？", "a": "不是，同一主语共用两个谓语，属于一个分句内部的并列谓语。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.compound_sentence.formation-punctuation.d1",
+          "type": "choice",
+          "stem": "The instructions were clear, ___ everyone finished the task within an hour.",
+          "options": ["so", "but", "or", "for"],
+          "answer": "so",
+          "explain": "前一分句“说明清楚”是后一分句“一小时内完成”的原因，两句为因果关系，须用表结果的并列连词 so。",
+          "trap": "for 也表因果，但方向相反，for 引出的是原因，用它会把“大家完成了任务”说成“说明清楚”的原因。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.compound_sentence.formation-punctuation.d2",
+          "type": "fill",
+          "stem": "The hotel was expensive; ___, it was worth every penny.",
+          "answer": "however",
+          "accept": ["however", "nevertheless", "nonetheless"],
+          "hint": "分号后面需要一个表转折的连接副词，后面还要跟逗号。",
+          "explain": "分号已经断开两个独立分句，空处只能填连接副词，however 表转折且后面用逗号，符合“分号 + 连接副词 + 逗号”的结构。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.compound_sentence.formation-punctuation.d3",
+          "type": "correct",
+          "stem": "The experiment failed, the team learned a great deal from it.",
+          "answer": "The experiment failed, but the team learned a great deal from it.",
+          "accept": ["The experiment failed, but the team learned a great deal from it.", "The experiment failed; the team learned a great deal from it."],
+          "explain": "两个分句各有主谓，中间只有逗号，属于逗号粘连；补上表转折的并列连词 but，或把逗号换成分号即可。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.compound_sentence.formation-punctuation.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "flight", "was", "delayed,", "so", "we", "missed", "the", "connection."],
+          "answer": "The flight was delayed, so we missed the connection.",
+          "explain": "前因后果用 so 连接，so 前用逗号，两个分句各自保留主谓，构成标准并列句。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.compound_sentence.formation-punctuation.d5",
+          "type": "translate",
+          "stem": "他虽然很累，但还是完成了工作。",
+          "answer": "He was very tired, but he finished the work.",
+          "require": [["but"], ["finished"]],
+          "forbid": ["although", "though"],
+          "explain": "汉语的“虽然……但是”在英语中只能保留一个连接词；用并列句时取 but，前一分句不再加 although。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.compound_sentence.formation-punctuation.d6",
+          "type": "choice",
+          "stem": "___ the weather was bad, the ceremony went ahead as scheduled.",
+          "options": ["Although", "But", "However", "Despite"],
+          "answer": "Although",
+          "explain": "空后是一个完整的主谓结构，需要一个能引导让步状语从句的从属连词，although 符合要求。",
+          "trap": "But 是并列连词，只能连接对等分句，放在句首引导从句会使句子结构残缺；Despite 是介词，后面不能接从句。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "syntax.compound_sentence.ellipsis-parallel",
+      "title": "并列句中的省略与平行",
+      "brief": "相同成分只出现一次，连词两侧必须同级",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["syntax.compound_sentence.formation-punctuation"],
+      "concept": {
+        "summary": "并列结构允许省略重复成分，判定标准是省略后剩余部分仍能独立成句且语义唯一。平行的判定标准更简单：连词两侧的语法单位必须同一层级——名词对名词、形容词对形容词、不定式对不定式、从句对从句。层级不同即不平行。",
+        "sections": [
+          {
+            "h": "三类可省略的重复成分",
+            "p": "省略只发生在两个分句共有同一成分时。共有成分保留一次，位置按后一分句的需要安排；若两个分句主语不同，第二个主语不能省。",
+            "bullets": [
+              "省谓语动词、保留助动词：He has finished the report, and she has too.",
+              "省主语与助动词：They warned him, but did not convince him.",
+              "省宾语：She ordered tea, and her friend coffee.（口语中常见，正式写作少用）",
+              "主语不同时不能省：Tom speaks French, and his sister speaks German."
+            ]
+          },
+          {
+            "h": "平行的三条对应",
+            "p": "平行不是“意思相近”，而是“语法身份相同”。判断时给连词两侧的成分各贴一个标签，标签不一致就要改写。",
+            "bullets": [
+              "名词对名词：The job requires patience, accuracy and stamina.",
+              "不定式对不定式：She wants to study law and to work in public service.",
+              "形容词对形容词：The report was long, detailed and clearly written.",
+              "动名词对动名词：He is responsible for planning, organizing and running the event."
+            ]
+          },
+          {
+            "h": "关联连词的平行要求",
+            "p": "not only...but also、both...and、either...or、neither...nor 是成对出现的关联连词，它们把平行要求变成硬性要求：两个位置必须放同类的成分。",
+            "bullets": [
+              "She not only sings well but also dances beautifully.",
+              "He neither smokes nor drinks.",
+              "× She not only sings well but also dancing beautifully.",
+              "× She is not only intelligent but also she works hard."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He has finished the report, and she has too.", "zh": "他完成了报告，她也完成了。", "ok": true, "note": "后一分句省略重复的 finished the report，只保留助动词 has。" },
+          { "en": "The job requires patience, accuracy and stamina.", "zh": "这份工作需要耐心、准确和耐力。", "ok": true, "note": "and 连接三个名词，语法层级一致。" },
+          { "en": "She likes reading, swimming and to hike.", "zh": "她喜欢阅读、游泳和徒步。", "ok": false, "note": "前两项是动名词，第三项是不定式，层级不一致，应改为 hiking。" },
+          { "en": "She not only sings well but also dances beautifully.", "zh": "她不仅唱得好，舞也跳得漂亮。", "ok": true, "note": "not only 与 but also 后都是第三人称单数谓语，结构对称。" },
+          { "en": "She not only sings well but also dancing beautifully.", "zh": "她不仅唱得好，舞也跳得漂亮。", "ok": false, "note": "but also 后误用动名词，与前面的谓语动词 sings 不平行，应改为 dances。" },
+          { "en": "Tom speaks French, and his sister speaks German.", "zh": "汤姆讲法语，他姐姐讲德语。", "ok": true, "note": "两个分句主语不同，第二个主语和谓语都不能省略。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is responsible for planning, organizing and to run the event.", "right": "He is responsible for planning, organizing and running the event.", "why": "and 连接的三个成分必须同为动名词，to run 与前面两项层级不同。" },
+          { "wrong": "She is not only intelligent but also she works hard.", "right": "She is not only intelligent but also hard-working.", "why": "not only 后是形容词，but also 后却是完整分句，关联连词两侧必须放同类成分。" },
+          { "wrong": "The report was long, detailed, and it was written clearly.", "right": "The report was long, detailed and clearly written.", "why": "前两项是形容词，第三项变成从句，平行被破坏，应压缩为同类形容词短语。" }
+        ],
+        "contrast": { "withTitle": "平行结构中的省略与不平行错误", "diff": "本点只处理并列句层面的省略条件与平行判定；平行结构的完整体系还包括比较结构和关联连词的更多变体。" },
+        "mnemonic": "共有成分留一个，连词两侧贴同一张标签。"
+      },
+      "review": {
+        "core": [
+          "省略的前提是两个分句共有同一成分，主语不同则不能省",
+          "平行 = 连词两侧语法单位同级：名词对名词、不定式对不定式",
+          "not only...but also / neither...nor 两侧必须同类",
+          "省略后保留的助动词要与前一分句的时态、人称一致",
+          "判断平行先给两侧成分贴标签，标签不同就改写"
+        ],
+        "trigger": "看到 and/or/but 两侧一长一短 → 先判各自词性 → 不一致就改成同一形式",
+        "quickCheck": [
+          { "q": "She likes reading, swimming and to hike. 错在哪里？", "a": "第三项是不定式，与前面两个动名词不平行，应改为 hiking。" },
+          { "q": "He has finished the report, and she has too. 省略了什么？", "a": "省略了重复的 finished the report，只保留助动词 has。" },
+          { "q": "两个分句主语不同，第二个主语能省吗？", "a": "不能，省略主语只适用于两个分句主语相同的情况。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.compound_sentence.ellipsis-parallel.d1",
+          "type": "choice",
+          "stem": "The position calls for someone who is reliable, creative and ___.",
+          "options": ["willing to learn", "willing learning", "to learn willingly", "will learn"],
+          "answer": "willing to learn",
+          "explain": "and 前是 reliable 与 creative 两个形容词，第三项必须是形容词性成分，willing to learn 是形容词短语，层级相符。",
+          "trap": "to learn willingly 是不定式，与前面的形容词不平行；willing learning 本身不成立。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.compound_sentence.ellipsis-parallel.d2",
+          "type": "fill",
+          "stem": "She spends her weekends hiking, cycling and ___ (photograph).",
+          "answer": "photographing",
+          "accept": ["photographing"],
+          "hint": "and 前两项都是动名词。",
+          "explain": "hiking 与 cycling 都是动名词，第三项也须用动名词形式 photographing，才能与前面保持平行。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.compound_sentence.ellipsis-parallel.d3",
+          "type": "correct",
+          "stem": "The course teaches students how to research, how to analyse data and how to writing reports.",
+          "answer": "The course teaches students how to research, how to analyse data and how to write reports.",
+          "accept": ["The course teaches students how to research, how to analyse data and how to write reports."],
+          "explain": "三项都是 how to + 动词原形，第三项误用动名词 writing，破坏平行，应改为 write。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.compound_sentence.ellipsis-parallel.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "has", "finished", "the", "report,", "and", "she", "has", "too."],
+          "answer": "He has finished the report, and she has too.",
+          "explain": "后一分句省略与前句相同的 finished the report，只保留助动词 has，再用 too 表示“也”。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.compound_sentence.ellipsis-parallel.d5",
+          "type": "translate",
+          "stem": "她不仅会说英语，还会说法语和德语。",
+          "answer": "She speaks not only English but also French and German.",
+          "require": [["not only"], ["but also"], ["French"]],
+          "forbid": ["not only speaks English but also speaks", "not only does she speak"],
+          "explain": "not only 与 but also 后都接名词，共用前面的谓语 speaks，结构对称且避免重复。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.compound_sentence.ellipsis-parallel.d6",
+          "type": "choice",
+          "stem": "The new policy is not only costly ___ difficult to enforce.",
+          "options": ["but also", "and also", "as well as", "but"],
+          "answer": "but also",
+          "explain": "not only 必须与 but also 配对，两端都接形容词 costly 与 difficult to enforce，构成对称的关联结构。",
+          "trap": "as well as 不能与 not only 搭配构成关联连词，放进去会使 not only 失去配对成分。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "syntax.compound_sentence.to-complex",
+      "title": "并列句与复合句的转换",
+      "brief": "对等换成从属，一分句降级为从句",
+      "difficulty": 3,
+      "tags": ["难点", "写作"],
+      "prereq": ["syntax.compound_sentence.formation-punctuation", "morph.conjunctions.cause-concession"],
+      "concept": {
+        "summary": "判定标准看分句地位：两个分句都能独立成句是并列句；含一个主句加至少一个不能独立成句的从句是复合句。转换的操作是把并列连词换成对应的从属连词，让其中一个分句降级为状语从句，同时保留原句的逻辑方向。",
+        "sections": [
+          {
+            "h": "对等与分层的判定",
+            "p": "把句子拆开，逐个分句读一遍：能单独站住的是主句或并列分句，站不住的是从句。这一步决定了句子类型，也决定了能不能只用逗号。",
+            "bullets": [
+              "并列：He was ill, so he did not come.（两句都能独立）",
+              "复合：Because he was ill, he did not come.（because 从句不能独立）",
+              "从属连词有：because, since, as, although, though, while, if, unless, when",
+              "并列连词有：and, but, or, so, for, yet"
+            ]
+          },
+          {
+            "h": "常见对应关系",
+            "p": "转换不是逐词替换，而是把逻辑关系换成从属形式。方向错了，句子照样通顺但意思反了，这是最容易漏检的错误。",
+            "bullets": [
+              "so → because / since / as：He was ill, so he stayed home. → Because he was ill, he stayed home.",
+              "but → although / though / while：He is rich, but he is unhappy. → Although he is rich, he is unhappy.",
+              "and（表对比）→ while / whereas：Tom is outgoing, and his brother is shy. → Tom is outgoing, while his brother is shy.",
+              "祈使句 + and → if 条件从句：Work hard, and you will pass. → If you work hard, you will pass.",
+              "祈使句 + or → unless 条件从句：Hurry up, or you will be late. → Unless you hurry up, you will be late."
+            ]
+          },
+          {
+            "h": "转换后的结构要求",
+            "p": "从句可以放在主句前或后，但位置影响标点；条件与时间从句还要遵守“主将从现”。这些要求不随句式转换而消失。",
+            "bullets": [
+              "从句在前用逗号隔开，从句在后一般不加逗号",
+              "if/when/unless 从句表将来时用一般现在时：If it rains, we will cancel the trip.",
+              "不能再保留原并列连词：× Because he was ill, so he stayed home.",
+              "转换后只保留一个连接词，避免“虽然……但是”式的双重连接"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He was ill, so he did not come to the meeting.", "zh": "他病了，所以没来开会。", "ok": true, "note": "两个分句都能独立成句，so 连接的是对等关系。" },
+          { "en": "Because he was ill, he did not come to the meeting.", "zh": "因为病了，他没来开会。", "ok": true, "note": "原因分句降级为 because 从句，主句只剩一个，句子变成复合句。" },
+          { "en": "He was ill, because he did not come to the meeting.", "zh": "他病了，因为他没来开会。", "ok": false, "note": "因果方向被颠倒，because 引出的是原因，此处却把结果当成了原因。" },
+          { "en": "Work hard, and you will pass the exam.", "zh": "努力学习，你就会通过考试。", "ok": true, "note": "祈使句 + and 是条件意义的并列结构。" },
+          { "en": "If you work hard, you will pass the exam.", "zh": "如果你努力学习，就会通过考试。", "ok": true, "note": "同一意义改为条件从句，条件在前时用逗号隔开。" },
+          { "en": "If you work hard, and you will pass the exam.", "zh": "如果你努力学习，你就会通过考试。", "ok": false, "note": "条件从句已使主句独立，再加并列连词 and 造成重复连接，删去 and。" },
+          { "en": "Tom is outgoing, while his brother is shy.", "zh": "汤姆外向，而他弟弟害羞。", "ok": true, "note": "while 表对比，把并列的对比关系转成从属形式。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Because the traffic was heavy, so we arrived late.", "right": "Because the traffic was heavy, we arrived late.", "why": "because 已把原因分句降级为从句，主句独立，再加并列连词 so 会使主句失去独立地位。" },
+          { "wrong": "Although it rained heavily, but the match continued.", "right": "Although it rained heavily, the match continued.", "why": "although 与 but 分属从属与并列两套系统，汉语的成对关联在英语中只能保留一个。" },
+          { "wrong": "He studied hard, so that he passed the exam.", "right": "He studied hard, so he passed the exam.", "why": "so that 引导目的状语从句，表示“为了”，此处要表结果，须用并列连词 so 或 so...that 结构。" }
+        ],
+        "contrast": { "withTitle": "并列句的构成与标点规则", "diff": "本点处理两种句式之间的意义转换；标点规则只管并列句内部怎么连，不涉及分句降级。" },
+        "mnemonic": "并列两句平起平坐，复合一主一从；so 换 because，but 换 although，方向不能反。"
+      },
+      "review": {
+        "core": [
+          "判定：两分句都能独立成句是并列，有一句不能独立是复合",
+          "so → because/since/as；but → although/though/while",
+          "祈使句 + and → if 从句；祈使句 + or → unless 从句",
+          "转换后只留一个连接词，不能 because...so 或 although...but 并用",
+          "从句在前加逗号，if/when 从句表将来用一般现在时"
+        ],
+        "trigger": "看到 so/but 想换成从句 → 先确认因果或让步的方向 → 再删掉原来那个并列连词",
+        "quickCheck": [
+          { "q": "He was ill, so he stayed home. 改成复合句？", "a": "Because he was ill, he stayed home." },
+          { "q": "Work hard, and you will succeed. 改成复合句？", "a": "If you work hard, you will succeed." },
+          { "q": "Because he was ill, so he stayed home. 错在哪里？", "a": "because 已构成从句，主句前不能再加并列连词 so。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.compound_sentence.to-complex.d1",
+          "type": "choice",
+          "stem": "Tom is quiet and careful, ___ his brother is talkative and careless.",
+          "options": ["while", "so", "for", "or"],
+          "answer": "while",
+          "explain": "前后两句描述两种相反的性格，是对比关系，while 可作连词表对比，把并列的对比转为从属形式。",
+          "trap": "so 表结果，会把“性格对比”误读成因果；for 表原因，同样不成立。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.compound_sentence.to-complex.d2",
+          "type": "fill",
+          "stem": "___ he was exhausted, he finished the marathon.",
+          "answer": "Although",
+          "accept": ["Although", "Though", "Even though"],
+          "hint": "前后是让步关系：疲惫却仍完成。",
+          "explain": "“疲惫”与“完成马拉松”构成让步关系，须用 although/though 引导让步状语从句，且主句前不再加 but。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.compound_sentence.to-complex.d3",
+          "type": "correct",
+          "stem": "Because the flight was cancelled, so we had to take the train.",
+          "answer": "Because the flight was cancelled, we had to take the train.",
+          "accept": ["Because the flight was cancelled, we had to take the train."],
+          "explain": "because 已把原因分句降级为从句，主句 we had to take the train 本身完整，再加 so 造成重复连接，须删去。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.compound_sentence.to-complex.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["If", "you", "leave", "now,", "you", "will", "catch", "the", "train."],
+          "answer": "If you leave now, you will catch the train.",
+          "explain": "条件从句在前用逗号隔开，从句用一般现在时 leave，主句用 will catch，符合“主将从现”。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.compound_sentence.to-complex.d5",
+          "type": "translate",
+          "stem": "因为下雨，比赛被取消了。",
+          "answer": "Because it rained, the match was cancelled.",
+          "require": [["because"], ["cancelled", "canceled"]],
+          "forbid": ["so the match", "because of it rained"],
+          "explain": "原因分句用 because 引导，主句用被动语态 was cancelled；不能再加 so，because of 后面也不能接从句。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.compound_sentence.to-complex.d6",
+          "type": "choice",
+          "stem": "___ you finish the report today, we will have to postpone the meeting.",
+          "options": ["Unless", "If", "Although", "Because"],
+          "answer": "Unless",
+          "explain": "主句说“不得不推迟”，说明前句是“不完成”这个否定条件，unless 相当于 if...not，正好承担这层否定。",
+          "trap": "If 会得出“完成了反而要推迟”的反逻辑，与主句意思冲突。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

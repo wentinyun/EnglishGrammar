@@ -1,0 +1,668 @@
+{
+  "version": 1,
+  "note": "三级知识点清单。一级=level1，二级=chapter，三级=point。收录标准：能独立出题 + 有明确规则 + 有常见错误。同一规则下的例子不拆。",
+  "levels": [
+    {
+      "id": "morph",
+      "name": "词法",
+      "chapters": [
+        {
+          "slug": "nouns",
+          "name": "名词",
+          "points": [
+            "可数与不可数名词的判定",
+            "不可数名词的量化表达",
+            "名词复数的规则与不规则变化",
+            "复合名词的复数形式",
+            "名词所有格（'s / of / 双重所有格）",
+            "名词作定语的单复数",
+            "抽象名词的具体化用法",
+            "可数与不可数两栖名词",
+            "名词化的形容词"
+          ]
+        },
+        {
+          "slug": "articles",
+          "name": "冠词",
+          "points": [
+            "不定冠词 a/an 的音形判定",
+            "定冠词的特指用法",
+            "定冠词的类指用法",
+            "零冠词的使用规则",
+            "抽象名词与物质名词前的冠词取舍",
+            "固定短语中的冠词",
+            "最高级、序数词与 only 前的冠词",
+            "a most 与 the most 的区别",
+            "职位与头衔前的冠词省略"
+          ]
+        },
+        {
+          "slug": "pronouns",
+          "name": "代词",
+          "points": [
+            "人称代词主格与宾格的选用",
+            "形容词性与名词性物主代词",
+            "反身代词的使用场景",
+            "相互代词 each other 与 one another",
+            "指示代词的指代范围",
+            "some 与 any 的用法差异",
+            "复合不定代词的修饰语后置",
+            "both/either/neither/all/none 的指代与谓语",
+            "one/ones/it/that 的替代区别",
+            "疑问代词与关系代词的界限",
+            "代词指代的一致与明确性"
+          ]
+        },
+        {
+          "slug": "numerals",
+          "name": "数词",
+          "points": [
+            "基数词与序数词的形式",
+            "分数、小数与百分数的表达",
+            "倍数表达法",
+            "年代、世纪与年龄的表达",
+            "数词作定语的单复数",
+            "dozen/score/hundred 的复数规则"
+          ]
+        },
+        {
+          "slug": "adj_adv",
+          "name": "形容词与副词",
+          "points": [
+            "形容词作定语与表语的位置限制",
+            "形容词后置定语的情形",
+            "多个形容词并列的排序",
+            "副词的位置规则",
+            "副词与形容词的易混形式",
+            "比较级与最高级的构成",
+            "同级比较结构 as...as",
+            "比较级的修饰语",
+            "最高级的范围限定",
+            "the more..., the more... 结构"
+          ]
+        },
+        {
+          "slug": "prepositions",
+          "name": "介词",
+          "points": [
+            "时间介词 in/on/at 的边界",
+            "地点介词 in/on/at/to",
+            "方位与移动介词",
+            "表示“除…之外”的介词",
+            "表示原因与理由的介词",
+            "with 复合结构",
+            "介词短语作状语与作定语的辨识",
+            "介词后接动名词的固定结构",
+            "介词在疑问句与定语从句中的位置",
+            "易混介词辨析 since/for、by/until、in/after"
+          ]
+        },
+        {
+          "slug": "conjunctions",
+          "name": "连词",
+          "points": [
+            "并列连词的逻辑关系",
+            "关联连词的主谓一致",
+            "从属连词与介词短语的易混",
+            "时间状语连词 before/after/until/when/while/as",
+            "因果与让步连词的语义差异",
+            "条件连词 if/unless/provided that",
+            "连接副词与连词的区别",
+            "连词误用导致的句子残缺"
+          ]
+        },
+        {
+          "slug": "verbs",
+          "name": "动词与情态动词",
+          "points": [
+            "实义动词与助动词的界限",
+            "及物与不及物动词的判定",
+            "系动词的分类与用法",
+            "瞬间动词与延续动词",
+            "动词的四种基本形式",
+            "情态动词的推测等级",
+            "情态动词 + have done",
+            "情态动词的委婉用法",
+            "助动词 do 的强调与替代"
+          ]
+        },
+        {
+          "slug": "word_formation",
+          "name": "构词法",
+          "points": [
+            "常见前缀的语义",
+            "常见后缀与词性判定",
+            "词性转换的派生规则",
+            "合成词的构成与连字符",
+            "语法填空中的词性判定路径",
+            "易混派生词辨析",
+            "否定前缀的选择规则"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tense_voice",
+      "name": "时态语态",
+      "chapters": [
+        {
+          "slug": "present_simple",
+          "name": "一般现在时",
+          "points": [
+            "一般现在时的核心意义",
+            "第三人称单数形式的构成",
+            "一般现在时表将来"
+          ]
+        },
+        {
+          "slug": "past_simple",
+          "name": "一般过去时",
+          "points": [
+            "一般过去时的核心意义与时间标志",
+            "过去式与过去分词形式的易混",
+            "used to 与 would 表过去的习惯"
+          ]
+        },
+        {
+          "slug": "future_simple",
+          "name": "一般将来时",
+          "points": [
+            "will 与 be going to 的语义差别",
+            "现在进行时与一般现在时表将来",
+            "be to do 与 be about to do 表将来"
+          ]
+        },
+        {
+          "slug": "present_continuous",
+          "name": "现在进行时",
+          "points": [
+            "现在进行时的核心意义",
+            "现在分词形式的构成规则",
+            "进行时与 always 连用的情感色彩"
+          ]
+        },
+        {
+          "slug": "past_continuous",
+          "name": "过去进行时",
+          "points": [
+            "过去进行时的时间参照与背景动作",
+            "过去进行时与一般过去时的对比"
+          ]
+        },
+        {
+          "slug": "future_continuous",
+          "name": "将来进行时",
+          "points": [
+            "将来进行时的意义与用法",
+            "将来进行时与一般将来时的区别"
+          ]
+        },
+        {
+          "slug": "present_perfect",
+          "name": "现在完成时",
+          "points": [
+            "现在完成时的核心意义",
+            "现在完成时的延续用法与时间标志",
+            "have been to / have gone to / have been in",
+            "现在完成时与一般过去时的辨析"
+          ]
+        },
+        {
+          "slug": "present_perfect_continuous",
+          "name": "现在完成进行时",
+          "points": [
+            "现在完成进行时的意义",
+            "现在完成进行时与现在完成时的区别"
+          ]
+        },
+        {
+          "slug": "past_perfect",
+          "name": "过去完成时",
+          "points": [
+            "过去完成时的“过去的过去”参照",
+            "过去完成时的常见触发结构",
+            "过去完成时与一般过去时的顺序辨析"
+          ]
+        },
+        {
+          "slug": "past_perfect_continuous",
+          "name": "过去完成进行时",
+          "points": [
+            "过去完成进行时的意义与时间参照",
+            "过去完成进行时与过去完成时的区别"
+          ]
+        },
+        {
+          "slug": "future_perfect",
+          "name": "将来完成时",
+          "points": [
+            "将来完成时的意义（by + 将来时间）",
+            "将来完成进行时的意义与用法"
+          ]
+        },
+        {
+          "slug": "future_in_past",
+          "name": "过去将来时",
+          "points": [
+            "过去将来时的构成与语境",
+            "would do 与 was going to do 的差别",
+            "过去将来完成时"
+          ]
+        },
+        {
+          "slug": "tense_agreement",
+          "name": "时态呼应",
+          "points": [
+            "主从复合句中的时态呼应规则",
+            "特殊句式中的时态固定"
+          ]
+        },
+        {
+          "slug": "passive",
+          "name": "被动语态",
+          "points": [
+            "被动语态的构成与时态对应",
+            "被动语态的使用场景",
+            "双宾语动词的两种被动形式",
+            "短语动词的被动语态",
+            "主动形式表被动意义",
+            "不能用被动语态的动词",
+            "被动语态中 by 与 with 的区别",
+            "it is said that 与 he is said to 结构"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "syntax",
+      "name": "句法",
+      "chapters": [
+        {
+          "slug": "sentence_elements",
+          "name": "句子成分",
+          "points": [
+            "主语的形式与位置",
+            "谓语的构成与唯一性",
+            "宾语与宾语补足语的辨识",
+            "定语、状语、表语的功能判定"
+          ]
+        },
+        {
+          "slug": "basic_patterns",
+          "name": "五种基本句型",
+          "points": [
+            "SV / SVO / SVC 的判定",
+            "SVOO / SVOC 的判定",
+            "基本句型的扩展与转换"
+          ]
+        },
+        {
+          "slug": "subject_verb_agreement",
+          "name": "主谓一致",
+          "points": [
+            "语法一致原则",
+            "意义一致原则",
+            "就近原则",
+            "就远原则",
+            "and 连接主语的一致问题",
+            "不定代词作主语的一致",
+            "定语从句与 one of 结构的主谓一致",
+            "数量短语作主语的一致"
+          ]
+        },
+        {
+          "slug": "compound_sentence",
+          "name": "并列句",
+          "points": [
+            "并列句的构成与标点规则",
+            "并列句中的省略与平行",
+            "并列句与复合句的转换"
+          ]
+        },
+        {
+          "slug": "there_be",
+          "name": "there be 句型",
+          "points": [
+            "there be 的存在意义与主谓一致",
+            "there be 的时态与情态形式",
+            "there be 与 have 的区别及非谓语形式"
+          ]
+        },
+        {
+          "slug": "it_usage",
+          "name": "it 的用法",
+          "points": [
+            "it 作形式主语",
+            "it 作形式宾语",
+            "it 在强调句中的用法",
+            "it 表时间、天气、距离的无人称用法",
+            "it 的固定句型"
+          ]
+        },
+        {
+          "slug": "sentence_types",
+          "name": "句子类型",
+          "points": [
+            "一般疑问句与特殊疑问句的构成",
+            "选择疑问句的构成",
+            "祈使句的构成与否定",
+            "感叹句 what 与 how 的选择"
+          ]
+        },
+        {
+          "slug": "negation",
+          "name": "否定与否定转移",
+          "points": [
+            "否定词的位置与部分否定",
+            "否定转移",
+            "双重否定与否定的词汇表达"
+          ]
+        },
+        {
+          "slug": "word_order",
+          "name": "语序",
+          "points": [
+            "英语基本语序与状语位置",
+            "定语与状语的多层排列顺序"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nonfinite",
+      "name": "非谓语",
+      "chapters": [
+        {
+          "slug": "overview",
+          "name": "非谓语概览",
+          "points": [
+            "非谓语三种形式与句法功能对照",
+            "非谓语与谓语动词的界限"
+          ]
+        },
+        {
+          "slug": "infinitive",
+          "name": "动词不定式",
+          "points": [
+            "不定式作主语与形式主语",
+            "不定式作宾语与宾补",
+            "不定式作定语",
+            "不定式作状语",
+            "不定式的时态与语态",
+            "不定式符号 to 的保留与省略"
+          ]
+        },
+        {
+          "slug": "gerund",
+          "name": "动名词",
+          "points": [
+            "动名词作主语与宾语",
+            "只接动名词的动词与短语",
+            "动名词的复合结构",
+            "动名词的时态与语态",
+            "动名词与不定式作宾语的语义差异"
+          ]
+        },
+        {
+          "slug": "present_participle",
+          "name": "现在分词",
+          "points": [
+            "现在分词作定语",
+            "现在分词作状语",
+            "现在分词的完成式",
+            "现在分词的独立结构"
+          ]
+        },
+        {
+          "slug": "past_participle",
+          "name": "过去分词",
+          "points": [
+            "过去分词作定语",
+            "过去分词作状语",
+            "过去分词作宾补",
+            "过去分词与现在分词作状语的辨析"
+          ]
+        },
+        {
+          "slug": "absolute",
+          "name": "独立主格结构",
+          "points": [
+            "独立主格的构成",
+            "with 复合结构中的独立主格",
+            "独立主格与状语从句的转换"
+          ]
+        },
+        {
+          "slug": "nonfinite_traps",
+          "name": "非谓语易错综合",
+          "points": [
+            "悬垂修饰语",
+            "非谓语的逻辑主语判定",
+            "并列结构中非谓语形式的一致性"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "clause",
+      "name": "从句",
+      "chapters": [
+        {
+          "slug": "relative_clause",
+          "name": "定语从句",
+          "points": [
+            "关系代词 who/whom/whose 的选用",
+            "关系代词 that 与 which 的区别",
+            "as 与 which 引导定语从句的区别",
+            "关系副词 when/where/why 的选用",
+            "介词 + 关系代词结构",
+            "限制性与非限制性定语从句",
+            "定语从句中的主谓一致",
+            "定语从句与其他从句的辨识",
+            "定语从句的简化"
+          ]
+        },
+        {
+          "slug": "noun_clause",
+          "name": "名词性从句",
+          "points": [
+            "主语从句的构成与形式主语",
+            "宾语从句的语序与时态",
+            "表语从句的构成",
+            "同位语从句与定语从句的区别",
+            "连接词 that/whether/if 的选用",
+            "连接代词 what/which/who 的选用",
+            "连接副词 when/where/why/how",
+            "名词性从句的语序与标点"
+          ]
+        },
+        {
+          "slug": "adverbial_clause",
+          "name": "状语从句",
+          "points": [
+            "时间状语从句 when/while/as 的辨析",
+            "时间状语从句中的主将从现",
+            "地点状语从句",
+            "原因状语从句",
+            "目的状语从句",
+            "结果状语从句 so...that 与 such...that",
+            "条件状语从句",
+            "让步状语从句",
+            "方式与比较状语从句"
+          ]
+        },
+        {
+          "slug": "clause_contrast",
+          "name": "从句综合辨析",
+          "points": [
+            "定语从句与同位语从句的辨析",
+            "状语从句与定语从句的辨析",
+            "从句的嵌套与层次分析"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "special",
+      "name": "特殊句式",
+      "chapters": [
+        {
+          "slug": "inversion",
+          "name": "倒装",
+          "points": [
+            "完全倒装",
+            "部分倒装：否定词置于句首",
+            "only + 状语置于句首的倒装",
+            "so/neither/nor 引导的倒装",
+            "虚拟条件句中的倒装",
+            "as/though 引导让步的倒装",
+            "such/so 置于句首的倒装"
+          ]
+        },
+        {
+          "slug": "emphasis",
+          "name": "强调",
+          "points": [
+            "it 强调句的结构与判定方法",
+            "强调句与定语从句、主语从句的区分",
+            "not until 的强调结构",
+            "do/does/did 强调谓语"
+          ]
+        },
+        {
+          "slug": "ellipsis",
+          "name": "省略",
+          "points": [
+            "并列句与复合句中的省略",
+            "状语从句中的省略",
+            "不定式的省略",
+            "习惯性省略"
+          ]
+        },
+        {
+          "slug": "substitution",
+          "name": "替代",
+          "points": [
+            "so 与 not 的替代",
+            "do/does/did 替代谓语",
+            "one/ones/the same 的替代"
+          ]
+        },
+        {
+          "slug": "tag_question",
+          "name": "反意疑问句",
+          "points": [
+            "反意疑问句的基本构成",
+            "含否定词与半否定词的反意疑问",
+            "祈使句与 there be 的反意疑问",
+            "含宾语从句的反意疑问句"
+          ]
+        },
+        {
+          "slug": "subjunctive",
+          "name": "虚拟语气",
+          "points": [
+            "与现在、过去、将来事实相反的虚拟条件句",
+            "混合时间的虚拟条件句",
+            "省略 if 的倒装虚拟",
+            "wish 后的虚拟语气",
+            "建议命令要求类动词后的 should 省略",
+            "It is important that 句型中的虚拟",
+            "as if / as though 的虚拟",
+            "含蓄条件句与 otherwise/but for"
+          ]
+        },
+        {
+          "slug": "comparison",
+          "name": "比较结构",
+          "points": [
+            "比较对象的对称性",
+            "比较级表最高级",
+            "the same as / different from / superior to",
+            "more than / no more than / not more than",
+            "倍数的三种表达"
+          ]
+        },
+        {
+          "slug": "parallelism",
+          "name": "平行结构",
+          "points": [
+            "平行结构的语法对应原则",
+            "关联连词引导的平行",
+            "平行结构中的省略与不平行错误"
+          ]
+        },
+        {
+          "slug": "exclamation",
+          "name": "感叹句与祈使句",
+          "points": [
+            "what 与 how 引导的感叹句",
+            "祈使句的构成与委婉形式",
+            "Let 引导的祈使句与倒装祈使"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "collocation",
+      "name": "搭配",
+      "chapters": [
+        {
+          "slug": "phrasal_verbs",
+          "name": "短语动词",
+          "points": [
+            "动词 + 介词型短语动词",
+            "动词 + 副词型短语动词",
+            "三段式短语动词",
+            "短语动词的宾语位置",
+            "短语动词的被动化与及物性判定",
+            "高频短语动词语义辨析"
+          ]
+        },
+        {
+          "slug": "prep_collocation",
+          "name": "介词搭配",
+          "points": [
+            "动词 + 介词的固定搭配",
+            "形容词 + 介词的固定搭配",
+            "名词 + 介词的固定搭配",
+            "同一形容词搭配不同介词的语义差异",
+            "介词短语的固定表达"
+          ]
+        },
+        {
+          "slug": "fixed_patterns",
+          "name": "固定句式",
+          "points": [
+            "关联结构 the more...the more 与 no sooner...than",
+            "惯用句型 It is ... that 与 There is no denying that",
+            "动词的固定句型",
+            "形容词句型 too...to / so...as to / enough to",
+            "名词句型 have difficulty (in) doing"
+          ]
+        },
+        {
+          "slug": "confusable_words",
+          "name": "高频易混词辨析",
+          "points": [
+            "形近义异词辨析",
+            "义近用法异词辨析",
+            "数量词辨析",
+            "动作方向动词辨析",
+            "副词辨析",
+            "程度与范围词辨析"
+          ]
+        },
+        {
+          "slug": "cloze_strategy",
+          "name": "语法填空策略",
+          "points": [
+            "有提示词的填空判定路径",
+            "无提示词的填空判定路径",
+            "词性转换陷阱"
+          ]
+        }
+      ]
+    }
+  ]
+}

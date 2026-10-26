@@ -1,0 +1,405 @@
+{
+  "level1": "clause",
+  "chapter": "clause_contrast",
+  "items": [
+    {
+      "id": "clause.clause_contrast.attributive-vs-appositive",
+      "title": "定语从句与同位语从句的辨析",
+      "brief": "that 在从句中作成分是定语，不作成分是同位语",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["syntax.sentence_elements.attributive-adverbial-predicative"],
+      "concept": {
+        "summary": "第一招看 that 在从句中作不作成分：作主语或宾语的是定语从句，只起连接作用、不作成分的是同位语从句。第二招看语义关系：定语从句限定先行词的范围，同位语从句用后面的内容解释前面抽象名词是什么。第三招看替换：同位语从句不能用 which/who 引导，定语从句可以。",
+        "sections": [
+          {
+            "h": "三招判定",
+            "p": "拿到一个名词 + that 从句，先把 that 从句单独读一遍：如果去掉 that 后从句缺主语或宾语，that 就是关系代词，属定语从句；如果去掉 that 后从句主谓宾齐全，that 只是连接词，属同位语从句。",
+            "bullets": [
+              "定语：The fact that he mentioned was soon confirmed.（that 作 mentioned 的宾语）",
+              "同位语：The fact that she passed the exam surprised nobody.（从句主谓宾齐全）",
+              "语义：定语从句缩小范围（哪一个事实），同位语从句说明内容（这个事实是什么）"
+            ]
+          },
+          {
+            "h": "只能接同位语从句的名词",
+            "p": "同位语从句只跟在有“内容”的抽象名词后，这些名词本身表示一个命题，需要后面的从句把命题说出来。它们后的 that 一般不能换成 which，也不能省略。",
+            "bullets": [
+              "高频名词：fact, news, idea, belief, doubt, hope, promise, evidence, possibility, truth, suggestion, message",
+              "同位语从句的连接词不限 that：whether, how, when, where 也可引导（The question whether we should go...）",
+              "定语从句的 that 作宾语时可省略：The book (that) he bought is new."
+            ]
+          },
+          {
+            "h": "两类高频叠加错误",
+            "p": "同位语从句的 that 不作成分，所以从句内部已经完整；一旦再补一个 it 或 which，就会出现成分重复或引导词功能冲突。定语从句的 that 作宾语时同理，不能再补一个代词。",
+            "bullets": [
+              "× The news which our team had won spread quickly.（同位语从句不用 which）",
+              "× The idea that he suggested it was rejected.（that 已作 suggested 的宾语）",
+              "√ The doubt whether he will come remains.（whether 已引导从句，不再加 that）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The fact that she passed the exam surprised nobody.", "zh": "她通过考试这件事没人感到意外。", "ok": true, "note": "that 从句主谓宾齐全，that 不作成分，是对 fact 内容的说明，属同位语从句。" },
+          { "en": "The fact that he mentioned was soon confirmed.", "zh": "他提到的那个事实很快得到证实。", "ok": true, "note": "that 作 mentioned 的宾语，从句缺宾语，属定语从句，修饰 fact。" },
+          { "en": "The belief that hard work pays off is common among students.", "zh": "努力会有回报这一信念在学生中很普遍。", "ok": true, "note": "从句 hard work pays off 结构完整，that 只起连接作用，是同位语从句。" },
+          { "en": "The question whether we should continue remains open.", "zh": "我们是否继续这个问题仍未确定。", "ok": true, "note": "同位语从句除 that 外还可用 whether 引导，表示“是否”。" },
+          { "en": "The suggestion that he made was accepted.", "zh": "他提出的建议被采纳了。", "ok": true, "note": "that 作 made 的宾语，从句缺宾语，是定语从句。" },
+          { "en": "The suggestion that we should start earlier was accepted.", "zh": "我们应当早点开始这一建议被采纳了。", "ok": true, "note": "从句主谓齐全，that 不作成分，是同位语从句，从句谓语用 should + 原形。" },
+          { "en": "The news which our team had won spread quickly.", "zh": "我们队获胜的消息很快传开了。", "ok": false, "note": "从句 our team had won 已完整，which 无处作成分，同位语从句只能用 that，应改为 The news that our team had won..." },
+          { "en": "The idea that he suggested it was rejected at the meeting.", "zh": "他提出的那个想法在会上被否决了。", "ok": false, "note": "that 已作 suggested 的宾语，再加 it 会造成宾语重复，删去 it。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The news which our team had won spread quickly.", "right": "The news that our team had won spread quickly.", "why": "同位语从句的引导词不在从句中充当成分，只有 that 能承担纯连接功能；which 必须作主语或宾语，而从句已完整。" },
+          { "wrong": "The idea that he suggested it was rejected.", "right": "The idea that he suggested was rejected.", "why": "定语从句的 that 已经作 suggested 的宾语，再补 it 会让动词带两个宾语。" },
+          { "wrong": "The doubt that whether he will come remains.", "right": "The doubt whether he will come remains.", "why": "whether 本身已是同位语从句的引导词，再叠加 that 会出现两个引导词管一个从句。" }
+        ],
+        "contrast": { "withTitle": "定语从句与其他从句的辨识", "diff": "那一节点按“从句缺不缺成分”把定语从句与状语从句、名词性从句分开；本点在名词后 that 从句内部再分一次，看 that 是否作成分。" },
+        "mnemonic": "that 有活干是定语，没活干是同位语；同位语只认 that 和 whether 一类连接词。"
+      },
+      "review": {
+        "core": [
+          "第一招：that 在从句中作成分 → 定语从句；不作成分 → 同位语从句",
+          "第二招：从句内容 = 先行词内容 → 同位语；限定范围 → 定语",
+          "第三招：同位语从句不用 which/who，只用 that/whether/how/when/where",
+          "高频抽象名词：fact, news, idea, belief, doubt, hope, evidence, possibility",
+          "定语从句 that 作宾语可省；同位语从句 that 一般不省",
+          "从句已完整时再补 it 或 which 都是成分重复"
+        ],
+        "trigger": "看到抽象名词 + that 从句 → 先把从句单独读一遍 → 缺成分是定语，不缺成分是同位语",
+        "quickCheck": [
+          { "q": "The news ___ he told me is true. 用 that 还是 which？", "a": "两者都可，that 作 told 的宾语，是定语从句。" },
+          { "q": "The news ___ our team won spread quickly. 能用 which 吗？", "a": "不能。这是同位语从句，只能用 that。" },
+          { "q": "同位语从句的 that 能省略吗？", "a": "一般不能，它承担连接作用，省掉后名词与从句的关系不明确。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.clause_contrast.attributive-vs-appositive.d1",
+          "type": "choice",
+          "stem": "The evidence ___ he was nowhere near the scene convinced the jury.",
+          "options": ["that", "which", "what", "where"],
+          "answer": "that",
+          "explain": "从句 he was nowhere near the scene 主谓齐全，that 不作成分，是对 evidence 内容的说明，属同位语从句，只能用 that。",
+          "trap": "which 必须在从句中作主语或宾语，本句从句完整，which 无处落脚；what 不能引导同位语从句。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.clause_contrast.attributive-vs-appositive.d2",
+          "type": "choice",
+          "stem": "The proposal ___ the committee put forward will be voted on Friday.",
+          "options": ["that", "what", "whether", "how"],
+          "answer": "that",
+          "explain": "put forward 缺宾语，that 作它的宾语，是定语从句，修饰 proposal；先行词明确时不能用 what。",
+          "trap": "what 相当于“先行词 + 关系代词”，前面不能再有 proposal；whether 与 how 引导同位语从句，但此处从句缺宾语而非缺内容。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.clause_contrast.attributive-vs-appositive.d3",
+          "type": "fill",
+          "stem": "The question ___ we can finish the project on time worries the manager.",
+          "answer": "whether",
+          "accept": ["whether"],
+          "hint": "从句意思是“我们能否按时完成”，需要一个表“是否”的连接词。",
+          "explain": "question 后需要说明“问题是什么”，从句表“是否”，用 whether 引导同位语从句；if 不能引导同位语从句。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.clause_contrast.attributive-vs-appositive.d4",
+          "type": "correct",
+          "stem": "The idea that he suggested it was rejected at the meeting.",
+          "answer": "The idea that he suggested was rejected at the meeting.",
+          "accept": ["The idea that he suggested was rejected at the meeting."],
+          "explain": "that 在从句中作 suggested 的宾语，是定语从句；再加 it 会让 suggested 带两个宾语，删去 it 后从句与主句各自完整。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.clause_contrast.attributive-vs-appositive.d5",
+          "type": "translate",
+          "stem": "我们队获胜的消息很快传开了。",
+          "answer": "The news that our team had won spread quickly.",
+          "require": [["news"], ["won"]],
+          "forbid": ["news which", "news what"],
+          "explain": "从句 our team had won 结构完整，that 只起连接作用，是同位语从句；同位语从句不能用 which 或 what。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.clause_contrast.attributive-vs-appositive.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The fact", "that", "she", "passed", "the exam", "surprised", "nobody."],
+          "answer": "The fact that she passed the exam surprised nobody.",
+          "explain": "that 从句主谓宾齐全，是对 fact 内容的说明，属同位语从句；整个名词短语作主句主语，surprised 为谓语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.clause_contrast.adverbial-vs-attributive",
+      "title": "状语从句与定语从句的辨析",
+      "brief": "有无先行词定身份，同一个词可两职",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["clause.adverbial_clause.place", "syntax.sentence_elements.attributive-adverbial-predicative"],
+      "concept": {
+        "summary": "同形连词的身份只由两件事决定：前面有没有先行词，从句缺不缺成分。where、when 前有表地点或时间的先行词，从句修饰它，是定语从句，可换成 in/on which；没有先行词，从句修饰主句谓语，是状语从句，不能换成 which 结构。that 与 which 同理：从句缺主宾就是关系代词，从句完整就不是。",
+        "sections": [
+          {
+            "h": "四步判定",
+            "p": "顺序固定，不能跳步：第一步找先行词，第二步看从句是否缺成分，第三步确定引导词在从句中的角色，第四步才决定名称。跳过第一步就直接看词形，是这一类题最主要的失分原因。",
+            "bullets": [
+              "第一步：引导词前面紧邻的是名词（且该名词在主句中作成分）吗",
+              "第二步：从句去掉引导词后，缺主语或宾语吗",
+              "第三步：引导词在从句中作状语（地点/时间）还是作主宾",
+              "第四步：有先行词 + 缺成分/缺状语 → 定语从句；无先行词 → 状语从句"
+            ]
+          },
+          {
+            "h": "一词多身份速查",
+            "p": "同一串字母在不同结构里承担完全不同的功能，判断依据永远是它前面的环境和从句的完整性。",
+            "bullets": [
+              "that：从句缺主/宾 → 定语从句（The book that he bought）；从句完整 → 宾语从句或同位语从句（He said that he would come）",
+              "where：有地点先行词 → 定语从句（= in which）；无先行词 → 地点状语从句",
+              "when：有时间先行词（day/time/year/moment）→ 定语从句（= on which）；无先行词 → 时间状语从句",
+              "which：从句缺主/宾 → 定语从句；位于句首作主语 → 主语从句（Which he will choose remains unknown）"
+            ]
+          },
+          {
+            "h": "同一句的两种分析",
+            "p": "Tell me when the meeting begins. 这一串词有两种合法读法，区别只在 when 从句的归属。读作“告诉我会议开始的时间”时，when 从句是 tell 的宾语，属宾语从句，可用 the time when 改写；读作“会议开始时告诉我”时，when 从句修饰 tell 的时间，属时间状语从句，可改写为 Tell me at the time the meeting begins。",
+            "bullets": [
+              "宾语从句读法：Tell me [when the meeting begins].（告诉我时间点）",
+              "状语从句读法：Tell me [when the meeting begins].（在那个时刻告诉我）",
+              "消歧手段：定语/名词性从句可用 the time when 替换，状语从句不能"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "This is the village where my grandparents live.", "zh": "这就是我祖父母住的村子。", "ok": true, "note": "village 是地点先行词，where 等于 in which，属定语从句。" },
+          { "en": "My grandparents live where the air is clean.", "zh": "我祖父母住在空气清新的地方。", "ok": true, "note": "where 前没有地点名词作先行词，从句说明 live 的地点，属地点状语从句。" },
+          { "en": "I still remember the day when we first met.", "zh": "我仍然记得我们初次见面的那天。", "ok": true, "note": "day 是时间先行词，when 等于 on which，属定语从句。" },
+          { "en": "The report that he wrote was well received.", "zh": "他写的那份报告广受好评。", "ok": true, "note": "wrote 缺宾语，that 作宾语，属定语从句。" },
+          { "en": "He promised that he would write every week.", "zh": "他答应每周写信。", "ok": true, "note": "从句主谓宾齐全，that 不作成分，是 promised 的宾语从句。" },
+          { "en": "Tell me when the meeting begins.", "zh": "告诉我会议什么时候开始。", "ok": true, "note": "按宾语从句理解，when 从句作 tell 的宾语，回答的是“几点”；也可读作时间状语从句，意为“开会时告诉我”。" },
+          { "en": "This is the village where my grandparents live in.", "zh": "这就是我祖父母住的村子。", "ok": false, "note": "where 已等于 in which，句末的 in 重复，应删去。" },
+          { "en": "We were having dinner that the lights went out.", "zh": "我们正在吃晚饭时灯灭了。", "ok": false, "note": "that 不能引导时间状语从句，应改为 when the lights went out。" }
+        ],
+        "pitfalls": [
+          { "wrong": "This is the house where he lived in last year.", "right": "This is the house where he lived last year.", "why": "where 在定语从句中等于 in which，已包含介词，句末再加 in 会造成介词重复。" },
+          { "wrong": "We were about to leave that the phone rang.", "right": "We were about to leave when the phone rang.", "why": "that 只能引导名词性从句或作关系代词，不能引导时间状语从句，时间关系必须由 when 承担。" },
+          { "wrong": "Put the book on the desk where is near the window.", "right": "Put the book on the desk which is near the window.", "why": "从句缺主语，需要能作主语的关系代词 which；where 只能作地点状语，无法补上主语。" }
+        ],
+        "contrast": { "withTitle": "定语从句与其他从句的辨识", "diff": "那一节点用“缺成分/不缺成分”把定语从句与三类名词性从句分开；本点专攻 where/when/that 在同形下身兼定语从句与状语从句两职时的判定。" },
+        "mnemonic": "先找先行词，再看缺什么；有词可替是定语，无词可替是状语。"
+      },
+      "review": {
+        "core": [
+          "第一步永远先找先行词；没有先行词就不是定语从句",
+          "where：有地点先行词 = 定语（= in which）；无先行词 = 地点状语",
+          "when：有 day/time/year 类先行词 = 定语（= on which）；无先行词 = 时间状语",
+          "that：从句缺主/宾 = 定语；从句完整 = 宾语从句或同位语从句",
+          "which：从句缺主/宾 = 定语；置于句首作主语 = 主语从句",
+          "消歧手段：能用 the time/the place 替换的是定语或名词性从句"
+        ],
+        "trigger": "看到 where/when/that → 先往前找一个先行词 → 找不到就按状语从句处理，找到再判断从句缺不缺成分",
+        "quickCheck": [
+          { "q": "This is the village where he lives. 中 where 能否换成 in which？", "a": "能，这是定语从句。" },
+          { "q": "He lives where the air is clean. 能换成 in which 吗？", "a": "不能，这是地点状语从句。" },
+          { "q": "He said that he would come. 中 that 作成分吗？", "a": "不作成分，是宾语从句的引导词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.clause_contrast.adverbial-vs-attributive.d1",
+          "type": "choice",
+          "stem": "This is the factory ___ my father worked for thirty years.",
+          "options": ["where", "which", "that", "when"],
+          "answer": "where",
+          "explain": "factory 是地点先行词，worked 是不及物动词，后面 for thirty years 只表时长，从句不缺宾语而缺地点状语，因此用关系副词 where。",
+          "trap": "which 与 that 必须在从句中作主语或宾语，本句 worked 后没有宾语空位，选它们会造成成分悬空。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.clause_contrast.adverbial-vs-attributive.d2",
+          "type": "choice",
+          "stem": "He promised ___ he would never be late again.",
+          "options": ["that", "which", "where", "when"],
+          "answer": "that",
+          "explain": "promised 后需要宾语，从句 he would never be late again 结构完整，that 只起连接作用，是宾语从句。",
+          "trap": "which 引导定语从句时必须前面有先行词并在从句中作成分，本句两个条件都不满足。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.clause_contrast.adverbial-vs-attributive.d3",
+          "type": "fill",
+          "stem": "We were about to leave ___ the phone rang.",
+          "answer": "when",
+          "accept": ["when"],
+          "hint": "be about to do...when... 是固定搭配，表示“正要……这时……”。",
+          "explain": "rang 是瞬间动作，主句表示正要发生的动作，需要 when 引出打断这一动作的时间状语从句；that 不能引导时间状语从句。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.clause_contrast.adverbial-vs-attributive.d4",
+          "type": "correct",
+          "stem": "This is the village where my grandparents live in.",
+          "answer": "This is the village where my grandparents live.",
+          "accept": ["This is the village where my grandparents live.", "This is the village which my grandparents live in."],
+          "explain": "where 在定语从句中已包含 in，句末再加 in 重复；若保留 in，则须把 where 换成 which，二者只能选一套。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.clause_contrast.adverbial-vs-attributive.d5",
+          "type": "translate",
+          "stem": "他告诉我他什么时候离开。",
+          "answer": "He told me when he would leave.",
+          "require": [["told me when"], ["would leave", "would go", "was leaving"]],
+          "forbid": ["told me when would he"],
+          "explain": "when 从句作 told 的宾语，是宾语从句，必须用陈述语序 he would leave，不能倒装成 would he leave。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.clause_contrast.adverbial-vs-attributive.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "still remember", "the day", "when", "we", "first met."],
+          "answer": "I still remember the day when we first met.",
+          "explain": "day 是时间先行词，when 等于 on which，引导定语从句修饰 day；整个名词短语作 remember 的宾语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.clause_contrast.nesting-levels",
+      "title": "从句的嵌套与层次分析",
+      "brief": "先找主干，再按引导词管辖范围分层",
+      "difficulty": 4,
+      "tags": ["难点", "写作"],
+      "prereq": ["clause.clause_contrast.adverbial-vs-attributive", "syntax.sentence_elements.predicate"],
+      "concept": {
+        "summary": "嵌套分析按三步走：先找全句主谓主干，再定位每一个引导词，最后用括号标出每层从句的起止。层级由引导词的管辖范围决定，不由出现顺序决定；一个引导词只能管一个从句，从句结束处主句继续。并列从句同级（and/but），嵌套从句降级（一个从句充当另一个从句的成分）。",
+        "sections": [
+          {
+            "h": "三步剥洋葱",
+            "p": "第一步去掉所有从句，只留主句主谓，确认主句能独立成句；第二步从外到内逐个找引导词，问它管到哪里；第三步给每层加括号，检查每层是否都有主语和谓语。",
+            "bullets": [
+              "主干提示：What surprised us was... 中 was 后面必是表语从句",
+              "引导词提示：每一层通常由一个引导词开启，遇到下一个引导词往往意味着进入更深一层",
+              "完整性提示：任何一层缺主语或宾语，说明少了关系代词或连接代词"
+            ]
+          },
+          {
+            "h": "嵌套中的一词多身份",
+            "p": "同一个 that 在不同层里角色不同：外层作连接词，内层作关系代词。判断方法是逐层检查它所在的那一层是否缺成分，而不是凭它在句中的位置。",
+            "bullets": [
+              "She said that she would call me when she arrived.（that 引导宾语从句，不作成分；when 从句嵌在其中作时间状语）",
+              "The book that he recommended was written by a scientist who had worked in Antarctica.（两个定语从句分属不同层，各自修饰不同先行词）",
+              "The fact that he said that he would resign surprised us.（外层 that 引导同位语从句，内层 that 引导宾语从句）"
+            ]
+          },
+          {
+            "h": "三类层次错误",
+            "p": "层次错误几乎都表现为“某一层不完整”或“同一关系被标记两次”。把括号标出来后，逐层读一遍即可暴露问题。",
+            "bullets": [
+              "缺引导词：The man spoke first was my uncle.（两个谓语没有连接）",
+              "重复标记：Although he was tired, but he left.（同一转折关系两个连词）",
+              "并列与嵌套混淆：He said that he would come, and which surprised me.（and 后不能接 which 从句）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "What surprised us was that the man who spoke first had once lived where the floods were worst.", "zh": "让我们吃惊的是，最先发言的那个人曾在洪水最严重的地方住过。", "ok": true, "note": "四层：主语从句 What surprised us、表语从句 that...、定语从句 who spoke first、地点状语从句 where..." },
+          { "en": "She said that she would call me when she arrived.", "zh": "她说她到了就给我打电话。", "ok": true, "note": "宾语从句 that 中再嵌一个时间状语从句 when，两个引导词各管一层。" },
+          { "en": "The book that he recommended was written by a scientist who had worked in Antarctica.", "zh": "他推荐的那本书是一位曾在南极洲工作过的科学家写的。", "ok": true, "note": "两个定语从句分属不同层，分别修饰 book 与 scientist。" },
+          { "en": "It is not clear whether the plan that they proposed can be carried out where the funds are limited.", "zh": "他们提出的计划在资金有限的地方能否实施还不清楚。", "ok": true, "note": "主语从句 whether 中嵌入定语从句 that 与地点状语从句 where，主干是 It is not clear。" },
+          { "en": "The man spoke first was my uncle.", "zh": "最先发言的那个人是我叔叔。", "ok": false, "note": "spoke 与 was 两个谓语之间没有连接，缺关系代词 who，应改为 The man who spoke first was my uncle." },
+          { "en": "Although he was tired, but he finished the report that his manager had asked for.", "zh": "尽管他很累，还是完成了经理要的那份报告。", "ok": false, "note": "although 与 but 重复标记同一转折关系，删去 but；句末的定语从句本身没有问题。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The man spoke first was my uncle.", "right": "The man who spoke first was my uncle.", "why": "spoke 与 was 是两个谓语，中间没有连接成分；定语从句缺主语，必须补关系代词 who。" },
+          { "wrong": "He said that he would come, and which surprised me.", "right": "He said that he would come, which surprised me.", "why": "which 引导非限制性定语从句时直接附在主句之后，不能用 and 把从句当并列分句连接。" },
+          { "wrong": "I do not know that he will come or not.", "right": "I do not know whether he will come or not.", "why": "“是否”的两种可能与 or not 搭配时只能用 whether，that 不能与 or not 构成选择结构。" }
+        ],
+        "contrast": { "withTitle": "定语从句与同位语从句的辨析", "diff": "那一层解决同一名词后 that 从句的身份；本层解决多个从句之间的从属关系：谁管谁、管到哪里、哪一层缺成分。" },
+        "mnemonic": "先剥主干，再找引导词，最后加括号；一层一个引导词，从句一结束主句接着走。"
+      },
+      "review": {
+        "core": [
+          "三步：找主句主干 → 定位每个引导词 → 括号标出每层起止",
+          "层级由引导词管辖范围决定，不由出现顺序决定",
+          "并列从句同级（and/but），嵌套从句降级为某层的成分",
+          "一个引导词只管辖一个从句，从句结束处主句继续",
+          "每层都必须有主语和谓语；缺成分说明少了关系词或连接代词",
+          "同一 that 可在外层作连接词、内层作关系代词，逐层判断"
+        ],
+        "trigger": "遇到长句 → 先划掉所有从句找主干 → 再逐个引导词问“你管到哪儿” → 逐层验证主谓是否齐全",
+        "quickCheck": [
+          { "q": "What surprised us was that... 中 was 后面是什么从句？", "a": "表语从句。" },
+          { "q": "The man spoke first was my uncle. 缺什么？", "a": "缺关系代词 who，定语从句没有主语。" },
+          { "q": "一个句子里有两个 that，怎么判断各自的身份？", "a": "逐层看它所在的那一层缺不缺成分：缺则作关系代词，不缺则只作连接词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.clause_contrast.nesting-levels.d1",
+          "type": "choice",
+          "stem": "___ surprised us was that the man who spoke first had once lived where the floods were worst.",
+          "options": ["What", "That", "It", "Which"],
+          "answer": "What",
+          "explain": "空格所在部分是整个句子的主语，需要一个能引导主语从句并在从句中作 surprised 主语的词，what 同时满足这两个条件。",
+          "trap": "That 引导主语从句时不在从句中作成分，surprised 会缺主语；It 是代词，不能引导从句。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.clause_contrast.nesting-levels.d2",
+          "type": "choice",
+          "stem": "She said ___ she would call me when she arrived.",
+          "options": ["that", "which", "what", "where"],
+          "answer": "that",
+          "explain": "said 后需要宾语从句，从句 she would call me 结构完整，that 只起连接作用；其中的 when 从句是嵌在宾语从句内的时间状语。",
+          "trap": "which 需要先行词并在从句中作成分；what 自带名词含义，会与从句已有的主语 she 冲突。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.clause_contrast.nesting-levels.d3",
+          "type": "fill",
+          "stem": "It is not clear ___ the plan can be carried out.",
+          "answer": "whether",
+          "accept": ["whether"],
+          "hint": "it 是形式主语，真正的主语是后面的从句，意思是“是否”。",
+          "explain": "it 作形式主语，真正主语由 whether 引导的主语从句承担；此处不能用 if，因为 if 引导主语从句时不能置于句末而让 it 前置。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.clause_contrast.nesting-levels.d4",
+          "type": "correct",
+          "stem": "The man spoke first was my uncle.",
+          "answer": "The man who spoke first was my uncle.",
+          "accept": ["The man who spoke first was my uncle.", "The man that spoke first was my uncle."],
+          "explain": "spoke 与 was 是两个谓语，中间没有连接成分；定语从句修饰 the man 却缺主语，必须补关系代词 who（或 that）。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.clause_contrast.nesting-levels.d5",
+          "type": "translate",
+          "stem": "他告诉我的话让我意识到我错在哪里。",
+          "answer": "What he told me made me realize where I was wrong.",
+          "require": [["what"], ["realize", "realise"], ["where"]],
+          "forbid": ["that he told me made"],
+          "explain": "主语从句用 what 引导并在从句中作 told 的宾语，宾语补足语由 where 引导的从句承担，两层各有完整主谓。",
+          "difficulty": 4
+        },
+        {
+          "id": "clause.clause_contrast.nesting-levels.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "said", "that", "she", "would call", "me", "when", "she", "arrived."],
+          "answer": "She said that she would call me when she arrived.",
+          "explain": "外层是 that 引导的宾语从句，内层是 when 引导的时间状语从句；过去将来 would call 与 arrived 构成时态呼应。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,1355 @@
+{
+  "level1": "morph",
+  "chapter": "prepositions",
+  "items": [
+    {
+      "id": "morph.prepositions.time-in-on-at",
+      "title": "时间介词 in/on/at 的边界",
+      "brief": "按时间颗粒度选：年月季节 in，某天 on，钟点 at",
+      "difficulty": 2,
+      "tags": ["高频", "基础"],
+      "prereq": [],
+      "concept": {
+        "summary": "时间介词的选择不看搭配清单，而看时间名词的颗粒度：能回答“哪一年、哪个月、哪个季节、一天中的哪一段”的较长时段用 in；能回答“哪一天”的具体日期用 on；能回答“几点、哪个瞬间”的时点用 at。边界由最具体的那一层决定，所以一旦出现“某一天”，即使后面还跟着 morning，介词也必须升到 on。",
+        "sections": [
+          {
+            "h": "三层颗粒度与判定问句",
+            "p": "把时间短语依次放进三个问句测试：Which year, month, season or part of the day? 用 in；Which day? 用 on；What time, at which point? 用 at。哪个问句能成立，就说明这个短语属于哪一层。",
+            "bullets": [
+              "in：in 2024, in May, in winter, in the morning, in the 1990s, in the 21st century",
+              "on：on Monday, on 5 May, on my birthday, on New Year's Day, on a cold morning",
+              "at：at seven, at noon, at midnight, at dawn, at the moment, at Christmas"
+            ]
+          },
+          {
+            "h": "出现了“哪一天”就升到 on",
+            "p": "一天中的时段单独出现时属于较长时段，用 in；一旦这个时段被“哪一天”限定，整个短语的颗粒度就落到“天”，介词随之升为 on。这一条能一次解决 on Monday morning 与 in the morning 的冲突。",
+            "bullets": [
+              "in the morning → on Monday morning",
+              "in the morning → on the morning of 5 May",
+              "in the afternoon → on a rainy afternoon in June"
+            ]
+          },
+          {
+            "h": "不加介词的场合",
+            "p": "this, last, next, every, each 已经把时间定位清楚，前面不再加任何时间介词；表示“多久之内、多久之后”的 in + 时间段属于另一套计算方式，与这里的时间点无关。",
+            "bullets": [
+              "next Friday / last summer / this morning / every Monday（前面不加 in、on、at）",
+              "in two hours 表示“两小时后”，是时间长度而不是时间点"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The seminar begins at nine on Monday morning.", "zh": "研讨会在周一上午九点开始。", "ok": true, "note": "at 定钟点，on 定具体某天，两个层级同时出现时各自处理。" },
+          { "en": "We met on the morning of 5 May.", "zh": "我们在五月五日上午见了面。", "ok": true, "note": "morning 被具体日期限定，颗粒度落到“天”，介词用 on。" },
+          { "en": "We met in the morning of 5 May.", "zh": "我们在五月五日上午见了面。", "ok": false, "note": "出现具体日期后不能再用 in，应改为 on the morning of 5 May。" },
+          { "en": "He was born in 1998 and grew up in the countryside.", "zh": "他生于 1998 年，在乡下长大。", "ok": true, "note": "年份属于较长时段，用 in。" },
+          { "en": "The shop closes at midnight, so we must leave before eleven.", "zh": "商店午夜关门，所以我们得在十一点前离开。", "ok": true, "note": "midnight 是一个瞬间时点，用 at。" },
+          { "en": "I usually get up early in Monday morning.", "zh": "我周一早上通常起得很早。", "ok": false, "note": "Monday 把时间限定到具体某天，须用 on Monday morning。" },
+          { "en": "We will hold the rehearsal next Tuesday.", "zh": "我们下周二排练。", "ok": true, "note": "next 已限定时间，前面不再加介词。" },
+          { "en": "We will hold the rehearsal on next Tuesday.", "zh": "我们下周二排练。", "ok": false, "note": "next 与 on 功能重复，去掉介词。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The accident happened in the night of 3 June.", "right": "The accident happened on the night of 3 June.", "why": "night 被具体日期限定后颗粒度为“天”，介词必须升到 on。" },
+          { "wrong": "School begins at September.", "right": "School begins in September.", "why": "月份是较长时段，at 只能用于钟点或瞬间时点。" },
+          { "wrong": "He arrived at Monday morning.", "right": "He arrived on Monday morning.", "why": "Monday 是具体某天，决定介词层级的是“天”，不是后面的 morning。" }
+        ],
+        "contrast": { "withTitle": "地点介词 in/on/at/to", "diff": "时间介词按“时段—某天—钟点”的颗粒度选词，地点介词按“容器内—接触面—位置点—方向”的空间关系选词。" },
+        "mnemonic": "年月季节 in，具体某天 on，钟点瞬间 at；有了“哪一天”，morning 也跟着 on 走。"
+      },
+      "review": {
+        "core": [
+          "in 用于年、月、季节、一天中的时段等较长时段",
+          "on 用于具体某天，以及被某天限定的时段：on Monday morning",
+          "at 用于钟点与瞬间时点：at seven, at noon, at midnight",
+          "出现具体日期时介词升为 on：on the morning of 5 May",
+          "this / last / next / every 前不加介词"
+        ],
+        "trigger": "看到时间短语，先问“哪一天”能否成立 → 能则 on；否则再看只到年月还是只到钟点",
+        "quickCheck": [
+          { "q": "on Monday morning 为什么不用 in？", "a": "Monday 把时间限定到具体某天，介词取“天”这一层，用 on。" },
+          { "q": "“在 2024 年 5 月”怎么说？", "a": "in May 2024，年与月都是较长时段，只用一个 in。" },
+          { "q": "at Christmas 与 on Christmas Day 有什么不同？", "a": "前者把节日看作一个时段点，后者指节日当天，颗粒度为“天”。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.prepositions.time-in-on-at.d1",
+          "type": "choice",
+          "stem": "The opening ceremony will take place ___ the morning of 12 September.",
+          "options": ["in", "on", "at", "by"],
+          "answer": "on",
+          "explain": "空后的 morning 已被具体日期 12 September 限定，整个短语的颗粒度落到“天”，介词用 on。",
+          "trap": "in 是最强干扰项：单独说 in the morning 完全正确，但加上具体日期后层级改变，必须换成 on。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.time-in-on-at.d2",
+          "type": "fill",
+          "stem": "The train leaves ___ half past six, so we should arrive at the station by six.",
+          "answer": "at",
+          "accept": ["at"],
+          "hint": "空后是一个钟点，而不是某一天。",
+          "explain": "half past six 是钟点，属于时间轴上的一个瞬间点，用 at。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.prepositions.time-in-on-at.d3",
+          "type": "correct",
+          "stem": "We are going to hold the meeting in the morning of 8 July.",
+          "answer": "We are going to hold the meeting on the morning of 8 July.",
+          "accept": ["We are going to hold the meeting on the morning of 8 July."],
+          "explain": "morning 后面出现具体日期 8 July，颗粒度从“时段”升到“天”，介词须由 in 改为 on。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.time-in-on-at.d4",
+          "type": "choice",
+          "stem": "___ a rainy morning in June, the old bridge suddenly collapsed.",
+          "options": ["On", "In", "At", "By"],
+          "answer": "On",
+          "explain": "a rainy morning 虽有形容词修饰，中心仍是“某一天早晨”，与具体日期同属“天”这一层，用 on。",
+          "trap": "In 是最强干扰项：受 in the morning 的印象支配，忽略了前面的 a rainy morning 指的是特定的一天。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.time-in-on-at.d5",
+          "type": "translate",
+          "stem": "会议定于十月五日上午九点开始。",
+          "answer": "The meeting is scheduled to begin at nine on the morning of 5 October.",
+          "require": [["at nine"], ["on the morning of"]],
+          "forbid": ["in the morning of", "at nine in"],
+          "explain": "钟点用 at，具体日期用 on，两个层级同时出现时各用各的介词，不能合并成一个。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.time-in-on-at.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["We", "met", "at", "noon", "on", "a", "cold", "Monday."],
+          "answer": "We met at noon on a cold Monday.",
+          "explain": "noon 是瞬间时点用 at；a cold Monday 是具体某一天用 on，两个介词短语按“先具体时刻、后日期”的顺序排列。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.prepositions.place-in-on-at-to",
+      "title": "地点介词 in/on/at/to",
+      "brief": "看空间关系：容器 in，接触面 on，位置点 at，方向 to",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": [],
+      "concept": {
+        "summary": "四个介词的分工由空间关系决定：in 表示处于某个三维范围或容器内部；on 表示与某个表面接触并被其支撑；at 把地点压缩成一个点，不关心内部结构；to 只表示移动的方向或终点，与静态位置无关。判定时先问“这个地点被当作容器、表面还是点”，再看动词是否表示位移。",
+        "sections": [
+          {
+            "h": "in：容器与范围",
+            "p": "凡是能把某物包起来的三维空间都用 in，包括房间、容器、水域、城市、国家等有边界的区域。人在其中、物在其中，都属这一类。",
+            "bullets": [
+              "in the room / in the box / in the water / in the drawer",
+              "in China / in Beijing / in the middle of the road",
+              "arrive in + 大地点：arrive in Shanghai"
+            ]
+          },
+          {
+            "h": "on：接触面",
+            "p": "on 的核心是“接触并被支撑”，可以是水平面，也可以是墙面、天花板这类垂直面，还可以是线状物表面。凡是物体贴着某个面，就用 on。",
+            "bullets": [
+              "on the table / on the wall / on the ceiling / on the floor",
+              "on the river / on the second floor / on the left",
+              "on the bus / on the train（站在车厢地板上）"
+            ]
+          },
+          {
+            "h": "at：把地点当作一个点",
+            "p": "at 不关心内部结构，只标记“在这个位置”，因此用于门口、站点、拐角、家、学校等被当作点来处理的地点。同一地点用 at 还是 in，取决于说话人是否强调内部。",
+            "bullets": [
+              "at the bus stop / at the door / at the corner / at the top of the page",
+              "at home / at school / at work（固定短语，不加冠词）",
+              "at the station（碰头的位置点）与 in the station（站内）语义不同",
+              "arrive at + 小地点：arrive at the airport"
+            ]
+          },
+          {
+            "h": "to：方向与终点",
+            "p": "to 只出现在表示位移的结构里，标记移动的终点或方向，不能用来回答“在哪里”。arrive 是不及物动词，大地点接 in，小地点接 at，一律不接 to。",
+            "bullets": [
+              "go to school / fly to Paris / walk to the office",
+              "the entrance to the museum / the key to the door（to 表“通向”）",
+              "× arrive to the airport → arrive at the airport"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She is in the kitchen, preparing dinner.", "zh": "她在厨房准备晚饭。", "ok": true, "note": "厨房是三维空间，人在其中用 in。" },
+          { "en": "She is at the kitchen, preparing dinner.", "zh": "她在厨房准备晚饭。", "ok": false, "note": "at 只把地点当点，不能表示“在厨房内部”，应改为 in the kitchen。" },
+          { "en": "The keys are on the desk beside the lamp.", "zh": "钥匙在台灯旁的桌子上。", "ok": true, "note": "桌面提供支撑面，接触面用 on。" },
+          { "en": "The keys are in the desk beside the lamp.", "zh": "钥匙在台灯旁的桌子上。", "ok": false, "note": "beside the lamp 说明钥匙在桌面之上，不可能是“在桌子里”，应改为 on。" },
+          { "en": "We arranged to meet at the entrance to the museum.", "zh": "我们约在博物馆入口处见面。", "ok": true, "note": "入口被当作一个位置点，用 at；to 表示“通向”。" },
+          { "en": "They arrived in Beijing on a rainy night.", "zh": "他们在一个雨夜抵达北京。", "ok": true, "note": "城市是大地点，arrive 后接 in。" },
+          { "en": "They arrived to Beijing on a rainy night.", "zh": "他们在一个雨夜抵达北京。", "ok": false, "note": "arrive 不接 to，大地点须用 arrive in Beijing。" },
+          { "en": "He waited for us at the corner of the street.", "zh": "他在街角等我们。", "ok": true, "note": "拐角被当作一个位置点，用 at。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I met him in the bus stop.", "right": "I met him at the bus stop.", "why": "站点被当作一个位置点，at 表示点；in 要求地点有可进入的内部空间。" },
+          { "wrong": "The book is in the top shelf.", "right": "The book is on the top shelf.", "why": "书架隔板提供支撑面，物体与之接触，用 on 而不是表示容器的 in。" },
+          { "wrong": "They arrived to Paris last night.", "right": "They arrived in Paris last night.", "why": "arrive 是不及物动词，大地点接 in，小地点接 at，不能接 to。" }
+        ],
+        "contrast": { "withTitle": "方位与移动介词", "diff": "in/on/at/to 回答“在哪里或去哪里”，方位与移动介词进一步区分“内部、接壤还是外部”以及“穿过、越过还是进入”。" },
+        "mnemonic": "能装进去用 in，贴着表面用 on，当成一个点用 at，表示去往用 to。"
+      },
+      "review": {
+        "core": [
+          "in = 三维容器或范围内部：in the room, in China",
+          "on = 与表面接触并被支撑：on the desk, on the wall",
+          "at = 把地点当作一个点：at the door, at the bus stop",
+          "to = 移动的方向或终点：go to school；arrive 不接 to",
+          "arrive in + 大地点，arrive at + 小地点"
+        ],
+        "trigger": "看到地点名词，先问“是容器、表面还是一个点” → 再用动词判断是静态还是位移",
+        "quickCheck": [
+          { "q": "at the station 与 in the station 有什么区别？", "a": "前者把车站当作碰头的位置点，后者强调在车站建筑内部。" },
+          { "q": "“到达机场”用 arrive at 还是 arrive in？", "a": "arrive at the airport，机场属于小地点。" },
+          { "q": "“钥匙在抽屉里”用什么介词？", "a": "in the drawer，抽屉是容器。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.prepositions.place-in-on-at-to.d1",
+          "type": "choice",
+          "stem": "The keys are ___ the drawer, under the old letters.",
+          "options": ["in", "on", "at", "to"],
+          "answer": "in",
+          "explain": "抽屉是可以把东西包起来的三维容器，钥匙在其内部，用 in。",
+          "trap": "on 是最强干扰项：受“放在某物上面”的汉语直觉影响，忽略了抽屉的内部空间。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.prepositions.place-in-on-at-to.d2",
+          "type": "fill",
+          "stem": "There is a notice ___ the wall near the entrance.",
+          "answer": "on",
+          "accept": ["on"],
+          "hint": "通知贴着墙面，与墙面接触。",
+          "explain": "墙面是垂直的接触面，纸张贴在上面用 on，不能用表示容器的 in。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.prepositions.place-in-on-at-to.d3",
+          "type": "correct",
+          "stem": "They arrived to the airport just before the flight took off.",
+          "answer": "They arrived at the airport just before the flight took off.",
+          "accept": ["They arrived at the airport just before the flight took off."],
+          "explain": "arrive 是不及物动词，机场属于小地点，须用 arrive at；arrive 后面永远不接 to。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.place-in-on-at-to.d4",
+          "type": "choice",
+          "stem": "A fly was crawling ___ the ceiling above the table.",
+          "options": ["on", "in", "at", "to"],
+          "answer": "on",
+          "explain": "天花板是一个表面，苍蝇贴着它移动，接触面用 on。",
+          "trap": "in 是强干扰项：天花板在头顶，容易被想成“上方空间”，但苍蝇与表面接触，须用 on。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.place-in-on-at-to.d5",
+          "type": "translate",
+          "stem": "我们约在电影院门口见面。",
+          "answer": "We agreed to meet at the entrance to the cinema.",
+          "require": [["at the entrance"], ["cinema"]],
+          "forbid": ["in the entrance"],
+          "explain": "入口被当作一个位置点，用 at；entrance 后的 to 表示“通向”，不表示位置。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.place-in-on-at-to.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "put", "the", "keys", "in", "her", "bag."],
+          "answer": "She put the keys in her bag.",
+          "explain": "包是容器，物品放入其中用 in；put 是位移动词，in 在这里标记移动的终点。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.prepositions.position-movement",
+      "title": "方位与移动介词",
+      "brief": "方位看内外接壤，移动看路径是否跨边界",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["morph.prepositions.place-in-on-at-to"],
+      "concept": {
+        "summary": "方位介词描述静态位置关系，移动介词描述位移路径，两者不能互换。方位上 in/on/to + the east of 分别表示“在内部”“接壤”“在外部”；above 只表高度，over 含覆盖与越过的意思。移动上 into/out of 标记跨越边界，onto/off 标记接触或脱离表面，through 表示在三维空间内部穿过，across 表示横穿表面。",
+        "sections": [
+          {
+            "h": "in / on / to 的方位三分",
+            "p": "同一方向词前用哪个介词，取决于两地是包含、接壤还是分离：被包含用 in，边界相接用 on，中间隔着空间用 to。这条区分只用于“A 在 B 的某个方向”这一结构。",
+            "bullets": [
+              "in the east of：在某范围内部，如 our campus is in the east of the city",
+              "on the north of：边界接壤，如 Canada lies on the north of the United States",
+              "to the east of：在外部且不接壤，如 Japan lies to the east of China"
+            ]
+          },
+          {
+            "h": "above / over / on 与 below / under",
+            "p": "on 要求接触；over 表示正上方或覆盖，还可表示“越过”；above 只表示位置高于，不接触也不一定正对。under 表示正下方或被覆盖，below 只表示低于。",
+            "bullets": [
+              "on the table（接触） / over the table（悬在正上方或覆盖） / above the table（高于桌面，不接触）",
+              "The plane flew over the city.（从上空越过）",
+              "under the bridge（正下方） / below sea level（低于某标准）"
+            ]
+          },
+          {
+            "h": "移动路径的四种关系",
+            "p": "位移动词后面选什么介词，取决于路径与参照物的关系：跨越边界进入或离开用 into/out of；接触或脱离表面用 onto/off；从内部空间穿过用 through；在表面横穿用 across；从上方越过用 over。",
+            "bullets": [
+              "into the room / out of the room（是否跨越边界）",
+              "onto the platform / off the bus（是否落到或离开表面）",
+              "through the tunnel / through the forest（三维空间内部）",
+              "across the bridge / across the street（表面横穿）；over the wall（越过）",
+              "along the river / around the lake / past the bank / towards the exit"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Canada lies on the north of the United States.", "zh": "加拿大位于美国以北，两国接壤。", "ok": true, "note": "两国边界相接，方位介词用 on。" },
+          { "en": "Japan lies to the east of China, across the sea.", "zh": "日本位于中国以东，隔海相望。", "ok": true, "note": "两国不接壤，方位介词用 to。" },
+          { "en": "Japan lies in the east of China, across the sea.", "zh": "日本位于中国以东，隔海相望。", "ok": false, "note": "in the east of 表示属于该国东部，日本不在中国境内，应改为 to the east of。" },
+          { "en": "A lamp hung above the dining table.", "zh": "一盏灯悬在餐桌上空。", "ok": true, "note": "灯与桌面不接触，只表高度，用 above。" },
+          { "en": "A lamp hung on the dining table.", "zh": "一盏灯悬在餐桌上空。", "ok": false, "note": "on 要求与表面接触，吊灯悬在空中，应改为 above。" },
+          { "en": "The train went through a long tunnel.", "zh": "火车穿过一条长长的隧道。", "ok": true, "note": "隧道是三维通道，从内部穿过用 through。" },
+          { "en": "The train went across a long tunnel.", "zh": "火车穿过一条长长的隧道。", "ok": false, "note": "across 表示横穿表面，隧道要求从内部通过，应改为 through。" },
+          { "en": "She jumped into the river to rescue the boy.", "zh": "她跳进河里去救那个男孩。", "ok": true, "note": "位移终点在河水内部，跨越边界用 into。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He put the book above the desk.", "right": "He put the book on the desk.", "why": "书与桌面接触，接触面用 on；above 只表示悬空高于某物。" },
+          { "wrong": "She sat besides me during the lecture.", "right": "She sat beside me during the lecture.", "why": "besides 意为“除…之外”，表示“在旁边”的是 beside，两词只差一个 s 而意义无关。" },
+          { "wrong": "The plane flew through the city for an hour.", "right": "The plane flew over the city for an hour.", "why": "飞机在城市上方移动，用 over；through 要求从内部空间穿过。" }
+        ],
+        "contrast": { "withTitle": "地点介词 in/on/at/to", "diff": "那一组解决“在某处”的静态位置，本知识点解决“在什么方位关系上”以及“沿哪条路径移动”。" },
+        "mnemonic": "境内 in，接壤 on，隔开 to；进去 into，出来 out of，穿过 through，横穿 across，越过 over。"
+      },
+      "review": {
+        "core": [
+          "方位三分：in the east of 在境内，on 表接壤，to 表在外且不接壤",
+          "on 接触，above 只表高度，over 表正上方或覆盖",
+          "into / out of 标记跨越边界，onto / off 标记接触与脱离",
+          "through 从内部穿过，across 横穿表面，over 越过上方",
+          "beside 是在旁边，besides 是除…之外"
+        ],
+        "trigger": "看到方向名词先判“包含、接壤、分离”，看到位移动词先判“是否跨界、是否接触表面”",
+        "quickCheck": [
+          { "q": "“日本在中国以东”用哪个介词？", "a": "to the east of，两国隔海不接壤。" },
+          { "q": "through 与 across 的区别是什么？", "a": "through 从三维空间内部穿过，across 从表面横穿。" },
+          { "q": "“灯在桌子上方”能用 on 吗？", "a": "不能，灯不与桌面接触，用 above 或 over。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.prepositions.position-movement.d1",
+          "type": "choice",
+          "stem": "Japan lies ___ the east of China, separated by the sea.",
+          "options": ["to", "in", "on", "at"],
+          "answer": "to",
+          "explain": "日本不在中国境内，两国之间隔着海，方位关系属于“外部且不接壤”，用 to the east of。",
+          "trap": "in 是最强干扰项：in the east of 表示“属于该国东部”，会把日本说成中国的一部分。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.position-movement.d2",
+          "type": "fill",
+          "stem": "The hikers walked ___ the forest and reached the village at dusk.",
+          "answer": "through",
+          "accept": ["through"],
+          "hint": "森林是一片可以从内部穿过的空间。",
+          "explain": "森林是三维空间，从其中穿过用 through；across 只用于横穿平面。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.position-movement.d3",
+          "type": "correct",
+          "stem": "He jumped in the river to save the drowning boy.",
+          "answer": "He jumped into the river to save the drowning boy.",
+          "accept": ["He jumped into the river to save the drowning boy."],
+          "explain": "jump 在这里表示位移，终点是河水内部，跨越边界须用 into；in the river 只表示“在河里”这一静态位置。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.position-movement.d4",
+          "type": "choice",
+          "stem": "A lamp was hanging ___ the dining table, just out of reach.",
+          "options": ["above", "on", "in", "under"],
+          "answer": "above",
+          "explain": "灯悬在空中，与桌面不接触，只表示位置高于桌面，用 above。",
+          "trap": "on 是强干扰项：on 要求物体与表面接触，而吊灯与桌面之间有距离。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.position-movement.d5",
+          "type": "translate",
+          "stem": "他坐在我旁边，一言不发。",
+          "answer": "He sat beside me without saying a word.",
+          "require": [["beside", "next to"]],
+          "forbid": ["besides"],
+          "explain": "表示“在某人旁边”用 beside 或 next to；besides 意为“除…之外”，方向完全相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.position-movement.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "train", "went", "through", "a", "long", "tunnel."],
+          "answer": "The train went through a long tunnel.",
+          "explain": "隧道是三维通道，go through 表示从内部穿过，不能换成表示表面横穿的 across。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.prepositions.except-besides",
+      "title": "表示“除…之外”的介词",
+      "brief": "先分加法与减法，再看前后成分是否同类",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "这一组介词的分水岭是“加法还是减法”：besides、in addition to 把后面的对象算进来，意为“除…之外还有”；except、but、except for 把后面的对象排除出去，意为“除…之外都不”。第二个分水岭是成分是否同类：先给整体评价再指出具体例外用 except for，同类事物之间做排除用 except。",
+        "sections": [
+          {
+            "h": "加法：besides / in addition to",
+            "p": "这两者都表示“另外还有”，后面的对象与前面的对象一起成立。句子的谓语、数量都不因为“除…之外”而减少。in addition to 更书面，后接名词或动名词。",
+            "bullets": [
+              "Besides English, she speaks French and German.（三种语言都会）",
+              "In addition to teaching, he runs a small bookshop.",
+              "besides 还可作副词，意为“而且”：It is too late; besides, it is raining."
+            ]
+          },
+          {
+            "h": "减法：except / but",
+            "p": "except 从整体中减去后面的对象，前后成分必须同类——都是人、都是日子、都是科目。but 与 except 同义，但多与 no one、nothing、all、every 等词连用。except 一般不放在句首引出例外。",
+            "bullets": [
+              "Everyone except Tom passed the exam.（人 与 人 同类）",
+              "Nobody but the manager knew the password.",
+              "× Except Tom, everyone passed. → Except for Tom, everyone passed."
+            ]
+          },
+          {
+            "h": "except for：整体评价 + 例外",
+            "p": "前后成分不同类时用 except for：先给整体一个判断，再指出一个不属同一类的瑕疵或例外。except that、except when 后接从句，用于补充说明例外的情况。apart from 兼有加减两义，要靠语境判断。",
+            "bullets": [
+              "The essay is good except for a few spelling mistakes.（整体评价 → 具体瑕疵）",
+              "He is a good colleague except that he is often late.",
+              "Apart from a few typos, the report is well written.（此处 equals except for）",
+              "Apart from the piano, she also plays the violin.（此处 equals besides）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Besides playing the piano, she teaches music at a primary school.", "zh": "除了弹钢琴，她还在小学教音乐。", "ok": true, "note": "两件事同时成立，属于加法，用 besides。" },
+          { "en": "Everyone except Tom passed the exam; he failed by two points.", "zh": "除了汤姆，所有人都通过了考试；他差两分没及格。", "ok": true, "note": "Tom 被排除在外，前后都是“人”，用 except。" },
+          { "en": "Everyone besides Tom passed the exam; he failed by two points.", "zh": "除了汤姆，所有人都通过了考试；他差两分没及格。", "ok": false, "note": "besides 表示 Tom 也通过了，与后半句“他没及格”矛盾，应改为 except。" },
+          { "en": "The hotel was comfortable except for the noise from the street.", "zh": "这家酒店很舒适，只是街上的噪音有点吵。", "ok": true, "note": "前面是整体评价，后面是不同类的具体瑕疵，用 except for。" },
+          { "en": "The hotel was comfortable except the noise from the street.", "zh": "这家酒店很舒适，只是街上的噪音有点吵。", "ok": false, "note": "comfortable 是整体评价，the noise 是具体瑕疵，两者不同类，须用 except for。" },
+          { "en": "Nobody but the manager knew the password.", "zh": "除了经理，没人知道密码。", "ok": true, "note": "but 与 nobody 这类否定词连用，等于 except。" },
+          { "en": "Except the manager, nobody knew the password.", "zh": "除了经理，没人知道密码。", "ok": false, "note": "except 不用于句首引出例外，应改为 Except for the manager 或 Nobody but the manager。" },
+          { "en": "Apart from a few typos, the report is well written.", "zh": "除了几处拼写错误，这份报告写得很好。", "ok": true, "note": "apart from 在此等于 except for，表示排除。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Everyone besides John was late.", "right": "Everyone except John was late.", "why": "把 John 排除在“迟到的人”之外是减法，besides 表加法，会把 John 也算进迟到者。" },
+          { "wrong": "The room is clean except some dust on the shelf.", "right": "The room is clean except for some dust on the shelf.", "why": "clean 是对整体的评价，some dust 是不同类的具体瑕疵，须用 except for。" },
+          { "wrong": "Except his bad temper, he is a good colleague.", "right": "Except for his bad temper, he is a good colleague.", "why": "except 不用于句首引出例外，句首位置只能用 except for 或 apart from。" }
+        ],
+        "contrast": { "withTitle": "表示原因与理由的介词", "diff": "except for 中的 for 只标记“例外”，for 表原因时才回答“为什么”；判断依据是句子在排除对象还是在解释原因。" },
+        "mnemonic": "besides 是加法，except 是减法；同类排除用 except，整体加例外用 except for。"
+      },
+      "review": {
+        "core": [
+          "besides / in addition to = 加法，除…之外还有",
+          "except / but = 减法，除…之外都不；but 多与 no 类词连用",
+          "except 要求前后同类：Everyone except Tom...",
+          "except for 用于整体评价 + 不同类的例外",
+          "except 不用于句首；句首用 except for 或 apart from"
+        ],
+        "trigger": "看到“除…之外”，先问后面的对象算不算进来 → 再问前后成分是否同类",
+        "quickCheck": [
+          { "q": "“除汤姆外所有人都到了”用 besides 还是 except？", "a": "except，汤姆被排除在外。" },
+          { "q": "The essay is good ___ a few typos. 填什么？", "a": "except for，整体评价后接具体瑕疵。" },
+          { "q": "apart from 有几种意思？", "a": "两种，等于 besides 或 except for，由语境判断。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.prepositions.except-besides.d1",
+          "type": "choice",
+          "stem": "___ a few spelling mistakes, the essay is well organized.",
+          "options": ["Except for", "Except", "Besides", "Beside"],
+          "answer": "Except for",
+          "explain": "空后是整体评价之外的具体瑕疵，前后成分不同类，且位于句首，只能用 except for。",
+          "trap": "Except 是最强干扰项：except 后要求同类成分，且不用于句首引出例外。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.except-besides.d2",
+          "type": "fill",
+          "stem": "___ English, she also speaks French and German.",
+          "answer": "Besides",
+          "accept": ["Besides", "Apart from", "In addition to"],
+          "hint": "三种语言她都会，后面的对象要算进来。",
+          "explain": "also 说明是“另外还有”，属于加法，用 besides；except 会把英语排除在外，与 also 冲突。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.except-besides.d3",
+          "type": "correct",
+          "stem": "Except the heavy rain, we had a pleasant trip.",
+          "answer": "Except for the heavy rain, we had a pleasant trip.",
+          "accept": ["Except for the heavy rain, we had a pleasant trip."],
+          "explain": "a pleasant trip 是整体评价，the heavy rain 是不同类的例外，且位于句首，须用 except for。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.except-besides.d4",
+          "type": "choice",
+          "stem": "The museum is open every day ___ Monday, when it closes for maintenance.",
+          "options": ["except", "except for", "besides", "beside"],
+          "answer": "except",
+          "explain": "every day 与 Monday 都是时间，属同类成分，做排除时用 except。",
+          "trap": "besides 是强干扰项：它表“除周一外还开放”，与后面“周一轮休关闭”直接矛盾。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.except-besides.d5",
+          "type": "translate",
+          "stem": "除了英语，她还会说法语和德语。",
+          "answer": "Besides English, she speaks French and German.",
+          "require": [["besides", "apart from", "in addition to"], ["french"], ["german"]],
+          "forbid": ["except"],
+          "explain": "三种语言都会，属于加法；except 会把英语排除，与“还会”矛盾。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.except-besides.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Everyone", "except", "the", "manager", "had", "left", "the", "hall."],
+          "answer": "Everyone except the manager had left the hall.",
+          "explain": "everyone 与 the manager 都是人，属同类成分，排除时用 except，且 except 短语紧跟被排除的整体。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.prepositions.reason",
+      "title": "表示原因与理由的介词",
+      "brief": "空后只接名词性成分，选词看原因的性质与色彩",
+      "difficulty": 2,
+      "tags": ["高频", "基础"],
+      "prereq": [],
+      "concept": {
+        "summary": "原因介词后面只能接名词性成分——名词、代词或动名词——这是它与 because 的分界线。选词取决于原因的性质与位置：because of 最通用；due to 多作表语或后置定语；owing to 多置于句首；thanks to 带“幸亏”的褒义，只用于积极结果；for 与情感、奖惩类词搭配；out of 引出内在动机；from 引出造成某种状态的外因；with 引出伴随性的生理或情绪反应。",
+        "sections": [
+          {
+            "h": "通用形式与位置",
+            "p": "because of 是最中性的选择，句首句末皆可。due to 常出现在 be 动词之后作表语，或紧跟名词作后置定语；owing to 多置于句首，语气正式。",
+            "bullets": [
+              "Because of the strike, the factory closed for a week.",
+              "The delay was due to thick fog.（作表语）",
+              "Owing to the heavy rain, the match was put off.（置句首）"
+            ]
+          },
+          {
+            "h": "感情色彩：thanks to",
+            "p": "thanks to 字面是“感谢”，只用在结果令人满意或值得庆幸的场合。若结果是灾害、事故、损失，即使原因是某事带来的好处，也只能用 because of 或 owing to。",
+            "bullets": [
+              "Thanks to your help, we finished the report on time.（好结果）",
+              "× Thanks to the accident, two workers were injured. → Because of the accident...",
+              "Thanks to 后同样只接名词性成分，不接从句"
+            ]
+          },
+          {
+            "h": "四类固定搭配",
+            "p": "这四个介词把原因分成四种类型，搭配是固定的：for 用于情感评价与奖惩；out of 用于内在动机；from 用于外因造成的状态；with 用于身体或情绪的伴随反应。",
+            "bullets": [
+              "for：be famous for, be praised for, punish sb for, thank sb for",
+              "out of：out of curiosity, out of kindness, out of respect（动机）",
+              "from：suffer from, die from, be tired from（外因导致的状态）",
+              "with：tremble with fear, jump with joy, be silent with anger"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The match was cancelled because of the heavy rain.", "zh": "比赛因大雨取消。", "ok": true, "note": "because of 后接名词短语，最通用的原因表达。" },
+          { "en": "The match was cancelled because of it rained heavily.", "zh": "比赛因下大雨取消。", "ok": false, "note": "because of 后不能接完整从句，应改为 because it rained heavily。" },
+          { "en": "Thanks to the new subway line, the commute now takes twenty minutes.", "zh": "多亏了新地铁线，通勤现在只要二十分钟。", "ok": true, "note": "结果是积极的，用带褒义的 thanks to。" },
+          { "en": "Thanks to the accident, two workers were injured.", "zh": "由于这场事故，两名工人受伤了。", "ok": false, "note": "事故属于消极结果，thanks to 的褒义与此冲突，应改为 Because of the accident。" },
+          { "en": "She stayed at home out of concern for her mother.", "zh": "她因为担心母亲而待在家里。", "ok": true, "note": "out of 引出内在动机，concern 是一种心理动因。" },
+          { "en": "He died from a heart attack at the age of fifty.", "zh": "他五十岁时死于心脏病。", "ok": true, "note": "疾病致死用 die from，属外因造成的状态。" },
+          { "en": "The delay was due to the driver was ill.", "zh": "延误是因为司机生病了。", "ok": false, "note": "due to 后只能接名词性成分，应改为 due to the driver's illness 或 because the driver was ill。" },
+          { "en": "Her hands were trembling with cold.", "zh": "她冷得双手发抖。", "ok": true, "note": "with 引出身体反应的原因，tremble with cold 是固定搭配。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He was absent because of he was ill.", "right": "He was absent because he was ill.", "why": "because of 是介词短语，只能带名词性成分；后面是完整从句时须换成连词 because。" },
+          { "wrong": "Thank you because of your help.", "right": "Thank you for your help.", "why": "thank、praise、punish 这类词的原因由 for 引出，because of 不与这类固定搭配连用。" },
+          { "wrong": "Thanks to the flood, hundreds of families lost their homes.", "right": "Because of the flood, hundreds of families lost their homes.", "why": "thanks to 含庆幸义，只用于积极结果；灾难性结果须换成中性的 because of。" }
+        ],
+        "contrast": { "withTitle": "从属连词与介词短语的易混", "diff": "本知识点解决“用哪个原因介词”，那一点解决“用连词还是介词短语”：空后一旦是完整主谓结构，就必须换成 because。" },
+        "mnemonic": "because of 只带名词，thanks to 只报喜，out of 讲动机，from 讲病痛，with 讲发抖。"
+      },
+      "review": {
+        "core": [
+          "原因介词后只接名词、代词或动名词，不能接从句",
+          "because of 最通用；due to 多作表语；owing to 多置句首",
+          "thanks to 含褒义，只用于积极结果",
+          "for 配情感与奖惩：be famous for, punish sb for",
+          "out of 表动机，from 表外因造成的状态，with 表生理情绪反应"
+        ],
+        "trigger": "看到空后是名词短语 → 先在原因介词里挑；看到空后是完整主谓结构 → 直接换 because",
+        "quickCheck": [
+          { "q": "“因为下雨”能说 because of it rained 吗？", "a": "不能，应说 because it rained 或 because of the rain。" },
+          { "q": "“多亏了你的帮助”用哪个短语？", "a": "Thanks to your help，结果是积极的。" },
+          { "q": "“冷得发抖”怎么表达？", "a": "tremble with cold，with 引出身体反应的原因。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.prepositions.reason.d1",
+          "type": "choice",
+          "stem": "The flight was delayed ___ thick fog over the airport.",
+          "options": ["because of", "because", "thanks to", "for"],
+          "answer": "because of",
+          "explain": "空后是名词短语 thick fog，没有主谓结构，只能填介词短语 because of。",
+          "trap": "because 是最强干扰项：它必须引导完整从句，不能直接带名词短语。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.prepositions.reason.d2",
+          "type": "fill",
+          "stem": "She thanked me ___ helping her with the report.",
+          "answer": "for",
+          "accept": ["for"],
+          "hint": "thank sb ___ sth 是固定搭配，空后是动名词。",
+          "explain": "thank 属于情感与奖惩类动词，原因由 for 引出，后接动名词 helping。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.prepositions.reason.d3",
+          "type": "correct",
+          "stem": "The outdoor concert was cancelled because of it rained all afternoon.",
+          "answer": "The outdoor concert was cancelled because it rained all afternoon.",
+          "accept": ["The outdoor concert was cancelled because it rained all afternoon."],
+          "explain": "because of 后只能接名词性成分，而 it rained all afternoon 是完整从句，须改用连词 because。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.reason.d4",
+          "type": "choice",
+          "stem": "The team's success is largely ___ to hard work and good coaching.",
+          "options": ["due", "because", "owing", "thanks"],
+          "answer": "due",
+          "explain": "此处是 be + 形容词性短语 + to 的表语结构，due to 可以作表语，意为“归因于”。",
+          "trap": "owing 是强干扰项：owing to 一般作状语置于句首或句末，不作表语。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.reason.d5",
+          "type": "translate",
+          "stem": "多亏了你的帮助，我们提前完成了任务。",
+          "answer": "Thanks to your help, we finished the task ahead of time.",
+          "require": [["thanks to"], ["finished", "completed"]],
+          "forbid": ["thank to", "because of your help"],
+          "explain": "结果是积极的，用带褒义的 thanks to；because of 虽语法正确，却丢掉了“多亏”这层庆幸的语气。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.reason.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "game", "was", "cancelled", "because", "of", "the", "storm."],
+          "answer": "The game was cancelled because of the storm.",
+          "explain": "the storm 是名词短语，用 because of；because 若单独使用则需要一个完整从句。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.prepositions.with-structure",
+      "title": "with 复合结构",
+      "brief": "with + 宾语 + 补足语，补足语形式看主动被动",
+      "difficulty": 3,
+      "tags": ["难点", "写作"],
+      "prereq": [],
+      "concept": {
+        "summary": "with 复合结构由“with + 宾语 + 宾语补足语”构成，补足语可以是形容词、副词、介词短语、现在分词、过去分词或不定式，整个结构在句中作伴随、原因、方式、条件状语，也可作后置定语。选哪种补足语只看一条：宾语与补足语之间是主动进行、被动完成、状态描写，还是尚未发生的动作。",
+        "sections": [
+          {
+            "h": "六种补足语与判断依据",
+            "p": "补足语的形式由宾语与它的逻辑关系决定，不由动词决定。判断时把宾语当作补足语逻辑上的主语，看这个动作是它发出的还是承受的。",
+            "bullets": [
+              "形容词表状态：with the door open, with his eyes wide",
+              "副词表位置：with the light on, with the TV off",
+              "介词短语表所在：with a book in his hand, with a scarf around her neck",
+              "现在分词表主动进行：with the rain falling, with the children playing outside",
+              "过去分词表被动完成：with his hands tied, with the work finished",
+              "不定式表待做：with a lot of work to do, with nothing to eat"
+            ]
+          },
+          {
+            "h": "主动与被动的分界",
+            "p": "宾语是动作的发出者，用现在分词；宾语是动作的承受者，用过去分词。混淆这两个方向是本结构最常见的错误，判断方法是给宾语加一个动词，读一遍主动句是否成立。",
+            "bullets": [
+              "the exam is approaching（考试自己在临近）→ with the exam approaching",
+              "the work was finished（工作被完成）→ with the work finished",
+              "his eyes were fixed on the screen（目光被固定）→ with his eyes fixed on the screen"
+            ]
+          },
+          {
+            "h": "句法功能与位置",
+            "p": "整个结构可放在句首或句末：句首多表原因、条件，句末多表伴随、方式。作定语时必须紧跟被修饰名词，且 with 不能省略。",
+            "bullets": [
+              "伴随：He fell asleep with the window open.",
+              "原因：With the exam approaching, she studied late into the night.",
+              "条件：With a little more effort, you could pass the test.",
+              "定语：the girl with a red ribbon in her hair"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He fell asleep with the light on.", "zh": "他开着灯睡着了。", "ok": true, "note": "on 是副词，表状态，作宾语 the light 的补足语。" },
+          { "en": "She sat by the window with her eyes fixed on the horizon.", "zh": "她坐在窗边，目光凝望着地平线。", "ok": true, "note": "eyes 是被固定的对象，与补足语是被动关系，用过去分词 fixed。" },
+          { "en": "She sat by the window with her eyes fixing on the horizon.", "zh": "她坐在窗边，目光凝望着地平线。", "ok": false, "note": "eyes 不能自己发出 fix 这个动作，被动关系须用 fixed。" },
+          { "en": "With the exam approaching, the students studied late into the night.", "zh": "随着考试临近，学生们学到深夜。", "ok": true, "note": "考试临近是主动进行的过程，用现在分词 approaching。" },
+          { "en": "With the exam approached, the students studied late into the night.", "zh": "随着考试临近，学生们学到深夜。", "ok": false, "note": "approached 表被动完成，与“临近”这一进行中的过程不符，应改为 approaching。" },
+          { "en": "With a lot of homework to finish, he skipped the party.", "zh": "因为有很多作业要完成，他没有去参加聚会。", "ok": true, "note": "作业尚未完成，用不定式 to finish 表待做。" },
+          { "en": "With the door open, the cat walked into the room.", "zh": "门开着，猫走进了房间。", "ok": true, "note": "open 是形容词表状态，不用过去分词 opened。" },
+          { "en": "With he ill, the team lost the match.", "zh": "由于他病了，球队输掉了比赛。", "ok": false, "note": "with 后作宾语的代词须用宾格，应改为 With him ill。" }
+        ],
+        "pitfalls": [
+          { "wrong": "With the work finishing, we went home.", "right": "With the work finished, we went home.", "why": "work 是被完成的，宾语与补足语之间是被动关系，须用过去分词。" },
+          { "wrong": "With the teacher came in, we stood up.", "right": "With the teacher coming in, we stood up.", "why": "with 后不能接谓语动词或从句，宾补位置只能用非谓语动词。" },
+          { "wrong": "With the door opened, the cat walked in.", "right": "With the door open, the cat walked in.", "why": "描写门开着的状态用形容词 open；opened 强调“被打开”的动作，与状态描写不符。" }
+        ],
+        "contrast": { "withTitle": "独立主格结构", "diff": "with 复合结构带引导词 with，可作状语也可作定语；独立主格没有 with，只作状语，且不能作定语。" },
+        "mnemonic": "宾语自己动，用 doing；宾语被处理，用 done；只是状态，用形容词；事还没做，用 to do。"
+      },
+      "review": {
+        "core": [
+          "结构：with + 宾语 + 补足语，补足语可为形容词、副词、介词短语、分词或不定式",
+          "主动进行用现在分词：with the exam approaching",
+          "被动完成用过去分词：with the work finished",
+          "状态用形容词，不用过去分词：with the door open",
+          "待做用不定式：with a lot of work to do"
+        ],
+        "trigger": "看到 with 后跟名词 → 立刻判断这个名词是动作的发出者还是承受者",
+        "quickCheck": [
+          { "q": "“工作完成后我们回家了”怎么说？", "a": "With the work finished, we went home." },
+          { "q": "with the door open 为什么不用 opened？", "a": "open 是形容词表状态，opened 强调被打开的动作。" },
+          { "q": "with 后能接从句吗？", "a": "不能，宾补位置只能用非谓语动词或形容词类成分。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.prepositions.with-structure.d1",
+          "type": "choice",
+          "stem": "He sat at his desk, with his attention ___ on the screen.",
+          "options": ["fixed", "fixing", "to fix", "fix"],
+          "answer": "fixed",
+          "explain": "attention 是被固定的对象，不能自己发出 fix 的动作，宾语与补足语是被动关系，用过去分词。",
+          "trap": "fixing 是最强干扰项：只看“注意力集中”的中文意思，会误以为注意力是主动的一方。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.with-structure.d2",
+          "type": "fill",
+          "stem": "With the final exam ___ (approach), the library is packed every evening.",
+          "answer": "approaching",
+          "accept": ["approaching"],
+          "hint": "考试是自己在临近，属主动进行。",
+          "explain": "approach 在这里是不及物的进行过程，宾语 exam 是动作发出者，须用现在分词 approaching。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.with-structure.d3",
+          "type": "correct",
+          "stem": "With the work finishing ahead of schedule, we had two days off.",
+          "answer": "With the work finished ahead of schedule, we had two days off.",
+          "accept": ["With the work finished ahead of schedule, we had two days off."],
+          "explain": "work 是被完成的对象，与补足语构成被动关系，须用过去分词 finished。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.with-structure.d4",
+          "type": "choice",
+          "stem": "She walked out of the room with the door ___.",
+          "options": ["open", "opened", "opening", "to open"],
+          "answer": "open",
+          "explain": "此处描写门开着的状态，open 作形容词充当补足语。",
+          "trap": "opened 是强干扰项：它强调“被打开”的动作，而句子说的是走出去时门处于什么状态。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.with-structure.d5",
+          "type": "translate",
+          "stem": "他双手插在口袋里站在那里。",
+          "answer": "He stood there with his hands in his pockets.",
+          "require": [["with his hands in his pockets"]],
+          "forbid": ["with his hands were"],
+          "explain": "双手在口袋里是位置状态，补足语用介词短语 in his pockets，整个结构作伴随状语。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.with-structure.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["With", "the", "light", "on,", "she", "fell", "asleep."],
+          "answer": "With the light on, she fell asleep.",
+          "explain": "on 是副词表状态，作 the light 的补足语，整个 with 结构置于句首表伴随。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.prepositions.phrase-function",
+      "title": "介词短语作状语与作定语的辨识",
+      "brief": "修饰名词且不能移位的是定语，其余是状语",
+      "difficulty": 3,
+      "tags": ["难点", "易错"],
+      "prereq": [],
+      "concept": {
+        "summary": "同一个介词短语既可作定语也可作状语，判定看两条：修饰谁、能否移位。修饰前面名词、回答“哪一个”的是定语，必须紧跟名词且不能提到句首；修饰谓语或整个句子、回答“在哪、何时、如何”的是状语，位置灵活，可移到句首或句末。两条冲突时，以语义搭配是否成立为最终依据。",
+        "sections": [
+          {
+            "h": "两条判定标准",
+            "p": "先看修饰对象：定语修饰名词，状语修饰动词、形容词或全句。再做移位测试：把介词短语提到句首，意义不变的是状语；提到句首句子不成立或意义改变的，是定语。",
+            "bullets": [
+              "The letter on the desk is mine. → × On the desk the letter is mine.（定语，不能前置）",
+              "She read the letter in the garden. → In the garden she read the letter.（状语，可前置）",
+              "定语紧贴名词，中间不能插入其他成分"
+            ]
+          },
+          {
+            "h": "歧义与语义消解",
+            "p": "位置相同的介词短语可能有两种读法，靠语义搭配排除不成立的一种。判断方法是把这个短语分别挂到名词和动词上，看哪一种搭配在现实世界中讲得通。",
+            "bullets": [
+              "He read the letter in the garden. → in the garden 只能修饰 read，因为“花园里的信”与语境无关",
+              "She wrote to the man in English. → in English 修饰 wrote（用英语写），不能修饰 the man",
+              "the man with a beard（定语）与 spoke with a beard（状语，语义荒谬）"
+            ]
+          },
+          {
+            "h": "多个介词短语的层次",
+            "p": "一句中出现两个介词短语时，紧跟名词的作定语，靠后的多作状语。把定语从名词后移开，读者就会把它当成状语，句子意思随之改变。",
+            "bullets": [
+              "He works in a factory in the north of the city.（前者状语，后者定语）",
+              "The report on the desk was written by my colleague.（on the desk 修饰 report）",
+              "The report was written by my colleague on the desk.（on the desk 变成修饰 wrote）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The letter on the desk was written by my father.", "zh": "桌上那封信是我父亲写的。", "ok": true, "note": "on the desk 紧跟 letter，作定语，回答“哪一封信”。" },
+          { "en": "She read the letter in the garden.", "zh": "她在花园里读了那封信。", "ok": true, "note": "in the garden 修饰 read，可移到句首，是状语。" },
+          { "en": "The man is our new coach in the blue jacket.", "zh": "穿蓝夹克的那个人是我们的新教练。", "ok": false, "note": "in the blue jacket 离开名词后会被读成状语，须改为 The man in the blue jacket is our new coach." },
+          { "en": "The man in the blue jacket is our new coach.", "zh": "穿蓝夹克的那个人是我们的新教练。", "ok": true, "note": "介词短语紧跟 the man，作定语，明确指认对象。" },
+          { "en": "He spoke to the students in English, so everyone understood him.", "zh": "他用英语对学生讲话，所以每个人都听懂了。", "ok": true, "note": "in English 修饰 spoke，表示说话所用的语言。" },
+          { "en": "The report was written by my colleague on the desk.", "zh": "桌上那份报告是我同事写的。", "ok": false, "note": "on the desk 位于句末会修饰 wrote，意为“在桌上写”，须把它移到 report 之后作定语。" },
+          { "en": "He works in a factory in the north of the city.", "zh": "他在城北的一家工厂工作。", "ok": true, "note": "in a factory 修饰 works 作状语，in the north of the city 修饰 factory 作定语。" },
+          { "en": "The students in the front row asked most of the questions.", "zh": "前排的学生提出了大部分问题。", "ok": true, "note": "in the front row 限定 students 的范围，是典型的定语。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The girl is my sister with long hair.", "right": "The girl with long hair is my sister.", "why": "定语必须紧跟被修饰名词；放到句末后 with long hair 会被理解为状语，指认功能消失。" },
+          { "wrong": "the on the table keys", "right": "the keys on the table", "why": "英语介词短语作定语一律后置，不能像汉语“桌上的钥匙”那样前置。" },
+          { "wrong": "On the table the keys are mine.", "right": "The keys on the table are mine.", "why": "定语不能提到句首；提上去后短语变成地点状语，句子失去“桌上的那些钥匙”这一所指。" }
+        ],
+        "contrast": { "withTitle": "方位与移动介词", "diff": "方位与移动介词解决“用哪个介词”，本知识点解决“这个介词短语修饰谁”，两者一个管选词，一个管挂靠。" },
+        "mnemonic": "能提到句首的是状语，提不动的是定语；定语贴着名词，状语跟着动词。"
+      },
+      "review": {
+        "core": [
+          "定语修饰名词，必须紧跟名词，不能提到句首",
+          "状语修饰动词或全句，位置灵活，可移到句首或句末",
+          "移位测试是最快的判别手段：能前置且意义不变即为状语",
+          "歧义靠语义搭配消解：the man in English 不成立，故 in English 修饰动词",
+          "多个介词短语连用时，靠前的多为状语，紧跟名词的为定语"
+        ],
+        "trigger": "看到一个介词短语 → 先找它前面最近的名词 → 再用移位测试确认它修饰名词还是动词",
+        "quickCheck": [
+          { "q": "“桌上的那本书”怎么安排语序？", "a": "the book on the table，介词短语后置作定语。" },
+          { "q": "She read the letter in the garden. 中 in the garden 修饰什么？", "a": "修饰 read，作状语，可移到句首。" },
+          { "q": "定语能提到句首吗？", "a": "不能，提到句首就变成状语，句子所指随之改变。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.prepositions.phrase-function.d1",
+          "type": "choice",
+          "stem": "The boy ___ is the captain of our team.",
+          "options": ["in the blue shirt", "is in the blue shirt", "wears a blue shirt", "in blue shirt"],
+          "answer": "in the blue shirt",
+          "explain": "句中已有谓语 is，空处只能是修饰 the boy 的后置定语，用介词短语 in the blue shirt。",
+          "trap": "wears a blue shirt 是强干扰项：它是谓语形式，与后面的 is 冲突，且缺少关系词 who。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.phrase-function.d2",
+          "type": "fill",
+          "stem": "The girl ___ is my cousin.",
+          "answer": "in the red dress",
+          "accept": ["in the red dress", "in a red dress"],
+          "hint": "“穿红裙子的”在英语里用 in + 颜色 + 衣物，作后置定语。",
+          "explain": "介词短语 in the red dress 紧跟 the girl，限定是哪一位女孩，作定语。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.phrase-function.d3",
+          "type": "correct",
+          "stem": "The man is our new coach in the blue jacket.",
+          "answer": "The man in the blue jacket is our new coach.",
+          "accept": ["The man in the blue jacket is our new coach."],
+          "explain": "in the blue jacket 用来指认 the man，必须紧跟名词作定语；放在句末会被读成状语。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.phrase-function.d4",
+          "type": "choice",
+          "stem": "下列哪一句表示“桌上那份报告”？",
+          "options": [
+            "The report on the desk was signed yesterday.",
+            "The report was signed on the desk yesterday.",
+            "The report was on the desk signed yesterday.",
+            "The report signed yesterday was on the desk."
+          ],
+          "answer": "The report on the desk was signed yesterday.",
+          "explain": "只有让 on the desk 紧跟 report，它才作定语，表示“桌上的那份报告”。",
+          "trap": "第二句是强干扰项：句末的 on the desk 只能作状语，意思是“在桌上签的”。",
+          "difficulty": 4
+        },
+        {
+          "id": "morph.prepositions.phrase-function.d5",
+          "type": "translate",
+          "stem": "穿红裙子的女孩是我妹妹。",
+          "answer": "The girl in the red dress is my sister.",
+          "require": [["the girl in the red dress"], ["sister"]],
+          "forbid": ["the in red dress girl", "with a red dress"],
+          "explain": "介词短语作定语须后置，紧跟 the girl；表示穿着用 in + 衣物，不用 with。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.phrase-function.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "man", "in", "the", "grey", "suit", "is", "our", "teacher."],
+          "answer": "The man in the grey suit is our teacher.",
+          "explain": "in the grey suit 紧跟 the man 作定语，谓语 is 说明身份，定语与谓语不能互换位置。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.prepositions.gerund-after-prep",
+      "title": "介词后接动名词的固定结构",
+      "brief": "介词后一律用动名词，先判 to 是不是介词",
+      "difficulty": 2,
+      "tags": ["高频", "基础"],
+      "prereq": [],
+      "concept": {
+        "summary": "介词后面的动词一律用动名词，这条规则没有例外；难点只在判断 to 是介词还是不定式符号。若 to 属于“动词或形容词 + 介词”的固定搭配（look forward to, object to, be used to, devote ... to, pay attention to），或 to 后面能换成名词而意义不变，则 to 是介词，后接动名词。反之 used to do 的 to 是不定式符号，后接动词原形。",
+        "sections": [
+          {
+            "h": "三类固定结构",
+            "p": "介词后的动名词有三类来源：动词加介词、形容词加介词、名词加介词。判断时先确认空前的词是否与介词构成固定搭配，再决定用 doing。",
+            "bullets": [
+              "动词 + 介词：insist on, depend on, object to, look forward to, apologize for, succeed in, prevent sb from, spend time in",
+              "形容词 + 介词：be good at, be afraid of, be fond of, be interested in, be proud of, be tired of, be capable of",
+              "名词 + 介词：have difficulty (in) doing, take pride in, make a contribution to",
+              "worth 后也接动名词，且用主动形式表被动：The book is worth reading."
+            ]
+          },
+          {
+            "h": "to 是介词的判定",
+            "p": "把 to 后面的成分换成一个名词，若句子依然成立，这个 to 就是介词，后面接动名词时也照此办理。固定的介词 to 只有少数几个，需要整记。",
+            "bullets": [
+              "look forward to the holiday = look forward to hearing from you",
+              "常见介词 to：look forward to, object to, be used to, be devoted to, pay attention to, in addition to, owing to",
+              "不定式符号 to：used to do（过去常常）, be used to do（被用来做）, would like to do"
+            ]
+          },
+          {
+            "h": "动名词的时态与语态",
+            "p": "介词后的动名词仍有完成式与被动式：动作先于谓语用 having done，逻辑主语是动作承受者用 being done。这两种形式在改错题中常与基本形式混在一起考。",
+            "bullets": [
+              "He apologized for having kept us waiting.",
+              "She objected to being treated like a child.",
+              "After being told the truth, he calmed down."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I look forward to hearing from you.", "zh": "我期待收到你的来信。", "ok": true, "note": "look forward to 的 to 是介词，后接动名词 hearing。" },
+          { "en": "I look forward to hear from you.", "zh": "我期待收到你的来信。", "ok": false, "note": "此处 to 是介词而非不定式符号，须用 hearing。" },
+          { "en": "She is used to working night shifts at the hospital.", "zh": "她习惯了在医院上夜班。", "ok": true, "note": "be used to 意为“习惯于”，to 是介词，后接动名词。" },
+          { "en": "She is used to work night shifts at the hospital.", "zh": "她习惯了在医院上夜班。", "ok": false, "note": "be used to 的 to 是介词，须用 working；used to work 才表示“过去常上夜班”。" },
+          { "en": "He apologized for having kept us waiting so long.", "zh": "他为让我们等了这么久而道歉。", "ok": true, "note": "for 后接动名词完成式，表示道歉的动作发生在等待之后。" },
+          { "en": "He apologized for be late for the interview.", "zh": "他为面试迟到而道歉。", "ok": false, "note": "介词 for 后须用动名词，应改为 being late。" },
+          { "en": "The old machine is worth repairing.", "zh": "这台旧机器值得修。", "ok": true, "note": "be worth doing 用主动形式表被动含义，不说 worth to repair。" },
+          { "en": "They insisted on paying for the meal themselves.", "zh": "他们坚持自己付饭钱。", "ok": true, "note": "insist on 是固定搭配，on 后接动名词。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I object to be treated like a child.", "right": "I object to being treated like a child.", "why": "object to 的 to 是介词，后接动名词；“被对待”还须用动名词被动式 being done。" },
+          { "wrong": "He insisted on go there alone.", "right": "He insisted on going there alone.", "why": "on 是介词，后面必须用动名词，不能直接接动词原形。" },
+          { "wrong": "She is used to walk to school.", "right": "She is used to walking to school.", "why": "be used to 中 to 是介词，表“习惯于”，后接动名词；used to do 才表“过去常常”。" }
+        ],
+        "contrast": { "withTitle": "动名词作主语与宾语", "diff": "本知识点处理“介词后面必须用动名词”这一强制位置，动名词章节处理动名词在主语、宾语位置上的选择与语义。" },
+        "mnemonic": "介词后面没有原形；to 前能停顿、后面能换名词，就是介词，接 doing。"
+      },
+      "review": {
+        "core": [
+          "介词后动词一律用动名词，没有例外",
+          "三类结构：动词 + 介词、形容词 + 介词、名词 + 介词",
+          "look forward to / object to / be used to / pay attention to 中的 to 是介词",
+          "used to do 过去常常；be used to doing 习惯于；be used to do 被用来做",
+          "worth doing 用主动形式表被动；介词后可用 having done、being done"
+        ],
+        "trigger": "看到介词后紧跟动词 → 一律改成 doing → 再检查 to 属于介词还是不定式符号",
+        "quickCheck": [
+          { "q": "look forward to 后面接什么形式？", "a": "动名词，如 looking forward to hearing from you。" },
+          { "q": "be used to doing 与 used to do 有什么区别？", "a": "前者表“习惯于某事”，后者表“过去常常做”。" },
+          { "q": "“值得一做”怎么说？", "a": "be worth doing，用主动形式表被动。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.prepositions.gerund-after-prep.d1",
+          "type": "choice",
+          "stem": "I look forward to ___ from you soon.",
+          "options": ["hearing", "hear", "be heard", "heard"],
+          "answer": "hearing",
+          "explain": "look forward to 中的 to 是介词，后面必须接动名词 hearing。",
+          "trap": "hear 是最强干扰项：受不定式符号 to 的印象支配，忽略了这一搭配里 to 的介词性质。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.prepositions.gerund-after-prep.d2",
+          "type": "fill",
+          "stem": "She insisted on ___ (pay) for the meal herself.",
+          "answer": "paying",
+          "accept": ["paying"],
+          "hint": "insist on 是固定搭配，on 是介词。",
+          "explain": "on 是介词，后面须用动名词，pay 变为 paying。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.prepositions.gerund-after-prep.d3",
+          "type": "correct",
+          "stem": "He apologized for be late for the interview.",
+          "answer": "He apologized for being late for the interview.",
+          "accept": ["He apologized for being late for the interview."],
+          "explain": "apologize for 中 for 是介词，后面必须用动名词，be 变为 being。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.gerund-after-prep.d4",
+          "type": "choice",
+          "stem": "The children are used to ___ up early in the morning.",
+          "options": ["getting", "get", "to get", "got"],
+          "answer": "getting",
+          "explain": "be used to 表示“习惯于”，其中 to 是介词，后接动名词 getting。",
+          "trap": "get 是强干扰项：若把它读成 used to get up（过去常常早起），就会漏掉 be 动词带来的“习惯于”含义。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.gerund-after-prep.d5",
+          "type": "translate",
+          "stem": "我期待着再次见到你。",
+          "answer": "I am looking forward to seeing you again.",
+          "require": [["looking forward to seeing", "look forward to seeing"]],
+          "forbid": ["forward to see", "look forward to see"],
+          "explain": "look forward to 的 to 是介词，后接动名词 seeing；写成 to see 就把 to 当成了不定式符号。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.gerund-after-prep.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["We", "had", "difficulty", "in", "solving", "the", "problem."],
+          "answer": "We had difficulty in solving the problem.",
+          "explain": "have difficulty (in) doing sth 是固定结构，介词 in 后接动名词，in 在口语中可省略但动名词形式不变。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.prepositions.stranded",
+      "title": "介词在疑问句与定语从句中的位置",
+      "brief": "介词可前置可后置，短语动词的介词不拆分",
+      "difficulty": 3,
+      "tags": ["难点", "易错"],
+      "prereq": ["morph.prepositions.gerund-after-prep"],
+      "concept": {
+        "summary": "介词可以留在原位，也可以提到疑问词或关系代词之前；前置更正式，后置更口语。前置有三条硬约束：介词后必须用宾格 whom 或 which，不能用 who 或 that；短语动词的介词与动词结合紧密，不能前置；后置时关系代词在口语中可以省略。判断能否前置，先看这个介词是否属于固定短语动词。",
+        "sections": [
+          {
+            "h": "疑问句的两种写法",
+            "p": "同一个意思有两种语序：介词前置时疑问词用 whom，介词后置时用 who 更自然。两种都正确，区别在语体，不在对错。",
+            "bullets": [
+              "前置（正式）：With whom did you discuss the plan?",
+              "后置（口语）：Who did you discuss the plan with?",
+              "× With who did you discuss the plan? → 介词后必须用宾格 whom"
+            ]
+          },
+          {
+            "h": "定语从句的两种写法",
+            "p": "介词前置时，关系代词只能用 which（指物）或 whom（指人），不能用 that；介词后置时，关系代词可用 that，也可省略。",
+            "bullets": [
+              "前置：the house in which she grew up；the man to whom I spoke",
+              "后置：the house she grew up in；the man I spoke to",
+              "× the house in that she grew up → 介词后不能接 that"
+            ]
+          },
+          {
+            "h": "不能前置的短语动词",
+            "p": "look after, look for, take care of, put off 这类短语动词，动词与介词或副词构成一个语义整体，拆开后意义不成立，因此介词一律留在原位，只把关系代词前置或省略。",
+            "bullets": [
+              "√ The child she looks after is her nephew.",
+              "× The child after whom she looks is her nephew.",
+              "√ the meeting which we put off；× the meeting off which we put"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "With whom did you discuss the plan?", "zh": "你和谁讨论了这个计划？", "ok": true, "note": "介词前置是正式写法，疑问词用宾格 whom。" },
+          { "en": "Who did you discuss the plan with?", "zh": "你和谁讨论了这个计划？", "ok": true, "note": "介词后置于句末是口语写法，疑问词用 who。" },
+          { "en": "With who did you discuss the plan?", "zh": "你和谁讨论了这个计划？", "ok": false, "note": "介词后必须用宾格 whom，who 只能作主语。" },
+          { "en": "The house in which she grew up has been pulled down.", "zh": "她长大的那栋房子已被拆除。", "ok": true, "note": "介词 in 前置，关系代词用 which。" },
+          { "en": "The house in that she grew up has been pulled down.", "zh": "她长大的那栋房子已被拆除。", "ok": false, "note": "that 不能作介词宾语，前置介词后只能接 which。" },
+          { "en": "The nurse I spoke to was very patient.", "zh": "和我说话的那位护士很有耐心。", "ok": true, "note": "介词后置且关系代词省略，是口语中最常见的写法。" },
+          { "en": "This is the topic about which we argued for hours.", "zh": "这就是我们争论了几个小时的话题。", "ok": true, "note": "argue about 中的 about 可以前置，关系代词用 which。" },
+          { "en": "The child after whom she looks is her nephew.", "zh": "她照顾的那个孩子是她侄子。", "ok": false, "note": "look after 是短语动词，介词不能拆开前置，应说 The child she looks after is her nephew." }
+        ],
+        "pitfalls": [
+          { "wrong": "To who did you give the keys?", "right": "To whom did you give the keys?", "why": "介词后必须用宾格 whom；who 只能充当主语，不能作介词宾语。" },
+          { "wrong": "The flat in that they live is small.", "right": "The flat in which they live is small.", "why": "that 不能作介词宾语，介词前置后只能接 which 或 whom。" },
+          { "wrong": "The child after whom she looks is her nephew.", "right": "The child she looks after is her nephew.", "why": "look after 是短语动词，after 与 look 构成一个语义整体，拆开后结构不成立。" }
+        ],
+        "contrast": { "withTitle": "介词 + 关系代词结构", "diff": "本知识点解决“介词放在哪里”，那一结构解决“前置后该用 which 还是 whom”以及 of which、in which case 等固定组合。" },
+        "mnemonic": "前置用 whom/which，后置可用 that 或省略；短语动词不拆家，介词留在原地。"
+      },
+      "review": {
+        "core": [
+          "疑问句：With whom...? 正式；Who...with? 口语",
+          "定语从句：the house in which... 正式；the house she grew up in 口语",
+          "介词后只能用 whom / which，不能用 who / that",
+          "介词后置时关系代词可省略：the man I spoke to",
+          "短语动词（look after, take care of, put off）的介词不能前置"
+        ],
+        "trigger": "看到介词提到句首或从句开头 → 先查是不是短语动词 → 再确认后面跟的是 whom / which",
+        "quickCheck": [
+          { "q": "With who 这个组合成立吗？", "a": "不成立，介词后必须用宾格 whom。" },
+          { "q": "the house in that he lives 对吗？", "a": "不对，介词后不能接 that，须用 in which。" },
+          { "q": "look after 的介词能前置吗？", "a": "不能，短语动词的介词留在原位。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.prepositions.stranded.d1",
+          "type": "choice",
+          "stem": "The colleague ___ I share the office is on leave this week.",
+          "options": ["with whom", "with who", "whom with", "with that"],
+          "answer": "with whom",
+          "explain": "share sth with sb 中的 with 前置，介词后须用宾格关系代词 whom。",
+          "trap": "with who 是最强干扰项：口语中 who 常代替 whom，但介词紧挨在前面时必须用宾格。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.stranded.d2",
+          "type": "fill",
+          "stem": "Who did you borrow the bike ___?",
+          "answer": "from",
+          "accept": ["from"],
+          "hint": "borrow sth from sb，介词后置时不能省略。",
+          "explain": "介词后置时仍须保留，borrow the bike from sb 中的 from 留在句末，不能因为疑问词提前而丢掉。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.stranded.d3",
+          "type": "correct",
+          "stem": "The house in that my grandparents lived has been sold.",
+          "answer": "The house in which my grandparents lived has been sold.",
+          "accept": ["The house in which my grandparents lived has been sold."],
+          "explain": "介词 in 已提到从句开头，关系代词只能用 which，不能用 that。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.stranded.d4",
+          "type": "choice",
+          "stem": "选出语法正确的一句。",
+          "options": [
+            "The child of whom she takes care is ill.",
+            "The child of who she takes care is ill.",
+            "The child of that she takes care is ill.",
+            "The child she takes care of is ill."
+          ],
+          "answer": "The child she takes care of is ill.",
+          "explain": "take care of 是短语动词，of 与动词构成整体，只能后置；关系代词省略后句子完整通顺。",
+          "trap": "第一句是强干扰项：把短语动词拆开前置，of whom 与 take care 分离后结构不成立。",
+          "difficulty": 4
+        },
+        {
+          "id": "morph.prepositions.stranded.d5",
+          "type": "translate",
+          "stem": "这就是我住过的房子。",
+          "answer": "This is the house I lived in.",
+          "require": [["house"], ["lived in", "in which i lived", "where i lived"]],
+          "forbid": ["in that"],
+          "explain": "live 是不及物动词，须带介词 in；介词可后置，也可前置为 in which，但不能用 in that。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.stranded.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "man", "to", "whom", "I", "spoke", "was", "very", "helpful."],
+          "answer": "The man to whom I spoke was very helpful.",
+          "explain": "speak to sb 的 to 前置，关系代词用宾格 whom，构成 to whom I spoke 这一正式结构。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.prepositions.confusable-pairs",
+      "title": "易混介词辨析 since/for、by/until、in/after",
+      "brief": "起点与长度、截止与终点、时段与之后",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "三组词各管一个维度：since 与 for 区分“起点”和“长度”；by 与 until 区分“截止前完成”和“持续到终点”；in 与 after 区分“将来时段之后”和“过去或从句之后”。判断时先看谓语动词是延续性还是瞬间性，再看后面的时间是点还是段，两问的答案直接决定选词。",
+        "sections": [
+          {
+            "h": "since / for：起点还是长度",
+            "p": "since 后面必须是过去的一个时间点，主句用完成时；for 后面是时间长度，回答“多久”。把 since 后面换成“自从…以来”能说通，就说明它是起点。",
+            "bullets": [
+              "since 2015 / since last spring / since he left（起点，主句用完成时）",
+              "for three years / for a long time / for ages（长度）",
+              "since 从句用一般过去时：She has lived here since she graduated."
+            ]
+          },
+          {
+            "h": "by / until：截止还是持续",
+            "p": "by 表示“不迟于某个时间”，动作在该点之前完成，常与完成时连用；until 表示动作一直持续到某个时间，谓语必须是延续性动词。瞬间动词与 until 连用时要改成否定式，表示“直到…才”。",
+            "bullets": [
+              "by Friday / by the end of last year（截止，动作在此之前完成）",
+              "wait until ten / stay until the rain stops（持续到终点）",
+              "× hand in it until Friday → by Friday；× left until midnight → didn't leave until midnight"
+            ]
+          },
+          {
+            "h": "in / after：将来时段还是过去之后",
+            "p": "in + 时间段用于将来时，表示“多久之后”；after 后接时间点或从句，多用于过去，也可用于将来但须接具体时点，不能接时间段。",
+            "bullets": [
+              "The train will arrive in ten minutes.（将来 + 时间段）",
+              "After ten minutes he came back.（过去）",
+              "After he left, we cleaned the room.（后接从句）",
+              "× He will come back after three days. → in three days"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She has worked here since 2015.", "zh": "她从 2015 年起就在这里工作。", "ok": true, "note": "2015 是时间的起点，since 与现在完成时连用。" },
+          { "en": "She has worked here for 2015.", "zh": "她在这里工作了 2015 年。", "ok": false, "note": "2015 是年份起点而非长度，应改为 since 2015；表长度须写成 for five years 这类短语。" },
+          { "en": "He had finished the report by last Friday.", "zh": "他在上周五之前完成了报告。", "ok": true, "note": "by 表截止，动作在截止点前完成，用过去完成时。" },
+          { "en": "He had finished the report until last Friday.", "zh": "他一直到上周五才完成报告。", "ok": false, "note": "finish 是瞬间动词，不能持续到某点，表截止须用 by。" },
+          { "en": "The train will arrive in ten minutes.", "zh": "火车十分钟后到。", "ok": true, "note": "将来时 + 时间段，用 in 表示“多久之后”。" },
+          { "en": "The train will arrive after ten minutes.", "zh": "火车十分钟后到。", "ok": false, "note": "将来时表“在…之后”用 in + 时间段，after 多用于过去或后接从句。" },
+          { "en": "Wait here until I come back.", "zh": "在这里等到我回来。", "ok": true, "note": "until 表持续到终点，从句用一般现在时表将来。" },
+          { "en": "It has been raining for three hours.", "zh": "雨已经下了三个小时。", "ok": true, "note": "three hours 是时间长度，用 for 与完成时连用。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I have lived here since five years.", "right": "I have lived here for five years.", "why": "five years 是时间长度，since 后面必须是起点。" },
+          { "wrong": "Please hand in your essay until Friday.", "right": "Please hand in your essay by Friday.", "why": "hand in 是瞬间动作，无法持续到某点；截止用 by。" },
+          { "wrong": "He will come back after three days.", "right": "He will come back in three days.", "why": "将来时表“三天后”用 in + 时间段；after 后接时间段只在过去语境中成立。" }
+        ],
+        "contrast": { "withTitle": "时间介词 in/on/at 的边界", "diff": "in/on/at 按时间颗粒度选词，解决“用哪个介词定位时间”；这一组在同一颗粒度上比较起点、长度、截止与终点，解决“时间关系怎么算”。" },
+        "mnemonic": "since 记起点，for 记长度；by 是截止，until 是拖着走；in 管将来，after 管过去。"
+      },
+      "review": {
+        "core": [
+          "since + 起点，主句用完成时；for + 长度",
+          "by + 截止点，动作在此之前完成，常配完成时",
+          "until + 终点，谓语须延续；瞬间动词要用 not...until",
+          "in + 时间段用于将来，表“多久之后”",
+          "after 后接时间点或从句，多用于过去"
+        ],
+        "trigger": "看到完成时先查后面是点还是段 → 再看谓语是延续还是瞬间，决定 by 还是 until",
+        "quickCheck": [
+          { "q": "since 后面能接 three years 吗？", "a": "不能，three years 是长度，用 for。" },
+          { "q": "“直到午夜他才离开”怎么说？", "a": "He didn't leave until midnight，leave 是瞬间动词，须用否定式。" },
+          { "q": "“他三天后回来”用 in 还是 after？", "a": "用 in three days，将来时 + 时间段。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.prepositions.confusable-pairs.d1",
+          "type": "choice",
+          "stem": "She has been teaching at the school ___ 2018.",
+          "options": ["since", "for", "from", "in"],
+          "answer": "since",
+          "explain": "2018 是时间起点，主句用现在完成进行时，起点由 since 引出。",
+          "trap": "for 是最强干扰项：for 后面必须接时间长度，而 2018 是一个年份点。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.confusable-pairs.d2",
+          "type": "fill",
+          "stem": "The package must be delivered ___ Friday at the latest.",
+          "answer": "by",
+          "accept": ["by"],
+          "hint": "at the latest 提示这是一个截止时间。",
+          "explain": "deliver 是瞬间动作，不能持续到某点；表示“不迟于周五”这一截止时间用 by。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.confusable-pairs.d3",
+          "type": "correct",
+          "stem": "He has worked in this company since eight years.",
+          "answer": "He has worked in this company for eight years.",
+          "accept": ["He has worked in this company for eight years."],
+          "explain": "eight years 是时间长度，不是起点，须用 for；since 后面只能接 2018、last year 这类时间点。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.prepositions.confusable-pairs.d4",
+          "type": "choice",
+          "stem": "We will know the result ___ two weeks.",
+          "options": ["in", "after", "since", "for"],
+          "answer": "in",
+          "explain": "句子是将来时，two weeks 是时间段，表示“两周之后”用 in。",
+          "trap": "after 是最强干扰项：after + 时间段只在过去语境中成立，将来时须用 in。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.confusable-pairs.d5",
+          "type": "translate",
+          "stem": "直到午夜他才完成工作。",
+          "answer": "He didn't finish the work until midnight.",
+          "require": [["didn't finish", "did not finish"], ["until"]],
+          "forbid": ["finished the work until"],
+          "explain": "finish 是瞬间动词，与 until 连用时必须是否定结构 not...until，表示“直到…才”。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.prepositions.confusable-pairs.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "had", "finished", "the", "report", "by", "Friday."],
+          "answer": "He had finished the report by Friday.",
+          "explain": "by 表截止，动作在周五之前完成，与过去完成时搭配；若换成 until 则要求动作持续。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

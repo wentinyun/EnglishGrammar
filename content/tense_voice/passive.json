@@ -1,0 +1,1077 @@
+{
+  "level1": "tense_voice",
+  "chapter": "passive",
+  "items": [
+    {
+      "id": "tense_voice.passive.formation",
+      "title": "被动语态的构成与时态对应",
+      "brief": "be + 过去分词，时态全落在 be 上",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.verbs.four-forms", "morph.verbs.transitive-intransitive"],
+      "concept": {
+        "summary": "被动语态的公式是 be + 过去分词，时态、人称和数全部由 be 承担，过去分词的形式永远不变。它表达的不是时间关系而是语态关系：主语是动作的承受者而不是执行者，具体时间由 be 的形态给出。判断是否用被动，先看主语能不能发出谓语动作：能发出用主动，不能发出或无需点明执行者时才用被动。十六个时态中，四种完成进行时没有被动形式。",
+        "sections": [
+          {
+            "h": "公式拆解：两段各管一件事",
+            "p": "be 负责时态、人称和数，done 负责“被动”这一语义，两段互不干扰。因此只要会变 be，就会变所有时态的被动。",
+            "bullets": [
+              "一般现在：am/is/are + done",
+              "一般过去：was/were + done",
+              "含情态动词：must/can/should + be + done",
+              "被动句的疑问与否定都作用在 be 上：Is the room cleaned? / The room is not cleaned."
+            ]
+          },
+          {
+            "h": "十六时态的被动对应",
+            "p": "把十六个时态按 be 的形态排开，规律一目了然：进行体在 be 与 done 之间插入 being，完成体把 be 变成 been。四种完成进行时没有被动式，需要时改用对应的完成时被动。",
+            "bullets": [
+              "一般现在 is/are done：The office is cleaned every day.",
+              "一般过去 was/were done：The office was cleaned yesterday.",
+              "一般将来 will be done：The office will be cleaned tomorrow.",
+              "过去将来 would be done：He said the office would be cleaned.",
+              "现在进行 is/are being done：The office is being cleaned now.",
+              "过去进行 was/were being done：The office was being cleaned at nine.",
+              "现在完成 has/have been done：The office has been cleaned.",
+              "过去完成 had been done：The office had been cleaned before we arrived.",
+              "将来完成 will have been done：The office will have been cleaned by Friday.",
+              "过去将来完成 would have been done：He said it would have been cleaned by Friday.",
+              "将来进行 will be being done 与过去将来进行 would be being done 理论上成立，实际几乎不用，通常改用一般将来被动",
+              "现在完成进行、过去完成进行、将来完成进行、过去将来完成进行四种形式没有被动语态"
+            ]
+          },
+          {
+            "h": "非谓语与情态的被动",
+            "p": "被动不限于谓语。不定式、动名词作主语或宾语时同样有被动形式，且完成体在被动之前再加一层。这类结构在语法填空中出现频率很高。",
+            "bullets": [
+              "不定式一般式：The report is to be submitted on Monday.",
+              "不定式完成式：He seems to have been forgotten.",
+              "动名词：She hates being interrupted.",
+              "动名词完成式：He denied having been warned."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The letters are delivered every morning.", "zh": "这些信件每天早上送出。", "ok": true, "note": "一般现在时被动为 am/is/are + 过去分词，主语 letters 是动作承受者。" },
+          { "en": "The bridge was being repaired when we drove past.", "zh": "我们开车经过时，那座桥正在维修。", "ok": true, "note": "过去进行时被动为 was/were being done，being 表示动作正在进行。" },
+          { "en": "The results will be announced tomorrow.", "zh": "结果将于明天公布。", "ok": true, "note": "一般将来时被动为 will be done，be 以原形出现。" },
+          { "en": "The house has been sold twice since 2010.", "zh": "这栋房子自 2010 年以来已售出两次。", "ok": true, "note": "现在完成时被动为 have/has been done，been 承担完成义。" },
+          { "en": "All the documents must be checked before Friday.", "zh": "所有文件必须在周五前检查完毕。", "ok": true, "note": "情态动词后的被动是情态动词 + be + 过去分词。" },
+          { "en": "The problem is being looked into by the committee.", "zh": "这个问题正由委员会调查。", "ok": true, "note": "短语动词变被动时介词 into 必须保留，与动词构成整体。" },
+          { "en": "The bridge is repairing now.", "zh": "这座桥正在维修。", "ok": false, "note": "桥不能自己修自己，缺少 being 就变成主动进行时，应改为 is being repaired。" },
+          { "en": "The news has been announced yesterday.", "zh": "这个消息昨天已经公布了。", "ok": false, "note": "现在完成时不能与 yesterday 这类明确过去时间连用，应改为 was announced。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The room is cleaning by the maid.", "right": "The room is being cleaned by the maid.", "why": "进行时被动的结构是 be being done，缺掉 being 后 cleaning 变成主动分词，主语就成了动作执行者。" },
+          { "wrong": "The work will finished next week.", "right": "The work will be finished next week.", "why": "被动语态必须有 be，will 后面是 will be done；省掉 be 后 finished 无法独立作谓语。" },
+          { "wrong": "The car has been repaired by him last week.", "right": "The car was repaired by him last week.", "why": "现在完成时的参照点是现在，与 last week 这一明确过去时间冲突，须改用一般过去时被动。" }
+        ],
+        "contrast": { "withTitle": "被动语态的使用场景", "diff": "本知识点只解决“形式怎么写”，包括十六时态的 be 形态；什么时候该用被动由使用场景决定。" },
+        "mnemonic": "be 变时间，done 表被动；进行加 being，完成用 been。"
+      },
+      "review": {
+        "core": [
+          "公式：be + 过去分词，时态与人称全部由 be 承担",
+          "进行体被动：be being done；完成体被动：have/has been done",
+          "情态动词被动：情态动词 + be + done",
+          "四种完成进行时无被动，改用对应的完成时被动",
+          "非谓语被动：to be done、being done、having been done"
+        ],
+        "trigger": "看到主语是动作承受者 → 先定时态 → 把该时态的 be 写出来 → 再接过去分词",
+        "quickCheck": [
+          { "q": "现在进行时被动的结构？", "a": "am/is/are being done。" },
+          { "q": "will have done 的被动形式？", "a": "will have been done。" },
+          { "q": "有被动语态的完成进行时吗？", "a": "没有，四种完成进行时都没有被动形式。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.passive.formation.d1",
+          "type": "choice",
+          "stem": "A new gym ___ in our neighbourhood at the moment.",
+          "options": ["is being built", "is building", "has built", "builds"],
+          "answer": "is being built",
+          "explain": "at the moment 要求现在进行时，gym 是 build 的承受者，故用 is being built。",
+          "trap": "is building 是主动进行时，意为“体育馆正在建造别的东西”，与主语的角色冲突。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.formation.d2",
+          "type": "fill",
+          "stem": "By the end of last year, three bridges ___ (build) across the river.",
+          "answer": "had been built",
+          "accept": ["had been built"],
+          "hint": "by the end of last year 是过去完成时的典型标志。",
+          "explain": "参照点是去年年底，动作在该点之前完成且主语 bridges 是承受者，用过去完成时被动 had been built。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.formation.d3",
+          "type": "correct",
+          "stem": "The classroom is cleaning by the students on duty.",
+          "answer": "The classroom is being cleaned by the students on duty.",
+          "accept": ["The classroom is being cleaned by the students on duty."],
+          "explain": "教室是 clean 的承受者，现在进行时的被动必须写出 being：is being cleaned。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.formation.d4",
+          "type": "choice",
+          "stem": "The final decision ___ by the board tomorrow morning.",
+          "options": ["will be made", "will make", "is making", "has made"],
+          "answer": "will be made",
+          "explain": "tomorrow morning 指向将来，decision 是 make 的承受者，用一般将来时被动 will be made。",
+          "trap": "will make 是主动结构，后面不能再接 by the board，否则主语 decision 成了决定的发出者。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.formation.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "letter", "has", "been", "typed", "by", "the", "secretary."],
+          "answer": "The letter has been typed by the secretary.",
+          "explain": "现在完成时被动为 has been + 过去分词，by 引出执行者 the secretary。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.passive.formation.d6",
+          "type": "translate",
+          "stem": "学校正在修建一座新图书馆。",
+          "answer": "A new library is being built in our school.",
+          "require": [["is being built"], ["library"]],
+          "forbid": ["is building", "is built in our school", "has been built in our school"],
+          "explain": "图书馆是 build 的承受者，正在修建用现在进行时被动 is being built。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.passive.usage",
+      "title": "被动语态的使用场景",
+      "brief": "执行者未知、不言自明或需突出承受者时用被动",
+      "difficulty": 2,
+      "tags": ["基础", "写作"],
+      "prereq": ["tense_voice.passive.formation"],
+      "concept": {
+        "summary": "被动语态在四种情形下取代主动：执行者未知、执行者不言自明、执行者不重要而承受者需要前置、以及为使句子衔接顺畅而调整信息起点。学术与说明性写作中，被动用于客观陈述，避免通篇出现 I 与 we。被动不是主动句的随意替换，执行者明确且是信息重点时，主动句更自然。",
+        "sections": [
+          {
+            "h": "四种典型场景",
+            "p": "四类场景的共同点是：把动作承受者放在句首更符合交际需要。判断时可以问一句“这句话的重点是人还是事”。",
+            "bullets": [
+              "执行者未知：My bike was stolen last night.",
+              "执行者不言自明：He was arrested yesterday.（当然是警察）",
+              "突出承受者：The statue was carved from a single block of marble.",
+              "衔接上文：The plan was rejected, which surprised everyone."
+            ]
+          },
+          {
+            "h": "语篇功能",
+            "p": "学术写作的方法与结果部分大量使用被动，因为论证对象应当是信息起点，而不是研究者本人。但被动句连续出现会让行文失去施动感，执行者重要时必须改回主动。",
+            "bullets": [
+              "The samples were examined under a microscope.（方法陈述）",
+              "It is generally believed that...（引述共识，回避具体来源）",
+              "执行者是重点时应写 Tom wrote the letter，而不是 The letter was written by Tom."
+            ]
+          },
+          {
+            "h": "被动句的三个附带变化",
+            "p": "改用被动会牵动句子其他成分：原宾语升为主语，原主语可省略或移入 by 短语，感官动词与使役动词后的不定式还要补回 to。这三点决定了被动句不能机械转换。",
+            "bullets": [
+              "原宾语变主语，原主语可省略或放入 by 短语",
+              "感官动词与使役动词的被动要还原不定式符号 to：He was seen to enter.",
+              "双宾语动词有两种被动选择，详见双宾语知识点"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "My wallet was stolen on the bus.", "zh": "我的钱包在公交车上被偷了。", "ok": true, "note": "执行者未知，被动句把承受者 wallet 放在句首。" },
+          { "en": "English is spoken in more than seventy countries.", "zh": "七十多个国家讲英语。", "ok": true, "note": "执行者泛泛而指，无需点明，用被动更简洁。" },
+          { "en": "The samples were examined under a microscope.", "zh": "样本在显微镜下被检验。", "ok": true, "note": "学术陈述强调样本与操作，执行者不重要，用被动。" },
+          { "en": "The old theatre was pulled down last year.", "zh": "那座老剧院去年被拆除了。", "ok": true, "note": "拆除者无关紧要，信息焦点在剧院本身。" },
+          { "en": "The accident was happened at midnight.", "zh": "事故发生在午夜。", "ok": false, "note": "happen 是不及物动词，没有宾语可提作主语，不能构成被动，应改为 happened。" },
+          { "en": "He was seen enter the room.", "zh": "有人看见他进了那个房间。", "ok": false, "note": "感官动词变被动后，原来省略的 to 必须还原，应改为 was seen to enter。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The accident was occurred near the station.", "right": "The accident occurred near the station.", "why": "occur 是不及物动词，主动句没有宾语，被动句缺少可提作主语的对象。" },
+          { "wrong": "The child was made clean the room.", "right": "The child was made to clean the room.", "why": "make 的主动式省略 to，变被动后不定式符号 to 必须还原，这是使役动词的固定变化。" },
+          { "wrong": "The new policy will be took effect next month.", "right": "The new policy will take effect next month.", "why": "take effect 是不及物短语，主语就是动作的发出者，没有被动形式。" }
+        ],
+        "contrast": { "withTitle": "主动形式表被动意义", "diff": "本知识点是“该用被动时怎么用”，主动表被动是“形式上主动、语义上被动”的固定结构，两者方向相反。" },
+        "mnemonic": "不知谁说、不必说谁、要说的事更重要——三种场合用被动。"
+      },
+      "review": {
+        "core": [
+          "四类场景：执行者未知、不言自明、不重要、需调整信息焦点",
+          "学术写作中被动用于客观陈述，但不能通篇使用",
+          "执行者明确且是重点时，主动句更自然",
+          "感官与使役动词变被动要还原 to：be seen to do / be made to do",
+          "不及物动词没有宾语，无法构成被动"
+        ],
+        "trigger": "想用被动前先问“动作是谁做的、这个信息重要吗” → 不重要才用被动",
+        "quickCheck": [
+          { "q": "事故用英语说 happen 还是 be happened？", "a": "happen，不及物动词无被动。" },
+          { "q": "有人看见他离开怎么说？", "a": "He was seen to leave." },
+          { "q": "被动句什么时候显得啰嗦？", "a": "执行者明确且是信息重点时，如 The letter was written by Tom。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.passive.usage.d1",
+          "type": "choice",
+          "stem": "Thousands of trees ___ along the riverbank last spring.",
+          "options": ["were planted", "planted", "were planting", "have planted"],
+          "answer": "were planted",
+          "explain": "树是 plant 的承受者，last spring 要求一般过去时，故用 were planted。",
+          "trap": "were planting 是主动进行时，主语变成“正在种树的执行者”，与 trees 的角色不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.usage.d2",
+          "type": "fill",
+          "stem": "The suspect ___ (arrest) shortly after the robbery.",
+          "answer": "was arrested",
+          "accept": ["was arrested"],
+          "hint": "嫌疑人不会自己逮捕自己。",
+          "explain": "suspect 是 arrest 的承受者，shortly after the robbery 指向过去，用一般过去时被动 was arrested。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.usage.d3",
+          "type": "correct",
+          "stem": "The terrible accident was happened at the crossroads.",
+          "answer": "The terrible accident happened at the crossroads.",
+          "accept": ["The terrible accident happened at the crossroads."],
+          "explain": "happen 是不及物动词，主动句没有宾语，因此不能变被动，直接用过去式 happened。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.usage.d4",
+          "type": "choice",
+          "stem": "The children were made ___ the whole classroom after school.",
+          "options": ["to clean", "clean", "cleaning", "cleaned"],
+          "answer": "to clean",
+          "explain": "make 的主动式接不带 to 的不定式，变为被动后必须还原 to，构成 be made to do。",
+          "trap": "clean 是主动式的形式，学生常把它直接搬进被动句，忽略 to 的还原。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.usage.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "old", "bridge", "was", "pulled", "down", "last", "year."],
+          "answer": "The old bridge was pulled down last year.",
+          "explain": "pull down 是短语动词，变被动时 down 必须保留；last year 决定用一般过去时。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.usage.d6",
+          "type": "translate",
+          "stem": "这座桥建于三百年前。",
+          "answer": "The bridge was built three hundred years ago.",
+          "require": [["was built"], ["three hundred years ago"]],
+          "forbid": ["was build", "is built three hundred years ago", "has been built three hundred years ago"],
+          "explain": "桥是 build 的承受者，three hundred years ago 是明确过去时间，用一般过去时被动 was built。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.passive.double-object",
+      "title": "双宾语动词的两种被动形式",
+      "brief": "间接宾语作主语更常见，直接宾语前置要补介词",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["tense_voice.passive.formation"],
+      "concept": {
+        "summary": "带双宾语的动词变被动时有两种选择：把间接宾语（人）提作主语，保留直接宾语，这是最自然的形式；或把直接宾语（物）提作主语，间接宾语前补介词 to 或 for。选择取决于信息焦点，但介词不能丢。to 类动词表示传递方向，for 类动词表示替谁做，两类不能混用。",
+        "sections": [
+          {
+            "h": "两种转换路径",
+            "p": "主动句 give sb sth 中有两个宾语，任选其一作主语都能构成合法的被动句。第一种最常用，因为人通常是有定指的信息；第二种把物前置，常用于强调物本身。",
+            "bullets": [
+              "They gave him a medal. → He was given a medal. / A medal was given to him.",
+              "She sent me a parcel. → I was sent a parcel. / A parcel was sent to me.",
+              "The teacher showed us the results. → We were shown the results. / The results were shown to us."
+            ]
+          },
+          {
+            "h": "to 类与 for 类的分工",
+            "p": "直接宾语前置时，间接宾语必须带介词。判断方法是还原主动句：动作有明确传递方向、东西从一方到另一方，用 to；动作是替某人做、为其提供服务的，用 for。",
+            "bullets": [
+              "to 类：give, send, show, tell, offer, lend, pay, promise, teach, hand, pass, award",
+              "for 类：buy, get, make, cook, fetch, order, spare, book",
+              "对比：A medal was given to him. / A new bike was bought for her."
+            ]
+          },
+          {
+            "h": "不能转换的动词",
+            "p": "并非所有带双宾语的动词都能双路转换。explain, suggest, announce, describe 只能使用“动词 + 直接宾语 + to sb”的结构，没有 give 那样的双宾被动。",
+            "bullets": [
+              "explain sth to sb：The rule was explained to us.",
+              "× He was explained the rule.；× The teacher explained us the rule.",
+              "suggest 不能接双宾语：× suggest me a plan，应说 suggest a plan to me"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He was given a second chance.", "zh": "他得到了第二次机会。", "ok": true, "note": "间接宾语 he 提作主语，直接宾语 a second chance 原位保留，是最常用的形式。" },
+          { "en": "A second chance was given to him.", "zh": "第二次机会给了他。", "ok": true, "note": "直接宾语前置时，间接宾语前必须补介词 to。" },
+          { "en": "A new bike was bought for her by her uncle.", "zh": "她叔叔给她买了一辆新自行车。", "ok": true, "note": "buy 属 for 类动词，直接宾语前置时用 for 引出受益者。" },
+          { "en": "The students were shown how to use the microscope.", "zh": "学生们被演示了如何使用显微镜。", "ok": true, "note": "show 的间接宾语提作主语，直接宾语为 how 引导的从句。" },
+          { "en": "A medal was given him for his bravery.", "zh": "他因勇敢而获得一枚奖章。", "ok": false, "note": "直接宾语前置后，间接宾语必须带 to，应改为 was given to him。" },
+          { "en": "A new coat was bought to me by my mother.", "zh": "我妈妈给我买了一件新外套。", "ok": false, "note": "buy 表“替谁买”，介词用 for，应改为 bought for me。" },
+          { "en": "He was explained the rule by the teacher.", "zh": "老师给他解释了这条规则。", "ok": false, "note": "explain 不能接双宾语，被动只能把直接宾语提作主语：The rule was explained to him." }
+        ],
+        "pitfalls": [
+          { "wrong": "The prize was awarded him by the committee.", "right": "The prize was awarded to him by the committee.", "why": "award 属 to 类动词，直接宾语前置时间接宾语必须带 to，不能像主动句那样直接跟人。" },
+          { "wrong": "A birthday cake was made to me by my sister.", "right": "A birthday cake was made for me by my sister.", "why": "make 表“替某人做”，受益者用 for 引出；to 表示传递方向，与“替做”语义不符。" },
+          { "wrong": "The teacher explained us the rule.", "right": "The teacher explained the rule to us.", "why": "explain 不能带双宾语，只能构成 explain sth to sb，因此也没有“人被解释”这种被动。" }
+        ],
+        "contrast": { "withTitle": "被动语态的构成与时态对应", "diff": "构成知识点处理单宾语的被动公式；双宾语要额外决定哪个宾语作主语，以及直接宾语前置时补哪个介词。" },
+        "mnemonic": "人作主语最自然，物作主语补介词；给出去用 to，替你做用 for。"
+      },
+      "review": {
+        "core": [
+          "两种被动：间接宾语作主语（更常用）、直接宾语作主语（补介词）",
+          "to 类：give, send, show, tell, offer, lend, pay, promise, teach, award",
+          "for 类：buy, get, make, cook, fetch, order, book",
+          "直接宾语前置时介词绝不能省",
+          "explain / suggest / announce 不能接双宾语，只能 explain sth to sb"
+        ],
+        "trigger": "看到 give / send / buy / offer 等双宾动词变被动 → 先定谁作主语 → 物作主语时立刻补 to 或 for",
+        "quickCheck": [
+          { "q": "They gave him a medal. 的两种被动？", "a": "He was given a medal. / A medal was given to him." },
+          { "q": "buy 的被动用 to 还是 for？", "a": "for，如 A bike was bought for her." },
+          { "q": "He was explained the rule. 对吗？", "a": "不对，应说 The rule was explained to him." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.passive.double-object.d1",
+          "type": "choice",
+          "stem": "When the results came out, she ___ a full scholarship.",
+          "options": ["was offered", "was offered to", "offered", "has offered"],
+          "answer": "was offered",
+          "explain": "offer 可带双宾语，间接宾语 she 提作主语后直接接直接宾语 a full scholarship，不需要介词。",
+          "trap": "was offered to 把间接宾语作主语与直接宾语前置两种结构混在一起，to 在此没有位置。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.double-object.d2",
+          "type": "fill",
+          "stem": "A parcel ___ (send) to him last week.",
+          "answer": "was sent",
+          "accept": ["was sent"],
+          "hint": "主语是 parcel，动作发生在 last week。",
+          "explain": "直接宾语 a parcel 提作主语，间接宾语前保留 to；last week 决定用一般过去时被动 was sent。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.double-object.d3",
+          "type": "correct",
+          "stem": "A beautiful dress was bought to her by her father.",
+          "answer": "A beautiful dress was bought for her by her father.",
+          "accept": ["A beautiful dress was bought for her by her father."],
+          "explain": "buy 表示“替某人买”，受益者用 for 引出；to 只用于表示传递方向的动词。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.double-object.d4",
+          "type": "choice",
+          "stem": "The rules of the game ___ to the new players before the match.",
+          "options": ["were explained", "were explained them", "explained", "were explaining"],
+          "answer": "were explained",
+          "explain": "explain 只能构成 explain sth to sb，被动时把直接宾语 the rules 提作主语，保留 to the new players。",
+          "trap": "were explained them 试图照 give 的双宾被动类推，但 explain 根本不带双宾语。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.double-object.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "was", "given", "a", "second", "chance", "by", "the", "coach."],
+          "answer": "He was given a second chance by the coach.",
+          "explain": "give 的间接宾语 he 提作主语，直接宾语 a second chance 原位保留，by 引出执行者。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.double-object.d6",
+          "type": "translate",
+          "stem": "有人给了她一张去巴黎的机票。",
+          "answer": "She was given a ticket to Paris.",
+          "require": [["was given"], ["ticket"]],
+          "forbid": ["was gave", "gave to her a ticket"],
+          "explain": "give 的间接宾语 she 提作主语，直接宾语 a ticket to Paris 紧随其后，不需要再加 to her。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.passive.phrasal-verbs",
+      "title": "短语动词的被动语态",
+      "brief": "短语是整体，介词副词不能丢",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["tense_voice.passive.formation"],
+      "concept": {
+        "summary": "短语动词由动词加介词或副词构成，语义上是单一动词，变被动时整条短语一起保留，介词或副词必须留在过去分词之后。判断方法很直接：把主动句的宾语提作主语，短语中除动词以外的部分原地不动。三段式短语动词同样整体保留，介词后接名词或动名词。",
+        "sections": [
+          {
+            "h": "两类短语动词",
+            "p": "动词加介词与动词加副词在被动中表现一致：整个短语都要保留。二者的区别只在语法分析上，被动转换的操作相同。",
+            "bullets": [
+              "动词 + 介词：look after, deal with, depend on, listen to, laugh at, pay for",
+              "动词 + 副词：turn down, put off, carry out, give up, find out, take over",
+              "例句：The children are well looked after. / The meeting has been put off."
+            ]
+          },
+          {
+            "h": "删掉介词的三种后果",
+            "p": "去掉介词或副词后，剩下的动词往往变成不及物动词或改变词义，句子随之崩塌。这是短语动词被动最高频的失分点。",
+            "bullets": [
+              "× The children are well looked. → looked after（look 单独不带宾语）",
+              "× The meeting has been put. → put off（put 单独意为“放置”）",
+              "× The problem will be dealt. → dealt with（deal 单独不及物）"
+            ]
+          },
+          {
+            "h": "三段式与名词宾语短语",
+            "p": "三段式短语动词（动词 + 副词 + 介词）在被动中原样保留，不能拆开。以“动词 + 名词 + 介词”构成的固定搭配，被动时名词提作主语，动词与介词分开但都保留。",
+            "bullets": [
+              "put up with：Such behaviour will not be put up with.",
+              "look forward to：The trip is looked forward to by the children.",
+              "pay attention to：Attention should be paid to safety.",
+              "make use of：Full use is made of the existing equipment."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The old man is taken good care of by his neighbours.", "zh": "这位老人由邻居们悉心照顾。", "ok": true, "note": "take good care of 是固定搭配，被动时 of 必须保留。" },
+          { "en": "The sports meeting has been put off until next Friday.", "zh": "运动会已推迟到下周五。", "ok": true, "note": "put off 的副词 off 是短语的一部分，被动中不能省略。" },
+          { "en": "Such behaviour will not be put up with.", "zh": "这种行为不会被容忍。", "ok": true, "note": "三段式短语 put up with 整体保留，up 与 with 都不能丢。" },
+          { "en": "The new rules were soon put into practice.", "zh": "新规定很快就付诸实施。", "ok": true, "note": "put into practice 是固定短语，被动中 into practice 完整保留。" },
+          { "en": "The children are well looked by their grandmother.", "zh": "孩子们由祖母照顾得很好。", "ok": false, "note": "look 单独使用不带宾语，必须保留 after，改为 looked after。" },
+          { "en": "The meeting has been put until next Monday.", "zh": "会议已推迟到下周一。", "ok": false, "note": "缺少副词 off 后 put 只表示“放置”，无法表达“推迟”，应改为 put off。" },
+          { "en": "The plan was carried without any difficulty.", "zh": "这个计划毫无困难地实施了。", "ok": false, "note": "carry 单独意为“搬运”，表“实施”必须用 carry out，被动中 out 不能丢。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The baby is looked by her aunt.", "right": "The baby is looked after by her aunt.", "why": "look 是不及物动词，只有 look after 这一整体才带宾语，被动中 after 属于短语的组成部分。" },
+          { "wrong": "The match was put because of the rain.", "right": "The match was put off because of the rain.", "why": "put off 的 off 承载“推迟”这一语义，删掉后 put 退回“放置”，句义完全改变。" },
+          { "wrong": "The problem will be dealt next week.", "right": "The problem will be dealt with next week.", "why": "deal 单独使用是不及物动词，只有 deal with 才及物，被动必须保留 with 才能接住主语。" }
+        ],
+        "contrast": { "withTitle": "双宾语动词的两种被动形式", "diff": "双宾语要决定哪个宾语作主语并补介词；短语动词没有选择余地，介词或副词必须原样保留。" },
+        "mnemonic": "短语是整体，动词变被动，介词原地站。"
+      },
+      "review": {
+        "core": [
+          "短语动词变被动时整条短语一起保留",
+          "look after / deal with / depend on / pay for 的介词不能删",
+          "put off / carry out / turn down 的副词不能删",
+          "三段式 put up with、look forward to 整体保留",
+          "名词宾语短语被动时把名词提作主语：attention is paid to"
+        ],
+        "trigger": "看到句子以介词或副词结尾的被动句 → 回查主动短语是否完整",
+        "quickCheck": [
+          { "q": "“孩子被照顾”怎么说？", "a": "The child is looked after." },
+          { "q": "put off 的被动能只写 put 吗？", "a": "不能，off 必须保留。" },
+          { "q": "deal with 的被动形式？", "a": "be dealt with。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.passive.phrasal-verbs.d1",
+          "type": "choice",
+          "stem": "The patient ___ by two experienced nurses around the clock.",
+          "options": ["is looked after", "is looked", "looks after", "is looking after"],
+          "answer": "is looked after",
+          "explain": "look after 是及物短语动词，变被动时 after 必须保留，构成 is looked after。",
+          "trap": "is looked 删掉了 after，look 单独不带宾语，句子失去及物性。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.phrasal-verbs.d2",
+          "type": "fill",
+          "stem": "The wedding has ___ (put off) twice this year.",
+          "answer": "been put off",
+          "accept": ["been put off"],
+          "hint": "has 后面需要完成时的被动，短语动词整体保留。",
+          "explain": "现在完成时被动为 has been + 过去分词，put off 作为整体保留，构成 has been put off。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.phrasal-verbs.d3",
+          "type": "correct",
+          "stem": "The children were well taken care by their grandfather.",
+          "answer": "The children were well taken care of by their grandfather.",
+          "accept": ["The children were well taken care of by their grandfather."],
+          "explain": "take care of 是固定搭配，被动时 of 必须保留，否则 care 无法与主语 children 建立受动关系。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.phrasal-verbs.d4",
+          "type": "choice",
+          "stem": "Such rude behaviour cannot be put ___.",
+          "options": ["up with", "off", "on", "out"],
+          "answer": "up with",
+          "explain": "put up with 意为“容忍”，是三段式短语动词，被动时 up 与 with 都要保留。",
+          "trap": "put off 意为“推迟”，put on 意为“穿上”，语义与“容忍”完全不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.phrasal-verbs.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "plan", "was", "carried", "out", "without", "any", "difficulty."],
+          "answer": "The plan was carried out without any difficulty.",
+          "explain": "carry out 是及物短语动词，被动时 out 必须紧跟 carried，构成 was carried out。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.phrasal-verbs.d6",
+          "type": "translate",
+          "stem": "这位老人由他的邻居们照顾。",
+          "answer": "The old man is looked after by his neighbours.",
+          "require": [["looked after"], ["neighbours", "neighbors"]],
+          "forbid": ["looked by", "is looked for by", "looked after for"],
+          "explain": "look after 是及物短语动词，被动时必须完整保留 after，执行者由 by 引出。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.passive.active-form",
+      "title": "主动形式表被动意义",
+      "brief": "三类主动形式表被动的固定结构",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["morph.verbs.transitive-intransitive"],
+      "concept": {
+        "summary": "部分动词用主动形式表达被动意义，依据是主语本身的属性而非动作过程。三类高频结构：一是 sell, read, write, wash, wear, cut, drive 等与 well, easily, smoothly 等副词连用，说明主语的固有属性；二是 need, want, require, deserve 后接动名词，动名词主动形式表被动；三是 be worth doing 与 be to blame 等固定结构。这些结构一旦改成被动，语义或搭配就会出错。",
+        "sections": [
+          {
+            "h": "属性类：动词 + 副词",
+            "p": "这类句子谈的是商品、材料、文字本身好不好卖、好不好读，动作并没有具体的执行者，因此用主动形式加状语。状语是必需品，没有状语的句子不成立。",
+            "bullets": [
+              "This kind of cloth washes well.（这种布耐洗）",
+              "The book sells well in Europe.",
+              "The pen writes smoothly.",
+              "The door opens easily."
+            ]
+          },
+          {
+            "h": "need / want / require + doing",
+            "p": "这四个动词后接动名词时，动名词与主语构成被动关系，但形式必须用主动。等号右边是 to be done，两者可互换，但不能写成 being done。",
+            "bullets": [
+              "The room needs cleaning. = The room needs to be cleaned.",
+              "The car wants repairing.",
+              "These plants require watering daily.",
+              "× The room needs being cleaned."
+            ]
+          },
+          {
+            "h": "固定结构",
+            "p": "be worth doing 与 be to blame 是固定搭配，主动形式自带被动义，不能按语义改成被动或不定式。",
+            "bullets": [
+              "The film is well worth seeing.",
+              "He is to blame for the delay.",
+              "The house is to let.（此房出租）",
+              "× The film is worth to see.；× He is to be blamed."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "This type of cotton washes well and does not shrink.", "zh": "这种棉布耐洗且不缩水。", "ok": true, "note": "wash 与副词 well 连用，说明布料属性，用主动形式表被动意义。" },
+          { "en": "The novel sold millions of copies in its first year.", "zh": "这部小说第一年就卖出了数百万册。", "ok": true, "note": "sell 表销路时用主动形式，后接具体销量。" },
+          { "en": "The windows need cleaning before the guests arrive.", "zh": "客人来之前窗户需要擦一擦。", "ok": true, "note": "need 后接动名词，cleaning 与主语 windows 是被动关系，但形式为主动。" },
+          { "en": "The exhibition is well worth visiting.", "zh": "这个展览很值得一看。", "ok": true, "note": "be worth doing 是固定结构，动名词主动形式表被动。" },
+          { "en": "Nobody is to blame for the delay.", "zh": "这次延误谁也不该受责备。", "ok": true, "note": "be to blame 用主动不定式表被动，是固定表达。" },
+          { "en": "The book is sold well in this region.", "zh": "这本书在这个地区销路很好。", "ok": false, "note": "说明销路属性时用主动形式 sells well，被动只用于“被售出”这一具体事件。" },
+          { "en": "The room needs being cleaned.", "zh": "这个房间需要打扫了。", "ok": false, "note": "need 后接动名词时用主动形式 cleaning，being done 在该结构中没有位置。" },
+          { "en": "The film is worth to see.", "zh": "这部电影值得一看。", "ok": false, "note": "worth 后只接动名词，应改为 worth seeing。" }
+        ],
+        "pitfalls": [
+          { "wrong": "This new phone is sold well.", "right": "This new phone sells well.", "why": "说明商品本身的销路属性时用主动加副词；被动 is sold 只陈述“被卖掉”这一事件，不能带 well 表属性。" },
+          { "wrong": "The machine needs being repaired.", "right": "The machine needs repairing.", "why": "need 后接动名词时，动名词主动形式即表被动意义，being done 与这一结构不相容。" },
+          { "wrong": "The question is worth to discuss.", "right": "The question is worth discussing.", "why": "worth 是介词性形容词，后接动名词；不定式不能作 worth 的宾语。" }
+        ],
+        "contrast": { "withTitle": "被动语态的使用场景", "diff": "使用场景讲“该用被动时怎么用”；主动表被动是形式为主、意义为被的固定结构，形式上根本不用 be done。" },
+        "mnemonic": "卖得好、读得顺，主动加副词；need 加 doing，worth 加 doing。"
+      },
+      "review": {
+        "core": [
+          "属性类：sell / read / write / wash / wear / cut + well, easily 等副词",
+          "need / want / require / deserve + doing，等于 to be done",
+          "be worth doing 后只接动名词",
+          "be to blame、be to let 用主动不定式表被动",
+          "这些结构改成 be done 会破坏语义或搭配"
+        ],
+        "trigger": "看到物作主语 + 性质类动词 + 副词 → 用主动形式，不要加 be done",
+        "quickCheck": [
+          { "q": "“这本书很畅销”怎么说？", "a": "The book sells well." },
+          { "q": "need 后面接 cleaning 还是 being cleaned？", "a": "cleaning。" },
+          { "q": "worth 后接什么形式？", "a": "动名词，如 worth seeing。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.passive.active-form.d1",
+          "type": "choice",
+          "stem": "This kind of silk ___ easily, so it is popular among travellers.",
+          "options": ["washes", "is washed", "is washing", "has washed"],
+          "answer": "washes",
+          "explain": "主语 silk 与 wash 是被动关系，但说明布料属性时用主动形式加副词 easily，构成 washes easily。",
+          "trap": "is washed 把属性陈述变成具体事件，且 easily 无法修饰“被洗”这一被动动作。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.active-form.d2",
+          "type": "fill",
+          "stem": "The museum is well worth ___ (visit).",
+          "answer": "visiting",
+          "accept": ["visiting"],
+          "hint": "worth 后接什么形式？",
+          "explain": "be worth doing 是固定结构，worth 后只能接动名词，且动名词主动形式表被动意义。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.active-form.d3",
+          "type": "correct",
+          "stem": "The room needs being cleaned before the guests arrive.",
+          "answer": "The room needs cleaning before the guests arrive.",
+          "accept": ["The room needs cleaning before the guests arrive."],
+          "explain": "need 后接动名词时，主动形式 cleaning 已表被动意义，不能用 being done 形式。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.active-form.d4",
+          "type": "choice",
+          "stem": "The novel ___ well because its plot is tightly constructed.",
+          "options": ["reads", "is read", "is reading", "has read"],
+          "answer": "reads",
+          "explain": "read 与 well 连用说明作品的阅读体验，属于属性陈述，用主动形式 reads well。",
+          "trap": "is read 是“被阅读”的事件陈述，与 well 搭配时不表示作品本身可读性高。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.active-form.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["This", "kind", "of", "cloth", "washes", "well", "and", "lasts", "long."],
+          "answer": "This kind of cloth washes well and lasts long.",
+          "explain": "wash 与 last 都陈述布料属性，用主动形式加状语，不构成被动。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.active-form.d6",
+          "type": "translate",
+          "stem": "这部电影很值得看。",
+          "answer": "The film is well worth seeing.",
+          "require": [["worth seeing"]],
+          "forbid": ["worth to see", "worth being seen", "worth to be seen"],
+          "explain": "be worth doing 中动名词主动形式表被动意义，不能换成不定式或被动动名词。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.passive.no-passive-verbs",
+      "title": "不能用被动语态的动词",
+      "brief": "不及物动词没有宾语可提作主语",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.verbs.transitive-intransitive", "tense_voice.passive.formation"],
+      "concept": {
+        "summary": "被动语态要求主动句有宾语可以提作主语，因此不及物动词不能变被动。高频不及物动词包括 happen, occur, appear, disappear, arrive, rise, break out, belong to, consist of, last, matter。部分动词既及物又不及物，只有及物义可被动；系动词与表状态的 belong to, resemble 也没有被动。判断标准只有一条：这个动词在该义项下能不能带宾语。",
+        "sections": [
+          {
+            "h": "纯不及物：没有宾语可提",
+            "p": "这类动词的主动句只有主语，被动转换缺少必要的宾语成分，形式上无法成立。汉语里“事故发生”听起来像被动，直接迁移就会出错。",
+            "bullets": [
+              "happen：The accident happened at midnight.（× was happened）",
+              "break out：The war broke out in 1937.（× was broken out）",
+              "rise：Prices rose sharply.（× were risen）",
+              "arrive / appear / disappear：He arrived late.（× was arrived）"
+            ]
+          },
+          {
+            "h": "两栖动词：看是否带宾语",
+            "p": "同一动词在不同义项下及物性不同，被动只在及物义项成立。判断时先看句中是否出现宾语，再看该义项是否需要宾语。",
+            "bullets": [
+              "run：He runs a small bookshop. → A small bookshop is run by him.（及物）",
+              "run：He runs fast every morning.（不及物，无被动）",
+              "last：The meeting lasted two hours.（不及物）/ They lasted the winter out.（及物）",
+              "close：The shop closed at nine.（不及物）/ The manager closed the shop. → The shop was closed by the manager.（及物）"
+            ]
+          },
+          {
+            "h": "状态类短语",
+            "p": "belong to, consist of, resemble, lack, suit, fit 表示状态或所属关系，没有动作过程，因此没有被动。这类短语在改错题中出现频率极高。",
+            "bullets": [
+              "This land belongs to the local government.",
+              "The committee consists of nine members.",
+              "She resembles her mother.",
+              "The key fits the lock."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The fire broke out in the warehouse at about ten.", "zh": "大火大约十点在仓库烧起来。", "ok": true, "note": "break out 是不及物短语，只有主动形式，无被动。" },
+          { "en": "Such mistakes occur when nobody checks the figures.", "zh": "没人核对数字时就会出现这类错误。", "ok": true, "note": "occur 是不及物动词，不能变被动。" },
+          { "en": "This land belongs to the local government.", "zh": "这块土地属于当地政府。", "ok": true, "note": "belong to 表所属状态，只用主动形式。" },
+          { "en": "The committee consists of nine members.", "zh": "委员会由九名成员组成。", "ok": true, "note": "consist of 是状态性短语，没有被动语态。" },
+          { "en": "The accident was happened on the highway.", "zh": "事故发生在高速公路上。", "ok": false, "note": "happen 是不及物动词，没有宾语可提作主语，应改为 happened。" },
+          { "en": "The war was broken out in 1937.", "zh": "战争于 1937 年爆发。", "ok": false, "note": "break out 是不及物短语，不能构成被动，应改为 broke out。" },
+          { "en": "This dictionary is belonged to the library.", "zh": "这本词典属于图书馆。", "ok": false, "note": "belong to 表所属关系，没有被动形式，应改为 belongs to。" },
+          { "en": "A small bookshop was run by her grandmother for thirty years.", "zh": "一家小书店由她祖母经营了三十年。", "ok": true, "note": "run 作“经营”讲是及物动词，可构成被动，与作“跑”讲的不及物用法不同。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The earthquake was occurred in the early morning.", "right": "The earthquake occurred in the early morning.", "why": "occur 是不及物动词，主动句没有宾语，被动句缺少可提作主语的对象。" },
+          { "wrong": "The team is consisted of five members.", "right": "The team consists of five members.", "why": "consist of 表示构成状态而非动作过程，只有主动形式。" },
+          { "wrong": "This bag is belonged to my sister.", "right": "This bag belongs to my sister.", "why": "belong to 表所属关系，是状态性短语，不能变被动。" }
+        ],
+        "contrast": { "withTitle": "主动形式表被动意义", "diff": "本知识点是“结构上根本无法被动”，主动表被动是“结构上可以被动但习惯用主动”，前者是合法性限制，后者是表达选择。" },
+        "mnemonic": "发生爆发属于组成，全都不带宾语，也就没有被动。"
+      },
+      "review": {
+        "core": [
+          "被动的前提是有宾语可提作主语，不及物动词不满足",
+          "高频不及物：happen, occur, appear, disappear, arrive, rise, break out, last",
+          "状态短语：belong to, consist of, resemble, lack, suit, fit",
+          "两栖动词看义项：run a shop 可被动，run fast 不可",
+          "汉语的“被发生”是迁移错误，英语只说 happened"
+        ],
+        "trigger": "要写被动句前先问“主动句的宾语在哪” → 找不到宾语就不能用被动",
+        "quickCheck": [
+          { "q": "happen 有被动形式吗？", "a": "没有，用 happened。" },
+          { "q": "consist of 的被动？", "a": "没有被动，只能用 consists of。" },
+          { "q": "run 能变被动吗？", "a": "作“经营”讲可被动，作“跑”讲不可。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.passive.no-passive-verbs.d1",
+          "type": "choice",
+          "stem": "The heavy rain ___ for three days before the flood came.",
+          "options": ["had lasted", "had been lasted", "was lasted", "has been lasted"],
+          "answer": "had lasted",
+          "explain": "last 表示持续时间，是不及物动词，没有被动形式；before the flood came 决定用过去完成时 had lasted。",
+          "trap": "had been lasted 误把不及物动词当成及物动词处理，被动结构缺少宾语基础。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.no-passive-verbs.d2",
+          "type": "fill",
+          "stem": "The quarrel ___ (break out) just as the meeting was ending.",
+          "answer": "broke out",
+          "accept": ["broke out"],
+          "hint": "break out 是不及物短语。",
+          "explain": "break out 表示“突然爆发”，是不及物短语，只有主动形式，此处用一般过去时 broke out。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.no-passive-verbs.d3",
+          "type": "correct",
+          "stem": "The accident was occurred at the crossing near the school.",
+          "answer": "The accident occurred at the crossing near the school.",
+          "accept": ["The accident occurred at the crossing near the school."],
+          "explain": "occur 是不及物动词，主动句没有宾语，无法构成被动，直接用过去式 occurred。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.no-passive-verbs.d4",
+          "type": "choice",
+          "stem": "This ancient temple ___ the local cultural bureau.",
+          "options": ["belongs to", "is belonged to", "is belonging to", "belonged by"],
+          "answer": "belongs to",
+          "explain": "belong to 表示所属状态，只用主动形式且通常不用进行体，主语单数故用 belongs to。",
+          "trap": "is belonged to 把状态短语当成动作动词变被动，英语中不存在这一形式。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.no-passive-verbs.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "committee", "consists", "of", "nine", "members."],
+          "answer": "The committee consists of nine members.",
+          "explain": "consist of 是状态性短语，只有主动形式；主语 committee 为单数，谓语用 consists。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.passive.no-passive-verbs.d6",
+          "type": "translate",
+          "stem": "这场战争爆发于 1937 年。",
+          "answer": "The war broke out in 1937.",
+          "require": [["broke out"], ["1937"]],
+          "forbid": ["was broken out", "was broke out", "had been broken out"],
+          "explain": "break out 是不及物短语，没有被动形式，用一般过去时 broke out 即可。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.passive.by-vs-with",
+      "title": "被动语态中 by 与 with 的区别",
+      "brief": "by 接执行者，with 接工具材料",
+      "difficulty": 3,
+      "tags": ["易错"],
+      "prereq": ["tense_voice.passive.formation"],
+      "concept": {
+        "summary": "被动句中 by 引出动作的执行者，通常是人或能主动施动的机构、自然力；with 引出完成动作所使用的工具、材料或手段。判断依据是名词在动作中的角色：能主动发出动作的用 by，被用来完成动作的用 with。表示情感或状态来源的 be filled with, be covered with 也接 with，但那不是被动语态。",
+        "sections": [
+          {
+            "h": "by：执行者",
+            "p": "by 后面的名词是动作的发起者，把它还原成主动句的主语，句子仍然成立，这是最可靠的检验方法。",
+            "bullets": [
+              "The novel was written by Mo Yan. → Mo Yan wrote the novel.",
+              "The window was broken by the boys.",
+              "自然力与机构也可作执行者：The roof was damaged by the storm. / The plan was approved by the board."
+            ]
+          },
+          {
+            "h": "with：工具与材料",
+            "p": "with 后面的名词不能作主动句的主语，它是被使用的对象。同一句中可以同时出现 by 与 with，分别交代谁做和用什么做。",
+            "bullets": [
+              "The window was broken with a stone.",
+              "The soup was thickened with flour.",
+              "The letter was typed by the secretary with an old typewriter."
+            ]
+          },
+          {
+            "h": "系表结构中的 with",
+            "p": "be covered with, be filled with, be crowded with, be satisfied with 表示状态，with 引出的是状态所涉及的对象，句子没有被动含义，也不能换成 by。",
+            "bullets": [
+              "The hall was filled with the sound of laughter.",
+              "The valley was covered with thick snow.",
+              "The street was crowded with tourists."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The letter was typed by the secretary with an old typewriter.", "zh": "这封信是秘书用一台旧打字机打出来的。", "ok": true, "note": "by 引出执行者 secretary，with 引出工具 typewriter，两者分工明确。" },
+          { "en": "The cake was cut with a blunt knife.", "zh": "蛋糕是用一把钝刀切开的。", "ok": true, "note": "刀是工具而非执行者，用 with。" },
+          { "en": "The hall was filled with the sound of laughter.", "zh": "大厅里充满了笑声。", "ok": true, "note": "be filled with 表状态，with 引出填充物，句子不是被动语态。" },
+          { "en": "The roof was damaged by the storm.", "zh": "屋顶被暴风雨损坏了。", "ok": true, "note": "storm 是自然力，能主动造成破坏，作执行者用 by。" },
+          { "en": "The soup was thickened by flour.", "zh": "汤用面粉增稠。", "ok": false, "note": "面粉是材料而非执行者，应改为 with flour。" },
+          { "en": "The letter was written with my teacher.", "zh": "这封信是我老师写的。", "ok": false, "note": "老师是执行者，应用 by my teacher；with 只能引出工具。" },
+          { "en": "The room was filled by smoke.", "zh": "房间里充满了烟。", "ok": false, "note": "be filled with 是状态结构，介词固定为 with，不能换成 by。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The cake was cut by a knife.", "right": "The cake was cut with a knife.", "why": "刀不能主动发出切割动作，它是被使用的工具，工具用 with。" },
+          { "wrong": "The playground was covered by snow.", "right": "The playground was covered with snow.", "why": "be covered with 表示覆盖状态，snow 是覆盖物而非施动者，介词固定为 with。" },
+          { "wrong": "This article was written by a pencil.", "right": "This article was written with a pencil.", "why": "铅笔是书写工具，执行者只能是人；用 by 会把铅笔误作施动主体。" }
+        ],
+        "contrast": { "withTitle": "被动语态的使用场景", "diff": "使用场景决定要不要用被动；本知识点解决被动句内部两个介词的分工：谁做的用 by，用什么做的用 with。" },
+        "mnemonic": "人做用 by，工具用 with；充满覆盖也用 with。"
+      },
+      "review": {
+        "core": [
+          "by 引出执行者，可还原为主动句主语",
+          "with 引出工具、材料、手段，不能作主动句主语",
+          "同一句可并用：by + 人 + with + 工具",
+          "be filled / covered / crowded / satisfied with 是状态结构，介词固定为 with",
+          "自然力与机构可作 by 的宾语"
+        ],
+        "trigger": "被动句要加介词短语 → 先问这个名词能不能作主动句主语 → 能则 by，不能则 with",
+        "quickCheck": [
+          { "q": "“用刀切开”用 by 还是 with？", "a": "with a knife。" },
+          { "q": "be covered with 能改成 by 吗？", "a": "不能，这是状态结构。" },
+          { "q": "by the storm 为什么成立？", "a": "暴风雨能主动造成破坏，属执行者。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.passive.by-vs-with.d1",
+          "type": "choice",
+          "stem": "The window was broken ___ a stone thrown from the street.",
+          "options": ["with", "by", "from", "in"],
+          "answer": "with",
+          "explain": "石头是被用来砸窗的工具，不能主动发出动作，因此用 with 引出工具。",
+          "trap": "by 会让人以为石头自己飞起来砸窗，把工具误当成执行者。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.by-vs-with.d2",
+          "type": "fill",
+          "stem": "The birthday cake was cut ___ a silver knife.",
+          "answer": "with",
+          "accept": ["with"],
+          "hint": "刀是工具还是执行者？",
+          "explain": "knife 是完成 cut 这一动作所借助的工具，介词用 with；执行者才用 by。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.passive.by-vs-with.d3",
+          "type": "correct",
+          "stem": "The letter was written with the headmaster.",
+          "answer": "The letter was written by the headmaster.",
+          "accept": ["The letter was written by the headmaster."],
+          "explain": "校长是写信这一动作的执行者，应还原为主动句主语 The headmaster wrote the letter，介词用 by。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.by-vs-with.d4",
+          "type": "choice",
+          "stem": "The ancient city was destroyed ___ an earthquake in 1906.",
+          "options": ["by", "with", "from", "of"],
+          "answer": "by",
+          "explain": "地震是能主动造成破坏的自然力，在被动句中充当执行者，用 by 引出。",
+          "trap": "with 只用于工具或材料，地震不是被人使用的工具。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.by-vs-with.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "soup", "was", "thickened", "with", "flour", "and", "butter."],
+          "answer": "The soup was thickened with flour and butter.",
+          "explain": "面粉与黄油都是增稠所用的材料，用 with 引出，不构成执行者。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.passive.by-vs-with.d6",
+          "type": "translate",
+          "stem": "这封信是我老师用钢笔写的。",
+          "answer": "The letter was written by my teacher with a pen.",
+          "require": [["by my teacher", "by our teacher"], ["with a pen"]],
+          "forbid": ["with my teacher", "by a pen", "written by a pen"],
+          "explain": "老师是执行者用 by，钢笔是工具用 with；两类介词在同一句中各司其职。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.passive.reporting-structures",
+      "title": "it is said that 与 he is said to 结构",
+      "brief": "两种传信句式，注意不定式的时态形式",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["tense_voice.passive.formation"],
+      "concept": {
+        "summary": "表示“据说、据报道”有两套平行句式：It is said that 加从句，以及主语加 is said 加不定式。两者可以互换，但不定式的形式由从句动作相对主句的时间决定：同时或之后用 to do，先发生用 to have done，正在进行用 to be doing，被动用 to have been done。同类动词还有 report, believe, think, know, expect, claim, suppose。",
+        "sections": [
+          {
+            "h": "两套句式的转换",
+            "p": "转换的关键是把从句主语提到主句，从句谓语压缩成不定式。人称与时态信息随之转移到不定式上，主句只保留 is said 这一评价框架。",
+            "bullets": [
+              "People say that he lives abroad. → It is said that he lives abroad. → He is said to live abroad.",
+              "People believe that she won the prize. → She is believed to have won the prize.",
+              "They report that the factory is closing. → The factory is reported to be closing."
+            ]
+          },
+          {
+            "h": "不定式的四种时间形式",
+            "p": "不定式本身能表达相对时间，这是该句式的难点。选哪种形式，取决于从句动作发生在 is said 之前、同时还是之后，以及是主动还是被动。",
+            "bullets": [
+              "同时或之后：to do → He is said to be rich.",
+              "之前：to have done → He is said to have left the country.",
+              "正在进行：to be doing → He is said to be writing a memoir.",
+              "被动且已发生：to have been done → The manuscript is said to have been destroyed."
+            ]
+          },
+          {
+            "h": "使用限制",
+            "p": "只有少数传信动词能进入该结构，且两套句式不能叠加。不定式里不能再出现 will，将来意义由 to do 本身承担。",
+            "bullets": [
+              "可用动词：say, report, believe, think, know, expect, claim, suppose, consider, rumour",
+              "× It is said that he is said to be a genius.（两套句式叠加）",
+              "× He is said to will resign.（不定式不能带 will）",
+              "There is said to be... 是 there be 的被动传信形式"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It is said that the old tower dates back to the twelfth century.", "zh": "据说这座古塔可追溯到十二世纪。", "ok": true, "note": "It is said that 后接完整从句，从句用一般现在时陈述事实。" },
+          { "en": "The old tower is said to date back to the twelfth century.", "zh": "这座古塔据说可追溯到十二世纪。", "ok": true, "note": "从句主语提作主句主语，谓语压缩为不定式 to date back。" },
+          { "en": "She is believed to have studied in Vienna for three years.", "zh": "据信她曾在维也纳学习三年。", "ok": true, "note": "学习发生在 is believed 之前，用完成不定式 to have studied。" },
+          { "en": "The manuscript is said to have been destroyed in the fire.", "zh": "据说那份手稿已在火灾中被毁。", "ok": true, "note": "动作先发生且为被动关系，用 to have been done。" },
+          { "en": "There is said to be a secret tunnel beneath the castle.", "zh": "据说城堡下面有一条秘密通道。", "ok": true, "note": "there be 句型也可进入传信结构，形式为 There is said to be。" },
+          { "en": "He is said to left the country last month.", "zh": "据说他上个月离开了这个国家。", "ok": false, "note": "不定式符号 to 后必须用原形；动作先发生，应改为 to have left。" },
+          { "en": "The painting is said to worth a fortune.", "zh": "据说这幅画值一大笔钱。", "ok": false, "note": "worth 是形容词，不能直接跟在 to 后作谓语，应改为 to be worth a fortune。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is said to has moved abroad.", "right": "He is said to have moved abroad.", "why": "不定式符号 to 后必须接动词原形，完成形式是 to have done，have 不变形。" },
+          { "wrong": "It is said that he is said to be a genius.", "right": "It is said that he is a genius.", "why": "It is said that 与 sb is said to do 是同一语义的两套句式，只能选其一，不能叠加。" },
+          { "wrong": "She is said to be studying abroad last year.", "right": "She is said to have studied abroad last year.", "why": "last year 指向 is said 之前，须用完成不定式；进行不定式表示与主句同时进行。" }
+        ],
+        "contrast": { "withTitle": "被动语态的构成与时态对应", "diff": "构成知识点处理普通主语的被动；传信结构把整个从句压缩成不定式，难点落在不定式的时间形式上。" },
+        "mnemonic": "据说两套壳，that 从句或 to do；先发生用 to have done，被动再加 been。"
+      },
+      "review": {
+        "core": [
+          "两套句式：It is said that + 从句 / 主语 + is said + 不定式",
+          "同时或之后 to do；先发生 to have done；进行 to be doing",
+          "被动叠加：to have been done",
+          "两套句式不能叠加，不定式里不能出现 will",
+          "同类动词：report, believe, think, know, expect, claim, suppose"
+        ],
+        "trigger": "看到“据说”要翻译 → 先定从句动作相对主句的先后 → 再选 to do / to have done",
+        "quickCheck": [
+          { "q": "“据说他已离开”用哪种不定式？", "a": "to have left。" },
+          { "q": "He is said to will come. 对吗？", "a": "不对，不定式不能带 will。" },
+          { "q": "手稿被毁的传信句怎么写？", "a": "The manuscript is said to have been destroyed." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.passive.reporting-structures.d1",
+          "type": "choice",
+          "stem": "The manuscript ___ to have been destroyed in the fire.",
+          "options": ["is said", "says", "is saying", "said"],
+          "answer": "is said",
+          "explain": "该结构为 主语 + is said + 不定式，manuscript 是传闻的对象，须用被动形式 is said。",
+          "trap": "says 是主动结构，主语会变成“发话者”，与 manuscript 的角色冲突。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.reporting-structures.d2",
+          "type": "fill",
+          "stem": "He is believed ___ (leave) the country two years ago.",
+          "answer": "to have left",
+          "accept": ["to have left"],
+          "hint": "two years ago 说明动作发生在 is believed 之前。",
+          "explain": "离开发生在“据信”之前，须用完成不定式 to have left，表示不定式动作先于主句。",
+          "difficulty": 4
+        },
+        {
+          "id": "tense_voice.passive.reporting-structures.d3",
+          "type": "correct",
+          "stem": "The old tower is said to dates back to the twelfth century.",
+          "answer": "The old tower is said to date back to the twelfth century.",
+          "accept": ["The old tower is said to date back to the twelfth century."],
+          "explain": "不定式符号 to 后必须用动词原形，date 不能因为主语是单数而加 s。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.passive.reporting-structures.d4",
+          "type": "choice",
+          "stem": "There ___ to be a hidden passage behind the wall.",
+          "options": ["is said", "are said", "says", "said"],
+          "answer": "is said",
+          "explain": "There is said to be 是 there be 句型的传信被动形式，谓语与后面的单数 a hidden passage 保持一致。",
+          "trap": "are said 会与单数主语 a hidden passage 不一致，且 there be 结构的谓语跟随其后的名词。",
+          "difficulty": 4
+        },
+        {
+          "id": "tense_voice.passive.reporting-structures.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "castle", "is", "said", "to", "have", "been", "built", "by", "monks."],
+          "answer": "The castle is said to have been built by monks.",
+          "explain": "建造先于传闻发生且为被动关系，用 to have been built，构成完成被动不定式。",
+          "difficulty": 4
+        },
+        {
+          "id": "tense_voice.passive.reporting-structures.d6",
+          "type": "translate",
+          "stem": "据说他已经离开这个国家了。",
+          "answer": "He is said to have left the country.",
+          "require": [["is said"], ["to have left"]],
+          "forbid": ["to left", "to has left", "to have leave"],
+          "explain": "“据说”用 is said，离开发生在之前，用完成不定式 to have left；两者缺一不可。",
+          "difficulty": 4
+        }
+      ]
+    }
+  ]
+}

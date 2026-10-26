@@ -1,0 +1,808 @@
+{
+  "level1": "nonfinite",
+  "chapter": "infinitive",
+  "items": [
+    {
+      "id": "nonfinite.infinitive.subject",
+      "title": "不定式作主语与形式主语",
+      "brief": "主语太长就后置，用 it 占位，谓语用单数",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["nonfinite.overview.three-forms"],
+      "concept": {
+        "summary": "判定标准：句子缺主语，而所填内容是具体一次或尚未发生的动作，用不定式作主语。单个不定式作主语时，谓语用单数，因为整个不定式结构被当作一个整体。主语过长时后移到句末，用 it 占据主语位置，形成形式主语结构，真正的主语仍在句末。",
+        "sections": [
+          {
+            "h": "直接作主语：谓语用单数",
+            "p": "不定式短语在句中充当一个名词性整体，即使短语内部带有复数名词，谓语也只与这个整体一致，用单数第三人称。",
+            "bullets": [
+              "To master a language takes years of practice.",
+              "To say is one thing; to do is another.",
+              "To see is to believe.（主语与表语都是不定式）",
+              "To keep silent about it was the hardest part."
+            ]
+          },
+          {
+            "h": "形式主语 it 的四个固定框",
+            "p": "主语超过几个词时，英语习惯把它推到句末，用 it 占位。判断依据是句首的 it 没有实际所指，把它删掉句子仍成立。",
+            "bullets": [
+              "It is + adj. + to do：It is hard to please everybody.",
+              "It takes sb. + 时间 + to do：It took me an hour to finish the test.",
+              "It is + n. + to do：It is a pleasure to work with you.",
+              "It is + adj. + for/of sb. + to do：It is important for you to rest."
+            ]
+          },
+          {
+            "h": "for sb. 与 of sb. 的判定",
+            "p": "形容词描述这件事的性质，逻辑主语前用 for；形容词描述人的品质或性格，用 of。检验方法是把 sb. 提到句首作主语，句子仍成立就用 of。",
+            "bullets": [
+              "It is difficult for me to decide. → 不能说 I am difficult，用 for",
+              "It is generous of him to share his notes. → He is generous 成立，用 of",
+              "of 的常用词：kind, generous, clever, careless, rude, silly, brave"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "To master a foreign language takes years of practice.", "zh": "掌握一门外语需要多年的练习。", "ok": true, "note": "不定式作主语，指向一件具体的事，谓语用单数 takes。" },
+          { "en": "It is difficult for beginners to tell the two words apart.", "zh": "初学者很难分辨这两个词。", "ok": true, "note": "it 是形式主语，真正主语 to tell... 后置；difficult 说明事情的性质，用 for。" },
+          { "en": "It was careless of him to leave the door unlocked.", "zh": "他没锁门就走了，真粗心。", "ok": true, "note": "careless 评价人的品质，He was careless 成立，因此用 of。" },
+          { "en": "To see is to believe.", "zh": "眼见为实。", "ok": true, "note": "主语与表语都用不定式，主语视为整体，谓语用 is。" },
+          { "en": "It is important of you to keep your promise.", "zh": "你遵守诺言很重要。", "ok": false, "note": "important 说明事情的重要程度，不评价人的品质，应改为 for you。" },
+          { "en": "Learn a foreign language takes years of practice.", "zh": "学一门外语需要多年的练习。", "ok": false, "note": "动词原形不能作主语，应改为 To learn 或 Learning。" }
+        ],
+        "pitfalls": [
+          { "wrong": "It is hard of me to concentrate in this noise.", "right": "It is hard for me to concentrate in this noise.", "why": "hard 描述的是集中注意力这件事的难度，不是我的品质，逻辑主语前用 for；of 只用于 kind、generous、careless 这类评价人的形容词。" },
+          { "wrong": "Read English aloud every morning is helpful.", "right": "Reading English aloud every morning is helpful.", "why": "主语位置必须由名词性成分占据，动词原形是祈使句形式，不能作主语，须名词化为动名词或不定式。" },
+          { "wrong": "To finishing the task in a week is impossible.", "right": "To finish the task in a week is impossible.", "why": "此处的 to 是不定式符号，后面必须接动词原形；只有 to 作介词时才接动名词，如 look forward to finishing。" }
+        ],
+        "contrast": { "withTitle": "动名词作主语与宾语", "diff": "不定式作主语多指具体一次或尚未发生的动作，动名词作主语多指一般性习惯或已知事实；两者谓语都用单数。" },
+        "mnemonic": "主语太长往后放，it 先占位；for 说事难，of 说人差。"
+      },
+      "review": {
+        "core": [
+          "缺主语且动作具体或未发生 → 用不定式作主语",
+          "单个不定式作主语，谓语用单数",
+          "主语过长时用 it 作形式主语，真正主语后置",
+          "It takes sb. time to do 中的 it 也是形式主语",
+          "形容词评事用 for sb.，评人用 of sb."
+        ],
+        "trigger": "句首缺主语又想放一个动词 → 加 to 名词化 → 太长就把 it 提到句首",
+        "quickCheck": [
+          { "q": "To master a language ___ (take) years. 填什么？", "a": "takes，不定式作主语视为单数。" },
+          { "q": "It is kind ___ you to help. 填 for 还是 of？", "a": "of，kind 评价人的品质，You are kind 成立。" },
+          { "q": "主语是 Learn English 行不行？", "a": "不行，动词原形不能作主语，须改为 Learning 或 To learn。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.infinitive.subject.d1",
+          "type": "choice",
+          "stem": "___ a decision without all the facts would be unwise.",
+          "options": ["To make", "Make", "Made", "Being made"],
+          "answer": "To make",
+          "explain": "句首缺主语，空格后是宾语 a decision，需要一个能带宾语的名词性成分。make 与逻辑主语是主动关系，且尚未发生，用不定式 To make 作主语，谓语用单数 would be。",
+          "trap": "Make 是祈使句的动词原形，没有名词性，不能占据主语位置；Made 是过去分词，会把 make 说成被动。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.subject.d2",
+          "type": "fill",
+          "stem": "It took the workers three weeks ___ (repair) the bridge.",
+          "answer": "to repair",
+          "accept": ["to repair"],
+          "hint": "It took sb. + 时间 + ___ 是形式主语结构。",
+          "explain": "先看成分：It 只是形式主语，真正的主语内容后置在空格处，缺主语。再看关系：repair 由 the workers 主动发出。最后看时间：修桥就是 took 所计量的那段时间，与谓语无先后差。故用一般式不定式 to repair。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.subject.d3",
+          "type": "choice",
+          "stem": "It was generous ___ you to pay for everyone's lunch.",
+          "options": ["of", "for", "to", "with"],
+          "answer": "of",
+          "explain": "generous 评价的是人的品质，把 you 提到句首说 You were generous 完全成立，因此逻辑主语前用 of。",
+          "trap": "for 用于 difficult、important、necessary 这类描述事情性质的形容词，与 generous 的评价对象不同。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.subject.d4",
+          "type": "correct",
+          "stem": "It takes me half an hour to walking to the station.",
+          "answer": "It takes me half an hour to walk to the station.",
+          "accept": ["It takes me half an hour to walk to the station."],
+          "explain": "It takes sb. + 时间 + to do 中的 to 是不定式符号，后面必须接动词原形，不能用动名词 walking。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.subject.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "is", "not", "easy", "to", "change", "a", "habit", "overnight."],
+          "answer": "It is not easy to change a habit overnight.",
+          "explain": "it 是形式主语，真正主语 to change a habit overnight 后置；不定式作主语整体视为单数，谓语用 is。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.subject.d6",
+          "type": "translate",
+          "stem": "对孩子们来说，在这么冷的天气里早起是很难的。",
+          "answer": "It is hard for children to get up early in such cold weather.",
+          "require": [["it is"], ["for children"], ["to get up"]],
+          "forbid": ["of children", "for children is"],
+          "explain": "主语是 to get up early 这个长不定式，后置后用 it 占位。hard 描述事情难度而非孩子的品质，逻辑主语前用 for；若用 of 就等于说孩子本身很难。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.infinitive.object-complement",
+      "title": "不定式作宾语与宾补",
+      "brief": "宾语看动词，宾补看宾语，省 to 只在特定动词后",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["nonfinite.overview.boundary-with-predicate"],
+      "concept": {
+        "summary": "判定标准：谓语动词后没有宾语，而所缺内容是一个尚未发生的动作，用不定式作宾语；谓语后已有宾语但还需补足宾语做什么，用不定式作宾补，此时宾语就是不定式的逻辑主语。宾补位置的不定式与宾语构成主谓关系，改成被动后宾语升为主语，省去的 to 必须还原。",
+        "sections": [
+          {
+            "h": "作宾语：形式由动词锁定",
+            "p": "这类动词的宾语只能是不定式，换动名词就错。按语义分组记比逐词背更稳。",
+            "bullets": [
+              "意愿与决定：decide, choose, plan, intend, refuse, agree, promise",
+              "期望与努力：hope, wish, expect, manage, afford, fail, learn",
+              "判断与巧合：pretend, seem, appear, happen",
+              "疑问词 + 不定式：I don't know what to do. / He taught me how to swim."
+            ]
+          },
+          {
+            "h": "作宾补：宾语是逻辑主语",
+            "p": "谓语后已有宾语，动词还需要说明宾语将做什么时，用不定式作宾补。判断依据是宾语与不定式能构成主谓关系：They forced him to sign 就是 He signs。",
+            "bullets": [
+              "ask / tell / want / invite / encourage / remind / warn sb. to do",
+              "allow / permit / forbid / force / order / teach sb. to do",
+              "We expect the plan to work.（the plan works）",
+              "They forced him to sign. → He was forced to sign."
+            ]
+          },
+          {
+            "h": "省 to 的宾补与形式宾语",
+            "p": "感官动词与使役动词后的宾补省略 to，因为它们表示动作的完整过程；改成被动语态时 to 必须回来。think、find、consider、make 后接宾补时，常用 it 作形式宾语，把不定式推到句末。",
+            "bullets": [
+              "感官：see, hear, watch, notice, feel, observe + sb. + do",
+              "使役：make, let, have + sb. + do",
+              "I saw him cross the street. → He was seen to cross the street.",
+              "I find it hard to get up early.（it 为形式宾语）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She refused to accept the offer.", "zh": "她拒绝接受这个提议。", "ok": true, "note": "refuse 后缺宾语，只能由不定式承担。" },
+          { "en": "They encouraged the students to ask questions.", "zh": "他们鼓励学生提问。", "ok": true, "note": "students 是宾语，to ask 是宾补，提问由学生发出。" },
+          { "en": "I saw him enter the building through the side door.", "zh": "我看见他从侧门进了大楼。", "ok": true, "note": "感官动词 see 后的宾补省略 to，表示看见整个动作。" },
+          { "en": "He was seen to enter the building through the side door.", "zh": "有人看见他从侧门进了大楼。", "ok": true, "note": "改成被动后宾语升为主语，省略的 to 必须还原。" },
+          { "en": "I don't know how to solve this problem.", "zh": "我不知道怎样解决这个问题。", "ok": true, "note": "疑问词 how 后接不定式，整体作 know 的宾语。" },
+          { "en": "She suggested to postpone the meeting.", "zh": "她建议推迟会议。", "ok": false, "note": "suggest 的宾语只接受动名词或 that 从句，应改为 suggested postponing。" },
+          { "en": "He made me to wait for two hours.", "zh": "他让我等了两个小时。", "ok": false, "note": "使役动词 make 后的宾补省略 to，应改为 made me wait。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He made me to clean the whole classroom.", "right": "He made me clean the whole classroom.", "why": "make 是使役动词，宾补不定式省略 to；只有在被动语态中 to 才还原，说 I was made to clean。" },
+          { "wrong": "She suggested to change the plan.", "right": "She suggested changing the plan.", "why": "suggest 的宾语位置只接受动名词或 that 从句，不定式不能充当它的宾语，这不是语义问题而是动词的搭配限制。" },
+          { "wrong": "The children were made clean the classroom.", "right": "The children were made to clean the classroom.", "why": "主动句省略的 to 在被动句中必须还原，因为原来的宾语成了主语，宾补结构变成了主语补足语。" }
+        ],
+        "contrast": { "withTitle": "只接动名词的动词与短语", "diff": "两组的宾语形式都由动词锁定：decide、hope、refuse 接不定式，suggest、enjoy、avoid 接动名词，判断时先认动词再定形式。" },
+        "mnemonic": "decide、hope、refuse 后接 to do；see、make、let 后省 to，变被动再还回来。"
+      },
+      "review": {
+        "core": [
+          "宾语位置的形式由动词决定：decide/hope/refuse/promise 接 to do",
+          "宾补位置的不定式与宾语构成主谓关系：ask sb. to do",
+          "感官与使役动词后省 to：see/make/let sb. do",
+          "变被动时省去的 to 必须还原：was made to do",
+          "疑问词 + 不定式可作宾语：how to solve it"
+        ],
+        "trigger": "谓语后没有宾语 → 接 to do；谓语后已有宾语还要补动作 → to do 作宾补",
+        "quickCheck": [
+          { "q": "suggest 后面能接 to do 吗？", "a": "不能，只能接动名词或 that 从句。" },
+          { "q": "He was made ___ (clean) the room. 填什么？", "a": "to clean，被动句中 to 必须还原。" },
+          { "q": "I find it hard ___ (get) up early. 填什么？", "a": "to get，it 是形式宾语，真正宾语后置。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.infinitive.object-complement.d1",
+          "type": "choice",
+          "stem": "She finally agreed ___ the terms of the contract.",
+          "options": ["to accept", "accepting", "accept", "accepted"],
+          "answer": "to accept",
+          "explain": "agreed 后缺宾语，所缺内容是尚未发生的动作，agree 的宾语只能由不定式或 that 从句承担。",
+          "trap": "accepting 是把 agree 误当成接动名词的动词；accept 是动词原形，不能直接作宾语。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.infinitive.object-complement.d2",
+          "type": "fill",
+          "stem": "The teacher warned us ___ (not touch) the wires.",
+          "answer": "not to touch",
+          "accept": ["not to touch"],
+          "hint": "warn sb. 后的宾补，否定词放在 to 之前。",
+          "explain": "先看成分：warned 后已有宾语 us，缺的是宾补。再看关系：touch 由 us 发出，是主动。最后看时间：碰电线是尚未发生、需要避免的动作。故用 to touch，否定词 not 置于 to 之前，得 not to touch。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.object-complement.d3",
+          "type": "choice",
+          "stem": "The manager made the team ___ the proposal twice before the deadline.",
+          "options": ["revise", "to revise", "revising", "revised"],
+          "answer": "revise",
+          "explain": "made 后已有宾语 the team，缺宾补。make 是使役动词，宾补不定式省略 to，直接用动词原形 revise。",
+          "trap": "to revise 是受不定式等于 to do 的一般印象支配，忽略了使役动词必须省 to 这一条。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.object-complement.d4",
+          "type": "correct",
+          "stem": "He was seen enter the building through the back door.",
+          "answer": "He was seen to enter the building through the back door.",
+          "accept": ["He was seen to enter the building through the back door."],
+          "explain": "主动句 We saw him enter 中宾补省 to，改成被动后 him 升为主语，原来的宾补变成主语补足语，省去的 to 必须还原。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.object-complement.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "don't", "know", "how", "to", "explain", "this", "to", "my", "parents."],
+          "answer": "I don't know how to explain this to my parents.",
+          "explain": "know 后缺宾语，疑问词 how 与不定式 to explain 结合成一个名词性结构作宾语，explain 由 I 主动发出。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.object-complement.d6",
+          "type": "translate",
+          "stem": "他答应帮我在周五前完成报告。",
+          "answer": "He promised to help me finish the report by Friday.",
+          "require": [["promised to"], ["finish"], ["friday"]],
+          "forbid": ["promised me to", "promised helping"],
+          "explain": "promise 后缺宾语，其宾语只能是不定式 to help。help sb. (to) do 中宾补的 to 可以省略，故用 help me finish；promise 不能接 sb. to do 的宾补结构。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.infinitive.attributive",
+      "title": "不定式作定语",
+      "brief": "名词后表将来，不及物动词别丢介词",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["nonfinite.overview.three-forms"],
+      "concept": {
+        "summary": "判定标准：名词后缺修饰语，且这个修饰语表示该名词将要承受或发出的动作，用不定式作后置定语。不定式与被修饰名词之间只有三种关系：主谓、动宾、同位。不及物动词作定语时必须保留它所需的介词，介词的宾语就是被修饰的名词。",
+        "sections": [
+          {
+            "h": "三种修饰关系",
+            "p": "判断关系的方法是把这个名词放回不定式后面，看它当主语还是当宾语。当主语是主谓关系，当宾语是动宾关系，抽象名词后说明内容则是同位关系。",
+            "bullets": [
+              "主谓：She was the first woman to win the prize.（the woman wins）",
+              "动宾：I still have several letters to write.（write the letters）",
+              "同位：the ability to concentrate / a chance to travel / the decision to resign",
+              "the first / last / only / best + 名词 + to do 是高频框"
+            ]
+          },
+          {
+            "h": "介词不能丢",
+            "p": "不及物动词或需要介词才能带宾语的动作，作定语时介词必须留在不定式末尾，作用是把被修饰名词接回来。这与定语从句省略关系代词后保留介词同理。",
+            "bullets": [
+              "a pen to write with / a chair to sit on",
+              "a house to live in / a flat to share with a friend",
+              "nothing to worry about / nobody to talk to",
+              "× a pen to write（write 缺宾语，pen 接不上）"
+            ]
+          },
+          {
+            "h": "需要被动式的定语",
+            "p": "被修饰名词是动作的承受者、且句子主语无法承担这个动作时，用被动不定式。need、want、require 表需要时尤其常见，也可换用动名词主动形式表被动。",
+            "bullets": [
+              "There is a lot of work to be done.",
+              "The house needs to be repaired.（= needs repairing）",
+              "The meeting to be held tomorrow has been postponed.",
+              "× The house needs to repair."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She was the first woman to win a Nobel Prize in physics.", "zh": "她是第一位获得诺贝尔物理学奖的女性。", "ok": true, "note": "序数词 + 名词后接不定式作定语，woman 与 win 是主谓关系。" },
+          { "en": "I still have several letters to write before Friday.", "zh": "周五之前我还有几封信要写。", "ok": true, "note": "letters 是 write 的宾语，动宾关系，动作尚未发生用 to write。" },
+          { "en": "He is looking for a room to live in near the campus.", "zh": "他正在找校园附近的一间住房。", "ok": true, "note": "live 是不及物动词，介词 in 保留在末尾，把 room 接回来。" },
+          { "en": "There is nothing to worry about.", "zh": "没有什么可担心的。", "ok": true, "note": "worry 需借助 about 才能与 nothing 建立动宾关系。" },
+          { "en": "He was the last man to tell a lie.", "zh": "他是最不可能撒谎的人。", "ok": true, "note": "last 后接不定式作定语，表示最不会做该动作的人。" },
+          { "en": "She has a lot of friends to play.", "zh": "她有很多可以一起玩的朋友。", "ok": false, "note": "play 需带介词 with 才能接 friends，应改为 to play with。" },
+          { "en": "This is a good book to reading.", "zh": "这是一本值得读的好书。", "ok": false, "note": "to 在此是不定式符号，后接动词原形，应改为 to read。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He needs a pen to write.", "right": "He needs a pen to write with.", "why": "write 在这里要带宾语 pen，必须借介词 with；介词不出现，pen 与 write 的动宾关系就断掉了。" },
+          { "wrong": "She is the first student to winning the contest.", "right": "She is the first student to win the contest.", "why": "the first + 名词后的定语用不定式，to 是不定式符号，后面只能接动词原形。" },
+          { "wrong": "The house needs to repair before winter.", "right": "The house needs to be repaired before winter.", "why": "need 表需要时，主语 house 是 repair 的承受者，不定式要用被动式；也可改用 needs repairing。" }
+        ],
+        "contrast": { "withTitle": "不定式作状语", "diff": "作定语时不定式紧跟名词、说明这个名词要做什么；作状语时不修饰名词，而是修饰整个谓语，说明目的或结果。" },
+        "mnemonic": "名词后面 to do 指将来；不及物动词别丢介词，受动就加 be done。"
+      },
+      "review": {
+        "core": [
+          "名词后表将来或应做的动作 → 不定式作后置定语",
+          "三种关系：主谓、动宾、同位（ability to do）",
+          "不及物动词作定语必须保留介词：a pen to write with",
+          "the first / last / only + 名词 + to do 为高频结构",
+          "被修饰名词是受动者时用 to be done：work to be done"
+        ],
+        "trigger": "名词后面缺修饰 → 把这个名词放回动词后试位置 → 缺介词就补介词",
+        "quickCheck": [
+          { "q": "“一支写字的笔”怎么说？", "a": "a pen to write with，with 不能省。" },
+          { "q": "The house needs ___ (repair). 填什么？", "a": "to be repaired 或 repairing，房子是被修的。" },
+          { "q": "the first person 后面接 to do 还是 doing？", "a": "to do，the first/last/only 后接不定式作定语。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.infinitive.attributive.d1",
+          "type": "choice",
+          "stem": "She is the only person ___ the truth about that night.",
+          "options": ["to know", "known", "to be known", "know"],
+          "answer": "to know",
+          "explain": "the only + 名词后缺定语，用不定式。she 与 know 是主谓关系，她是知道真相的人，主动，故用 to know。",
+          "trap": "to be known 表被动，等于说她是被知道的对象，与她掌握真相的语义相反；known 单独作定语也无法表达唯一性。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.attributive.d2",
+          "type": "fill",
+          "stem": "He is looking for a flat ___ (live) in near the campus.",
+          "answer": "to live",
+          "accept": ["to live"],
+          "hint": "flat 是被住的对象，live 后已有介词 in。",
+          "explain": "先看成分：flat 后缺定语。再看关系：live 是不及物动词，flat 是住的地点而非施动者，属动宾关系。最后看时间：找房是为了将来住，用不定式。故填 to live，介词 in 已留在句中。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.attributive.d3",
+          "type": "choice",
+          "stem": "There is nothing ___ about; the machine is working perfectly.",
+          "options": ["to worry", "to worry about", "worrying", "worried"],
+          "answer": "to worry about",
+          "explain": "nothing 后缺定语，worry 在此为不及物动词，必须借 about 才能与 nothing 构成动宾关系，故为 nothing to worry about。",
+          "trap": "to worry 丢掉介词后，nothing 无法充当 worry 的宾语，动宾关系不成立。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.attributive.d4",
+          "type": "correct",
+          "stem": "The meeting to hold tomorrow has been postponed.",
+          "answer": "The meeting to be held tomorrow has been postponed.",
+          "accept": ["The meeting to be held tomorrow has been postponed."],
+          "explain": "meeting 后缺定语，meeting 是 hold 的承受者，且会议尚未召开，受动加将来用被动不定式 to be held；hold 是及物动词，不能写成 to hold 却留着宾语空位。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.attributive.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "was", "the", "first", "person", "to", "arrive", "at", "the", "scene."],
+          "answer": "He was the first person to arrive at the scene.",
+          "explain": "the first + 名词后用不定式作定语，person 与 arrive 是主谓关系，动作相对于 was 尚未发生。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.attributive.d6",
+          "type": "translate",
+          "stem": "她是最早到达现场的人之一。",
+          "answer": "She was one of the first people to arrive at the scene.",
+          "require": [["one of the first"], ["to arrive"]],
+          "forbid": ["to arriving", "for arriving"],
+          "explain": "people 后缺定语，the first 限定的名词后用不定式；arrive 与 people 是主谓关系，动作由人主动发出，故用 to arrive。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.infinitive.adverbial",
+      "title": "不定式作状语",
+      "brief": "只表目的、结果、原因，不表时间条件",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["nonfinite.overview.three-forms"],
+      "concept": {
+        "summary": "判定标准：句子主谓宾已经完整，缺的是说明为什么做、做到什么结果、为什么产生某种情绪的状语，用不定式。不定式作状语只承担三种意义：目的、结果、原因。表目的时可用 in order to 或 so as to 强化，其中 so as to 不能置于句首；表结果时常用 only to 引出意外结果。",
+        "sections": [
+          {
+            "h": "目的状语",
+            "p": "不定式的逻辑主语就是句子主语，动作在谓语之后发生。若是否定目的，not 放在 to 之前。判断依据是能改写为 in order that 从句。",
+            "bullets": [
+              "She got up early to catch the first bus.",
+              "In order not to wake the baby, he closed the door quietly.",
+              "so as to 只能放句中：He left early so as to avoid the traffic.",
+              "× So as to save time, we took a taxi."
+            ]
+          },
+          {
+            "h": "结果状语",
+            "p": "结果状语的不定式表示谓语动作带来的结局，常与 only、never、too...to、enough to 搭配。only to 专指出乎意料、令人失望的结果。",
+            "bullets": [
+              "He hurried to the station, only to find the train had left.",
+              "She is old enough to make her own decisions.",
+              "He was too tired to walk any further.",
+              "He lifted the rock, only to drop it at once."
+            ]
+          },
+          {
+            "h": "原因状语",
+            "p": "在 glad、sorry、sad、surprised、happy、pleased、angry、relieved 等表示情绪反应的形容词后，不定式说明产生这种情绪的原因，可改写为 because 从句。",
+            "bullets": [
+              "I am glad to hear from you.",
+              "She was surprised to find the door open.",
+              "We are sorry to keep you waiting.",
+              "He was relieved to learn that everyone was safe."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He saved every penny to buy his mother a house.", "zh": "他省下每一分钱，为的是给母亲买一套房。", "ok": true, "note": "目的状语，可改写为 in order that he could buy。" },
+          { "en": "In order not to miss the flight, they left at dawn.", "zh": "为了不错过航班，他们天亮就出发了。", "ok": true, "note": "否定目的用 in order not to，可置于句首。" },
+          { "en": "She opened the box, only to find it empty.", "zh": "她打开盒子，结果发现是空的。", "ok": true, "note": "only to 引出意外结果，动作发生在 opened 之后。" },
+          { "en": "I was relieved to hear that everyone was safe.", "zh": "听说大家都平安，我松了一口气。", "ok": true, "note": "情绪形容词 relieved 后的不定式说明原因。" },
+          { "en": "He is too young to drive a car.", "zh": "他太小了，不能开车。", "ok": true, "note": "too + 形容词 + to do 表否定结果，句子本身不含 not。" },
+          { "en": "So as to catch the train, he ran all the way.", "zh": "为了赶上火车，他一路跑过去。", "ok": false, "note": "so as to 不能置于句首，应改为 In order to catch the train。" },
+          { "en": "She studied hard for passing the exam.", "zh": "她努力学习以求通过考试。", "ok": false, "note": "for + 动名词表用途，不表目的，应改为 to pass the exam。" }
+        ],
+        "pitfalls": [
+          { "wrong": "So as to save time, we took a taxi.", "right": "In order to save time, we took a taxi.", "why": "so as to 只能出现在句子中间，句首表目的必须用 in order to 或直接用 to。" },
+          { "wrong": "He ran fast for catching the bus.", "right": "He ran fast to catch the bus.", "why": "for + 动名词说明用途或功能，不表达目的；目的状语只能由不定式承担。" },
+          { "wrong": "She is enough old to vote.", "right": "She is old enough to vote.", "why": "enough 修饰形容词时必须后置，构成 adj. + enough to do；前置的 enough 只能修饰名词。" }
+        ],
+        "contrast": { "withTitle": "不定式作定语", "diff": "作状语时不定式修饰谓语，逻辑主语是句子主语；作定语时修饰前面的名词，名词才是它的主语或宾语。" },
+        "mnemonic": "目的、结果、原因三种用法；so as to 不进句首，enough 站在形容词后。"
+      },
+      "review": {
+        "core": [
+          "不定式作状语只表目的、结果、原因，不表时间或条件",
+          "目的 ：to do / in order to do / so as to do，so as to 不放句首",
+          "结果：only to do（意外）、too...to、enough to",
+          "原因：情绪形容词后，glad/sorry/surprised + to do",
+          "否定目的把 not 放在 to 前：in order not to"
+        ],
+        "trigger": "主谓宾齐全还缺一个为什么 → 先试目的 to do → 再看是否 only to 表意外结果",
+        "quickCheck": [
+          { "q": "so as to 能放句首吗？", "a": "不能，句首用 in order to 或 to。" },
+          { "q": "He is too tired to walk. 有否定含义吗？", "a": "有，too...to 结构本身表否定结果，不能再加 not。" },
+          { "q": "I am glad to hear it 中的 to hear 是什么状语？", "a": "原因状语，说明为什么高兴。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.infinitive.adverbial.d1",
+          "type": "choice",
+          "stem": "He rushed to the airport, only ___ that his flight had been cancelled.",
+          "options": ["to find", "finding", "found", "find"],
+          "answer": "to find",
+          "explain": "主谓 he rushed 已完整，缺的是结果状语。only to 是表示意外结果的固定组合，find 由 he 发出且发生在 rushed 之后，用 to find。",
+          "trap": "finding 表伴随，无法表达结果出乎意料这层意思；only 后不能接现在分词。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.adverbial.d2",
+          "type": "fill",
+          "stem": "___ (avoid) the morning traffic, she leaves home before seven.",
+          "answer": "To avoid",
+          "accept": ["To avoid", "In order to avoid"],
+          "hint": "句首表目的，用不定式。",
+          "explain": "先看成分：主谓 she leaves 完整，句首缺目的状语。再看关系：avoid 由 she 主动发出。最后看时间：避开高峰发生在出门之前的目的上，属谓语之后的意图。故用 To avoid，也可用 In order to avoid。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.adverbial.d3",
+          "type": "choice",
+          "stem": "The box was ___ heavy for me to carry upstairs.",
+          "options": ["too", "so", "very", "enough"],
+          "answer": "too",
+          "explain": "too + 形容词 + for sb. + to do 表示太……以至于不能，本身含否定结果，与句意盒子搬不上去吻合。",
+          "trap": "so 必须与 that 从句配套，不能直接接 to do；very 只能表示程度，构不成结果结构。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.adverbial.d4",
+          "type": "correct",
+          "stem": "She was enough lucky to get the last ticket.",
+          "answer": "She was lucky enough to get the last ticket.",
+          "accept": ["She was lucky enough to get the last ticket."],
+          "explain": "enough 修饰形容词时必须后置，构成 adj. + enough + to do；前置的 enough 只能修饰名词，如 enough money。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.adverbial.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "got", "up", "early", "to", "catch", "the", "first", "bus."],
+          "answer": "He got up early to catch the first bus.",
+          "explain": "主谓 he got up early 已完整，to catch 是目的状语，由 he 主动发出，动作在 got up 之后。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.infinitive.adverbial.d6",
+          "type": "translate",
+          "stem": "为了不吵醒孩子，他轻轻地关上了门。",
+          "answer": "He closed the door quietly so as not to wake the child.",
+          "require": [["so as not to", "in order not to"], ["wake"]],
+          "forbid": ["for not waking", "so as to not wake"],
+          "explain": "主谓 he closed 完整，缺目的状语，且是否定目的，not 必须放在 to 之前。so as not to 只能放句中，与这里的位置吻合；for + 动名词不表目的。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.infinitive.tense-voice",
+      "title": "不定式的时态与语态",
+      "brief": "先于谓语用 have done，受动用 be done",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["morph.verbs.four-forms"],
+      "concept": {
+        "summary": "判定分两步：先比较不定式的动作与谓语的时间先后，同时或之后用 to do，先于谓语用 to have done；再看不定式的逻辑主语是施动还是受动，受动用 to be done，先于谓语且受动用 to have been done。不定式的时态是相对时态，参照点是句子的谓语，不是说话时间。",
+        "sections": [
+          {
+            "h": "四种形式与时间关系",
+            "p": "四种形式由两组参数组合而成：时间（一般或完成）与语态（主动或被动）。先定时间再定语态，顺序颠倒容易漏掉被动。",
+            "bullets": [
+              "to do：与谓语同时或之后发生",
+              "to be doing：与谓语同时进行",
+              "to have done：先于谓语完成",
+              "to be done / to have been done：逻辑主语是受动者"
+            ]
+          },
+          {
+            "h": "高频触发结构",
+            "p": "seem、appear、happen、be said、be believed、be reported 后的不定式最容易考时间先后，因为谓语本身只是一个评价或传闻，真正的信息全在不定式里。",
+            "bullets": [
+              "He seems to have forgotten our appointment.（忘记在先）",
+              "She is said to be working on a new project.（此刻进行）",
+              "The manuscript is believed to have been written in the 1400s.（更早且被动）",
+              "He happened to be at home when I called.（同时）"
+            ]
+          },
+          {
+            "h": "被动不定式的判定",
+            "p": "看不定式前面的名词是不是动作的承受者：There is much work to be done 中 work 是被做的，所以用被动。注意 to let 没有被动不定式，通常换成 to be allowed。",
+            "bullets": [
+              "There is still much work to be done.",
+              "The results are expected to be announced tomorrow.",
+              "She is easy to please.（主语是 please 的宾语，仍用主动形式）",
+              "He asked to be excused from the meeting."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He seems to have forgotten our appointment.", "zh": "他似乎忘了我们的约定。", "ok": true, "note": "忘记先于 seems，用完成式 to have forgotten。" },
+          { "en": "She is said to be working on a new project.", "zh": "据说她正在做一个新项目。", "ok": true, "note": "进行式 to be working 表示与谓语同时进行。" },
+          { "en": "The manuscript is believed to have been written in the 1400s.", "zh": "据信这份手稿写于十五世纪。", "ok": true, "note": "先于谓语（完成）且手稿是被写的（被动），两条件叠加用 to have been written。" },
+          { "en": "There is still much work to be done.", "zh": "还有很多工作要做。", "ok": true, "note": "work 是 do 的承受者，用被动不定式 to be done。" },
+          { "en": "He is happy to have finished the report before the deadline.", "zh": "他很高兴在截止日期前完成了报告。", "ok": true, "note": "完成先于 is happy，用完成式。" },
+          { "en": "He seems to forget our appointment yesterday.", "zh": "他似乎忘了我们昨天的约定。", "ok": false, "note": "yesterday 说明忘记发生在 seems 之前，应改为 to have forgotten。" },
+          { "en": "The bridge is said to build in 1900.", "zh": "据说这座桥建于 1900 年。", "ok": false, "note": "桥是 build 的承受者，且建造早于传闻，应改为 to have been built。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She is said to write three novels so far.", "right": "She is said to have written three novels so far.", "why": "so far 与 is said 共同说明写作已完成且先于传闻，须用完成式 to have written；一般式会指向将来的写作。" },
+          { "wrong": "The old temple is believed to be built in the Tang Dynasty.", "right": "The old temple is believed to have been built in the Tang Dynasty.", "why": "temple 是 build 的承受者（被动），且建造早于人们的相信（完成），两个条件叠加只能用 to have been done。" },
+          { "wrong": "He happened to meet her before that day.", "right": "He happened to have met her before that day.", "why": "before that day 说明见面先于 happened，不定式要用完成式；一般式只能表示与 happened 同时或之后。" }
+        ],
+        "contrast": { "withTitle": "动名词的时态与语态", "diff": "两者都用完成式表先于谓语、被动式表受动；区别在于不定式还有进行式 to be doing，且其参照点常在谓语之后，动名词的参照点常与谓语同时。" },
+        "mnemonic": "先对时间再对语态：先于谓语 have done，受动 be done，两样都要 have been done。"
+      },
+      "review": {
+        "core": [
+          "不定式是相对时态，参照点是句子的谓语",
+          "同时或之后：to do；同时进行：to be doing；先于谓语：to have done",
+          "逻辑主语受动：to be done；先于谓语又受动：to have been done",
+          "seem / be said / be believed / happen 后最常考时间先后",
+          "There is work to be done 中 work 是被做的，必须用被动"
+        ],
+        "trigger": "看到不定式先找谓语 → 问动作在前还是在后 → 再问主语是施动还是受动",
+        "quickCheck": [
+          { "q": "He seems to have left. 中离开发生在什么时候？", "a": "先于 seems，已完成。" },
+          { "q": "work to ___ (do) 填什么？", "a": "to be done，work 是被做的。" },
+          { "q": "现在进行的不定式怎么写？", "a": "to be doing，如 is said to be working。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.infinitive.tense-voice.d1",
+          "type": "choice",
+          "stem": "The castle is said ___ more than eight hundred years ago.",
+          "options": ["to have been built", "to be built", "to build", "to have built"],
+          "answer": "to have been built",
+          "explain": "先看时间：eight hundred years ago 说明建造早于 is said，用完成式。再看语态：castle 是 build 的承受者，用被动。两者叠加即 to have been built。",
+          "trap": "to have built 是主动，等于说城堡建造了别的东西；to be built 无法体现动作早于传闻。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.tense-voice.d2",
+          "type": "fill",
+          "stem": "He seems ___ (lose) interest in the project since last spring.",
+          "answer": "to have lost",
+          "accept": ["to have lost"],
+          "hint": "since last spring 说明失去兴趣已经发生。",
+          "explain": "先看成分：seems 后缺表语性的不定式。再看关系：lose 由 he 主动发出。最后看时间：since last spring 表明失去兴趣先于 seems 并持续至今，用完成式 to have lost。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.tense-voice.d3",
+          "type": "choice",
+          "stem": "She is reported ___ on a new vaccine at the moment.",
+          "options": ["to be working", "to have worked", "to work", "to have been working"],
+          "answer": "to be working",
+          "explain": "at the moment 指向与 is reported 同时的进行动作，不定式用进行式 to be working。work 由 she 主动发出，不需要被动。",
+          "trap": "to have been working 表动作持续到谓语之前，与 at the moment 指向的当前进行冲突。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.tense-voice.d4",
+          "type": "correct",
+          "stem": "She is said to finish the report already.",
+          "answer": "She is said to have finished the report already.",
+          "accept": ["She is said to have finished the report already."],
+          "explain": "already 说明完成报告先于 is said，不定式须用完成式 to have finished；一般式 to finish 只能指向将来的完成。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.tense-voice.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["There", "is", "still", "a", "great", "deal", "of", "work", "to", "be", "done."],
+          "answer": "There is still a great deal of work to be done.",
+          "explain": "work 是 do 的承受者，非谓语用被动式 to be done；谓语是 there be 结构中的 is，与 a great deal of work 一致。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.tense-voice.d6",
+          "type": "translate",
+          "stem": "据说这座桥建于两百年前。",
+          "answer": "The bridge is said to have been built two hundred years ago.",
+          "require": [["is said to"], ["have been built"]],
+          "forbid": ["is said to be built", "is said to build"],
+          "explain": "先看时间：两百年前说明建造早于 is said，用完成式。再看语态：bridge 是 build 的承受者，用被动。合并为 to have been built。",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.infinitive.to-retention",
+      "title": "不定式符号 to 的保留与省略",
+      "brief": "先分 to 是符号还是介词，再决定省不省",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["nonfinite.infinitive.object-complement"],
+      "concept": {
+        "summary": "判定第一步是给 to 定性：后面接动词原形的是不定式符号，接名词或动名词的是介词。符号 to 在感官动词与使役动词的宾补中必须省略，在被动语态中必须还原；在并列不定式、省略回答和固定结构中通常保留。介词 to 后面永远接动名词，不存在省略问题。",
+        "sections": [
+          {
+            "h": "必须省 to 的两类动词",
+            "p": "感官动词表示看到、听到动作的完整过程，使役动词表示让某人做某事，两类后面的宾补都省略 to。判断依据是主动句里 to 不出现，被动句里 to 出现。",
+            "bullets": [
+              "感官：see, hear, watch, notice, feel, observe + sb. + do",
+              "使役：make, let, have + sb. + do",
+              "I saw him leave. → He was seen to leave.",
+              "She made me wait. → I was made to wait."
+            ]
+          },
+          {
+            "h": "保留 to 的三种情形",
+            "p": "并列的两个不定式一般各自带 to，尤其表示对比时；省略回答中用 to 代替整个不定式，避免重复；固定结构中 to 已与前面的词粘成一体，不可省。",
+            "bullets": [
+              "She told him to sit down and to wait.（并列对比，保留第二个 to）",
+              "I asked him to help, but he didn't want to.（to 代替 to help）",
+              "You don't have to come, but you ought to.",
+              "be going to / have to / used to 中的 to 不可省"
+            ]
+          },
+          {
+            "h": "to 是介词的固定短语",
+            "p": "这类短语中的 to 后面必须接名词或动名词，把它当不定式符号就会写错。识别方法是看 to 后面能不能放一个名词：能放就是介词。",
+            "bullets": [
+              "look forward to doing / be used to doing / object to doing",
+              "devote oneself to doing / pay attention to doing / in addition to doing",
+              "I am used to getting up early.（习惯于）",
+              "I used to get up early.（过去常常，to 是符号）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I saw him leave the office at six.", "zh": "我看见他六点离开办公室。", "ok": true, "note": "感官动词 see 后的宾补省略 to，用动词原形。" },
+          { "en": "He was seen to leave the office at six.", "zh": "有人看见他六点离开办公室。", "ok": true, "note": "改成被动后 to 必须还原。" },
+          { "en": "She asked me to wait, and I decided to.", "zh": "她让我等，我决定等。", "ok": true, "note": "decided to 用 to 代替 to wait，避免重复。" },
+          { "en": "I look forward to hearing from you.", "zh": "我期待收到你的消息。", "ok": true, "note": "look forward to 中的 to 是介词，后接动名词。" },
+          { "en": "He is used to working night shifts.", "zh": "他习惯了上夜班。", "ok": true, "note": "be used to 表习惯于，to 是介词，后接动名词。" },
+          { "en": "He made her to wait outside for an hour.", "zh": "他让她在外面等了一个小时。", "ok": false, "note": "使役动词 make 后的宾补省略 to，应改为 made her wait。" },
+          { "en": "I am used to get up early.", "zh": "我习惯早起。", "ok": false, "note": "此处的 to 是介词，须接动名词，应改为 used to getting up。" }
+        ],
+        "pitfalls": [
+          { "wrong": "They let him to go home early.", "right": "They let him go home early.", "why": "let 是使役动词，宾补不定式省略 to；let 本身没有被动形式，因此也不存在被动还原 to 的问题。" },
+          { "wrong": "I am looking forward to see you again.", "right": "I am looking forward to seeing you again.", "why": "look forward to 中的 to 是介词，介词后必须接名词性成分，动词须变成动名词。" },
+          { "wrong": "I would rather to stay at home tonight.", "right": "I would rather stay at home tonight.", "why": "would rather 后直接接动词原形，它后面不出现不定式符号 to，加了 to 反而破坏结构。" }
+        ],
+        "contrast": { "withTitle": "动名词与不定式作宾语的语义差异", "diff": "本知识点只解决 to 的有无与词性；同一个动词后换形式会改意思，那属于语义差异而非 to 的取舍。" },
+        "mnemonic": "感官使役省 to，变被动要还；介词 to 后面一律 doing。"
+      },
+      "review": {
+        "core": [
+          "先分 to 的词性：接原形是符号，接名词或 doing 是介词",
+          "感官与使役动词后省 to：see/make/let/have sb. do",
+          "被动语态中省去的 to 必须还原：was made to do",
+          "省略回答用 to 代替整个不定式：I decided to.",
+          "介词 to 短语：look forward to / be used to / object to + doing"
+        ],
+        "trigger": "看到 to + 动词 → 先问 to 后面能不能放名词 → 能放就是介词，接 doing",
+        "quickCheck": [
+          { "q": "let 后面的宾补要 to 吗？", "a": "不要，let sb. do。" },
+          { "q": "I am used to ___ (walk) to school. 填什么？", "a": "walking，be used to 中的 to 是介词。" },
+          { "q": "I decided to. 里的 to 是什么？", "a": "代替前面出现过的整个不定式，避免重复。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.infinitive.to-retention.d1",
+          "type": "choice",
+          "stem": "The teacher had us ___ the poem aloud twice.",
+          "options": ["read", "to read", "reading", "readed"],
+          "answer": "read",
+          "explain": "had 在此是使役动词 have，后接宾语 us 与省略 to 的宾补，宾补用动词原形 read。",
+          "trap": "to read 忽略 have 作使役动词时省 to 的规则；readed 是不存在的过去式形式。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.to-retention.d2",
+          "type": "fill",
+          "stem": "I am not used to ___ (drive) on the left side of the road.",
+          "answer": "driving",
+          "accept": ["driving"],
+          "hint": "be used to 表习惯于，to 是介词。",
+          "explain": "先看成分：to 后缺介词宾语，缺的是名词性成分。再看关系：drive 由 I 主动发出。介词 to 后只能接动名词，与动作时间无关，故填 driving。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.to-retention.d3",
+          "type": "choice",
+          "stem": "Will you join us for dinner? I would love ___.",
+          "options": ["to", "to join", "joining", "join"],
+          "answer": "to",
+          "explain": "would love to 后用 to 代替前面已出现的 to join us for dinner，避免重复；这是不定式的省略式。",
+          "trap": "to join 重复了上文内容，虽不算语法错，但在省略回答中英语一律只用 to；joining 与 would love 的搭配不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.to-retention.d4",
+          "type": "correct",
+          "stem": "We watched the children to play in the yard.",
+          "answer": "We watched the children play in the yard.",
+          "accept": ["We watched the children play in the yard."],
+          "explain": "watch 是感官动词，宾补不定式省略 to，用动词原形 play；若要强调动作正在进行则用 playing，但不能用 to play。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.infinitive.to-retention.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["You", "may", "leave", "now", "if", "you", "want", "to."],
+          "answer": "You may leave now if you want to.",
+          "explain": "want to 后用 to 代替 to leave，构成不定式的省略式；句末的 to 不能删，删掉后 want 就缺宾语。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.infinitive.to-retention.d6",
+          "type": "translate",
+          "stem": "我期待在会议上见到你。",
+          "answer": "I look forward to meeting you at the conference.",
+          "require": [["look forward to meeting"]],
+          "forbid": ["look forward to meet"],
+          "explain": "look forward to 中的 to 是介词，后面必须接名词性成分，meet 须变为动名词 meeting；把它当不定式符号就会写成 to meet。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

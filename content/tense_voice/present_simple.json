@@ -1,0 +1,405 @@
+{
+  "level1": "tense_voice",
+  "chapter": "present_simple",
+  "items": [
+    {
+      "id": "tense_voice.present_simple.core-meaning",
+      "title": "一般现在时的核心意义",
+      "brief": "无界时间：习惯、状态、真理、时刻表",
+      "difficulty": 1,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "一般现在时把动作放进一个没有起点也没有终点的时间区间：反复发生的习惯、长期不变的状态、客观真理与固定时刻表都属于这一类。它只陈述“一贯如此”，不描写“此刻正在”，因此与现在进行时构成互补。句中出现 every day、usually、once a week 这类频率信号时，谓语就取一般现在时。",
+        "sections": [
+          {
+            "h": "三类无界时间",
+            "p": "判断是否用一般现在时，先问这个动作有没有被时间框住。习惯、状态、规律都没有边界，用一般现在时；被 yesterday 框住的归过去时，被 now 框住的归进行时。",
+            "bullets": [
+              "习惯：She cycles to work every day.",
+              "状态：This jar contains two litres of water.",
+              "真理与规律：The earth moves around the sun.",
+              "时刻表：The last bus leaves at eleven."
+            ]
+          },
+          {
+            "h": "频率状语是最硬的信号",
+            "p": "always、usually、often、sometimes、seldom、never 以及 every day、once a week、twice a month 这类短语，把动作标成“反复发生”，是一般现在时最直接的提示。它们的位置在实义动词之前、be 动词之后。",
+            "bullets": [
+              "He usually gets up at six.",
+              "She is often late for the first class.",
+              "They visit their grandparents twice a month."
+            ]
+          },
+          {
+            "h": "与相邻时态的切分",
+            "p": "现在进行时描写说话这一刻正在发生的事，一般现在时不接此刻；现在完成时强调过去的动作对现在仍有影响，一般现在时只讲当前的状态或规律。三者常在同一段话里交替，各管一段时间。",
+            "bullets": [
+              "此刻正在：Look, it is raining.",
+              "长期规律：It rains a lot here in June.",
+              "结果仍影响现在：I have lost my key, so I cannot get in.",
+              "长期习惯：I lose things all the time."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She cycles to work every day.", "zh": "她每天骑车上班。", "ok": true, "note": "every day 标记反复发生，谓语取一般现在时。" },
+          { "en": "Water boils at 100 degrees Celsius at sea level.", "zh": "在海平面，水在摄氏一百度沸腾。", "ok": true, "note": "客观规律没有时间边界，一律用一般现在时。" },
+          { "en": "Water is boiling at 100 degrees Celsius.", "zh": "水在摄氏一百度沸腾。", "ok": false, "note": "陈述恒定规律不能用进行时，应改为 Water boils at 100 degrees Celsius." },
+          { "en": "I am knowing the answer to that question.", "zh": "我知道那个问题的答案。", "ok": false, "note": "know 表状态而非动作，不能进入进行时，应改为 I know the answer to that question." },
+          { "en": "The last train leaves at half past eleven.", "zh": "末班火车十一点半开。", "ok": true, "note": "时刻表上的固定安排被当作既定事实陈述，用一般现在时。" },
+          { "en": "He go to the gym three times a week.", "zh": "他每周去三次健身房。", "ok": false, "note": "主语 He 是第三人称单数，谓语须加 -s，改为 goes。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I am knowing the answer.", "right": "I know the answer.", "why": "know 表示持续的心理状态，没有“正在进行”的阶段，进行时的 be + doing 无法容纳它。" },
+          { "wrong": "The sun is rising in the east.", "right": "The sun rises in the east.", "why": "方位与周期属于恒定事实，进行时会把规律压缩成一次正在发生的动作。" },
+          { "wrong": "He go to work by bus.", "right": "He goes to work by bus.", "why": "一般现在时要把“现在 + 第三人称单数”两个信息都落在谓语上，缺 -s 就丢了人称信息。" }
+        ],
+        "contrast": { "withTitle": "现在进行时的核心意义", "diff": "一般现在时陈述“一贯如此”，动作没有边界；现在进行时描写“此刻正在”，动作被说话这一刻框住。" },
+        "mnemonic": "习惯状态加真理，一般现在时来管；此刻正在用进行，过去时间用过去。"
+      },
+      "review": {
+        "core": [
+          "一般现在时 = 无界时间：习惯、状态、客观真理、固定时刻表",
+          "硬信号：always/usually/often/never、every day、once a week、twice a month",
+          "频率副词在实义动词之前、be 动词之后",
+          "状态动词 know/belong/contain/consist of 不进进行时，因此也不与 now 连用",
+          "否定与疑问借 do/does，实义动词回原形"
+        ],
+        "trigger": "看到 every day、usually、客观规律或时刻表 → 用一般现在时 → 再核对主语是否第三人称单数",
+        "quickCheck": [
+          { "q": "“水在零度结冰”用哪个时态？", "a": "一般现在时：Water freezes at zero degrees." },
+          { "q": "I am knowing him well. 错在哪里？", "a": "know 是状态动词，改用 I know him well." },
+          { "q": "every day 与 now 分别指向哪个时态？", "a": "every day 指向一般现在时，now 指向现在进行时。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_simple.core-meaning.d1",
+          "type": "choice",
+          "stem": "My grandfather ___ to the radio every evening after dinner.",
+          "options": ["listens", "is listening", "listen", "has listened"],
+          "answer": "listens",
+          "explain": "every evening 把动作限定为反复发生的习惯，用一般现在时；主语 My grandfather 是第三人称单数，谓语加 -s。",
+          "trap": "is listening 只描写此刻正在听这一个动作，与 every evening 的反复义冲突。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.present_simple.core-meaning.d2",
+          "type": "fill",
+          "stem": "The earth ___ (go) around the sun once a year.",
+          "answer": "goes",
+          "accept": ["goes"],
+          "hint": "once a year 说明这是每年重复的规律。",
+          "explain": "once a year 把动作限定为周期性的客观规律，是一般现在时的信号；主语 the earth 为第三人称单数，go 变为 goes。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.present_simple.core-meaning.d3",
+          "type": "correct",
+          "stem": "He is knowing the answer to this question.",
+          "answer": "He knows the answer to this question.",
+          "accept": ["He knows the answer to this question."],
+          "explain": "know 表状态，没有“正在知道”的过程，进行时无法容纳状态动词，改为一般现在时 knows。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_simple.core-meaning.d4",
+          "type": "choice",
+          "stem": "Water ___ at 100 degrees Celsius at sea level.",
+          "options": ["is boiling", "boiled", "has boiled", "boils"],
+          "answer": "boils",
+          "explain": "at sea level 与 100 degrees Celsius 一起描述恒定的物理性质，属客观真理，用一般现在时。",
+          "trap": "is boiling 描写的是眼前那口正在沸腾的锅，与陈述物理性质不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_simple.core-meaning.d5",
+          "type": "translate",
+          "stem": "他每天七点乘公交车去上班。",
+          "answer": "He takes the bus to work at seven every day.",
+          "require": [["every day"], ["at seven"], ["bus"]],
+          "forbid": ["is taking", "will take"],
+          "explain": "every day 是频率信号，谓语取一般现在时；主语第三人称单数，take 加 -s 变为 takes。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_simple.core-meaning.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "goes", "to", "the", "gym", "twice", "a", "week."],
+          "answer": "She goes to the gym twice a week.",
+          "explain": "twice a week 是频率短语，谓语用一般现在时；主语 She 为第三人称单数，go 加 es 构成 goes。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.present_simple.third-person-s",
+      "title": "第三人称单数形式的构成",
+      "brief": "三单主语出现时，谓语按词尾加 s 或 es",
+      "difficulty": 1,
+      "tags": ["基础", "易错"],
+      "prereq": ["tense_voice.present_simple.core-meaning"],
+      "concept": {
+        "summary": "一般现在时的谓语只有一种人称变化：主语是第三人称单数时加 -s 或 -es，其余人称一律用原形。加词尾的规则由动词末尾字母决定，共四条分支。这个 -s 同时携带“现在”和“第三人称单数”两个信息，一旦主语换成复数或 I/you，谓语立刻回到原形。",
+        "sections": [
+          {
+            "h": "四条加词尾的分支",
+            "p": "判断顺序固定：先看末尾是不是 s/x/ch/sh/o，再看是不是辅音字母 + y，最后才用一般加 -s。顺序颠倒会把 study 写成 studys。",
+            "bullets": [
+              "一般加 -s：work → works，live → lives，read → reads",
+              "以 s/x/ch/sh/o 结尾加 -es：pass → passes，fix → fixes，watch → watches，wash → washes，go → goes，do → does",
+              "辅音字母 + y：变 y 为 i 再加 -es，study → studies，carry → carries；元音 + y 直接加 -s，play → plays，enjoy → enjoys",
+              "特殊两个：have → has，be → is"
+            ]
+          },
+          {
+            "h": "谁算第三人称单数",
+            "p": "三单不只是 he/she/it。凡是说话时可以用 he 或 it 替代的主语，都按三单处理，包括单数可数名词、不可数名词、动名词或不定式作主语、everyone/each/neither 这类不定代词，以及 the number of + 复数名词。",
+            "bullets": [
+              "The machine works well.（单数名词）",
+              "The news surprises everyone.（不可数名词）",
+              "Reading in bed does harm to your eyes.（动名词主语）",
+              "Everyone in the class has a dictionary.（不定代词）",
+              "The number of applicants has doubled.（the number of 作主语）"
+            ]
+          },
+          {
+            "h": "否定与疑问里的还原",
+            "p": "否定句和疑问句由 does 承担三单标记，实义动词必须回到原形。这是“一个谓语只出现一次时态与人称标记”的结果：does 已经带了 -es，动词再加 -s 就重复标记。",
+            "bullets": [
+              "She doesn't work on Sundays.",
+              "Does your sister live in Beijing?",
+              "He does not like coffee.（不是 doesn't likes）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He watches the news at seven every evening.", "zh": "他每天晚上七点看新闻。", "ok": true, "note": "watch 以 ch 结尾，三单形式加 -es。" },
+          { "en": "He watch the news at seven every evening.", "zh": "他每天晚上七点看新闻。", "ok": false, "note": "主语 He 是三单，谓语必须加词尾，改为 watches。" },
+          { "en": "She studies French at university.", "zh": "她在大学学法语。", "ok": true, "note": "study 是辅音字母 + y，变 y 为 i 再加 -es。" },
+          { "en": "She studys French at university.", "zh": "她在大学学法语。", "ok": false, "note": "辅音字母 + y 不能直接加 -s，应改为 studies。" },
+          { "en": "My brother goes to work by bike.", "zh": "我哥哥骑自行车上班。", "ok": true, "note": "go 以 o 结尾，三单加 -es。" },
+          { "en": "Everyone in the class has a dictionary.", "zh": "班上每个人都有词典。", "ok": true, "note": "everyone 是第三人称单数，have 变为 has。" },
+          { "en": "Does your sister live in Beijing?", "zh": "你姐姐住在北京吗？", "ok": true, "note": "疑问句由 Does 承担三单标记，live 用原形。" },
+          { "en": "Does your sister lives in Beijing?", "zh": "你姐姐住在北京吗？", "ok": false, "note": "Does 已带三单标记，实义动词不能再加 -s，改为 live。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She doesn't likes coffee.", "right": "She doesn't like coffee.", "why": "三单标记已由 doesn't 承担，实义动词回到原形，否则同一个谓语上出现两次人称标记。" },
+          { "wrong": "Tom studys very hard.", "right": "Tom studies very hard.", "why": "study 以辅音字母 + y 结尾，须变 y 为 i 再加 -es。" },
+          { "wrong": "The news are surprising.", "right": "The news is surprising.", "why": "news 以 s 结尾但属不可数名词，语义上是单数，谓语按三单处理用 is。" }
+        ],
+        "contrast": { "withTitle": "名词复数的规则与不规则变化", "diff": "名词复数是“数量”的标记，动词三单是“人称 + 时态”的标记；两者都加 s/es，但名词有 children、feet 类不规则，动词三单只有 have→has 与 be→is。" },
+        "mnemonic": "他她它，动词加 s；s/x/ch/sh/o 加 es；辅音加 y 变 ies；does 一出，动词还原。"
+      },
+      "review": {
+        "core": [
+          "三单主语：he/she/it、单数名词、不可数名词、动名词、everyone/each、the number of",
+          "一般加 -s；s/x/ch/sh/o 加 -es；辅音 + y 变 ies；have→has、be→is",
+          "元音 + y 直接加 -s：plays、enjoys、buys",
+          "否定 doesn't + 原形；疑问 Does + 主语 + 原形",
+          "does 已携带三单信息，实义动词不再加词尾"
+        ],
+        "trigger": "看到主语是单个的人、物或不可数概念 → 谓语加 -s/-es → 一旦出现 does，动词立刻回原形",
+        "quickCheck": [
+          { "q": "watch 的第三人称单数形式？", "a": "watches，以 ch 结尾加 es。" },
+          { "q": "Does she ___ (like) jazz? 填什么？", "a": "like，does 后动词用原形。" },
+          { "q": "go 与 study 的三单形式分别怎么写？", "a": "goes（o 结尾加 es），studies（辅音 + y 变 ies）。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_simple.third-person-s.d1",
+          "type": "choice",
+          "stem": "My sister ___ her teeth twice a day.",
+          "options": ["brushing", "brushs", "brushes", "brush"],
+          "answer": "brushes",
+          "explain": "twice a day 表反复习惯，谓语用一般现在时；主语 My sister 为三单，brush 以 sh 结尾，加 -es。",
+          "trap": "brushs 是把“一般加 -s”的规则套在 sh 结尾的词上，sh 结尾必须加 es。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.present_simple.third-person-s.d2",
+          "type": "fill",
+          "stem": "The little boy ___ (carry) a heavy bag to school every morning.",
+          "answer": "carries",
+          "accept": ["carries"],
+          "hint": "先看 every morning 定时态，再看主语人称。",
+          "explain": "every morning 是频率信号，用一般现在时；carry 以辅音字母 r + y 结尾，变 y 为 i 再加 -es，得 carries。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.present_simple.third-person-s.d3",
+          "type": "correct",
+          "stem": "He doesn't likes the way the teacher explains grammar.",
+          "answer": "He doesn't like the way the teacher explains grammar.",
+          "accept": ["He doesn't like the way the teacher explains grammar."],
+          "explain": "否定句的三单标记由 doesn't 承担，实义动词 like 必须回原形，不能重复加 -s。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_simple.third-person-s.d4",
+          "type": "choice",
+          "stem": "___ your parents know that you are coming home this weekend?",
+          "options": ["Are", "Do", "Does", "Is"],
+          "answer": "Do",
+          "explain": "主语 your parents 是复数，助动词用 Do；若用 Does 则与复数主语的人称要求冲突。",
+          "trap": "Does 只能用于第三人称单数主语，把 parents 误当单数就会错选。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_simple.third-person-s.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Everyone", "in", "the", "class", "has", "a", "copy", "of", "the", "book."],
+          "answer": "Everyone in the class has a copy of the book.",
+          "explain": "everyone 虽指一群人，语法上是第三人称单数，谓语用 has；in the class 是修饰 everyone 的定语。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_simple.third-person-s.d6",
+          "type": "translate",
+          "stem": "他每天晚饭后洗碗。",
+          "answer": "He washes the dishes after dinner every day.",
+          "require": [["washes"], ["after dinner"]],
+          "forbid": ["is washing", "will wash"],
+          "explain": "every day 定时态为一般现在时，主语 He 是三单，wash 以 sh 结尾加 -es 得 washes。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.present_simple.future-meaning",
+      "title": "一般现在时表将来",
+      "brief": "时刻表与时间条件从句里的将来",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["tense_voice.present_simple.third-person-s"],
+      "concept": {
+        "summary": "一般现在时表将来只用于“已排定、说话人不能随意改动”的场合：列车与航班时刻、课程表、会议日程、开场时间。这类句子把未来事件当作既定事实陈述，因此形式上仍是现在时。它与 will 的分界在于有没有意愿成分：will 是说话人的决定或预测，时刻表用法不带任何意愿。条件与时间状语从句同样用一般现在时指将来，因为将来标记只由主句承担。",
+        "sections": [
+          {
+            "h": "时刻表与既定日程",
+            "p": "这类句子的主语多是交通工具、课程、影剧、会议，谓语后面常跟具体钟点或日期。判断依据不是“将来”这个词，而是“这个安排由机构排定、个人无权改动”。",
+            "bullets": [
+              "The train leaves at 7:30 and arrives at 9:15.",
+              "The film starts at eight tonight.",
+              "The new term begins on September 5.",
+              "The conference opens on Monday morning."
+            ]
+          },
+          {
+            "h": "主将从现：从句里的将来",
+            "p": "when、if、before、after、until、as soon as 引导的从句不承载将来标记，将来义只出现在主句的 will 上。这一机制让“条件或时间”保持为尚未实现的前提，而不是断言。",
+            "bullets": [
+              "I will call you when I arrive.",
+              "If it rains tomorrow, we will stay at home.",
+              "We won't start until everyone comes."
+            ]
+          },
+          {
+            "h": "不能用的场合",
+            "p": "个人临时决定、承诺、主观预测都不能用一般现在时表将来。个人已定的行程用进行时，主观预测用 will 或 be going to，因为一般现在时会把它们读成习惯。",
+            "bullets": [
+              "× I go to the airport tomorrow. √ I am going to the airport tomorrow.",
+              "× It rains soon. √ It is going to rain soon.",
+              "× I help you with the box. √ I will help you with the box."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The train to Shanghai leaves at 6:45 tomorrow morning.", "zh": "去上海的火车明天早上六点四十五开。", "ok": true, "note": "车次按时刻表运行，用一般现在时把将来事件当既定事实。" },
+          { "en": "If it snows tomorrow, the flight will be delayed.", "zh": "如果明天下雪，航班会延误。", "ok": true, "note": "if 从句用一般现在时指将来，will 只出现在主句。" },
+          { "en": "I will tell him the news when he comes back.", "zh": "他回来我就告诉他这个消息。", "ok": true, "note": "when 从句用 comes 表将来，主句用 will tell。" },
+          { "en": "I tell him the news when he comes back.", "zh": "他回来我就告诉他这个消息。", "ok": false, "note": "主句缺少将来标记，会被读成每次他回来都告诉，应改为 I will tell him." },
+          { "en": "When you will finish the report, send it to me.", "zh": "你写完报告后发给我。", "ok": false, "note": "时间状语从句不用 will 表将来，应改为 When you finish the report." },
+          { "en": "The new semester starts on September 5.", "zh": "新学期九月五日开始。", "ok": true, "note": "校历属机构排定的日程，用一般现在时表将来。" },
+          { "en": "Look at those clouds; it rains soon.", "zh": "看那些云，快下雨了。", "ok": false, "note": "有可见迹象的预测用 be going to，应改为 it is going to rain soon." }
+        ],
+        "pitfalls": [
+          { "wrong": "I will call you as soon as I will get to the station.", "right": "I will call you as soon as I get to the station.", "why": "as soon as 引导的时间状语从句不能用 will 表将来，将来标记只保留在主句。" },
+          { "wrong": "If he will come, I will let you know.", "right": "If he comes, I will let you know.", "why": "if 从句的条件是尚未实现的前提，用一般现在时；will 一旦进入从句，条件就变成断言。" },
+          { "wrong": "I go to Beijing next week to attend a conference.", "right": "I am going to Beijing next week to attend a conference.", "why": "个人行程不是机构时刻表，须用进行时表已安排的将来，一般现在时在这里会被读成长期习惯。" }
+        ],
+        "contrast": { "withTitle": "will 与 be going to 的语义差别", "diff": "will 与 be going to 是通用将来标记，可用于任何将来事件；一般现在时表将来只是“既定日程”的专用形式，离开时刻表语境就失效。" },
+        "mnemonic": "时刻表，用现在；从句里，主将从现；个人安排别硬套，进行时来顶。"
+      },
+      "review": {
+        "core": [
+          "一般现在时表将来 = 既定日程：车次、航班、课程、影剧、会议",
+          "主将从现：when/if/before/after/until/as soon as 从句用现在时",
+          "从句里不出现 will，将来标记只放主句",
+          "个人临时决定、承诺、预测不能用一般现在时表将来",
+          "句子通常带具体钟点或日期，是判断时刻表用法的辅助信号"
+        ],
+        "trigger": "看到 according to the timetable 或具体车次、开场时间 → 用一般现在时 → 再查从句是否误加了 will",
+        "quickCheck": [
+          { "q": "The film ___ (start) at eight tonight. 填什么？", "a": "starts，按时刻表用一般现在时表将来。" },
+          { "q": "I will call you when I ___ (arrive). 填什么？", "a": "arrive，时间状语从句用现在时表将来。" },
+          { "q": "“我明天去机场接她”能说 I go to the airport tomorrow 吗？", "a": "不能，个人安排用 I am going to the airport tomorrow." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_simple.future-meaning.d1",
+          "type": "choice",
+          "stem": "According to the timetable, the flight to Xi'an ___ at 6:20 tomorrow morning.",
+          "options": ["leaves", "left", "has left", "was leaving"],
+          "answer": "leaves",
+          "explain": "according to the timetable 说明这是排定的班次，tomorrow morning 又指向将来，因此用一般现在时表既定日程。",
+          "trap": "left 与 was leaving 都把 tomorrow morning 误当过去时间，与句首的时刻表提示矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_simple.future-meaning.d2",
+          "type": "fill",
+          "stem": "If it ___ (rain) tomorrow, the sports meeting will be put off.",
+          "answer": "rains",
+          "accept": ["rains"],
+          "hint": "从句谈的是尚未发生的条件，主句已有 will。",
+          "explain": "tomorrow 指向将来，但 if 从句不用将来标记，用一般现在时；主语 it 为三单，rain 加 -s。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_simple.future-meaning.d3",
+          "type": "correct",
+          "stem": "I will ring you up as soon as I will arrive at the hotel.",
+          "answer": "I will ring you up as soon as I arrive at the hotel.",
+          "accept": ["I will ring you up as soon as I arrive at the hotel."],
+          "explain": "as soon as 引导时间状语从句，将来义由主句的 will ring 承担，从句须用一般现在时 arrive。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_simple.future-meaning.d4",
+          "type": "choice",
+          "stem": "Term ___ on September 1, so please register before then.",
+          "options": ["began", "has begun", "was beginning", "begins"],
+          "answer": "begins",
+          "explain": "校历上的开学日期属机构排定的日程，before then 又指向将来，用一般现在时表既定安排。",
+          "trap": "began 与 was beginning 需要过去时间参照，而 before then 明确指向将来。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_simple.future-meaning.d5",
+          "type": "translate",
+          "stem": "火车明天早上七点出发。",
+          "answer": "The train leaves at seven tomorrow morning.",
+          "require": [["leaves"], ["at seven"]],
+          "forbid": ["will leaves", "leave at seven"],
+          "explain": "具体车次与发车钟点属于时刻表安排，用一般现在时表将来；主语 the train 为三单，leave 加 -s。",
+          "difficulty": 4
+        },
+        {
+          "id": "tense_voice.present_simple.future-meaning.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "film", "starts", "at", "eight", "and", "ends", "at", "ten."],
+          "answer": "The film starts at eight and ends at ten.",
+          "explain": "影片开场与散场时间写在排片表上，两个谓语都用一般现在时表既定日程。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

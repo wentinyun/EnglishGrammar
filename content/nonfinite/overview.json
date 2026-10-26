@@ -1,0 +1,274 @@
+{
+  "level1": "nonfinite",
+  "chapter": "overview",
+  "items": [
+    {
+      "id": "nonfinite.overview.three-forms",
+      "title": "非谓语三种形式与句法功能对照",
+      "brief": "先看缺什么成分，再定形式与主被动",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "判定分两步：先看谓语是否已经齐全，谓语已有时其余动词都必须降级为非谓语；再定位它填的是哪个句子成分。缺主、宾、表语只能用名词性非谓语（不定式、动名词），缺定语、状语、补语只能用修饰性非谓语（不定式、分词）。形式内部的取舍由逻辑主语的施受关系与动作时间决定。",
+        "sections": [
+          {
+            "h": "两步定位：成分决定形式范围",
+            "p": "非谓语形式不是凭语感挑的，而是句子成分的填空答案。位置先定，可选项就从三种缩小到两类，再靠主被动与时间做最后一步筛选。",
+            "bullets": [
+              "缺主语：To master a language takes years. / Smoking damages the lungs.",
+              "缺宾语：He refused to answer. / He avoided answering.",
+              "缺定语：a chance to grow / the man standing by the door / a letter written in 1920",
+              "缺状语：To pass the exam, she studied all night. / Seen from the hill, the town looks tiny.",
+              "缺宾补：They asked him to leave. / We found the door locked."
+            ]
+          },
+          {
+            "h": "三种形式的语义取值",
+            "p": "同一成分位置上，形式的差别集中在三点：动作是具体一次还是泛指一类，动作与谓语谁先谁后，逻辑主语是施动还是受动。",
+            "bullets": [
+              "不定式 to do：指向具体一次或尚未发生的动作，常表目的、结果、将来的可能",
+              "动名词 doing：把动作当作名词性概念，表习惯、事实、好恶的对象",
+              "现在分词 doing：与谓语同时进行、由逻辑主语主动发出的动作",
+              "过去分词 done：被动或已完成的动作，与逻辑主语是受动关系"
+            ]
+          },
+          {
+            "h": "否定式、被动式与逻辑主语",
+            "p": "三种形式的否定一律把 not 放在形式之前，被动一律用 be 的分词形式承担。非谓语本身不带主语，其逻辑主语默认是句子主语；若不是同一对象，就要显性写出（for sb. to do / one's doing / 独立主格）。",
+            "bullets": [
+              "He pretended not to see me.（not 在 to 前）",
+              "Not knowing the answer, she kept silent.（not 在 doing 前）",
+              "The report needs to be finished tonight.（受动 → 被动不定式）",
+              "It is important for you to rest.（逻辑主语与句子主语不同，用 for 引出）",
+              "His being late annoyed everyone.（逻辑主语用所有格）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "To finish the report in one night was impossible.", "zh": "一夜之间完成报告是不可能的。", "ok": true, "note": "主语位置放名词性非谓语，to do 指向一次具体的、尚未完成的动作。" },
+          { "en": "Finishing the report took her three nights.", "zh": "完成那份报告花了她三个晚上。", "ok": true, "note": "主语位置用动名词，把已完成的事实当作一个整体来陈述。" },
+          { "en": "The man standing at the gate is my uncle.", "zh": "站在门口的那个人是我叔叔。", "ok": true, "note": "定语位置用现在分词，stand 由 the man 主动发出，且与谓语 is 同时。" },
+          { "en": "The letter written in pencil is hard to read.", "zh": "那封用铅笔写的信很难辨认。", "ok": true, "note": "定语位置用过去分词，write 与 letter 是被动关系。" },
+          { "en": "She suggested to take the early train.", "zh": "她建议乘早班火车。", "ok": false, "note": "suggest 的宾语位置只接受动名词，应改为 suggested taking the early train。" },
+          { "en": "Walked along the river, we saw two herons fishing in the shallows.", "zh": "沿着河边走时，我们看见两只鹭在浅水里捕鱼。", "ok": false, "note": "状语分词的逻辑主语是 we，walk 由 we 发出，是主动关系，应改为 Walking。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He suggested to take the early train.", "right": "He suggested taking the early train.", "why": "宾语位置只接受名词性非谓语，而 suggest 锁定动名词这一种，不定式无法占据该位置；换成从句则说 suggest that we take。" },
+          { "wrong": "Walked along the river, we saw two herons.", "right": "Walking along the river, we saw two herons.", "why": "分词作状语的逻辑主语是句子主语 we，走路是 we 主动做的，主动关系必须用现在分词；过去分词会把 we 说成被走。" },
+          { "wrong": "The girl stood at the window, looked at the sea.", "right": "The girl stood at the window, looking at the sea.", "why": "一个分句只能有一个谓语，第二个动词没有连词就只能降级为非谓语；两个动作同时由同一主语发出，用现在分词。" }
+        ],
+        "contrast": { "withTitle": "非谓语与谓语动词的界限", "diff": "本知识点解决剩下的动词取哪种形式，后者解决哪些动词还允许作谓语。" },
+        "mnemonic": "位置定形式，主被动定 doing 还是 done，时间定 to do 还是 to have done。"
+      },
+      "review": {
+        "core": [
+          "第一步看成分：主/宾/表 → 不定式或动名词；定/状/补 → 不定式或分词",
+          "第二步看关系：逻辑主语施动用 doing 或 to do，受动用 done 或 to be done",
+          "第三步看时间：具体或将来用 to do，同时进行用 doing，先于谓语用 having done",
+          "否定式一律把 not 放在 to do / doing 之前",
+          "非谓语默认以句子主语为逻辑主语，不一致时必须显性写出"
+        ],
+        "trigger": "句中已有谓语又出现第二个动词 → 先数谓语 → 再定位它缺什么成分 → 最后定形式",
+        "quickCheck": [
+          { "q": "宾语位置能不能填现在分词？", "a": "不能。宾语只接受名词性非谓语，即不定式或动名词。" },
+          { "q": "Seen from the hill 为什么用过去分词？", "a": "see 与逻辑主语 the town 是被动关系，小镇是被看的对象。" },
+          { "q": "非谓语的否定词放在哪里？", "a": "放在形式之前：not to go, not going, not having finished。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.overview.three-forms.d1",
+          "type": "choice",
+          "stem": "___ along the river, we spotted two herons fishing in the shallows.",
+          "options": ["Walking", "Walked", "To walk", "Walk"],
+          "answer": "Walking",
+          "explain": "主谓 we spotted 已完整，空格位置是时间状语，缺状语。walk 由 we 主动发出，且与 spotted 同时进行，主动 + 同时决定用现在分词 Walking。",
+          "trap": "Walked 是机械照搬分词作状语的印象，没有检查 walk 与主语 we 的主被动关系。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.overview.three-forms.d2",
+          "type": "fill",
+          "stem": "The little girl sat by the window, ___ (watch) the rain fall on the roof.",
+          "answer": "watching",
+          "accept": ["watching"],
+          "hint": "sat 已是谓语，空格补的是伴随状语。",
+          "explain": "先看成分：sat 已是谓语，主谓完整，空格补伴随状语。再看关系：watch 由 the girl 发出，是主动。最后看时间：看雨与坐着同时进行。三步合起来用现在分词 watching，不能用过去分词。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.overview.three-forms.d3",
+          "type": "choice",
+          "stem": "The bridge ___ in 1937 is still in use today.",
+          "options": ["built", "building", "to build", "being built"],
+          "answer": "built",
+          "explain": "空格在名词后，缺的是定语。build 与 bridge 是被动关系，且 1937 说明动作已完成，被动 + 已完成用过去分词 built。",
+          "trap": "building 表主动进行，桥不会自己建造；being built 表正在被建，与 in 1937 的完成时间冲突。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.overview.three-forms.d4",
+          "type": "correct",
+          "stem": "The letter writing in pencil is hard to read.",
+          "answer": "The letter written in pencil is hard to read.",
+          "accept": ["The letter written in pencil is hard to read."],
+          "explain": "letter 后缺定语，write 与 letter 是被动关系，且书写已完成，应用过去分词 written；用 writing 等于说信在写字。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.overview.three-forms.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["To", "master", "a", "language", "takes", "years", "of", "practice."],
+          "answer": "To master a language takes years of practice.",
+          "explain": "主语位置放名词性非谓语，to master 指向一件具体的事，谓语用单数 takes；句中没有第二个谓语，形式与成分都对位。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.overview.three-forms.d6",
+          "type": "translate",
+          "stem": "看见老师走进来，学生们立刻安静了。",
+          "answer": "Seeing the teacher come in, the students fell silent at once.",
+          "require": [["seeing"], ["students"], ["silent"]],
+          "forbid": ["saw the teacher", "see the teacher to come in"],
+          "explain": "主谓 the students fell silent 已完整，空格位置是时间状语。see 由 the students 主动发出，与 fell silent 同时，用现在分词 Seeing；see sb. do 的宾补省 to，故为 come in。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.overview.boundary-with-predicate",
+      "title": "非谓语与谓语动词的界限",
+      "brief": "一个分句只有一个谓语，多出的动词必须降级",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["nonfinite.overview.three-forms"],
+      "concept": {
+        "summary": "判定标准只有一条：看这个动词有没有承担人称和时态的变化。承担的是谓语，一个分句只允许一个；不承担的是非谓语。两个都带时态的动词要共处，必须有并列连词或关系词把它们分成并列谓语或不同分句。同一个 -ed 形式是谓语还是非谓语，取决于有没有助动词与它一起承担时态。",
+        "sections": [
+          {
+            "h": "谓语的三个识别特征",
+            "p": "谓语携带人称、时态、语气，并决定整个句子的时间框架；非谓语不随主语变人称，也不能单独表达时态。找谓语就是找那个会随主语变形的动词。",
+            "bullets": [
+              "谓语随人称与时态变化：He works / He worked / He has worked",
+              "非谓语不随主语变化：to work / working / worked",
+              "助动词与主要动词整体算一个谓语：has been writing、will have finished",
+              "情态动词 + 原形也算一个谓语：must leave、should have left"
+            ]
+          },
+          {
+            "h": "并列谓语与分句谓语都合法",
+            "p": "两个谓语形式同时出现并不必然错，前提是它们之间有并列连词，或者分属两个分句。缺连词、缺关系词才是错的，逗号本身不能连接两个分句。",
+            "bullets": [
+              "He opened the door and walked in.（and 连接两个谓语）",
+              "She said that she would come.（that 引出宾语从句，从句自带谓语）",
+              "× The rain stopped, we went out.（逗号连接两个分句，缺连词）",
+              "√ The rain having stopped, we went out.（把前一分句降级为独立主格）"
+            ]
+          },
+          {
+            "h": "同形不同身份：-ed 与 -ing 的双重身份",
+            "p": "was broken 里的 broken 与 was 共同承担时态，是谓语的一部分；the broken window 里的 broken 单独修饰名词，是非谓语。区分依据是有没有助动词与它共担人称时态。",
+            "bullets": [
+              "The window was broken by the storm.（被动谓语）",
+              "The broken window has been repaired.（非谓语作定语，谓语是 has been repaired）",
+              "He happened to be at home.（happened 是谓语，to be 是非谓语）",
+              "The man who is standing there is my teacher.（定语从句自带谓语 is standing）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He opened the letter and read it twice.", "zh": "他拆开信读了两遍。", "ok": true, "note": "and 连接 opened 与 read，两个谓语形式合法并存。" },
+          { "en": "The rain stopped, we went out for a walk.", "zh": "雨停了，我们出去散步。", "ok": false, "note": "逗号不能连接两个分句，应改为 After the rain stopped, we went out for a walk." },
+          { "en": "The window was broken by the storm.", "zh": "窗户被暴风雨打破了。", "ok": true, "note": "was broken 是被动谓语，broken 与 was 共同承担时态。" },
+          { "en": "The broken window has been repaired.", "zh": "那扇破窗已经修好了。", "ok": true, "note": "broken 单独作定语，是非谓语；谓语是 has been repaired。" },
+          { "en": "The man standing at the gate is my uncle.", "zh": "站在门口的那个人是我叔叔。", "ok": true, "note": "standing 是非谓语作定语，全句唯一的谓语是 is。" },
+          { "en": "The man who standing at the gate is my uncle.", "zh": "站在门口的那个人是我叔叔。", "ok": false, "note": "who 引出定语从句后必须有谓语，standing 是非谓语，不能单独充当，应补 is。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The man who standing at the gate is my uncle.", "right": "The man who is standing at the gate is my uncle.", "why": "关系代词 who 引出的定语从句需要自己的谓语，standing 没有时态变化，只能作非谓语，必须补上 is 才能撑起从句。" },
+          { "wrong": "The rain stopped, we went out for a walk.", "right": "After the rain stopped, we went out for a walk.", "why": "两个分句各有谓语，必须由连词或关系词连接；逗号没有连接功能，加从属连词后前一分句降级为状语从句。" },
+          { "wrong": "The report writing by the intern was full of errors.", "right": "The report written by the intern was full of errors.", "why": "句中谓语已是 was，report 后的动词必须是非谓语；report 与 write 是受动关系，只能用过去分词。" }
+        ],
+        "contrast": { "withTitle": "非谓语三种形式与句法功能对照", "diff": "本知识点先划出哪些动词算谓语，那一节点再决定剩下的动词取哪种形式。" },
+        "mnemonic": "一个分句一个谓语；多出的动词要么降级，要么加连词。"
+      },
+      "review": {
+        "core": [
+          "谓语 = 承担人称与时态变化的动词，一个分句只有一个",
+          "助动词 + 主要动词整体算一个谓语：has been writing",
+          "并列谓语需要连词：opened ... and read ...",
+          "两个分句需要连词或关系词，逗号不能连接",
+          "-ed 形式是谓语还是非谓语，看有没有助动词与它共担时态"
+        ],
+        "trigger": "一句里出现两个带时态的动词 → 数连词 → 没有连词就把其中一个降级为非谓语",
+        "quickCheck": [
+          { "q": "The window was broken. 里的 broken 是非谓语吗？", "a": "不是，它与 was 一起构成被动谓语。" },
+          { "q": "逗号能连接两个完整的句子吗？", "a": "不能，必须补并列连词或从属连词。" },
+          { "q": "who 后面为什么不能直接跟 standing？", "a": "定语从句必须有谓语，standing 没有时态变化，需补 is。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.overview.boundary-with-predicate.d1",
+          "type": "choice",
+          "stem": "The house ___ by the fire last year has been rebuilt.",
+          "options": ["destroyed", "destroying", "was destroyed", "to destroy"],
+          "answer": "destroyed",
+          "explain": "主句谓语已是 has been rebuilt，house 后只能放非谓语作定语。house 与 destroy 是受动关系，动作已完成，用过去分词 destroyed。",
+          "trap": "was destroyed 会造出第二个谓语，而两句之间没有连词，句子结构随之崩塌。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.overview.boundary-with-predicate.d2",
+          "type": "fill",
+          "stem": "The man who ___ (stand) at the gate is my uncle.",
+          "answer": "is standing",
+          "accept": ["is standing"],
+          "hint": "who 引出的定语从句必须有谓语。",
+          "explain": "先看成分：who 引导的定语从句缺谓语，主句谓语已是 is。再看关系：stand 由 the man 主动发出。最后看时间：站着与主句的 is 同时。三步合起来，从句谓语用 is standing。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.overview.boundary-with-predicate.d3",
+          "type": "correct",
+          "stem": "The report writing by the intern was full of errors.",
+          "answer": "The report written by the intern was full of errors.",
+          "accept": ["The report written by the intern was full of errors."],
+          "explain": "谓语已是 was full of errors，report 后的动词只能是非谓语；report 与 write 是受动关系，须用过去分词 written。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.overview.boundary-with-predicate.d4",
+          "type": "choice",
+          "stem": "He ___ to have left the country before the investigation began.",
+          "options": ["is believed", "believing", "believed", "to believe"],
+          "answer": "is believed",
+          "explain": "sb. is believed to have done 结构中，is believed 承担时态作谓语，to have left 是非谓语。离开先于 began，故非谓语用完成式。",
+          "trap": "believed 单独出现会让全句失去谓语，to have left 无法独立承当谓语功能。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.overview.boundary-with-predicate.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "man", "standing", "at", "the", "gate", "is", "my", "uncle."],
+          "answer": "The man standing at the gate is my uncle.",
+          "explain": "standing 是非谓语作后置定语，全句唯一的谓语是 is；若把 standing 换成 stands，句子就会出现两个谓语。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.overview.boundary-with-predicate.d6",
+          "type": "translate",
+          "stem": "去年他写的那本书卖得很好。",
+          "answer": "The book written by him last year sells well.",
+          "require": [["written by him"], ["sells"]],
+          "forbid": ["writing by him", "was written by him last year sells"],
+          "explain": "主句谓语是 sells，book 后缺定语。book 与 write 是受动关系，动作发生在去年，用过去分词 written；若写 was written 就会出现两个谓语而缺连词。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

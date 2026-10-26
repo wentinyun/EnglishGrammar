@@ -1,0 +1,677 @@
+{
+  "level1": "nonfinite",
+  "chapter": "gerund",
+  "items": [
+    {
+      "id": "nonfinite.gerund.subject-object",
+      "title": "动名词作主语与宾语",
+      "brief": "缺主缺宾找 doing，作主语谓语用单数",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["nonfinite.overview.three-forms"],
+      "concept": {
+        "summary": "判定标准：句子的主语位置或动词、介词的宾语位置缺一个名词性成分，而所填内容是一个动作、习惯或事实，用动名词。动名词同时带两副面孔：保留动词特征，可以带宾语、被副词修饰；又具备名词特征，可以作主语宾语、被形容词或所有格修饰。单个动名词作主语时，谓语用单数；两个动名词并列则按复数处理。",
+        "sections": [
+          {
+            "h": "作主语：谓语用单数，可后置",
+            "p": "动名词短语在主语位置被视为一个不可数整体，即使内部带复数名词，谓语也用单数。主语过长时可用 it 占位，把动名词后置，这仅限于 no use、no good、worth、waste of time 等评价性框架。",
+            "bullets": [
+              "Smoking is harmful to your health.",
+              "Reading aloud every morning helps your pronunciation.",
+              "It is no use crying over spilt milk.",
+              "It is worth trying once more."
+            ]
+          },
+          {
+            "h": "作宾语：动词宾语与介词宾语",
+            "p": "介词后只能接名词性成分，动词必须变成动名词，这是介词宾语位置的硬性要求。动词宾语位置的形式则由动词本身决定，enjoy、avoid、finish 一类只接受动名词。",
+            "bullets": [
+              "动词宾语：He enjoys reading detective stories.",
+              "介词宾语：She is good at drawing portraits.",
+              "形容词 + 介词 + doing：I am tired of waiting in line.",
+              "短语动词：They insisted on paying for the meal."
+            ]
+          },
+          {
+            "h": "同形不同性：动名词与现在分词的区分",
+            "p": "doing 作主语、宾语、介词宾语时是动名词，具有名词性；作定语、状语、宾补时是现在分词，具有形容词或副词性。位置是唯一可靠的判别依据，词形完全相同。",
+            "bullets": [
+              "Swimming is good exercise.（动名词，作主语）",
+              "The swimming boy is my brother.（现在分词，作定语）",
+              "He sat by the fire, reading a map.（现在分词，作状语）",
+              "I heard her singing upstairs.（现在分词，作宾补）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Collecting stamps has been his hobby since childhood.", "zh": "集邮从小就是他的爱好。", "ok": true, "note": "动名词短语作主语，视为整体，谓语用单数 has been。" },
+          { "en": "She is fond of playing the piano.", "zh": "她喜欢弹钢琴。", "ok": true, "note": "of 是介词，后接动名词作介词宾语。" },
+          { "en": "It is no use arguing with someone who never listens.", "zh": "跟一个从不听人说话的人争论没有用。", "ok": true, "note": "it 是形式主语，真正主语 arguing... 后置。" },
+          { "en": "Seeing is believing.", "zh": "眼见为实。", "ok": true, "note": "主语与表语都是动名词，前后对称。" },
+          { "en": "Collect stamps has been his hobby since childhood.", "zh": "集邮从小就是他的爱好。", "ok": false, "note": "主语位置必须名词化，动词原形不能作主语，应改为 Collecting stamps。" },
+          { "en": "He is good at play chess.", "zh": "他棋下得好。", "ok": false, "note": "介词 at 后须接动名词，应改为 playing chess。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Read in bed is bad for your eyes.", "right": "Reading in bed is bad for your eyes.", "why": "主语位置只能容纳名词性成分，动词原形是祈使句形式，须加 -ing 变成动名词后才能作主语。" },
+          { "wrong": "She is interested in cook.", "right": "She is interested in cooking.", "why": "介词 in 后必须接名词性成分，动词要名词化为动名词；介词后面永远不出现动词原形。" },
+          { "wrong": "Swimming and cycling is good for your health.", "right": "Swimming and cycling are good for your health.", "why": "两个动名词由 and 连接作主语时是复数概念，谓语须用复数，与单个动名词作主语用单数的规则不同。" }
+        ],
+        "contrast": { "withTitle": "只接动名词的动词与短语", "diff": "本知识点解决动名词能站在哪些位置，那一节点解决哪些动词的宾语位置只能由动名词填。" },
+        "mnemonic": "缺主缺宾找 doing；一个动名词谓语用单数，两个用 and 连起来就变复数。"
+      },
+      "review": {
+        "core": [
+          "主语或介词宾语缺名词性成分 → 用动名词",
+          "单个动名词作主语视为整体，谓语用单数",
+          "it is no use / no good / worth + doing 中 it 是形式主语",
+          "介词后只能接动名词，绝不接动词原形",
+          "两个动名词用 and 连接作主语，谓语用复数"
+        ],
+        "trigger": "空格在句首或介词后，且填的是一个动作 → 一律先想 doing",
+        "quickCheck": [
+          { "q": "Collect stamps 能作主语吗？", "a": "不能，须改为 Collecting stamps。" },
+          { "q": "It is no use ___ (complain). 填什么？", "a": "complaining，it 是形式主语。" },
+          { "q": "Reading and writing ___ (be) basic skills. 填什么？", "a": "are，两个动名词并列作主语。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.gerund.subject-object.d1",
+          "type": "choice",
+          "stem": "___ in the morning is a habit that will benefit you for life.",
+          "options": ["Reading", "Read", "To reading", "Reads"],
+          "answer": "Reading",
+          "explain": "句首缺主语，谓语已是 is，空格需要一个名词性成分。read 与逻辑主语是主动关系，指一种习惯性动作，用动名词 Reading 作主语。",
+          "trap": "Read 是祈使句的动词原形，不能作主语；To reading 把不定式符号与动名词混用，形式不成立。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.gerund.subject-object.d2",
+          "type": "fill",
+          "stem": "It is no use ___ (argue) with someone who never listens.",
+          "answer": "arguing",
+          "accept": ["arguing"],
+          "hint": "it 是形式主语，真正主语后置。",
+          "explain": "先看成分：it 只是形式主语，空格处是真正的主语内容，缺主语。再看关系：argue 由泛指的 we 主动发出。it is no use 框架后固定接动名词，与动作时间无关，故填 arguing。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.gerund.subject-object.d3",
+          "type": "choice",
+          "stem": "She is tired of ___ the same questions every day.",
+          "options": ["answering", "answer", "to answer", "answered"],
+          "answer": "answering",
+          "explain": "of 是介词，介词后缺宾语，必须接名词性成分，动词须变为动名词 answering。",
+          "trap": "to answer 只在少数形容词后作原因状语，这里的 of 已经占住介词位置，后面只能接动名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.gerund.subject-object.d4",
+          "type": "correct",
+          "stem": "Collect stamps has been his hobby since childhood.",
+          "answer": "Collecting stamps has been his hobby since childhood.",
+          "accept": ["Collecting stamps has been his hobby since childhood."],
+          "explain": "主语位置缺名词性成分，动词原形 collect 必须名词化为动名词 collecting；谓语 has been 与单数主语一致，无需改动。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.gerund.subject-object.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Swimming", "and", "cycling", "are", "good", "for", "your", "health."],
+          "answer": "Swimming and cycling are good for your health.",
+          "explain": "两个动名词由 and 连接作主语，是复数概念，谓语用 are；若只保留一个动名词，谓语才用单数。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.gerund.subject-object.d6",
+          "type": "translate",
+          "stem": "每天大声朗读英语对提高发音很有帮助。",
+          "answer": "Reading English aloud every day helps improve your pronunciation.",
+          "require": [["reading english"], ["helps"]],
+          "forbid": ["read english aloud every day helps"],
+          "explain": "主语是朗读英语这个习惯性动作，缺主语，read 主动且泛指，用动名词 Reading；动名词作主语视为单数，谓语用 helps。help 后可省略 to，故为 helps improve。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.gerund.gerund-only-verbs",
+      "title": "只接动名词的动词与短语",
+      "brief": "宾语形式由动词锁定，先认动词再定形式",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["nonfinite.gerund.subject-object"],
+      "concept": {
+        "summary": "判定标准：谓语动词后缺宾语时，形式不取决于语义，而取决于动词本身的搭配要求。英语有一批动词的宾语位置只接受动名词，换成不定式即为错误，且没有语义差别可以解释，只能按清单认词。介词结尾的短语动词同样锁定动名词，因为介词后只能接名词性成分。",
+        "sections": [
+          {
+            "h": "四组高频动词",
+            "p": "按语义分组记忆比按字母表背更牢。每组内部形式一致，都是 doing。",
+            "bullets": [
+              "好恶类：enjoy, mind, appreciate, dislike, fancy, can't stand",
+              "避开与完成类：avoid, escape, risk, finish, quit, postpone",
+              "建议与承认类：suggest, recommend, admit, consider, deny, imagine",
+              "其他高频：practise, keep, miss, involve, tolerate"
+            ]
+          },
+          {
+            "h": "短语中的动名词",
+            "p": "以介词结尾的短语后面必然接动名词，这里的 to 是介词而不是不定式符号。判断方法是把 to 后面放一个名词试试，能放就是介词。",
+            "bullets": [
+              "look forward to doing / be used to doing / object to doing",
+              "insist on doing / be fond of doing / get used to doing",
+              "can't help doing / give up doing / put off doing",
+              "have difficulty (in) doing / spend time (in) doing"
+            ]
+          },
+          {
+            "h": "两个必须单独记的动词",
+            "p": "suggest 与 mind 是这类题的最高频考点，因为汉语的“建议某人做”“介意去做”会直接诱导出 to do。",
+            "bullets": [
+              "He suggested taking a break. / He suggested that we (should) take a break.",
+              "× He suggested us to take a break.",
+              "Would you mind opening the window?",
+              "× She doesn't mind to work overtime."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She avoids driving at night on mountain roads.", "zh": "她避免在夜里开山路。", "ok": true, "note": "avoid 的宾语只接受动名词。" },
+          { "en": "He admitted breaking the window.", "zh": "他承认打破了窗户。", "ok": true, "note": "admit 后接动名词，动作已发生也用 doing。" },
+          { "en": "We are looking forward to seeing you again.", "zh": "我们期待再次见到你。", "ok": true, "note": "look forward to 中的 to 是介词，后接动名词。" },
+          { "en": "I can't help laughing whenever I see that photo.", "zh": "每次看到那张照片我都忍不住笑。", "ok": true, "note": "can't help doing 是固定结构，help 后不带 to。" },
+          { "en": "They put off making a decision until Friday.", "zh": "他们把决定推迟到周五。", "ok": true, "note": "put off 中的 off 是介词，后接动名词。" },
+          { "en": "He suggested us to take a short break.", "zh": "他建议我们短暂休息一下。", "ok": false, "note": "suggest 不能接 sb. to do，应改为 suggested that we take 或 suggested taking。" },
+          { "en": "She doesn't mind to work overtime at weekends.", "zh": "她不介意周末加班。", "ok": false, "note": "mind 的宾语只能用动名词，应改为 mind working。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He suggested me to apply for the scholarship.", "right": "He suggested applying for the scholarship.", "why": "suggest 的宾语只能由动名词或 that 从句承担，它不接受宾语加不定式的宾补结构，这是搭配限制而非语义问题。" },
+          { "wrong": "I don't mind to wait for another hour.", "right": "I don't mind waiting for another hour.", "why": "mind 表示介意某事，其宾语必须是名词性成分，动名词是唯一可选形式；to do 会与这一要求冲突。" },
+          { "wrong": "She is used to walk to school.", "right": "She is used to walking to school.", "why": "be used to 中的 to 是介词，表示习惯于，后接动名词；used to do 表示过去常常，两者结构完全不同。" }
+        ],
+        "contrast": { "withTitle": "不定式作宾语与宾补", "diff": "两组动词的宾语形式各自锁定：decide、hope、refuse 接不定式，enjoy、avoid、suggest 接动名词，判断时先认动词。" },
+        "mnemonic": "enjoy mind avoid finish，suggest admit consider；介词 to 后一律 doing。"
+      },
+      "review": {
+        "core": [
+          "只接动名词的动词：enjoy, mind, avoid, finish, suggest, admit, deny, consider",
+          "短语：look forward to, be used to, object to, insist on, give up, put off",
+          "can't help doing 表示忍不住，help 后不带 to",
+          "suggest 只能接 doing 或 that 从句，不接 sb. to do",
+          "have difficulty (in) doing 中 in 可省，动名词不可换成不定式"
+        ],
+        "trigger": "看到 suggest / mind / avoid / look forward to → 宾语位置直接写 doing",
+        "quickCheck": [
+          { "q": "suggest sb. to do 对不对？", "a": "不对，用 suggest doing 或 suggest that sb. (should) do。" },
+          { "q": "can't help 后面接什么？", "a": "接动名词，表示忍不住做某事。" },
+          { "q": "be used to 后面接什么？", "a": "接动名词，to 是介词；used to do 才是过去常常。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.gerund.gerund-only-verbs.d1",
+          "type": "choice",
+          "stem": "Would you mind ___ the window? It is rather stuffy in here.",
+          "options": ["opening", "to open", "open", "opened"],
+          "answer": "opening",
+          "explain": "mind 的宾语位置只接受动名词，Would you mind doing 是提出请求的固定说法，故用 opening。",
+          "trap": "to open 是受汉语“介意去做”影响的结果，mind 不接受不定式作宾语。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.gerund.gerund-only-verbs.d2",
+          "type": "fill",
+          "stem": "They put off ___ (announce) the results until Monday.",
+          "answer": "announcing",
+          "accept": ["announcing"],
+          "hint": "off 在短语动词中是介词。",
+          "explain": "先看成分：put off 后缺宾语，off 是介词，宾语位置必须是名词性成分。再看关系：announce 由 they 主动发出。介词后固定接动名词，故填 announcing。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.gerund.gerund-only-verbs.d3",
+          "type": "choice",
+          "stem": "She has difficulty ___ her attention on one task for long.",
+          "options": ["keeping", "to keep", "keep", "kept"],
+          "answer": "keeping",
+          "explain": "have difficulty (in) doing 是固定结构，in 可以省略但动名词不能换，故用 keeping。",
+          "trap": "to keep 是把 difficulty 当成可接不定式的名词，实际这个结构里隐藏的介词 in 决定了必须用动名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.gerund.gerund-only-verbs.d4",
+          "type": "correct",
+          "stem": "I can't help to laugh when I watch that video.",
+          "answer": "I can't help laughing when I watch that video.",
+          "accept": ["I can't help laughing when I watch that video."],
+          "explain": "can't help 表示忍不住，help 后接动名词，不能接不定式；若表示不能帮忙做某事才用 help to do，语义完全不同。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.gerund.gerund-only-verbs.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "am", "looking", "forward", "to", "hearing", "from", "you", "soon."],
+          "answer": "I am looking forward to hearing from you soon.",
+          "explain": "look forward to 中的 to 是介词，后面接动名词 hearing；hear from 意为收到某人的消息。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.gerund.gerund-only-verbs.d6",
+          "type": "translate",
+          "stem": "他建议我们提前预订机票。",
+          "answer": "He suggested booking the tickets in advance.",
+          "require": [["suggested booking", "suggested that we"], ["in advance"]],
+          "forbid": ["suggested us to"],
+          "explain": "suggest 的宾语位置只能由动名词或 that 从句承担，不能接 sb. to do；booking 与 he 是主动关系，动作尚未发生仍用一般式 doing。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.gerund.compound-structure",
+      "title": "动名词的复合结构",
+      "brief": "逻辑主语与句子主语不同时，必须显性写出",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["nonfinite.gerund.subject-object"],
+      "concept": {
+        "summary": "判定标准：动名词的逻辑主语与句子主语不是同一对象时，必须把它显性写出，构成物主代词或名词所有格加 doing 的复合结构。作主语时逻辑主语只能用所有格；作宾语时口语可用宾格或普通格，但正式书面语仍用所有格。表示否定把 not 放在动名词前，表示受动用 being done。",
+        "sections": [
+          {
+            "h": "两种形式与使用位置",
+            "p": "复合结构整体充当一个名词性成分：作主语、作动词宾语、作介词宾语。位置的正式程度决定逻辑主语用所有格还是宾格。",
+            "bullets": [
+              "His being late for the interview cost him the job.（作主语，必须用所有格）",
+              "Would you mind my opening the window?（作宾语，所有格更正式）",
+              "I don't mind him leaving early.（口语中宾格可接受）",
+              "She insisted on Tom's paying for the damage.（介词宾语用所有格）"
+            ]
+          },
+          {
+            "h": "否定式与被动式",
+            "p": "复合结构的否定把 not 放在动名词之前，位置在所有格之后；受动关系用 being done，两个条件可以叠加为 not being done。",
+            "bullets": [
+              "His not being invited to the party hurt him.",
+              "I object to his being treated differently.",
+              "The teacher was annoyed at Tom's not handing in the essay.",
+              "Her having been chosen surprised nobody."
+            ]
+          },
+          {
+            "h": "无生命主语与 there be",
+            "p": "逻辑主语是无生命名词时，通常用普通格而不是所有格，因为无生命物不能拥有动作。there be 结构的动名词形式 there being 常用于书面语，多作状语。",
+            "bullets": [
+              "The door being locked forced us to wait outside.",
+              "There being no bus at that hour, we walked home.",
+              "The delay in the train's arriving annoyed everyone.（也可说 the train arriving）",
+              "there being 偏书面，日常表达更常说 Since there was no bus, we walked home."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "His being late for the interview cost him the job.", "zh": "面试迟到让他失去了那份工作。", "ok": true, "note": "复合结构作主语，逻辑主语与句子谓语的主语不同，用所有格 His。" },
+          { "en": "Would you mind my opening the window?", "zh": "你介意我开窗吗？", "ok": true, "note": "作宾语，逻辑主语 my 与句子主语 you 不同，用所有格。" },
+          { "en": "I don't remember his ever mentioning the plan.", "zh": "我不记得他提起过这个计划。", "ok": true, "note": "所有格 his 加动名词，ever 置于动名词前修饰。" },
+          { "en": "I object to his being treated like a child.", "zh": "我反对把他当孩子对待。", "ok": true, "note": "介词 to 后接复合结构的被动式 being treated。" },
+          { "en": "His not being invited to the wedding surprised everyone.", "zh": "他没被邀请参加婚礼，大家都很意外。", "ok": true, "note": "否定在动名词前，被动用 being invited，两者叠加。" },
+          { "en": "Him being late for the interview cost him the job.", "zh": "面试迟到让他失去了那份工作。", "ok": false, "note": "作主语时逻辑主语必须用所有格，应改为 His being late。" },
+          { "en": "Would you mind me to open the window?", "zh": "你介意我开窗吗？", "ok": false, "note": "mind 后接动名词，逻辑主语用所有格或宾格加 doing，不能用不定式。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He being late again made the teacher angry.", "right": "His being late again made the teacher angry.", "why": "复合结构作主语时，逻辑主语占据的是名词的位置，必须用所有格；宾格只在宾语位置的口语中出现。" },
+          { "wrong": "I don't mind you to use my laptop.", "right": "I don't mind your using my laptop.", "why": "mind 后接动名词，逻辑主语与动名词组成复合结构，不定式无法进入这个位置。" },
+          { "wrong": "I resent to be treated as a child.", "right": "I resent being treated as a child.", "why": "resent 后接动名词；我被人对待是受动关系，因此动名词要用被动式 being treated。" }
+        ],
+        "contrast": { "withTitle": "独立主格结构", "diff": "复合结构中的 doing 是名词性成分，整体作主语或宾语；独立主格是修饰性成分，整体作状语，两者形式相近但句法功能不同。" },
+        "mnemonic": "主语位置用所有格，宾语位置可宾格；无生命名词用普通格。"
+      },
+      "review": {
+        "core": [
+          "逻辑主语与句子主语不同 → 必须写出，构成所有格 + doing",
+          "作主语只能用所有格：His being late cost him the job",
+          "作宾语口语可用宾格，正式语体仍用所有格",
+          "否定式：not 放在动名词前；被动式：being done",
+          "无生命名词用普通格，there be 用 there being"
+        ],
+        "trigger": "动名词的逻辑主语不是句子主语 → 前面补一个所有格",
+        "quickCheck": [
+          { "q": "He being late made... 对吗？", "a": "不对，作主语须用 His being late。" },
+          { "q": "Would you mind ___ (I) opening the window? 填什么？", "a": "my，正式语体用所有格。" },
+          { "q": "“我反对被当成孩子”怎么说？", "a": "I object to being treated as a child." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.gerund.compound-structure.d1",
+          "type": "choice",
+          "stem": "___ late again made the manager lose his patience.",
+          "options": ["His being", "He being", "Him being", "His to be"],
+          "answer": "His being",
+          "explain": "动名词的逻辑主语 he 与句子谓语的主语 the manager 不同，必须显性写出；整个复合结构作主语，逻辑主语要用所有格 His，构成 His being late。",
+          "trap": "He being 把主格放在名词位置；Him being 的宾格只用于宾语位置的口语，作主语不成立。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.compound-structure.d2",
+          "type": "fill",
+          "stem": "I was annoyed by ___ (he) constant interrupting during the meeting.",
+          "answer": "his",
+          "accept": ["his"],
+          "hint": "by 是介词，后面要接复合结构的逻辑主语。",
+          "explain": "先看成分：by 是介词，后缺宾语，interrupting 已提供动名词。再看关系：打断由 he 主动发出。逻辑主语与句子主语 I 不同，介词宾语位置正式语体用所有格，故填 his。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.compound-structure.d3",
+          "type": "choice",
+          "stem": "She objected to ___ like a child in front of the whole team.",
+          "options": ["being treated", "treating", "be treated", "to be treated"],
+          "answer": "being treated",
+          "explain": "object to 中的 to 是介词，后缺名词性成分。she 是 treat 的承受者，受动关系用被动式 being treated。",
+          "trap": "treating 是主动，等于说她对待别人；to be treated 在介词 to 后不成立，因为这里已有一个介词 to。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.compound-structure.d4",
+          "type": "correct",
+          "stem": "He being absent from the meeting caused a lot of trouble.",
+          "answer": "His being absent from the meeting caused a lot of trouble.",
+          "accept": ["His being absent from the meeting caused a lot of trouble."],
+          "explain": "复合结构作主语，逻辑主语 he 与句子主语不同，且处于名词位置，必须用所有格 His；宾格 He 只适用于宾语位置的口语。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.compound-structure.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Would", "you", "mind", "my", "opening", "the", "window", "for", "a", "moment?"],
+          "answer": "Would you mind my opening the window for a moment?",
+          "explain": "开窗的人是我而不是 you，逻辑主语与句子主语不同，须写出 my；mind 后接动名词构成复合结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.compound-structure.d6",
+          "type": "translate",
+          "stem": "他没被邀请参加婚礼，全家人都很意外。",
+          "answer": "His not being invited to the wedding surprised the whole family.",
+          "require": [["his not being invited"]],
+          "forbid": ["he not being invited", "his not invited"],
+          "explain": "复合结构作主语：逻辑主语是他而不是 the whole family，用所有格 His；否定 not 放在动名词前；他是被邀请的对象，用被动式 being invited。",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.gerund.tense-voice",
+      "title": "动名词的时态与语态",
+      "brief": "先于谓语 having done，受动 being done",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["nonfinite.gerund.subject-object", "morph.verbs.four-forms"],
+      "concept": {
+        "summary": "判定分两步：先看动名词的动作与谓语的时间先后，同时或之后用 doing，先于谓语用 having done；再看动名词的逻辑主语是施动还是受动，受动用 being done，先于谓语且受动用 having been done。动名词没有进行式，因此 doing 同时承担一般式与进行式两种含义。",
+        "sections": [
+          {
+            "h": "四种形式",
+            "p": "两组参数组合：时间（一般或完成）与语态（主动或被动）。判断顺序先时间后语态，因为语态取决于逻辑主语，与时间无关。",
+            "bullets": [
+              "doing：与谓语同时或之后发生的主动动作",
+              "having done：先于谓语完成的主动动作",
+              "being done：与谓语同时的被动动作",
+              "having been done：先于谓语且被动的动作"
+            ]
+          },
+          {
+            "h": "完成式的高频触发词",
+            "p": "admit、deny、regret、remember、apologize for、be proud of、be accused of 后，若动名词的动作明显先于谓语，用完成式。口语中常用一般式替代，但书面语与考试要求区分。",
+            "bullets": [
+              "He denied having seen the man before.",
+              "She apologized for having kept us waiting.",
+              "I regret having said those words.",
+              "He was accused of having stolen the documents."
+            ]
+          },
+          {
+            "h": "被动式的判定",
+            "p": "动名词的逻辑主语如果是动作的承受者，用被动式。注意 enjoy、hate、remember 一类动词后，主语常是被描述的对象，容易漏掉被动。",
+            "bullets": [
+              "He hates being interrupted while speaking.",
+              "She remembers being taken to the zoo as a child.",
+              "The child enjoys being praised in public.",
+              "After having been warned twice, he stopped."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He denied having taken the money.", "zh": "他否认拿了那笔钱。", "ok": true, "note": "拿钱先于否认，用完成式 having taken。" },
+          { "en": "She is proud of having been chosen for the team.", "zh": "她为被选入队而自豪。", "ok": true, "note": "先于谓语且她是被选的，用 having been chosen。" },
+          { "en": "The children enjoy being praised in public.", "zh": "孩子们喜欢当众被表扬。", "ok": true, "note": "孩子是 praise 的承受者，用被动式 being praised。" },
+          { "en": "I regret not having studied harder at school.", "zh": "我后悔上学时没有更用功。", "ok": true, "note": "否定 not 放在 having 之前，动作先于 regret。" },
+          { "en": "He denied to have taken the money.", "zh": "他否认拿了那笔钱。", "ok": false, "note": "deny 后接动名词，且动作先于谓语，应改为 denied having taken。" },
+          { "en": "She remembers to be taken to the zoo as a child.", "zh": "她记得小时候被带去动物园。", "ok": false, "note": "remember 后要接动名词，且她是被带去的，应改为 remembers being taken。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He apologized for keep us waiting.", "right": "He apologized for having kept us waiting.", "why": "介词 for 后必须接动名词，且让我们等这件事先于道歉发生，须用完成式 having kept。" },
+          { "wrong": "The old man enjoys to be looked after.", "right": "The old man enjoys being looked after.", "why": "enjoy 的宾语只能是动名词；老人是照顾的承受者，因此动名词要用被动式 being done。" },
+          { "wrong": "She denied to see the man before.", "right": "She denied having seen the man before.", "why": "deny 后接动名词；before 表明看见先于否认，须用完成式 having seen，一般式 doing 无法表达这层先后。" }
+        ],
+        "contrast": { "withTitle": "不定式的时态与语态", "diff": "两者形式一一对应，但参照点不同：不定式常指向谓语之后的将来动作，动名词常指向与谓语同时或已经发生的动作。" },
+        "mnemonic": "先于谓语 having done，受动 being done，两样都要 having been done。"
+      },
+      "review": {
+        "core": [
+          "doing：与谓语同时或之后；having done：先于谓语",
+          "being done：同时被动；having been done：先于谓语且被动",
+          "完成式高频词：deny, admit, regret, apologize for, be accused of",
+          "enjoy / hate / remember 后常需被动式：enjoy being praised",
+          "动名词没有进行式，doing 兼表进行含义"
+        ],
+        "trigger": "看到 deny / admit / regret / apologize for → 先问动作是否已完成 → 已完成用 having done",
+        "quickCheck": [
+          { "q": "He denied ___ (take) the money. 填什么？", "a": "having taken，拿钱先于否认。" },
+          { "q": "孩子们喜欢被表扬怎么说？", "a": "The children enjoy being praised." },
+          { "q": "动名词有进行式吗？", "a": "没有，doing 本身可表示正在进行的动作。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.gerund.tense-voice.d1",
+          "type": "choice",
+          "stem": "He denied ___ the document before the meeting began.",
+          "options": ["having seen", "to see", "seeing", "to have seen"],
+          "answer": "having seen",
+          "explain": "deny 后接动名词，排除两个不定式选项。看见文件发生在会议开始之前，也早于否认，属先于谓语的动作，用完成式 having seen。",
+          "trap": "seeing 虽符合 deny 的宾语要求，但无法体现看见先于否认；to have seen 形式上是完成式，却违反了 deny 只接动名词的搭配。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.tense-voice.d2",
+          "type": "fill",
+          "stem": "The pupils enjoy ___ (praise) by their teacher in front of the class.",
+          "answer": "being praised",
+          "accept": ["being praised"],
+          "hint": "enjoy 后接动名词，注意学生与表扬的关系。",
+          "explain": "先看成分：enjoy 后缺宾语，须用动名词。再看关系：pupils 是 praise 的承受者，受动，用被动式。最后看时间：表扬与 enjoy 同时，不必用完成式。故填 being praised。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.tense-voice.d3",
+          "type": "choice",
+          "stem": "She apologized for ___ the appointment without giving any notice.",
+          "options": ["having cancelled", "to cancel", "cancel", "being cancelled"],
+          "answer": "having cancelled",
+          "explain": "for 是介词，后接动名词。取消预约由 she 主动做出，且先于道歉，主动 + 先于谓语用完成式 having cancelled。",
+          "trap": "being cancelled 是机械套用被动，取消是 she 主动做的；to cancel 在介词 for 后不成立。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.tense-voice.d4",
+          "type": "correct",
+          "stem": "He regrets not to have taken her advice.",
+          "answer": "He regrets not having taken her advice.",
+          "accept": ["He regrets not having taken her advice."],
+          "explain": "regret 后接动名词，不能接不定式；未采纳建议先于后悔，用完成式，否定词 not 放在 having 之前。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.tense-voice.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "denied", "having", "taken", "the", "money", "from", "the", "drawer."],
+          "answer": "He denied having taken the money from the drawer.",
+          "explain": "deny 后接动名词；拿钱先于否认，用完成式 having taken；take 由 he 主动发出，不需要被动。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.tense-voice.d6",
+          "type": "translate",
+          "stem": "她后悔没有接受那份工作。",
+          "answer": "She regrets not having accepted the job.",
+          "require": [["regrets not having"], ["job"]],
+          "forbid": ["regrets not to"],
+          "explain": "regret 后接动名词；没接受工作在后悔之前发生，用完成式 having accepted；否定词 not 置于 having 之前，构成 regrets not having accepted。",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.gerund.gerund-vs-infinitive",
+      "title": "动名词与不定式作宾语的语义差异",
+      "brief": "doing 指已发生，to do 指将发生",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["nonfinite.gerund.gerund-only-verbs"],
+      "concept": {
+        "summary": "判定标准：同一动词后 doing 与 to do 都合法时，差别来自动名词所指动作在谓语之前还是之后。doing 指向已经发生或正在发生的动作，to do 指向尚未发生、将要去做的事。stop 与 go on 的差别在于动名词是宾语而 to do 是目的状语；try 与 mean 的差别则是尝试办法与努力去做、意味着与打算。",
+        "sections": [
+          {
+            "h": "remember / forget / regret：时间轴在谓语前后",
+            "p": "这三个动词的 doing 都指向谓语之前已发生的动作，to do 都指向谓语之后尚未发生的动作。判断只需问一句：这个动作在谓语之前还是之后。regret to do 用途很窄，只接 tell、say、inform 一类告知动词。",
+            "bullets": [
+              "remember doing 记得做过：I remember locking the door.",
+              "remember to do 记得去做：Remember to lock the door.",
+              "forget doing 忘了做过：I will never forget seeing the sea for the first time.",
+              "forget to do 忘了去做：I forgot to lock the door.",
+              "regret doing 后悔做了：I regret telling him the truth.",
+              "regret to do 遗憾要告知：I regret to tell you that your application failed."
+            ]
+          },
+          {
+            "h": "stop / go on：动名词是宾语，to do 是目的",
+            "p": "stop 与 go on 后接动名词时，动名词就是这两个动词的宾语，表示被停止或继续的那个动作；后接不定式时，不定式不再是宾语，而是目的状语，表示停下来或接着去做另一件事。",
+            "bullets": [
+              "stop doing 停止该动作：He stopped smoking last year.",
+              "stop to do 停下来去做：He stopped to smoke a cigarette.",
+              "go on doing 继续同一件事：She went on reading, ignoring the noise.",
+              "go on to do 接着做下一件：After the introduction, she went on to explain the method."
+            ]
+          },
+          {
+            "h": "try / mean：办法与努力、意味着与打算",
+            "p": "try doing 是把某个办法拿来试一试，try to do 是尽力去做某事，未必成功；mean doing 表示意味着、会导致，主语通常是事物，mean to do 表示打算，主语通常是人。",
+            "bullets": [
+              "try doing 试试这个办法：Try pressing this button; it may work.",
+              "try to do 努力去做：He tried to open the jar but failed.",
+              "mean doing 意味着：Missing the train means waiting an hour.",
+              "mean to do 打算：I didn't mean to hurt you."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I remember locking the door, so we are safe.", "zh": "我记得锁了门，所以我们很安全。", "ok": true, "note": "锁门发生在 remember 之前，用 doing，且与后半句的安全相呼应。" },
+          { "en": "Remember to lock the door when you leave.", "zh": "离开时记得锁门。", "ok": true, "note": "锁门尚未发生，用 to do 表示要去做的事。" },
+          { "en": "He stopped to smoke a cigarette outside the office.", "zh": "他停下来，在办公室外抽了支烟。", "ok": true, "note": "to smoke 是目的状语，被停止的是别的事情。" },
+          { "en": "He stopped smoking three years ago.", "zh": "他三年前戒了烟。", "ok": true, "note": "smoking 是 stop 的宾语，停止的就是吸烟这个动作。" },
+          { "en": "After the introduction, she went on to describe the next stage.", "zh": "介绍之后，她接着描述了下一个阶段。", "ok": true, "note": "go on to do 表示接续做另一件事，前后动作不同。" },
+          { "en": "I will never forget to see the sea for the first time.", "zh": "我永远不会忘记第一次见到大海。", "ok": false, "note": "见到大海已经发生，应用 forget seeing；to see 指向尚未发生，与 never forget 的回忆语义矛盾。" },
+          { "en": "Missing the train means to wait an hour.", "zh": "错过这班火车意味着要等一个小时。", "ok": false, "note": "mean doing 表示意味着，应改为 means waiting an hour。" },
+          { "en": "I didn't mean hurting your feelings.", "zh": "我不是有意伤害你的感情。", "ok": false, "note": "mean to do 表示打算，此处要表达意图，应改为 didn't mean to hurt。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Remember turning off the lights before you leave.", "right": "Remember to turn off the lights before you leave.", "why": "before you leave 指向尚未发生的动作，remember 后要用 to do；turning 表示记得已经关过，与时间指向矛盾。" },
+          { "wrong": "He stopped to smoke last year and has not touched a cigarette since.", "right": "He stopped smoking last year and has not touched a cigarette since.", "why": "戒烟时 smoking 是 stop 的宾语；stop to smoke 表示停下来去抽烟，与后文再没碰过烟的事实相反。" },
+          { "wrong": "I didn't mean hurting your feelings.", "right": "I didn't mean to hurt your feelings.", "why": "表达意图用 mean to do，mean doing 表示意味着某种结果，主语是事物而不是人。" }
+        ],
+        "contrast": { "withTitle": "只接动名词的动词与短语", "diff": "那组动词的形式是锁定的，换形式即为错误；本组的两种形式都合法，换形式改变的是动作的时间指向和意义。" },
+        "mnemonic": "做过用 doing，去做用 to do；stop 与 go on 看宾语还是目的；try 试办法对尽力做；mean 意味着对打算。"
+      },
+      "review": {
+        "core": [
+          "remember / forget / regret：doing 指已做，to do 指未做",
+          "regret to do 只接 tell、say、inform 一类告知动词",
+          "stop doing 停止该动作，stop to do 停下来去做另一件事",
+          "go on doing 继续同一件事，go on to do 接着做下一件",
+          "try doing 试办法，try to do 努力做；mean doing 意味着，mean to do 打算"
+        ],
+        "trigger": "同一动词后 doing 与 to do 都成立 → 问动作在谓语之前还是之后 → 之前用 doing，之后用 to do",
+        "quickCheck": [
+          { "q": "I regret to tell you... 是后悔告诉过你吗？", "a": "不是，是遗憾地告诉你，告知的内容尚未说出。" },
+          { "q": "He stopped to rest. 他停止休息了吗？", "a": "没有，他停下来去休息。" },
+          { "q": "Missing the train means ___ (wait) an hour. 填什么？", "a": "waiting，mean doing 表示意味着。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.gerund.gerund-vs-infinitive.d1",
+          "type": "choice",
+          "stem": "I clearly remember ___ the door, so I don't need to go back.",
+          "options": ["locking", "to lock", "lock", "locked"],
+          "answer": "locking",
+          "explain": "后半句说明不必回去，可见锁门已经发生。remember 后指已发生的动作用动名词 locking。",
+          "trap": "to lock 表示记得要去锁，与已经锁好、不必回去的事实矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.gerund.gerund-vs-infinitive.d2",
+          "type": "fill",
+          "stem": "I regret ___ (tell) him the truth; he has not spoken to me since.",
+          "answer": "telling",
+          "accept": ["telling"],
+          "hint": "后半句说明告诉他真话这件事已经发生了。",
+          "explain": "先看成分：regret 后缺宾语，须用动名词或不定式。再看关系：tell 由 I 主动发出。最后看时间：since 从句说明告诉他真话已发生，属谓语之前的动作，用 doing，故填 telling。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.gerund-vs-infinitive.d3",
+          "type": "choice",
+          "stem": "Try ___ the machine off and on again; that often solves the problem.",
+          "options": ["turning", "to turn", "turn", "turned"],
+          "answer": "turning",
+          "explain": "后半句在评价这个办法是否有效，说明建议的是试一试某个做法，try doing 表示试办法。",
+          "trap": "to turn 表示努力去关，隐含费力或未必成功的意味，与试试这个办法的建议语气不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.gerund-vs-infinitive.d4",
+          "type": "correct",
+          "stem": "I will never forget to meet the president — it was the proudest day of my life.",
+          "answer": "I will never forget meeting the president — it was the proudest day of my life.",
+          "accept": ["I will never forget meeting the president — it was the proudest day of my life."],
+          "explain": "后半句用过去时说明见面已经发生，forget 后指已发生的动作用动名词 meeting；to meet 会指向尚未发生的见面。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.gerund.gerund-vs-infinitive.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Remember", "to", "turn", "off", "the", "lights", "before", "you", "leave", "the", "office."],
+          "answer": "Remember to turn off the lights before you leave the office.",
+          "explain": "关灯发生在离开之前，是尚未去做的事，remember 后用 to do；若用 turning 就变成记得已经关过灯。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.gerund.gerund-vs-infinitive.d6",
+          "type": "translate",
+          "stem": "他去年戒了烟，之后身体好多了。",
+          "answer": "He stopped smoking last year and has been much healthier since.",
+          "require": [["stopped smoking"]],
+          "forbid": ["stopped to smoke"],
+          "explain": "戒烟时 smoking 是 stop 的宾语，停止的正是吸烟这个动作；stop to smoke 表示停下来去抽烟，与后文身体变好相反。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "level1": "tense_voice",
+  "chapter": "future_perfect",
+  "items": [
+    {
+      "id": "tense_voice.future_perfect.by-future-time",
+      "title": "将来完成时的意义（by + 将来时间）",
+      "brief": "by + 将来时间：到那时动作已完成",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.verbs.four-forms"],
+      "concept": {
+        "summary": "将来完成时 will have done 以将来某一时刻为参照点，表示动作在该点之前已经完成。它与一般将来时的分界就在参照点：will do 只说动作将会发生，will have done 强调“到那时已经做完”。典型触发结构是 by + 将来时间与 by the time + 一般现在时从句，句中出现这类截止点时，谓语优先考虑完成体。",
+        "sections": [
+          {
+            "h": "构成：只有 will 与 have 在变",
+            "p": "肯定式为 will have + 过去分词，否定式为 will not have + 过去分词，疑问式把 will 提到主语之前。have 永远是原形，因为时态信息已由 will 承担，过去分词本身不承担时态。",
+            "bullets": [
+              "肯定：They will have arrived by noon.",
+              "否定：They will not have arrived by noon.",
+              "疑问：Will they have arrived by noon?",
+              "被动：The report will have been submitted by Friday."
+            ]
+          },
+          {
+            "h": "by 是截止点，不是起点",
+            "p": "by + 时间点表示“不迟于该时间”，把该时间当作动作完成的上限，因此与完成体天然匹配。after + 时间段只给出动作发生的起点，与“到某点前已完成”的截止义冲突。in + 时间段在将来完成时中意为“在……之内”，语义接近 by，但 by 更明确地标出截止线。",
+            "bullets": [
+              "By the end of June, the lab will have been rebuilt.（六月底之前完工）",
+              "By then, everyone will have left the hall.",
+              "× I will have finished it after two hours.；√ in two hours 或 by then"
+            ]
+          },
+          {
+            "h": "与相邻时态的边界",
+            "p": "三个将来时态在同一时间轴上分工不同：will do 指向动作发生，will be doing 指向某点正在进行，will have done 指向某点之前完成。判断时先定位参照点，再看动作落在参照点之前、之中还是之后。",
+            "bullets": [
+              "will do：The train will leave at six.",
+              "will be doing：At six tomorrow, we will be waiting on the platform.",
+              "will have done：By six tomorrow, we will have reached the station.",
+              "状态动词用完成体表持续：By May, he will have known her for a year."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "By the end of this term, we will have read twelve novels.", "zh": "到本学期末，我们将读完十二本小说。", "ok": true, "note": "by the end of this term 是将来截止点，动作在该点前完成，用 will have done。" },
+          { "en": "By the time the manager arrives, the meeting will have ended.", "zh": "等经理到时，会议已经结束了。", "ok": true, "note": "by the time 从句用一般现在时表将来，主句用将来完成时表示先结束。" },
+          { "en": "Will you have finished the draft by Friday afternoon?", "zh": "你周五下午之前能把初稿写完吗？", "ok": true, "note": "疑问式把 will 提到句首，have finished 保持原形结构。" },
+          { "en": "By 2030, the city will have built three new subway lines.", "zh": "到 2030 年，这座城市将建成三条新地铁线。", "ok": true, "note": "by + 将来年份是典型的完成体触发结构。" },
+          { "en": "By the time you will get home, I will have prepared dinner.", "zh": "等你到家时，我已经把晚饭准备好了。", "ok": false, "note": "by the time 引导时间状语从句，主句为将来时，从句必须用一般现在时 get，不能用 will get。" },
+          { "en": "By next Monday, he will has finished the survey.", "zh": "到下周一，他将已经完成这项调查。", "ok": false, "note": "will 后必须接动词原形，完成体只能是 will have finished，不能写成 will has。" },
+          { "en": "By the end of last month, we will have finished the project.", "zh": "到上个月月底，我们将已经完成这个项目。", "ok": false, "note": "by the end of last month 指向过去，不能用将来完成时，应改为 had finished。" }
+        ],
+        "pitfalls": [
+          { "wrong": "By next year, he will be finished his degree.", "right": "By next year, he will have finished his degree.", "why": "完成体的助动词是 have；will be finished 是被动或系表结构，后面不能再带宾语 his degree。" },
+          { "wrong": "By the time she will come back, the children will have gone to bed.", "right": "By the time she comes back, the children will have gone to bed.", "why": "by the time 引导时间状语从句，主句已用将来时，从句要用一般现在时表将来，不能再用 will。" },
+          { "wrong": "I will have finished the report after two hours.", "right": "I will have finished the report in two hours.", "why": "after + 时间段只说明动作在该时长之后发生，与“到某点前已完成”的截止义冲突；表“两小时之内完成”用 in 加时间段。" }
+        ],
+        "contrast": { "withTitle": "将来完成进行时", "diff": "将来完成时把动作看作在参照点之前已经结束的整体，将来完成进行时把动作看作跨越参照点仍在延续的过程。" },
+        "mnemonic": "by 是截止线，have done 在线上；从句用现在，主句用完成。"
+      },
+      "review": {
+        "core": [
+          "结构：will have + 过去分词；否定 will not have done；疑问 Will + 主语 + have done",
+          "参照点必须是将来某一时刻，动作在该点之前完成",
+          "触发结构：by + 将来时间、by then、by the time + 一般现在时从句",
+          "与 will do 的分界：是否强调“到那时已经做完”",
+          "after + 时间段只给起点，不能充当 by 的截止点"
+        ],
+        "trigger": "看到 by + 将来时间或 by the time → 主句用 will have done → 从句用一般现在时",
+        "quickCheck": [
+          { "q": "By next June, he ___ (work) here for ten years. 填什么？", "a": "will have worked，by + 将来时间是完成体信号。" },
+          { "q": "by the time 从句能用 will 吗？", "a": "不能，用一般现在时表将来。" },
+          { "q": "will have 后面的 have 会随主语变 has 吗？", "a": "不会，永远是 have。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.future_perfect.by-future-time.d1",
+          "type": "choice",
+          "stem": "By the end of next month, we ___ the bridge.",
+          "options": ["will have completed", "will complete", "have completed", "will be completed"],
+          "answer": "will have completed",
+          "explain": "by the end of next month 是将来截止点，动作在该点之前完成，谓语用将来完成时 will have completed。",
+          "trap": "will complete 只说明动作将发生，没有“到那时已结束”的完成义；will be completed 把 we 变成受动者，与宾语 the bridge 冲突。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_perfect.by-future-time.d2",
+          "type": "fill",
+          "stem": "By the time the film ___ (end), we will have eaten dinner.",
+          "answer": "ends",
+          "accept": ["ends"],
+          "hint": "by the time 引导时间状语从句，主句已经是将来时。",
+          "explain": "by the time 从句不能用 will 表将来，须用一般现在时 ends，主句则用将来完成时表示先吃完饭。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_perfect.by-future-time.d3",
+          "type": "correct",
+          "stem": "By next Friday, she will has finished all the assignments.",
+          "answer": "By next Friday, she will have finished all the assignments.",
+          "accept": ["By next Friday, she will have finished all the assignments."],
+          "explain": "will 是情态助动词，后面一律接动词原形，完成体固定为 will have done，have 不随主语变 has。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_perfect.by-future-time.d4",
+          "type": "choice",
+          "stem": "___ you have finished the essay by tomorrow morning?",
+          "options": ["Will", "Do", "Have", "Are"],
+          "answer": "Will",
+          "explain": "句子含将来完成时 will have finished，疑问式把 will 提到主语前，其余部分不变。",
+          "trap": "Have 会把句子改成现在完成时疑问句，与 by tomorrow morning 这一将来截止点冲突。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_perfect.by-future-time.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["By", "the", "time", "you", "arrive,", "the", "cooks", "will", "have", "prepared", "everything."],
+          "answer": "By the time you arrive, the cooks will have prepared everything.",
+          "explain": "by the time 从句用一般现在时 arrive 表将来，主句用将来完成时 will have prepared 表示在该时点前已完成。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_perfect.by-future-time.d6",
+          "type": "translate",
+          "stem": "到明年六月，她将已经在这所学校教了二十年书。",
+          "answer": "By next June, she will have taught at this school for twenty years.",
+          "require": [["by next june", "by june next year"], ["will have taught"], ["twenty years"]],
+          "forbid": ["will have teach", "will taught", "will has taught"],
+          "explain": "by next June 是将来截止点，谓语用 will have + 过去分词；for twenty years 说明到该点为止的累计时长。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.future_perfect.continuous",
+      "title": "将来完成进行时的意义与用法",
+      "brief": "到将来某点已持续多久且仍在继续",
+      "difficulty": 3,
+      "tags": ["难点", "易错"],
+      "prereq": ["tense_voice.future_perfect.by-future-time"],
+      "concept": {
+        "summary": "将来完成进行时 will have been doing 表示动作从过去某时开始，一直持续到将来某一参照点，并可能继续下去，核心语义是“持续时长”。它与将来完成时的区别在视角：will have done 把动作看作在该点之前完成的整体，will have been doing 把动作看作跨越该点仍在延续的过程。该时态只接延续性动词，瞬间动词与状态动词都不能用。",
+        "sections": [
+          {
+            "h": "构成与语义重心",
+            "p": "结构为 will have been + 现在分词，四个成分缺一不可。它几乎总和 for + 时间段或 since + 起点同现，因为“持续多久”正是它要回答的问题。",
+            "bullets": [
+              "By next month, I will have been working here for five years.",
+              "否定：She will not have been waiting long.",
+              "疑问：Will you have been studying all morning?",
+              "常带 for + 时间段、since + 起点、by + 将来时间"
+            ]
+          },
+          {
+            "h": "与将来完成时的分界",
+            "p": "两个时态都能与 for + 时间段连用，差别在于动作到参照点时是否结束。要强调“还在继续”，用进行体；要强调“到此为止已完成”，用完成体。",
+            "bullets": [
+              "By June I will have taught for ten years.（可能教满十年就离开）",
+              "By June I will have been teaching for ten years.（仍在教，强调过程）",
+              "瞬间动词只能选完成体：By noon he will have finished the report."
+            ]
+          },
+          {
+            "h": "动词类型限制",
+            "p": "进行体要求动作可延续，因此 finish, arrive, stop, break 这类瞬间动词不能进入该结构。know, own, belong 这类状态动词通常也不用进行体，表持续时改用将来完成时。",
+            "bullets": [
+              "可延续：work, study, live, wait, rain, run, teach",
+              "不可延续：finish, arrive, stop, die, break，用 will have done",
+              "状态动词：know, own, belong，用 will have done"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "By next July, he will have been teaching at the college for twenty years.", "zh": "到明年七月，他就在这所学院教满二十年了。", "ok": true, "note": "teach 是延续性动词，for twenty years 表示持续时长，用将来完成进行时。" },
+          { "en": "When the project ends, we will have been working on it for three years.", "zh": "项目结束时，我们就做了三年了。", "ok": true, "note": "强调到参照点为止持续三年且过程连续，用 will have been doing。" },
+          { "en": "Will you have been waiting long by the time I arrive?", "zh": "等我到的时候，你会已经等了很久吗？", "ok": true, "note": "wait 可延续，by the time 从句用一般现在时表将来。" },
+          { "en": "By the end of this month, it will have been raining for two weeks.", "zh": "到本月底，雨就连续下了两周了。", "ok": true, "note": "rain 表示持续的自然过程，for two weeks 说明累计时长。" },
+          { "en": "By next year, I will have been knowing him for ten years.", "zh": "到明年，我就认识他十年了。", "ok": false, "note": "know 是状态动词，不能构成进行体，应改为 will have known。" },
+          { "en": "By next spring, they will have been finished the bridge.", "zh": "到明年春天，他们将已经建完这座桥。", "ok": false, "note": "finish 是瞬间动词，且 will have been 后必须接现在分词，应改为 will have finished。" },
+          { "en": "By next week, she will have been worked here for a year.", "zh": "到下周，她就在这里工作满一年了。", "ok": false, "note": "进行体的构成是 have been + 现在分词，不能用过去分词 worked，应改为 working。" }
+        ],
+        "pitfalls": [
+          { "wrong": "By 2030, I will have been lived here for twenty years.", "right": "By 2030, I will have been living here for twenty years.", "why": "have been 后接现在分词构成进行体，接过去分词则变成被动，语义与结构都不成立。" },
+          { "wrong": "By the time the guests arrive, we will have been finished cooking.", "right": "By the time the guests arrive, we will have finished cooking.", "why": "finish 是瞬间动词，无法表示持续过程，此处只表“到那时已做完”，须用将来完成时。" },
+          { "wrong": "By next month, she will have been knowing the truth for a year.", "right": "By next month, she will have known the truth for a year.", "why": "know 表示状态而非过程，没有进行体，表持续用完成体即可。" }
+        ],
+        "contrast": { "withTitle": "将来完成时", "diff": "将来完成时说“到那时已经做完”，将来完成进行时说“到那时已经做了多久且还在做”。" },
+        "mnemonic": "been doing 才叫一直做；will have done 只是做完了。"
+      },
+      "review": {
+        "core": [
+          "结构：will have been + 现在分词，四个成分都不能省",
+          "语义：动作从过去持续到将来参照点，并可能继续",
+          "几乎总与 for + 时间段、since + 起点连用",
+          "只接延续性动词；瞬间动词与状态动词改用 will have done",
+          "与将来完成时的差别：是否仍在继续"
+        ],
+        "trigger": "看到 by + 将来时间且句中有 for + 时间段、谓语又是延续性动词 → 用 will have been doing",
+        "quickCheck": [
+          { "q": "will have been 后面接什么形式？", "a": "现在分词，如 working。" },
+          { "q": "finish 能用于将来完成进行时吗？", "a": "不能，它是瞬间动词，用 will have finished。" },
+          { "q": "By June I will have been teaching for ten years. 暗含什么？", "a": "到六月仍在教，强调持续过程。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.future_perfect.continuous.d1",
+          "type": "choice",
+          "stem": "By the end of this year, the team ___ on the design for eighteen months.",
+          "options": ["will have been working", "will have been worked", "will have working", "will be been working"],
+          "answer": "will have been working",
+          "explain": "for eighteen months 说明持续时长，主语 the team 是动作执行者，用将来完成进行时 will have been + 现在分词。",
+          "trap": "will have been worked 把进行体写成了被动形式，等于把 team 当成被工作的对象。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_perfect.continuous.d2",
+          "type": "fill",
+          "stem": "By next week, he ___ (finish) the report, so we can send it out.",
+          "answer": "will have finished",
+          "accept": ["will have finished"],
+          "hint": "先判断 finish 是瞬间动词还是延续性动词。",
+          "explain": "finish 是瞬间动词，不能构成进行体；此处只表“到下周已做完”，用将来完成时 will have finished。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_perfect.continuous.d3",
+          "type": "correct",
+          "stem": "By 2030, my parents will have been lived in this city for forty years.",
+          "answer": "By 2030, my parents will have been living in this city for forty years.",
+          "accept": ["By 2030, my parents will have been living in this city for forty years."],
+          "explain": "进行体的构成是 will have been + 现在分词，live 为延续性动词，须用 living 而非过去分词 lived。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_perfect.continuous.d4",
+          "type": "choice",
+          "stem": "By the time the guests arrive, we ___ cooking.",
+          "options": ["will have finished", "will have been finishing", "will have been finished", "will be finished"],
+          "answer": "will have finished",
+          "explain": "finish 是瞬间动词，只能表示动作完成，不能表示持续过程，因此用将来完成时 will have finished。",
+          "trap": "will have been finishing 违反瞬间动词不能用于进行体的限制，是本题最强的干扰项。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_perfect.continuous.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["By", "next", "summer,", "he", "will", "have", "been", "studying", "abroad", "for", "three", "years."],
+          "answer": "By next summer, he will have been studying abroad for three years.",
+          "explain": "study 为延续性动词，for three years 说明持续时长，构成 will have been studying。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_perfect.continuous.d6",
+          "type": "translate",
+          "stem": "到下个月，我就在这家公司连续工作满五年了。",
+          "answer": "By next month, I will have been working in this company for five years.",
+          "require": [["by next month"], ["will have been working", "will have worked"], ["for five years"]],
+          "forbid": ["will have been work", "will have working", "will been working"],
+          "explain": "by next month 是将来参照点，for five years 说明持续时长，延续性动词 work 用将来完成进行时最贴切。",
+          "difficulty": 4
+        }
+      ]
+    }
+  ]
+}

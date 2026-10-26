@@ -1,0 +1,819 @@
+{
+  "level1": "collocation",
+  "chapter": "confusable_words",
+  "items": [
+    {
+      "id": "collocation.confusable_words.similar-form",
+      "title": "形近义异词辨析",
+      "brief": "按词性与句法位置区分形近词",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.word_formation.confusables"],
+      "concept": {
+        "summary": "形近词的拼写只差一两个字母，但词性和意义不同，判定依据是句法位置：空格前有冠词、形容词或物主代词时需要名词，空格后直接带宾语时需要动词。按词性先定类，再按词义选词，比凭语感可靠。affect/effect、advice/advise、principal/principle 的差别都是词性差别，adapt/adopt、compliment/complement 的差别则是同词性下的词义差别。",
+        "sections": [
+          {
+            "h": "affect / effect 与 adapt / adopt",
+            "p": "affect 只作动词，意为“影响”；effect 通常作名词，意为“影响、效果”，作动词时只表示“实现、促成”。adapt 表示“使适应、改编”，常与 to 搭配；adopt 表示“采纳、收养”，宾语是方案、政策或孩子。",
+            "bullets": [
+              "√ The noise affected her concentration. / × The noise effected her concentration.",
+              "√ The new rule had little effect on sales. / × The new rule had little affect on sales.",
+              "√ Children adapt quickly to a new school. / × Children adopt quickly to a new school.",
+              "√ The team adopted a new strategy. / × The team adapted a new strategy."
+            ]
+          },
+          {
+            "h": "principal / principle 与 advice / advise",
+            "p": "principal 既可作形容词“主要的”，也可作名词“校长、本金”；principle 只有名词用法，意为“原则、原理”。advice 是不可数名词，不能加 s 或 a；advise 是动词，常用 advise sb to do 或 advise doing。",
+            "bullets": [
+              "√ the principal reason / the school principal；× the principle reason",
+              "√ He refused on principle. / × He refused on principal.",
+              "√ She gave me a piece of advice. / × She gave me an advice.",
+              "√ I advise you to check the figures. / × I advice you to check the figures."
+            ]
+          },
+          {
+            "h": "compliment / complement 与 desert / dessert",
+            "p": "compliment 是“赞美、恭维”，常用 pay sb a compliment；complement 是“补充、与…相配”，常用 complement each other。desert 作名词重音在第一音节，意为“沙漠”；作动词重音在第二音节，意为“抛弃”。dessert 只作名词，意为“甜点”，重音在第二音节。",
+            "bullets": [
+              "√ Her scarf complements her coat. / × Her scarf compliments her coat.",
+              "√ He paid her a compliment on her speech.",
+              "√ Few plants survive in the desert. / √ He deserted his family.",
+              "√ We had ice cream for dessert. / × We had ice cream for desert."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The long delay affected the whole schedule.", "zh": "长时间延误影响了整个进度。", "ok": true, "note": "affect 是动词，直接带宾语 the whole schedule。" },
+          { "en": "The long delay effected the whole schedule.", "zh": "长时间延误影响了整个进度。", "ok": false, "note": "effect 作动词意为“实现、促成”，不表示“影响”，应改为 affected。" },
+          { "en": "The school adopted a new policy on homework.", "zh": "学校采纳了一项新的作业政策。", "ok": true, "note": "adopt 表示采纳政策、方案，宾语是 policy。" },
+          { "en": "The school adapted a new policy on homework.", "zh": "学校采纳了一项新的作业政策。", "ok": false, "note": "adapt 是“使适应、改编”，采纳政策必须用 adopt。" },
+          { "en": "She gave me some advice about the interview.", "zh": "她给了我一些面试方面的建议。", "ok": true, "note": "advice 是不可数名词，用 some 直接修饰。" },
+          { "en": "She advised me to apply for the job.", "zh": "她建议我申请这份工作。", "ok": true, "note": "advise 是动词，构成 advise sb to do。" },
+          { "en": "This wine complements the fish perfectly.", "zh": "这款葡萄酒和这道鱼非常相配。", "ok": true, "note": "complement 表示食物、风格之间的互补与相配。" },
+          { "en": "The principle reason for the delay was the weather.", "zh": "延误的主要原因是天气。", "ok": false, "note": "principle 只作名词“原则”，形容词“主要的”是 principal。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The weather effected our travel plans.", "right": "The weather affected our travel plans.", "why": "effect 作动词只表示“实现、促成”，表示“影响”必须用 affect。" },
+          { "wrong": "He gave me a good advice.", "right": "He gave me a good piece of advice.", "why": "advice 是不可数名词，数量必须由量词 piece 承担。" },
+          { "wrong": "The two colours compliment each other.", "right": "The two colours complement each other.", "why": "compliment 是“赞美”，complement 才是“相互补充、相配”。" }
+        ],
+        "contrast": { "withTitle": "义近用法异词辨析", "diff": "形近词的词义本身不同，靠词性与拼写区分；义近词意义相近，差别在句法槽位与搭配。" },
+        "mnemonic": "affect 动、effect 名；adapt 适应、adopt 采纳；principal 主要、principle 原则；advice 名、advise 动。"
+      },
+      "review": {
+        "core": [
+          "affect 动词“影响”；effect 名词“效果”，作动词意为“实现”",
+          "adapt to 适应、adapt 改编；adopt 采纳、收养",
+          "principal 形容词“主要的”或名词“校长”；principle 只作名词“原则”",
+          "advice 不可数名词；advise 动词，接 sb to do",
+          "compliment 赞美；complement 补充、相配",
+          "desert 沙漠/抛弃；dessert 甜点"
+        ],
+        "trigger": "看到形近词 → 先看空格前后需要什么词性 → 再按词义二选一",
+        "quickCheck": [
+          { "q": "“采纳建议”用 adopt 还是 adapt？", "a": "adopt the suggestion。" },
+          { "q": "effect 作动词是什么意思？", "a": "实现、促成，不表示“影响”。" },
+          { "q": "“一条建议”怎么说？", "a": "a piece of advice。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.confusable_words.similar-form.d1",
+          "type": "choice",
+          "stem": "The new traffic rules will ___ every driver in the city.",
+          "options": ["affect", "effect", "effort", "afford"],
+          "answer": "affect",
+          "explain": "will 后需要动词原形，句意为“影响每一位司机”，表示影响用 affect。",
+          "trap": "effect 形近且可作动词，但词义是“实现、促成”，不能表示“影响”。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.confusable_words.similar-form.d2",
+          "type": "fill",
+          "stem": "The children soon ___ to their new school and made friends. (adapt)",
+          "answer": "adapted",
+          "accept": ["adapted"],
+          "hint": "后面的 to 是介词，动词表示“适应”；注意与 soon 配合的时态。",
+          "explain": "adapt to 表示“适应”，与过去时 made 并列，须用 adapted。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.similar-form.d3",
+          "type": "correct",
+          "stem": "She gave me an advice about choosing a major.",
+          "answer": "She gave me a piece of advice about choosing a major.",
+          "accept": ["She gave me a piece of advice about choosing a major."],
+          "explain": "advice 是不可数名词，不能直接加 a，数量由 a piece of 承担。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.similar-form.d4",
+          "type": "choice",
+          "stem": "The two designers' styles ___ each other beautifully.",
+          "options": ["complement", "compliment", "complete", "comply"],
+          "answer": "complement",
+          "explain": "complement 表示两者相互补充、相配，主语 styles 是复数，谓语用原形。",
+          "trap": "compliment 意为“赞美”，不能描述风格之间的互补关系。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.confusable_words.similar-form.d5",
+          "type": "translate",
+          "stem": "校长原则上同意了这个方案。",
+          "answer": "The principal agreed to the plan in principle.",
+          "require": [["principal"], ["in principle"]],
+          "forbid": ["principle agreed", "in principal"],
+          "explain": "“校长”是 principal，“原则上”是固定短语 in principle，两个词形近但词性不同。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.confusable_words.similar-form.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "desert", "covers", "a", "large", "part", "of", "the", "country."],
+          "answer": "The desert covers a large part of the country.",
+          "explain": "desert 作名词意为“沙漠”，covers 是谓语，a large part of 是宾语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.confusable_words.near-synonym-usage",
+      "title": "义近用法异词辨析",
+      "brief": "按句法槽位区分义近词",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.verbs.transitive-intransitive"],
+      "concept": {
+        "summary": "义近词的差别不在词典释义，而在句法槽位：能不能带人、能不能带 to、后面接内容还是接对象。say 的宾语是说话内容，tell 必须先出现“人”，speak 接语言或用于 speak to sb，talk 不及物。listen 与 look 是主动动作，必须带 to/at；hear 与 see 是感知结果，不带介词。join 接组织，attend 接活动，take part in 强调参与。",
+        "sections": [
+          {
+            "h": "speak / talk / say / tell",
+            "p": "四者的分工由宾语类型决定：say sth (to sb) 的宾语是内容；tell sb sth / tell sb to do 必须先出现人；speak 接语言或用于 speak to sb about sth；talk 不及物，用 talk to/with sb about sth。",
+            "bullets": [
+              "√ She said nothing to me. / × She said me nothing.",
+              "√ He told me the truth. / × He told that he was late.（→ He said that he was late.）",
+              "√ She speaks three languages. / × She talks three languages.",
+              "√ We talked about the plan for an hour. / × We talked the plan."
+            ]
+          },
+          {
+            "h": "listen / hear 与 look / see / watch",
+            "p": "listen 与 look 是主动动作，强调“把注意力投过去”，必须与 to/at 连用；hear 与 see 是感知结果，不接介词；watch 强调对动态对象的持续注视，宾语通常是比赛、节目或孩子。",
+            "bullets": [
+              "√ I listened to the lecture carefully. / × I listened the lecture.",
+              "√ I heard a strange noise outside. / × I heard to a strange noise.",
+              "√ She looked at the photo for a long time. / √ She saw a familiar face in the crowd.",
+              "√ We watched the match on TV. / × We looked the match on TV."
+            ]
+          },
+          {
+            "h": "join / attend / take part in",
+            "p": "join 接组织、团体，表示成为其中一员；attend 接会议、课程、婚礼等活动，只表示出席；take part in 接活动，强调参与其中并出力。join in 多用于口语中的临时活动。",
+            "bullets": [
+              "√ He joined the army in 2018. / × He attended the army.",
+              "√ She attended a conference in Vienna. / × She joined a conference.",
+              "√ Twenty students took part in the debate.（参与辩论）/ √ Two hundred people attended the debate.（到场旁听）",
+              "× He took part in the club. → joined the club"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She said that she would be late.", "zh": "她说她会迟到。", "ok": true, "note": "say 后接说话内容，可以带 that 从句。" },
+          { "en": "She said me that she would be late.", "zh": "她告诉我她会迟到。", "ok": false, "note": "say 不能带“人”作宾语，须改为 told me 或 said to me。" },
+          { "en": "He told us an interesting story.", "zh": "他给我们讲了一个有趣的故事。", "ok": true, "note": "tell 必须带人作宾语，构成 tell sb sth。" },
+          { "en": "He spoke English throughout the interview.", "zh": "整个面试过程中他都说英语。", "ok": true, "note": "speak 后接语言名称。" },
+          { "en": "We talked about the schedule for half an hour.", "zh": "我们讨论日程讨论了半小时。", "ok": true, "note": "talk 不及物，用 about 引出话题。" },
+          { "en": "I listened to the podcast on my way to work.", "zh": "我在上班路上听了播客。", "ok": true, "note": "listen 是主动动作，必须带介词 to。" },
+          { "en": "She attended three conferences last year.", "zh": "她去年参加了三场会议。", "ok": true, "note": "attend 接会议，表示出席。" },
+          { "en": "She took part in the student union last year.", "zh": "她去年加入了学生会。", "ok": false, "note": "学生会是组织，成为成员用 join；take part in 只接活动。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He said me to wait outside.", "right": "He told me to wait outside.", "why": "say 不能带人称宾语，命令某人做某事用 tell sb to do。" },
+          { "wrong": "I listened the teacher carefully.", "right": "I listened to the teacher carefully.", "why": "listen 是不及物动词，必须由 to 引出听的对象。" },
+          { "wrong": "She took part in the student union last year.", "right": "She joined the student union last year.", "why": "take part in 接活动，成为组织成员用 join。" }
+        ],
+        "contrast": { "withTitle": "动作方向动词辨析", "diff": "义近词的差别在接不接人、接不接 to 等句法槽位；方向动词的差别在动作朝向哪个参照点。" },
+        "mnemonic": "say 内容、tell 人、speak 语言、talk 交流；listen/look 加 to/at，hear/see 不加工。"
+      },
+      "review": {
+        "core": [
+          "say sth (to sb)：宾语是内容，不能 say sb sth",
+          "tell sb sth / tell sb to do：必须带人",
+          "speak + 语言；speak to sb about sth",
+          "talk to/with sb about sth，talk 不及物",
+          "listen to / look at 是主动动作；hear / see 是感知结果",
+          "join 组织、attend 活动、take part in 参与"
+        ],
+        "trigger": "看到“说/听/看/参加”类动词 → 先看它后面有没有人、有没有 to/at → 再定词",
+        "quickCheck": [
+          { "q": "“告诉我真相”用 say 还是 tell？", "a": "tell me the truth。" },
+          { "q": "listen 后面必须加什么？", "a": "加 to。" },
+          { "q": "“加入俱乐部”用哪个动词？", "a": "join the club。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.confusable_words.near-synonym-usage.d1",
+          "type": "choice",
+          "stem": "She ___ me that the meeting had been cancelled.",
+          "options": ["told", "said", "spoke", "talked"],
+          "answer": "told",
+          "explain": "空格后先出现人 me，再出现说话内容 that 从句，符合 tell sb that 从句的结构。",
+          "trap": "said 不能带人称宾语，若用 said 必须改成 said to me。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.confusable_words.near-synonym-usage.d2",
+          "type": "fill",
+          "stem": "Nobody ___ me why the class had been moved. (tell)",
+          "answer": "told",
+          "accept": ["told"],
+          "hint": "tell 必须带人作宾语，注意与 had been moved 的时态配合。",
+          "explain": "tell 的结构是 tell sb sth，此处宾语是 me，主句动作发生在过去，用 told。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.near-synonym-usage.d3",
+          "type": "correct",
+          "stem": "He said me that he had finished the report.",
+          "answer": "He told me that he had finished the report.",
+          "accept": ["He told me that he had finished the report."],
+          "explain": "say 不能带人称宾语，改为 tell 后才能接 me，构成 tell sb that 从句。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.near-synonym-usage.d4",
+          "type": "choice",
+          "stem": "More than three hundred people ___ the opening ceremony yesterday.",
+          "options": ["attended", "joined", "took part in", "joined in"],
+          "answer": "attended",
+          "explain": "开幕式是活动，表示出席用 attend，且 yesterday 要求过去式。",
+          "trap": "join 接组织、团体；take part in 强调参与活动并出力，与“到场出席”语义不同。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.near-synonym-usage.d5",
+          "type": "translate",
+          "stem": "她告诉我她下个月要去上海。",
+          "answer": "She told me that she was going to Shanghai the next month.",
+          "require": [["told me"], ["that"]],
+          "forbid": ["said me", "told that"],
+          "explain": "tell 必须带人，said 不能带 me；主句为过去时，从句用过去将来时 was going to。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.confusable_words.near-synonym-usage.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "listened", "to", "the", "radio", "while", "I", "was", "cooking."],
+          "answer": "I listened to the radio while I was cooking.",
+          "explain": "listen 是不及物动词，必须带介词 to；while 引导的时间状语从句用过去进行时表背景。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.confusable_words.quantity-words",
+      "title": "数量词辨析",
+      "brief": "名词可数性与冠词决定数量词",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.nouns.quantification"],
+      "concept": {
+        "summary": "数量词的选择由两个变量决定：名词可不可数，以及限定词有没有 a。amount 计量不可数的量，number 计量可数的个数；few/little 前的 a 决定肯定还是否定；many 接可数复数，much 接不可数。判定顺序是先看名词能否计数，再看限定词是否带 a。",
+        "sections": [
+          {
+            "h": "amount / number",
+            "p": "amount 计量不可数的量，number 计量可数的个数；a great amount of 接不可数，a great number of 接可数复数。the number of 作主语谓语用单数，a number of 作主语谓语用复数。",
+            "bullets": [
+              "√ a large amount of money / × a large amount of coins",
+              "√ a large number of students / × a large number of water",
+              "√ The number of applicants is rising. / √ A number of applicants are waiting.",
+              "× The number of students are increasing."
+            ]
+          },
+          {
+            "h": "few / a few 与 little / a little",
+            "p": "few 与 little 表示“几乎没有”，是否定含义；a few 与 a little 表示“有一些”，是肯定含义。few/a few 接可数复数，little/a little 接不可数。only 后只能接 a few / a little。",
+            "bullets": [
+              "√ Few students passed the test.（几乎没有）/ √ A few students passed the test.（有一些）",
+              "√ There is little water left. / × There are little water left.",
+              "√ I have a little time this afternoon. / × I have a few time.",
+              "√ Only a few seats are left."
+            ]
+          },
+          {
+            "h": "many / much 与 a lot of",
+            "p": "many 接可数复数，much 接不可数，二者多用于否定句与疑问句；肯定句中常用 a lot of 或 plenty of，两者皆可。much 还可修饰比较级，表示“得多”，此时不表示数量。",
+            "bullets": [
+              "√ How many books did you buy? / × How much books did you buy?",
+              "√ There isn't much milk left. / √ There are lots of chairs in the hall.",
+              "√ He is much taller than his brother.",
+              "× Much students agree with the plan. → Many students"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "A large amount of money was spent on the bridge.", "zh": "这座桥花费了大量资金。", "ok": true, "note": "amount 接不可数名词 money，谓语用单数 was。" },
+          { "en": "A large amount of coins were found in the box.", "zh": "盒子里发现了大量硬币。", "ok": false, "note": "coins 是可数复数，须用 a large number of。" },
+          { "en": "Few of the applicants had the required experience.", "zh": "几乎没有申请人具备所需的经验。", "ok": true, "note": "few 是否定含义，表示“几乎没有”。" },
+          { "en": "A few of the applicants had the required experience.", "zh": "有几个申请人具备所需的经验。", "ok": true, "note": "a few 是肯定含义，表示“有几个”。" },
+          { "en": "There is little hope of finishing on time.", "zh": "按时完成的希望渺茫。", "ok": true, "note": "little 接不可数名词 hope，含否定意义。" },
+          { "en": "There are little hope of finishing on time.", "zh": "按时完成的希望渺茫。", "ok": false, "note": "little 接不可数名词，谓语须用单数 is。" },
+          { "en": "The number of visitors has doubled this year.", "zh": "今年游客数量翻了一番。", "ok": true, "note": "the number of 的中心词是 number，谓语用单数 has。" }
+        ],
+        "pitfalls": [
+          { "wrong": "A number of water was wasted.", "right": "A large amount of water was wasted.", "why": "a number of 只修饰可数复数，water 不可数，须改用 amount。" },
+          { "wrong": "He has few money but many friends.", "right": "He has little money but many friends.", "why": "money 不可数，须用 little；friends 是可数复数，用 many。" },
+          { "wrong": "The number of students are increasing.", "right": "The number of students is increasing.", "why": "the number of 的中心词是 number，谓语用单数。" }
+        ],
+        "contrast": { "withTitle": "不可数名词的量化表达", "diff": "量化表达讲“用量词把不可数名词数出来”；本知识点讲“限定词与名词可数性、肯定否定的匹配”。" },
+        "mnemonic": "amount 不可数、number 可数；有 a 是肯定，没 a 是否定；few 接复数、little 接不可数。"
+      },
+      "review": {
+        "core": [
+          "amount 接不可数，number 接可数复数",
+          "the number of 谓语用单数；a number of 谓语用复数",
+          "few/little 是否定含义；a few/a little 是肯定含义",
+          "few/a few 接可数复数，little/a little 接不可数",
+          "many 接可数复数，much 接不可数，也修饰比较级",
+          "only 后接 a few / a little，不接 few / little"
+        ],
+        "trigger": "看到数量词 → 先看后面的名词可不可数 → 再看限定词有没有 a",
+        "quickCheck": [
+          { "q": "a number of 与 the number of 的谓语分别是什么？", "a": "前者复数，后者单数。" },
+          { "q": "“几乎没有时间”怎么说？", "a": "little time。" },
+          { "q": "amount 能接 coins 吗？", "a": "不能，可数复数用 number。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.confusable_words.quantity-words.d1",
+          "type": "choice",
+          "stem": "A large ___ of information was collected during the survey.",
+          "options": ["amount", "number", "many", "few"],
+          "answer": "amount",
+          "explain": "information 是不可数名词，只能由 amount 计量，谓语 was 也印证了单数中心词。",
+          "trap": "number 只接可数复数；many 与 few 直接修饰名词，不能构成 a large ___ of 结构。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.confusable_words.quantity-words.d2",
+          "type": "fill",
+          "stem": "There is ___ hope that the missing climbers will be found alive.",
+          "answer": "little",
+          "accept": ["little"],
+          "hint": "hope 不可数，句意为“几乎没有”。",
+          "explain": "hope 是不可数名词，表示“几乎没有”用 little，谓语 is 也要求单数中心词。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.quantity-words.d3",
+          "type": "correct",
+          "stem": "The number of tourists visiting the island are increasing every year.",
+          "answer": "The number of tourists visiting the island is increasing every year.",
+          "accept": ["The number of tourists visiting the island is increasing every year."],
+          "explain": "the number of 作主语时中心词是 number，谓语须用单数 is，不受后面 tourists 影响。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.quantity-words.d4",
+          "type": "choice",
+          "stem": "Only ___ of the thirty students failed, so the class average was high.",
+          "options": ["a few", "few", "little", "a little"],
+          "answer": "a few",
+          "explain": "only 后只能接 a few 或 a little；students 可数复数，故用 a few。",
+          "trap": "few 是否定含义“几乎没有”，不能与 only 连用；little 接不可数名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.quantity-words.d5",
+          "type": "translate",
+          "stem": "今年游客的数量翻了一番。",
+          "answer": "The number of tourists has doubled this year.",
+          "require": [["the number of"], ["tourists"], ["doubled"]],
+          "forbid": ["the number of tourists have", "a number of tourists has"],
+          "explain": "the number of 的中心词是 number，谓语用单数 has；a number of 才表示“许多”，谓语用复数。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.confusable_words.quantity-words.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["A", "large", "number", "of", "students", "volunteered", "for", "the", "event."],
+          "answer": "A large number of students volunteered for the event.",
+          "explain": "a large number of 接可数复数 students，谓语按语义一致用复数 volunteered。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.confusable_words.direction-verbs",
+      "title": "动作方向动词辨析",
+      "brief": "按参照点与往返判断方向动词",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["morph.verbs.transitive-intransitive"],
+      "concept": {
+        "summary": "方向动词的差别由参照点决定：bring 朝说话人或听者移动，take 离开说话人移向别处，fetch 是“去取再回来”的往返；borrow 是借入，lend 是借出；come 朝说话人或听者，go 是离开。判断时先定位参照点，再看动作是单向还是往返，最后看主语是取得者还是给出者。",
+        "sections": [
+          {
+            "h": "bring / take / fetch",
+            "p": "bring 表示把某物带到说话人或听者所在处；take 表示从说话人所在处带走；fetch 表示去某处取来并返回，含两段路程。句中出现 here、me 时优先 bring，出现 there、away 时优先 take。",
+            "bullets": [
+              "√ Please bring your notebook to class tomorrow.（带到上课地点）",
+              "√ Take an umbrella with you; it may rain.（从这里带走）",
+              "√ Could you fetch me a glass of water?（去取再回来）",
+              "× Please take your notebook here tomorrow. → bring"
+            ]
+          },
+          {
+            "h": "borrow / lend",
+            "p": "borrow 的主语是借入者，结构为 borrow sth from sb；lend 的主语是借出者，结构为 lend sb sth 或 lend sth to sb。同一件事从两端描述，主语与介词都相反。",
+            "bullets": [
+              "√ I borrowed a bike from my neighbour. / × I borrowed my neighbour a bike.",
+              "√ She lent me her notes. / √ She lent her notes to me.",
+              "× He borrowed me his car. → He lent me his car.",
+              "√ May I borrow your pen? / √ Could you lend me your pen?"
+            ]
+          },
+          {
+            "h": "come / go 与 send / carry",
+            "p": "come 表示朝说话人或听者移动，go 表示离开说话人；send 表示派人送或寄送，不强调伴随；carry 强调携带的动作与负重，不表示方向本身。",
+            "bullets": [
+              "√ Come here and look at this. / × Go here.",
+              "√ I went to the library after class. / √ She came to see me yesterday.",
+              "√ I sent the documents by email. / √ He carried the box upstairs.",
+              "× Go here and help me. → Come here and help me."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Please bring your ID card here tomorrow.", "zh": "明天请把你的身份证带到这里来。", "ok": true, "note": "here 是说话人所在处，朝参照点移动用 bring。" },
+          { "en": "Please take your ID card here tomorrow.", "zh": "明天请把你的身份证带到这里来。", "ok": false, "note": "take 表示离开说话人带走，与 here 指出的方向冲突，应改为 bring。" },
+          { "en": "She borrowed three books from the library.", "zh": "她从图书馆借了三本书。", "ok": true, "note": "borrow 是借入，用 from 引出出借的一方。" },
+          { "en": "She borrowed me three books.", "zh": "她借给我三本书。", "ok": false, "note": "borrow 不能带双宾语，借出用 lend sb sth。" },
+          { "en": "Could you fetch some chalk from the office?", "zh": "你能去办公室拿些粉笔来吗？", "ok": true, "note": "fetch 含“去取再回来”的往返过程。" },
+          { "en": "He lent his camera to his cousin for the trip.", "zh": "他把相机借给表弟旅行用。", "ok": true, "note": "lend sth to sb 表示借出，主语是给出者。" },
+          { "en": "Come to my office when you are free.", "zh": "你有空时到我办公室来。", "ok": true, "note": "come 表示朝说话人所在处移动。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He borrowed me his dictionary.", "right": "He lent me his dictionary.", "why": "borrow 是借入，主语是取得者；把东西借给别人用 lend。" },
+          { "wrong": "Please take your report here tomorrow.", "right": "Please bring your report here tomorrow.", "why": "here 是说话人所在处，朝参照点移动用 bring，take 表示带走。" },
+          { "wrong": "I will borrow you my notes.", "right": "I will lend you my notes.", "why": "borrow 不能带双宾语，借出用 lend sb sth。" }
+        ],
+        "contrast": { "withTitle": "义近用法异词辨析", "diff": "义近词的差别在能否带人、能否带 to 等句法槽位；方向动词的差别在动作朝向哪个参照点以及是否往返。" },
+        "mnemonic": "bring 来、take 去、fetch 去取再来；borrow 借入、lend 借出；come 朝我、go 离开我。"
+      },
+      "review": {
+        "core": [
+          "bring 朝说话人或听者；take 离开说话人；fetch 去取再回来",
+          "borrow sth from sb 是借入；lend sb sth 是借出",
+          "borrow 不能带双宾语",
+          "come 朝说话人移动；go 离开说话人",
+          "send 强调寄送或派人，carry 强调携带动作",
+          "判断顺序：参照点 → 单向或往返 → 取得者或给出者"
+        ],
+        "trigger": "看到 bring/take/fetch 或 borrow/lend → 先找 here/there、from/to 等参照信号",
+        "quickCheck": [
+          { "q": "“去取再来”用哪个动词？", "a": "fetch。" },
+          { "q": "“我借给他一本书”用 borrow 还是 lend？", "a": "lend：I lent him a book." },
+          { "q": "here 前面用 bring 还是 take？", "a": "bring。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.confusable_words.direction-verbs.d1",
+          "type": "choice",
+          "stem": "Could you ___ me your notes for the weekend?",
+          "options": ["lend", "borrow", "fetch", "bring"],
+          "answer": "lend",
+          "explain": "句意是“你把笔记借给我”，主语 you 是给出者，用 lend sb sth。",
+          "trap": "borrow 是借入，主语应是取得者，且不能带双宾语。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.confusable_words.direction-verbs.d2",
+          "type": "fill",
+          "stem": "I ___ two novels from the school library yesterday. (borrow)",
+          "answer": "borrowed",
+          "accept": ["borrowed"],
+          "hint": "借入用 borrow，注意与 yesterday 的时态配合。",
+          "explain": "borrow sth from sb 表示借入，yesterday 要求一般过去时 borrowed。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.confusable_words.direction-verbs.d3",
+          "type": "correct",
+          "stem": "She borrowed me her umbrella when it started to rain.",
+          "answer": "She lent me her umbrella when it started to rain.",
+          "accept": ["She lent me her umbrella when it started to rain."],
+          "explain": "主语 she 是借出者，且结构为 lend sb sth，borrow 既方向相反又不能带双宾语。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.direction-verbs.d4",
+          "type": "choice",
+          "stem": "Please ___ the documents here before noon.",
+          "options": ["bring", "take", "fetch", "carry"],
+          "answer": "bring",
+          "explain": "here 指说话人所在处，朝这一参照点移动用 bring。",
+          "trap": "take 表示从说话人这里带走，方向与 here 相反；fetch 强调去取再返回，carry 只强调携带动作。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.direction-verbs.d5",
+          "type": "translate",
+          "stem": "他昨天从图书馆借了三本书。",
+          "answer": "He borrowed three books from the library yesterday.",
+          "require": [["borrowed"], ["from the library"]],
+          "forbid": ["borrowed the library", "lent three books from"],
+          "explain": "borrow 是借入，出借方由 from 引出；lent 是借出，方向相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.confusable_words.direction-verbs.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Could", "you", "fetch", "me", "a", "glass", "of", "water?"],
+          "answer": "Could you fetch me a glass of water?",
+          "explain": "fetch 表示去取再回来，可带双宾语 fetch sb sth；Could you 是委婉请求。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.confusable_words.adverbs",
+      "title": "副词辨析",
+      "brief": "同形副词与 -ly 副词意义相反",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["morph.adj_adv.adverb-vs-adjective"],
+      "concept": {
+        "summary": "副词辨析的核心是“同形副词”与“-ly 副词”的语义分工：hard 是“努力、猛烈”，hardly 是“几乎不”；late 是“迟”，lately 是“最近”；near 是“在附近”，nearly 是“几乎”。already/yet/still 的差别在时间参照与句法位置：already 用于肯定句，yet 用于否定与疑问，still 表示持续。",
+        "sections": [
+          {
+            "h": "hard / hardly 与 late / lately",
+            "p": "hard 与 late 既是形容词也是副词，加 -ly 后不是简单的副词化，而是变成另一个词。hardly 是否定副词，位置在实义动词前、be 动词后；lately 意为“最近”，常与完成时连用。",
+            "bullets": [
+              "√ She works hard every day. / × She works hardly every day.",
+              "√ I can hardly hear you. / × I can hard hear you.",
+              "√ He arrived late for the meeting. / √ He has been ill lately.",
+              "√ He has been busy lately. / × He has been busy late."
+            ]
+          },
+          {
+            "h": "near / nearly 与 high / highly",
+            "p": "near 作副词表示“在附近”，nearly 表示“几乎、差不多”；high 作副词表示具体高度，highly 表示抽象程度“高度地”。判断依据是后面的词是具体空间、高度，还是抽象性质。",
+            "bullets": [
+              "√ The station is quite near. / √ We are nearly finished.",
+              "√ The kite flew high. / √ She is highly respected.",
+              "× I am near ready. → nearly ready",
+              "× He jumped highly. → jumped high"
+            ]
+          },
+          {
+            "h": "already / yet / still",
+            "p": "already 表示“已经”，用于肯定句，位置在助动词后、实义动词前；yet 用于否定句与疑问句，通常置于句末；still 表示“仍然”，强调持续，位置在实义动词前、be 动词后。",
+            "bullets": [
+              "√ She has already finished the report.",
+              "√ Have you finished the report yet?",
+              "√ He is still working on it.",
+              "√ She has already left. / × She has left yet."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She works hard to support her family.", "zh": "她努力工作养家。", "ok": true, "note": "hard 作副词意为“努力”，修饰 works。" },
+          { "en": "She works hardly to support her family.", "zh": "她努力工作养家。", "ok": false, "note": "hardly 意为“几乎不”，与句意完全相反。" },
+          { "en": "He has been very busy lately.", "zh": "他最近很忙。", "ok": true, "note": "lately 意为“最近”，与完成时连用。" },
+          { "en": "He has been very busy late.", "zh": "他最近很忙。", "ok": false, "note": "late 表示“迟”，不能表示“最近”，应改为 lately。" },
+          { "en": "We are nearly ready to leave.", "zh": "我们差不多准备出发了。", "ok": true, "note": "nearly 表示“几乎”，修饰 ready。" },
+          { "en": "Have you handed in your essay yet?", "zh": "你交论文了吗？", "ok": true, "note": "yet 用于疑问句，置于句末。" },
+          { "en": "She has already handed in her essay.", "zh": "她已经交了论文。", "ok": true, "note": "already 用于肯定句，位于助动词 has 之后。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I hardly can understand his handwriting.", "right": "I can hardly understand his handwriting.", "why": "hardly 是否定副词，须放在情态动词或助动词之后。" },
+          { "wrong": "The school is near finished.", "right": "The school is nearly finished.", "why": "near 表示空间距离，表示“几乎”须用 nearly。" },
+          { "wrong": "He has finished his homework yet.", "right": "He has not finished his homework yet.", "why": "yet 用于否定句与疑问句，肯定句表“已经”用 already。" }
+        ],
+        "contrast": { "withTitle": "副词与形容词的易混形式", "diff": "形容词章节处理“该用形容词还是副词”的词性选择；本知识点处理两个副词都成立但意义不同的词对。" },
+        "mnemonic": "hard 努力、hardly 几乎不；late 迟、lately 最近；near 附近、nearly 几乎；already 肯定、yet 否定疑问、still 持续。"
+      },
+      "review": {
+        "core": [
+          "hard 努力、hardly 几乎不，二者意义相反",
+          "late 迟、lately 最近；near 附近、nearly 几乎",
+          "high 具体高度、highly 抽象程度",
+          "already 用于肯定句，位于助动词后",
+          "yet 用于否定句与疑问句，置于句末",
+          "still 表示持续，位于实义动词前、be 动词后"
+        ],
+        "trigger": "看到 -ly 副词 → 先查它是否与原形同义；看到 already/yet/still → 先判句式与时态",
+        "quickCheck": [
+          { "q": "hardly 是什么意思？", "a": "几乎不，是否定副词。" },
+          { "q": "“最近”用 late 还是 lately？", "a": "lately。" },
+          { "q": "yet 通常出现在什么句式中？", "a": "否定句与疑问句，置于句末。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.confusable_words.adverbs.d1",
+          "type": "choice",
+          "stem": "She works ___ to support her family, taking two jobs at once.",
+          "options": ["hard", "hardly", "harder", "hardest"],
+          "answer": "hard",
+          "explain": "句意为“努力工作养家”，hard 作副词表示“努力”，直接修饰 works。",
+          "trap": "hardly 是“几乎不”，会把句意变成“几乎不工作”，与 taking two jobs 矛盾。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.confusable_words.adverbs.d2",
+          "type": "fill",
+          "stem": "I have not received his reply ___.",
+          "answer": "yet",
+          "accept": ["yet"],
+          "hint": "否定句句末表示“还（没）”。",
+          "explain": "yet 用于否定句，表示“还（没）”，通常置于句末；already 不能用于否定句。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.adverbs.d3",
+          "type": "correct",
+          "stem": "He works hardly to improve his spoken English.",
+          "answer": "He works hard to improve his spoken English.",
+          "accept": ["He works hard to improve his spoken English."],
+          "explain": "hardly 意为“几乎不”，与“提高口语”的目的矛盾，应改为 hard“努力地”。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.adverbs.d4",
+          "type": "choice",
+          "stem": "The old bridge is ___ finished, so we can use it next week.",
+          "options": ["nearly", "near", "hardly", "highly"],
+          "answer": "nearly",
+          "explain": "nearly 表示“几乎、差不多”，修饰 finished，说明工程接近完成。",
+          "trap": "near 表示空间上的“近”，不能修饰 finished；hardly 是否定，与下周可用矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.adverbs.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "has", "already", "booked", "the", "tickets", "for", "the", "concert."],
+          "answer": "She has already booked the tickets for the concert.",
+          "explain": "already 用于肯定句，位置在助动词 has 之后、实义动词 booked 之前。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.adverbs.d6",
+          "type": "translate",
+          "stem": "我最近没有见过他。",
+          "answer": "I have not seen him lately.",
+          "require": [["lately"], ["seen"]],
+          "forbid": ["have not saw", "seen him late"],
+          "explain": "“最近”用 lately，不用 late；现在完成时的否定结构是 have not seen。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "collocation.confusable_words.degree-range",
+      "title": "程度与范围词辨析",
+      "brief": "程度词看修饰对象与搭配限制",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["morph.adj_adv.comparative-modifiers"],
+      "concept": {
+        "summary": "程度词看被修饰成分的词性与句法功能：very 修饰形容词与副词原级，much 修饰比较级、too 和最高级；almost 表示“几乎、差一点”，mostly 表示“大多、主要地”；quite 表示“相当”，rather 常带“过于、出乎意料”的负面色彩，too 表示“过度”并引出否定结果。",
+        "sections": [
+          {
+            "h": "very / much",
+            "p": "very 修饰形容词与副词原级，不能直接修饰动词或比较级；much 修饰比较级、too、最高级，也可修饰不可数名词。修饰动词时用 very much，位置在句末或宾语之后。",
+            "bullets": [
+              "√ She is very careful. / × She is much careful.",
+              "√ This box is much heavier. / × This box is very heavier.",
+              "√ I like the design very much. / × I very like the design.",
+              "√ He is much too busy to see you."
+            ]
+          },
+          {
+            "h": "almost / mostly",
+            "p": "almost 表示“几乎、差一点”，修饰可分级形容词、数量词和动词，不能直接修饰名词；mostly 表示“大部分地、主要地”，修饰谓语或整个状态，相当于 mainly。",
+            "bullets": [
+              "√ Almost all the students passed. / × Most all the students passed.",
+              "√ Almost all the guests were teachers. / × Mostly all the guests were teachers.",
+              "√ I almost missed the train. / √ The room is mostly used for storage.",
+              "× The students were almost from the countryside. → mostly",
+              "√ The audience was mostly students. / × The audience was almost students."
+            ]
+          },
+          {
+            "h": "quite / rather 与 too",
+            "p": "quite 表示“相当、完全”，语气中性；rather 修饰形容词时多含“过于、出乎意料”的负面评价；too 表示“过度”，常与 to do 搭配引出否定结果。",
+            "bullets": [
+              "√ The film was quite interesting. / √ The film was rather boring.",
+              "√ It is rather cold today.（偏冷，含不满）/ √ It is quite cold today.（相当冷，中性）",
+              "√ The coffee is too hot to drink. / √ The coffee is quite hot.（too 才引出“不能喝”的结果）",
+              "√ The bag is rather heavy for a child."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The final exam was much harder than we had expected.", "zh": "期末考试比我们预想的难得多。", "ok": true, "note": "much 修饰比较级 harder。" },
+          { "en": "The final exam was very harder than we had expected.", "zh": "期末考试比我们预想的难得多。", "ok": false, "note": "very 不能修饰比较级，须用 much。" },
+          { "en": "I enjoyed the concert very much.", "zh": "我非常喜欢这场音乐会。", "ok": true, "note": "修饰动词 enjoyed 用 very much，置于宾语之后。" },
+          { "en": "Almost all the seats had been taken.", "zh": "几乎所有座位都被占了。", "ok": true, "note": "almost 修饰数量词 all。" },
+          { "en": "The audience was mostly made up of students.", "zh": "观众大多是学生。", "ok": true, "note": "mostly 表示构成比例上的“大多”。" },
+          { "en": "The audience was almost made up of students.", "zh": "观众大多是学生。", "ok": false, "note": "almost 表示“几乎”，不能表示比例上的“大多数”。" },
+          { "en": "The instructions were rather confusing.", "zh": "这些说明相当令人费解。", "ok": true, "note": "rather 带“出乎意料、偏负面”的评价色彩。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I very like this song.", "right": "I like this song very much.", "why": "very 不能直接修饰动词，修饰动词须用 very much 并置于句末。" },
+          { "wrong": "This problem is very more difficult.", "right": "This problem is much more difficult.", "why": "very 不能修饰比较级，比较级前的程度词用 much、far、even。" },
+          { "wrong": "The students were almost from the countryside.", "right": "The students were mostly from the countryside.", "why": "almost 表“几乎”不表比例；表示“大多数”用 mostly。" }
+        ],
+        "contrast": { "withTitle": "比较级的修饰语", "diff": "比较级修饰语只讲 much/far/even 等能放在比较级前的词；本知识点还覆盖 very/much 的分工与 almost/mostly 的范围差别。" },
+        "mnemonic": "very 修饰原级、much 修饰比较级；almost 差一点、mostly 大多数；rather 带不满。"
+      },
+      "review": {
+        "core": [
+          "very 修饰形容词、副词原级，不修饰动词和比较级",
+          "much 修饰比较级、too、最高级；修饰动词用 very much",
+          "almost 表示“几乎、差一点”，可修饰 all、数量与动词",
+          "mostly 表示“大多、主要地”，相当于 mainly",
+          "quite 中性“相当”，rather 常带负面评价",
+          "too 表示“过度”，常与 to do 搭配"
+        ],
+        "trigger": "看到程度词 → 先看它修饰的是原级、比较级还是动词 → 再查 almost/mostly 是“几乎”还是“大多”",
+        "quickCheck": [
+          { "q": "very 能修饰比较级吗？", "a": "不能，比较级前用 much。" },
+          { "q": "“观众大多是学生”用 almost 还是 mostly？", "a": "mostly。" },
+          { "q": "修饰动词“喜欢”怎么说？", "a": "like ... very much。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.confusable_words.degree-range.d1",
+          "type": "choice",
+          "stem": "The new model is ___ more expensive than the old one.",
+          "options": ["much", "very", "too", "so"],
+          "answer": "much",
+          "explain": "more expensive 是比较级，前面只能用 much、far、even 等程度词，不能用 very。",
+          "trap": "very 只能修饰原级；too 与 so 也不能直接修饰比较级 more expensive。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.confusable_words.degree-range.d2",
+          "type": "fill",
+          "stem": "By the time we arrived, ___ all the seats had been taken.",
+          "answer": "almost",
+          "accept": ["almost"],
+          "hint": "表示“几乎”，修饰 all。",
+          "explain": "almost 修饰数量词 all，表示“几乎所有”，放在 all 之前。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.degree-range.d3",
+          "type": "correct",
+          "stem": "I very enjoyed the lecture on urban history.",
+          "answer": "I enjoyed the lecture on urban history very much.",
+          "accept": ["I enjoyed the lecture on urban history very much."],
+          "explain": "very 不能直接修饰动词，修饰 enjoyed 须用 very much 并置于宾语之后。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.confusable_words.degree-range.d4",
+          "type": "choice",
+          "stem": "The village is ___ populated by retired farmers.",
+          "options": ["mostly", "almost", "very", "much"],
+          "answer": "mostly",
+          "explain": "句意是“村民大多是退休农民”，表示构成比例用 mostly。",
+          "trap": "almost 表示“几乎”，不能表示人口构成上的“大多数”；very 与 much 也不能修饰 populated 的这一含义。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.confusable_words.degree-range.d5",
+          "type": "translate",
+          "stem": "这道题比那道题难得多。",
+          "answer": "This question is much more difficult than that one.",
+          "require": [["much more difficult"], ["than that one"]],
+          "forbid": ["very more difficult", "more difficulter"],
+          "explain": "比较级前用 much 表程度，difficult 的比较级是 more difficult，不能再加 -er。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.confusable_words.degree-range.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "instructions", "were", "rather", "confusing", "for", "beginners."],
+          "answer": "The instructions were rather confusing for beginners.",
+          "explain": "rather 修饰 confusing，带“相当、偏负面”的评价；for beginners 说明评价的适用范围。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,423 @@
+{
+  "level1": "special",
+  "chapter": "parallelism",
+  "items": [
+    {
+      "id": "special.parallelism.grammatical-correspondence",
+      "title": "平行结构的语法对应原则",
+      "brief": "把并列项提出来，逐项贴同一种语法标签",
+      "difficulty": 2,
+      "tags": ["基础", "写作"],
+      "prereq": ["syntax.compound_sentence.ellipsis-parallel"],
+      "concept": {
+        "summary": "平行结构的唯一标准是并列项的语法身份相同：词性相同、短语类型相同、句法功能相同。检查方法是把连词两侧的成分单独提出来各写一行，逐项标出“名词短语 / 不定式 / 动名词 / 从句 / 介词短语”和“作主语 / 宾语 / 表语”，两个标签有一个不同就必须改写。",
+        "sections": [
+          {
+            "h": "三步检查法",
+            "p": "不要凭语感通读，按步骤把句子拆开，错误会直接暴露在标签上。",
+            "bullets": [
+              "第一步 找连词：and, or, but, yet，以及逗号连接的三项以上并列",
+              "第二步 提取两侧成分，各自单独成行，删去共有的主语和谓语",
+              "第三步 贴两个标签：形式（名词/不定式/动名词/从句/介词短语）+ 功能（主语/宾语/表语/定语/状语）",
+              "两个标签只要有一个不同，就改写其中一项，而不是改写整句"
+            ]
+          },
+          {
+            "h": "形式对应的四组典型",
+            "p": "同一形式内部还要保持细节一致：不定式都带 to 或都不带，从句都用同一个引导词。",
+            "bullets": [
+              "名词对名词：The course covers grammar, vocabulary and pronunciation.",
+              "不定式对不定式：Her plan is to finish the draft and to send it out.",
+              "动名词对动名词：Reading aloud and listening to podcasts both help.",
+              "从句对从句：He told me that the plan had changed and that we should wait."
+            ]
+          },
+          {
+            "h": "功能也必须一致",
+            "p": "词性相同但一个作表语、一个作谓语，仍然不平行。功能标签比形式标签更容易被忽略。",
+            "bullets": [
+              "词性不同一定不平行：名词短语不能与谓语动词并列",
+              "改写为谓语对谓语：She teaches in a high school and coaches the debate team.",
+              "作主语的两项：Swimming and cycling are good exercise.",
+              "作宾语的两项：She enjoys cooking and baking."
+            ]
+          },
+          {
+            "h": "三项以上：每一项都要过检查",
+            "p": "三项并列时，错误常藏在最后一项：前两项同形，读者已经形成预期，第三项换了形式最容易被放过。",
+            "bullets": [
+              "逐项贴标签，不能只看相邻两项",
+              "最后一项与前两项形式不同，是最常见的失分点",
+              "并列项较长时，先删修饰语，只留中心结构再比对"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The course covers grammar, vocabulary and pronunciation.", "zh": "这门课涵盖语法、词汇和语音。", "ok": true, "note": "and 连接三个名词，形式与功能都一致，都作 covers 的宾语。" },
+          { "en": "Her plan is to finish the draft and to send it out.", "zh": "她的计划是写完初稿并把它寄出去。", "ok": true, "note": "两个带 to 的不定式并列作表语，形式完全对称。" },
+          { "en": "He told me that the plan had changed and that we should wait.", "zh": "他告诉我计划变了，我们应该等。", "ok": true, "note": "两个 that 引导的宾语从句并列，引导词也保持一致。" },
+          { "en": "She teaches in a high school and coaches the debate team.", "zh": "她在中学教书，并指导辩论队。", "ok": true, "note": "两个谓语动词并列，功能同为谓语，时态人称一致。" },
+          { "en": "The job requires patience, accuracy and working hard.", "zh": "这份工作需要耐心、准确和努力。", "ok": false, "note": "前两项是名词，第三项是动名词短语，形式不一致，应改为 hard work。" },
+          { "en": "She is responsible for hiring staff and to train new employees.", "zh": "她负责招聘员工和培训新员工。", "ok": false, "note": "for 后第一项是动名词，第二项却是不定式，应改为 training new employees。" },
+          { "en": "To finish the project on time and meeting the budget are both important.", "zh": "按时完成项目和不超预算是同样重要的。", "ok": false, "note": "并列主语一为不定式一为动名词，应统一为 To finish... and to meet... 或 Meeting... and finishing..." }
+        ],
+        "pitfalls": [
+          { "wrong": "The film was exciting, well acted and it had a clever ending.", "right": "The film was exciting, well acted and cleverly plotted.", "why": "前两项是形容词性成分作表语，第三项却是完整分句，形式与功能都不一致。" },
+          { "wrong": "The new system is faster, cheaper and it is easier to use.", "right": "The new system is faster, cheaper and easier to use.", "why": "前两项是比较级形容词作表语，第三项带了自己的主语和系动词，应压缩成同类形容词短语。" },
+          { "wrong": "She is a teacher and teaches in a high school.", "right": "She is a teacher and a coach at a high school.", "why": "and 前是名词短语作表语，and 后是谓语动词，功能不同；改成两个名词短语同作表语才平行。" }
+        ],
+        "contrast": { "withTitle": "关联连词引导的平行", "diff": "本点处理普通连词两侧的成分比对；关联连词还要额外检查两个关联词的位置是否各自对准同类成分。" },
+        "mnemonic": "提出来、分两行、贴标签；形式与功能，两个都得同。"
+      },
+      "review": {
+        "core": [
+          "平行 = 词性相同 + 短语类型相同 + 句法功能相同",
+          "三步：找连词、提取两侧成分、贴形式与功能两个标签",
+          "三项以上并列，重点查最后一项",
+          "表语对表语、谓语对谓语，词性相同也可能功能不同",
+          "改写只动不一致的那一项，不重写整句"
+        ],
+        "trigger": "看到 and/or/but → 把两侧成分单独写出来 → 各贴一个形式标签和一个功能标签",
+        "quickCheck": [
+          { "q": "The job requires patience, accuracy and working hard. 错在哪里？", "a": "第三项是动名词短语，前两项是名词，应改为 hard work。" },
+          { "q": "She is a teacher and teaches in a high school. 为什么不平行？", "a": "and 前是表语，and 后是谓语，功能不同。" },
+          { "q": "三项并列时最该检查哪一项？", "a": "最后一项，它最容易与前两项形式脱节。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.parallelism.grammatical-correspondence.d1",
+          "type": "choice",
+          "stem": "The new app is fast, reliable and ___.",
+          "options": ["easy to use", "easily used", "it is easy to use", "ease of use"],
+          "answer": "easy to use",
+          "explain": "and 前是 fast 与 reliable 两个形容词作表语，第三项也必须是形容词性成分，easy to use 是形容词短语。",
+          "trap": "it is easy to use 自带主语和系动词，变成分句，与前面的形容词不平行；ease of use 是名词短语。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.parallelism.grammatical-correspondence.d2",
+          "type": "fill",
+          "stem": "She spends her free time painting, reading and ___ (garden).",
+          "answer": "gardening",
+          "accept": ["gardening"],
+          "hint": "前两项都是动名词，表示活动。",
+          "explain": "painting 与 reading 都是动名词作 spends 的宾语补足成分，第三项也须用动名词 gardening 才能保持形式一致。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.parallelism.grammatical-correspondence.d3",
+          "type": "correct",
+          "stem": "The course helps students to think critically and solving problems independently.",
+          "answer": "The course helps students to think critically and to solve problems independently.",
+          "accept": [
+            "The course helps students to think critically and to solve problems independently.",
+            "The course helps students think critically and solve problems independently."
+          ],
+          "explain": "and 前是带 to 的不定式，后项也应为不定式；改为 to solve 与 to think 对称，或两项都省 to。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.parallelism.grammatical-correspondence.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "job", "requires", "patience,", "accuracy", "and", "stamina."],
+          "answer": "The job requires patience, accuracy and stamina.",
+          "explain": "and 连接三个名词作 requires 的宾语，三项形式与功能一致，构成平行。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.parallelism.grammatical-correspondence.d5",
+          "type": "translate",
+          "stem": "她的目标是写完报告并在周五展示。",
+          "answer": "Her goal is to finish the report and to present it on Friday.",
+          "require": [["goal"], ["finish"], ["present"]],
+          "forbid": ["and presenting", "and present it on Friday is"],
+          "explain": "两个不定式并列作表语，第二项保留 to，与第一项 to finish 形式对称。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.parallelism.grammatical-correspondence.d6",
+          "type": "choice",
+          "stem": "He told me that the deadline had changed and ___.",
+          "options": ["that we should start earlier", "we should start earlier", "starting earlier", "to start earlier"],
+          "answer": "that we should start earlier",
+          "explain": "and 前是 that 引导的宾语从句，后项也须是 that 从句，两个宾语从句并列作 told 的宾语。",
+          "trap": "we should start earlier 省略了 that，虽可成立，但与前面的 that 从句在引导词层面不对称；starting 与 to start 则把从句降级成了短语。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.parallelism.correlative",
+      "title": "关联连词引导的平行",
+      "brief": "关联词的位置决定哪两个成分必须同类",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["special.parallelism.grammatical-correspondence"],
+      "concept": {
+        "summary": "关联连词成对出现，第二个连词的位置由第一个决定：紧跟 not only、both、either、neither 的成分，必须与紧跟 but also、and、or、nor 的成分同类。改错时先移动关联词的位置，再考虑改动词形式，因为位置错了改形式也救不回来。",
+        "sections": [
+          {
+            "h": "位置决定平行对象",
+            "p": "同一个句子，not only 放在谓语前还是宾语前，要求完全不同的对称项。先定位置，再检查两侧。",
+            "bullets": [
+              "谓语对谓语：She not only wrote the report but also designed the charts.",
+              "名词对名词：She wrote not only the report but also the charts.",
+              "not only 放在谓语前时，but also 后也必须是谓语",
+              "not only 置句首时主句倒装，平行关系不变：Not only did she write the report, but she also designed the charts."
+            ]
+          },
+          {
+            "h": "五组配对的固定形式",
+            "p": "每一组都是固定搭配，不能拆开重配，也不能用同义短语顶替其中一个。",
+            "bullets": [
+              "both...and：Both the parents and the teachers were informed.",
+              "either...or：You can either call me or send an email.",
+              "neither...nor：He neither smokes nor drinks.",
+              "not...but：The problem is not money but time.",
+              "whether...or：Whether we go or stay is up to you."
+            ]
+          },
+          {
+            "h": "三类常见破坏",
+            "p": "破坏平行的方式集中在配对、否定、位置三处，逐一排查即可。",
+            "bullets": [
+              "配对固定：both 只与 and 配对，not only 只与 but also 配对",
+              "neither...nor 已含否定，不能再加 didn't 或 not",
+              "位置错位时，but also 后容易变成完整分句，应压成同类形容词",
+              "并列项不等长时，先删修饰语再比对中心结构"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She not only wrote the report but also designed the charts.", "zh": "她不仅写了报告，还设计了图表。", "ok": true, "note": "not only 与 but also 后都是谓语动词，构成谓语对谓语。" },
+          { "en": "She wrote not only the report but also the charts.", "zh": "她不仅写了报告，还写了图表说明。", "ok": true, "note": "关联词移到宾语前，两侧都变成名词短语。" },
+          { "en": "He neither smokes nor drinks.", "zh": "他既不抽烟也不喝酒。", "ok": true, "note": "neither 与 nor 后都是第三人称单数谓语，形式对称。" },
+          { "en": "The problem is not money but time.", "zh": "问题不是钱，而是时间。", "ok": true, "note": "not 与 but 后都是名词作表语，对照关系清晰。" },
+          { "en": "She not only wrote the report but also the charts.", "zh": "她不仅写了报告，还有图表。", "ok": false, "note": "not only 后是谓语 wrote，but also 后是名词 the charts，应把 not only 移到 the report 前。" },
+          { "en": "He didn't neither smoke nor drink.", "zh": "他既不抽烟也不喝酒。", "ok": false, "note": "neither...nor 本身已是否定，再加 didn't 构成双重否定，应改为 He neither smoked nor drank." },
+          { "en": "Both the teachers as well as the parents were informed.", "zh": "老师和家长都得到了通知。", "ok": false, "note": "both 只能与 and 配对，as well as 不能充当第二个关联词，应改为 Both the teachers and the parents。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The course is both useful and it is interesting.", "right": "The course is both useful and interesting.", "why": "both 后是形容词 useful，and 后却是完整分句，关联连词两侧必须放同类成分。" },
+          { "wrong": "He not only speaks English but also French.", "right": "He speaks not only English but also French.", "why": "not only 后是谓语 speaks，but also 后是名词 French；把 not only 移到 English 前，两侧才同为名词。" },
+          { "wrong": "She has not neither time nor money.", "right": "She has neither time nor money.", "why": "neither...nor 已经承担否定，再加 not 就是双重否定，两个关联词位置也随之被挤乱。" }
+        ],
+        "contrast": { "withTitle": "平行结构的语法对应原则", "diff": "普通连词只需比对两侧成分；关联连词多一步——先确认两个关联词各自的位置，再看它们后面的成分是否同类。" },
+        "mnemonic": "关联词在谁前面，谁就得跟对面同类。"
+      },
+      "review": {
+        "core": [
+          "关联连词两侧成分必须同类，位置由第一个关联词决定",
+          "both...and / either...or / neither...nor / not...but / whether...or",
+          "not only 可放在谓语前或宾语前，两侧对称项随之改变",
+          "neither...nor 已含否定，不能再加 not 或 didn't",
+          "配对不能混用：both 只配 and，not only 只配 but also"
+        ],
+        "trigger": "看到 not only/both/either/neither → 先看它紧跟什么成分 → 再要求第二个关联词后也是同类成分",
+        "quickCheck": [
+          { "q": "He not only speaks English but also French. 怎么改？", "a": "改为 He speaks not only English but also French。" },
+          { "q": "both 能和 as well as 配对吗？", "a": "不能，both 只与 and 配对。" },
+          { "q": "He didn't neither smoke nor drink. 错在哪里？", "a": "neither...nor 已是否定，再加 didn't 构成双重否定。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.parallelism.correlative.d1",
+          "type": "choice",
+          "stem": "He ___ smokes nor drinks, which his doctor appreciates.",
+          "options": ["neither", "either", "both", "not"],
+          "answer": "neither",
+          "explain": "nor 只能与 neither 配对，构成 neither...nor，两侧都是第三人称单数谓语，形式对称。",
+          "trap": "either 只能与 or 配对；not 不能与 nor 构成关联结构。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.parallelism.correlative.d2",
+          "type": "fill",
+          "stem": "You can either call me ___ send an email.",
+          "answer": "or",
+          "accept": ["or"],
+          "hint": "either 需要一个配对的关联词。",
+          "explain": "either 只能与 or 配对，or 后接与 call me 同类的动词短语 send an email。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.parallelism.correlative.d3",
+          "type": "correct",
+          "stem": "He not only speaks English but also French.",
+          "answer": "He speaks not only English but also French.",
+          "accept": ["He speaks not only English but also French."],
+          "explain": "原句 not only 后是谓语 speaks，but also 后是名词 French，两侧不同类；把 not only 移到 English 前，两侧都成为名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.parallelism.correlative.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "problem", "is", "not", "money", "but", "time."],
+          "answer": "The problem is not money but time.",
+          "explain": "not 与 but 后都是名词作表语，形成对照，两侧语法身份一致。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.parallelism.correlative.d5",
+          "type": "translate",
+          "stem": "无论你去还是留，我都支持你。",
+          "answer": "Whether you go or stay, I will support you.",
+          "require": [["Whether"], ["go or stay"], ["support"]],
+          "forbid": ["If you go or stay", "Whether you go and stay"],
+          "explain": "whether...or 是固定配对，or 两侧的 go 与 stay 同为动词原形，构成平行。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.parallelism.correlative.d6",
+          "type": "choice",
+          "stem": "Both the teachers ___ the parents were invited to the ceremony.",
+          "options": ["and", "as well as", "or", "nor"],
+          "answer": "and",
+          "explain": "both 只能与 and 配对，and 两侧都是名词短语，共同作主语。",
+          "trap": "as well as 语义接近 but 不能充当 both 的配对词；or 与 nor 会改变 both 的肯定并列意义。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "special.parallelism.ellipsis-in-parallel",
+      "title": "平行结构中的省略与不平行错误",
+      "brief": "省略要覆盖全部并列项，补得回才省",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["special.parallelism.grammatical-correspondence", "special.ellipsis.coordinate-complex"],
+      "concept": {
+        "summary": "平行结构允许省掉重复的介词、冠词、助动词和 to，但省略必须覆盖所有并列项：要么每一项都省，要么每一项都留。检查方法是把省掉的词逐个补回，看每个并列项是否都成立；只要有一项补不回，省略就失效。",
+        "sections": [
+          {
+            "h": "可以共享的四类词",
+            "p": "共享的前提是同一个词能同时管辖所有并列项，且不改变各自的意思。",
+            "bullets": [
+              "助动词：He has written and revised the report.",
+              "不定式符号：She wants to sit down and rest.",
+              "介词：He wrote to the manager and the editor.",
+              "冠词：the red and white flags（同一批红白旗）/ the red and the white flags（红、白两类旗）"
+            ]
+          },
+          {
+            "h": "省略失败的三种形态",
+            "p": "省错的方向只有三种：只省一半、共享了不合适的词、把短语和从句混在一起。",
+            "bullets": [
+              "只省一半：介词后第二项须同为动名词，如 singing and dancing",
+              "共享错词：for 只能管辖名词性成分，planning and running 才补得回 for",
+              "层级混排：that 从句不能与名词短语并列，第二项也须是 that 从句"
+            ]
+          },
+          {
+            "h": "比较结构中的平行省略",
+            "p": "比较对象必须同类；省略后要靠 that、those、do 这类替代词保留可比性。",
+            "bullets": [
+              "The population of Shanghai is larger than that of Beijing.",
+              "The winters here are colder than those in the south.",
+              "比较对象要同类：人口只能与人口比，须补 that of",
+              "同类替代：复数用 those，避免拿汽车与德国比"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He has written and revised the report.", "zh": "他写完并修改了报告。", "ok": true, "note": "两个过去分词共用助动词 has，省略只发生在第二项上，补回后完全成立。" },
+          { "en": "She wants to sit down and rest.", "zh": "她想坐下休息。", "ok": true, "note": "两个不定式共用 to，rest 前省去 to，形式仍然平行。" },
+          { "en": "The population of Shanghai is larger than that of Beijing.", "zh": "上海的人口比北京多。", "ok": true, "note": "that 替代 population，比较对象保持同类，避免拿人口与城市相比。" },
+          { "en": "The red and white flags were raised.", "zh": "红白两色的旗子升了起来。", "ok": true, "note": "一个 the 同时管辖 red and white，指同一批双色旗。" },
+          { "en": "She is good at singing and to dance.", "zh": "她擅长唱歌和跳舞。", "ok": false, "note": "at 后第一项是动名词，第二项是不定式，介词无法同时管辖两者，应改为 and dancing。" },
+          { "en": "He explained that the rules had changed and the new deadline.", "zh": "他解释了规则的变化和新的截止时间。", "ok": false, "note": "and 前是 that 从句，后是名词短语，层级不一致；应补成 and that the deadline had moved。" },
+          { "en": "The population of Shanghai is larger than Beijing.", "zh": "上海的人口比北京多。", "ok": false, "note": "比较对象错位，人口不能与城市相比，应补 that of Beijing。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The course helps students to read critically and writing clearly.", "right": "The course helps students to read critically and to write clearly.", "why": "第一项是带 to 的不定式，第二项是动名词，to 无法同时管辖两者；要么都带 to，要么都不带。" },
+          { "wrong": "He is responsible for planning and to run the event.", "right": "He is responsible for planning and running the event.", "why": "介词 for 只能管辖名词性成分，planning 成立而 to run 补不回 for，应改为动名词。" },
+          { "wrong": "The cars made in Japan are more reliable than Germany.", "right": "The cars made in Japan are more reliable than those made in Germany.", "why": "比较对象必须同类，德国不能与汽车相比，用 those 替代 cars 才能恢复可比性。" }
+        ],
+        "contrast": { "withTitle": "比较对象的对称性", "diff": "本点处理并列项共享介词、冠词、助动词与 to 的条件；比较结构另有专门的对称性规则，涉及 more than 与倍数表达。" },
+        "mnemonic": "省一个就要管全部，补不回就写全。"
+      },
+      "review": {
+        "core": [
+          "可共享：介词、冠词、助动词、不定式符号 to",
+          "省略必须覆盖全部并列项，不能只省一半",
+          "介词只能管辖名词性成分，后面不能混入不定式",
+          "从句与名词短语不能并列，层级必须一致",
+          "比较结构用 that/those 保留同类比较对象"
+        ],
+        "trigger": "看到并列项前只有一个介词或一个 to → 把它分别补到每一项前 → 有一项不成立就改写",
+        "quickCheck": [
+          { "q": "She is good at singing and to dance. 错在哪里？", "a": "at 后第二项应同为动名词，改为 dancing。" },
+          { "q": "省略 to 的前提是什么？", "a": "剩下的 to 能同时管辖所有并列的不定式。" },
+          { "q": "The population of Shanghai is larger than Beijing. 怎么改？", "a": "补 that of，改为 than that of Beijing。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.parallelism.ellipsis-in-parallel.d1",
+          "type": "choice",
+          "stem": "She is responsible for hiring staff and ___ new employees.",
+          "options": ["training", "to train", "train", "trained"],
+          "answer": "training",
+          "explain": "介词 for 后第一项是动名词 hiring，第二项也必须是动名词，for 才能同时管辖两项。",
+          "trap": "to train 是不定式，介词 for 不能管辖它，补回 for to train 不成立。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.parallelism.ellipsis-in-parallel.d2",
+          "type": "fill",
+          "stem": "He has written and ___ (revise) the report twice.",
+          "answer": "revised",
+          "accept": ["revised"],
+          "hint": "and 前是过去分词 written，共用助动词 has。",
+          "explain": "has written 是现在完成时，and 后共用 has，动词须用过去分词 revised，才能与 written 平行。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.parallelism.ellipsis-in-parallel.d3",
+          "type": "correct",
+          "stem": "The course helps students to read critically and writing clearly.",
+          "answer": "The course helps students to read critically and to write clearly.",
+          "accept": [
+            "The course helps students to read critically and to write clearly.",
+            "The course helps students read critically and write clearly."
+          ],
+          "explain": "and 前是带 to 的不定式，后项也应为不定式；统一为 to write，或两项都省 to，省略才能覆盖全部并列项。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.parallelism.ellipsis-in-parallel.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "population", "of", "Shanghai", "is", "larger", "than", "that", "of", "Beijing."],
+          "answer": "The population of Shanghai is larger than that of Beijing.",
+          "explain": "that 替代前面出现的 population，使比较对象保持同类，避免拿人口与城市相比。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.parallelism.ellipsis-in-parallel.d5",
+          "type": "translate",
+          "stem": "上海的冬天比北京的冷。",
+          "answer": "The winters in Shanghai are colder than those in Beijing.",
+          "require": [["winters"], ["colder than"], ["those in Beijing"]],
+          "forbid": ["than Beijing", "than that in Beijing"],
+          "explain": "比较对象是 winters，复数要用 those 替代，才能与前面的 the winters 保持同类。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.parallelism.ellipsis-in-parallel.d6",
+          "type": "choice",
+          "stem": "He explained that the rules had changed and ___.",
+          "options": ["that the deadline had moved", "the deadline had moved", "moving the deadline", "to move the deadline"],
+          "answer": "that the deadline had moved",
+          "explain": "and 前是 that 引导的宾语从句，后项也须是 that 从句，两个从句并列作 explained 的宾语。",
+          "trap": "moving 与 to move 把从句降级为短语，与前面的从句层级不同；省略 that 会使并列项在引导词层面不对称。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,529 @@
+{
+  "level1": "nonfinite",
+  "chapter": "past_participle",
+  "items": [
+    {
+      "id": "nonfinite.past_participle.attributive",
+      "title": "过去分词作定语",
+      "brief": "被修饰名词是动作的承受者",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.verbs.four-forms", "nonfinite.present_participle.attributive"],
+      "concept": {
+        "summary": "过去分词作定语时，被修饰名词是动作的承受者，二者构成被动关系，动作通常已完成。单个分词前置表状态或类别，分词短语后置相当于 who/which + be + done 的省略。不及物动词的过去分词只表完成、不表被动，这是唯一需要单独记的分支。",
+        "sections": [
+          {
+            "h": "两条语义：被动与完成",
+            "p": "及物动词的过去分词同时携带被动与完成两层意义；不及物动词没有被动义，过去分词只表示动作已经完成，落到名词上就是“已经……了的”。判断时先看动词是否及物。",
+            "bullets": [
+              "及物：a broken window = a window that has been broken",
+              "不及物：a retired teacher, fallen leaves, the risen sun",
+              "前置单个分词多表状态：frozen food, a closed door, spoken English"
+            ]
+          },
+          {
+            "h": "位置与从句还原",
+            "p": "单个分词前置，带 by 短语、副词或介词短语的分词短语必须后置。后置短语整体相当于一个被动语态的定语从句，还原时补回 who/which 与 be 动词。",
+            "bullets": [
+              "前置：a written report, a used car",
+              "后置：the letter written by Lu Xun = the letter which was written by Lu Xun",
+              "后置：the problems discussed at the meeting = the problems which were discussed at the meeting"
+            ]
+          },
+          {
+            "h": "与 -ing 定语的分工",
+            "p": "同一动词的 -ing 与 -ed 定语语义对立，选择依据只有一条：名词是动作的发出者还是承受者。三问依旧适用：逻辑主语是谁、主动还是被动、动作是否已完成。",
+            "bullets": [
+              "a confusing question（问题使人困惑）/ a confused student（学生感到困惑）",
+              "a developing country（国家在发展）/ a developed country（国家已发达）",
+              "the man following us（他跟着我们）/ the man followed by us（他被我们跟着）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The window broken in the storm has not been repaired.", "zh": "暴风雨中打破的那扇窗还没有修。", "ok": true, "note": "window 是被打破的对象，broken 短语后置修饰。" },
+          { "en": "Spoken English is quite different from written English.", "zh": "英语口语与书面语差别很大。", "ok": true, "note": "English 是被说的，用过去分词前置表类别。" },
+          { "en": "The retired teacher still comes to school every week.", "zh": "那位退休教师每周仍来学校。", "ok": true, "note": "retire 为不及物动词，过去分词只表完成，不表被动。" },
+          { "en": "The letter writing by hand was hard to read.", "zh": "那封手写的信很难辨认。", "ok": false, "note": "letter 是被写的对象，应用过去分词 written。" },
+          { "en": "The man injured in the accident is recovering in hospital.", "zh": "事故中受伤的男子正在医院康复。", "ok": true, "note": "man 承受 injure 的动作，分词短语后置作定语。" },
+          { "en": "The language speaking in this area is hard to learn.", "zh": "这个地区说的语言很难学。", "ok": false, "note": "language 是被说的，与分词构成被动关系，应改为 spoken。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The problem discussing at the meeting is serious.", "right": "The problem discussed at the meeting is serious.", "why": "problem 是被讨论的对象，定语须用过去分词；discussing 会把它变成讨论的发出者。" },
+          { "wrong": "The boy injuring in the accident was sent to hospital.", "right": "The boy injured in the accident was sent to hospital.", "why": "boy 是受伤的承受者，与分词构成被动关系，须用过去分词 injured。" },
+          { "wrong": "The interested students in the topic stayed after class.", "right": "The students interested in the topic stayed after class.", "why": "带介词短语的过去分词短语不能前置，必须整体后置修饰名词。" }
+        ],
+        "contrast": { "withTitle": "现在分词作定语", "diff": "-ed 定语与名词是被动或完成关系；-ing 定语与名词是主动或进行关系。" },
+        "mnemonic": "名词被做的用 -ed，名词自己做的用 -ing；不及物只表完成，不表被动。"
+      },
+      "review": {
+        "core": [
+          "过去分词作定语：被修饰名词是动作的承受者，被动关系",
+          "及物动词 = 被动 + 完成；不及物动词 = 只表完成（fallen leaves）",
+          "单个前置（spoken English），短语后置（the letter written by Lu Xun）",
+          "后置短语 = who/which + be + done 的省略",
+          "带介词短语的过去分词短语必须后置"
+        ],
+        "trigger": "看到名词 + -ed 形式 → 先问名词是动作的发出者还是承受者 → 再确认动词是否及物",
+        "quickCheck": [
+          { "q": "a confused student 与 a confusing question 分别什么意思？", "a": "感到困惑的学生；使人困惑的问题。" },
+          { "q": "fallen leaves 中的 fallen 表被动吗？", "a": "不表，fall 是不及物动词，只表完成。" },
+          { "q": "the letter written by Lu Xun 还原成从句是什么？", "a": "the letter which was written by Lu Xun。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.past_participle.attributive.d1",
+          "type": "choice",
+          "stem": "The house ___ in the 1920s still stands at the corner of the street.",
+          "options": ["built", "building", "to build", "build"],
+          "answer": "built",
+          "explain": "一问逻辑主语：the house；二问关系：房子是被建造的对象，被动；三问时间：建于 1920 年代，动作已完成，故用 built。",
+          "trap": "building 表主动进行，房子不会自己建造，与被动关系矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.past_participle.attributive.d2",
+          "type": "fill",
+          "stem": "The students ___ (select) for the national team are training in Beijing.",
+          "answer": "selected",
+          "accept": ["selected"],
+          "hint": "先确定 students 与 select 是主动还是被动。",
+          "explain": "一问逻辑主语：the students；二问关系：学生是被挑选的对象，被动；三问时间：选拔已完成，故填过去分词 selected。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.past_participle.attributive.d3",
+          "type": "correct",
+          "stem": "The food serving in this canteen is cheap and tasty.",
+          "answer": "The food served in this canteen is cheap and tasty.",
+          "accept": ["The food served in this canteen is cheap and tasty."],
+          "explain": "一问逻辑主语：the food；二问关系：食物是被供应的，被动；三问时间：动作已完成，故把 serving 改为 served。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.past_participle.attributive.d4",
+          "type": "choice",
+          "stem": "He is a ___ man who never gives up halfway.",
+          "options": ["determined", "determining", "determine", "to determine"],
+          "answer": "determined",
+          "explain": "man 是被意志驱动、处于坚定状态的一方，用过去分词 determined，已形容词化，可直接前置修饰名词。",
+          "trap": "determining 表主动进行，会把 man 变成“正在决定别人”的人，与句意不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.past_participle.attributive.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "letter", "written", "in", "pencil", "was", "hard", "to", "read."],
+          "answer": "The letter written in pencil was hard to read.",
+          "explain": "written in pencil 是过去分词短语后置修饰 the letter，letter 是被写的对象；was 才是主句谓语。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.past_participle.attributive.d6",
+          "type": "translate",
+          "stem": "昨天会上讨论的问题已经解决了。",
+          "answer": "The problem discussed at yesterday's meeting has been solved.",
+          "require": [["problem"], ["discussed"], ["solved"]],
+          "forbid": ["problem discussing", "discussing at yesterday"],
+          "explain": "problem 是承受 discuss 的对象，定语用过去分词 discussed 后置；discussing 会让问题变成讨论的发出者。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.past_participle.adverbial",
+      "title": "过去分词作状语",
+      "brief": "主句主语是动作承受者，多表原因时间条件",
+      "difficulty": 2,
+      "tags": ["高频", "基础"],
+      "prereq": ["nonfinite.past_participle.attributive", "tense_voice.passive.formation"],
+      "concept": {
+        "summary": "过去分词作状语时，主句主语是分词动作的承受者，二者构成被动关系，动作通常先于谓语或与谓语同时。可表时间、原因、条件、让步与伴随状态。判定仍走三问：逻辑主语是谁、主动还是被动、谁先谁后。",
+        "sections": [
+          {
+            "h": "三问流程",
+            "p": "过去分词状语与现在分词状语位置相同，区别只在主句主语与分词的关系。把主句主语代入分词，若能说成“被……”，就用过去分词。",
+            "bullets": [
+              "一问逻辑主语：分词的动作由谁承受？答案必须是主句主语",
+              "二问关系：主句主语被施加该动作 → done；若是自己发出 → doing",
+              "三问先后：多表先于谓语，或与谓语同时存在的状态"
+            ]
+          },
+          {
+            "h": "五种状语意义",
+            "p": "分词不带连词，具体关系由上下文决定。若要明确时间、条件或让步，可以保留 when/if/unless/though 等连词，构成 when done、if done 结构。",
+            "bullets": [
+              "原因：Exhausted by the climb, they rested under a tree.",
+              "时间：Seen from the hill, the town looks like a garden.",
+              "条件：Given more time, we could finish the task.",
+              "让步：Though warned repeatedly, he made the same mistake.",
+              "伴随：He walked in, followed by his dog."
+            ]
+          },
+          {
+            "h": "连词保留与否定",
+            "p": "保留连词时，分词前不能再出现主语，因为从句主语与主句主语相同才能省略。否定式把 not 放在分词之前，被动完成式用 having been done，不能省掉 been。",
+            "bullets": [
+              "When asked about the plan, she said nothing.",
+              "If given another chance, I would try again.",
+              "× Having injured in the accident → √ Having been injured in the accident"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Encouraged by the teacher, she entered the contest.", "zh": "在老师的鼓励下，她参加了比赛。", "ok": true, "note": "she 是被鼓励的对象，与分词构成被动关系，表原因。" },
+          { "en": "When asked about the delay, the manager apologized.", "zh": "被问及延误时，经理道了歉。", "ok": true, "note": "保留连词 when，主语 the manager 与主句主语一致，故省略。" },
+          { "en": "Given more time, we could finish the task.", "zh": "再给一些时间，我们就能完成任务。", "ok": true, "note": "given 表条件，相当于 If we were given more time。" },
+          { "en": "Seeing from the hill, the town looks like a garden.", "zh": "从山上看，这座小镇像花园。", "ok": false, "note": "town 是被看的对象，不能用表主动的 seeing，应改为 Seen from the hill。" },
+          { "en": "Followed by two assistants, the professor entered the lab.", "zh": "教授由两名助手跟着走进实验室。", "ok": true, "note": "professor 是被跟随的对象，followed 表伴随状态。" },
+          { "en": "Surprising by the news, she could not say a word.", "zh": "被这个消息惊到，她一句话也说不出来。", "ok": false, "note": "she 是感到惊讶的人，应用 Surprised by the news。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Seeing from the tower, the whole city comes into view.", "right": "Seen from the tower, the whole city comes into view.", "why": "city 是被看的对象，主句主语承受 see 的动作，须用过去分词。" },
+          { "wrong": "Encouraging by his parents, he applied for the scholarship.", "right": "Encouraged by his parents, he applied for the scholarship.", "why": "he 是受到鼓励的人，by 短语引出鼓励的发出者，分词须用过去分词。" },
+          { "wrong": "Having injured in the accident, he was taken to hospital.", "right": "Having been injured in the accident, he was taken to hospital.", "why": "先发生的动作是被动的，现在分词完成式的被动形式必须是 having been done，不能省略 been。" }
+        ],
+        "contrast": { "withTitle": "现在分词作状语", "diff": "过去分词状语的主句主语是受动者；现在分词状语的主句主语是施动者。" },
+        "mnemonic": "主语被做的用 -ed；连词可留，主语不留；完成被动别丢 been。"
+      },
+      "review": {
+        "core": [
+          "过去分词状语：主句主语 = 动作承受者，被动关系",
+          "主句主语代入分词，能说成“被……”就用 -ed",
+          "五种意义：时间、原因、条件、让步、伴随",
+          "可保留 when/if/unless/though 连词，但不能再出现从句主语",
+          "被动完成式：having been done，been 不可省"
+        ],
+        "trigger": "看到句首 -ed 短语 → 把主句主语代入 → 说成“被……”通顺才对",
+        "quickCheck": [
+          { "q": "Seen from the hill 这一分词短语的主语是谁？", "a": "the town，镇子是被看的对象。" },
+          { "q": "When asked 为什么用 asked？", "a": "主句主语是被问的人，且 when 从句省略了主语与 be。" },
+          { "q": "Having injured 错在哪里？", "a": "受伤是被动的，应为 Having been injured。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.past_participle.adverbial.d1",
+          "type": "choice",
+          "stem": "___ by the audience's applause, the singer sang another song.",
+          "options": ["Encouraged", "Encouraging", "To encourage", "Encourage"],
+          "answer": "Encouraged",
+          "explain": "一问逻辑主语：the singer；二问关系：歌手是被掌声鼓励的对象，被动；三问时间：鼓励发生在再唱一首之前，用过去分词。",
+          "trap": "Encouraging 表主动，会把歌手变成鼓励别人的人，与 by 短语矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.past_participle.adverbial.d2",
+          "type": "fill",
+          "stem": "When ___ (ask) about his plans, he simply smiled.",
+          "answer": "asked",
+          "accept": ["asked"],
+          "hint": "when 从句省略了主语与 be 动词。",
+          "explain": "一问逻辑主语：主句主语 he；二问关系：他是被问的人，被动；三问时间：与谓语 smiled 同时，故填 asked，与 when 构成 when asked。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.past_participle.adverbial.d3",
+          "type": "correct",
+          "stem": "Absorbing in his book, he did not hear the bell.",
+          "answer": "Absorbed in his book, he did not hear the bell.",
+          "accept": ["Absorbed in his book, he did not hear the bell."],
+          "explain": "一问逻辑主语：he；二问关系：他是被书吸引的一方，be absorbed in 为被动结构；三问时间：与谓语同时，故用 Absorbed。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.past_participle.adverbial.d4",
+          "type": "choice",
+          "stem": "___ in 1892, the building is still in use today.",
+          "options": ["Completed", "Completing", "To complete", "Complete"],
+          "answer": "Completed",
+          "explain": "一问逻辑主语：the building；二问关系：建筑是被建成的对象，被动；三问时间：1892 年完工，早于谓语 is，用过去分词。",
+          "trap": "Completing 表主动进行，建筑不会自己完成施工。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.past_participle.adverbial.d5",
+          "type": "translate",
+          "stem": "由于出生在一个音乐家庭，她从小就学钢琴。",
+          "answer": "Born into a musical family, she learned the piano as a child.",
+          "require": [["born"], ["piano"]],
+          "forbid": ["bearing into", "born in a musical family, the piano"],
+          "explain": "born 的逻辑主语是 she，出生是被动经历，且先于学琴；主语不同则须改写，不能让 the piano 作 born 的主语。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.past_participle.adverbial.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Seen", "from", "the", "hill,", "the", "town", "looks", "like", "a", "garden."],
+          "answer": "Seen from the hill, the town looks like a garden.",
+          "explain": "seen 的逻辑主语是 the town，镇子是被看的对象，被动关系；若换成 Seeing 就会让镇子成为看的主体。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.past_participle.object-complement",
+      "title": "过去分词作宾补",
+      "brief": "宾语是分词动作的承受者",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["nonfinite.past_participle.adverbial", "morph.verbs.transitive-intransitive"],
+      "concept": {
+        "summary": "过去分词作宾语补足语时，宾语是分词动作的承受者，二者构成被动关系。常见于 have/get/make/find/keep/leave/see/hear 等动词之后。判断方法：把宾语与分词单独拿出来，看能否说成“宾语被……”。",
+        "sections": [
+          {
+            "h": "三类高频动词",
+            "p": "宾补位置的过去分词由动词的语义决定搭配，先记住三类，再按被动关系判断形式。",
+            "bullets": [
+              "使役与处置：have/get sth done",
+              "感官：see/hear/watch/find + 宾语 + done",
+              "保持与致使状态：keep/leave + 宾语 + done"
+            ]
+          },
+          {
+            "h": "have sth done 的三种语义",
+            "p": "同一个结构可以表示让别人做、遭遇不愉快的事、或完成某事，区别在语境，但三种用法中的宾语都是动作的承受者。",
+            "bullets": [
+              "请别人做：I had my hair cut yesterday.",
+              "遭遇：He had his wallet stolen on the bus.",
+              "完成：We had the report finished by Friday."
+            ]
+          },
+          {
+            "h": "与 -ing 宾补的分工",
+            "p": "感官动词后 doing 表宾语主动且动作进行，done 表宾语被动且动作完成。三问照旧：宾语发出还是承受、动作在进行还是已完成、与谓语谁先谁后。",
+            "bullets": [
+              "I heard her singing in the next room.（她主动唱，正在进行）",
+              "I heard the song sung in English.（歌被唱，已完成）",
+              "We found him locking the door. / We found the door locked."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I had my bike repaired yesterday.", "zh": "我昨天请人修了自行车。", "ok": true, "note": "bike 是被修的对象，宾补用过去分词，表请别人做。" },
+          { "en": "She found her purse stolen on the bus.", "zh": "她发现钱包在公交车上被偷了。", "ok": true, "note": "purse 承受 steal 的动作，宾补用过去分词，表遭遇。" },
+          { "en": "We saw the suspect taken away by the police.", "zh": "我们看到嫌疑人被警察带走了。", "ok": true, "note": "suspect 是被带走的对象，感官动词后接过去分词宾补。" },
+          { "en": "He had his tooth pull out yesterday.", "zh": "他昨天拔了牙。", "ok": false, "note": "tooth 是被拔的对象，宾补须用过去分词 pulled。" },
+          { "en": "I heard the song singing in the hall.", "zh": "我听到大厅里有人在唱这首歌。", "ok": false, "note": "song 是被唱的对象，应改为 sung；singing 会让歌变成唱歌的人。" },
+          { "en": "Keep the door locked when you leave.", "zh": "离开时把门锁好。", "ok": true, "note": "door 处于被锁的状态，keep + 宾语 + 过去分词。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She got her hair cutting last week.", "right": "She got her hair cut last week.", "why": "hair 是被剪的对象，宾补须用过去分词 cut，cutting 会把头发变成执行剪发动作的一方。" },
+          { "wrong": "I found the window breaking.", "right": "I found the window broken.", "why": "window 处于被打破的状态，而不是主动进行打破的动作，须用过去分词。" },
+          { "wrong": "The teacher made herself understanding by everyone.", "right": "The teacher made herself understood by everyone.", "why": "make + 宾语 + 过去分词表示“使自己被……”，宾语 herself 是 understood 的承受者。" }
+        ],
+        "contrast": { "withTitle": "现在分词作宾补", "diff": "-ing 宾补表示宾语主动、动作进行；-ed 宾补表示宾语被动、动作完成。" },
+        "mnemonic": "宾语被做的用 -ed，宾语自己做的用 -ing；have sth done 三义：请人做、遭了殃、做完了。"
+      },
+      "review": {
+        "core": [
+          "过去分词宾补：宾语是动作的承受者，被动关系",
+          "常见动词：have/get/make/find/keep/leave/see/hear",
+          "have sth done 三义：请人做、遭遇、完成",
+          "感官动词后 doing 主动进行，done 被动完成",
+          "判断口诀：宾语被做的用 -ed"
+        ],
+        "trigger": "看到 have/get/find/keep + 宾语 + 空格 → 先问宾语是发出还是承受动作",
+        "quickCheck": [
+          { "q": "I had my hair cut 中的 cut 是什么形式？", "a": "过去分词作宾补，hair 是被剪的对象。" },
+          { "q": "I found the window breaking 错在哪里？", "a": "窗户是被打破的状态，应为 broken。" },
+          { "q": "I heard the song ___ in English. 填什么？", "a": "sung，歌是被唱的。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.past_participle.object-complement.d1",
+          "type": "choice",
+          "stem": "I must have my computer ___ before the meeting.",
+          "options": ["repaired", "repairing", "repair", "to repair"],
+          "answer": "repaired",
+          "explain": "一问逻辑主语：宾补的逻辑主语是宾语 my computer；二问关系：电脑是被修理的对象，被动；三问时间：动作尚未发生但由别人完成，故用过去分词 repaired。",
+          "trap": "repairing 表主动进行，电脑不会自己修理自己。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.past_participle.object-complement.d2",
+          "type": "fill",
+          "stem": "We found the classroom ___ (lock) when we arrived.",
+          "answer": "locked",
+          "accept": ["locked"],
+          "hint": "先判断 classroom 与 lock 谁作用于谁。",
+          "explain": "一问逻辑主语：宾补修饰的宾语 the classroom；二问关系：教室是被锁的对象；三问时间：到达时已处于被锁状态，故填 locked。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.past_participle.object-complement.d3",
+          "type": "correct",
+          "stem": "She had her nails painting before the party.",
+          "answer": "She had her nails painted before the party.",
+          "accept": ["She had her nails painted before the party."],
+          "explain": "一问逻辑主语：宾补的逻辑主语是 her nails；二问关系：指甲是被涂的对象；三问时间：派对前完成，故把 painting 改为 painted。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.past_participle.object-complement.d4",
+          "type": "choice",
+          "stem": "The speaker raised his voice to make himself ___.",
+          "options": ["heard", "hearing", "hear", "to hear"],
+          "answer": "heard",
+          "explain": "一问逻辑主语：宾补的逻辑主语是 himself；二问关系：他是被听见的对象，被动；三问时间：与 make 同时完成，用过去分词 heard。",
+          "trap": "hearing 表主动进行，会变成“使自己听见别人”，与 raise his voice 的目的相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.past_participle.object-complement.d5",
+          "type": "translate",
+          "stem": "他昨天在公交车上被偷了钱包。",
+          "answer": "He had his wallet stolen on the bus yesterday.",
+          "require": [["had his wallet stolen"], ["bus"]],
+          "forbid": ["stole his wallet on the bus", "had his wallet steal"],
+          "explain": "have sth done 表遭遇，wallet 是 steal 的承受者，宾补用过去分词 stolen；用 stole 会变成他主动偷钱包。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.past_participle.object-complement.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["We", "saw", "the", "thief", "caught", "by", "the", "police."],
+          "answer": "We saw the thief caught by the police.",
+          "explain": "感官动词 saw 后接宾语 the thief + 过去分词 caught，thief 是被抓的对象，by 短语引出动作发出者。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.past_participle.vs-present-participle",
+      "title": "过去分词与现在分词作状语的辨析",
+      "brief": "先定主句主语，再判主动被动",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["nonfinite.past_participle.adverbial", "nonfinite.present_participle.adverbial"],
+      "concept": {
+        "summary": "两种分词作状语的位置完全一样，区别只有一条：主句主语与分词是主动关系用 -ing，是被动关系用 -ed。同一动词的 -ing 与 -ed 分句往往语义相反，误用会改写整句意思。判定顺序固定：先找主句主语，再判主动被动，最后看时间先后。",
+        "sections": [
+          {
+            "h": "同一动词的两副面孔",
+            "p": "及物动词派生出两个分词，一个指向“使人……”，一个指向“感到……”。分句层面同理：-ing 分句的主语是动作发出者，-ed 分句的主语是动作承受者。",
+            "bullets": [
+              "interesting 使人感兴趣 / interested 感到兴趣",
+              "satisfying 令人满意 / satisfied 感到满意",
+              "Writing the letter, he chose every word carefully. / Written in a hurry, the letter was full of errors."
+            ]
+          },
+          {
+            "h": "三问定形式",
+            "p": "以 ___ by the reviewers, the film was withdrawn 为例：一问主句主语是 the film；二问 film 承受批评，属被动；三问批评先于撤片，用过去分词即可。三步走完，答案是 Criticized。",
+            "bullets": [
+              "一问：主句主语是谁",
+              "二问：它发出还是承受分词的动作",
+              "三问：先发生用 having done / having been done，同时用 doing / done"
+            ]
+          },
+          {
+            "h": "高频对立清单",
+            "p": "以下成对形式在语法填空与改错中出现频率最高，判断依据始终是主句主语，而不是词义好坏。",
+            "bullets": [
+              "surprising / surprised, tiring / tired, satisfying / satisfied",
+              "Comparing the two plans, we prefer the first.（we 主动比较）",
+              "Compared with the first plan, the second is cheaper.（plan 被比较）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Hearing the good news, she burst into tears of joy.", "zh": "听到这个好消息，她高兴得流下了眼泪。", "ok": true, "note": "she 主动听见，用 -ing，与谓语同时。" },
+          { "en": "Compared with last year, sales have risen by ten percent.", "zh": "与去年相比，销售额上升了百分之十。", "ok": true, "note": "sales 是被比较的对象，用过去分词。" },
+          { "en": "Comparing with last year, sales have risen by ten percent.", "zh": "与去年相比，销售额上升了百分之十。", "ok": false, "note": "sales 不能主动去比较，须用 Compared with last year。" },
+          { "en": "Frightening by the noise, the dog hid under the bed.", "zh": "被响声吓到，狗躲到了床下。", "ok": false, "note": "dog 是被吓的对象，应改为 Frightened by the noise。" },
+          { "en": "Having been warned twice, he stopped.", "zh": "被警告两次后，他停了下来。", "ok": true, "note": "被动且先于谓语，用 having been done。" },
+          { "en": "The teacher entered the classroom, followed by her students.", "zh": "老师走进教室，身后跟着学生。", "ok": true, "note": "teacher 是被跟随的对象，用过去分词表伴随。" },
+          { "en": "The teacher entered the classroom, following by her students.", "zh": "老师走进教室，身后跟着学生。", "ok": false, "note": "following 表主动，会把老师变成跟随学生的人，应改为 followed。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Comparing with his brother, Tom is more outgoing.", "right": "Compared with his brother, Tom is more outgoing.", "why": "Tom 是被比较的对象，compare 在此为被动关系，须用过去分词。" },
+          { "wrong": "Satisfying with the result, the manager praised the team.", "right": "Satisfied with the result, the manager praised the team.", "why": "manager 是感到满意的人，-ing 形式表示“使人满意”，与主句主语的关系相反。" },
+          { "wrong": "Having seen from the top, the city looks beautiful.", "right": "Seen from the top, the city looks beautiful.", "why": "city 是被看的对象；同时发生的状态无需完成式，用过去分词即可。" }
+        ],
+        "contrast": { "withTitle": "过去分词作状语", "diff": "本点是在同一句法位置上做二选一：形式本身不提供信息，全部由主句主语与动作的主被动关系决定。" },
+        "mnemonic": "先看主句主语，再问被不被做；被做的 -ed，自己做的 -ing。"
+      },
+      "review": {
+        "core": [
+          "位置相同，区别只在主句主语与分词的主被动关系",
+          "主句主语发出动作 → -ing；承受动作 → -ed",
+          "同一动词：interesting 使人感兴趣 / interested 感到兴趣",
+          "三问顺序：主句主语 → 主被动 → 先后",
+          "Compared with 是固定分词结构，不用 Comparing with"
+        ],
+        "trigger": "看到分词状语的空格 → 先写主句主语 → 把它代入分词说一遍 → 通顺的才是答案",
+        "quickCheck": [
+          { "q": "Compared with last year 为什么用 compared？", "a": "主语是被比较的对象，属被动关系。" },
+          { "q": "Satisfying with the result 错在哪里？", "a": "人感到满意应用 Satisfied with。" },
+          { "q": "Having been warned twice 表什么？", "a": "被动 + 先于谓语完成。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.past_participle.vs-present-participle.d1",
+          "type": "choice",
+          "stem": "___ with the previous version, the new software is much faster.",
+          "options": ["Compared", "Comparing", "To compare", "Compare"],
+          "answer": "Compared",
+          "explain": "一问主句主语：the new software；二问关系：软件是被比较的对象，被动；三问时间：与谓语同时的状态，故用 Compared。",
+          "trap": "Comparing 表主动，会把软件变成执行比较动作的一方。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.past_participle.vs-present-participle.d2",
+          "type": "fill",
+          "stem": "___ (exhaust) after the long hike, they fell asleep at once.",
+          "answer": "Exhausted",
+          "accept": ["Exhausted", "exhausted"],
+          "hint": "先确定 they 与 exhaust 的关系。",
+          "explain": "一问主句主语：they；二问关系：他们是被长途跋涉弄得筋疲力尽的一方，被动；三问时间：与谓语同时，故填 Exhausted。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.past_participle.vs-present-participle.d3",
+          "type": "correct",
+          "stem": "Surprising at the result, she could hardly believe her eyes.",
+          "answer": "Surprised at the result, she could hardly believe her eyes.",
+          "accept": ["Surprised at the result, she could hardly believe her eyes."],
+          "explain": "一问主句主语：she；二问关系：她是感到惊讶的人，被动；三问时间：与谓语同时，故把 Surprising 改为 Surprised。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.past_participle.vs-present-participle.d4",
+          "type": "choice",
+          "stem": "___ the two reports, the editor found several errors in both.",
+          "options": ["Comparing", "Compared", "To compare", "Compare"],
+          "answer": "Comparing",
+          "explain": "一问主句主语：the editor；二问关系：编辑主动比较两份报告；三问时间：比较在先、发现错误在后，用现在分词即可表紧接发生。",
+          "trap": "Compared 表被动，会把编辑变成被比较的对象，与 found 的逻辑不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.past_participle.vs-present-participle.d5",
+          "type": "translate",
+          "stem": "与旧版本相比，新系统运行得更快。",
+          "answer": "Compared with the old version, the new system runs faster.",
+          "require": [["compared with"], ["runs"]],
+          "forbid": ["comparing with", "compare with the old version,"],
+          "explain": "the new system 是被比较的对象，用过去分词 Compared with；comparing with 会把系统变成主动比较的一方。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.past_participle.vs-present-participle.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Encouraged", "by", "her", "teacher,", "she", "entered", "the", "contest."],
+          "answer": "Encouraged by her teacher, she entered the contest.",
+          "explain": "she 是被鼓励的对象，用过去分词 Encouraged 作原因状语；by 短语引出鼓励的发出者。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

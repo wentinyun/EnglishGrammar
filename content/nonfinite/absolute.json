@@ -1,0 +1,404 @@
+{
+  "level1": "nonfinite",
+  "chapter": "absolute",
+  "items": [
+    {
+      "id": "nonfinite.absolute.formation",
+      "title": "独立主格的构成",
+      "brief": "自带主语加非谓语，主语与主句不同",
+      "difficulty": 3,
+      "tags": ["难点", "高频"],
+      "prereq": ["nonfinite.present_participle.independent-structure", "nonfinite.past_participle.adverbial"],
+      "concept": {
+        "summary": "独立主格由“自带逻辑主语 + 补足语”构成，补足语可以是分词、不定式、形容词、副词或介词短语，整个结构在句中作状语。判定只看两条：补足语的主语是不是主句主语；不是，就必须把这个主语写出来。写出来的主语用主格。",
+        "sections": [
+          {
+            "h": "构成公式：主语 + 补足语",
+            "p": "公式中的主语是补足语的逻辑主语，与主句主语不同；补足语的形式决定意义关系：主动进行用 -ing，被动完成用 -ed，将要发生用不定式，表状态用形容词、副词或介词短语。",
+            "bullets": [
+              "名词 + 现在分词：The rain falling, the match was cancelled.",
+              "名词 + 过去分词：His work done, he went home.",
+              "名词 + 不定式：Here are the first two volumes, the third one to come out next month.",
+              "名词 + 形容词/副词/介词短语：He stood there, his face pale. / She left, her head down. / The teacher came in, a book in his hand."
+            ]
+          },
+          {
+            "h": "与分词状语的界线",
+            "p": "主语相同，分词状语直接把主语省掉；主语不同，才需要独立主格。判断方法是把省掉的主语补回来：补回来之后与主句主语冲突，就必须改用独立主格。",
+            "bullets": [
+              "主语相同：Walking home, I met an old friend.",
+              "主语不同：The rain falling, we stayed indoors.",
+              "× Walking home, the rain stopped.（rain 不会走路）→ √ The rain stopping, I walked home."
+            ]
+          },
+          {
+            "h": "位置与主语格",
+            "p": "独立主格多置于句首作状语，也可置于句末补充说明。主语一律用主格，这与 with 复合结构用宾格形成对照。否定词置于补足语之前。",
+            "bullets": [
+              "句首：The meeting being over, they all left.",
+              "句末：He sat in the corner, his hands trembling.",
+              "主格：He being ill, we postponed the meeting.（不是 Him）",
+              "否定：The students not having finished, the teacher waited."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The rain falling heavily, the match was cancelled.", "zh": "雨下得很大，比赛取消了。", "ok": true, "note": "falling 的主语是 the rain，与主句主语 the match 不同，故补出主语。" },
+          { "en": "His homework finished, the boy went out to play.", "zh": "作业做完后，男孩出去玩了。", "ok": true, "note": "homework 是 finish 的承受者，用过去分词，主语与主句不同。" },
+          { "en": "He stood there, his face pale.", "zh": "他站在那里，脸色苍白。", "ok": true, "note": "补足语是形容词 pale，独立结构补充伴随状态。" },
+          { "en": "Here are the first two volumes, the third one to come out next month.", "zh": "这是前两卷，第三卷下个月出版。", "ok": true, "note": "补足语是不定式，表将要发生，the third one 是 to come out 的逻辑主语。" },
+          { "en": "Being ill, the meeting was postponed.", "zh": "由于生病，会议被推迟了。", "ok": false, "note": "meeting 不会生病，being ill 的主语缺失，应改为 He being ill, the meeting was postponed." },
+          { "en": "Him being ill, the meeting was postponed.", "zh": "由于他生病，会议被推迟了。", "ok": false, "note": "独立主格的主语用主格，应改为 He being ill。" },
+          { "en": "The work finishing, he went home.", "zh": "工作完成后，他回家了。", "ok": false, "note": "work 与 finish 是被动关系，应改为 The work finished。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The signal giving, the runners set off.", "right": "The signal given, the runners set off.", "why": "signal 是被发出的对象，补足语须用过去分词 given，giving 会把信号变成发出动作的一方。" },
+          { "wrong": "Him not knowing the answer, the teacher asked someone else.", "right": "He not knowing the answer, the teacher asked someone else.", "why": "独立主格的主语是分句层面的主语，须用主格 he，宾格 him 只能作宾语。" },
+          { "wrong": "Being Sunday, the library was closed.", "right": "It being Sunday, the library was closed.", "why": "being 的逻辑主语是时间，不是 library，须补形式主语 it 才能构成独立主格。" }
+        ],
+        "contrast": { "withTitle": "现在分词的独立结构", "diff": "独立主格是上位概念，补足语可为分词、不定式、形容词、副词或介词短语；现在分词独立结构只是补足语为 -ing 的一种。" },
+        "mnemonic": "主语不同就自带主语，主格在前补足语在后；补足语选形看主动被动与将来。"
+      },
+      "review": {
+        "core": [
+          "独立主格 = 自带逻辑主语 + 补足语，作状语",
+          "补足语五种：doing / done / to do / 形容词 / 副词或介词短语",
+          "主语不同才用独立主格，主语相同用分词状语",
+          "主语用主格：He being ill；with 结构才用宾格",
+          "位置：句首最常见，句末补充说明"
+        ],
+        "trigger": "写完分词短语发现它的主语不是主句主语 → 在分词前补主格主语",
+        "quickCheck": [
+          { "q": "His work done, he went home. 中 done 的主语是谁？", "a": "his work，与主句主语 he 不同。" },
+          { "q": "Being Sunday 为什么错？", "a": "缺逻辑主语，应为 It being Sunday。" },
+          { "q": "独立主格的主语用主格还是宾格？", "a": "主格，如 He being ill。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.absolute.formation.d1",
+          "type": "choice",
+          "stem": "___, the sports meeting had to be put off.",
+          "options": ["It raining hard", "Raining hard", "It rained hard", "Having rained hard"],
+          "answer": "It raining hard",
+          "explain": "一问逻辑主语：rain 的发出者是天气；二问关系：主动；三问时间：与谓语同时。主语与主句主语 the sports meeting 不同，须用 it 作独立主格的主语。",
+          "trap": "Raining hard 缺主语，其逻辑主语会被误读为 the sports meeting，形成悬垂。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.absolute.formation.d2",
+          "type": "fill",
+          "stem": "His speech ___ (finish), the audience burst into applause.",
+          "answer": "finished",
+          "accept": ["finished"],
+          "hint": "speech 与 finish 是被动关系，且动作已完成。",
+          "explain": "一问逻辑主语：his speech，与主句主语 the audience 不同；二问关系：演讲是被完成的，被动；三问时间：演讲先结束，用过去分词 finished。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.absolute.formation.d3",
+          "type": "correct",
+          "stem": "Him being absent, we had to make the decision ourselves.",
+          "answer": "He being absent, we had to make the decision ourselves.",
+          "accept": ["He being absent, we had to make the decision ourselves."],
+          "explain": "独立主格中 being absent 的逻辑主语是“他”，作分句主语须用主格 he，宾格 him 只出现在宾语位置。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.absolute.formation.d4",
+          "type": "choice",
+          "stem": "The boy rushed out, ___.",
+          "options": ["his schoolbag on his back", "his schoolbag was on his back", "his schoolbag is on his back", "on his back his schoolbag"],
+          "answer": "his schoolbag on his back",
+          "explain": "补足语是介词短语 on his back，与 his schoolbag 构成独立主格，补充伴随状态；用谓语形式会造成逗号连接两个句子。",
+          "trap": "his schoolbag was on his back 是完整分句，逗号不能连接两个分句。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.absolute.formation.d5",
+          "type": "translate",
+          "stem": "由于没有公交车，我们只好步行回家。",
+          "answer": "There being no bus, we had to walk home.",
+          "require": [["there being"], ["walk home"]],
+          "forbid": ["being no bus", "there was no bus, we"],
+          "explain": "there being 是独立主格的固定形式，表原因；去掉 there 会失去存在主语，用 was 则变成两个分句仅以逗号相连。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.absolute.formation.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["His", "work", "done,", "he", "went", "home."],
+          "answer": "His work done, he went home.",
+          "explain": "done 的逻辑主语是 his work，与主句主语 he 不同，构成“名词 + 过去分词”的独立主格，表时间。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.absolute.with-structure",
+      "title": "with 复合结构中的独立主格",
+      "brief": "with 加宾语加四种补足语",
+      "difficulty": 2,
+      "tags": ["高频", "基础"],
+      "prereq": ["nonfinite.absolute.formation", "morph.prepositions.with-structure"],
+      "concept": {
+        "summary": "with 复合结构 = with + 宾语 + 补足语，宾语就是补足语的逻辑主语，整个结构作状语或定语。补足语有四种：现在分词（主动、进行）、过去分词（被动、完成）、不定式（将要发生）、形容词或副词或介词短语（状态）。选形仍走三问：谁、主动被动、先后。",
+        "sections": [
+          {
+            "h": "四种补足语形式",
+            "p": "with 后必须先有宾语，再选补足语。四种形式对应四种关系，判断顺序与独立主格完全一致，唯一区别是宾语用宾格、由 with 引出。",
+            "bullets": [
+              "with + 宾语 + doing：With the rain falling, we stayed indoors.（主动、进行）",
+              "with + 宾语 + done：With the work finished, she went home.（被动、完成）",
+              "with + 宾语 + to do：With only two hours to go, they hurried.（将要发生）",
+              "with + 宾语 + 形容词/副词/介词短语：He slept with the window open. / She left with the lights on. / He sat with a book in his hand."
+            ]
+          },
+          {
+            "h": "句法功能",
+            "p": "with 复合结构主要作状语，表原因、伴随、条件、方式；也可作定语修饰名词。作定语时它紧跟名词之后，作用相当于一个定语从句。",
+            "bullets": [
+              "伴随：With the guide leading the way, we reached the summit.",
+              "原因：With winter approaching, the birds are flying south.",
+              "条件：With a bit more effort, you could pass the exam.",
+              "定语：a room with its windows facing south"
+            ]
+          },
+          {
+            "h": "形式选择的三问",
+            "p": "把 with 后的宾语当作主语，把补足语当作谓语，还原成一个句子，就能判断该用哪种形式。三步问完，答案唯一。",
+            "bullets": [
+              "With the problem ___ (settle), they moved on. → The problem was settled. → settled",
+              "With so much work ___ (do), I can't go out. → The work is to be done. → to do",
+              "With prices ___ (go) up, families are cutting back. → Prices are going up. → going"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "With the lights on, the office looked warm and inviting.", "zh": "灯亮着，办公室看起来温暖而舒适。", "ok": true, "note": "补足语是副词 on，表状态，与 the lights 构成 with 复合结构。" },
+          { "en": "With the work finished, she locked the office and left.", "zh": "工作完成后，她锁上门离开了。", "ok": true, "note": "work 是被完成的对象，补足语用过去分词 finished。" },
+          { "en": "With the guide leading the way, we reached the summit before noon.", "zh": "有向导带路，我们中午前到达了山顶。", "ok": true, "note": "guide 主动带路，补足语用现在分词 leading，表伴随。" },
+          { "en": "With winter approaching, the birds are flying south.", "zh": "随着冬天临近，鸟儿正在南飞。", "ok": true, "note": "winter 主动临近，用现在分词，表原因。" },
+          { "en": "With the work finishing, she locked the office.", "zh": "工作完成后，她锁上了办公室。", "ok": false, "note": "work 与 finish 是被动关系，应改为 With the work finished。" },
+          { "en": "With so many problems solving, he could hardly sleep.", "zh": "有那么多问题要解决，他几乎睡不着。", "ok": false, "note": "问题尚未解决，表将来用不定式，应改为 With so many problems to solve。" },
+          { "en": "He sat at the desk with a pen in his hand.", "zh": "他坐在桌前，手里拿着一支笔。", "ok": true, "note": "补足语是介词短语 in his hand，表伴随状态。" }
+        ],
+        "pitfalls": [
+          { "wrong": "With the problem settling, they went on to discuss the next item.", "right": "With the problem settled, they went on to discuss the next item.", "why": "problem 是被解决的对象，补足语须用过去分词；settling 会把它变成主动解决的一方。" },
+          { "wrong": "With the meeting to hold tomorrow, everyone is busy.", "right": "With the meeting to be held tomorrow, everyone is busy.", "why": "meeting 与 hold 是被动关系，不定式须用被动形式 to be held。" },
+          { "wrong": "With he standing at the door, we could not get in.", "right": "With him standing at the door, we could not get in.", "why": "with 是介词，其后的宾语用宾格 him；主格只用于不带 with 的独立主格。" }
+        ],
+        "contrast": { "withTitle": "独立主格结构", "diff": "with 复合结构是独立主格加介词 with 的变体，宾语用宾格；不带 with 的独立主格主语用主格。" },
+        "mnemonic": "with 加宾语，再加四种补足语；doing 主动、done 被动、to do 将来、形容词副词介词短语表状态。"
+      },
+      "review": {
+        "core": [
+          "结构：with + 宾语 + 补足语，宾语是补足语的逻辑主语",
+          "四种补足语：doing / done / to do / 形容词·副词·介词短语",
+          "doing 主动进行；done 被动完成；to do 将要发生",
+          "功能：状语（伴随、原因、条件）或定语",
+          "with 后宾语用宾格：with him standing",
+          "还原测试：把 with 的宾语当主语造句，再定形式"
+        ],
+        "trigger": "看到 with + 名词 + 空格 → 把名词提作主语还原成句 → 按主被动与时间选补足语",
+        "quickCheck": [
+          { "q": "With the work ___, she went home. 填什么？", "a": "finished，工作是被完成的。" },
+          { "q": "With two hours ___, they hurried. 填什么？", "a": "to go，表剩余时间，将要发生。" },
+          { "q": "with he standing 错在哪里？", "a": "with 后宾语用宾格，应为 with him standing。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.absolute.with-structure.d1",
+          "type": "choice",
+          "stem": "With the guests ___ at the gate, the host hurried out to welcome them.",
+          "options": ["arriving", "arrived", "to arrive", "arrive"],
+          "answer": "arriving",
+          "explain": "一问逻辑主语：with 的宾语 the guests；二问关系：客人主动到达；三问时间：与谓语 hurried 同时进行，故用现在分词 arriving。",
+          "trap": "arrived 表被动完成，客人不是被到达的对象。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.absolute.with-structure.d2",
+          "type": "fill",
+          "stem": "With the problem ___ (solve), the team moved on to the next task.",
+          "answer": "solved",
+          "accept": ["solved"],
+          "hint": "把 the problem 提作主语还原成句，再判断被动。",
+          "explain": "一问逻辑主语：the problem；二问关系：问题是被解决的，被动；三问时间：解决在先，故填过去分词 solved。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.absolute.with-structure.d3",
+          "type": "correct",
+          "stem": "With the meeting to hold tomorrow, everyone is busy preparing.",
+          "answer": "With the meeting to be held tomorrow, everyone is busy preparing.",
+          "accept": ["With the meeting to be held tomorrow, everyone is busy preparing."],
+          "explain": "一问逻辑主语：the meeting；二问关系：会议是被召开的，被动；三问时间：明天，属将来。不定式的被动形式为 to be held，故改正。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.absolute.with-structure.d4",
+          "type": "choice",
+          "stem": "With so much homework ___ , I can't go to the cinema tonight.",
+          "options": ["to do", "doing", "done", "do"],
+          "answer": "to do",
+          "explain": "一问逻辑主语：homework；二问关系：作业是被做的，但此处表尚未发生；三问时间：今晚之前要完成，属将来，故用不定式 to do。",
+          "trap": "done 表已经完成，与“还有作业要做、所以不能去”的句意相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.absolute.with-structure.d5",
+          "type": "translate",
+          "stem": "灯亮着，他很快就睡着了。",
+          "answer": "With the lights on, he fell asleep quickly.",
+          "require": [["with the lights on"], ["fell asleep"]],
+          "forbid": ["with the lights open", "with light on"],
+          "explain": "补足语是副词 on，表灯处于亮着的状态；open 用于门窗，不能描述电器的开关状态。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.absolute.with-structure.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["With", "the", "work", "finished,", "she", "went", "home."],
+          "answer": "With the work finished, she went home.",
+          "explain": "work 是被完成的对象，with 后接宾语 the work 与过去分词 finished，构成复合结构表时间。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.absolute.clause-conversion",
+      "title": "独立主格与状语从句的转换",
+      "brief": "补连词还原谓语，或删连词降非谓语",
+      "difficulty": 4,
+      "tags": ["难点", "写作"],
+      "prereq": ["nonfinite.absolute.formation", "morph.conjunctions.time-conjunctions"],
+      "concept": {
+        "summary": "独立主格与状语从句可以双向转换：从句变独立主格时删去连词，把从句谓语降为非谓语，保留从句主语；独立主格变从句时补出连词，把非谓语还原成限定形式。转换的前提是两句主语不同；主语相同时转换成分词状语，而不是独立主格。",
+        "sections": [
+          {
+            "h": "主语相同：分词状语与从句的对照",
+            "p": "两句主语一致时，从句可以删掉主语与连词，谓语降为分词。完成式对应 had done，一般式对应 did 或 was doing，连词由分词的意义反推。",
+            "bullets": [
+              "Having finished the work, he left. ↔ After he had finished the work, he left.",
+              "Walking home, I met him. ↔ When I was walking home, I met him.",
+              "Warned twice, he stopped. ↔ After he had been warned twice, he stopped."
+            ]
+          },
+          {
+            "h": "主语不同：独立主格与从句的对照",
+            "p": "两句主语不同时，保留从句主语，删去连词，谓语降为非谓语，就得到独立主格。反过来，给独立主格补一个连词并把补足语还原成谓语，就得到状语从句。",
+            "bullets": [
+              "The work finished, he left. ↔ After the work had been finished, he left.",
+              "The rain falling, we stayed in. ↔ Because the rain was falling, we stayed in.",
+              "Weather permitting, we will go. ↔ If the weather permits, we will go.",
+              "He being ill, we postponed it. ↔ Because he was ill, we postponed it."
+            ]
+          },
+          {
+            "h": "转换三步与两个禁区",
+            "p": "第一步找从句主语，第二步判断它与主句主语是否相同，第三步按主动被动与先后选非谓语形式。禁区一：主语相同却硬造独立主格；禁区二：保留连词却把谓语写成非谓语。",
+            "bullets": [
+              "× Walking home, my bag was stolen. → √ Walking home, I had my bag stolen.",
+              "× After the work finishing, they went home. → √ After the work had been finished, they went home.",
+              "从句谓语是 be + 表语时，非谓语用 being：Because he was ill → He being ill"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Having finished the work, he left the office.", "zh": "工作完成后，他离开了办公室。", "ok": true, "note": "主语同为 he，属分词状语，相当于 After he had finished the work, he left." },
+          { "en": "The work finished, he left the office.", "zh": "工作完成后，他离开了办公室。", "ok": true, "note": "主语不同，构成独立主格，相当于 After the work had been finished, he left." },
+          { "en": "Weather permitting, we will hold the match outdoors.", "zh": "天气允许的话，我们将在户外举行比赛。", "ok": true, "note": "相当于 If the weather permits, we will hold the match outdoors." },
+          { "en": "The exam being over, the students left the hall.", "zh": "考试结束后，学生们离开了大厅。", "ok": true, "note": "相当于 After the exam was over, the students left the hall." },
+          { "en": "Walking home, my bag was stolen.", "zh": "走回家时，我的包被偷了。", "ok": false, "note": "walking 的主语应是人，bag 不会走路，主语错位；应改为 Walking home, I had my bag stolen." },
+          { "en": "After the work finishing, they went home.", "zh": "工作完成后，他们回家了。", "ok": false, "note": "after 引导的是从句，谓语必须是限定形式 finishing 不能作谓语，应改为 After the work had been finished。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Walking along the road, my wallet was lost.", "right": "Walking along the road, I lost my wallet.", "why": "分词 walking 的主语必须与主句主语一致；wallet 不会走路。主语相同用分词状语，主语不同才用独立主格。" },
+          { "wrong": "The meeting was over, the delegates left the hall.", "right": "The meeting being over, the delegates left the hall.", "why": "两个完整分句不能只靠逗号连接，须把前一句降为非谓语，构成独立主格。" },
+          { "wrong": "After the work finishing, they went home.", "right": "After the work had been finished, they went home.", "why": "after 引导的是状语从句，谓语必须是限定形式；把谓语降为非谓语后就不能再保留连词。" }
+        ],
+        "contrast": { "withTitle": "现在分词作状语", "diff": "主语相同用分词状语（Having finished the work, he left.）；主语不同用独立主格（The work finished, he left.）。" },
+        "mnemonic": "同主语删主语留分词，异主语留主语删连词；连词与非谓语二者只能留一个。"
+      },
+      "review": {
+        "core": [
+          "主语相同：从句 → 分词状语（After he had finished → Having finished）",
+          "主语不同：从句 → 独立主格（After the work had been finished → The work finished）",
+          "反向转换：补连词 + 把非谓语还原成限定谓语",
+          "连词与非谓语不能并存：× after the work finishing",
+          "be + 表语降为非谓语时用 being：He being ill"
+        ],
+        "trigger": "看到独立主格 → 先找它的主语 → 与主句主语比较 → 相同改分词状语，不同补连词还原从句",
+        "quickCheck": [
+          { "q": "Having finished the work, he left. 对应的从句是什么？", "a": "After he had finished the work, he left." },
+          { "q": "The work finished, he left. 对应的从句是什么？", "a": "After the work had been finished, he left." },
+          { "q": "After the work finishing 为什么错？", "a": "after 从句的谓语必须是限定形式，过去分词不能作谓语。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.absolute.clause-conversion.d1",
+          "type": "choice",
+          "stem": "___ no bus at that hour, we had to walk home.",
+          "options": ["There being", "Being", "There was", "It being"],
+          "answer": "There being",
+          "explain": "一问逻辑主语：存在的主体是 bus，须由 there 引出；二问关系：状态用 being；三问时间：与谓语同时。主语与 we 不同，构成独立主格。",
+          "trap": "Being no bus 缺存在主语，There was 则使逗号连接两个完整分句。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.absolute.clause-conversion.d2",
+          "type": "fill",
+          "stem": "His health ___ (fail), he had to give up teaching.",
+          "answer": "failing",
+          "accept": ["failing"],
+          "hint": "还原成从句是 Because his health was failing。",
+          "explain": "一问逻辑主语：his health，与主句主语 he 不同；二问关系：健康主动衰退；三问时间：与谓语同时，故填现在分词 failing。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.absolute.clause-conversion.d3",
+          "type": "correct",
+          "stem": "His leg was broken, he could not walk without a stick.",
+          "answer": "His leg being broken, he could not walk without a stick.",
+          "accept": ["His leg being broken, he could not walk without a stick."],
+          "explain": "两个完整分句不能只用逗号连接；把前句谓语 was broken 降为 being broken，保留主语 his leg，即得到独立主格，表原因。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.absolute.clause-conversion.d4",
+          "type": "choice",
+          "stem": "Time ___ , we will visit the museum after lunch.",
+          "options": ["permitting", "permitted", "to permit", "permits"],
+          "answer": "permitting",
+          "explain": "还原成从句是 If time permits；time 主动允许，与主句主语 we 不同，故用现在分词 permitting 构成独立主格。",
+          "trap": "permits 是谓语形式，逗号不能连接两个完整分句。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.absolute.clause-conversion.d5",
+          "type": "translate",
+          "stem": "因为工作已经完成，他们回家了。",
+          "answer": "The work finished, they went home.",
+          "require": [["finished"], ["went home"]],
+          "forbid": ["the work was finished, they", "after the work finishing"],
+          "explain": "两句主语不同，把从句 After the work had been finished 的连词删去、谓语降为过去分词，得到独立主格 The work finished。",
+          "difficulty": 4
+        },
+        {
+          "id": "nonfinite.absolute.clause-conversion.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "rain", "falling,", "we", "stayed", "indoors."],
+          "answer": "The rain falling, we stayed indoors.",
+          "explain": "相当于 Because the rain was falling, we stayed indoors；主语不同，保留 the rain，谓语降为现在分词 falling。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

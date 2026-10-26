@@ -1,0 +1,948 @@
+{
+  "level1": "special",
+  "chapter": "inversion",
+  "items": [
+    {
+      "id": "special.inversion.full-inversion",
+      "title": "完全倒装",
+      "brief": "整个谓语提到主语前，主语须为名词",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["syntax.word_order.basic-adverbial"],
+      "concept": {
+        "summary": "判定标准：句首是地点或方位副词、地点介词短语，或者表语性成分，且谓语为表示位置、移动的不及物动词时，把整个谓语动词连同人称和时态一起提到主语之前，构成完全倒装。倒装的是整个谓语，实义动词本身前置，不借 do/does/did。主语必须是名词或名词短语；主语是代词时保持正常语序。",
+        "sections": [
+          {
+            "h": "三个必要条件",
+            "p": "完全倒装不是随意把动词提前，三个条件同时成立才成立：句首有地点、方位或表语性成分；谓语是不及物动词；主语是名词性成分。",
+            "bullets": [
+              "句首成分：Here / There / Now / Then / Out / In / Up / Down / Away，或 On the wall / In the corner / At the foot of the hill 这类地点介词短语",
+              "谓语动词：be, come, go, lie, stand, sit, live, remain, follow, hang",
+              "主语为名词：Here comes the bus.；主语为代词则说 Here it comes.",
+              "倒装单位是整个谓语：Here comes the bus. 中 comes 直接前置，不写 Here does the bus come."
+            ]
+          },
+          {
+            "h": "触发条件清单",
+            "p": "这张清单覆盖本章七个知识点。先按句首成分定位类型，再决定提前的是整个谓语还是只有助动词。",
+            "bullets": [
+              "地点副词或地点介词短语句首 → 完全倒装：In the corner sat an old man.",
+              "表语前置 → 完全倒装：Gone are the days when we walked to school.",
+              "否定词或半否定词句首 → 部分倒装，只提前助动词：Never have I seen such a crowd.",
+              "only + 状语句首 → 部分倒装：Only then did she realize the danger.",
+              "so / neither / nor 表“也、也不” → 部分倒装：So does her brother.",
+              "虚拟条件句省略 if → 部分倒装，只提前 were / had / should：Had I known, I would have called.",
+              "as / though 引导让步 → 提前表语、状语或动词原形，不是提前助动词：Young as he is, he is independent.",
+              "such / so 句首 → such + be 完全倒装，so + 形容词部分倒装：So angry was he that he left."
+            ]
+          },
+          {
+            "h": "主谓一致的落点",
+            "p": "完全倒装后谓语出现在主语之前，但单复数仍由后面的真正主语决定，这是填空题最常见的失分点。",
+            "bullets": [
+              "On the wall hangs a portrait.（主语 a portrait 单数，谓语用 hangs）",
+              "On the wall hang two portraits.（主语 two portraits 复数，谓语用 hang）",
+              "Among the guests was a famous writer.（真正主语是 a famous writer）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Here comes the bus.", "zh": "公交车来了。", "ok": true, "note": "地点副词 here 置于句首，不及物动词 comes 整体提到名词主语 the bus 之前。" },
+          { "en": "Here comes he.", "zh": "他来了。", "ok": false, "note": "主语是代词时不倒装，应改为 Here he comes.，动词回到主语之后。" },
+          { "en": "On the top of the hill stands an old temple.", "zh": "山顶上矗立着一座古庙。", "ok": true, "note": "地点介词短语置于句首，stands 整体前置，主语 an old temple 为单数。" },
+          { "en": "Gone are the days when we had to fetch water from the well.", "zh": "我们必须去井边打水的日子已经过去了。", "ok": true, "note": "过去分词表语 gone 前置，be 动词 are 提到复数主语 the days 之前。" },
+          { "en": "In the corner sat a small girl reading a picture book.", "zh": "角落里坐着一个小女孩，正在看图画书。", "ok": true, "note": "地点介词短语置于句首，sat 整体前置，现在分词短语修饰主语。" },
+          { "en": "Here does the bus come.", "zh": "公交车来了。", "ok": false, "note": "完全倒装直接提前实义动词，不插入助动词 does；应改为 Here comes the bus." },
+          { "en": "There did a strange man stand at the gate.", "zh": "门口站着一个陌生人。", "ok": false, "note": "完全倒装不用 did 构成，应改为 There stood a strange man at the gate." }
+        ],
+        "pitfalls": [
+          { "wrong": "Here comes he.", "right": "Here he comes.", "why": "完全倒装只允许名词性主语前置；代词主语必须留在动词之前，语序回到正常状态。" },
+          { "wrong": "Here does the bus come.", "right": "Here comes the bus.", "why": "完全倒装的谓语是实义动词本身，提前时自带时态与人称，一旦插入 does 就变成疑问语序。" },
+          { "wrong": "In the room did three students sit.", "right": "In the room sat three students.", "why": "地点状语句首时提前的是不及物动词 sat，不是助动词 did；完全倒装没有 do 插入的位置。" }
+        ],
+        "contrast": { "withTitle": "部分倒装：否定词置于句首", "diff": "完全倒装把实义动词整体搬到主语前，部分倒装只把助动词、情态动词或 be 搬到主语前，实义动词留在原位。" },
+        "mnemonic": "地点表语打头阵，整个谓语往前挪；主语若是代词，乖乖留在动词前。"
+      },
+      "review": {
+        "core": [
+          "完全倒装 = 整个谓语（实义动词 + 时态）提到主语之前",
+          "触发：地点副词、地点介词短语、表语前置",
+          "谓语须为不及物动词：be, come, go, lie, stand, sit, live, remain",
+          "主语必须是名词；代词主语不倒装：Here he comes.",
+          "不倒装的代价：不能借 do/does/did，谓语单复数看后面的真主语"
+        ],
+        "trigger": "看到句首是 here/there/on the wall/in the corner → 先看主语是不是名词 → 是就把整个谓语提到主语前",
+        "quickCheck": [
+          { "q": "Here ___ (come) the students. 填什么？", "a": "come，主语 the students 为复数。" },
+          { "q": "“他来了”能说 Here comes he 吗？", "a": "不能，应说 Here he comes。" },
+          { "q": "完全倒装能写成 Here does the bus come 吗？", "a": "不能，完全倒装不借助动词 do。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.inversion.full-inversion.d1",
+          "type": "choice",
+          "stem": "On the top of the hill ___ an old temple built in the Ming Dynasty.",
+          "options": ["stands", "does stand", "stand", "is standing"],
+          "answer": "stands",
+          "explain": "地点介词短语置于句首触发完全倒装，谓语 stands 整体前置；真正主语 an old temple 为单数，一般现在时用 stands。",
+          "trap": "does stand 是把完全倒装误当成部分倒装，误以为倒装必须借助动词 do。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.full-inversion.d2",
+          "type": "fill",
+          "stem": "Here ___ (come) the headmaster, followed by two teachers.",
+          "answer": "comes",
+          "accept": ["comes"],
+          "hint": "先找真正的主语，再决定动词的单复数。",
+          "explain": "here 置于句首构成完全倒装，谓语直接前置；主语 the headmaster 是单数第三人称，一般现在时用 comes。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.inversion.full-inversion.d3",
+          "type": "correct",
+          "stem": "Here comes he, carrying a heavy box.",
+          "answer": "Here he comes, carrying a heavy box.",
+          "accept": ["Here he comes, carrying a heavy box."],
+          "explain": "主语 he 是代词，代词主语不参与完全倒装，必须放在动词之前，改为 Here he comes。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.full-inversion.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["On", "the", "wall", "hangs", "a", "large", "map."],
+          "answer": "On the wall hangs a large map.",
+          "explain": "地点介词短语 On the wall 置于句首，谓语 hangs 整体前置，真正主语 a large map 为单数。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.full-inversion.d5",
+          "type": "choice",
+          "stem": "___ the days when we had to fetch water from the well every morning.",
+          "options": ["Gone are", "Gone is", "Are gone", "Gone were being"],
+          "answer": "Gone are",
+          "explain": "过去分词表语 gone 提到句首，be 动词整体前置构成完全倒装；主语 the days 为复数，用 are。",
+          "trap": "Gone is 忽略了主语 the days 的复数形式，误按单数处理。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.full-inversion.d6",
+          "type": "translate",
+          "stem": "山脚下坐落着一个小村庄。",
+          "answer": "At the foot of the hill lies a small village.",
+          "require": [["at the foot of"], ["lies"], ["village"]],
+          "forbid": ["there lies", "is lied"],
+          "explain": "地点介词短语置于句首，不及物动词 lies 整体前置，主语 a small village 位于动词之后，不借用 there be 或被动形式。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.inversion.negative-fronting",
+      "title": "部分倒装：否定词置于句首",
+      "brief": "否定词句首只提前助动词，实义动词留原位",
+      "difficulty": 3,
+      "tags": ["高频", "易错", "难点"],
+      "prereq": ["special.inversion.full-inversion", "syntax.negation.position-partial"],
+      "concept": {
+        "summary": "判定标准：句首出现否定词或半否定词、短语时，把助动词、情态动词或 be 提到主语之前，实义动词保持原位，构成部分倒装；句中原本没有助动词，就按人称和时态补 do/does/did。倒装单位只是助动词，谓语的核心动词没有前置，这是与完全倒装的分界。",
+        "sections": [
+          {
+            "h": "三步操作",
+            "p": "先确认否定词确实位于句首而不是句中，再判断句子有没有助动词，最后决定是否补 do。",
+            "bullets": [
+              "有助动词：Never have I seen such courage.（have 提前，seen 不动）",
+              "有情态动词：Under no circumstances will we give in.（will 提前）",
+              "只有实义动词：Seldom does she complain.（补 does，complain 回原形）",
+              "be 动词：Nowhere is the rule written.（is 提前）"
+            ]
+          },
+          {
+            "h": "触发词清单",
+            "p": "否定词范围固定，超出这个清单的词放在句首也不会引起倒装。",
+            "bullets": [
+              "纯否定：never, nowhere, not a single word, in no way, at no time, by no means, under no circumstances, on no account",
+              "半否定：seldom, rarely, hardly, scarcely, little",
+              "关联结构：not only ... but also, no sooner ... than, hardly / scarcely ... when",
+              "not until 引导时间状语：主句倒装，until 从句不倒装",
+              "否定词留在句中则不倒装：I have never seen it."
+            ]
+          },
+          {
+            "h": "三处结构细节",
+            "p": "这三处决定倒装是否完整、时态是否正确。",
+            "bullets": [
+              "主语是代词也照倒：Never did he apologize.（与完全倒装相反）",
+              "hardly / scarcely ... when 与 no sooner ... than 的主句用过去完成时：Hardly had he left when it began to rain.",
+              "not only 只倒前半句：Not only did she sing, but she also danced."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Never have I seen such a convincing argument.", "zh": "我从未见过如此有说服力的论证。", "ok": true, "note": "否定词 never 置于句首，助动词 have 提前，实义动词 seen 留在主语之后。" },
+          { "en": "Never I have seen such a convincing argument.", "zh": "我从未见过如此有说服力的论证。", "ok": false, "note": "否定词置于句首必须部分倒装，应改为 Never have I seen。" },
+          { "en": "Not only did she finish the report, but she also proofread it.", "zh": "她不仅完成了报告，还校对了。", "ok": true, "note": "not only 位于前半句句首，前半句倒装，but also 引导的后半句用正常语序。" },
+          { "en": "Not only she finished the report, but she also proofread it.", "zh": "她不仅完成了报告，还校对了。", "ok": false, "note": "not only 置于句首时前半句必须倒装，应改为 Not only did she finish。" },
+          { "en": "Hardly had he sat down when the phone rang.", "zh": "他刚坐下电话就响了。", "ok": true, "note": "hardly 为半否定词，主句用过去完成时且助动词 had 提前，when 从句用一般过去时。" },
+          { "en": "Hardly he had sat down when the phone rang.", "zh": "他刚坐下电话就响了。", "ok": false, "note": "hardly 置于句首须把 had 提前，写成 Hardly had he sat down。" },
+          { "en": "Little did they realize how dangerous the road was.", "zh": "他们几乎没意识到这条路有多危险。", "ok": true, "note": "little 表否定意义，置于句首时补 did，实义动词 realize 回原形。" },
+          { "en": "Not until the rain stopped did we leave the shelter.", "zh": "直到雨停我们才离开避雨处。", "ok": true, "note": "not until 短语置于句首，倒装落在主句，until 从句保持陈述语序。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Seldom he goes to the cinema.", "right": "Seldom does he go to the cinema.", "why": "seldom 置于句首触发部分倒装；原句没有助动词，一般现在时第三人称要补 does，实义动词回原形。" },
+          { "wrong": "Not until midnight he came back.", "right": "Not until midnight did he come back.", "why": "not until 短语置于句首时倒装落在主句；主句是实义动词过去式，须补 did 并把 came 改为 come。" },
+          { "wrong": "Hardly he had arrived when it began to snow.", "right": "Hardly had he arrived when it began to snow.", "why": "hardly 是半否定词，助动词 had 必须提到主语前，构成 Hardly had he arrived。" }
+        ],
+        "contrast": { "withTitle": "完全倒装", "diff": "完全倒装把实义动词整体前置且主语必须是名词；部分倒装只提前助动词，主语是代词也照样倒装。" },
+        "mnemonic": "否定词站队首，助动词往前冲，实义动词原地不动。"
+      },
+      "review": {
+        "core": [
+          "否定词、半否定词置于句首 → 部分倒装，只提前助动词",
+          "无助动词时补 do/does/did，实义动词回原形",
+          "主语是代词也照倒：Never did he apologize.",
+          "not only 只倒前半句；not until 只倒主句",
+          "hardly ... when / no sooner ... than 主句用过去完成时"
+        ],
+        "trigger": "看到句首是否定或半否定词 → 找助动词 → 没有就补 do/does/did → 实义动词还原",
+        "quickCheck": [
+          { "q": "Seldom ___ she ___ (complain). 怎么填？", "a": "does; complain，补 does 后实义动词用原形。" },
+          { "q": "Not only 位于句首时，后半句也倒装吗？", "a": "不，只有 not only 所在的前半句倒装。" },
+          { "q": "Not until 置于句首，倒装落在主句还是从句？", "a": "主句，until 从句用陈述语序。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.inversion.negative-fronting.d1",
+          "type": "choice",
+          "stem": "Never ___ such a brilliant performance in all my years as a critic.",
+          "options": ["have I seen", "I have seen", "did I saw", "I saw"],
+          "answer": "have I seen",
+          "explain": "never 置于句首触发部分倒装，助动词 have 提到主语 I 之前，实义动词 seen 留在原位。",
+          "trap": "I have seen 只把否定词移到句首而未倒装，是最常见的语序错误。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.negative-fronting.d2",
+          "type": "fill",
+          "stem": "Little ___ she know that her letter would change his life.",
+          "answer": "did",
+          "accept": ["did"],
+          "hint": "little 表否定，后面的 know 是原形。",
+          "explain": "little 置于句首表否定，句子为一般过去时且无助动词，补 did 并把 know 还原为原形。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.negative-fronting.d3",
+          "type": "correct",
+          "stem": "Not only he finished the project ahead of schedule, but he also helped his colleagues.",
+          "answer": "Not only did he finish the project ahead of schedule, but he also helped his colleagues.",
+          "accept": ["Not only did he finish the project ahead of schedule, but he also helped his colleagues."],
+          "explain": "not only 位于句首，前半句必须部分倒装：补 did 并把 finished 改为 finish；but also 部分保持正常语序。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.negative-fronting.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Seldom", "has", "the", "committee", "rejected", "a", "proposal", "so", "quickly."],
+          "answer": "Seldom has the committee rejected a proposal so quickly.",
+          "explain": "seldom 置于句首，助动词 has 提到主语 the committee 之前，过去分词 rejected 留在原位。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.negative-fronting.d5",
+          "type": "choice",
+          "stem": "Hardly ___ the station when the train pulled out.",
+          "options": ["had we reached", "we had reached", "did we reach", "we reached"],
+          "answer": "had we reached",
+          "explain": "hardly ... when 结构主句用过去完成时，hardly 置于句首时助动词 had 提到主语前，构成 Hardly had we reached。",
+          "trap": "did we reach 虽然完成了倒装，但 hardly ... when 要求主句用过去完成时，时态不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.negative-fronting.d6",
+          "type": "translate",
+          "stem": "他很少在公开场合谈论自己的成就。",
+          "answer": "Seldom does he talk about his achievements in public.",
+          "require": [["seldom"], ["does he"]],
+          "forbid": ["seldom he", "seldom does he talks"],
+          "explain": "seldom 置于句首触发部分倒装，一般现在时第三人称补 does，实义动词 talk 用原形。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.inversion.only-adverbial",
+      "title": "only + 状语置于句首的倒装",
+      "brief": "only 修饰状语才倒装，修饰主语不倒装",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["special.inversion.negative-fronting"],
+      "concept": {
+        "summary": "判定标准：only 引出的成分位于句首，并且该成分在句中作状语时，主句用部分倒装，只把助动词、情态动词或 be 提到主语之前；only 直接修饰主语时句子完全不倒装。only + 状语从句置于句首时，倒装落在主句，从句本身保持陈述语序。",
+        "sections": [
+          {
+            "h": "先判断 only 管什么",
+            "p": "only 的管辖对象决定倒不倒装：管状语就倒，管主语不倒。判断方法是看 only 后面的成分在句中回答“什么时候、怎样、在什么条件下”还是“谁”。",
+            "bullets": [
+              "only + 时间状语：Only then did I understand his decision.",
+              "only + 方式状语：Only in this way can you master a language.",
+              "only + 条件状语从句：Only if you apologize will she forgive you.",
+              "only + 主语：Only he knows the answer.（不倒装）",
+              "only + 主语中的数量：Only two students passed the test.（不倒装）"
+            ]
+          },
+          {
+            "h": "倒装的范围与单位",
+            "p": "only 结构只提前助动词，实义动词留在主语之后；没有助动词时按人称和时态补 do/does/did。当 only 引导的是从句，倒装只发生在主句。",
+            "bullets": [
+              "Only when the war ended did the family learn the truth.（主句倒装，when 从句不倒装）",
+              "Only after the guests had left did she notice the mess.（主句补 did）",
+              "Only by working together can we finish on time.（情态动词 can 提前）",
+              "× Only when the war ended the family learned the truth.（主句未倒装）"
+            ]
+          },
+          {
+            "h": "only 的固定搭配",
+            "p": "以下短语在句首出现频率最高，看到就该检查主句是否倒装。",
+            "bullets": [
+              "only then / only later / only recently / only once",
+              "only after + 名词或从句；only when + 从句；only if + 从句",
+              "only by doing sth.；only in this way；only with the help of ..."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Only then did I realize how much I had missed.", "zh": "直到那时我才意识到自己错过了多少。", "ok": true, "note": "only + 时间状语 then 置于句首，主句补 did，实义动词 realize 用原形。" },
+          { "en": "Only then I realized how much I had missed.", "zh": "直到那时我才意识到自己错过了多少。", "ok": false, "note": "only + 状语句首时主句必须部分倒装，应改为 did I realize。" },
+          { "en": "Only when the war ended did the family learn the truth.", "zh": "直到战争结束，这家人人才知道真相。", "ok": true, "note": "倒装落在主句 the family learn 上，when 从句保持陈述语序。" },
+          { "en": "Only when the war ended the family learned the truth.", "zh": "直到战争结束，这家人才知道真相。", "ok": false, "note": "主句漏掉倒装，应改为 did the family learn。" },
+          { "en": "Only he can solve this problem.", "zh": "只有他能解决这个问题。", "ok": true, "note": "only 修饰主语 he，句子不倒装，也不补助动词。" },
+          { "en": "Only can he solve this problem.", "zh": "只有他能解决这个问题。", "ok": false, "note": "only 修饰主语时不触发倒装，can 应回到主语之后。" },
+          { "en": "Only by practising every day can you improve your pronunciation.", "zh": "只有每天练习，你才能改善发音。", "ok": true, "note": "only + 方式状语置于句首，情态动词 can 提到主语 you 之前。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Only by practising every day you can improve your pronunciation.", "right": "Only by practising every day can you improve your pronunciation.", "why": "only + 方式状语置于句首，主句必须部分倒装，情态动词 can 要提到主语之前。" },
+          { "wrong": "Only does he know the answer.", "right": "Only he knows the answer.", "why": "only 修饰主语 he 而不是状语，不触发倒装；谓语也不需要 do 支撑，直接用 knows。" },
+          { "wrong": "Only if you study hard you will pass the exam.", "right": "Only if you study hard will you pass the exam.", "why": "only + 条件状语从句置于句首时，倒装落在主句，从句用陈述语序，主句把 will 提前。" }
+        ],
+        "contrast": { "withTitle": "部分倒装：否定词置于句首", "diff": "两者都只提前助动词，但 only 的触发条件是“only + 状语”，only 修饰主语时完全不倒装；否定词则不论主语是什么都要倒装。" },
+        "mnemonic": "only 管状语就倒，管主语不倒；倒的是主句，从句不动。"
+      },
+      "review": {
+        "core": [
+          "only + 状语（时间、方式、条件）置于句首 → 主句部分倒装",
+          "only 修饰主语 → 完全不倒装：Only he knows.",
+          "only + 状语从句：倒装落在主句，从句用陈述语序",
+          "倒装单位是助动词或情态动词，实义动词留原位",
+          "高频搭配：only then / only when / only if / only by doing / only in this way"
+        ],
+        "trigger": "看到句首 only → 先问它修饰的是状语还是主语 → 状语才把主句助动词提前",
+        "quickCheck": [
+          { "q": "Only he ___ (know) the truth. 填什么？", "a": "knows，only 修饰主语不倒装。" },
+          { "q": "Only when he arrived ___ we start. 填什么？", "a": "did，倒装落在主句。" },
+          { "q": "Only in this way 后面跟什么语序？", "a": "部分倒装，助动词或情态动词提前。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.inversion.only-adverbial.d1",
+          "type": "choice",
+          "stem": "Only after the guests had left ___ the mess in the kitchen.",
+          "options": ["did she notice", "she noticed", "she did notice", "noticed she"],
+          "answer": "did she notice",
+          "explain": "only + 时间状语从句置于句首，倒装落在主句；主句为一般过去时且无助动词，补 did 并把 noticed 还原为 notice。",
+          "trap": "she noticed 只移动了状语而没有倒装，遗漏了 only 结构的核心要求。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.only-adverbial.d2",
+          "type": "fill",
+          "stem": "Only in this way ___ we hope to bring down the cost.",
+          "answer": "can",
+          "accept": ["can"],
+          "hint": "空格后是主语 we 和实义动词 hope。",
+          "explain": "only + 方式状语 in this way 置于句首，主句部分倒装，情态动词 can 提到主语 we 之前。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.only-adverbial.d3",
+          "type": "correct",
+          "stem": "Only when he lost his job he began to take his studies seriously.",
+          "answer": "Only when he lost his job did he begin to take his studies seriously.",
+          "accept": ["Only when he lost his job did he begin to take his studies seriously."],
+          "explain": "only + 时间状语从句置于句首，主句必须部分倒装：补 did，began 改为原形 begin；when 从句保持陈述语序。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.only-adverbial.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Only", "then", "did", "the", "students", "understand", "the", "question."],
+          "answer": "Only then did the students understand the question.",
+          "explain": "only + 时间状语 then 置于句首，助动词 did 提到主语 the students 之前，实义动词 understand 用原形。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.only-adverbial.d5",
+          "type": "choice",
+          "stem": "___ the truth about the accident, so everyone turned to her for details.",
+          "options": ["Only she knows", "Only does she know", "Only knows she", "Only she know"],
+          "answer": "Only she knows",
+          "explain": "only 在此修饰主语 she，句子完全不倒装；主语为第三人称单数，谓语用 knows。",
+          "trap": "Only does she know 把 only 误判为触发倒装的状语标记，多插了一个助动词。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.only-adverbial.d6",
+          "type": "translate",
+          "stem": "只有通过努力，你才能实现自己的目标。",
+          "answer": "Only by working hard can you achieve your goal.",
+          "require": [["only by"], ["can you"]],
+          "forbid": ["only by working hard you can", "only you can by"],
+          "explain": "only + 方式状语 by working hard 置于句首，主句部分倒装，情态动词 can 提到主语 you 之前。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.inversion.so-neither-nor",
+      "title": "so/neither/nor 引导的倒装",
+      "brief": "表“也、也不”时部分倒装，主语必须换人",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["special.inversion.negative-fronting"],
+      "concept": {
+        "summary": "判定标准：so、neither、nor 位于句首，表示前句所说的情况也适用于另一个主语时，用“so/neither/nor + 助动词 + 主语”的部分倒装，助动词的时态、人称、形式照抄前句。两个分句的主语必须不同；主语相同则 so 只表确认，用正常语序。",
+        "sections": [
+          {
+            "h": "结构与时态呼应",
+            "p": "倒装单位是助动词，实义动词不再重复。助动词必须与前句谓语的构成一致：前句用 be，呼应句用 be；前句用完成时，呼应句用 have/has；前句用情态动词，呼应句用同一个情态动词。",
+            "bullets": [
+              "So do I. / So does her brother. / So did they.（一般现在时与一般过去时的实义动词）",
+              "So am I. / So was he.（前句用 be）",
+              "So have I. / Neither has she.（前句用完成时）",
+              "So can we. / Nor should you.（前句用情态动词）"
+            ]
+          },
+          {
+            "h": "主语相同与主语不同",
+            "p": "主语不同才表示“也”，才倒装；主语相同表示“确实如此”，只用于确认对方的话，助动词放在主语之后。",
+            "bullets": [
+              "—He works hard. —So does his brother.（主语不同，倒装，表“也”）",
+              "—He works hard. —So he does.（主语相同，不倒装，表确认）",
+              "—You promised to help. —So I did.（确认自己确实做过）",
+              "× —He works hard. —So he does his brother."
+            ]
+          },
+          {
+            "h": "与其他 so 结构的分工",
+            "p": "so 在句首有三种完全不同的结构，判断依据是 so 后面接什么。",
+            "bullets": [
+              "so + 助动词 + 主语：表“也”，主语必须换人，如 So do I.",
+              "so + 主语 + 助动词：表确认，主语与前句相同，如 So he did.",
+              "so + 形容词/副词 + 助动词 + 主语 + that：表程度，带结果从句，如 So tired was he that he fell asleep."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She has finished her essay, and so have her classmates.", "zh": "她完成了论文，她的同学也完成了。", "ok": true, "note": "前句用现在完成时，呼应句沿用 have，主语换成 her classmates 并倒装。" },
+          { "en": "She has finished her essay, and so her classmates have.", "zh": "她完成了论文，她的同学也完成了。", "ok": false, "note": "表“也”时必须部分倒装，应改为 so have her classmates。" },
+          { "en": "He did not attend the lecture, and neither did she.", "zh": "他没去听讲座，她也没去。", "ok": true, "note": "neither 置于句首表“也不”，助动词 did 提前，实义动词不再重复。" },
+          { "en": "He did not attend the lecture, and neither she did.", "zh": "他没去听讲座，她也没去。", "ok": false, "note": "neither 置于句首必须把助动词 did 提到主语之前。" },
+          { "en": "I am tired, and so is my roommate.", "zh": "我累了，我的室友也累了。", "ok": true, "note": "前句用 be 动词 am，呼应句沿用 is 并倒装，主语换成 my roommate。" },
+          { "en": "You promised to help us, and so you did.", "zh": "你答应过帮助我们，你确实做到了。", "ok": true, "note": "主语相同，so 只表确认，用正常语序 so you did，不倒装。" },
+          { "en": "He can swim, and so I can.", "zh": "他会游泳，我也会。", "ok": false, "note": "主语不同表“也”，必须倒装为 so can I。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He did not come, and neither he did.", "right": "He did not come, and neither did he.", "why": "neither 置于句首时助动词 did 必须提到主语前；主语相同表确认才用正常语序。" },
+          { "wrong": "She likes coffee, and so likes her sister.", "right": "She likes coffee, and so does her sister.", "why": "呼应句只重复助动词，不重复实义动词；前句是一般现在时实义动词，助动词用 does。" },
+          { "wrong": "You have read the book, and so have I.", "right": "You have read the book, and so I have.", "why": "两句主语同指听话人自己时只表确认，助动词留在主语之后，不倒装。" }
+        ],
+        "contrast": { "withTitle": "such/so 置于句首的倒装", "diff": "表“也、也不”的 so 后接助动词且主语换人；so + 形容词或副词置于句首表程度，必须带 that 结果从句，且只提前助动词。" },
+        "mnemonic": "也、也不，倒装换主语；助动词照抄前句，实义动词不重复。"
+      },
+      "review": {
+        "core": [
+          "so/neither/nor 表“也、也不” → so + 助动词 + 新主语",
+          "助动词的时态与人称照抄前句，实义动词不重复",
+          "主语相同只表确认，用正常语序：So he did.",
+          "neither 与 nor 都表否定呼应，结构相同",
+          "so + 形容词/副词置首是程度结构，必须带 that 从句"
+        ],
+        "trigger": "看到 and so / and neither 开头 → 先看主语是否换人 → 换人才倒装，不换只确认",
+        "quickCheck": [
+          { "q": "—I have never been there. —Neither ___ I. 填什么？", "a": "have，沿用前句的助动词。" },
+          { "q": "“她弟弟也是”怎么说？", "a": "So does her brother." },
+          { "q": "—You saw him. —So I ___ . 填什么？", "a": "did，主语相同表确认，不倒装。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.inversion.so-neither-nor.d1",
+          "type": "choice",
+          "stem": "My parents prefer tea to coffee, and ___.",
+          "options": ["so do I", "so I do", "so am I", "so I am"],
+          "answer": "so do I",
+          "explain": "前句谓语是实义动词 prefer 的一般现在时，主语换成 I 表“也”，用 so + 助动词 do + 主语的部分倒装。",
+          "trap": "so I do 是主语相同的确认语序，与前句主语不同的“也”义不符。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.inversion.so-neither-nor.d2",
+          "type": "fill",
+          "stem": "He has never been abroad, and neither ___ his wife.",
+          "answer": "has",
+          "accept": ["has"],
+          "hint": "沿用前句的助动词，注意主语是 his wife。",
+          "explain": "前句用现在完成时 has been，否定呼应句沿用 has 并提到主语 his wife 之前。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.inversion.so-neither-nor.d3",
+          "type": "correct",
+          "stem": "She can speak three languages, and so her brother can.",
+          "answer": "She can speak three languages, and so can her brother.",
+          "accept": ["She can speak three languages, and so can her brother."],
+          "explain": "主语换成 her brother 表“也”，必须部分倒装，情态动词 can 提到主语之前。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.so-neither-nor.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "refused", "the", "offer,", "and", "neither", "did", "his", "partner."],
+          "answer": "He refused the offer, and neither did his partner.",
+          "explain": "neither 置于第二分句句首表“也不”，助动词 did 提到新主语 his partner 之前，refused 不再重复。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.so-neither-nor.d5",
+          "type": "choice",
+          "stem": "—I heard you met the author yesterday. —___ I even got his signature.",
+          "options": ["So I did", "So did I", "So I do", "Neither did I"],
+          "answer": "So I did",
+          "explain": "答话人与对方说的是同一件事、同一主语，so 只表确认，用正常语序 so I did，不倒装。",
+          "trap": "So did I 用于主语不同的“也”，此处主语未换人，倒装反而错误。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.so-neither-nor.d6",
+          "type": "translate",
+          "stem": "她昨天没来上课，她弟弟也没来。",
+          "answer": "She did not come to class yesterday, and neither did her brother.",
+          "require": [["neither did"], ["brother"]],
+          "forbid": ["neither her brother did", "so did her brother"],
+          "explain": "前句为一般过去时否定句，否定呼应句用 neither + did + 新主语，实义动词 come 不再重复。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.inversion.subjunctive-inversion",
+      "title": "虚拟条件句中的倒装",
+      "brief": "省 if 后只提前 were/had/should",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["clause.adverbial_clause.condition", "special.inversion.negative-fronting"],
+      "concept": {
+        "summary": "判定标准：虚拟条件句省略 if 时，把从句中的 were、had、should 提到主语之前，构成部分倒装；主句语序不变。可倒装的只有这三个助动词形式，从句谓语是实义动词过去式（knew, lived）时没有可提前的助动词，仍须保留 if。倒装后否定词 not 留在主语之后，正式文体不缩写。",
+        "sections": [
+          {
+            "h": "三种可倒装的形式",
+            "p": "倒装与省略 if 是同一操作的两面：去掉 if，把从句中第一个助动词移到句首。三种形式分别对应与现在、过去、将来事实相反的虚拟。",
+            "bullets": [
+              "与现在相反：If I were you → Were I you, I would accept the offer.",
+              "与过去相反：If I had known → Had I known, I would have told you.",
+              "与将来相反：If it should rain → Should it rain, the match would be postponed.",
+              "倒装单位只是 were / had / should，实义动词和过去分词都留在主语之后"
+            ]
+          },
+          {
+            "h": "不能倒装的情况",
+            "p": "虚拟倒装的前提是从句里有一个可提前的助动词。没有助动词，就没有倒装。",
+            "bullets": [
+              "实义动词过去式：If I knew her address, I would write to her.（× Knew I her address）",
+              "一般现在时虚拟用 were，只有 were 可以提前：If he were here → Were he here",
+              "主句不倒装：Were I you, I would...（× would I）",
+              "省略 if 只发生在书面语，口语中保留 if 更自然"
+            ]
+          },
+          {
+            "h": "否定形式与固定搭配",
+            "p": "not 不随助动词一起前移，而是留在主语之后；缩写形式在倒装结构中不成立。",
+            "bullets": [
+              "Had I not known the truth, I would have acted differently.",
+              "× Hadn't I known the truth...（正式书面语不用缩写）",
+              "Were it not for your help, we would have failed.",
+              "Had it not been for the map, we would have got lost."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Had I known the truth, I would have told you.", "zh": "如果我当时知道真相，我就告诉你了。", "ok": true, "note": "省略 if 后把 had 提到主语 I 之前，主句用 would have done，与过去事实相反。" },
+          { "en": "Had I known the truth, I would tell you.", "zh": "如果我当时知道真相，我就告诉你了。", "ok": false, "note": "从句与过去事实相反，主句也必须用 would have told，时态未呼应。" },
+          { "en": "Were I in your position, I would accept the offer.", "zh": "如果我处在你的位置，我会接受这份工作。", "ok": true, "note": "省略 if 后把 were 提到主语 I 之前，主句保持 would + 动词原形。" },
+          { "en": "Was I in your position, I would accept the offer.", "zh": "如果我处在你的位置，我会接受这份工作。", "ok": false, "note": "虚拟语气中 be 动词一律用 were，倒装形式只能是 Were I。" },
+          { "en": "Should it rain tomorrow, the match would be postponed.", "zh": "如果明天下雨，比赛将推迟。", "ok": true, "note": "与将来可能情况相反，省略 if 后把 should 提到主语 it 之前。" },
+          { "en": "Had it not been for your help, we would have failed.", "zh": "要不是你的帮助，我们就失败了。", "ok": true, "note": "had 提前，not 留在主语 it 之后，构成 Had it not been for 固定结构。" },
+          { "en": "If I knew her address, I would write to her.", "zh": "如果我知道她的地址，我就给她写信了。", "ok": true, "note": "knew 是实义动词过去式，没有可提前的助动词，只能保留 if，不能倒装。" },
+          { "en": "Knew I her address, I would write to her.", "zh": "如果我知道她的地址，我就给她写信了。", "ok": false, "note": "实义动词过去式不能直接提前，虚拟倒装只允许 were、had、should。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Did I know the answer, I would tell you.", "right": "If I knew the answer, I would tell you.", "why": "knew 是实义动词过去式，前面没有助动词可以提前；虚拟倒装只允许 were、had、should 三种形式。" },
+          { "wrong": "Hadn't I been busy, I would have come.", "right": "Had I not been busy, I would have come.", "why": "倒装后 not 留在主语之后，正式书面语中助动词与 not 不缩写。" },
+          { "wrong": "Were I you, I will accept it.", "right": "Were I you, I would accept it.", "why": "从句 were 表示与现在事实相反，主句必须用 would + 动词原形，不能用陈述语气的 will。" }
+        ],
+        "contrast": { "withTitle": "部分倒装：否定词置于句首", "diff": "两者都只提前助动词，但虚拟倒装的触发条件是省略 if，可提前的形式只限 were、had、should，主句语序不变。" },
+        "mnemonic": "省 if 才倒，只倒 were/had/should；实义动词不搬家，not 留在主语后。"
+      },
+      "review": {
+        "core": [
+          "省略 if → 把 were / had / should 提到主语前",
+          "Were I you / Had I known / Should it rain 三种基本形式",
+          "实义动词过去式不能倒装，必须保留 if",
+          "not 留在主语之后：Had I not known",
+          "主句语序不变，仍是 would / would have done"
+        ],
+        "trigger": "看到句首 Were / Had / Should 且没有 if → 按省略 if 的虚拟条件句理解，主句必带 would",
+        "quickCheck": [
+          { "q": "If he had come earlier 改成倒装？", "a": "Had he come earlier。" },
+          { "q": "If I knew the answer 能倒装成 Knew I 吗？", "a": "不能，knew 是实义动词，没有助动词可提前。" },
+          { "q": "Had I not known 能写成 Hadn't I known 吗？", "a": "正式书面语不行，not 要留在主语后。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.inversion.subjunctive-inversion.d1",
+          "type": "choice",
+          "stem": "___ about the traffic, I would have left home much earlier.",
+          "options": ["Had I known", "Did I know", "I had known", "Have I known"],
+          "answer": "Had I known",
+          "explain": "主句用 would have left，说明与过去事实相反；省略 if 后把 had 提到主语 I 之前，构成 Had I known。",
+          "trap": "Did I know 借了 do 支撑，但虚拟倒装只允许 were、had、should，实义动词不能这样提前。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.subjunctive-inversion.d2",
+          "type": "fill",
+          "stem": "___ I you, I would apologize to her at once.",
+          "answer": "Were",
+          "accept": ["Were"],
+          "hint": "与现在事实相反的虚拟条件句，省略 if。",
+          "explain": "If I were you 省略 if 后把 were 提到主语 I 之前，构成 Were I you；主句用 would + 动词原形。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.subjunctive-inversion.d3",
+          "type": "correct",
+          "stem": "Was it not for the scholarship, he could not have finished his degree.",
+          "answer": "Were it not for the scholarship, he could not have finished his degree.",
+          "accept": ["Were it not for the scholarship, he could not have finished his degree."],
+          "explain": "Were it not for 是省略 if 的固定虚拟倒装，be 动词必须用 were，不能用 was。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.subjunctive-inversion.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Should", "the", "plan", "fail,", "we", "would", "need", "a", "new", "one."],
+          "answer": "Should the plan fail, we would need a new one.",
+          "explain": "与将来情况相反的虚拟条件句省略 if，把 should 提到主语 the plan 之前，主句用 would + 动词原形。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.subjunctive-inversion.d5",
+          "type": "choice",
+          "stem": "___ harder at school, he would be a doctor now.",
+          "options": ["Had he worked", "Did he work", "Had he work", "He had worked"],
+          "answer": "Had he worked",
+          "explain": "主句 would be now 指向现在结果，条件从句与过去事实相反，用 had worked；省略 if 后 had 提前。",
+          "trap": "Had he work 把 had 提前后没有保留过去分词，谓语形式残缺。",
+          "difficulty": 4
+        },
+        {
+          "id": "special.inversion.subjunctive-inversion.d6",
+          "type": "translate",
+          "stem": "如果我是你，我就不会接受这份工作。",
+          "answer": "Were I you, I would not accept this job.",
+          "require": [["were i"], ["would"]],
+          "forbid": ["was i you", "if i am you"],
+          "explain": "与现在事实相反的虚拟条件句省略 if，were 提到主语 I 之前；主句用 would not + 动词原形。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.inversion.as-though-concession",
+      "title": "as/though 引导让步的倒装",
+      "brief": "表语、状语或动词原形提到 as/though 前",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["clause.adverbial_clause.concession", "special.inversion.full-inversion"],
+      "concept": {
+        "summary": "判定标准：让步状语从句由 as 或 though 引导时，把从句的表语（形容词或名词）、状语（副词）或动词原形提到 as/though 之前，形成“前置成分 + as/though + 主语 + 谓语”的倒装。提前的是对比焦点所在的成分而不是助动词，主语和谓语的相对顺序不变；though 可以这样用，although 不能。",
+        "sections": [
+          {
+            "h": "三类前置成分",
+            "p": "能提到 as/though 前面的只有三种成分，判断时先看从句里哪个成分承担对比焦点。",
+            "bullets": [
+              "形容词表语：Young as he is, he has published three books.",
+              "名词表语：Child as he is, he knows a lot about astronomy.（名词前不加冠词）",
+              "副词状语：Hard as she tried, she could not open the jar. / Much as I respect him, I disagree.",
+              "动词原形：Try as he might, he could not solve the puzzle."
+            ]
+          },
+          {
+            "h": "结构细节",
+            "p": "倒装只改变前置成分的位置，从句的主语和谓语仍按正常顺序排列；谓语多为 be 或 may/might/would，动词原形前置时助动词留在主语之后。",
+            "bullets": [
+              "Young as he is：as 紧跟前置的 young，主语 he 后接 is",
+              "Try as he might：动词原形 try 前置，情态动词 might 留在主语 he 之后",
+              "名词表语前置时不带冠词：Child as he is（× A child as he is）",
+              "主句不受影响，正常语序：Young as he is, he is independent."
+            ]
+          },
+          {
+            "h": "与 although 的分工",
+            "p": "although 引导的让步从句必须用陈述语序，不能参与这种倒装；though 既能陈述也能倒装。",
+            "bullets": [
+              "Although he is young, he is independent.（陈述语序）",
+              "Young though he is, he is independent.（though 可倒装）",
+              "× Although young as he is, he is independent."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Young as he is, he has published three books.", "zh": "尽管他很年轻，他已经出版了三本书。", "ok": true, "note": "形容词表语 young 提到 as 之前，从句主语 he 与谓语 is 顺序不变。" },
+          { "en": "As young he is, he has published three books.", "zh": "尽管他很年轻，他已经出版了三本书。", "ok": false, "note": "as 后面直接跟形容词再接主语，语序不成立；让步倒装应把表语 young 提到 as 之前。" },
+          { "en": "Hard as she tried, she could not open the jar.", "zh": "尽管她很努力，她还是打不开那个罐子。", "ok": true, "note": "副词状语 hard 提到 as 之前，主句用 could not 表示结果。" },
+          { "en": "Child as he is, he knows a lot about astronomy.", "zh": "尽管他是个孩子，他对天文了解很多。", "ok": true, "note": "名词表语 child 前置时不加冠词，as 紧跟其后。" },
+          { "en": "A child as he is, he knows a lot about astronomy.", "zh": "尽管他是个孩子，他对天文了解很多。", "ok": false, "note": "名词表语提到 as 之前必须去掉冠词，应改为 Child as he is。" },
+          { "en": "Try as he might, he could not solve the puzzle.", "zh": "尽管他尽力了，他还是解不开这个谜题。", "ok": true, "note": "动词原形 try 前置，情态动词 might 留在主语 he 之后。" },
+          { "en": "Although tired as he was, he kept working.", "zh": "尽管他很累，他仍继续工作。", "ok": false, "note": "although 不能与这种倒装同用，应改为 Tired as he was 或 Although he was tired。" },
+          { "en": "Much as I respect him, I disagree with his conclusion.", "zh": "尽管我很尊重他，我不同意他的结论。", "ok": true, "note": "副词 much 提到 as 之前表让步，主句用正常语序。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Although young as he is, he is very independent.", "right": "Young as he is, he is very independent.", "why": "although 只能引导陈述语序的让步从句，倒装结构只与 as 或 though 搭配，两者不能叠加。" },
+          { "wrong": "A genius as she is, she still practises daily.", "right": "Genius as she is, she still practises daily.", "why": "名词作前置表语时不加冠词，前置成分是纯名词而不是名词短语。" },
+          { "wrong": "As hard he tried, he failed.", "right": "Hard as he tried, he failed.", "why": "倒装要求状语提到 as 之前，as 紧跟前置成分；原句既不是倒装，也破坏了 as 的位置。" }
+        ],
+        "contrast": { "withTitle": "完全倒装", "diff": "完全倒装把谓语整体提到主语前；as/though 倒装只把表语、状语或动词原形提到连词前，主语和谓语的顺序不变。" },
+        "mnemonic": "形容词、副词、动词原形站到 as 前面；名词提前去掉冠词，although 不参与。"
+      },
+      "review": {
+        "core": [
+          "结构：前置成分 + as/though + 主语 + 谓语",
+          "可前置：形容词表语、名词表语、副词状语、动词原形",
+          "名词表语前置不加冠词：Child as he is",
+          "though 可倒装，although 只能陈述语序",
+          "前置的不是助动词，主语与谓语顺序不变"
+        ],
+        "trigger": "看到句首是形容词、副词或动词原形，后面紧跟 as/though → 按让步倒装理解，主句表转折",
+        "quickCheck": [
+          { "q": "“尽管他很努力”倒装怎么说？", "a": "Hard as he tried。" },
+          { "q": "“尽管他是个孩子”能说 A child as he is 吗？", "a": "不能，去掉冠词，说 Child as he is。" },
+          { "q": "although 能用于这种倒装吗？", "a": "不能，只有 as 和 though 可以。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.inversion.as-though-concession.d1",
+          "type": "choice",
+          "stem": "___ as he is, he has a clear understanding of the market.",
+          "options": ["Young", "Youth", "The young", "Younger"],
+          "answer": "Young",
+          "explain": "让步倒装把形容词表语提到 as 之前，young 直接置于句首，从句主语 he 与谓语 is 顺序不变。",
+          "trap": "The young 是名词化的形容词，指“年轻人”群体，不能在此作表语前置。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.as-though-concession.d2",
+          "type": "fill",
+          "stem": "Hard ___ he tried, he could not persuade her to stay.",
+          "answer": "as",
+          "accept": ["as", "though"],
+          "hint": "空格前是前置的副词，空格后是主语 he。",
+          "explain": "副词 hard 提到句首后，用 as 或 though 连接，构成 Hard as/though he tried 的让步倒装。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.as-though-concession.d3",
+          "type": "correct",
+          "stem": "Although difficult as the task was, they finished it on time.",
+          "answer": "Difficult as the task was, they finished it on time.",
+          "accept": ["Difficult as the task was, they finished it on time."],
+          "explain": "although 不能与 as 倒装叠加；去掉 although 后，形容词表语 difficult 提到 as 之前，结构才成立。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.as-though-concession.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Try", "as", "she", "might,", "she", "could", "not", "forget", "him."],
+          "answer": "Try as she might, she could not forget him.",
+          "explain": "动词原形 try 提到 as 之前，情态动词 might 留在主语 she 之后，主句用 could not 表结果。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.as-though-concession.d5",
+          "type": "choice",
+          "stem": "___ as she is, she never shows off her knowledge.",
+          "options": ["A scholar", "Scholar", "The scholar", "Scholars"],
+          "answer": "Scholar",
+          "explain": "名词表语提到 as 之前时不加冠词，前置成分是纯名词 scholar，故用 Scholar as she is。",
+          "trap": "A scholar 保留了冠词，是名词短语而非前置表语，不符合该倒装的形式要求。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.as-though-concession.d6",
+          "type": "translate",
+          "stem": "尽管他很努力，他还是没能通过考试。",
+          "answer": "Hard as he tried, he failed the exam.",
+          "require": [["hard as he tried"]],
+          "forbid": ["although hard", "as he tried hard"],
+          "explain": "让步倒装把副词 hard 提到 as 之前，主句用陈述语序说明结果；although 不能进入这个结构。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.inversion.such-so-fronting",
+      "title": "such/so 置于句首的倒装",
+      "brief": "such 全倒，so + 形容词只倒助动词",
+      "difficulty": 4,
+      "tags": ["难点", "高频"],
+      "prereq": ["special.inversion.full-inversion", "clause.adverbial_clause.result-so-such"],
+      "concept": {
+        "summary": "判定标准：such 作表语提到句首时，把 be 动词整体提到主语之前，构成完全倒装（Such was his anger that...）；so + 形容词或副词提到句首时，只把助动词或 be 提到主语之前，构成部分倒装（So angry was he that...）。两种结构的后半句都接 that 引导的结果状语从句，that 从句一律用陈述语序。",
+        "sections": [
+          {
+            "h": "such 前置：完全倒装",
+            "p": "such 在句中作表语，指代上文性质，前置时必须与 be 动词一起构成完全倒装；be 的单复数由后面的主语决定。",
+            "bullets": [
+              "Such was his anger that he could not speak.（主语 his anger 单数）",
+              "Such were the losses that the company nearly went bankrupt.（主语 the losses 复数）",
+              "Such was the force of the explosion that windows shattered miles away.",
+              "倒装单位是整个谓语：such + be 一起前置，实义动词不出现"
+            ]
+          },
+          {
+            "h": "so + 形容词/副词前置：部分倒装",
+            "p": "so 修饰形容词或副词并提到句首时，只把助动词、情态动词或 be 提到主语之前；谓语是实义动词时补 do/does/did，实义动词回原形。",
+            "bullets": [
+              "So angry was he that he slammed the door.（be 提前）",
+              "So quickly did the news spread that everyone heard it within an hour.（补 did）",
+              "So absorbed was she in her book that she did not hear the bell.",
+              "倒装单位只是助动词或 be，形容词、副词留在句首"
+            ]
+          },
+          {
+            "h": "两种结构的对照",
+            "p": "判断依据是句首第一个词：such 后接 be 构成完全倒装，so 后接形容词或副词构成部分倒装；两者都必须有 that 结果从句收尾。",
+            "bullets": [
+              "Such + be + 主语 + that：Such was his courage that everyone admired him.",
+              "So + 形容词/副词 + be/助动词 + 主语 + that：So angry was he that he could not speak.",
+              "that 从句不倒装：× Such was his anger that could he not speak.",
+              "so 表“也”时是另一结构，主语换人且不带 that 从句"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Such was his anger that he could not speak.", "zh": "他气得说不出话来。", "ok": true, "note": "such 作表语前置，be 动词 was 整体提到主语 his anger 之前，构成完全倒装。" },
+          { "en": "Such his anger was that he could not speak.", "zh": "他气得说不出话来。", "ok": false, "note": "such 前置时必须与 be 一起提前，应改为 Such was his anger。" },
+          { "en": "Such were the losses that the company nearly went bankrupt.", "zh": "损失如此之大，公司几乎破产。", "ok": true, "note": "be 动词的单复数由后面的主语 the losses 决定，故用 were。" },
+          { "en": "So angry was he that he slammed the door.", "zh": "他气得猛地把门关上。", "ok": true, "note": "so + 形容词 angry 置于句首，只把 be 动词 was 提到主语 he 之前，构成部分倒装。" },
+          { "en": "So angry he was that he slammed the door.", "zh": "他气得猛地把门关上。", "ok": false, "note": "so + 形容词置于句首必须部分倒装，应改为 So angry was he。" },
+          { "en": "So quickly did the news spread that everyone heard it within an hour.", "zh": "消息传得如此之快，一小时内所有人都听说了。", "ok": true, "note": "so + 副词 quickly 置于句首，实义动词 spread 前补 did 并还原为原形。" },
+          { "en": "Such was the force of the explosion that windows shattered miles away.", "zh": "爆炸的威力如此之大，几英里外的窗户都被震碎了。", "ok": true, "note": "such + be 完全倒装，that 从句用陈述语序说明结果。" }
+        ],
+        "pitfalls": [
+          { "wrong": "So angry he was that he could not speak.", "right": "So angry was he that he could not speak.", "why": "so + 形容词置于句首触发部分倒装，be 动词 was 必须提到主语 he 之前。" },
+          { "wrong": "Such his courage was that everyone admired him.", "right": "Such was his courage that everyone admired him.", "why": "such 作表语前置时与 be 动词一起构成完全倒装，不能把 be 留在主语之后。" },
+          { "wrong": "So fast he ran that nobody could catch him.", "right": "So fast did he run that nobody could catch him.", "why": "so + 副词置于句首时，实义动词前必须补 did，实义动词 run 回到原形。" }
+        ],
+        "contrast": { "withTitle": "so/neither/nor 引导的倒装", "diff": "表“也、也不”的 so 后接助动词且主语换人，不带 that 从句；so + 形容词或副词置于句首表程度，必须用 that 结果从句收尾。" },
+        "mnemonic": "such 带 be 全倒，so 带形容词只倒助动词；that 从句永远陈述语序。"
+      },
+      "review": {
+        "core": [
+          "Such + be + 主语 + that → 完全倒装，be 的单复数看主语",
+          "So + 形容词/副词 + be 或助动词 + 主语 + that → 部分倒装",
+          "实义动词前补 did/does/do，动词回原形",
+          "that 从句一律陈述语序，不再倒装",
+          "so 表“也”时不带 that 从句，属另一结构"
+        ],
+        "trigger": "看到句首 such 或 so + 形容词/副词 → 先看第一个词 → such 连 be 一起提前，so 只提前助动词",
+        "quickCheck": [
+          { "q": "Such ___ his anger that he left. 填什么？", "a": "was，such 与 be 一起构成完全倒装。" },
+          { "q": "So angry ___ he that he left. 填什么？", "a": "was，只把 be 提前。" },
+          { "q": "such/so 倒装后 that 从句还要倒装吗？", "a": "不要，that 从句用陈述语序。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.inversion.such-so-fronting.d1",
+          "type": "choice",
+          "stem": "___ his disappointment that he refused to attend the graduation ceremony.",
+          "options": ["Such was", "Such were", "So was", "So were"],
+          "answer": "Such was",
+          "explain": "such 作表语置于句首，与 be 动词一起构成完全倒装；主语 his disappointment 为单数，用 was。",
+          "trap": "So was 把 such 换成了 so，但 so 后面必须接形容词或副词，不能直接跟名词短语。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.such-so-fronting.d2",
+          "type": "fill",
+          "stem": "So absorbed ___ she in her book that she did not hear the bell.",
+          "answer": "was",
+          "accept": ["was"],
+          "hint": "空格后是主语 she，空格前是形容词 absorbed。",
+          "explain": "so + 形容词 absorbed 置于句首，只把 be 动词提到主语 she 之前，构成 So absorbed was she。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.inversion.such-so-fronting.d3",
+          "type": "correct",
+          "stem": "So loudly he shouted that the neighbours called the police.",
+          "answer": "So loudly did he shout that the neighbours called the police.",
+          "accept": ["So loudly did he shout that the neighbours called the police."],
+          "explain": "so + 副词 loudly 置于句首，主句必须部分倒装：补 did，实义动词 shout 还原为原形。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.such-so-fronting.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Such", "was", "the", "damage", "that", "the", "factory", "closed", "for", "a", "month."],
+          "answer": "Such was the damage that the factory closed for a month.",
+          "explain": "such 与 be 动词 was 一起前置构成完全倒装，主语 the damage 为单数，that 从句用陈述语序。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.such-so-fronting.d5",
+          "type": "choice",
+          "stem": "So difficult ___ that few students finished it within the time limit.",
+          "options": ["was the paper", "the paper was", "did the paper be", "the paper did be"],
+          "answer": "was the paper",
+          "explain": "so + 形容词 difficult 置于句首，be 动词 was 提到主语 the paper 之前，构成部分倒装。",
+          "trap": "the paper was 保持了陈述语序，so 置于句首时没有倒装。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.inversion.such-so-fronting.d6",
+          "type": "translate",
+          "stem": "他气得说不出话来。",
+          "answer": "Such was his anger that he could not speak.",
+          "require": [["such was"], ["that"]],
+          "forbid": ["such his anger was", "so angry he was"],
+          "explain": "such 作表语置于句首，与 was 一起构成完全倒装；that 从句用陈述语序说明结果。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,271 @@
+{
+  "level1": "tense_voice",
+  "chapter": "past_continuous",
+  "items": [
+    {
+      "id": "tense_voice.past_continuous.time-reference",
+      "title": "过去进行时的时间参照与背景动作",
+      "brief": "过去某一刻正在进行，需要参照点",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["tense_voice.present_continuous.core-meaning"],
+      "concept": {
+        "summary": "过去进行时由 was/were + 现在分词构成，把观察点固定在过去某一刻，表示动作在那一刻正在进行、尚未结束。它几乎总需要一个时间参照：at eight last night、this time yesterday，或另一个过去动作。参照点像镜头，动作像镜头里正在发生的事；没有参照点，句子就失去落点。",
+        "sections": [
+          {
+            "h": "显性参照：过去某一时刻",
+            "p": "时间状语直接给出观察点，句子只描写那一刻的状态。这类状语通常精确到钟点或“昨天的这个时候”，因为模糊的时间无法定位一个“正在进行”。",
+            "bullets": [
+              "At nine last night I was reviewing my notes.",
+              "This time yesterday we were flying over the Pacific.",
+              "At that moment, she was talking to the manager."
+            ]
+          },
+          {
+            "h": "隐性参照：另一个过去动作",
+            "p": "when 从句用一般过去时交代参照点，主句用过去进行时描写那一刻正在进行的动作。参照点由从句提供，主句只负责画面。",
+            "bullets": [
+              "I was cooking when the phone rang.",
+              "When the teacher came in, the students were talking.",
+              "While I was waiting for the bus, it began to rain."
+            ]
+          },
+          {
+            "h": "两类动词进不来",
+            "p": "状态动词没有进行阶段；瞬间动词的动作长度接近零，一旦拉长成进行时，读者会误以为过程还在持续，与动词本身的瞬时性冲突。",
+            "bullets": [
+              "状态动词：know, belong, own, consist of 不用进行时",
+              "瞬间动词：arrive, stop, recognise, catch 只作事件，不作背景",
+              "两栖的 have：表拥有是状态（had a car），表进行是动作（was having a shower）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "At eight last night, I was watching a documentary.", "zh": "昨晚八点我正在看纪录片。", "ok": true, "note": "at eight last night 给出过去某一刻，动作在那一刻正在进行。" },
+          { "en": "This time yesterday, we were sitting on a train to Xi'an.", "zh": "昨天这个时候，我们正坐在去西安的火车上。", "ok": true, "note": "this time yesterday 是精确到时刻的过去参照点。" },
+          { "en": "She was having a shower when I called.", "zh": "我打电话时她正在洗澡。", "ok": true, "note": "have a shower 表动作，可以用进行时；when 从句提供参照。" },
+          { "en": "While I was waiting for the bus, it began to rain.", "zh": "我等公交时开始下雨了。", "ok": true, "note": "while 引出延续的背景动作，主句用一般过去时交代事件。" },
+          { "en": "I was knowing him well at that time.", "zh": "那时我很了解他。", "ok": false, "note": "know 是状态动词，没有进行阶段，应改为 I knew him well at that time." },
+          { "en": "At that moment, he was belonging to the school team.", "zh": "那时他是校队成员。", "ok": false, "note": "belong 表所属关系，属状态，应改为 he belonged to the school team." },
+          { "en": "I was recognising him at once.", "zh": "我立刻认出了他。", "ok": false, "note": "recognise 是瞬间动作，at once 又强调瞬时，不能用进行时，应改为 I recognised him at once." },
+          { "en": "When the teacher came in, the students were talking.", "zh": "老师进来时学生们正在说话。", "ok": true, "note": "when 从句用过去时给参照点，主句用过去进行时描写当时的情形。" }
+        ],
+        "pitfalls": [
+          { "wrong": "At nine last night I was knowing the answer.", "right": "At nine last night I knew the answer.", "why": "know 表状态，没有“正在进行”的过程，即使有时间参照也不能进入进行时。" },
+          { "wrong": "I was recognising him at once.", "right": "I recognised him at once.", "why": "recognise 是瞬间动作，动作长度接近零，进行时会错误地暗示过程仍在持续。" },
+          { "wrong": "While I cooked, the phone rang.", "right": "While I was cooking, the phone rang.", "why": "while 引出的是可延续的背景动作，须用进行时；一般过去时会把它写成与 ring 并列的完成事件。" }
+        ],
+        "contrast": { "withTitle": "过去进行时与一般过去时的对比", "diff": "本点解决“参照点从哪里来”，对比点解决“同一段过去时间里，哪个动作作背景、哪个动作作事件”。" },
+        "mnemonic": "was/were 加分词，过去某刻进行中；when 给镜头，while 拉长景。"
+      },
+      "review": {
+        "core": [
+          "结构：was/were + 现在分词，主语单数用 was，复数用 were",
+          "必须有过去参照：at eight last night、this time yesterday、at that moment",
+          "when 从句用一般过去时提供参照点，主句常用过去进行时",
+          "状态动词 know/belong/own 与瞬间动词 arrive/recognise 不用进行时",
+          "have 两栖：had a car 是状态，was having a shower 是动作"
+        ],
+        "trigger": "看到过去某一时刻或 when + 过去动作 → 判断那一刻是否“正在进行” → 是则用 was/were + doing",
+        "quickCheck": [
+          { "q": "“昨晚八点我在看电视”怎么说？", "a": "I was watching TV at eight last night." },
+          { "q": "I was knowing him. 错在哪里？", "a": "know 是状态动词，改为 I knew him." },
+          { "q": "while 从句通常用什么时态？", "a": "过去进行时，表示延续的背景动作。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.past_continuous.time-reference.d1",
+          "type": "choice",
+          "stem": "At ten last night, while most people ___, the night shift was still working.",
+          "options": ["were sleeping", "slept", "are sleeping", "had slept"],
+          "answer": "were sleeping",
+          "explain": "at ten last night 给出过去某一刻，while 引出延续的背景动作，用过去进行时；主语 most people 为复数，be 取 were。",
+          "trap": "slept 会被读成一次完成的动作，无法表达“那一刻正在睡”。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_continuous.time-reference.d2",
+          "type": "fill",
+          "stem": "This time yesterday, I ___ (sit) in the dentist's chair.",
+          "answer": "was sitting",
+          "accept": ["was sitting"],
+          "hint": "this time yesterday 精确到昨天的同一时刻。",
+          "explain": "this time yesterday 是精确的过去参照点，动作在那一刻正在进行，用过去进行时；主语 I 搭配 was。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_continuous.time-reference.d3",
+          "type": "correct",
+          "stem": "I was recognising her the moment she stepped into the room.",
+          "answer": "I recognised her the moment she stepped into the room.",
+          "accept": ["I recognised her the moment she stepped into the room."],
+          "explain": "recognise 是瞬间动作，the moment 又强调动作发生在那一瞬，不能用进行时拉长。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_continuous.time-reference.d4",
+          "type": "choice",
+          "stem": "While the children ___ in the garden, their mother was preparing lunch.",
+          "options": ["played", "are playing", "have played", "were playing"],
+          "answer": "were playing",
+          "explain": "while 引出可延续的背景动作，与主句 was preparing 构成两个同时进行的场景，用过去进行时；主语 the children 为复数。",
+          "trap": "played 表一次完成的动作，与 while 要求的同时延续不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_continuous.time-reference.d5",
+          "type": "translate",
+          "stem": "昨晚八点我正在复习笔记。",
+          "answer": "I was reviewing my notes at eight last night.",
+          "require": [["was reviewing"], ["eight"]],
+          "forbid": ["am reviewing", "reviewed at eight"],
+          "explain": "at eight last night 给出过去某一刻，动作在那一刻正在进行，用 was + 现在分词；reviewed 会被读成一次完成的动作。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_continuous.time-reference.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "was", "having", "a", "shower", "when", "I", "called."],
+          "answer": "She was having a shower when I called.",
+          "explain": "when 从句用一般过去时 called 提供参照点，主句用过去进行时描写那一刻正在做的事。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.past_continuous.vs-past-simple",
+      "title": "过去进行时与一般过去时的对比",
+      "brief": "事件用过去时，场景用进行时",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["tense_voice.past_continuous.time-reference"],
+      "concept": {
+        "summary": "同一段过去时间里，一般过去时陈述“发生了什么”，推动事件；过去进行时描写“当时正在发生什么”，铺陈场景。二者常在同一句中配合：进行时作背景，过去时作插入的事件。判断依据是这个动作在叙述中承担什么角色——被讲述的事件，还是提供画面的背景。",
+        "sections": [
+          {
+            "h": "背景加事件",
+            "p": "这类句子的结构几乎固定：进行时铺开一幅正在进行的画面，when 从句用一个短暂动作把它切开。切开的动作是一般过去时，被切开的是过去进行时。",
+            "bullets": [
+              "I was walking home when I saw a car accident.",
+              "She was cooking dinner when the lights went out.",
+              "They were discussing the plan when the manager walked in."
+            ]
+          },
+          {
+            "h": "同一动词，两种解读",
+            "p": "过去进行时不保证动作完成，一般过去时通常暗示完成。需要说明“做完了”就用一般过去时，需要描写“当时在做、未必做完”就用进行时。",
+            "bullets": [
+              "I read a book last night, so I can tell you how it ends.（读完了）",
+              "I was reading a book last night.（可能还没读完）",
+              "I painted the fence yesterday.（刷完了）",
+              "I was painting the fence yesterday.（未必刷完）"
+            ]
+          },
+          {
+            "h": "when 与 while 的分工",
+            "p": "when 既能接短暂动作也能接延续动作，while 只接延续动作。因此“短暂事件”用 when，“持续背景”用 while，两者不能互换。",
+            "bullets": [
+              "When the phone rang, I was cooking.",
+              "While I was cooking, the phone rang.",
+              "× While the phone rang, I was cooking."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I was walking home when I saw a car accident.", "zh": "我走回家时看见一起车祸。", "ok": true, "note": "走路是背景，看见是事件；背景用进行时，事件用过去时。" },
+          { "en": "She was cooking dinner when the lights went out.", "zh": "她做晚饭时灯灭了。", "ok": true, "note": "cook 延续作背景，go out 短暂作事件。" },
+          { "en": "At seven sharp the train arrived while we were still looking for the platform.", "zh": "七点整火车进站，而我们还在找站台。", "ok": true, "note": "到达是事件，找站台是同时进行的背景。" },
+          { "en": "When I was arriving at the airport, I realized I had left my passport at home.", "zh": "我到机场时发现护照落在家里了。", "ok": false, "note": "arrive 是瞬间动作，不能作进行时的背景，应改为 When I arrived at the airport." },
+          { "en": "While the phone rang, I was cooking dinner.", "zh": "电话铃响时我正在做饭。", "ok": false, "note": "ring 是短暂动作，不能由 while 引出，应改为 When the phone rang." },
+          { "en": "I read a book last night, so I can tell you how it ends.", "zh": "我昨晚读了一本书，所以能告诉你结局。", "ok": true, "note": "能讲结局说明读完了，用一般过去时表完成。" },
+          { "en": "I was reading a book last night.", "zh": "昨晚我在看书。", "ok": true, "note": "进行时只描写当时的画面，不保证读完。" },
+          { "en": "I was finishing the report yesterday, so you can read it now.", "zh": "我昨天在写那份报告，所以你现在可以看了。", "ok": false, "note": "进行时不表完成，与 so you can read it now 冲突，应改为 I finished the report yesterday." }
+        ],
+        "pitfalls": [
+          { "wrong": "When I was arriving at the airport, I found my ticket was missing.", "right": "When I arrived at the airport, I found my ticket was missing.", "why": "arrive 是瞬间动作，没有可持续的过程，只能作 when 从句里的事件。" },
+          { "wrong": "While the telephone rang, she was writing the report.", "right": "When the telephone rang, she was writing the report.", "why": "while 要求延续动作，ring 只持续一瞬，须换成 when 才能接短暂事件。" },
+          { "wrong": "I was finishing the report yesterday, so you can read it now.", "right": "I finished the report yesterday, so you can read it now.", "why": "进行时只描写过程、不保证完成，要与 now 的结果衔接必须用一般过去时。" }
+        ],
+        "contrast": { "withTitle": "过去进行时的时间参照与背景动作", "diff": "参照点解决“什么时候正在发生”，本点解决“两个过去动作里谁作背景、谁作事件”，以及进行时不表完成这一点。" },
+        "mnemonic": "过去时推进事件，进行时搭布景；when 插事件，while 铺背景。"
+      },
+      "review": {
+        "core": [
+          "一般过去时 = 被讲述的事件，推动情节",
+          "过去进行时 = 当时的场景，提供背景",
+          "典型配合：was/were doing + when + 一般过去时",
+          "过去进行时不保证动作完成，需要“已完成”就用一般过去时",
+          "瞬间动词 arrive/stop/recognise/ring 只作事件，由 when 引出"
+        ],
+        "trigger": "句中出现两个过去动作 → 问哪个被打断、哪个在延续 → 延续的用进行时，打断的用过去时",
+        "quickCheck": [
+          { "q": "I was walking home when I saw him. 哪个是背景？", "a": "was walking 是背景，saw 是事件。" },
+          { "q": "while 后面能接 rang 吗？", "a": "不能，ring 是短暂动作，改用 when。" },
+          { "q": "“我昨天写完了报告”用哪个时态？", "a": "一般过去时：I finished the report yesterday." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.past_continuous.vs-past-simple.d1",
+          "type": "choice",
+          "stem": "I ___ my keys when I heard someone call my name.",
+          "options": ["have looked for", "look for", "was looking for", "looked for"],
+          "answer": "was looking for",
+          "explain": "when 从句的 heard 是插入的事件，主句的找钥匙在那一刻仍在进行，用过去进行时。",
+          "trap": "looked for 指一次已完成的寻找，与 when 从句打断的动作不匹配。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_continuous.vs-past-simple.d2",
+          "type": "fill",
+          "stem": "While she ___ (clean) the windows, she found an old photograph.",
+          "answer": "was cleaning",
+          "accept": ["was cleaning"],
+          "hint": "while 引出延续的背景动作，found 是插入的事件。",
+          "explain": "while 引导延续性的背景动作，用过去进行时；found 是插入的事件，用一般过去时，两者形成背景与事件的配合。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_continuous.vs-past-simple.d3",
+          "type": "correct",
+          "stem": "While the fire alarm rang, the students were taking an exam.",
+          "answer": "When the fire alarm rang, the students were taking an exam.",
+          "accept": ["When the fire alarm rang, the students were taking an exam."],
+          "explain": "ring 是短暂动作，不能由 while 引出；改用 when 后，从句表事件、主句表背景，分工才成立。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_continuous.vs-past-simple.d4",
+          "type": "choice",
+          "stem": "She ___ dinner when the guests arrived, so they had to wait.",
+          "options": ["cooks", "was still cooking", "still cooked", "has cooked"],
+          "answer": "was still cooking",
+          "explain": "so they had to wait 说明饭还没做好，动作在客人到时仍在进行，用过去进行时加 still 强调未完成。",
+          "trap": "still cooked 无法表达“还没做完”，与客人必须等待的结果矛盾。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_continuous.vs-past-simple.d5",
+          "type": "translate",
+          "stem": "我正在洗澡时电话响了。",
+          "answer": "I was taking a shower when the phone rang.",
+          "require": [["was taking", "was having"], ["rang"]],
+          "forbid": ["while the phone rang", "took a shower when"],
+          "explain": "洗澡是延续的背景，用过去进行时；电话铃响是短暂事件，用一般过去时 rang，由 when 引出。",
+          "difficulty": 4
+        },
+        {
+          "id": "tense_voice.past_continuous.vs-past-simple.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["They", "were", "discussing", "the", "plan", "when", "the", "lights", "went", "out."],
+          "answer": "They were discussing the plan when the lights went out.",
+          "explain": "讨论是背景，用过去进行时；灯灭是插入的事件，用一般过去时，由 when 连接。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

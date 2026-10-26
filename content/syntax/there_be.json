@@ -1,0 +1,413 @@
+{
+  "level1": "syntax",
+  "chapter": "there_be",
+  "items": [
+    {
+      "id": "syntax.there_be.existential-agreement",
+      "title": "there be 的存在意义与主谓一致",
+      "brief": "there 只是引导词，be 与后置的真正主语一致",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "there be 表示“某处存在某物”，there 是引导词不是主语，真正的主语是 be 后面的名词，因此 be 的单复数由该名词决定。只有一个名词时按该名词定；并列名词时按就近原则，与最靠近 be 的那个名词一致。",
+        "sections": [
+          {
+            "h": "there 的语法身份",
+            "p": "there 在这里没有“那里”的实义，只占主语位置引出后面的名词。因为主语后置，句子真正的主语永远在 be 之后，这一点决定了后面所有的单复数与疑问形式。",
+            "bullets": [
+              "there 不能替换成 it 或 they：× It is a book on the desk.",
+              "疑问句把 be 提前：Is there a bank near here?",
+              "简答与反意疑问都用 there：Yes, there is. / There is a problem, isn't there?",
+              "存在义只能由 be 承担，不能换成 have"
+            ]
+          },
+          {
+            "h": "主谓一致的两种情形",
+            "p": "只有一个名词时直接按该名词定单复数；出现并列名词时，be 只与最近的那个名词一致，这就是 there be 句型的就近原则。",
+            "bullets": [
+              "单数主语：There is a book on the shelf.",
+              "复数主语：There are two books on the shelf.",
+              "不可数主语：There is some milk in the fridge.",
+              "就近原则：There is a pen and two books on the desk. / There are two books and a pen on the desk.",
+              "数量短语按量词定：There are three pieces of advice in the letter."
+            ]
+          },
+          {
+            "h": "后接名词的限定要求",
+            "p": "there be 引出的是“一个尚未确定的存在物”，所以后面通常接不定指名词。若名词已被 the、物主代词或上下文确定为唯一对象，应改用主系表结构。",
+            "bullets": [
+              "通常接 a/an/some/many/two 等不定限定词",
+              "× There is the dictionary you wanted on the shelf. → The dictionary you wanted is on the shelf.",
+              "抽象名词同样可用：There is no doubt about his ability.",
+              "地点状语可省略，但存在义仍完整：There is a God."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "There is a small café on the corner of the street.", "zh": "街角有一家小咖啡馆。", "ok": true, "note": "真正的主语是 a small café，单数，be 用 is。" },
+          { "en": "There have a small café on the corner of the street.", "zh": "街角有一家小咖啡馆。", "ok": false, "note": "存在义只能由 there be 承担，have 表所属，须有真正的主语，不能进入 there 结构。" },
+          { "en": "There are two books and a pen on the desk.", "zh": "桌上有两本书和一支笔。", "ok": true, "note": "最近的名词是 two books，复数，be 用 are。" },
+          { "en": "There is a pen and two books on the desk.", "zh": "桌上有一支笔和两本书。", "ok": true, "note": "就近原则，be 与最近的 a pen 一致用 is。" },
+          { "en": "There is two books and a pen on the desk.", "zh": "桌上有一支笔和两本书。", "ok": false, "note": "最近的名词是 two books，为复数，be 必须用 are。" },
+          { "en": "There is some interesting information in the report.", "zh": "报告里有一些有趣的信息。", "ok": true, "note": "information 不可数，be 用单数 is。" }
+        ],
+        "pitfalls": [
+          { "wrong": "There have many reasons for the change.", "right": "There are many reasons for the change.", "why": "there 结构的存在义只能由 be 承担；have 表示“拥有”，必须有真正的主语。" },
+          { "wrong": "There is three apples in the basket.", "right": "There are three apples in the basket.", "why": "be 要与后置的真正主语 three apples 保持一致，复数是 are。" },
+          { "wrong": "There are a table and four chairs in the room.", "right": "There is a table and four chairs in the room.", "why": "并列主语按就近原则，be 只与最近的 a table 一致，用 is。" }
+        ],
+        "contrast": { "withTitle": "there be 与 have 的区别及非谓语形式", "diff": "本点只管 there be 内部谁决定谓语；与 have 的分工以及 there being / there to be 的非谓语形式另作一点处理。" },
+        "mnemonic": "there 是引子，be 看后面；一个看名词，几个看最近。"
+      },
+      "review": {
+        "core": [
+          "there 是引导词，真正的主语在 be 之后",
+          "be 的单复数由后置名词决定，不由 there 决定",
+          "并列名词按就近原则，与最近的名词一致",
+          "存在义只能用 be，不能用 have",
+          "there be 后接不定指名词，特指名词改用主系表结构"
+        ],
+        "trigger": "看到 there ___ + 名词 → 先数最近那个名词 → 再定 is 还是 are",
+        "quickCheck": [
+          { "q": "There ___ a pen and two books on the desk. 填什么？", "a": "is，就近原则与 a pen 一致。" },
+          { "q": "There have a book on the desk. 错在哪里？", "a": "存在义须用 there be，have 不能进入 there 结构。" },
+          { "q": "There is a book on the desk. 的主语是哪个词？", "a": "a book，there 只是引导词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.there_be.existential-agreement.d1",
+          "type": "choice",
+          "stem": "___ a pharmacy and two supermarkets on this street.",
+          "options": ["There is", "There are", "It is", "There have"],
+          "answer": "There is",
+          "explain": "并列主语按就近原则，be 只与最近的 a pharmacy 一致，用单数 is。",
+          "trap": "There are 会被后面的 two supermarkets 带走，忽略就近原则；There have 则混淆了存在与所属。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.there_be.existential-agreement.d2",
+          "type": "fill",
+          "stem": "There ___ some milk and two eggs in the fridge.",
+          "answer": "is",
+          "accept": ["is"],
+          "hint": "看紧挨着 be 的那个名词。",
+          "explain": "最近的名词是 some milk，不可数，be 用单数 is；后面的 two eggs 不参与一致。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.there_be.existential-agreement.d3",
+          "type": "correct",
+          "stem": "There have many students waiting outside the office.",
+          "answer": "There are many students waiting outside the office.",
+          "accept": ["There are many students waiting outside the office."],
+          "explain": "句子表存在而非所属，须用 there be；主语 many students 为复数，be 用 are。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.there_be.existential-agreement.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["There", "is", "a", "map", "and", "two", "posters", "on", "the", "wall."],
+          "answer": "There is a map and two posters on the wall.",
+          "explain": "按就近原则，be 与最近的 a map 一致用 is；地点状语 on the wall 置于句末。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.there_be.existential-agreement.d5",
+          "type": "translate",
+          "stem": "桌上有一本书和两支笔。",
+          "answer": "There is a book and two pens on the table.",
+          "require": [["there is"], ["book"], ["pens"]],
+          "forbid": ["there have", "there has"],
+          "explain": "存在句用 there be，并列主语按就近原则与 a book 一致用 is；钢笔用复数 pens。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.there_be.existential-agreement.d6",
+          "type": "choice",
+          "stem": "There ___ a number of problems with the original plan.",
+          "options": ["are", "is", "has", "have"],
+          "answer": "are",
+          "explain": "a number of 意为“许多”，中心词是复数名词 problems，be 用 are；the number of 才表数量、用单数。",
+          "trap": "is 只看 a number 的字面单数形式，忽略了 a number of 后接复数名词这一固定结构。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.there_be.tense-modal",
+      "title": "there be 的时态与情态形式",
+      "brief": "时态与情态全部由 be 的变化承担",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["syntax.there_be.existential-agreement"],
+      "concept": {
+        "summary": "there be 的时态与情态一律通过 be 的变形实现：was/were 表过去，will be 表将来，have/has been 表现在完成，had been 表过去完成。情态动词后固定用 be 原形，不能用 is 或 are。be 后面的名词决定单复数这条规则在所有形式中都不变。",
+        "sections": [
+          {
+            "h": "时态形式的对应",
+            "p": "先确定时间参照，再把 be 变成相应形式，最后按后置名词定单复数。三步顺序不能颠倒，因为单复数检查只发生在最后一步。",
+            "bullets": [
+              "一般过去：There was a storm last night. / There were no seats left.",
+              "一般将来：There will be a meeting tomorrow. / There is going to be a change.",
+              "现在完成：There have been three complaints so far.",
+              "过去完成：There had been no rain for weeks before the fire.",
+              "将来完成：There will have been a full review by June.（少用但成立）"
+            ]
+          },
+          {
+            "h": "情态形式",
+            "p": "情态动词后面只能接动词原形，所以在 there 结构中一律是 there + 情态 + be。要表推测的完成意义时用 there + 情态 + have been。",
+            "bullets": [
+              "There must be a mistake in the invoice.",
+              "There may be delays on the northern line.",
+              "There can be no doubt about her commitment.",
+              "There must have been an accident at the junction.",
+              "否定与疑问同样只变 be 或情态：There isn't any milk. / Is there any chance of a refund?"
+            ]
+          },
+          {
+            "h": "与 seem/appear/used to 的组合",
+            "p": "seem、appear、happen、used to 后面接 to be 时，主谓一致落在这些动词上，判断依据仍是后面的名词。这类结构在阅读中出现频率很高。",
+            "bullets": [
+              "There seems to be a problem with the printer.",
+              "There seem to be two possible explanations.",
+              "There appears to have been a misunderstanding.",
+              "There used to be a bakery on this corner.",
+              "There happened to be a doctor on the train."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "There will be a staff meeting next Monday.", "zh": "下周一有一场员工会议。", "ok": true, "note": "将来存在用 there will be，be 保持原形。" },
+          { "en": "There have been several complaints about the noise.", "zh": "关于噪音已经有好几起投诉了。", "ok": true, "note": "现在完成形式 have been，与复数主语 complaints 一致。" },
+          { "en": "There will have a staff meeting next Monday.", "zh": "下周一有一场员工会议。", "ok": false, "note": "将来存在由 will be 表达，have 不能出现在 there 结构中。" },
+          { "en": "There must be a simpler explanation for this.", "zh": "这件事一定有一个更简单的解释。", "ok": true, "note": "情态动词 must 后接 be 原形，表肯定推测。" },
+          { "en": "There must is a simpler explanation for this.", "zh": "这件事一定有一个更简单的解释。", "ok": false, "note": "情态动词后必须用动词原形 be，不能用 is。" },
+          { "en": "There seems to be a misunderstanding between the two sides.", "zh": "双方之间似乎存在误解。", "ok": true, "note": "真正的主语 a misunderstanding 为单数，seem 用单数形式。" },
+          { "en": "There seem to be a misunderstanding between the two sides.", "zh": "双方之间似乎存在误解。", "ok": false, "note": "seem 的单复数要与后置主语 a misunderstanding 一致，须用 seems。" },
+          { "en": "There used to be a bakery on this corner.", "zh": "这个街角过去有一家面包店。", "ok": true, "note": "used to be 表过去存在，be 用原形。" }
+        ],
+        "pitfalls": [
+          { "wrong": "There will have a test next week.", "right": "There will be a test next week.", "why": "将来存在由 will be 承担，have 不能进入 there 结构，否则既无主语又改变语义。" },
+          { "wrong": "There must have a reason for his absence.", "right": "There must be a reason for his absence.", "why": "情态动词后只能接动词原形，表推测时用 must be；must have done 只用于对过去动作的推测。" },
+          { "wrong": "There were a lot of traffic this morning.", "right": "There was a lot of traffic this morning.", "why": "traffic 是不可数名词，be 必须用单数 was。" }
+        ],
+        "contrast": { "withTitle": "there be 的存在意义与主谓一致", "diff": "本点只把 be 换成不同时态与情态；谁决定单复数这条规则不变，仍看后置名词。" },
+        "mnemonic": "时态情态都压在 be 上；情态后面只认 be，不认 is。"
+      },
+      "review": {
+        "core": [
+          "过去 was/were、将来 will be、现在完成 have/has been、过去完成 had been",
+          "情态动词后一律用 be 原形：there must/may/can be",
+          "对过去的推测用 there must have been",
+          "seem/appear/used to 后接 to be，一致关系落在 seem 上",
+          "任何形式下 be 的单复数仍由后置名词决定"
+        ],
+        "trigger": "看到 there 后要表时间或推测 → 先定时态/情态 → 再检查后置名词的单复数",
+        "quickCheck": [
+          { "q": "“明天将有一场讲座”怎么说？", "a": "There will be a lecture tomorrow." },
+          { "q": "There must ___ a reason. 填什么？", "a": "be，情态动词后用原形。" },
+          { "q": "There seem to be a problem. 错在哪里？", "a": "真正的主语 a problem 是单数，须用 seems。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.there_be.tense-modal.d1",
+          "type": "choice",
+          "stem": "___ a sharp rise in house prices over the past two years.",
+          "options": ["There has been", "There have been", "There was", "There will be"],
+          "answer": "There has been",
+          "explain": "over the past two years 要求现在完成时，主语 a sharp rise 为单数，故用 there has been。",
+          "trap": "There have been 忽略主语中心词 rise 是单数，被后面的 prices 带偏。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.there_be.tense-modal.d2",
+          "type": "fill",
+          "stem": "There ___ (be) no rain in this region for six months before the fire broke out.",
+          "answer": "had been",
+          "accept": ["had been"],
+          "hint": "时间参照是火灾发生之前的那六个月。",
+          "explain": "“六个月没下雨”发生在火灾之前，属于过去的过去，须用过去完成时 there had been。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.there_be.tense-modal.d3",
+          "type": "correct",
+          "stem": "There will have a new library on campus next year.",
+          "answer": "There will be a new library on campus next year.",
+          "accept": ["There will be a new library on campus next year."],
+          "explain": "表将来存在须用 there will be，have 不能进入 there 结构，且 have 在此没有主语。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.there_be.tense-modal.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["There", "must", "have", "been", "a", "misunderstanding."],
+          "answer": "There must have been a misunderstanding.",
+          "explain": "对过去情况的肯定推测用 there must have been，be 变为完成形式 been。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.there_be.tense-modal.d5",
+          "type": "translate",
+          "stem": "明天下午将有一场讲座。",
+          "answer": "There will be a lecture tomorrow afternoon.",
+          "require": [["there will be"], ["lecture"]],
+          "forbid": ["there will have", "there is going to have"],
+          "explain": "将来存在用 there will be 或 there is going to be，两者都不能换成 have；lecture 为单数，be 用原形。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.there_be.tense-modal.d6",
+          "type": "choice",
+          "stem": "There ___ to be several problems with the new system.",
+          "options": ["seem", "seems", "is seeming", "seemed"],
+          "answer": "seem",
+          "explain": "seem 的主语是后置的 several problems，为复数，须用复数形式 seem；seem 作系动词一般不用进行时。",
+          "trap": "seems 只看到 to be 就按单数处理，忽略真正的主语是 several problems。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.there_be.vs-have-nonfinite",
+      "title": "there be 与 have 的区别及非谓语形式",
+      "brief": "存在与拥有分工不同，非谓语另有专用形式",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["syntax.there_be.tense-modal"],
+      "concept": {
+        "summary": "判定标准看主语：句子回答“某处存在着什么”、主语位置没有具体对象时用 there be；回答“谁拥有什么”、主语是具体的人或物时用 have。there be 只能作谓语，需要作主语、宾语或状语时改用非谓语形式——介词后和独立主格用 there being，作主语或动词宾语用 there to be。",
+        "sections": [
+          {
+            "h": "存在与拥有：看主语是谁",
+            "p": "两种结构不能互换的根源在于主语。there be 的主语后置，句首的 there 只是占位；have 前面必须是真正的所有者。句子意思落在“存在”还是“归属”，由此决定。",
+            "bullets": [
+              "存在：There is a small library on the second floor.",
+              "拥有：Our school has a small library on the second floor.",
+              "人物所有权只能用 have：× There is a brother of mine in Canada.",
+              "there be 不能再带另一个主语：× Our school there is a library."
+            ]
+          },
+          {
+            "h": "非谓语：there being 与 there to be",
+            "p": "there 结构不能作主语或宾语，因为 it 已占住主语位置的是形式主语，而 there 本身没有格。需要非谓语时，there 与 be 一起变成 there being 或 there to be，选择依据是前面的词要求动名词还是不定式。",
+            "bullets": [
+              "介词后与独立主格用 there being：She insisted on there being a formal vote.",
+              "独立主格表原因：There being no bus at that hour, we walked home.",
+              "expect/want/consider/intend/hate/prefer 后用 there to be：I expect there to be no objections.",
+              "deny/mind/insist on 后用 there being：He denied there being any problem.",
+              "完成式用 there having been：There having been no reply, we cancelled the order."
+            ]
+          },
+          {
+            "h": "there be 的固定扩展句式",
+            "p": "这些句式已经整体化，看到前半截就能确定后面接什么形式，不需要再作结构分析。",
+            "bullets": [
+              "There is no point in doing sth.（做某事没有意义）",
+              "There is no denying that...（不可否认……）",
+              "There is no need to do sth.（没有必要做某事）",
+              "There is said/reported/believed to be...（据说/据报道存在……）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "There is a small library on the second floor.", "zh": "二楼有一个小图书馆。", "ok": true, "note": "回答“存在什么”，主语后置，句首用 there。" },
+          { "en": "Our school has a small library on the second floor.", "zh": "我们学校二楼有一个小图书馆。", "ok": true, "note": "回答“谁拥有”，主语 our school 在前，用 have。" },
+          { "en": "She insisted on there to be a formal vote.", "zh": "她坚持要进行一次正式投票。", "ok": false, "note": "介词 on 后要求动名词，there 的非谓语形式是 there being，不能用 there to be。" },
+          { "en": "There being no bus at that hour, we decided to walk home.", "zh": "那个时间没有公交车，我们决定走回家。", "ok": true, "note": "there being 构成独立主格，作原因状语。" },
+          { "en": "I expect there to be no objections to the proposal.", "zh": "我预计不会有人反对这项提议。", "ok": true, "note": "expect 后接不定式，there 结构用 there to be。" },
+          { "en": "There is no denying that the plan carries risks.", "zh": "不可否认这个计划有风险。", "ok": true, "note": "there is no denying that 是固定句式，后面接完整从句。" },
+          { "en": "There is no point to argue with him about it.", "zh": "为这件事和他争论没有意义。", "ok": false, "note": "no point 后固定接 in + 动名词，应改为 no point in arguing。" }
+        ],
+        "pitfalls": [
+          { "wrong": "There has a beautiful garden behind the house.", "right": "There is a beautiful garden behind the house.", "why": "存在义只能由 be 承担；have 表所属，必须有真正的主语，不能放在 there 之后。" },
+          { "wrong": "He denied there to be any problem with the data.", "right": "He denied there being any problem with the data.", "why": "deny 后接动名词，there 的非谓语形式相应取 there being。" },
+          { "wrong": "There is no point to complain about the result.", "right": "There is no point in complaining about the result.", "why": "no point 后是固定结构 in + 动名词，介词 in 不能省，动词也不能用不定式。" }
+        ],
+        "contrast": { "withTitle": "it 的固定句型", "diff": "there be 句型主语后置、只表存在；it 句型用形式主语占位，后面接的是真正的主语从句或不定式，表评价或事实。" },
+        "mnemonic": "存在 there be，拥有 have；介词后面 there being，动词后面 there to be。"
+      },
+      "review": {
+        "core": [
+          "存在用 there be，拥有用 have，判断依据是主语是谁",
+          "there be 不能与另一个主语并存，也不能用 have 代替 be",
+          "介词后与独立主格用 there being",
+          "expect/want/consider 后用 there to be",
+          "固定句式：no point in doing / no denying that / no need to do"
+        ],
+        "trigger": "看到 there 要放在介词后或动词后 → 立刻换 there being / there to be → 再核对前面的词要求哪种形式",
+        "quickCheck": [
+          { "q": "“我们学校有一个大操场”能用 there be 吗？", "a": "可以，There is a large playground in our school.；若强调学校拥有该设施也可用 Our school has..." },
+          { "q": "insist on there ___ a vote. 填什么？", "a": "being，介词 on 后接动名词。" },
+          { "q": "There is no point ___ (argue). 填什么？", "a": "in arguing，固定结构 in + 动名词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.there_be.vs-have-nonfinite.d1",
+          "type": "choice",
+          "stem": "___ no point in arguing with someone who refuses to listen.",
+          "options": ["There is", "It is", "There has", "That is"],
+          "answer": "There is",
+          "explain": "no point in doing 是 there be 的固定扩展句式，表“做某事没有意义”，句首用 there is。",
+          "trap": "It is 是形式主语结构，虽然也能带评价形容词，但 no point in doing 已固定为 there be 句式。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.there_be.vs-have-nonfinite.d2",
+          "type": "fill",
+          "stem": "The company expects there ___ (be) a gradual recovery next year.",
+          "answer": "to be",
+          "accept": ["to be"],
+          "hint": "expect 后接不定式。",
+          "explain": "expect 要求不定式作宾语，there 结构相应变为 there to be，不能保留谓语形式 there is。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.there_be.vs-have-nonfinite.d3",
+          "type": "correct",
+          "stem": "She insisted on there to be an independent review of the case.",
+          "answer": "She insisted on there being an independent review of the case.",
+          "accept": ["She insisted on there being an independent review of the case."],
+          "explain": "insist on 的 on 是介词，后面必须接动名词，there 结构取 there being 而不是 there to be。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.there_be.vs-have-nonfinite.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["There", "being", "no", "taxi", "available,", "we", "walked", "home."],
+          "answer": "There being no taxi available, we walked home.",
+          "explain": "there being 引导独立主格作原因状语，主句主语 we 与它不同，构成完整的复合结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.there_be.vs-have-nonfinite.d5",
+          "type": "translate",
+          "stem": "这座房子后面有一个美丽的花园。",
+          "answer": "There is a beautiful garden behind the house.",
+          "require": [["there is"], ["garden"]],
+          "forbid": ["there has", "there have"],
+          "explain": "句子表存在而非所属，须用 there be；主语 a beautiful garden 为单数，be 用 is。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.there_be.vs-have-nonfinite.d6",
+          "type": "choice",
+          "stem": "He was late because of ___ no direct bus to the airport.",
+          "options": ["there being", "there to be", "there is", "there was"],
+          "answer": "there being",
+          "explain": "because of 的 of 是介词，后面接动名词，there 结构取 there being，构成介词宾语。",
+          "trap": "there to be 只用于 expect/want 等动词后，介词后用错形式；there is 是谓语形式，不能作介词宾语。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

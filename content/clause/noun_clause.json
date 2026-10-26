@@ -1,0 +1,980 @@
+{
+  "level1": "clause",
+  "chapter": "noun_clause",
+  "items": [
+    {
+      "id": "clause.noun_clause.subject-clause",
+      "title": "主语从句的构成与形式主语",
+      "brief": "从句整体作主语，谓语用单数，太长用 it 后置",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["syntax.sentence_elements.subject-forms", "syntax.it_usage.formal-subject"],
+      "concept": {
+        "summary": "判定标准只有一条：从句整体占据主句谓语之前的位置，就是主语从句，主句谓语一律按单数处理。从句较长时为避免头重脚轻，用 it 占住主语位、把从句移到句末，it 本身不指代任何具体事物。",
+        "sections": [
+          {
+            "h": "三步判定流程（全章通用）",
+            "p": "名词性从句的引导词不由“意思”决定，而由两个问题决定：从句在主句中作什么成分，从句自身缺什么成分；最后才看语义需要什么。顺序不能颠倒，先定成分再定词。",
+            "bullets": [
+              "第一步定成分：从句替换主句的哪个成分——主语、宾语、表语还是同位语，决定它是否属于名词性从句",
+              "第二步定完整：把从句单独看，主谓宾齐全用 that/whether；缺主语或宾语用连接代词 what/who/which",
+              "第三步定语义：需要“是否”用 whether/if，需要“何时/何地/为什么/怎样”用连接副词"
+            ]
+          },
+          {
+            "h": "主语从句的两个位置",
+            "p": "从句可以直接放在句首作主语，也可以后置而让 it 占位。置于句首时 that 必须出现，用 it 后置时 that 同样保留。whether 引导的主语从句可以前置，也可以用 it 后置；if 不能进入这个位置。",
+            "bullets": [
+              "That she won the scholarship pleased her parents.",
+              "It pleased her parents that she won the scholarship.",
+              "What matters is not the result but the effort.",
+              "It is still unknown whether the flight will leave on time."
+            ]
+          },
+          {
+            "h": "主谓一致与 it 的使用边界",
+            "p": "主语从句作主语时视为一个整体，谓语用单数；只有两个从句用 and 并列，谓语才用复数。what 引导的从句通常直接置于句首，不改成 it 前置，因为 it 无法承载 what 的指代内容。",
+            "bullets": [
+              "What he needs is a quiet room.（谓语用 is）",
+              "What he said and what he did were completely different.（两个从句并列，用 were）",
+              "what 从句作主语时直接放在句首，不用 it 占位替代"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "That she passed the driving test on her first try surprised everyone.", "zh": "她第一次就通过驾照考试，这让所有人都很惊讶。", "ok": true, "note": "that 引导的主语从句置于句首，that 不可省略，主句谓语 surprised 用单数。" },
+          { "en": "It is still unknown whether the new policy will take effect next month.", "zh": "新政策下个月是否生效仍然不清楚。", "ok": true, "note": "whether 从句后置，it 作形式主语占位，真正的主语是 whether 从句。" },
+          { "en": "What the company needs most is a clear marketing strategy.", "zh": "这家公司最需要的是一套清晰的市场策略。", "ok": true, "note": "what 在从句中作 needs 的宾语，主句谓语按整体用单数 is。" },
+          { "en": "What he said at the meeting were quite reasonable.", "zh": "他在会上说的话相当有道理。", "ok": false, "note": "主语从句视为一个整体，谓语应为 was，不随后面的表语变复数。" },
+          { "en": "He was absent from the lecture is a pity.", "zh": "他没来听讲座真是遗憾。", "ok": false, "note": "缺少引导词 that，句子出现两个谓语；应改为 That he was absent from the lecture is a pity." },
+          { "en": "It doesn't matter who finishes first as long as the work is done well.", "zh": "只要工作做好，谁先完成并不重要。", "ok": true, "note": "who 从句后置，it 作形式主语，matter 用第三人称单数。" },
+          { "en": "Whether we can get the funding depends on the committee's decision.", "zh": "我们能否拿到经费取决于委员会的决定。", "ok": true, "note": "whether 从句位于句首作主语，此处不能用 if 替换。" }
+        ],
+        "pitfalls": [
+          { "wrong": "What he needs are more time and a quiet place to think.", "right": "What he needs is more time and a quiet place to think.", "why": "主语从句整体充当一个单数概念，谓语与这个概念一致，不随后面并列的表语变成复数。" },
+          { "wrong": "He failed the exam made him rethink his study habits.", "right": "That he failed the exam made him rethink his study habits.", "why": "主语从句必须由 that 引导，缺 that 后句子出现两个谓语，结构无法成立。" },
+          { "wrong": "That whether he will join us is unclear.", "right": "Whether he will join us is unclear.", "why": "whether 本身已是引导词，再叠加 that 会造成引导词重复。" }
+        ],
+        "contrast": { "withTitle": "宾语从句的语序与时态", "diff": "主语从句位于主句谓语之前且 that 不可省；宾语从句位于及物动词之后且 that 常可省。" },
+        "mnemonic": "从句作主语，谓语用单数；头重脚轻用 it，句首 that 不能丢。"
+      },
+      "review": {
+        "core": [
+          "主语从句整体作主语，主句谓语用单数",
+          "句首主语从句 that 不可省；两个从句并列谓语才用复数",
+          "长从句用 it 作形式主语后置：It is unknown whether...",
+          "whether 可引导主语从句，if 不可",
+          "what 从句自带成分，直接置于句首，不用 it 前置"
+        ],
+        "trigger": "看到句首是 that/whether/what 引导的完整从句 → 先确认它作主语 → 谓语写单数 → 再看是否该用 it 后置",
+        "quickCheck": [
+          { "q": "That he is honest ___ (be) known to us all. 填什么？", "a": "is，主语从句整体作主语，谓语用单数。" },
+          { "q": "主语从句置于句首时 that 能省略吗？", "a": "不能，省略后句子会出现两个谓语。" },
+          { "q": "“他是否会来还不确定”用 whether 还是 if？", "a": "whether：Whether he will come is uncertain. 主语从句不用 if。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.noun_clause.subject-clause.d1",
+          "type": "choice",
+          "stem": "___ he will accept the position remains uncertain.",
+          "options": ["Whether", "If", "That", "What"],
+          "answer": "Whether",
+          "explain": "从句位于句首作主语，语义是“是否”，只能用 whether；that 表确定的事实，与 uncertain 冲突，what 则必须在从句中充当成分。",
+          "trap": "If 是最强干扰项：它在宾语从句中可表“是否”，但句首主语从句的位置一律用 whether。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.subject-clause.d2",
+          "type": "fill",
+          "stem": "___ is reported that the bridge will reopen next spring.",
+          "answer": "It",
+          "accept": ["It"],
+          "hint": "真正的主语是后面的 that 从句。",
+          "explain": "that 从句是真正的主语，句首用 it 作形式主语占位，构成 It is reported that 这一固定结构。",
+          "difficulty": 1
+        },
+        {
+          "id": "clause.noun_clause.subject-clause.d3",
+          "type": "correct",
+          "stem": "What the students need most are a quiet place to review their lessons.",
+          "answer": "What the students need most is a quiet place to review their lessons.",
+          "accept": ["What the students need most is a quiet place to review their lessons."],
+          "explain": "what 从句作主语时视为一个整体，谓语用单数 is，不受表语 a quiet place 的单复数影响。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.subject-clause.d4",
+          "type": "translate",
+          "stem": "他为什么迟到仍然是个谜。",
+          "answer": "Why he was late is still a mystery.",
+          "require": [["why he was late"], ["mystery"]],
+          "forbid": ["why was he late", "why did he late"],
+          "explain": "主语从句用陈述语序，why 后直接跟主语 he 和谓语 was；主句谓语按整体用单数 is。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.subject-clause.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Whether", "we", "should", "cancel", "the", "trip", "depends", "on", "the", "weather."],
+          "answer": "Whether we should cancel the trip depends on the weather.",
+          "explain": "whether 引导的主语从句置于句首，主句谓语 depends 用第三人称单数。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.noun_clause.object-clause-tense",
+      "title": "宾语从句的语序与时态",
+      "brief": "两查：语序是否陈述，时态是否呼应",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["syntax.sentence_types.yes-no-wh", "tense_voice.tense_agreement.sequence"],
+      "concept": {
+        "summary": "宾语从句只查两件事：语序与时态。语序上，从句一律陈述语序，疑问句嵌入时删去 do/does/did 并把动词还原；时态上，主句为过去时则从句退到过去的某一时态，但客观真理、主句为现在时、从句自带明确过去时间状语三种情况不受限制。",
+        "sections": [
+          {
+            "h": "语序还原的三步操作",
+            "p": "把疑问句改成宾语从句要按固定顺序操作：先保留疑问词，再删去助动词，最后把动词改成与主语、时态相配的形式。三步做完，从句一定是“疑问词 + 主语 + 谓语”。",
+            "bullets": [
+              "Where does he live? → I don't know where he lives.（删 does，live 加 s）",
+              "What did she buy? → He asked what she had bought.（删 did，buy 变 had bought）",
+              "Is he coming? → She asked whether he was coming.（be 动词回到主语后）"
+            ]
+          },
+          {
+            "h": "时态呼应的三条例外",
+            "p": "主句谓语是过去时，从句一般退到过去时态。三类情况保留原时态：从句陈述客观真理或习惯性事实；主句是现在时或将来时；从句带有明确的过去时间状语，此时用一般过去时即可。",
+            "bullets": [
+              "The teacher told us that water boils at 100°C.",
+              "He says that he has finished the report.",
+              "She said that she joined the club in 2019."
+            ]
+          },
+          {
+            "h": "that 的省略与不可省",
+            "p": "宾语从句的 that 在口语与书面语中都可省略；但两个并列的宾语从句中，第二个 that 必须保留，否则读者会把第二个从句误读为并列谓语。介词后一般不用 that 从句，例外只有 in that、except that、save that。",
+            "bullets": [
+              "He told me he was busy and that he would call back.",
+              "I believe she is right.",
+              "The plan is fine except that it costs too much."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She asked me where I had bought the dictionary.", "zh": "她问我那本词典是在哪里买的。", "ok": true, "note": "疑问句嵌入后还原为陈述语序，删去 did，buy 变为 had bought。" },
+          { "en": "She asked me where had I bought the dictionary.", "zh": "她问我那本词典是在哪里买的。", "ok": false, "note": "从句仍是疑问语序；应为 where I had bought，助动词不能提到主语前。" },
+          { "en": "The teacher told us that light travels faster than sound.", "zh": "老师告诉我们光比声音传播得快。", "ok": true, "note": "从句陈述客观真理，即使主句是过去时也保留一般现在时。" },
+          { "en": "She told me that she has finished the report the day before.", "zh": "她告诉我她前一天就完成了报告。", "ok": false, "note": "the day before 要求动作发生在过去之前，且主句为过去时，应改为 had finished。" },
+          { "en": "He said that he would take part in the competition the following week.", "zh": "他说他下周会参加比赛。", "ok": true, "note": "主句为过去时，从句的将来要转为过去将来 would take。" },
+          { "en": "I don't know whether the bank is open on Saturdays.", "zh": "我不知道这家银行周六是否营业。", "ok": true, "note": "whether 引导宾语从句表“是否”，从句保持陈述语序。" },
+          { "en": "Nobody knows what caused the sudden power failure.", "zh": "没有人知道是什么引起了这次突然停电。", "ok": true, "note": "what 在从句中作主语，语序为 what + 谓语 + 宾语。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He asked me what time did the train leave.", "right": "He asked me what time the train left.", "why": "宾语从句必须陈述语序，删去 did 后 leave 要用过去式 left，主句 asked 决定时态。" },
+          { "wrong": "The teacher told us that the earth moved around the sun.", "right": "The teacher told us that the earth moves around the sun.", "why": "客观真理不受时态呼应约束，从句保留一般现在时。" },
+          { "wrong": "She said that she will finish the report the next day.", "right": "She said that she would finish the report the next day.", "why": "主句为过去时，从句的将来要改为过去将来 would do。" }
+        ],
+        "contrast": { "withTitle": "名词性从句的语序与标点", "diff": "本知识点处理从句内部的语序与时态呼应；标点由主句决定，属语序与标点一节。" },
+        "mnemonic": "先删助动词，再还动词形；真理不后退，过去照样行。"
+      },
+      "review": {
+        "core": [
+          "宾语从句一律陈述语序：疑问词 + 主语 + 谓语",
+          "疑问句嵌入：删 do/does/did，动词按时态还原",
+          "主句过去时 → 从句退到过去时、过去完成时或过去将来时",
+          "三例外：客观真理、主句现在时、从句自带过去时间状语",
+          "that 可省；并列的第二个宾语从句 that 不省"
+        ],
+        "trigger": "看到动词后跟一个疑问词开头的从句 → 先删助动词还原语序 → 再看主句时态决定从句时态",
+        "quickCheck": [
+          { "q": "He asked me where I ___ (live). 主句过去时填什么？", "a": "lived，主句过去时，从句随之用过去时。" },
+          { "q": "The teacher said that the earth ___ (be) round. 填什么？", "a": "is，客观真理不改时态。" },
+          { "q": "I don't know what ___ (he/want). 语序怎么定？", "a": "what he wants，陈述语序且动词加 s。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.noun_clause.object-clause-tense.d1",
+          "type": "choice",
+          "stem": "He asked me ___.",
+          "options": ["where I had bought the ticket", "where had I bought the ticket", "where did I buy the ticket", "where I have bought the ticket"],
+          "answer": "where I had bought the ticket",
+          "explain": "宾语从句用陈述语序；主句 asked 为过去时，买票发生在其之前，从句用过去完成时 had bought。",
+          "trap": "where had I bought 保留了疑问语序，把助动词提到主语前，是最典型的干扰项。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.object-clause-tense.d2",
+          "type": "fill",
+          "stem": "The teacher told us that the sun ___ (rise) in the east.",
+          "answer": "rises",
+          "accept": ["rises"],
+          "hint": "从句陈述的是客观真理。",
+          "explain": "宾语从句陈述客观真理时不受主句过去时影响，仍用一般现在时；主语 the sun 为第三人称单数，动词加 s。",
+          "difficulty": 1
+        },
+        {
+          "id": "clause.noun_clause.object-clause-tense.d3",
+          "type": "correct",
+          "stem": "She asked me how long did it take to get to the airport.",
+          "answer": "She asked me how long it took to get to the airport.",
+          "accept": ["She asked me how long it took to get to the airport."],
+          "explain": "宾语从句用陈述语序：删去 did 后 it 紧跟 how long，take 按主句时态变为过去式 took。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.object-clause-tense.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "said", "that", "he", "would", "come", "back", "the", "next", "week."],
+          "answer": "He said that he would come back the next week.",
+          "explain": "主句 said 为过去时，从句的将来用 would come；that 引导宾语从句，从句保持陈述语序。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.object-clause-tense.d5",
+          "type": "translate",
+          "stem": "他问我是否已经完成了作业。",
+          "answer": "He asked me whether I had finished my homework.",
+          "require": [["asked me whether", "asked me if"], ["had finished"]],
+          "forbid": ["have finished", "whether had I"],
+          "explain": "主句为过去时，完成作业发生在之前，从句用过去完成时 had finished；whether 从句用陈述语序。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "clause.noun_clause.predicative-clause",
+      "title": "表语从句的构成",
+      "brief": "系动词后用 that/whether/as if 引出主语内容",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["syntax.basic_patterns.sv-svo-svc", "syntax.sentence_elements.attributive-adverbial-predicative"],
+      "concept": {
+        "summary": "表语从句的判定位置是系动词之后：从句整体回答“主语是什么、怎么样”，跟在 be、seem、look、remain、sound 等系动词后。引导词按语义分工：陈述事实用 that，表“是否”只能用 whether，表“仿佛”用 as if，表原因用 because，但主语是 reason 时改用 that。",
+        "sections": [
+          {
+            "h": "位置判定：只有系动词后才叫表语从句",
+            "p": "同一个从句跟在及物动词后是宾语从句，跟在系动词后是表语从句。判断时先找主句谓语：若是 be、look、seem、remain、sound、appear 这类系动词，其后的从句即表语从句。",
+            "bullets": [
+              "The trouble is that we have no backup plan.",
+              "It seems that nobody noticed the mistake.",
+              "His only concern remained whether the data were reliable."
+            ]
+          },
+          {
+            "h": "引导词的四类分工",
+            "p": "表语从句的引导词按语义分工，不能互换。that 引出确定的事实；whether 引出“是否”，if 不能进入这一位置；as if 与 as though 引出仿佛的情形；because 引出原因，只用于 This is because 这类句式。",
+            "bullets": [
+              "The question is whether the results can be reproduced.（不用 if）",
+              "It looks as if the storm is coming.",
+              "That is because the engine overheated."
+            ]
+          },
+          {
+            "h": "reason 与 because 不能同现",
+            "p": "The reason is that... 是规范写法；The reason is because... 让 reason 与 because 重复表达同一层因果，书面语判为错误。同理，That is why 后接结果，That is because 后接原因，两者不可互换。",
+            "bullets": [
+              "The reason he left is that he found a better job.",
+              "That is why he left early.（后接结果）",
+              "That is because he had a meeting.（后接原因）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The problem is that we have run out of time.", "zh": "问题是我们已经没有时间了。", "ok": true, "note": "that 引导表语从句说明 problem 的内容，书面语中不省略。" },
+          { "en": "The problem is because we have run out of time.", "zh": "问题是我们已经没有时间了。", "ok": false, "note": "problem 与 because 重复表达因果；表语从句应用 that 引出内容。" },
+          { "en": "The question is whether the committee will approve the budget.", "zh": "问题是委员会是否会批准这笔预算。", "ok": true, "note": "表“是否”的表语从句只用 whether，if 不能进入该位置。" },
+          { "en": "The question is if the committee will approve the budget.", "zh": "问题是委员会是否会批准这笔预算。", "ok": false, "note": "if 不引导表语从句，应改为 whether。" },
+          { "en": "It looks as if it is going to snow.", "zh": "看起来快要下雪了。", "ok": true, "note": "as if 引导表语从句，表示从迹象看仿佛要发生。" },
+          { "en": "That is why she refused the offer.", "zh": "这就是她拒绝这个提议的原因。", "ok": true, "note": "That is why 后接结果，why 从句作表语。" },
+          { "en": "The reason for his absence is that he was ill.", "zh": "他缺席的原因是他病了。", "ok": true, "note": "主语为 reason 时，表语从句用 that 引出内容，不用 because。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The reason why he was late is because he missed the bus.", "right": "The reason why he was late is that he missed the bus.", "why": "reason 已表达因果，表语从句再用 because 造成语义重复，规范写法用 that。" },
+          { "wrong": "The trouble is what we have no money.", "right": "The trouble is that we have no money.", "why": "从句主谓宾齐全，不缺成分，不能用必须充当成分的 what。" },
+          { "wrong": "My suggestion is we should start before dawn.", "right": "My suggestion is that we should start before dawn.", "why": "表语从句的 that 在书面语中不省略，省略后两个分句失去连接。" }
+        ],
+        "contrast": { "withTitle": "宾语从句的语序与时态", "diff": "表语从句跟在系动词后说明主语内容，that 一般不省；宾语从句跟在及物动词后，that 常可省。" },
+        "mnemonic": "系动词后是表语，that 引出内容，whether 表是否，reason 后不用 because。"
+      },
+      "review": {
+        "core": [
+          "表语从句位于系动词后，回答主语“是什么、怎么样”",
+          "陈述事实用 that，书面语中不省略",
+          "表“是否”只用 whether，if 不引导表语从句",
+          "as if / as though 表仿佛；because 只用于 That is because",
+          "The reason is that...，不用 The reason is because..."
+        ],
+        "trigger": "看到 be/seem/look/remain 后跟一个完整从句 → 判为表语从句 → 按语义选 that/whether/as if",
+        "quickCheck": [
+          { "q": "The question is ___ we can finish it on time. 填 whether 还是 if？", "a": "whether，表语从句不用 if。" },
+          { "q": "The reason is ___ he was ill. 填什么？", "a": "that，reason 后不用 because。" },
+          { "q": "That is why 与 That is because 有什么区别？", "a": "前者后接结果，后者后接原因。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.noun_clause.predicative-clause.d1",
+          "type": "choice",
+          "stem": "The reason he gave for his absence was ___ he had missed the early bus.",
+          "options": ["that", "because", "why", "what"],
+          "answer": "that",
+          "explain": "was 后是表语从句，从句 he had missed the early bus 主谓宾齐全，只缺连接词；主语是 reason，用 that 引出内容以避免与 because 语义重复。",
+          "trap": "because 是最强干扰项：它虽表原因，但与 reason 重复，规范书面语要求用 that。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.predicative-clause.d2",
+          "type": "fill",
+          "stem": "The question is ___ we should tell him the truth now.",
+          "answer": "whether",
+          "accept": ["whether"],
+          "hint": "从句表达“是否”，且位于系动词之后。",
+          "explain": "表语从句表“是否”只能用 whether；if 不能进入系动词后的这个位置。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.predicative-clause.d3",
+          "type": "correct",
+          "stem": "The reason why she left the company early is because she felt unwell.",
+          "answer": "The reason why she left the company early is that she felt unwell.",
+          "accept": ["The reason why she left the company early is that she felt unwell."],
+          "explain": "主语 reason 已表达因果，表语从句再用 because 造成语义重复，规范写法为 that。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.predicative-clause.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["That", "is", "why", "he", "decided", "to", "change", "his", "major."],
+          "answer": "That is why he decided to change his major.",
+          "explain": "why 从句作表语，That is why 后接结果；decided 用过去式，与从句描述的事实一致。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.predicative-clause.d5",
+          "type": "translate",
+          "stem": "问题是我们没有足够的时间完成这个项目。",
+          "answer": "The problem is that we do not have enough time to finish the project.",
+          "require": [["is that"], ["enough time"]],
+          "forbid": ["is because", "is what"],
+          "explain": "problem 后用 that 引出表语从句的内容；从句成分完整，不用 what；用 because 会与 problem 的因果含义重复。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "clause.noun_clause.appositive-vs-relative",
+      "title": "同位语从句与定语从句的区别",
+      "brief": "三条判据：that 作不作成分、从句全不全、能否换 which",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["clause.relative_clause.that-vs-which", "syntax.subject_verb_agreement.relative-clause"],
+      "concept": {
+        "summary": "同位语从句与定语从句形式相同，只能靠三条判据区分：一看 that 在从句中是否充当成分，充当成分是定语从句；二看从句是否完整，缺成分是定语从句；三看 that 能否换成 which，能换是定语从句。三条同向时结论一致，出现矛盾时以第一条为准。",
+        "sections": [
+          {
+            "h": "判据一：that 是否充当成分",
+            "p": "同位语从句的 that 只起连接作用，不充当任何句子成分，删掉后从句依然完整；定语从句的 that 是关系代词，必须在从句中作主语或宾语，删掉后从句缺成分。这一条最可靠，因为它不依赖语义判断。",
+            "bullets": [
+              "The news that our team had won spread fast.（that 不作成分，同位语从句）",
+              "The news that he told us was false.（that 作 told 的宾语，定语从句）",
+              "The fact that she resigned surprised us.（she resigned 本身已完整）"
+            ]
+          },
+          {
+            "h": "判据二与判据三：完整度与 which 替换",
+            "p": "从句完整即同位语从句；从句缺主语或宾语即定语从句。指物时，定语从句的 that 通常可换成 which，同位语从句的 that 不能换。三条判据要一起用，单看词义会误判。",
+            "bullets": [
+              "The hope that he would recover kept the family going.（完整，不能换 which）",
+              "The book that she recommended is out of print.（缺宾语，可换 which）",
+              "The evidence that he was involved has not been confirmed.（完整，同位语）"
+            ]
+          },
+          {
+            "h": "触发词与位置限制",
+            "p": "同位语从句只跟在能容纳“内容”的抽象名词后：fact, news, idea, belief, doubt, hope, evidence, possibility, thought, promise, conclusion, rumour, suggestion。这类名词后若从句完整，几乎都是同位语从句；普通具体名词后的从句只能是定语从句。",
+            "bullets": [
+              "常带同位语从句：fact, news, idea, belief, evidence, possibility, conclusion, rumour",
+              "同位语从句可由 whether 引导：the question whether we should go",
+              "定语从句可修饰任何名词，包括具体名词：the man who called you"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The news that our team had won the cup spread quickly.", "zh": "我们队赢得奖杯的消息迅速传开了。", "ok": true, "note": "won 已有宾语 the cup，从句完整，that 不作成分，是同位语从句。" },
+          { "en": "The news that he told us turned out to be false.", "zh": "他告诉我们的那个消息结果是假的。", "ok": true, "note": "told 缺宾语，that 作宾语，可换成 which，是定语从句。" },
+          { "en": "The fact that she speaks four languages helped her get the job.", "zh": "她会说四种语言这一事实帮她得到了这份工作。", "ok": true, "note": "从句主谓宾齐全，that 只起连接作用，是同位语从句。" },
+          { "en": "The fact which she speaks four languages helped her get the job.", "zh": "她会说四种语言这一事实帮她得到了这份工作。", "ok": false, "note": "从句完整，which 无处充当成分；同位语从句的 that 不能换成 which。" },
+          { "en": "The idea that he came up with was surprisingly practical.", "zh": "他想出的那个主意出乎意料地实用。", "ok": true, "note": "came up with 缺宾语，that 作 with 的宾语，是定语从句。" },
+          { "en": "The suggestion that we should start earlier was accepted.", "zh": "我们应当早点出发这一建议被采纳了。", "ok": true, "note": "should start earlier 结构完整，that 不作成分，是同位语从句。" },
+          { "en": "The suggestion what we should start earlier was accepted.", "zh": "我们应当早点出发这一建议被采纳了。", "ok": false, "note": "从句完整，what 必须充当成分，只能改为 that 引导的同位语从句。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The fact which he is innocent is clear to everyone.", "right": "The fact that he is innocent is clear to everyone.", "why": "he is innocent 主系表齐全，which 无成分可作，只能用不充当成分的 that。" },
+          { "wrong": "The news which our team had won spread quickly.", "right": "The news that our team had won spread quickly.", "why": "从句 our team had won 已完整，which 无位可占；同位语从句只能用 that 或 whether 引导。" },
+          { "wrong": "The doubt that whether he will come remains.", "right": "The doubt whether he will come remains.", "why": "whether 本身已是引导词，再叠加 that 会重复引导，且 that 在此不充当成分。" }
+        ],
+        "contrast": { "withTitle": "定语从句与其他从句的辨识", "diff": "本知识点用三条判据区分同位语从句与定语从句；后者还要比较状语从句的位置与语义功能。" },
+        "mnemonic": "that 不作成分、从句完整、不能换 which，三条都中就是同位语。"
+      },
+      "review": {
+        "core": [
+          "判据一：that 不作成分 → 同位语从句；作主/宾 → 定语从句",
+          "判据二：从句完整 → 同位语；缺成分 → 定语",
+          "判据三：能换 which → 定语从句；不能换 → 同位语从句",
+          "同位语从句只跟 fact/news/idea/belief/evidence/possibility 等抽象名词",
+          "同位语从句可由 whether 引导：the question whether..."
+        ],
+        "trigger": "看到抽象名词 + that 从句 → 先删 that 看从句是否完整 → 完整即同位语，缺成分即定语",
+        "quickCheck": [
+          { "q": "The news that he told me 中 that 作什么成分？", "a": "作 told 的宾语，是定语从句。" },
+          { "q": "The fact that he lied 中 that 能换成 which 吗？", "a": "不能，从句完整，which 无成分可作。" },
+          { "q": "同位语从句能由 whether 引导吗？", "a": "能，如 the question whether we should go。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.noun_clause.appositive-vs-relative.d1",
+          "type": "choice",
+          "stem": "The news ___ the factory would close down soon shocked the workers.",
+          "options": ["that", "which", "what", "whether"],
+          "answer": "that",
+          "explain": "would close down 结构完整，that 不作成分，是同位语从句；which 引导定语从句时必须在从句中作主语或宾语，此处无位可占。",
+          "trap": "which 是最大干扰项：它形式上可以跟在 the news 后，但要求从句缺成分，本句从句已经齐全。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.appositive-vs-relative.d2",
+          "type": "fill",
+          "stem": "The fact ___ she has never been abroad surprises her classmates.",
+          "answer": "that",
+          "accept": ["that"],
+          "hint": "先看主语 the fact 后的从句是否完整。",
+          "explain": "she has never been abroad 主谓齐全，缺的只是连接词，同位语从句用不充当成分的 that。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.appositive-vs-relative.d3",
+          "type": "correct",
+          "stem": "The fact which he has resigned surprised all of us.",
+          "answer": "The fact that he has resigned surprised all of us.",
+          "accept": ["The fact that he has resigned surprised all of us."],
+          "explain": "he has resigned 已完整，which 无处充当成分；同位语从句只能用 that 引导。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.appositive-vs-relative.d4",
+          "type": "translate",
+          "stem": "他将要出国的消息是真的。",
+          "answer": "The news that he will go abroad is true.",
+          "require": [["news that"], ["is true"]],
+          "forbid": ["news which", "news what"],
+          "explain": "从句 he will go abroad 完整，that 不作成分，不能换成 which 或 what；主句谓语 is 与不可数主语 the news 一致。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.appositive-vs-relative.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "idea", "that", "we", "should", "work", "together", "was", "well", "received."],
+          "answer": "The idea that we should work together was well received.",
+          "explain": "从句 we should work together 完整，that 只起连接作用，是同位语从句；主句谓语 was 用单数。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.noun_clause.that-whether-if",
+      "title": "连接词 that/whether/if 的选用",
+      "brief": "完整从句选 that 还是 whether/if，看语义与位置",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.conjunctions.conditionals", "syntax.sentence_types.yes-no-wh"],
+      "concept": {
+        "summary": "选用顺序固定：先看从句是否缺成分，缺成分用连接代词，不在 that/whether/if 之间选；从句完整时看语义，陈述事实用 that，表“是否”用 whether 或 if；最后查位置，介词后、句首主语从句、表语从句、同位语从句、与 or not 直接连用、不定式前六处只能用 whether。",
+        "sections": [
+          {
+            "h": "that 的三条准入条件",
+            "p": "that 只在三个条件同时满足时进入：从句成分完整、语义是确定的事实、不直接作介词宾语。它在宾语从句中可省略，在主语从句、表语从句、同位语从句中一般不省。",
+            "bullets": [
+              "I know she is right.（宾语从句，that 可省）",
+              "That she is right is obvious.（主语从句，that 不省）",
+              "介词后除外：in that, except that, save that"
+            ]
+          },
+          {
+            "h": "只能用 whether 的六个位置",
+            "p": "whether 与 if 都能表“是否”，但 if 只能进入宾语从句。以下六个位置一律用 whether，换 if 即为错误。",
+            "bullets": [
+              "介词之后：It depends on whether he agrees.",
+              "句首主语从句：Whether he agrees remains unclear.",
+              "表语从句：The question is whether he agrees.",
+              "同位语从句：the doubt whether he agrees",
+              "与 or not 直接连用：whether or not he agrees",
+              "不定式之前：whether to accept the offer"
+            ]
+          },
+          {
+            "h": "语义决定 that 与 whether 的分界",
+            "p": "同一动词后可接 that 也可接 whether，差别只在说话人是否把内容当作事实。doubt 的肯定句用 whether/if，否定句与疑问句用 that，因为此时说话人确信从句内容成立。",
+            "bullets": [
+              "I doubt whether he will come.（不确定）",
+              "I don't doubt that he will come.（确信）",
+              "There is no doubt that he will come."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I wonder whether he will accept the invitation.", "zh": "我想知道他是否会接受邀请。", "ok": true, "note": "wonder 后的宾语从句表“是否”，whether 与 if 均可，whether 更正式。" },
+          { "en": "It depends on whether the weather stays fine.", "zh": "这取决于天气是否一直晴好。", "ok": true, "note": "介词 on 后只能用 whether，不能用 if。" },
+          { "en": "It depends on if the weather stays fine.", "zh": "这取决于天气是否一直晴好。", "ok": false, "note": "介词后不接 if 从句，应改为 whether。" },
+          { "en": "Whether she will sign the contract is still unknown.", "zh": "她是否会签这份合同仍然未知。", "ok": true, "note": "句首主语从句只能用 whether。" },
+          { "en": "If she will sign the contract is still unknown.", "zh": "她是否会签这份合同仍然未知。", "ok": false, "note": "if 不引导句首主语从句，应改为 Whether。" },
+          { "en": "I haven't decided whether to take the job.", "zh": "我还没有决定是否接受这份工作。", "ok": true, "note": "不定式前只能用 whether，构成 whether to do。" },
+          { "en": "I don't doubt that he can handle the situation.", "zh": "我不怀疑他能处理这个局面。", "ok": true, "note": "doubt 的否定句表示确信，从句用 that 引导。" },
+          { "en": "The question whether we need more staff has not been settled.", "zh": "我们是否需要更多员工这个问题还没有定论。", "ok": true, "note": "同位语从句表“是否”，用 whether 而非 if。" }
+        ],
+        "pitfalls": [
+          { "wrong": "We are still talking about if we should postpone the meeting.", "right": "We are still talking about whether we should postpone the meeting.", "why": "about 是介词，介词后不能接 if 从句，只能用 whether。" },
+          { "wrong": "If he will come to the party doesn't matter to me.", "right": "Whether he will come to the party doesn't matter to me.", "why": "句首主语从句的位置不接受 if，只有 whether 能占据该位置。" },
+          { "wrong": "There is some doubt if he is the right person for the post.", "right": "There is some doubt whether he is the right person for the post.", "why": "doubt 后的同位语从句用 whether 引出“是否”，if 不进入同位语从句。" }
+        ],
+        "contrast": { "withTitle": "连接代词 what/which/who 的选用", "diff": "that/whether/if 用于从句成分完整的情形；从句缺主语或宾语时必须改用连接代词，两组不在同一层面竞争。" },
+        "mnemonic": "完整才选 that 或 whether；介词、句首、表语、同位语、or not、不定式，六处只用 whether。"
+      },
+      "review": {
+        "core": [
+          "先判完整度：缺成分用连接代词，完整才考虑 that/whether/if",
+          "that：完整 + 陈述事实；宾语从句可省，其余位置不省",
+          "六处只用 whether：介词后、句首主语从句、表语从句、同位语从句、or not 直接连用、不定式前",
+          "if 只能引导宾语从句与条件状语从句",
+          "doubt 肯定句用 whether/if，否定句与 no doubt 用 that"
+        ],
+        "trigger": "看到“是否”想写 if → 先看它前面是介词、句首还是系动词 → 任一条成立就换 whether",
+        "quickCheck": [
+          { "q": "介词后表“是否”用 whether 还是 if？", "a": "whether，介词后不接 if 从句。" },
+          { "q": "I doubt ___ he will come. 填什么？", "a": "whether 或 if，肯定句的 doubt 表示不确定。" },
+          { "q": "whether 与 or not 连用时能换成 if 吗？", "a": "不能，whether or not 是固定搭配。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.noun_clause.that-whether-if.d1",
+          "type": "choice",
+          "stem": "The success of the project depends on ___ the team can cooperate well.",
+          "options": ["whether", "if", "that", "what"],
+          "answer": "whether",
+          "explain": "on 是介词，介词后表“是否”只能用 whether；从句 the team can cooperate well 成分完整，因此也不用 what。",
+          "trap": "if 也能表“是否”，但它只能引导宾语从句，介词后一律换成 whether。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.that-whether-if.d2",
+          "type": "fill",
+          "stem": "___ he will attend the meeting or not has not been decided yet.",
+          "answer": "Whether",
+          "accept": ["Whether"],
+          "hint": "从句位于句首作主语，且与 or not 直接连用。",
+          "explain": "句首主语从句表“是否”只能用 whether；与 or not 直接连用时更是固定搭配，if 两个条件都不满足。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.that-whether-if.d3",
+          "type": "correct",
+          "stem": "The question is if we can get the visa in time.",
+          "answer": "The question is whether we can get the visa in time.",
+          "accept": ["The question is whether we can get the visa in time."],
+          "explain": "is 后是表语从句，表“是否”只能用 whether，if 不引导表语从句。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.that-whether-if.d4",
+          "type": "translate",
+          "stem": "我还没有决定是否接受这份工作。",
+          "answer": "I haven't decided whether to accept the job.",
+          "require": [["whether to accept"], ["job"]],
+          "forbid": ["if to accept", "whether accept"],
+          "explain": "不定式前表“是否”只能用 whether，构成 whether to do；if 不能与不定式连用。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.that-whether-if.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "don't", "doubt", "that", "he", "will", "keep", "his", "promise."],
+          "answer": "I don't doubt that he will keep his promise.",
+          "explain": "doubt 的否定句表示说话人确信，宾语从句用 that 引导，而不用 whether。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "clause.noun_clause.connective-pronouns",
+      "title": "连接代词 what/which/who 的选用",
+      "brief": "从句缺成分才用连接代词，再按有无范围选词",
+      "difficulty": 3,
+      "tags": ["高频", "难点"],
+      "prereq": ["morph.pronouns.interrogative-relative"],
+      "concept": {
+        "summary": "连接代词进入名词性从句的前提是：从句缺主语、宾语或表语。缺成分且指事物或事情用 what，有明确选择范围时用 which，指人用 who、作宾语用 whom。what 自身兼含先行词，前面不能再出现名词；which 必须能在上文找到可选范围。",
+        "sections": [
+          {
+            "h": "what 的双重身份",
+            "p": "what 等于 the thing or things that，既充当从句的成分，又承担先行词的内容。因此从句中必须有它的位置：作主语、动词宾语或介词宾语。若从句已经完整，what 无处安放，只能改用 that。",
+            "bullets": [
+              "What surprised me was his calmness.（作主语）",
+              "I don't know what he wants.（作 wants 的宾语）",
+              "She was not sure what to do next.（what + 不定式）"
+            ]
+          },
+          {
+            "h": "which 的范围条件",
+            "p": "which 与 what 的区别不在形式而在范围：which 要求上下文存在一个封闭的选择集合，常见标志是 of the two、of the three 或上文列举的若干项。没有范围用 what，有范围用 which。",
+            "bullets": [
+              "Which of the two routes is shorter remains unclear.",
+              "I can't tell which of these books is yours.",
+              "没有范围：I can't tell what he is looking for."
+            ]
+          },
+          {
+            "h": "who 与 whoever 的格",
+            "p": "who 在从句中作主语，whom 作宾语，口语中宾语位置也可用 who；whoever 表示“无论谁”，可作主语也可作宾语，相当于 anyone who。名词性从句中的 who 不能换成 that，因为 that 不指人且不充当成分。",
+            "bullets": [
+              "Who will chair the meeting has not been announced.",
+              "The prize goes to whoever finishes first.",
+              "I don't know whom she invited.（口语可用 who）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "What surprised me most was his calmness under pressure.", "zh": "最让我惊讶的是他在压力下的镇定。", "ok": true, "note": "what 在从句中作主语，主句谓语用单数 was。" },
+          { "en": "That surprised me most was his calmness under pressure.", "zh": "最让我惊讶的是他在压力下的镇定。", "ok": false, "note": "从句缺主语，that 不作成分，应改为 What。" },
+          { "en": "Which of the two candidates is better qualified remains a question.", "zh": "两位候选人中哪位更胜任仍是个问题。", "ok": true, "note": "of the two 给出封闭范围，用 which 而非 what。" },
+          { "en": "What of the two candidates is better qualified remains a question.", "zh": "两位候选人中哪位更胜任仍是个问题。", "ok": false, "note": "有明确范围时不能用 what，应改为 Which。" },
+          { "en": "The prize will be given to whoever finishes the task first.", "zh": "奖品将发给最先完成这项任务的人。", "ok": true, "note": "whoever 作 finishes 的主语，整个从句作介词 to 的宾语。" },
+          { "en": "I don't know what he is looking for.", "zh": "我不知道他在找什么。", "ok": true, "note": "what 作介词 for 的宾语，从句用陈述语序。" },
+          { "en": "The thing what he needs most is a long holiday.", "zh": "他最需要的是一段长假。", "ok": false, "note": "what 已含先行词，不能与 the thing 同现，应改为 the thing that 或直接用 What he needs。" }
+        ],
+        "pitfalls": [
+          { "wrong": "That he said at the meeting surprised all of us.", "right": "What he said at the meeting surprised all of us.", "why": "said 缺宾语，that 不作成分，必须用能作宾语的 what。" },
+          { "wrong": "The thing what he needs most is a long holiday.", "right": "The thing that he needs most is a long holiday.", "why": "what 自身包含先行词，前面不能再有名词；有先行词时用关系代词 that。" },
+          { "wrong": "Which he wants is unknown.", "right": "What he wants is unknown.", "why": "句中没有任何可选范围，which 失去选择对象，只能用 what。" }
+        ],
+        "contrast": { "withTitle": "连接词 that/whether/if 的选用", "diff": "that/whether/if 只用于从句完整的情形；连接代词用于从句缺主语或宾语的情形，两组互斥。" },
+        "mnemonic": "缺成分才用连接代词；没范围用 what，有范围用 which，指人用 who。"
+      },
+      "review": {
+        "core": [
+          "连接代词只在从句缺主语、宾语或表语时使用",
+          "what = the thing(s) that，自身含先行词，前不能再加名词",
+          "which 必须有封闭范围：which of the two",
+          "指人作主语用 who，作宾语用 whom；whoever = anyone who",
+          "从句成分完整时 what 无处安放，改用 that"
+        ],
+        "trigger": "看到从句里动词缺宾语 → 先想 what → 再查上文有没有可选范围 → 有范围换 which",
+        "quickCheck": [
+          { "q": "I don't know ___ he wants. 填 what 还是 that？", "a": "what，wants 缺宾语。" },
+          { "q": "Which of the two 中为什么用 which？", "a": "of the two 提供了封闭的选择范围。" },
+          { "q": "The thing what he said 错在哪？", "a": "what 已含先行词，应改为 the thing that 或 What he said。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.noun_clause.connective-pronouns.d1",
+          "type": "choice",
+          "stem": "___ he told us at the meeting turned out to be a lie.",
+          "options": ["What", "That", "Which", "It"],
+          "answer": "What",
+          "explain": "told 缺直接宾语，从句需要一个既能作宾语又能引出从句的词，只有 what 能兼任；主句谓语 turned out 与从句整体保持一致。",
+          "trap": "That 不充当任何成分，填入后 told 仍缺宾语；Which 需要上文给出选择范围。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.connective-pronouns.d2",
+          "type": "fill",
+          "stem": "___ of the two plans is more practical remains to be seen.",
+          "answer": "Which",
+          "accept": ["Which"],
+          "hint": "of the two 给出了封闭的选择范围。",
+          "explain": "从句有 of the two 这一明确范围且缺主语，用连接代词 which；what 不能在有范围时使用。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.connective-pronouns.d3",
+          "type": "correct",
+          "stem": "The thing what he needs most is a long holiday.",
+          "answer": "The thing that he needs most is a long holiday.",
+          "accept": ["The thing that he needs most is a long holiday."],
+          "explain": "what 自身已包含先行词，不能与 the thing 同现；保留先行词时须改用关系代词 that。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.connective-pronouns.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["What", "she", "said", "at", "the", "meeting", "made", "us", "think."],
+          "answer": "What she said at the meeting made us think.",
+          "explain": "what 作 said 的宾语并引导主语从句，主句谓语 made 用单数。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.connective-pronouns.d5",
+          "type": "translate",
+          "stem": "他刚才说的话让我很惊讶。",
+          "answer": "What he said just now surprised me a lot.",
+          "require": [["what he said"], ["surprised"]],
+          "forbid": ["that he said just now surprised", "what did he say"],
+          "explain": "said 缺宾语，须用 what 引导主语从句；从句用陈述语序，主句谓语 surprised 用单数。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "clause.noun_clause.connective-adverbs",
+      "title": "连接副词 when/where/why/how",
+      "brief": "从句成分齐全、只缺状语时才用连接副词",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["clause.noun_clause.connective-pronouns"],
+      "concept": {
+        "summary": "连接副词进入名词性从句的前提与连接代词相反：从句主谓宾必须齐全，缺的是状语。缺时间状语用 when，缺地点用 where，缺原因用 why，缺方式或程度用 how。若从句缺主语或宾语，必须回到连接代词，不能用连接副词顶替。",
+        "sections": [
+          {
+            "h": "四个连接副词的状语分工",
+            "p": "连接副词在从句中充当状语，因此从句的其他成分必须齐全。判断时先圈出从句的谓语，看它是否已有主语和宾语，再问缺的是哪类状语。",
+            "bullets": [
+              "when：I still remember when we first met.（时间状语）",
+              "where：This is where the accident happened.（地点状语）",
+              "why：Nobody knows why he resigned.（原因状语）",
+              "how：She explained how the machine works.（方式状语）"
+            ]
+          },
+          {
+            "h": "how 的程度用法",
+            "p": "how 还能直接修饰形容词或副词，构成 how long、how soon、how often、how far、how much 等，问的是程度或数量。这类结构在宾语从句中同样保持陈述语序。",
+            "bullets": [
+              "I don't know how long the meeting will last.",
+              "Do you know how often the bus runs?",
+              "Nobody told me how soon the results would come out."
+            ]
+          },
+          {
+            "h": "与连接代词、关系副词的分界",
+            "p": "从句缺宾语用 what，缺状语用连接副词，两者不能互换。名词性从句中的 where 意为“在何处”，整个从句作主语、宾语或表语；定语从句中的 where 前必须有地点名词作先行词。",
+            "bullets": [
+              "缺宾语：I don't know what he bought.",
+              "缺状语：I don't know where he bought it.",
+              "名词性从句：This is where he lives. 定语从句：This is the house where he lives."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I still remember when we first met at the railway station.", "zh": "我仍然记得我们第一次在火车站见面的情景。", "ok": true, "note": "从句主谓齐全，缺时间状语，用连接副词 when。" },
+          { "en": "This is where the accident happened.", "zh": "这就是事故发生的地方。", "ok": true, "note": "where 从句作表语，happened 为不及物动词，从句不缺宾语。" },
+          { "en": "Nobody knows why he gave up such a well-paid job.", "zh": "没有人知道他为什么放弃这么好的工作。", "ok": true, "note": "why 从句作 knows 的宾语，从句缺原因状语。" },
+          { "en": "I don't know what he lives.", "zh": "我不知道他住在哪里。", "ok": false, "note": "live 是不及物动词，从句缺地点状语而非宾语，应改为 where he lives。" },
+          { "en": "She explained how the new system works.", "zh": "她解释了新系统如何运作。", "ok": true, "note": "how 从句作 explained 的宾语，从句缺方式状语。" },
+          { "en": "Do you know how long the flight takes?", "zh": "你知道这趟航班要飞多久吗？", "ok": true, "note": "how long 问持续时间，从句用陈述语序 the flight takes。" },
+          { "en": "I wonder when will the concert begin.", "zh": "我想知道音乐会什么时候开始。", "ok": false, "note": "连接副词引导的从句仍用陈述语序，应改为 when the concert will begin。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I don't know what he lives.", "right": "I don't know where he lives.", "why": "live 不及物，从句缺地点状语；what 必须在从句中作主语或宾语，此处无位可占。" },
+          { "wrong": "I wonder that how he solved the problem.", "right": "I wonder how he solved the problem.", "why": "how 已是从句引导词，再叠加 that 造成引导词重复。" },
+          { "wrong": "Do you know when will the concert begin?", "right": "Do you know when the concert will begin?", "why": "连接副词引导宾语从句时，助动词 will 必须回到主语之后，用陈述语序。" }
+        ],
+        "contrast": { "withTitle": "关系副词 when/where/why 的选用", "diff": "名词性从句的连接副词不依赖先行词，从句整体作主、宾或表；定语从句的关系副词必须紧跟表时间、地点、原因的名词。" },
+        "mnemonic": "成分齐全才用连接副词；缺时间 when，缺地点 where，缺原因 why，缺方式 how。"
+      },
+      "review": {
+        "core": [
+          "连接副词用于从句成分齐全、只缺状语的情形",
+          "when 时间、where 地点、why 原因、how 方式",
+          "how + 形容词或副词表程度：how long、how often、how soon",
+          "从句缺宾语时用 what，不能用连接副词顶替",
+          "名词性从句的 where 不依赖先行词；定语从句的 where 前必须有地点名词"
+        ],
+        "trigger": "看到从句主谓宾齐全却仍要加连接词 → 判断缺哪类状语 → 选 when/where/why/how",
+        "quickCheck": [
+          { "q": "I don't know ___ he lives. 填 what 还是 where？", "a": "where，live 不及物，从句缺地点状语。" },
+          { "q": "how long 与 how soon 分别问什么？", "a": "前者问持续时间，后者问多久之后。" },
+          { "q": "This is where he lives. 中 where 从句作什么成分？", "a": "表语从句。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.noun_clause.connective-adverbs.d1",
+          "type": "choice",
+          "stem": "Nobody knows exactly ___ the meeting will last, but it will probably end before noon.",
+          "options": ["how long", "how often", "how soon", "how far"],
+          "answer": "how long",
+          "explain": "last 表示持续，问的是持续时间，用 how long；后半句 before noon 也提示所问为时长。",
+          "trap": "how soon 问“多久之后”，回答应是 in ten minutes 这类时间点，与 last 的持续义不匹配。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.connective-adverbs.d2",
+          "type": "fill",
+          "stem": "That is ___ he was late for the interview — his car broke down on the way.",
+          "answer": "why",
+          "accept": ["why"],
+          "hint": "破折号后给出的是他迟到的原因，从句缺原因状语。",
+          "explain": "破折号后的 his car broke down 说明原因，表语从句缺原因状语，用 why 引导。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.connective-adverbs.d3",
+          "type": "correct",
+          "stem": "Do you know when will the train arrive at the platform?",
+          "answer": "Do you know when the train will arrive at the platform?",
+          "accept": ["Do you know when the train will arrive at the platform?"],
+          "explain": "宾语从句用陈述语序，助动词 will 应放在主语 the train 之后；问号属于主句。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.connective-adverbs.d4",
+          "type": "translate",
+          "stem": "我不知道他昨天为什么缺席。",
+          "answer": "I don't know why he was absent yesterday.",
+          "require": [["why he was absent"], ["yesterday"]],
+          "forbid": ["why was he absent", "why did he absent"],
+          "explain": "why 从句作 know 的宾语，缺原因状语；从句用陈述语序，过去时间 yesterday 对应一般过去时 was。",
+          "difficulty": 3
+        },
+        {
+          "id": "clause.noun_clause.connective-adverbs.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["This", "is", "where", "the", "old", "man", "used", "to", "live."],
+          "answer": "This is where the old man used to live.",
+          "explain": "where 从句作表语，从句主谓齐全，缺地点状语；used to live 表示过去的居住状态。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "clause.noun_clause.order-punctuation",
+      "title": "名词性从句的语序与标点",
+      "brief": "从句一律陈述语序，句末标点看主句",
+      "difficulty": 2,
+      "tags": ["易错", "高频"],
+      "prereq": ["clause.noun_clause.object-clause-tense", "syntax.sentence_types.yes-no-wh"],
+      "concept": {
+        "summary": "两条硬规则贯穿所有名词性从句。语序：从句内部一律“引导词 + 主语 + 谓语”，疑问句嵌入后必须还原，助动词 do/does/did 消失。标点：从句不独立成句，整句标点由主句决定，主句是陈述句用句号，主句是疑问句用问号，从句内部不带问号。",
+        "sections": [
+          {
+            "h": "语序还原的四步",
+            "p": "把疑问句改写成从句，按四步走：保留疑问词、删去助动词、把谓语改成与主语和时态相配的形式、确认主语在谓语之前。任何一步漏掉都会留下疑问语序的痕迹。",
+            "bullets": [
+              "Where does he work? → I don't know where he works.",
+              "What did they decide? → She asked what they had decided.",
+              "How much does it cost? → Could you tell me how much it costs?"
+            ]
+          },
+          {
+            "h": "标点由主句决定",
+            "p": "从句只是主句的一个成分，标点跟着主句走。主句是陈述句，整句用句号，即使从句含疑问词；主句是疑问句，整句用问号，但问号只出现在句末，从句内部不再加问号。",
+            "bullets": [
+              "He asked me where I lived.（主句陈述，用句号）",
+              "Do you know where he lives?（主句疑问，用问号）",
+              "I wonder whether she has arrived.（不因 wonder 而用问号）"
+            ]
+          },
+          {
+            "h": "三类高频错位",
+            "p": "错位集中在三处：疑问词后直接跟助动词、从句内部保留问号、感叹句嵌入时忘记改语序。感叹句 what/how 引导的结构嵌入后仍保持“what + 名词 + 主谓”或“how + 形容词 + 主谓”，只是时态与代词随主句调整。",
+            "bullets": [
+              "She said what a clever boy he was.（不用 is）",
+              "Tell me what you are looking for.",
+              "He asked me how old I was."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Do you know where the nearest bank is?", "zh": "你知道最近的银行在哪里吗？", "ok": true, "note": "主句是疑问句，句末用问号；从句用陈述语序 the nearest bank is。" },
+          { "en": "Do you know where is the nearest bank?", "zh": "你知道最近的银行在哪里吗？", "ok": false, "note": "从句仍是疑问语序，be 动词应放在主语之后，改为 where the nearest bank is。" },
+          { "en": "He asked me what I was looking for.", "zh": "他问我在找什么。", "ok": true, "note": "主句陈述，句末用句号；what 作 for 的宾语，从句为陈述语序。" },
+          { "en": "He asked me what was I looking for?", "zh": "他问我在找什么。", "ok": false, "note": "语序与标点同时出错：应为 what I was looking for，且句末用句号。" },
+          { "en": "I wonder whether she has received my letter.", "zh": "我想知道她是否收到了我的信。", "ok": true, "note": "wonder 不改变标点，主句是陈述句，整句用句号。" },
+          { "en": "She said what a clever boy he was.", "zh": "她说他是个多聪明的男孩。", "ok": true, "note": "感叹句嵌入宾语从句后仍用陈述语序，时态随主句退到过去时。" },
+          { "en": "Could you tell me how much the ticket costs?", "zh": "你能告诉我这张票多少钱吗？", "ok": true, "note": "主句是委婉疑问句，句末用问号，从句保留陈述语序。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Can you tell me where is the post office?", "right": "Can you tell me where the post office is?", "why": "从句内部必须陈述语序，be 动词回到主语之后；问号只属于主句。" },
+          { "wrong": "I don't know what does he want.", "right": "I don't know what he wants.", "why": "从句里不用助动词 does，动词随第三人称单数主语加 s。" },
+          { "wrong": "He asked me where I lived?", "right": "He asked me where I lived.", "why": "主句是陈述句，整句用句号；从句不能自带问号。" }
+        ],
+        "contrast": { "withTitle": "宾语从句的语序与时态", "diff": "本知识点只管形式层面的语序与标点，适用于主、宾、表、同位四类从句；宾语从句一节还管时态呼应与 that 的省略。" },
+        "mnemonic": "从句不倒装，助动词下岗；标点看主句，从句不带问号。"
+      },
+      "review": {
+        "core": [
+          "所有名词性从句一律陈述语序：引导词 + 主语 + 谓语",
+          "疑问句嵌入要删 do/does/did，动词按人称与时态还原",
+          "标点由主句决定：主句陈述用句号，主句疑问用问号",
+          "问号只出现在整句末尾，从句内部不加",
+          "感叹句嵌入保持陈述语序，时态随主句调整"
+        ],
+        "trigger": "看到从句里 did/does/is 跑到主语前 → 立刻还原陈述语序 → 再检查句末标点是否跟主句一致",
+        "quickCheck": [
+          { "q": "Do you know where ___ (he/live)? 怎么写？", "a": "where he lives，陈述语序且动词加 s。" },
+          { "q": "He asked me where I lived 句末用什么标点？", "a": "句号，主句是陈述句。" },
+          { "q": "宾语从句里能保留助动词 did 吗？", "a": "不能，删去 did 后动词改为过去式。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "clause.noun_clause.order-punctuation.d1",
+          "type": "choice",
+          "stem": "He asked me ___.",
+          "options": ["what I thought of the new plan", "what did I think of the new plan", "what I did think of the new plan", "what thought I of the new plan"],
+          "answer": "what I thought of the new plan",
+          "explain": "宾语从句用陈述语序；主句 asked 为过去时，think 用过去式 thought，助动词 did 不保留。",
+          "trap": "what did I think 保留了疑问语序，是这一结构最高频的错误。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.order-punctuation.d2",
+          "type": "fill",
+          "stem": "I wonder why he ___ (refuse) to join us yesterday.",
+          "answer": "refused",
+          "accept": ["refused"],
+          "hint": "yesterday 提示一般过去时。",
+          "explain": "宾语从句用陈述语序，主语 he 在谓语之前；yesterday 要求一般过去时，故填 refused。",
+          "difficulty": 1
+        },
+        {
+          "id": "clause.noun_clause.order-punctuation.d3",
+          "type": "correct",
+          "stem": "The reporter asked the singer how did she feel about the award.",
+          "answer": "The reporter asked the singer how she felt about the award.",
+          "accept": ["The reporter asked the singer how she felt about the award."],
+          "explain": "从句中删去助动词 did，主语 she 提到谓语前，feel 变为过去式 felt，与主句 asked 的时态呼应。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.order-punctuation.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Do", "you", "know", "where", "she", "has", "put", "the", "keys?"],
+          "answer": "Do you know where she has put the keys?",
+          "explain": "主句是疑问句，故句末用问号；从句 where she has put the keys 用陈述语序，助动词 has 留在主语之后。",
+          "difficulty": 2
+        },
+        {
+          "id": "clause.noun_clause.order-punctuation.d5",
+          "type": "translate",
+          "stem": "你能告诉我这趟火车什么时候出发吗？",
+          "answer": "Could you tell me when the train leaves?",
+          "require": [["tell me when the train"], ["leaves", "will leave"]],
+          "forbid": ["when does the train leave", "when will the train leaves"],
+          "explain": "主句是委婉疑问句，句末用问号；从句用陈述语序，删去 does 后 leave 随第三人称单数加 s。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

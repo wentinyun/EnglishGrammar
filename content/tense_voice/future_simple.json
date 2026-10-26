@@ -1,0 +1,406 @@
+{
+  "level1": "tense_voice",
+  "chapter": "future_simple",
+  "items": [
+    {
+      "id": "tense_voice.future_simple.will-vs-going-to",
+      "title": "will 与 be going to 的语义差别",
+      "brief": "看决定何时作出、预测依据是什么",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["tense_voice.past_simple.core-meaning"],
+      "concept": {
+        "summary": "will 与 be going to 都指向将来，分界在“决定作出的时刻”和“预测的依据”。will 用于说话当下才作出的决定、承诺与请求，也用于说话人的主观判断；be going to 用于说话前已经想好的打算，或眼前已有迹象的预测。句中出现 I think、probably 倾向 will，出现 Look at...、I've decided 倾向 be going to。",
+        "sections": [
+          {
+            "h": "决定的时刻",
+            "p": "判断标准是决定发生在说话之前还是说话之中。说话之中临时决定、主动承担、提出请求，用 will；说话之前已经想好、已经做了准备，用 be going to。",
+            "bullets": [
+              "当场决定：The phone is ringing. I'll answer it.",
+              "事先打算：I'm going to sell my car next month; I've already placed an ad.",
+              "主动提供：Don't worry, I'll carry the box for you.",
+              "请求：Will you close the window, please?"
+            ]
+          },
+          {
+            "h": "预测的依据",
+            "p": "预测分两种：凭经验与判断的推测用 will，眼前有可见证据的预测用 be going to。证据可以是天气、迹象，也可以是已经显露的潜质。",
+            "bullets": [
+              "主观判断：I think it will snow tonight.",
+              "可见迹象：Look at those clouds. It's going to rain.",
+              "有把握的推论：She's going to be a fine doctor; she has the patience for it."
+            ]
+          },
+          {
+            "h": "两个将来标记不能叠加",
+            "p": "will 与 be going to 都是将来标记，一个谓语只能带一个。写成 will going to 等于把两个标记压进同一个谓语，属于结构错误。",
+            "bullets": [
+              "× I will going to study abroad.",
+              "√ I am going to study abroad.",
+              "√ I will study abroad."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The phone is ringing. I'll answer it.", "zh": "电话响了，我去接。", "ok": true, "note": "铃响的瞬间才产生决定，属当场决定，用 will。" },
+          { "en": "I'm going to sell my car next month; I've already placed an ad.", "zh": "我下个月打算把车卖掉，广告都登出去了。", "ok": true, "note": "广告已登，说明打算在说话前就形成，用 be going to。" },
+          { "en": "Look at those black clouds. It's going to rain.", "zh": "看那些乌云，要下雨了。", "ok": true, "note": "乌云是眼前可见的迹象，预测用 be going to。" },
+          { "en": "I think he will pass the exam.", "zh": "我觉得他会通过考试。", "ok": true, "note": "I think 表明这是主观判断，用 will。" },
+          { "en": "Look at those black clouds. It will rain.", "zh": "看那些乌云，要下雨了。", "ok": false, "note": "已有可见迹象的预测用 be going to，应改为 It's going to rain." },
+          { "en": "I will going to visit my aunt this weekend.", "zh": "这个周末我打算去看姑姑。", "ok": false, "note": "will 与 be going to 不能叠加，删去其中一个。" },
+          { "en": "She is going to have a baby in July.", "zh": "她七月要生孩子了。", "ok": true, "note": "既成事实的将来用 be going to，不用 will 表意愿。" },
+          { "en": "Will you help me with this box?", "zh": "你能帮我抬一下这个箱子吗？", "ok": true, "note": "请求对方做事用 will 引导的一般疑问句。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I will going to study abroad next year.", "right": "I am going to study abroad next year.", "why": "will 与 be going to 是两套将来标记，同一个谓语只能保留一套。" },
+          { "wrong": "Don't worry about the box. I am going to carry it for you.", "right": "Don't worry about the box. I'll carry it for you.", "why": "主动提供是在说话中临时承担，be going to 要求事先已有打算，与语境不符。" },
+          { "wrong": "Will you to help me?", "right": "Will you help me?", "why": "will 是情态动词，后面直接接动词原形，不带不定式符号 to。" }
+        ],
+        "contrast": { "withTitle": "现在进行时与一般现在时表将来", "diff": "will 与 be going to 是通用将来标记，远近皆可；进行时表将来只覆盖已安排的具体行程，一般现在时只覆盖机构时刻表。" },
+        "mnemonic": "当场决定用 will，事先打算 going to；眼见为实用 going to，主观猜测用 will。"
+      },
+      "review": {
+        "core": [
+          "will：当场决定、承诺、主动提供、请求",
+          "be going to：说话前已打算；有可见迹象的预测",
+          "信号词 I think/probably 倾向 will；Look at.../I've decided 倾向 going to",
+          "一个谓语只能有一个将来标记，will 与 going to 不叠加",
+          "will 后接动词原形，不带 to"
+        ],
+        "trigger": "先问“决定是什么时候作出的” → 说话之中用 will，说话之前用 be going to → 再问“预测有没有证据”",
+        "quickCheck": [
+          { "q": "电话铃响时你说“我去接”，用哪个？", "a": "I'll answer it." },
+          { "q": "看到乌云说“要下雨了”，用哪个？", "a": "It's going to rain." },
+          { "q": "Will you to help me? 错在哪里？", "a": "will 后直接接原形，改为 Will you help me?" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.future_simple.will-vs-going-to.d1",
+          "type": "choice",
+          "stem": "The phone is ringing. ___ it.",
+          "options": ["I'll answer", "I'm going to answer", "I answer", "I answered"],
+          "answer": "I'll answer",
+          "explain": "铃响的瞬间才产生去接的决定，属说话之中作出的决定，用 will；一般现在时与过去时都与“现在就要做”冲突。",
+          "trap": "be going to 要求打算在说话前已经形成，而这里没有任何事先打算的迹象。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.future_simple.will-vs-going-to.d2",
+          "type": "fill",
+          "stem": "Look at those black clouds! It ___ (rain) at any moment.",
+          "answer": "is going to rain",
+          "accept": ["is going to rain", "'s going to rain"],
+          "hint": "Look at 引出的是眼前可见的证据。",
+          "explain": "Look at those black clouds 提供可见迹象，at any moment 又强调迫近，这类预测用 be going to；主语 it 搭配 is。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_simple.will-vs-going-to.d3",
+          "type": "correct",
+          "stem": "I will going to take the early train tomorrow.",
+          "answer": "I am going to take the early train tomorrow.",
+          "accept": ["I am going to take the early train tomorrow.", "I will take the early train tomorrow."],
+          "explain": "will 与 be going to 都是将来标记，同一个谓语不能同时出现，须删去其中一个。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_simple.will-vs-going-to.d4",
+          "type": "choice",
+          "stem": "I ___ you with your luggage; it looks heavy.",
+          "options": ["am helping", "helped", "have helped", "will help"],
+          "answer": "will help",
+          "explain": "看到对方行李重而主动提出帮助，是说话时作出的承诺，用 will help。",
+          "trap": "am helping 描写正在帮这个动作，无法表达“我来帮你”这一主动承担。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_simple.will-vs-going-to.d5",
+          "type": "translate",
+          "stem": "看那些乌云，要下雨了。",
+          "answer": "Look at those dark clouds. It is going to rain.",
+          "require": [["going to rain"], ["clouds"]],
+          "forbid": ["will rain", "is going to raining"],
+          "explain": "乌云是可见迹象，有证据的预测用 be going to；be going to 后接动词原形 rain，不能加 -ing。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_simple.will-vs-going-to.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "is", "going", "to", "study", "medicine", "in", "London."],
+          "answer": "She is going to study medicine in London.",
+          "explain": "学医是早已定下的打算，用 be going to + 动词原形；in London 是地点状语。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.future_simple.present-forms-for-future",
+      "title": "现在进行时与一般现在时表将来",
+      "brief": "已定行程用进行时，时刻表用现在时",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["tense_voice.future_simple.will-vs-going-to"],
+      "concept": {
+        "summary": "现在进行时表“已安排好、即将发生”的将来，主语多为人，动词多为位移或明确的社交安排，如 go、come、leave、arrive、fly、meet、have dinner。一般现在时表将来则限于时刻表、日程表这类机构排定的事项。两者的共同机制是用“已经确定”替代将来标记，区别在确定性的来源：个人安排用进行时，机构时刻表用一般现在时。",
+        "sections": [
+          {
+            "h": "进行时表将来：已定行程",
+            "p": "这类句子几乎都带将来时间状语或明确的上下文，否则会被读成“此刻正在做”。位移动词最常这样用，因为行程一旦订好就已成事实。",
+            "bullets": [
+              "We are flying to Tokyo on Monday.",
+              "I'm meeting my tutor at three tomorrow afternoon.",
+              "She's getting married in June.",
+              "They are leaving for Xi'an this evening."
+            ]
+          },
+          {
+            "h": "一般现在时表将来：时刻表",
+            "p": "主语换成交通工具、课程、影剧、会议，谓语后面跟具体钟点或日期，就是机构排定的日程。这类句子不涉及说话人的意愿，只陈述安排。",
+            "bullets": [
+              "The flight takes off at 6:40.",
+              "The film starts at eight.",
+              "Term begins on September 5.",
+              "The exhibition closes on Sunday."
+            ]
+          },
+          {
+            "h": "两条边界",
+            "p": "第一，没有安排依据的预测不能塞进进行时；第二，进行时表将来只指一次性的安排，与频率状语同现就会自相矛盾。",
+            "bullets": [
+              "× It is raining tomorrow. √ It is going to rain tomorrow.",
+              "× We are flying to Tokyo every Monday. √ We fly to Tokyo every Monday.",
+              "位移与社交动词最常见：go, come, leave, arrive, fly, start, return, meet"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "We are flying to Shanghai on Friday morning.", "zh": "我们周五上午飞上海。", "ok": true, "note": "机票已定，属已安排的行程，进行时表将来。" },
+          { "en": "I'm meeting my tutor at three tomorrow afternoon.", "zh": "我明天下午三点见导师。", "ok": true, "note": "约见已定，meet 用进行时表将来。" },
+          { "en": "The flight takes off at 6:40 tomorrow.", "zh": "航班明天六点四十起飞。", "ok": true, "note": "航班时刻属机构排定，用一般现在时表将来。" },
+          { "en": "The film starts at eight tonight.", "zh": "电影今晚八点开场。", "ok": true, "note": "排片表上的开场时间，用一般现在时。" },
+          { "en": "It is raining tomorrow, so take an umbrella.", "zh": "明天要下雨，带把伞。", "ok": false, "note": "天气预测没有任何安排依据，不能用进行时表将来，应改为 It is going to rain tomorrow." },
+          { "en": "We are flying to Tokyo every Monday.", "zh": "我们每周一飞东京。", "ok": false, "note": "every Monday 表反复，进行时只能指一次安排，应改为 We fly to Tokyo every Monday." },
+          { "en": "She is starting her new job next Monday.", "zh": "她下周一开始新工作。", "ok": true, "note": "入职日期已定，进行时表已安排的将来。" },
+          { "en": "My plane leaves at 6:15 tomorrow morning.", "zh": "我的航班明天早上六点十五起飞。", "ok": true, "note": "航班号与起飞时间属时刻表信息，用一般现在时。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I meet my supervisor at ten tomorrow.", "right": "I'm meeting my supervisor at ten tomorrow.", "why": "个人约见属已安排的行程，用进行时表将来；一般现在时在这里会被读成每周都见的习惯。" },
+          { "wrong": "It is snowing tomorrow.", "right": "It is going to snow tomorrow.", "why": "天气预测没有既定安排作依据，进行时无法承载，须用 be going to。" },
+          { "wrong": "We are visiting the museum every Sunday.", "right": "We visit the museum every Sunday.", "why": "every Sunday 要求反复义，进行时只指一次性的安排，两者互相排斥。" }
+        ],
+        "contrast": { "withTitle": "will 与 be going to 的语义差别", "diff": "进行时表将来要求“已安排”，且多指较近的具体行程；will 与 be going to 不限远近，也不要求已有安排。" },
+        "mnemonic": "人已约，用进行；机构排，用现在；频率状语一出现，两个都不能用。"
+      },
+      "review": {
+        "core": [
+          "进行时表将来 = 已安排的具体行程，通常带将来时间状语",
+          "高频动词：go、come、leave、arrive、fly、start、return、meet、have dinner",
+          "一般现在时表将来 = 时刻表与日程表，主语多为航班、课程、影剧、会议",
+          "没有安排依据的预测用 be going to，不用进行时",
+          "进行时表将来只指一次安排，不能与 every day 类频率状语同现"
+        ],
+        "trigger": "看到 tomorrow/next week 加已定行程 → 用进行时；看到具体钟点加机构日程 → 用一般现在时",
+        "quickCheck": [
+          { "q": "“我们下周一飞东京”怎么说？", "a": "We are flying to Tokyo next Monday." },
+          { "q": "The film ___ (start) at eight tonight. 填什么？", "a": "starts，按排片表用一般现在时。" },
+          { "q": "能说 It is raining tomorrow 吗？", "a": "不能，改为 It is going to rain tomorrow." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.future_simple.present-forms-for-future.d1",
+          "type": "choice",
+          "stem": "We ___ dinner with the Smiths at eight tonight; the table is already booked.",
+          "options": ["had", "have had", "are having", "have"],
+          "answer": "are having",
+          "explain": "餐桌已订，说明这是说话前定好的安排，用进行时表将来；at eight tonight 提供将来时间。",
+          "trap": "have dinner 若用一般现在时，会被读成经常一起吃饭的习惯，与“已订桌”这一次安排矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_simple.present-forms-for-future.d2",
+          "type": "fill",
+          "stem": "Our plane ___ (take) off at 6:40 tomorrow morning, according to the ticket.",
+          "answer": "takes",
+          "accept": ["takes"],
+          "hint": "according to the ticket 说明这是航班时刻。",
+          "explain": "according to the ticket 把句子限定为航班时刻表信息，用一般现在时表既定日程；主语 our plane 为三单，take 加 -s。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_simple.present-forms-for-future.d3",
+          "type": "correct",
+          "stem": "I meet my tutor at three tomorrow afternoon to discuss the essay.",
+          "answer": "I am meeting my tutor at three tomorrow afternoon to discuss the essay.",
+          "accept": ["I am meeting my tutor at three tomorrow afternoon to discuss the essay."],
+          "explain": "与导师的约见属个人已定行程，用进行时表将来；一般现在时会把它读成固定习惯。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_simple.present-forms-for-future.d4",
+          "type": "choice",
+          "stem": "The film ___ at 8:15, so let's meet at the entrance at eight.",
+          "options": ["was starting", "starts", "started", "has started"],
+          "answer": "starts",
+          "explain": "排片表上的开场时间属机构日程，用一般现在时表将来；let's meet at eight 也确认事件尚未发生。",
+          "trap": "started 与 was starting 需要过去时间参照，与 let's meet 指向的将来矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_simple.present-forms-for-future.d5",
+          "type": "translate",
+          "stem": "我们下周一飞往东京。",
+          "answer": "We are flying to Tokyo next Monday.",
+          "require": [["are flying", "'re flying"], ["next Monday"]],
+          "forbid": ["will flying", "We fly to Tokyo"],
+          "explain": "机票已定属个人安排的行程，用现在进行时表将来；fly 是位移动词，next Monday 点明将来时间。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_simple.present-forms-for-future.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "am", "meeting", "my", "supervisor", "at", "ten", "tomorrow."],
+          "answer": "I am meeting my supervisor at ten tomorrow.",
+          "explain": "约见已定，用现在进行时表将来；at ten tomorrow 是安排的具体时间。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.future_simple.be-to-be-about-to",
+      "title": "be to do 与 be about to do 表将来",
+      "brief": "be to 表安排规定，be about to 表即刻",
+      "difficulty": 4,
+      "tags": ["难点", "写作"],
+      "prereq": ["tense_voice.future_simple.present-forms-for-future"],
+      "concept": {
+        "summary": "be to do 表示按计划、义务、命令或规定“应该发生”，常见于通知、规章、新闻，时间可远可近。be about to do 表示“马上、即刻”就要发生，与说话时刻的距离几乎为零，因此不与具体将来时间状语连用。两者的分界是时间跨度：be to do 带安排或义务色彩，be about to do 只覆盖眼下这一瞬。",
+        "sections": [
+          {
+            "h": "be to do 的三种色彩",
+            "p": "这个结构的共同点是把将来写成外部给定的安排，而不是说话人的意愿。计划、义务、规定三类语境最常见，否定形式表示禁止。",
+            "bullets": [
+              "计划安排：The President is to visit Japan next month.",
+              "义务命令：You are to hand in the essay by Friday.",
+              "规定与禁止：No one is to leave the room. / Visitors are not to feed the animals."
+            ]
+          },
+          {
+            "h": "be about to do：零距离",
+            "p": "about 在这里表示“即将”，时间距离接近零，因此句中不能再出现具体时段或日期。它最常出现在 be about to do ... when ... 这一句式里，when 引出打断的事件。",
+            "bullets": [
+              "The train is about to leave.",
+              "We were about to start when the lights went out.",
+              "× The train is about to leave in ten minutes.",
+              "× I am about to finish the report next Friday."
+            ]
+          },
+          {
+            "h": "四类将来表达的分工",
+            "p": "同一个将来事件可以用四种结构，差别在于信息来源：说话人的意愿、说话人的打算、外部规定、即刻发生。选错结构句子仍然通顺，但语义偏移。",
+            "bullets": [
+              "will：说话人的决定、承诺、预测",
+              "be going to：说话前已有的打算、有迹象的预测",
+              "be to do：外部给定的计划、义务、规定",
+              "be about to do：眼下这一瞬即将发生"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The Queen is to open the new hospital next month.", "zh": "女王下月将为新医院揭幕。", "ok": true, "note": "正式日程安排用 be to do，语气比 will 更书面。" },
+          { "en": "You are to report to the manager at nine tomorrow.", "zh": "你明天九点向经理报到。", "ok": true, "note": "上级给定的义务用 be to do。" },
+          { "en": "Students are not to use mobile phones during the exam.", "zh": "考试期间学生不得使用手机。", "ok": true, "note": "规定性禁止用 be not to do，not 位于 to 之前。" },
+          { "en": "The train is about to leave, so hurry up.", "zh": "火车马上要开了，快点。", "ok": true, "note": "be about to do 表即刻发生，与 hurry up 的紧迫感一致。" },
+          { "en": "The train is about to leave in ten minutes.", "zh": "火车十分钟后就要开了。", "ok": false, "note": "about to 已含“即刻”，不能再与 in ten minutes 这样的时段连用。" },
+          { "en": "I am about to finish the report next Friday.", "zh": "我下周五就要写完报告了。", "ok": false, "note": "next Friday 距现在还有多日，与 about to 的零距离冲突，应改用 will finish。" },
+          { "en": "The meeting is to be held in the main hall.", "zh": "会议将在主楼大厅举行。", "ok": true, "note": "be to do 的被动形式，用于公布既定安排。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The plane is about to take off in half an hour.", "right": "The plane will take off in half an hour.", "why": "about to 表示即刻发生，与 in half an hour 这样的时段状语在时间距离上冲突。" },
+          { "wrong": "You are to not smoke here.", "right": "You are not to smoke here.", "why": "be to do 的否定词 not 放在 to 之前，构成 be not to do，而不是插在 to 与动词之间。" },
+          { "wrong": "He is about to go to bed at ten every night.", "right": "He goes to bed at ten every night.", "why": "about to 只描写一次即刻的动作，无法与 every night 的反复义共存。" }
+        ],
+        "contrast": { "withTitle": "will 与 be going to 的语义差别", "diff": "will 与 going to 表达说话人取向的将来；be to 把将来写成外部规定或正式安排，be about to 只覆盖眼下这一瞬。" },
+        "mnemonic": "be to 是安排与规定，be about to 是马上；not 放 to 前，具体时间不跟 about to。"
+      },
+      "review": {
+        "core": [
+          "be to do：计划安排、义务命令、明文规定，时间可远可近",
+          "be to do 的否定是 be not to do，not 位于 to 之前",
+          "be about to do：即刻将发生，时间距离接近零",
+          "be about to 不与 tomorrow、in ten minutes 等具体时间连用",
+          "be about to do ... when ... 是高频句式，when 引出打断事件"
+        ],
+        "trigger": "看到 notice、rule、contract 类语境 → be to do；看到 Hurry up、马上 → be about to do",
+        "quickCheck": [
+          { "q": "“闲人免入”这类规定用哪个结构？", "a": "be to do，如 No one is to enter." },
+          { "q": "能说 The train is about to leave in ten minutes 吗？", "a": "不能，about to 不与具体时段连用。" },
+          { "q": "be to 的否定形式？", "a": "be not to do，如 You are not to smoke here." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.future_simple.be-to-be-about-to.d1",
+          "type": "choice",
+          "stem": "According to the notice, all students ___ gather in the hall at 7 p.m.",
+          "options": ["are to", "are about to", "are going", "will be to"],
+          "answer": "are to",
+          "explain": "notice 引出的是校方规定，属外部给定的安排，用 be to do；at 7 p.m. 是规定的具体时间。",
+          "trap": "are about to 表示即刻发生，无法与 at 7 p.m. 这样的具体时间点搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_simple.be-to-be-about-to.d2",
+          "type": "fill",
+          "stem": "We were just ___ to leave when the phone rang.",
+          "answer": "about",
+          "accept": ["about"],
+          "hint": "just 与 when 一起提示“正要……这时……”。",
+          "explain": "be about to do 表示即刻将发生，just 加强“正要”的意思，when 引出打断的事件，因此填 about。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_simple.be-to-be-about-to.d3",
+          "type": "correct",
+          "stem": "The manager is about to hold the meeting at nine tomorrow morning.",
+          "answer": "The manager is to hold the meeting at nine tomorrow morning.",
+          "accept": ["The manager is to hold the meeting at nine tomorrow morning.", "The manager will hold the meeting at nine tomorrow morning."],
+          "explain": "at nine tomorrow morning 距现在尚远，与 about to 的即刻义冲突；改用 be to do 表既定安排。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_simple.be-to-be-about-to.d4",
+          "type": "choice",
+          "stem": "According to the contract, the goods ___ be delivered by the end of June.",
+          "options": ["are about to", "are going", "will about to", "are to"],
+          "answer": "are to",
+          "explain": "contract 是外部规定，by the end of June 又是一段将来时间，用 be to do 表约定事项。",
+          "trap": "are about to 只覆盖眼下这一瞬，与 by the end of June 的时间跨度矛盾。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.future_simple.be-to-be-about-to.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "minister", "is", "to", "visit", "Japan", "next", "month."],
+          "answer": "The minister is to visit Japan next month.",
+          "explain": "正式访问属已公布的安排，用 be to do；next month 说明时间可远，正合 be to 的用法。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.future_simple.be-to-be-about-to.d6",
+          "type": "translate",
+          "stem": "快一点，电影马上要开始了。",
+          "answer": "Hurry up, the film is about to start.",
+          "require": [["about to start"], ["Hurry up"]],
+          "forbid": ["about to start in", "will about to"],
+          "explain": "“马上”对应 be about to do，时间距离接近零，因此句末不能再加具体时段。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

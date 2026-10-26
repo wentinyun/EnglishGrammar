@@ -1,0 +1,533 @@
+{
+  "level1": "nonfinite",
+  "chapter": "present_participle",
+  "items": [
+    {
+      "id": "nonfinite.present_participle.attributive",
+      "title": "现在分词作定语",
+      "brief": "单个前置、短语后置，主动或进行",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.verbs.four-forms", "tense_voice.present_continuous.ing-form"],
+      "concept": {
+        "summary": "现在分词作定语时，被修饰的名词就是分词的逻辑主语，二者是主动关系，动作与谓语同时或正在进行。单个分词前置，分词短语后置，后置短语相当于 who/which + be + doing 的省略。判定走三问：名词是不是动作的发出者、主动还是被动、与谓语谁先谁后。",
+        "sections": [
+          {
+            "h": "位置：单个前置，短语后置",
+            "p": "单个分词紧挨名词前置，说明类别或状态；带宾语或状语的分词短语必须后置，因为短语不能塞进冠词与名词之间。后置短语可以整体还原成一个定语从句。",
+            "bullets": [
+              "前置：a sleeping baby, boiling water, a developing country",
+              "后置：the man standing at the gate, the girl singing on the stage",
+              "还原：the man standing at the gate = the man who is standing at the gate"
+            ]
+          },
+          {
+            "h": "三问定形式",
+            "p": "定语位置只有 -ing 与 -ed 两条路，选哪条不取决于动词本身，而取决于名词与动作的关系。",
+            "bullets": [
+              "一问逻辑主语：被修饰的名词就是分词动作的发出者或承受者",
+              "二问主动被动：名词自己做这个动作用 -ing；名词承受动作用 -ed 或 being done",
+              "三问先后：定语位置的 -ing 表与谓语同时或当时正在进行；动作已完成且被动时用 -ed"
+            ]
+          },
+          {
+            "h": "完成式与用途类 -ing",
+            "p": "现在分词的完成式 having done 不作定语，需要表达“已经做过”时改用定语从句。前置的 -ing 还可以表用途而非动作，此时它接近动名词，判断依据是名词并不执行这个动作。",
+            "bullets": [
+              "× the man having won the prize → the man who has won the prize",
+              "a walking stick 是“拐杖”，stick 不会走路，-ing 表用途",
+              "a sleeping pill 是“安眠药”，与 a sleeping baby 结构相同而语义关系不同"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The baby sleeping in the cradle is only three months old.", "zh": "摇篮里睡着的婴儿才三个月大。", "ok": true, "note": "sleeping 的逻辑主语是 the baby，主动关系，短语后置修饰 baby。" },
+          { "en": "The man standing at the gate is our new coach.", "zh": "站在门口的那个人是我们的新教练。", "ok": true, "note": "standing 短语后置，相当于 who is standing at the gate。" },
+          { "en": "Boiling water can scald your hand.", "zh": "沸水会烫伤你的手。", "ok": true, "note": "单个分词前置，boiling 表水正在沸腾的状态。" },
+          { "en": "The children play in the yard are my students.", "zh": "在院子里玩的那些孩子是我的学生。", "ok": false, "note": "句中已有谓语 are，play 不能再作谓语，定语位置应改为 playing。" },
+          { "en": "The language speaking in this region is a dialect of German.", "zh": "这个地区说的语言是德语的一种方言。", "ok": false, "note": "language 是被说的对象，与分词构成被动关系，应改为 spoken。" },
+          { "en": "Anyone wanting to join the club must sign this form.", "zh": "想加入俱乐部的任何人都必须签这张表。", "ok": true, "note": "wanting 的逻辑主语是 anyone，主动关系，相当于 who wants。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The problem discussing at the meeting is serious.", "right": "The problem being discussed at the meeting is serious.", "why": "problem 是被讨论的对象，与分词构成被动关系，与谓语同时进行的被动定语要用 being done。" },
+          { "wrong": "The man walks along the river is my uncle.", "right": "The man walking along the river is my uncle.", "why": "句子已有谓语 is，定语位置不能再出现谓语形式 walks，须降为现在分词 walking。" },
+          { "wrong": "The song singing by the choir was written in 1950.", "right": "The song sung by the choir was written in 1950.", "why": "song 是被唱的对象，by 引出动作的发出者，分词必须用过去分词 sung。" }
+        ],
+        "contrast": { "withTitle": "过去分词作定语", "diff": "-ing 定语与名词是主动或进行关系；-ed 定语与名词是被动或完成关系。" },
+        "mnemonic": "名词自己做的用 -ing，名词被做的用 -ed；短语一长就往后放。"
+      },
+      "review": {
+        "core": [
+          "现在分词作定语：被修饰名词 = 分词的逻辑主语，二者主动关系",
+          "单个分词前置（a sleeping baby），分词短语后置（the man standing at the gate）",
+          "后置短语 = who/which + be + doing 的省略",
+          "名词承受动作时改用过去分词或 being done",
+          "having done 不作定语，改写为定语从句"
+        ],
+        "trigger": "看到名词后紧跟 -ing 短语 → 先确认名词是不是动作的发出者 → 再定 -ing / -ed / being done",
+        "quickCheck": [
+          { "q": "the man standing at the gate 还原成定语从句是什么？", "a": "the man who is standing at the gate。" },
+          { "q": "“正在被讨论的问题”怎么说？", "a": "the problem being discussed。" },
+          { "q": "the language speaking here 错在哪里？", "a": "language 是被说的对象，须用 spoken。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.present_participle.attributive.d1",
+          "type": "choice",
+          "stem": "The woman ___ with the manager right now is our new HR director.",
+          "options": ["talking", "talked", "talk", "to talk"],
+          "answer": "talking",
+          "explain": "一问逻辑主语：被修饰的 the woman；二问关系：她自己发出 talk 的动作，属主动；三问时间：right now 说明与谓语 is 同时进行，故用 talking。",
+          "trap": "talked 表被动或完成，与“正在交谈”的主动关系矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.present_participle.attributive.d2",
+          "type": "fill",
+          "stem": "The girl ___ (dance) on the stage is my cousin.",
+          "answer": "dancing",
+          "accept": ["dancing"],
+          "hint": "先找被修饰的名词，再判断它和 dance 的关系。",
+          "explain": "一问逻辑主语：被修饰的 the girl；二问关系：girl 自己跳舞，主动；三问时间：与谓语 is 同时进行，因此填 dancing。",
+          "difficulty": 1
+        },
+        {
+          "id": "nonfinite.present_participle.attributive.d3",
+          "type": "correct",
+          "stem": "The car repairing in the garage belongs to my neighbour.",
+          "answer": "The car being repaired in the garage belongs to my neighbour.",
+          "accept": ["The car being repaired in the garage belongs to my neighbour."],
+          "explain": "一问逻辑主语：the car；二问关系：car 是被修理的对象，属被动；三问时间：与谓语 belongs 同时进行，被动定语要用 being done，故改为 being repaired。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.present_participle.attributive.d4",
+          "type": "choice",
+          "stem": "The company ___ these machines is based in Shanghai.",
+          "options": ["producing", "produced", "produces", "to produce"],
+          "answer": "producing",
+          "explain": "一问逻辑主语：the company；二问关系：公司主动生产这些机器；三问时间：与谓语 is based 同时，用 producing 作后置定语。",
+          "trap": "produces 是谓语形式，句中已有谓语 is based，不能再出现第二个谓语。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.present_participle.attributive.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "girl", "singing", "on", "the", "stage", "is", "my", "sister."],
+          "answer": "The girl singing on the stage is my sister.",
+          "explain": "singing 短语后置修饰 the girl，逻辑主语是 girl，主动关系，与谓语 is 同时；is 才是主句谓语。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.present_participle.attributive.d6",
+          "type": "translate",
+          "stem": "正在操场上踢足球的孩子们是我的学生。",
+          "answer": "The children playing football on the playground are my students.",
+          "require": [["children"], ["playing football"], ["are my students"]],
+          "forbid": ["who playing", "children play football"],
+          "explain": "定语分词的逻辑主语是 children，主动关系，与谓语 are 同时进行，用 playing football 后置；play 是谓语形式，不能直接作定语。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.present_participle.adverbial",
+      "title": "现在分词作状语",
+      "brief": "状语分词的逻辑主语必须是主句主语",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["nonfinite.present_participle.attributive", "morph.conjunctions.time-conjunctions"],
+      "concept": {
+        "summary": "现在分词作状语时，它的逻辑主语就是主句主语，二者构成主动关系。分词短语可在句中表时间、原因、条件、结果、伴随与方式；动作与谓语同时或几乎同时用 doing，先于谓语发生用 having done。判断只做三问：谁做的、主动还是被动、谁先谁后。",
+        "sections": [
+          {
+            "h": "三问流程",
+            "p": "分词状语没有自己的主语，它的主语只能借主句主语。三步走完，形式就唯一确定，任何一步跳过都会写出悬垂句。",
+            "bullets": [
+              "一问逻辑主语：分词的动作由谁发出？答案必须是主句主语",
+              "二问主动被动：主句主语自己做用 doing；主句主语承受用 done 或 being done",
+              "三问先后：同时或紧接发生用 doing；明显先发生用 having done"
+            ]
+          },
+          {
+            "h": "六种状语意义",
+            "p": "分词本身不带连词，意义由上下文推出，因此同一个 doing 短语可能被理解为时间、原因或条件。写作时若需要明确逻辑关系，应保留 when/because/if 等连词。",
+            "bullets": [
+              "时间：Walking home, I met an old friend.",
+              "原因：Being ill, he stayed at home.",
+              "条件：Working hard, you will succeed.",
+              "结果：The storm lasted three days, causing great damage.",
+              "伴随：She sat by the window, reading a novel.",
+              "让步：Knowing the danger, he still went ahead."
+            ]
+          },
+          {
+            "h": "位置与否定式",
+            "p": "时间、原因、条件状语常置于句首，伴随与结果状语常置于句末。否定式把 not 直接放在分词之前，不能放在分词之后，也不能借用助动词。",
+            "bullets": [
+              "Not knowing her address, I could not write to her.",
+              "× Knowing not her address",
+              "结果状语只能后置：He fell, breaking his leg."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Walking along the river, I ran into an old classmate.", "zh": "沿着河边散步时，我遇到了一位老同学。", "ok": true, "note": "walking 的逻辑主语是 I，主动关系，与谓语 ran into 同时，表时间。" },
+          { "en": "Being unemployed, he had plenty of time.", "zh": "由于失业，他有大把时间。", "ok": true, "note": "being 的逻辑主语是 he，表原因。" },
+          { "en": "Not knowing the way, we asked a policeman for help.", "zh": "因为不认识路，我们向警察求助。", "ok": true, "note": "否定词 not 置于分词之前，逻辑主语是 we。" },
+          { "en": "Reading the instructions carefully, the machine was assembled without difficulty.", "zh": "仔细阅读说明后，机器顺利组装完成。", "ok": false, "note": "机器不会读说明，分词的主语与主句主语错位，应改为 Reading the instructions carefully, we assembled the machine without difficulty." },
+          { "en": "Opening the letter, she found a photo inside.", "zh": "她打开信，发现里面有一张照片。", "ok": true, "note": "两个动作紧接发生，逻辑主语同为 she，用一般式即可。" },
+          { "en": "The old man sat under the tree, watching the children play.", "zh": "老人坐在树下，看着孩子们玩耍。", "ok": true, "note": "句末分词表伴随，与谓语 sat 同时，逻辑主语是 the old man。" },
+          { "en": "He sat by the window, read a newspaper.", "zh": "他坐在窗边读报纸。", "ok": false, "note": "逗号不能连接两个谓语，read 应降为现在分词 reading 作伴随状语。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Opening the door, the room was empty.", "right": "Opening the door, I found the room empty.", "why": "opening 的逻辑主语必须是人，the room 不能开门，分词状语与主句主语错位。" },
+          { "wrong": "He stood at the door, waited for his friend.", "right": "He stood at the door, waiting for his friend.", "why": "逗号不能连接两个谓语动词，第二个动作须降为现在分词作伴随状语。" },
+          { "wrong": "Knowing not the answer, he kept silent.", "right": "Not knowing the answer, he kept silent.", "why": "分词的否定词 not 必须置于分词之前，不能留在分词之后。" }
+        ],
+        "contrast": { "withTitle": "过去分词作状语", "diff": "现在分词状语的逻辑主语是动作的发出者；过去分词状语的逻辑主语是动作的承受者。" },
+        "mnemonic": "谁做的、主被动、谁先谁后；第一问答不上，句子就悬空。"
+      },
+      "review": {
+        "core": [
+          "分词状语的主语只能借主句主语，这是判定起点",
+          "主动 + 同时 → doing；被动 + 同时 → being done",
+          "先于谓语完成 → having done / having been done",
+          "六种意义：时间、原因、条件、结果、伴随、让步",
+          "否定式：not 置于分词之前"
+        ],
+        "trigger": "看到句首或句末的 -ing 短语 → 立刻问“谁在做这个动作” → 答案不是主句主语就改写",
+        "quickCheck": [
+          { "q": "Being ill, he stayed at home. 中 being 的逻辑主语是谁？", "a": "he，与主句主语一致。" },
+          { "q": "“因为不认识路”用分词怎么开头？", "a": "Not knowing the way。" },
+          { "q": "结果状语能放在句首吗？", "a": "不能，结果状语只能后置。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.present_participle.adverbial.d1",
+          "type": "choice",
+          "stem": "___ the instructions, she assembled the shelf in ten minutes.",
+          "options": ["Following", "Followed", "To follow", "Follow"],
+          "answer": "Following",
+          "explain": "一问逻辑主语：主句主语 she；二问关系：she 主动照着说明做，不是被照着做；三问时间：与谓语 assembled 同时，故用 Following。",
+          "trap": "Followed 表被动，说明成了被遵循的对象，与 she 的主动关系不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.present_participle.adverbial.d2",
+          "type": "fill",
+          "stem": "___ (not know) how to answer, the student kept silent.",
+          "answer": "Not knowing",
+          "accept": ["Not knowing", "not knowing"],
+          "hint": "否定词的位置与逻辑主语都要先确定。",
+          "explain": "一问逻辑主语：主句主语 the student；二问关系：学生主动“不知道”；三问时间：与谓语 kept 同时，因此用 Not knowing，not 置于分词前。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.present_participle.adverbial.d3",
+          "type": "correct",
+          "stem": "Not known what to say, she remained silent.",
+          "answer": "Not knowing what to say, she remained silent.",
+          "accept": ["Not knowing what to say, she remained silent."],
+          "explain": "一问逻辑主语：she；二问关系：she 主动“不知道”，不是被知道；三问时间：与谓语同时，故用 Not knowing。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.present_participle.adverbial.d4",
+          "type": "choice",
+          "stem": "The children ran out of the classroom, ___.",
+          "options": ["laughing and shouting", "laughed and shouted", "to laugh and shout", "laugh and shout"],
+          "answer": "laughing and shouting",
+          "explain": "一问逻辑主语：the children；二问关系：孩子们主动笑闹；三问时间：与谓语 ran 同时，用现在分词作伴随状语。",
+          "trap": "laughed and shouted 是谓语形式，逗号不能连接两个谓语。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.present_participle.adverbial.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Seeing", "the", "teacher,", "the", "children", "stopped", "talking."],
+          "answer": "Seeing the teacher, the children stopped talking.",
+          "explain": "seeing 的逻辑主语是 the children，孩子们主动看见老师，与谓语 stopped 同时，用现在分词作时间状语。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.present_participle.adverbial.d6",
+          "type": "translate",
+          "stem": "因为不知道她的地址，我无法给她写信。",
+          "answer": "Not knowing her address, I could not write to her.",
+          "require": [["not knowing"], ["address"], ["write"]],
+          "forbid": ["knowing not", "not know her address, I"],
+          "explain": "逻辑主语是 I，主动关系，与谓语同时，用否定分词 Not knowing 开头；not 不能后置，也不能改用谓语形式。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.present_participle.perfect-form",
+      "title": "现在分词的完成式",
+      "brief": "having done 表示先于谓语完成",
+      "difficulty": 3,
+      "tags": ["难点", "高频"],
+      "prereq": ["nonfinite.present_participle.adverbial", "tense_voice.past_perfect.reference"],
+      "concept": {
+        "summary": "现在分词的完成式 having done 只作状语或构成独立结构，核心意义是分词动作先于谓语动作完成，且逻辑主语是主句主语、二者为主动关系。被动形式为 having been done，否定式 not having done。它不能作定语，也不能作宾补。",
+        "sections": [
+          {
+            "h": "形式与意义",
+            "p": "完成式的唯一职责是标记“先发生”。当两个动作有明显先后、且先发生的动作需要以非谓语形式出现时，用 having done；如果先发生的动作是被动的，用 having been done。",
+            "bullets": [
+              "主动：Having finished the report, she emailed it to the manager.",
+              "被动：Having been warned twice, he finally stopped.",
+              "否定：Not having received a reply, he wrote again."
+            ]
+          },
+          {
+            "h": "与一般式 doing 的分工",
+            "p": "一般式表示与谓语同时或紧接发生，完成式表示先于谓语完成。两者不能互换：把先发生的动作写成 doing，读者会理解为同时进行；把同时的动作写成 having done，句子会显得动作已结束。",
+            "bullets": [
+              "同时：Walking into the room, he saw her at the desk.",
+              "先后：Having read the letter, she burst into tears.",
+              "结果状语只用一般式：The storm lasted three days, causing great damage.（结果发生在谓语之后）"
+            ]
+          },
+          {
+            "h": "使用限制",
+            "p": "完成式没有名词性功能，也没有定语功能。需要表达“已经做过某事的人或物”时，只能用定语从句，不能用 having done 直接修饰名词。",
+            "bullets": [
+              "× the student having finished the paper → the student who had finished the paper",
+              "× I saw him having finished the work.",
+              "完成式不作主语、宾语，这些位置用动名词的一般式"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Having finished the report, she emailed it to the manager.", "zh": "报告写完后，她把它发给了经理。", "ok": true, "note": "完成报告在先，发送在后，逻辑主语同为 she，用主动完成式。" },
+          { "en": "Having been warned twice, he finally stopped.", "zh": "被警告过两次之后，他终于停了下来。", "ok": true, "note": "he 是被警告的对象，动作先于 stopped，用被动完成式 having been done。" },
+          { "en": "Not having received a reply, he wrote again.", "zh": "因为没收到回复，他又写了一封。", "ok": true, "note": "否定词置于 having 之前，先于谓语 wrote 发生。" },
+          { "en": "Finished the work, he left the office.", "zh": "工作做完后，他离开了办公室。", "ok": false, "note": "he 主动完成工作且动作在先，应改为 Having finished the work。" },
+          { "en": "Having finishing the work, he went home.", "zh": "工作做完后，他回家了。", "ok": false, "note": "having 之后必须接过去分词 finished，不能接 -ing 形式。" },
+          { "en": "Having lived in Beijing for ten years, she knows the city well.", "zh": "在北京住了十年，她对这座城市很熟悉。", "ok": true, "note": "live 为不及物动词，主动关系，先于谓语 knows 并延续至今。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Having finished the work, the report was handed in.", "right": "Having finished the work, he handed in the report.", "why": "完成式的逻辑主语必须与主句主语一致，report 不能完成工作，主句须换成执行动作的人。" },
+          { "wrong": "Having finishing his speech, he left the stage.", "right": "Having finished his speech, he left the stage.", "why": "having 之后必须是过去分词 finished，构成 having done 的固定形式。" },
+          { "wrong": "I saw him having finished the work.", "right": "I saw him finish the work.", "why": "现在分词的完成式不作宾语补足语，感官动词后表示动作完成要用动词原形或从句，不能用 having done。" }
+        ],
+        "contrast": { "withTitle": "现在分词的一般式", "diff": "doing 表与谓语同时或紧接发生；having done 明确表示先于谓语完成，先后关系不可颠倒。" },
+        "mnemonic": "先做完再发生，having 加 done；被动多一个 been，否定 not 放最前。"
+      },
+      "review": {
+        "core": [
+          "having done = 主动 + 先于谓语完成",
+          "having been done = 被动 + 先于谓语完成",
+          "否定式 not having done，not 置于最前",
+          "只作状语与独立结构，不作定语、宾补、主语、宾语",
+          "结果状语只用一般式 doing"
+        ],
+        "trigger": "看到两个动作有明显先后 → 先发生的那个用 having done → 再看它是否被动",
+        "quickCheck": [
+          { "q": "Having been warned twice 中为什么要加 been？", "a": "he 是被警告的对象，被动完成式须为 having been done。" },
+          { "q": "having done 能作定语吗？", "a": "不能，应改为 who had done 的定语从句。" },
+          { "q": "结果状语能用完成式吗？", "a": "不能，结果发生在谓语之后，只能用一般式 doing。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.present_participle.perfect-form.d1",
+          "type": "choice",
+          "stem": "___ all the preparations, the team started the experiment.",
+          "options": ["Having completed", "Completing", "Completed", "To complete"],
+          "answer": "Having completed",
+          "explain": "一问逻辑主语：the team；二问关系：队伍主动完成准备；三问先后：started 之前准备已经完成，故用完成式 Having completed。",
+          "trap": "Completing 表与谓语同时进行，与“先完成再开始”的先后关系不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.present_participle.perfect-form.d2",
+          "type": "fill",
+          "stem": "___ (finish) the report, she emailed it to her manager.",
+          "answer": "Having finished",
+          "accept": ["Having finished", "having finished"],
+          "hint": "先判断两个动作的先后，再判断主动被动。",
+          "explain": "一问逻辑主语：she；二问关系：她主动完成报告；三问先后：发送之前已完成，故填 Having finished。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.present_participle.perfect-form.d3",
+          "type": "correct",
+          "stem": "Having finishing the interview, she called her parents.",
+          "answer": "Having finished the interview, she called her parents.",
+          "accept": ["Having finished the interview, she called her parents."],
+          "explain": "一问逻辑主语：she；二问关系：主动；三问先后：面试先结束，打电话在后。形式错误在于 having 后误接 -ing，须改为过去分词 finished。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.present_participle.perfect-form.d4",
+          "type": "choice",
+          "stem": "Not ___ any reply, she decided to call again.",
+          "options": ["having received", "received", "receiving", "have received"],
+          "answer": "having received",
+          "explain": "一问逻辑主语：she；二问关系：她是收到回复的人，主动；三问先后：没收到回复在先，决定再打电话在后，故用否定完成式 Not having received。",
+          "trap": "receiving 表与谓语同时，无法体现“在此之前一直没收到”的先后关系。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.present_participle.perfect-form.d5",
+          "type": "translate",
+          "stem": "完成了所有检查之后，工程师们启动了机器。",
+          "answer": "Having completed all the checks, the engineers started the machine.",
+          "require": [["having completed"], ["engineers"], ["started"]],
+          "forbid": ["having been completed", "completed all the checks, the engineers"],
+          "explain": "逻辑主语是 the engineers，主动关系，检查在启动之前完成，因此用 Having completed；被动形式 having been completed 会把工程师变成被检查的对象。",
+          "difficulty": 4
+        },
+        {
+          "id": "nonfinite.present_participle.perfect-form.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Having", "finished", "his", "homework,", "the", "boy", "went", "out", "to", "play."],
+          "answer": "Having finished his homework, the boy went out to play.",
+          "explain": "完成作业在先，出去玩在后，逻辑主语同为 the boy，用主动完成式作时间状语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "nonfinite.present_participle.independent-structure",
+      "title": "现在分词的独立结构",
+      "brief": "自带主语的分词短语，主语与主句不同",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["nonfinite.present_participle.adverbial", "morph.prepositions.with-structure"],
+      "concept": {
+        "summary": "当分词的动作发出者不是主句主语时，必须在分词前补出自己的逻辑主语，构成“名词/代词 + 现在分词”的独立结构。判定只有一条：分词的主语与主句主语是否同一；不同一就必须补主语，否则句子悬垂。独立结构的主语用主格。",
+        "sections": [
+          {
+            "h": "从悬垂到独立结构",
+            "p": "同一组词，补不补主语决定句子对错。分词前的主语一旦与主句主语不同，就必须写出来；写出来之后，整个结构不再依赖主句主语。",
+            "bullets": [
+              "× Walking along the street, the shops were closed.（shops 不会走路）",
+              "√ Walking along the street, I found the shops closed.（主语相同，用分词状语）",
+              "√ The shops being closed, we went home.（主语不同，补出 the shops）"
+            ]
+          },
+          {
+            "h": "结构形式与位置",
+            "p": "独立结构由“逻辑主语 + 非谓语”构成，主语用主格，非谓语随主动被动与先后变化。它多置于句首作状语，也可置于句末补充说明。",
+            "bullets": [
+              "主动：The meeting being over, the delegates left the hall.",
+              "被动：The homework finished, the children went out to play.",
+              "完成：The students having handed in their papers, the teacher left.",
+              "主语用主格：He being ill，不能写成 Him being ill"
+            ]
+          },
+          {
+            "h": "四种常见语义",
+            "p": "独立结构不带连词，语义由上下文推出。there being 与 it being 是固定形式，分别表示“存在”与“天气、时间”等无人称概念。",
+            "bullets": [
+              "时间：The meeting being over, they all left.",
+              "原因：There being no bus, we walked home.",
+              "条件：Weather permitting, we will go hiking.",
+              "伴随：He sat in the corner, his hands trembling."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The guests having arrived, the dinner began.", "zh": "客人到齐后，晚宴开始了。", "ok": true, "note": "having arrived 的逻辑主语是 the guests，与主句主语 the dinner 不同，故补出主语并用完成式表先发生。" },
+          { "en": "There being no taxi, we walked to the station.", "zh": "由于没有出租车，我们步行去了车站。", "ok": true, "note": "there being 是独立结构的固定形式，表原因。" },
+          { "en": "Weather permitting, the picnic will go ahead as planned.", "zh": "天气允许的话，野餐按计划进行。", "ok": true, "note": "permitting 的逻辑主语是 weather，表条件。" },
+          { "en": "He sat by the fire, his hands trembling with cold.", "zh": "他坐在炉火旁，双手冻得发抖。", "ok": true, "note": "句末独立结构补充伴随状态，trembling 的主语是 his hands。" },
+          { "en": "Walking along the street, the shops were all closed.", "zh": "走在街上，商店都关门了。", "ok": false, "note": "walking 的主语应是人，shops 不会走路；应补出 I，或改为 The shops being all closed, I went home." },
+          { "en": "Him being ill, we had to postpone the meeting.", "zh": "由于他病了，我们不得不推迟会议。", "ok": false, "note": "独立结构的主语用主格，应改为 He being ill。" },
+          { "en": "The homework finishing, the children went out to play.", "zh": "作业写完后，孩子们出去玩了。", "ok": false, "note": "homework 与 finish 是被动关系，应改为 The homework finished。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Being a hot day, we stayed indoors.", "right": "It being a hot day, we stayed indoors.", "why": "being 的逻辑主语是天气而不是 we，须补形式主语 it 构成独立结构。" },
+          { "wrong": "The signal giving, the runners set off.", "right": "The signal given, the runners set off.", "why": "signal 是被发出的对象，与分词构成被动关系，须用过去分词 given。" },
+          { "wrong": "Him not knowing the answer, the teacher asked someone else.", "right": "He not knowing the answer, the teacher asked someone else.", "why": "独立结构的主语是分句层面的主语，须用主格 he，不能用宾格 him。" }
+        ],
+        "contrast": { "withTitle": "独立主格结构", "diff": "独立主格是上位概念，补足语可为分词、不定式、形容词、副词或介词短语；现在分词独立结构只是补足语为 -ing 的一种。" },
+        "mnemonic": "主语不同就自带主语，主格在前分词在后；there being、it being 是固定搭档。"
+      },
+      "review": {
+        "core": [
+          "判定一条：分词主语与主句主语不同 → 必须自带主语",
+          "形式：名词/代词主格 + doing / being done / having done",
+          "位置：句首最常见，句末补充说明",
+          "there being 与 it being 是固定形式",
+          "主语用主格：He being ill，不是 Him being ill"
+        ],
+        "trigger": "写完分词状语后回头找主语 → 与主句主语不一致 → 立刻在分词前补主格主语",
+        "quickCheck": [
+          { "q": "“由于没有公交车”用独立结构怎么说？", "a": "There being no bus。" },
+          { "q": "Him being late 错在哪里？", "a": "独立结构主语须用主格，应为 He being late。" },
+          { "q": "Weather permitting 表什么关系？", "a": "条件，相当于 If the weather permits。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "nonfinite.present_participle.independent-structure.d1",
+          "type": "choice",
+          "stem": "___ , we had to cancel the picnic.",
+          "options": ["It raining heavily", "Raining heavily", "It rained heavily", "Having rained heavily"],
+          "answer": "It raining heavily",
+          "explain": "一问逻辑主语：rain 的发出者是天气，不是 we；二问关系：主动；三问时间：与谓语同时。主语不同，须用 it 作独立结构的主语。",
+          "trap": "Raining heavily 缺主语，其逻辑主语会错误地落到 we 上，形成悬垂。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.present_participle.independent-structure.d2",
+          "type": "fill",
+          "stem": "There ___ (be) no seats left, we stood at the back of the hall.",
+          "answer": "being",
+          "accept": ["being"],
+          "hint": "there be 的独立结构用 there being，表原因。",
+          "explain": "一问逻辑主语：there 引出存在的主体 seats；二问关系：状态，用 being；三问时间：与谓语 stood 同时，故填 being。",
+          "difficulty": 2
+        },
+        {
+          "id": "nonfinite.present_participle.independent-structure.d3",
+          "type": "correct",
+          "stem": "Him being late again, the manager lost his temper.",
+          "answer": "He being late again, the manager lost his temper.",
+          "accept": ["He being late again, the manager lost his temper."],
+          "explain": "独立结构中 being late 的逻辑主语是“他”，作分句主语须用主格 he；宾格 him 只作宾语。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.present_participle.independent-structure.d4",
+          "type": "choice",
+          "stem": "His health ___ , he decided to retire early.",
+          "options": ["failing", "failed", "to fail", "fail"],
+          "answer": "failing",
+          "explain": "一问逻辑主语：his health，与主句主语 he 不同，须补出；二问关系：健康主动“变差”；三问时间：与谓语同时，用现在分词 failing。",
+          "trap": "failed 是谓语形式，逗号不能连接两个谓语，也不能构成独立结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.present_participle.independent-structure.d5",
+          "type": "translate",
+          "stem": "天气允许的话，我们明天去爬山。",
+          "answer": "Weather permitting, we will go hiking tomorrow.",
+          "require": [["weather permitting"], ["go hiking"]],
+          "forbid": ["if weather permitting", "weather permits, we"],
+          "explain": "permitting 的逻辑主语是 weather，与 we 不同，须构成独立结构 Weather permitting，相当于 If the weather permits。",
+          "difficulty": 3
+        },
+        {
+          "id": "nonfinite.present_participle.independent-structure.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "rain", "stopping,", "we", "went", "out", "for", "a", "walk."],
+          "answer": "The rain stopping, we went out for a walk.",
+          "explain": "stopping 的逻辑主语是 the rain，与主句主语 we 不同，所以不能省主语；补出 the rain 后构成“主语 + 现在分词”的独立结构，表时间。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

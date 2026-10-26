@@ -1,0 +1,1201 @@
+{
+  "level1": "morph",
+  "chapter": "verbs",
+  "items": [
+    {
+      "id": "morph.verbs.main-vs-aux",
+      "title": "实义动词与助动词的界限",
+      "brief": "能否独立作谓语，决定它是实义还是助动",
+      "difficulty": 1,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "判定只看一条：这个词能否单独承担谓语。能单独作谓语、带完整词汇意义的是实义动词；不能单独作谓语、必须与另一个动词或分词共同构成谓语的是助动词。第二个判据是否定与疑问：需要另加 do 的是实义动词，自己就能加 not 或直接倒装的是助动词。",
+        "sections": [
+          {
+            "h": "两条判定线",
+            "p": "先做孤立测试：把这个词单独放进 He ___ 的位置，句子成立且意义完整，它是实义动词。再做否定测试：否定时是直接加 not，还是必须另请 do，直接加 not 的本身就是助动词。",
+            "bullets": [
+              "实义：He works. / He has a car. / She does her homework.",
+              "助动：He has left. / She is working. / He does not work.",
+              "同一形式两种身份：He has a car.（实义）→ He has bought a car.（助动）"
+            ]
+          },
+          {
+            "h": "三类助动词",
+            "p": "基本助动词 be/do/have 承担时态、语态、疑问与否定；情态助动词 can/may/must 等表语气；半助动词 be going to、have to、used to、ought to 形式上是实义动词，功能接近情态动词。",
+            "bullets": [
+              "基本助动词后接分词或原形：is doing / has done / does not do",
+              "情态助动词后接原形，没有人称与数的变化：He can swim.",
+              "半助动词保留实义动词的屈折：He has to go. / He used to smoke."
+            ]
+          },
+          {
+            "h": "实义动词的否定必须借 do",
+            "p": "现代英语中实义动词不能直接加 not，也不能直接提前构成疑问，必须由 do/does/did 承担人称与时态，实义动词退回原形。这一条同时解释了第三人称单数为什么落在 do 上。",
+            "bullets": [
+              "× He not likes tea. → √ He does not like tea.",
+              "× Does he likes tea? → √ Does he like tea?",
+              "have 作“拥有”讲时同样借 do：√ Does he have any money?"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She does her homework in the library every afternoon.", "zh": "她每天下午在图书馆做作业。", "ok": true, "note": "does 在此为实义动词，带宾语 her homework，义为“做”。" },
+          { "en": "She does not do her homework in the evening.", "zh": "她晚上不做作业。", "ok": true, "note": "第一个 does 是助动词承担否定，第二个 do 是实义动词。" },
+          { "en": "He has two brothers and a sister.", "zh": "他有两个兄弟和一个妹妹。", "ok": true, "note": "has 表示“拥有”，是实义动词，疑问句需借 do：Does he have...?" },
+          { "en": "He not goes to school by bus.", "zh": "他不坐公交车上学。", "ok": false, "note": "实义动词不能直接加 not，须由助动词承担否定：He does not go to school by bus." },
+          { "en": "He cans swim across the river.", "zh": "他能游过这条河。", "ok": false, "note": "can 是情态助动词，没有第三人称单数形式，应改为 He can swim。" },
+          { "en": "The room is cleaned every morning.", "zh": "这个房间每天早上打扫。", "ok": true, "note": "is 为助动词，与过去分词构成被动语态，本身不表示“是”。" },
+          { "en": "He doesn't has enough time for the rehearsal.", "zh": "他没有足够时间参加排练。", "ok": false, "note": "否定已由 doesn't 承担，实义动词须用原形 have。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He not finished the report.", "right": "He did not finish the report.", "why": "实义动词的否定必须由 do 的相应形式承担时态与人称，实义动词退回原形，not 不能直接跟在实义动词前。" },
+          { "wrong": "Does she likes classical music?", "right": "Does she like classical music?", "why": "助动词 does 已承担第三人称单数信息，实义动词不再加 s。" },
+          { "wrong": "He is work in a bank.", "right": "He works in a bank.", "why": "be 只有在进行时或被动语态中才是助动词，不能与动词原形直接连用；一般现在时直接用实义动词 works。" }
+        ],
+        "contrast": { "withTitle": "助动词 do 的强调与替代", "diff": "本知识点分辨一个形式是实义还是助动；do 的强调与替代讲的是助动词 do 在肯定句与替代结构中的额外功能。" },
+        "mnemonic": "能单独作谓语是实义，必须拉着别人才能作谓语是助动。"
+      },
+      "review": {
+        "core": [
+          "判定一：能否单独作谓语——能则实义，不能则助动",
+          "判定二：否定是加 not 还是借 do——借 do 的是实义动词",
+          "基本助动词 be/do/have 管时态、语态、疑问、否定",
+          "情态助动词后接原形，没有第三人称单数",
+          "半助动词 have to / be going to / used to 保留实义动词的屈折"
+        ],
+        "trigger": "看到句中出现两个动词形式 → 先问谁承担时态和人称 → 前一个是助动词，后一个按助动词的要求变形",
+        "quickCheck": [
+          { "q": "He has a car. 与 He has bought a car. 中的 has 有何不同？", "a": "前者是实义动词“拥有”，后者是构成现在完成时的助动词。" },
+          { "q": "实义动词的否定句为什么不能说 doesn't likes？", "a": "does 已承担第三人称单数，实义动词必须用原形 like。" },
+          { "q": "can 有第三人称单数形式吗？", "a": "没有，情态助动词一律用原形。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.verbs.main-vs-aux.d1",
+          "type": "choice",
+          "stem": "She ___ her homework in the school library every afternoon.",
+          "options": ["does", "do", "is", "has"],
+          "answer": "does",
+          "explain": "此处需要实义动词“做”，主语 She 为第三人称单数，用 does；is 与 has 都不能与后面的名词宾语构成“做作业”这一意义。",
+          "trap": "do 忽略了第三人称单数；is 则误把 be 当作可与实义动词连用的助动词。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.verbs.main-vs-aux.d2",
+          "type": "fill",
+          "stem": "He ___ (not have) any brothers or sisters, so he often spends holidays alone.",
+          "answer": "doesn't have",
+          "accept": ["doesn't have", "does not have"],
+          "hint": "have 作“拥有”讲是实义动词，否定要借 do。",
+          "explain": "have 表示“拥有”时为实义动词，否定由 doesn't 承担，have 用原形。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.main-vs-aux.d3",
+          "type": "correct",
+          "stem": "He doesn't has enough time to prepare for the interview.",
+          "answer": "He doesn't have enough time to prepare for the interview.",
+          "accept": ["He doesn't have enough time to prepare for the interview."],
+          "explain": "助动词 doesn't 已承担否定与第三人称单数，实义动词 have 必须用原形。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.verbs.main-vs-aux.d4",
+          "type": "choice",
+          "stem": "在句子“He has finished the report”中，has 的语法功能是 ___。",
+          "options": ["an auxiliary verb", "a main verb", "a linking verb", "a modal verb"],
+          "answer": "an auxiliary verb",
+          "explain": "has 后接过去分词 finished，共同构成现在完成时，本身不表示“拥有”，因此是助动词。",
+          "trap": "受 has 常见义“拥有”的影响而误判为实义动词，但此处它没有独立的词汇意义。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.main-vs-aux.d5",
+          "type": "translate",
+          "stem": "他没有完成报告，因为他那天病了。",
+          "answer": "He didn't finish the report because he was ill that day.",
+          "require": [["didn't finish", "did not finish"], ["because"]],
+          "forbid": ["didn't finished", "not finished"],
+          "explain": "实义动词 finish 的否定由 did 承担，finish 用原形；because 引导原因状语从句。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.main-vs-aux.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "does", "not", "have", "any", "classes", "on", "Friday."],
+          "answer": "She does not have any classes on Friday.",
+          "explain": "have 作“有”讲是实义动词，否定由 does not 承担，have 保持原形。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.verbs.transitive-intransitive",
+      "title": "及物与不及物动词的判定",
+      "brief": "删宾测试与被动测试，两条都指向及物性",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": [],
+      "concept": {
+        "summary": "判定及物性用两步测试：删去动词后的名词，看句子是否还站得住；再把句子改成被动，看能否成立。删掉后意义残缺、且能变被动的是及物动词；意义完整、不能变被动的是不及物动词。汉语及物而英语不及物的动词必须带介词，这是最高频的失分点。",
+        "sections": [
+          {
+            "h": "两步测试",
+            "p": "先做删宾测试，再做被动测试，两个测试指向同一结论时才可靠。有些动词两栖，必须按具体义项判断，不能凭词形下结论。",
+            "bullets": [
+              "及物：She wrote a letter. → 删去 a letter 句子残缺；→ A letter was written by her.",
+              "不及物：The baby slept. → 删去后仍完整；× The baby was slept.",
+              "两栖：He runs a bookshop.（及物）/ He runs every morning.（不及物）"
+            ]
+          },
+          {
+            "h": "汉语及物、英语不及物的高频词",
+            "p": "这类动词在汉语里可以直接带宾语，在英语里必须借助固定介词。介词是动词短语的一部分，不能省略，也不能换成别的介词。",
+            "bullets": [
+              "listen to music / wait for the bus / arrive at the station",
+              "agree with sb / depend on sth / laugh at sb",
+              "reply to the letter / apologize to sb for sth / respond to the question",
+              "discuss sth（不加 about）/ enter the room（不加 into）/ marry sb（不加 with）"
+            ]
+          },
+          {
+            "h": "两栖动词的义项判断",
+            "p": "同一动词常有一个及物义项和一个不及物义项，宾语出现与否会改变词义，判断依据是句中有没有宾语以及该义项是否成立。",
+            "bullets": [
+              "sell：The shop sells books.（及物）/ The book sells well.（不及物，主动表被动）",
+              "grow：He grows roses.（及物）/ The roses grow fast.（不及物）",
+              "change：She changed her dress.（及物）/ The weather has changed.（不及物）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She listened to the lecture with great attention.", "zh": "她非常专注地听了那场讲座。", "ok": true, "note": "listen 是不及物动词，必须借助介词 to 才能带宾语。" },
+          { "en": "She listened the lecture with great attention.", "zh": "她非常专注地听了那场讲座。", "ok": false, "note": "listen 不能直接带宾语，须补介词 to。" },
+          { "en": "The accident happened at about nine last night.", "zh": "事故发生在昨晚九点左右。", "ok": true, "note": "happen 是不及物动词，没有宾语，也没有被动形式。" },
+          { "en": "The accident was happened at about nine last night.", "zh": "事故发生在昨晚九点左右。", "ok": false, "note": "happen 不及物，不能构成被动语态。" },
+          { "en": "He runs a small bookshop near the station.", "zh": "他在车站附近经营一家小书店。", "ok": true, "note": "run 在此为及物动词，义为“经营”，后接宾语 a small bookshop。" },
+          { "en": "He runs in the park every morning.", "zh": "他每天早上在公园跑步。", "ok": true, "note": "同一动词的不及物用法，表示“跑步”，不带宾语。" },
+          { "en": "The manager discussed about the new schedule with us.", "zh": "经理和我们讨论了新的日程安排。", "ok": false, "note": "discuss 是及物动词，直接带宾语，不加 about。" }
+        ],
+        "pitfalls": [
+          { "wrong": "We waited the bus for twenty minutes.", "right": "We waited for the bus for twenty minutes.", "why": "wait 是不及物动词，宾语必须由介词 for 引出。" },
+          { "wrong": "The war was broken out in 1937.", "right": "The war broke out in 1937.", "why": "break out 是不及物的短语动词，没有被动形式。" },
+          { "wrong": "He arrived the airport at six.", "right": "He arrived at the airport at six.", "why": "arrive 不及物，大地点用 in、小地点用 at，介词不可省。" }
+        ],
+        "contrast": { "withTitle": "短语动词的宾语位置", "diff": "本知识点判断动词能否直接带宾语；短语动词部分讲的是已经带了介词的动词如何安排宾语的位置。" },
+        "mnemonic": "先删宾语看句子，再变被动看能否；汉语及物英语不及，补个介词才成型。"
+      },
+      "review": {
+        "core": [
+          "删宾测试：去掉后面的名词，句子残缺 → 及物",
+          "被动测试：能变被动 → 及物；不能 → 不及物",
+          "listen to / wait for / arrive at / agree with / depend on 必须带介词",
+          "discuss / enter / marry / reach 是及物动词，不加 about/into/with/at",
+          "两栖动词按义项判断：run a shop 及物，run fast 不及物"
+        ],
+        "trigger": "看到动词后面直接跟名词 → 先查这个词是否必须带介词 → 再决定能否直接变被动",
+        "quickCheck": [
+          { "q": "happen 能用于被动语态吗？", "a": "不能，happen 是不及物动词，没有被动形式。" },
+          { "q": "“讨论这个问题”英语怎么说？", "a": "discuss the problem，不加 about。" },
+          { "q": "The book sells well. 中 sell 为什么用主动形式？", "a": "sell 在此为不及物用法，主语是物，主动形式表被动意义。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.verbs.transitive-intransitive.d1",
+          "type": "choice",
+          "stem": "The students ___ the lecture carefully and took notes in the margin.",
+          "options": ["listened", "listened to", "listened for", "were listened to"],
+          "answer": "listened to",
+          "explain": "listen 是不及物动词，带宾语须用介词 to；listened for 意为“等着听到”，与“认真听讲座”不符。",
+          "trap": "listened 直接带宾语，是汉语“听讲座”的逐字直译。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.verbs.transitive-intransitive.d2",
+          "type": "fill",
+          "stem": "We waited ___ the bus for nearly half an hour before it finally came.",
+          "answer": "for",
+          "accept": ["for"],
+          "hint": "wait 是不及物动词，宾语要由介词引出。",
+          "explain": "wait 不及物，宾语由介词 for 引出，wait for sth 是固定搭配。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.verbs.transitive-intransitive.d3",
+          "type": "correct",
+          "stem": "The manager discussed about the new schedule with his team.",
+          "answer": "The manager discussed the new schedule with his team.",
+          "accept": ["The manager discussed the new schedule with his team."],
+          "explain": "discuss 是及物动词，直接带宾语，about 是多余的介词。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.transitive-intransitive.d4",
+          "type": "choice",
+          "stem": "The little bookshop ___ well because its prices are reasonable and the staff are friendly.",
+          "options": ["sells", "is sold", "sold out", "is selling"],
+          "answer": "sells",
+          "explain": "sell 在此为不及物用法，主语是物，主动形式表被动意义，与 well 搭配表示“销路好”。",
+          "trap": "is sold 套用了被动语态，但 sell well 是固定的主动表被动结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.transitive-intransitive.d5",
+          "type": "translate",
+          "stem": "这起事故发生在昨天下午。",
+          "answer": "The accident happened yesterday afternoon.",
+          "require": [["happened"], ["yesterday afternoon"]],
+          "forbid": ["was happened"],
+          "explain": "happen 是不及物动词，没有被动形式，直接用主动语态加时间状语。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.transitive-intransitive.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "listened", "to", "the", "music", "in", "complete", "silence."],
+          "answer": "She listened to the music in complete silence.",
+          "explain": "listen 后必须带介词 to 才能接宾语 the music。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.verbs.linking-verbs",
+      "title": "系动词的分类与用法",
+      "brief": "系动词接表语用形容词，换成 be 仍成立",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.verbs.transitive-intransitive"],
+      "concept": {
+        "summary": "系动词后面接的是表语而不是宾语，因此后面出现形容词而不是副词，是识别系动词最直接的信号。判定方法是替换：把该动词换成 be，句子结构与意义基本不变，即可确认它是系动词。同一个动词既可作系动词也可作实义动词，区别在于后面接形容词还是副词、是否带宾语。",
+        "sections": [
+          {
+            "h": "判定：换成 be 测试",
+            "p": "把动词换成 be，若句子仍然成立且意思接近，该动词在此是系动词。系动词后的成分说明主语的性质或状态，不能用副词。",
+            "bullets": [
+              "The soup tastes good. → The soup is good.（成立，tastes 为系动词）",
+              "He tasted the soup carefully. → × He is the soup.（不成立，tasted 为实义动词）",
+              "系动词后接形容词、名词或介词短语：feel cold / become a doctor / remain in bed"
+            ]
+          },
+          {
+            "h": "五类系动词",
+            "p": "按语义分组记忆，考场上按“状态—感官—变化—持续—表象结果”五条线检索。",
+            "bullets": [
+              "状态：be",
+              "感官：look, sound, smell, taste, feel",
+              "变化：become, get, grow, turn, go, come, fall",
+              "持续：remain, stay, keep, continue, hold",
+              "表象与结果：seem, appear, prove, turn out"
+            ]
+          },
+          {
+            "h": "感官动词与变化动词的两个限制",
+            "p": "感官动词后接形容词表主语特征，接副词则说明动作方式；变化类系动词中 turn 后接名词时不加冠词，go 多接表示恶化或异常的形容词。",
+            "bullets": [
+              "The music sounds beautiful.（系动词 + 形容词）/ He looked at me angrily.（实义 + 副词）",
+              "He turned writer after graduation.（turn + 名词，不用冠词）",
+              "The milk went bad. / He went pale at the news."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The soup tastes a little salty.", "zh": "这汤尝起来有点咸。", "ok": true, "note": "taste 为感官系动词，后接形容词 salty 说明主语特征。" },
+          { "en": "The soup tastes a little saltily.", "zh": "这汤尝起来有点咸。", "ok": false, "note": "系动词后接形容词作表语，不能改用副词 saltily。" },
+          { "en": "She looked at the broken vase angrily.", "zh": "她生气地看着那个碎掉的花瓶。", "ok": true, "note": "look at 是实义动词短语，修饰动作方式用副词 angrily。" },
+          { "en": "He remained silent throughout the meeting.", "zh": "整个会议期间他一直沉默。", "ok": true, "note": "remain 是持续类系动词，后接形容词 silent 作表语。" },
+          { "en": "The music sounds beautifully through these headphones.", "zh": "用这副耳机听，音乐听起来很美。", "ok": false, "note": "sound 是感官系动词，表语用形容词 beautiful。" },
+          { "en": "The leaves turn yellow in late autumn.", "zh": "叶子在深秋变黄。", "ok": true, "note": "turn 是变化类系动词，后接形容词表示状态变化。" },
+          { "en": "His explanation proved correct after the test.", "zh": "测试之后证明他的解释是正确的。", "ok": true, "note": "prove 是结果类系动词，后接形容词表示“被证明是”。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The cake smells sweetly.", "right": "The cake smells sweet.", "why": "smell 在此是感官系动词，表语说明主语的性质，用形容词而非副词。" },
+          { "wrong": "She felt badly about the mistake.", "right": "She felt bad about the mistake.", "why": "feel 作系动词表“感到”，后接形容词；badly 是副词，只修饰动作方式。" },
+          { "wrong": "The weather is getting more and more coldly.", "right": "The weather is getting colder and colder.", "why": "get 是变化类系动词，表语用比较级形容词，不能用副词。" }
+        ],
+        "contrast": { "withTitle": "形容词作定语与表语的位置限制", "diff": "本知识点辨认“动词后为什么用形容词”；形容词部分处理形容词本身在句中的位置与后置条件。" },
+        "mnemonic": "系动词后接表语，表语用形容词；换成 be 还成立，就是系动词。"
+      },
+      "review": {
+        "core": [
+          "系动词 + 表语，表语用形容词而非副词",
+          "换 be 测试：替换后句子成立 → 系动词",
+          "五类：be / 感官 / 变化 / 持续 / 表象结果",
+          "look at、taste sth 带宾语时是实义动词，用副词修饰",
+          "turn 后接名词不加冠词：He turned writer."
+        ],
+        "trigger": "看到动词后面直接跟形容词 → 先换成 be 试一次 → 成立就按系动词处理，不要再改成副词",
+        "quickCheck": [
+          { "q": "The music sounds ___ (beautiful). 填什么？", "a": "beautiful，sound 是感官系动词。" },
+          { "q": "look at 后面修饰动作方式用什么词性？", "a": "副词，如 He looked at me angrily." },
+          { "q": "turn 后接名词时要不要冠词？", "a": "不要，如 He turned writer." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.verbs.linking-verbs.d1",
+          "type": "choice",
+          "stem": "The soup ___ a little salty, so I added some water to it.",
+          "options": ["tastes", "tastes like", "is tasted", "taste"],
+          "answer": "tastes",
+          "explain": "taste 在此为感官系动词，后接形容词 salty 作表语；主语 The soup 为单数，谓语用 tastes。",
+          "trap": "tastes like 后必须接名词，salty 是形容词，不能作 like 的宾语。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.verbs.linking-verbs.d2",
+          "type": "fill",
+          "stem": "The news sounds ___ (encourage) to everyone in the room.",
+          "answer": "encouraging",
+          "accept": ["encouraging"],
+          "hint": "sound 是感官系动词，表语说明主语给人的感受。",
+          "explain": "sound 后接形容词作表语；说明事物给人的感受用 -ing 形式的 encouraging。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.linking-verbs.d3",
+          "type": "correct",
+          "stem": "The music sounds beautifully through these new headphones.",
+          "answer": "The music sounds beautiful through these new headphones.",
+          "accept": ["The music sounds beautiful through these new headphones."],
+          "explain": "sound 是感官系动词，表语用形容词 beautiful；beautifully 是副词，不能作表语。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.linking-verbs.d4",
+          "type": "choice",
+          "stem": "The leaves ___ yellow as soon as the cold weather arrives.",
+          "options": ["turn", "turn to", "are turned", "turns"],
+          "answer": "turn",
+          "explain": "turn 是变化类系动词，直接接形容词表示状态变化，主语复数用原形 turn。",
+          "trap": "turn to 意为“转向、求助于”，后面接名词，不能接形容词 yellow。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.linking-verbs.d5",
+          "type": "translate",
+          "stem": "这汤闻起来很香，但尝起来有点咸。",
+          "answer": "The soup smells delicious, but it tastes a little salty.",
+          "require": [["smells"], ["tastes"], ["salty"]],
+          "forbid": ["smells well", "tastes saltily"],
+          "explain": "smell 与 taste 都是感官系动词，表语用形容词；well 与 saltily 是副词，不能作表语。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.linking-verbs.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "weather", "is", "getting", "warmer", "day", "by", "day."],
+          "answer": "The weather is getting warmer day by day.",
+          "explain": "get 是变化类系动词，后接比较级形容词 warmer 作表语。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.verbs.punctual-durative",
+      "title": "瞬间动词与延续动词",
+      "brief": "瞬间动词不能接时间段，需换状态表达",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["morph.verbs.four-forms"],
+      "concept": {
+        "summary": "瞬间动词表示动作在一瞬间完成，不能与 for/since/how long 等表示一段时间的状语连用；延续动词表示可以持续的状态或动作，可以与时间段连用。判断方法是把动词放进“for + 一段时间”的框架：句子成立则是延续动词，不成立就必须改用状态表达。改写有三条路径：换状态词、用 It is ... since 句型、以及把句子改成否定。",
+        "sections": [
+          {
+            "h": "两类动词的时间属性",
+            "p": "瞬间动词的完成时只表示动作已完成，不表示状态持续；一旦加上时间段，语法上就要求动词本身能延续，因此必须换词。",
+            "bullets": [
+              "瞬间：arrive, leave, begin, start, stop, finish, buy, borrow, lend, die, join, marry, open, close, fall asleep, catch a cold",
+              "延续：live, study, work, keep, have, know, be, stay, wait, sleep",
+              "× He has died for three years. → √ He has been dead for three years."
+            ]
+          },
+          {
+            "h": "三条改写路径",
+            "p": "改写时保留原句的时间信息，只替换谓语部分，不要改动主语与时间状语。",
+            "bullets": [
+              "换状态词：die → be dead；leave → be away；buy → have；borrow → keep；join → be in；begin → be on",
+              "It is / has been + 时间段 + since + 一般过去时：It is three years since he joined the army.",
+              "否定式可接时间段：I haven't seen him for two years.（see 是瞬间动词，但否定形式表示状态）"
+            ]
+          },
+          {
+            "h": "高频替换表",
+            "p": "考试中反复出现的六组替换要形成条件反射，看到瞬间动词加时间段就先换状态词。",
+            "bullets": [
+              "die → be dead；marry → be married to",
+              "leave → be away from；come/go → be here / be there",
+              "buy → have；borrow → keep；open → be open；close → be closed",
+              "join → be in；begin/start → be on；end/finish → be over"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "His grandfather has been dead for nearly ten years.", "zh": "他祖父去世将近十年了。", "ok": true, "note": "die 是瞬间动词，与时间段连用须换成状态 be dead。" },
+          { "en": "His grandfather has died for nearly ten years.", "zh": "他祖父去世将近十年了。", "ok": false, "note": "die 不能与 for 引导的时间段连用，应改为 has been dead。" },
+          { "en": "She has kept my dictionary for over a month.", "zh": "她借我的词典已经一个多月了。", "ok": true, "note": "borrow 是瞬间动词，与时间段连用换成延续动词 keep。" },
+          { "en": "She has borrowed my dictionary for over a month.", "zh": "她借我的词典已经一个多月了。", "ok": false, "note": "borrow 表示一次性借入，不能延续，应改为 has kept。" },
+          { "en": "It is three years since he joined the army.", "zh": "他参军已经三年了。", "ok": true, "note": "瞬间动词 join 放在 since 从句中用一般过去时，主句用 It is + 时间段。" },
+          { "en": "The film has been on for ten minutes.", "zh": "电影已经开演十分钟了。", "ok": true, "note": "begin 是瞬间动词，与时间段连用换成 be on。" },
+          { "en": "He has left home for two hours.", "zh": "他离家已经两个小时了。", "ok": false, "note": "leave 是瞬间动词，应改为 has been away from home for two hours。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I have bought this bicycle for three years.", "right": "I have had this bicycle for three years.", "why": "buy 表示一次性购买动作，不能延续三年，与时间段连用须换成状态动词 have。" },
+          { "wrong": "The meeting has begun for twenty minutes.", "right": "The meeting has been on for twenty minutes.", "why": "begin 是瞬间动词，其完成时不表示持续，需换成 be on。" },
+          { "wrong": "She has married him for ten years.", "right": "She has been married to him for ten years.", "why": "marry 是瞬间动词，表示持续的婚姻状态要用 be married to。" }
+        ],
+        "contrast": { "withTitle": "现在完成时的延续用法与时间标志", "diff": "本知识点解决“哪些动词根本不能接时间段”；现在完成时的延续用法讲的是 for 与 since 的选择以及时间标志的识别。" },
+        "mnemonic": "一秒完成的动作，不接 for 和 since；要接就换状态词，be dead、be away、have、keep。"
+      },
+      "review": {
+        "core": [
+          "瞬间动词一秒完成：arrive/leave/begin/buy/borrow/die/join/marry",
+          "瞬间动词不能与 for/since/how long 连用",
+          "改写路径一：换状态词 be dead / be away / have / keep / be on",
+          "改写路径二：It is + 时间段 + since + 一般过去时",
+          "否定式可接时间段：I haven't seen him for years."
+        ],
+        "trigger": "看到瞬间动词 + for/since/时间段 → 立刻换状态词，或改成 It is ... since 句型",
+        "quickCheck": [
+          { "q": "“他去世三年了”怎么说？", "a": "He has been dead for three years." },
+          { "q": "borrow 与时间段连用要换成什么？", "a": "keep，如 I have kept the book for a week." },
+          { "q": "begin 的延续表达是什么？", "a": "be on，如 The film has been on for ten minutes." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.verbs.punctual-durative.d1",
+          "type": "choice",
+          "stem": "His grandfather ___ for nearly ten years, but the family still talks about him.",
+          "options": ["has died", "has been dead", "died", "has been died"],
+          "answer": "has been dead",
+          "explain": "die 是瞬间动词，与 for nearly ten years 连用须换成状态 be dead，并用现在完成时。",
+          "trap": "has died 形式正确但语义上不能延续十年，是最强干扰项。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.punctual-durative.d2",
+          "type": "fill",
+          "stem": "She ___ (keep) my dictionary for over a month and still hasn't returned it.",
+          "answer": "has kept",
+          "accept": ["has kept"],
+          "hint": "borrow 是瞬间动词，与时间段连用要换延续动词。",
+          "explain": "与 for over a month 连用须用延续动词 keep，句子为现在完成时，故填 has kept。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.punctual-durative.d3",
+          "type": "correct",
+          "stem": "I have bought this bicycle for three years.",
+          "answer": "I have had this bicycle for three years.",
+          "accept": ["I have had this bicycle for three years."],
+          "explain": "buy 是瞬间动词，动作不能延续三年，与时间段连用须换成状态动词 have。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.punctual-durative.d4",
+          "type": "choice",
+          "stem": "The meeting has ___ for twenty minutes, but no decision has been made.",
+          "options": ["begun", "been on", "started", "began"],
+          "answer": "been on",
+          "explain": "begin 是瞬间动词，与时间段连用须换成 be on，构成 has been on。",
+          "trap": "begun 是 begin 的过去分词，形式正确但同样不能接时间段。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.punctual-durative.d5",
+          "type": "translate",
+          "stem": "他离开家乡已经三年了。",
+          "answer": "He has been away from his hometown for three years.",
+          "require": [["been away"], ["three years"]],
+          "forbid": ["has left his hometown for three years", "left his hometown for three years"],
+          "explain": "leave 是瞬间动词，与时间段连用须换成状态 be away from。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.punctual-durative.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "has", "been", "in", "the", "army", "for", "three", "years."],
+          "answer": "He has been in the army for three years.",
+          "explain": "join 是瞬间动词，与时间段连用换成状态 be in the army。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.verbs.four-forms",
+      "title": "动词的四种基本形式",
+      "brief": "四形式各有岗位，过去式只作谓语",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "动词有原形、过去式、过去分词、现在分词四种形式，各有固定的句法岗位：过去式只能作谓语；过去分词用于完成时、被动语态和分词短语；现在分词用于进行时与主动意义的非谓语。规则变化取决于词尾 -ed/-ing 的拼写规则，不规则变化按 AAA/ABB/ABC/ABA 四类整记。判断用哪一种，先看它前面有没有助动词，再看是主动还是被动。",
+        "sections": [
+          {
+            "h": "四种形式与岗位",
+            "p": "同一个动词用哪一种形式，由它在谓语中的角色决定，不由时间单独决定。",
+            "bullets": [
+              "原形：情态动词后、do 之后、祈使句：He can swim. / Does he swim?",
+              "过去式：只作谓语，表示过去：He swam across the river.",
+              "过去分词：have/has/had 后、be 后、作定语或状语：He has swum. / a broken window",
+              "现在分词：be 后、作定语或状语：He is swimming. / the swimming boy"
+            ]
+          },
+          {
+            "h": "-ing 与 -ed 的拼写规则",
+            "p": "两条规则都取决于词尾的发音与重音位置，拼写错误在语法填空中同样算错。",
+            "bullets": [
+              "去 e：make → making, write → writing；但 see → seeing, be → being 保留 e",
+              "双写末尾辅音：run → running, begin → beginning, prefer → preferred",
+              "ie → y：lie → lying, die → dying, tie → tying",
+              "-ed：stop → stopped, plan → planned；carry → carried；play → played"
+            ]
+          },
+          {
+            "h": "不规则动词四类",
+            "p": "按三态是否相同分组记忆，比按字母顺序背更有效，也更容易在写作时回忆。",
+            "bullets": [
+              "AAA：cut-cut-cut, put-put-put, cost-cost-cost",
+              "ABB：buy-bought-bought, teach-taught-taught, keep-kept-kept",
+              "ABC：go-went-gone, write-wrote-written, begin-began-begun",
+              "ABA：come-came-come, become-became-become, run-ran-run"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The letter was written by the manager yesterday morning.", "zh": "这封信是经理昨天上午写的。", "ok": true, "note": "write 的过去分词 written 与 be 构成被动语态。" },
+          { "en": "The letter was wrote by the manager yesterday morning.", "zh": "这封信是经理昨天上午写的。", "ok": false, "note": "被动语态用过去分词，write 的过去分词是 written，不是过去式 wrote。" },
+          { "en": "She has begun to learn French this term.", "zh": "她这学期开始学法语。", "ok": true, "note": "现在完成时用 has + 过去分词 begun。" },
+          { "en": "She has began to learn French this term.", "zh": "她这学期开始学法语。", "ok": false, "note": "has 后必须用过去分词 begun，began 是过去式。" },
+          { "en": "The children were bored by the long lecture.", "zh": "孩子们被那场冗长的讲座弄得厌烦。", "ok": true, "note": "bored 是过去分词转化的形容词，说明人的感受。" },
+          { "en": "The long lecture was boring, so several students fell asleep.", "zh": "那场讲座很乏味，几个学生睡着了。", "ok": true, "note": "boring 是现在分词转化的形容词，说明事物令人乏味。" },
+          { "en": "The boy was very exciting about the school trip.", "zh": "这个男孩对学校组织的旅行很兴奋。", "ok": false, "note": "说明人的感受用过去分词 excited，exciting 用于说明事物。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He has drank three cups of coffee this morning.", "right": "He has drunk three cups of coffee this morning.", "why": "have 后接过去分词，drink 的三态是 drink-drank-drunk。" },
+          { "wrong": "The window was broke by a stone.", "right": "The window was broken by a stone.", "why": "被动语态用过去分词 broken，broke 是过去式，不能跟在 be 后。" },
+          { "wrong": "The film was really bored, so we left early.", "right": "The film was really boring, so we left early.", "why": "-ing 形容词说明事物引起的感受，-ed 形容词说明人的感受，主语是 film 故用 boring。" }
+        ],
+        "contrast": { "withTitle": "过去式与过去分词形式的易混", "diff": "本知识点建立四种形式的完整岗位表；时态部分只针对过去式与过去分词这一对做专项辨析。" },
+        "mnemonic": "过去式只作谓语，过去分词跟 have 和 be；-ing 主动，-ed 被动，双写看重音。"
+      },
+      "review": {
+        "core": [
+          "四形式：原形 / 过去式 / 过去分词 / 现在分词",
+          "过去式只作谓语；过去分词用于完成时、被动与非谓语",
+          "拼写：去 e、双写重读闭音节、ie 变 y、辅音 + y 变 ied",
+          "不规则四类 AAA/ABB/ABC/ABA",
+          "-ing 说明事物，-ed 说明人的感受"
+        ],
+        "trigger": "看到 have/has/had 或 be 后面要填动词 → 一律先想过去分词 → 再核对不规则表",
+        "quickCheck": [
+          { "q": "write 的四种形式？", "a": "write, wrote, written, writing。" },
+          { "q": "被动语态里 be 后面用过去式还是过去分词？", "a": "过去分词，如 was written。" },
+          { "q": "The film is ___ (bore). 填什么？", "a": "boring，说明电影令人乏味。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.verbs.four-forms.d1",
+          "type": "choice",
+          "stem": "The letter ___ by the manager yesterday morning.",
+          "options": ["was written", "was wrote", "has wrote", "wrote"],
+          "answer": "was written",
+          "explain": "by the manager 表明被动，be 后须用过去分词 written；yesterday morning 限定为一般过去时。",
+          "trap": "was wrote 把过去式当过去分词使用，是最高频的形式错误。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.four-forms.d2",
+          "type": "fill",
+          "stem": "She ___ (begin) to learn French, so she can now read simple novels in it.",
+          "answer": "has begun",
+          "accept": ["has begun"],
+          "hint": "强调动作结果对现在的影响，用现在完成时。",
+          "explain": "现在完成时用 has + 过去分词，begin 的过去分词是 begun。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.four-forms.d3",
+          "type": "correct",
+          "stem": "He has went to Shanghai to attend an international conference.",
+          "answer": "He has gone to Shanghai to attend an international conference.",
+          "accept": ["He has gone to Shanghai to attend an international conference."],
+          "explain": "has 后接过去分词 gone，went 是过去式，不能用于现在完成时。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.verbs.four-forms.d4",
+          "type": "choice",
+          "stem": "The children were ___ by the long lecture and started to yawn.",
+          "options": ["bored", "boring", "bore", "bores"],
+          "answer": "bored",
+          "explain": "主语 the children 是被讲座影响的人，说明人的感受用 -ed 形容词 bored。",
+          "trap": "boring 说明事物令人乏味，其主语应为 lecture 而不是 children。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.four-forms.d5",
+          "type": "translate",
+          "stem": "这本书是我去年写的。",
+          "answer": "This book was written by me last year.",
+          "require": [["was written"], ["last year"]],
+          "forbid": ["was wrote", "writed"],
+          "explain": "被动语态用 be + 过去分词，write 的过去分词是 written；last year 限定一般过去时。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.four-forms.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "window", "was", "broken", "by", "a", "stone."],
+          "answer": "The window was broken by a stone.",
+          "explain": "被动语态由 was + 过去分词 broken 构成，by 引出动作执行者。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.verbs.modal-speculation",
+      "title": "情态动词的推测等级",
+      "brief": "推测强度可排序，否定只用 can't",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.verbs.main-vs-aux"],
+      "concept": {
+        "summary": "情态动词表推测时按可能性排成固定阶梯：must（一定）> should / ought to（按理应该）> may（可能）> might / could（或许）> can't / couldn't（不可能）。否定推测必须用 can't 或 couldn't，因为 mustn't 表示禁止而不是“不可能”。must 只用于肯定句，疑问句的推测用 can。",
+        "sections": [
+          {
+            "h": "可能性阶梯",
+            "p": "同一事实用不同情态动词，表示说话人把握程度不同。阶梯是可判定的：证据越直接越靠前，纯主观猜测靠后。",
+            "bullets": [
+              "must：有直接证据，接近确定：The light is on, so he must be at home.",
+              "should / ought to：按常理或安排应当如此：He should be in the office by now.",
+              "may：有可能，不确定：She may be in the library.",
+              "might / could：可能性更弱，语气更犹豫：It might rain this afternoon.",
+              "can't / couldn't：有反证表明不可能：He can't be at home; I saw him leave."
+            ]
+          },
+          {
+            "h": "否定端为什么是 can't",
+            "p": "must 的否定形式不是 must not。must not 表示“禁止做某事”，与推测无关；表示“不可能”要用 can't 或 couldn't。这一条是改错题的固定考点。",
+            "bullets": [
+              "√ He can't be serious.（他不可能当真）",
+              "× He mustn't be serious.（意为“他不得当真”，是禁止）",
+              "疑问推测用 can：Can it be true?（这可能是真的吗）"
+            ]
+          },
+          {
+            "h": "形式搭配",
+            "p": "对现在的状态或习惯做推测，情态动词后接动词原形或 be；对过去做推测则用情态动词 + have done。情态动词本身没有人称与数的变化。",
+            "bullets": [
+              "must be / may be / can't be + 形容词或名词",
+              "must do / may do / can't do + 动词原形",
+              "对过去的推测另用 must have done / can't have done"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The light is on, so he must be at home.", "zh": "灯亮着，所以他一定在家。", "ok": true, "note": "有直接证据（灯亮着），用 must 表接近确定的肯定推测。" },
+          { "en": "The light is on, so he mustn't be at home.", "zh": "灯亮着，所以他一定不在家。", "ok": false, "note": "mustn't 表示禁止，不能表示“不可能”，应改为 can't be at home。" },
+          { "en": "He can't be at home; I saw him leave ten minutes ago.", "zh": "他不可能在家，我十分钟前看见他出去了。", "ok": true, "note": "有反证时否定推测用 can't，不用 mustn't。" },
+          { "en": "She may be in the library, but I am not sure.", "zh": "她可能在图书馆，但我不确定。", "ok": true, "note": "may 表示有可能但不确定。" },
+          { "en": "According to the schedule, the train should arrive at nine.", "zh": "按照时刻表，火车应该九点到。", "ok": true, "note": "should 表示按安排或常理应当如此。" },
+          { "en": "He must can swim very well.", "zh": "他游泳一定游得很好。", "ok": false, "note": "情态动词不能叠加，须说 He must be able to swim very well。" },
+          { "en": "It might snow tonight, so take a warm coat.", "zh": "今晚可能下雪，带件厚外套吧。", "ok": true, "note": "might 表示较弱的可能性。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He mustn't be at home, for I saw him leave just now.", "right": "He can't be at home, for I saw him leave just now.", "why": "mustn't 表禁止，不表推测；有反证时的否定推测必须用 can't。" },
+          { "wrong": "She must be know the answer.", "right": "She must know the answer.", "why": "情态动词后接动词原形，不能接 be + 动词原形；只有推测现在状态时才用 must be + 形容词或名词。" },
+          { "wrong": "The report may finished by Friday.", "right": "The report may be finished by Friday.", "why": "may 后接动词原形，被动结构须写成 may be + 过去分词。" }
+        ],
+        "contrast": { "withTitle": "情态动词 + have done", "diff": "本知识点处理对现在事实的推测；对过去事实的推测要把情态动词后的原形换成 have done。" },
+        "mnemonic": "一定 must，应该 should，可能 may，或许 might，不可能 can't；mustn't 是禁止，不是推测。"
+      },
+      "review": {
+        "core": [
+          "强度阶梯：must > should > may > might/could > can't",
+          "否定推测用 can't / couldn't，绝不用 mustn't",
+          "must 只用于肯定句，疑问推测用 can",
+          "对现在的推测：情态动词 + 原形或 be",
+          "对过去的推测：情态动词 + have done"
+        ],
+        "trigger": "看到“一定/可能/不可能”这类判断 → 先定强度 → 再检查是否否定，否定只能用 can't",
+        "quickCheck": [
+          { "q": "must 的否定推测形式是什么？", "a": "can't 或 couldn't，不是 mustn't。" },
+          { "q": "Can it be true? 为什么用 can？", "a": "疑问句的推测用 can，must 不用于疑问推测。" },
+          { "q": "may 与 might 的强度差别？", "a": "might 更弱、更犹豫。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.verbs.modal-speculation.d1",
+          "type": "choice",
+          "stem": "The lights are on and the car is in the driveway, so he ___ be at home.",
+          "options": ["must", "can", "might", "mustn't"],
+          "answer": "must",
+          "explain": "两个直接证据使把握接近确定，肯定推测用 must；can 表推测只用于否定句和疑问句。",
+          "trap": "might 语法正确但强度不足，与前文的双重证据不匹配。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.modal-speculation.d2",
+          "type": "fill",
+          "stem": "He ___ be serious — he is only joking with you.",
+          "answer": "can't",
+          "accept": ["can't", "cannot", "can not"],
+          "hint": "有反证时的否定推测。",
+          "explain": "表示“不可能”用 can't；mustn't 意为“不得”，与句意不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.modal-speculation.d3",
+          "type": "correct",
+          "stem": "He mustn't be at home, for I saw him leave just now.",
+          "answer": "He can't be at home, for I saw him leave just now.",
+          "accept": ["He can't be at home, for I saw him leave just now."],
+          "explain": "mustn't 表禁止，否定推测必须用 can't。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.modal-speculation.d4",
+          "type": "choice",
+          "stem": "According to the timetable, the train ___ arrive at nine, but it is already nine thirty.",
+          "options": ["should", "must", "can", "need"],
+          "answer": "should",
+          "explain": "should 表示按安排或常理应当如此，与“已经九点半还没到”的落差相配合。",
+          "trap": "must 表“一定”，与列车已经晚点的事实矛盾。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.modal-speculation.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "can't", "be", "at", "home", "at", "this", "hour."],
+          "answer": "He can't be at home at this hour.",
+          "explain": "否定推测用 can't be，表示“不可能在家”。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.modal-speculation.d6",
+          "type": "translate",
+          "stem": "他不可能在办公室，灯是关着的。",
+          "answer": "He can't be in the office; the light is off.",
+          "require": [["can't be", "cannot be"], ["light"]],
+          "forbid": ["mustn't be"],
+          "explain": "有反证（灯关着）时否定推测用 can't be；mustn't be 表示禁止。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.verbs.modal-perfect",
+      "title": "情态动词 + have done",
+      "brief": "对过去的推测与评价，一律加 have done",
+      "difficulty": 3,
+      "tags": ["高频", "难点"],
+      "prereq": ["morph.verbs.modal-speculation", "morph.verbs.four-forms"],
+      "concept": {
+        "summary": "情态动词 + have done 表示对过去事实的推测或评价，时间指向说话之前。判定依据是时间：句中出现 yesterday、last night、already 等过去时间，或上下文明显指向过去，就用 have done；对现在推测则用原形。在这一结构里，must have done 是一定做过，can't have done 是不可能做过，should have done 是本应做而没做。",
+        "sections": [
+          {
+            "h": "结构与时态指向",
+            "p": "have done 是完成体形式，把判断对象锁定在过去。情态动词本身不变化，语义完全由情态动词承担。",
+            "bullets": [
+              "must have done：对过去的肯定推测，证据充分：He must have missed the bus.",
+              "can't / couldn't have done：对过去的否定推测：She can't have finished so soon.",
+              "may / might have done：过去可能做过：They might have gone home.",
+              "should / ought to have done：本应做而没做，含责备：You should have told me.",
+              "shouldn't have done：本不该做却做了：You shouldn't have said that.",
+              "needn't have done：本不必做却做了：You needn't have bought so much food."
+            ]
+          },
+          {
+            "h": "三组必须分清的评价义",
+            "p": "should have done 与 needn't have done 都含“与事实相反”的评价，但方向不同：前者是没做该做的，后者是做了不必做的。",
+            "bullets": [
+              "should have done = 该做没做 → 责备或遗憾",
+              "shouldn't have done = 不该做却做了 → 责备",
+              "needn't have done = 不必做却做了 → 多余，无责备语气",
+              "could have done = 本来能够做却没做 → 惋惜"
+            ]
+          },
+          {
+            "h": "needn't have done 与 didn't need to",
+            "p": "两者都表示“没有必要”，但事实相反：needn't have done 是已经做了，didn't need to do 是没有做。这一组在选择题中常同时出现。",
+            "bullets": [
+              "You needn't have watered the garden; it rained an hour later.（浇了，但没必要）",
+              "I didn't need to water the garden because it rained.（没浇，因为没必要）",
+              "needn't 本身就是情态动词的否定形式，后面不加 to"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The ground is wet, so it must have rained last night.", "zh": "地面是湿的，所以昨晚一定下过雨。", "ok": true, "note": "must have done 表示对过去事实的肯定推测，证据是地面湿。" },
+          { "en": "She can't have finished the report so soon; it was due next week.", "zh": "她不可能这么快就完成了报告，报告下周才到期。", "ok": true, "note": "can't have done 表示对过去的否定推测。" },
+          { "en": "You should have told me about the change earlier.", "zh": "你本该早点告诉我这个变动。", "ok": true, "note": "should have done 表示本应做而没做，含责备。" },
+          { "en": "You should have came to the meeting on time.", "zh": "你本该准时到会。", "ok": false, "note": "have 后必须用过去分词 come，不能用过去式 came。" },
+          { "en": "You needn't have bought so much bread; we already had plenty.", "zh": "你本不必买这么多面包，我们已经有很多了。", "ok": true, "note": "needn't have done 表示做了但本不必做。" },
+          { "en": "I didn't need to buy any bread because we had plenty at home.", "zh": "我不必买面包，因为家里已经有很多。", "ok": true, "note": "didn't need to do 表示没有必要，因此没有做。" },
+          { "en": "You needn't to have booked two rooms.", "zh": "你本不必订两个房间。", "ok": false, "note": "needn't 本身已是情态动词的否定形式，后接 have done，不加 to。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He must have went home before the storm.", "right": "He must have gone home before the storm.", "why": "have 后接过去分词，go 的过去分词是 gone。" },
+          { "wrong": "You mustn't have finished the work so quickly.", "right": "You can't have finished the work so quickly.", "why": "对过去的否定推测用 can't have done，mustn't have done 不是英语中的推测结构。" },
+          { "wrong": "You needn't to have watered the flowers.", "right": "You needn't have watered the flowers.", "why": "needn't 已是情态动词的否定形式，直接接 have done，不加 to。" }
+        ],
+        "contrast": { "withTitle": "情态动词的推测等级", "diff": "推测等级处理对现在的判断，用情态动词 + 原形；本知识点把同一套等级平移到过去，用情态动词 + have done。" },
+        "mnemonic": "must 一定，can't 不可能，should 本该，needn't 白做；过去一律加 have done。"
+      },
+      "review": {
+        "core": [
+          "结构：情态动词 + have done，判断对象在过去",
+          "must have done 一定做过；can't have done 不可能做过",
+          "should have done 该做没做；shouldn't have done 不该做却做了",
+          "needn't have done 做了但不必；didn't need to do 没做",
+          "could have done 本来能却没做"
+        ],
+        "trigger": "看到过去时间 + 情态动词 → 结构补成 have done → 再核对情态动词的语义",
+        "quickCheck": [
+          { "q": "“他一定错过公交车了”怎么说？", "a": "He must have missed the bus." },
+          { "q": "needn't have done 与 didn't need to do 的事实差别？", "a": "前者做了，后者没做。" },
+          { "q": "should have done 表达什么语气？", "a": "本应做而没做，含责备或遗憾。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.verbs.modal-perfect.d1",
+          "type": "choice",
+          "stem": "The ground is wet everywhere, so it ___ last night.",
+          "options": ["must have rained", "must rain", "should have rained", "can have rained"],
+          "answer": "must have rained",
+          "explain": "last night 指向过去，地面湿是直接证据，故用 must have done 表肯定推测。",
+          "trap": "should have rained 表示“本应下雨而没下”，与地面湿的事实矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.modal-perfect.d2",
+          "type": "fill",
+          "stem": "You ___ (should) tell me about the change earlier; I could have adjusted my plan.",
+          "answer": "should have told",
+          "accept": ["should have told"],
+          "hint": "对过去的责备，结构为 should + have + 过去分词。",
+          "explain": "earlier 与 could have adjusted 都指向过去，表示“本应告诉而没告诉”，用 should have told。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.modal-perfect.d3",
+          "type": "correct",
+          "stem": "You should have came to the meeting on time.",
+          "answer": "You should have come to the meeting on time.",
+          "accept": ["You should have come to the meeting on time."],
+          "explain": "have 后必须用过去分词，come 的过去分词与原形同形，不能用过去式 came。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.verbs.modal-perfect.d4",
+          "type": "choice",
+          "stem": "You ___ have bought so much bread; we already had plenty in the cupboard.",
+          "options": ["needn't", "mustn't", "shouldn't", "couldn't"],
+          "answer": "needn't",
+          "explain": "面包已经买了，但本不必买，用 needn't have done 表示白做了、没有责备语气。",
+          "trap": "mustn't have done 不是英语中的推测结构，mustn't 只表示禁止。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.modal-perfect.d5",
+          "type": "translate",
+          "stem": "他不可能已经完成了那份报告。",
+          "answer": "He can't have finished that report.",
+          "require": [["can't have finished", "cannot have finished", "couldn't have finished"], ["report"]],
+          "forbid": ["mustn't have finished"],
+          "explain": "对过去的否定推测用 can't have done；mustn't have done 不是合法结构。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.modal-perfect.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "must", "have", "left", "her", "keys", "at", "home."],
+          "answer": "She must have left her keys at home.",
+          "explain": "must have done 表示对过去的肯定推测，leave 的过去分词是 left。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.verbs.modal-politeness",
+      "title": "情态动词的委婉用法",
+      "brief": "过去式情态加疑问句式，降低强加度",
+      "difficulty": 2,
+      "tags": ["高频", "写作"],
+      "prereq": ["morph.verbs.main-vs-aux"],
+      "concept": {
+        "summary": "委婉的本质是降低请求对听者的强加度，手段有三条：把情态动词改成过去式（could/would/might）、把请求包装成疑问或否定疑问、加入缓冲语（possibly, I wonder if）。判定委婉是否到位，看情态动词形式与句式是否同时升级；只加 please 而保留 can you，委婉度并没有实质提高。形式上一旦用 would you mind，后面必须接动名词。",
+        "sections": [
+          {
+            "h": "三条委婉手段",
+            "p": "三条手段可以叠加，叠加越多语气越客气，日常表达控制在两层以内即可。",
+            "bullets": [
+              "过去式情态：can → could；will → would；may → might",
+              "疑问或否定疑问：Could you...? / Would you mind...? / Might I...?",
+              "缓冲语：possibly, perhaps, I was wondering if..., if you don't mind"
+            ]
+          },
+          {
+            "h": "高频委婉句式",
+            "p": "这些句式已经固定，套用时不要改动其中的形式，尤其不能把动名词换成不定式。",
+            "bullets": [
+              "Could you possibly do sth?（请求）",
+              "Would you mind doing sth?（请求，后接动名词）",
+              "I was wondering if you could do sth.（更间接，把请求包装成询问）",
+              "Would you like to do sth?（邀请，后接不定式）",
+              "Might I ask / suggest...?（正式场合的提议）"
+            ]
+          },
+          {
+            "h": "答语与形式限制",
+            "p": "Would you mind...? 的同意回答是 Not at all 或 Of course not，表示“不介意”；Never mind 用于安慰或表示“算了”，不能回答请求。",
+            "bullets": [
+              "— Would you mind opening the window? — Not at all.",
+              "× Would you mind to open the window? → √ Would you mind opening the window?",
+              "× Could you please to help me? → √ Could you please help me?"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Could you possibly lend me your notes for the weekend?", "zh": "能不能把笔记借我周末用一下？", "ok": true, "note": "could 是过去式情态，possibly 作缓冲语，两层委婉叠加。" },
+          { "en": "Would you mind closing the door behind you?", "zh": "你介意随手把门关上吗？", "ok": true, "note": "would you mind 后接动名词 closing。" },
+          { "en": "Would you mind to close the door behind you?", "zh": "你介意随手把门关上吗？", "ok": false, "note": "mind 后接动名词，应改为 closing。" },
+          { "en": "I was wondering if you could help me with the form.", "zh": "不知道你能不能帮我填一下这张表。", "ok": true, "note": "过去进行时加 if 从句，把请求包装成间接询问。" },
+          { "en": "Could you please to help me move the table?", "zh": "麻烦你帮我搬一下桌子好吗？", "ok": false, "note": "could you please 后直接接动词原形，不带 to。" },
+          { "en": "Would you like to join us for dinner on Friday?", "zh": "周五愿意和我们一起吃饭吗？", "ok": true, "note": "would like 后接不定式，用于邀请而非请求。" },
+          { "en": "Might I suggest a short break before we continue?", "zh": "我是否可以建议先短暂休息一下再继续？", "ok": true, "note": "might 比 may 更委婉，多用于正式场合的提议。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Would you mind to turn down the music?", "right": "Would you mind turning down the music?", "why": "mind 后接动名词作宾语，turn 须变为 turning。" },
+          { "wrong": "Could you please to send me the file again?", "right": "Could you please send me the file again?", "why": "could 是情态动词，后接动词原形，please 不改变这一结构。" },
+          { "wrong": "— Would you mind my opening the window? — Never mind.", "right": "— Would you mind my opening the window? — Not at all.", "why": "Never mind 意为“没关系、算了”，用于安慰或放弃；同意对方请求应说 Not at all。" }
+        ],
+        "contrast": { "withTitle": "祈使句的构成与委婉形式", "diff": "本知识点靠情态动词和疑问句式软化请求；祈使句部分讲的是动词开头的直接命令及其委婉附加成分。" },
+        "mnemonic": "过去式更客气，疑问比陈述软；mind 后面加 ing，please 后面跟原形。"
+      },
+      "review": {
+        "core": [
+          "三条手段：过去式情态 / 疑问句式 / 缓冲语",
+          "could、would、might 比 can、will、may 委婉",
+          "Would you mind + doing；Would you like + to do",
+          "同意 Would you mind 用 Not at all，不用 Never mind",
+          "情态动词后一律接原形，please 不改变这一点"
+        ],
+        "trigger": "看到请求或建议的句子 → 检查情态动词是否已换成过去式 → 再看 mind 后是否用了动名词",
+        "quickCheck": [
+          { "q": "Would you mind 后面接什么形式？", "a": "动名词，如 Would you mind opening the window?" },
+          { "q": "Could you please 后面能加 to 吗？", "a": "不能，直接接动词原形。" },
+          { "q": "Would you mind...? 的同意答语是什么？", "a": "Not at all. 或 Of course not." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.verbs.modal-politeness.d1",
+          "type": "choice",
+          "stem": "___ you possibly lend me your notes for the weekend?",
+          "options": ["Could", "Must", "Should", "Need"],
+          "answer": "Could",
+          "explain": "could 是 can 的过去式形式，用于请求时比 can 委婉，possibly 进一步缓冲。",
+          "trap": "Must 表义务或禁止，用于请求不合语义，也无法与 possibly 搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.modal-politeness.d2",
+          "type": "fill",
+          "stem": "Would you mind ___ (turn) down the music a little?",
+          "answer": "turning",
+          "accept": ["turning"],
+          "hint": "mind 后接动名词。",
+          "explain": "mind 后接动名词作宾语，turn 直接加 -ing 构成 turning。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.modal-politeness.d3",
+          "type": "correct",
+          "stem": "Would you mind to close the door behind you?",
+          "answer": "Would you mind closing the door behind you?",
+          "accept": ["Would you mind closing the door behind you?"],
+          "explain": "mind 后接动名词，to close 是不定式，结构错误。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.modal-politeness.d4",
+          "type": "choice",
+          "stem": "— Would you mind if I used your phone for a minute? — ___",
+          "options": ["Not at all.", "Never mind.", "You're welcome.", "Yes, please."],
+          "answer": "Not at all.",
+          "explain": "Not at all 表示“一点也不介意”，是对 Would you mind 的同意回答。",
+          "trap": "Never mind 意为“没关系、算了”，用于安慰或撤回话题，不能表示同意请求。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.modal-politeness.d5",
+          "type": "translate",
+          "stem": "你能帮我一个忙吗？（语气委婉）",
+          "answer": "Could you do me a favour?",
+          "require": [["Could you"], ["favour", "favor"]],
+          "forbid": ["Could you please to", "Can you to"],
+          "explain": "用 could 代替 can 构成委婉请求，后接动词原形 do；favour 为英式拼写，favor 为美式拼写。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.modal-politeness.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Could", "you", "possibly", "help", "me", "with", "this", "form?"],
+          "answer": "Could you possibly help me with this form?",
+          "explain": "could + possibly 构成委婉请求，后接动词原形 help。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.verbs.do-emphasis",
+      "title": "助动词 do 的强调与替代",
+      "brief": "do 的第三、第四功能：强调谓语与替代",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["morph.verbs.main-vs-aux"],
+      "concept": {
+        "summary": "助动词 do/does/did 除构成疑问与否定外，还有两个独立功能：强调谓语和替代上文出现的动词短语。强调的公式是 do/does/did + 动词原形，只用于肯定句和肯定祈使句，且不能与已有的助动词或情态动词叠加。替代时 do 的时态与人称跟随被替代的谓语，so do I / neither do I 中的助动词必须与原句一致。",
+        "sections": [
+          {
+            "h": "三个功能的判定",
+            "p": "看 do 后面接什么、句子是什么语气，就能区分三种功能。后接原形且句子为肯定，是强调；后接原形且句子为疑问或否定，是构成疑问否定；单独出现且指向上文的动作，是替代。",
+            "bullets": [
+              "构成疑问否定：Do you like it? / He doesn't like it.",
+              "强调谓语：I do like it. / He did finish it.（后接原形，重读）",
+              "替代动词短语：— Who broke it? — Tom did. / She sings well, and so does her brother."
+            ]
+          },
+          {
+            "h": "强调形式的四条限制",
+            "p": "强调用法受结构限制，违反任何一条都会写出不合语法的句子。",
+            "bullets": [
+              "只用于肯定句：× I don't do like it.",
+              "后接动词原形：× He does likes music. → √ He does like music.",
+              "不能与已有助动词或情态动词叠加：× He does can swim. → √ He can swim.",
+              "祈使句的强调用 Do + 原形：Do be careful. / Do come early."
+            ]
+          },
+          {
+            "h": "替代与呼应",
+            "p": "do 替代的是整个谓语短语，因此时态由原句决定，人称由新主语决定；so/neither 引导的呼应句要沿用原句的助动词，不能一律用 do。",
+            "bullets": [
+              "— Who broke the window? — Tom did.（did 替代 broke the window）",
+              "She sings well, and so does her brother.（原句是一般现在时的实义动词，呼应句用 does）",
+              "— I have never been there. — Neither have I.（原句用 have，呼应句沿用 have）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I do hope you will reconsider your decision.", "zh": "我确实希望你能重新考虑这个决定。", "ok": true, "note": "do 用于强调谓语 hope，后接动词原形。" },
+          { "en": "She does look tired after the long journey.", "zh": "长途旅行之后她看上去确实很累。", "ok": true, "note": "does 强调谓语 look，主语第三人称单数时用 does。" },
+          { "en": "He does likes classical music.", "zh": "他确实喜欢古典音乐。", "ok": false, "note": "强调结构后必须用动词原形，应改为 does like。" },
+          { "en": "— Who broke the window? — Tom did.", "zh": "——谁打破了窗户？——汤姆。", "ok": true, "note": "did 替代 broke the window，避免重复整个谓语短语。" },
+          { "en": "She sings well, and so does her brother.", "zh": "她唱得很好，她弟弟也是。", "ok": true, "note": "so does + 主语构成肯定呼应，助动词形式与原句一致。" },
+          { "en": "— I don't like coffee. — So don't I.", "zh": "——我不喜欢咖啡。——我也不喜欢。", "ok": false, "note": "否定呼应应用 Neither do I 或 Nor do I，so 只用于肯定呼应。" },
+          { "en": "Do be careful when you cross the street.", "zh": "过马路时一定要小心。", "ok": true, "note": "祈使句的强调用 Do + 动词原形，be 保留原形。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He did went to the library yesterday afternoon.", "right": "He did go to the library yesterday afternoon.", "why": "did 已承担过去时，后面的实义动词必须用原形。" },
+          { "wrong": "I do can swim across the river.", "right": "I can swim across the river.", "why": "情态动词本身可以重读表强调，不能再叠加助动词 do。" },
+          { "wrong": "— I have never been to Tibet. — Neither do I.", "right": "— I have never been to Tibet. — Neither have I.", "why": "呼应句的助动词必须与原句一致，原句用 have，呼应句也用 have。" }
+        ],
+        "contrast": { "withTitle": "do/does/did 替代谓语", "diff": "本知识点讲 do 的三种功能与强调的四条限制；替代部分专门处理 so/neither 呼应句与 do so 结构的选择。" },
+        "mnemonic": "do 后接原形才是强调，肯定句里才能用；替代看时态，呼应看助动词。"
+      },
+      "review": {
+        "core": [
+          "do/does/did 三功能：疑问否定、强调谓语、替代动词短语",
+          "强调公式：do/does/did + 动词原形，只用于肯定句",
+          "不能与助动词或情态动词叠加",
+          "祈使句强调：Do be careful. / Do come early.",
+          "呼应句沿用原句助动词：Neither have I. / So does her brother."
+        ],
+        "trigger": "看到 do 后跟动词原形且句子是肯定句 → 判定为强调 → 再检查是否与已有助动词冲突",
+        "quickCheck": [
+          { "q": "He does likes music. 错在哪里？", "a": "强调结构后必须用原形，应为 does like。" },
+          { "q": "“我确实喜欢它”怎么强调？", "a": "I do like it." },
+          { "q": "— I have never been there. 的否定呼应句？", "a": "Neither have I." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.verbs.do-emphasis.d1",
+          "type": "choice",
+          "stem": "I ___ hope you will reconsider your decision before Friday.",
+          "options": ["do", "does", "did", "done"],
+          "answer": "do",
+          "explain": "do 用于强调谓语 hope，主语 I 用 do，后接动词原形。",
+          "trap": "does 用于第三人称单数主语，与 I 不一致；done 不能作助动词。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.verbs.do-emphasis.d2",
+          "type": "fill",
+          "stem": "She ___ (do) look elegant in that dress.",
+          "answer": "does",
+          "accept": ["does"],
+          "hint": "主语第三人称单数，强调结构用 does。",
+          "explain": "强调谓语 look 时用 does + 动词原形，主语 She 决定用 does。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.do-emphasis.d3",
+          "type": "correct",
+          "stem": "He did went to the library yesterday afternoon.",
+          "answer": "He did go to the library yesterday afternoon.",
+          "accept": ["He did go to the library yesterday afternoon."],
+          "explain": "did 已承担过去时，后面的实义动词必须用原形 go。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.verbs.do-emphasis.d4",
+          "type": "choice",
+          "stem": "— I have never been to Tibet. — ___",
+          "options": ["Neither have I.", "So have I.", "Neither do I.", "So do I."],
+          "answer": "Neither have I.",
+          "explain": "原句为否定句且助动词是 have，否定呼应句须用 Neither have I。",
+          "trap": "Neither do I 的助动词与原句不一致，do 不能替代 have。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.verbs.do-emphasis.d5",
+          "type": "translate",
+          "stem": "她确实喜欢古典音乐。",
+          "answer": "She does like classical music.",
+          "require": [["does like"]],
+          "forbid": ["does likes", "do likes"],
+          "explain": "强调谓语 like 用 does + 原形，主语 She 决定用 does。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.verbs.do-emphasis.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "does", "look", "tired", "after", "the", "long", "journey."],
+          "answer": "He does look tired after the long journey.",
+          "explain": "does 强调谓语 look，后接形容词 tired 作表语。",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

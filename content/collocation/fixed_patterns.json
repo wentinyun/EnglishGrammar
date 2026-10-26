@@ -1,0 +1,681 @@
+{
+  "level1": "collocation",
+  "chapter": "fixed_patterns",
+  "items": [
+    {
+      "id": "collocation.fixed_patterns.correlative-structures",
+      "title": "关联结构 the more...the more 与 no sooner...than",
+      "brief": "比较级成对前置，no sooner 后接 than 并倒装",
+      "difficulty": 3,
+      "tags": ["高频", "难点"],
+      "prereq": ["morph.adj_adv.the-more-the-more"],
+      "concept": {
+        "summary": "这两个结构都靠固定框架识别：the more..., the more... 要求两个分句都以 the + 比较级开头，表示两个变化量成正比；no sooner...than 表示“刚…就…”，主句用过去完成时，从句用一般过去时，no sooner 置于句首时主句必须部分倒装。框架缺一个 the、连接词换成 when、或忘记倒装，句子即错。",
+        "sections": [
+          {
+            "h": "the + 比较级，the + 比较级",
+            "p": "两个分句的 the 都是框架的一部分，一个都不能省，且比较级必须紧跟 the。前一分句相当于条件，用一般现在时；后一分句表结果，用 will、情态动词或一般现在时。比较级本身不能再加 more。",
+            "bullets": [
+              "The more you read, the faster your reading speed becomes.",
+              "The earlier you start, the more likely you are to finish on time.",
+              "× The more you read, more you will learn.（第二个 the 缺失）",
+              "× The more you eat, the more fatter you get.（more 与 -er 重复）"
+            ]
+          },
+          {
+            "h": "no sooner...than 的时态与倒装",
+            "p": "no sooner 引出的动作先发生，用过去完成时；than 从句的动作随后发生，用一般过去时。no sooner 位于句首时，把 had 提到主语之前构成部分倒装；no sooner 留在句中则用正常语序。同义的 hardly/scarcely 搭配 when，不搭配 than。",
+            "bullets": [
+              "No sooner had the bell rung than the students rushed out.",
+              "He had no sooner arrived than it began to rain.",
+              "× No sooner he had arrived than it began to rain.（句首未倒装）",
+              "Hardly had she sat down when the phone rang."
+            ]
+          },
+          {
+            "h": "省略形式与常见变体",
+            "p": "the more 结构可以省略主语和 be 动词，形成 the more, the better 这类紧缩表达；也可以只重复比较级而省略整个分句。no sooner 不能与表示持续的时间段连用，因为它标记的是两个瞬间动作的紧接。",
+            "bullets": [
+              "The more, the better.",
+              "The more carefully you plan, the fewer mistakes you will make.",
+              "The sooner, the better.（越早越好）",
+              "× No sooner had he lived there for ten years than he moved away."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The more carefully you plan, the fewer mistakes you will make.", "zh": "你计划得越仔细，犯的错误就越少。", "ok": true, "note": "两个分句都以 the + 比较级开头，前句表条件，后句表结果。" },
+          { "en": "The more you practice, more confident you will become.", "zh": "你练习得越多，就会越自信。", "ok": false, "note": "第二个分句缺少 the，the + 比较级 的框架必须两处齐全。" },
+          { "en": "No sooner had she finished the report than the manager asked for it.", "zh": "她刚写完报告，经理就来要了。", "ok": true, "note": "no sooner 置于句首，主句用过去完成时并部分倒装，从句用一般过去时。" },
+          { "en": "No sooner she had finished the report than the manager asked for it.", "zh": "她刚写完报告，经理就来要了。", "ok": false, "note": "no sooner 位于句首时必须倒装，应改为 No sooner had she finished。" },
+          { "en": "The harder you work, the more you will achieve.", "zh": "你越努力，取得的成就就越大。", "ok": true, "note": "前后两个比较级分句成对出现，the 均不可省。" },
+          { "en": "Hardly had he arrived than the meeting began.", "zh": "他刚到会议就开始了。", "ok": false, "note": "hardly 后接 when 而不是 than；than 只与 no sooner 搭配。" },
+          { "en": "The more, the better.", "zh": "越多越好。", "ok": true, "note": "省略主语与谓语的紧缩形式，两个 the 仍然保留。" }
+        ],
+        "pitfalls": [
+          { "wrong": "No sooner had the train left when we arrived at the station.", "right": "No sooner had the train left than we arrived at the station.", "why": "no sooner 的固定后接词是 than；when 属于 hardly/scarcely 的搭配，两者不能互换。" },
+          { "wrong": "The more you eat, the more fatter you become.", "right": "The more you eat, the fatter you become.", "why": "比较级不能双重标记，more 与 -er 只能取其一。" },
+          { "wrong": "No sooner he had got home than the phone rang.", "right": "No sooner had he got home than the phone rang.", "why": "句首的 no sooner 属于否定性副词，要求主句部分倒装，助动词 had 必须前置。" }
+        ],
+        "contrast": { "withTitle": "比较级表最高级", "diff": "the more...the more 是两个变化量的正比关系，必须成对出现；比较级表最高级是单一比较结构在特定范围内的替换用法。" },
+        "mnemonic": "the 字成对，比较级紧跟；no sooner 配 than，主句过去完成加倒装；hardly 配 when。"
+      },
+      "review": {
+        "core": [
+          "the more..., the more...：两个分句都必须 the + 比较级，the 不能省",
+          "前句用一般现在时表条件，后句用 will 或情态动词表结果",
+          "no sooner...than：主句过去完成时，从句一般过去时",
+          "no sooner 置于句首，主句部分倒装：No sooner had he left than...",
+          "hardly/scarcely...when 与 no sooner...than 的连接词不能互换",
+          "比较级不能 more + -er 双重标记"
+        ],
+        "trigger": "看到句首 the + 比较级或 no sooner/hardly → 先补全 the 框架，再查倒装与时态",
+        "quickCheck": [
+          { "q": "“你越早出发，到得越早”用哪个框架？", "a": "The earlier you set off, the sooner you will arrive." },
+          { "q": "No sooner 位于句首时主句怎么变？", "a": "部分倒装，把 had 提到主语前：No sooner had he left..." },
+          { "q": "Hardly 后面接 than 还是 when？", "a": "接 when。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.fixed_patterns.correlative-structures.d1",
+          "type": "choice",
+          "stem": "___ you start, the sooner you will finish the whole project.",
+          "options": ["The earlier", "Earlier", "The early", "The more early"],
+          "answer": "The earlier",
+          "explain": "该结构要求 the + 比较级 开头，early 的比较级是 earlier，且 the 不能省略。",
+          "trap": "Earlier 缺少 the，框架不完整；The more early 是 more 与 -er 的双重比较错误。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.fixed_patterns.correlative-structures.d2",
+          "type": "fill",
+          "stem": "No sooner ___ the lights gone out than the audience burst into applause.",
+          "answer": "had",
+          "accept": ["had"],
+          "hint": "no sooner 位于句首，助动词要提前；注意后面用的是 gone。",
+          "explain": "no sooner 置于句首要求部分倒装，主句用过去完成时，助动词 had 提到主语 the lights 之前。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.correlative-structures.d3",
+          "type": "correct",
+          "stem": "No sooner she had opened the door than the cat ran out.",
+          "answer": "No sooner had she opened the door than the cat ran out.",
+          "accept": ["No sooner had she opened the door than the cat ran out."],
+          "explain": "no sooner 位于句首时必须部分倒装，把助动词 had 从主语 she 之后移到之前。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.correlative-structures.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "more", "carefully", "you", "plan,", "the", "fewer", "mistakes", "you", "will", "make."],
+          "answer": "The more carefully you plan, the fewer mistakes you will make.",
+          "explain": "两个分句都采用 the + 比较级 开头，前句表条件，后句用 will 表结果。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.correlative-structures.d5",
+          "type": "translate",
+          "stem": "你练习得越多，说英语就越自信。",
+          "answer": "The more you practice speaking English, the more confident you will become.",
+          "require": [["practice", "practise"], ["the more"], ["confident"]],
+          "forbid": ["more confidenter", "the more you practice, more confident"],
+          "explain": "两个分句都要有 the + 比较级，confident 的比较级用 more confident，不能再加 -er。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.correlative-structures.d6",
+          "type": "choice",
+          "stem": "Hardly ___ the classroom when it started to snow heavily.",
+          "options": ["had we entered", "we had entered", "did we enter", "we entered"],
+          "answer": "had we entered",
+          "explain": "hardly...when 表示“刚…就…”，主句用过去完成时，hardly 置于句首时部分倒装，had 提到主语前。",
+          "trap": "did we enter 只完成了倒装，却没有体现动作在先的过去完成时；we had entered 则漏掉倒装。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "collocation.fixed_patterns.impersonal-patterns",
+      "title": "惯用句型 It is ... that 与 There is no denying that",
+      "brief": "删掉框架做完整性测试，判定强调句或形式主语",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["syntax.it_usage.formal-subject", "syntax.it_usage.cleft"],
+      "concept": {
+        "summary": "It is ... that 有两种身份，判定方法是删掉 It is 与 that 后看剩余部分是否仍是完整句子：完整则是强调句，不完整则是 It 作形式主语、that 从句作真正主语。There is no denying/point/sense 属于存在句的评价结构，deny 必须以动名词 denying 出现，point/sense 后接 (in) doing，不能接 to do。",
+        "sections": [
+          {
+            "h": "删框架测试：强调句还是形式主语",
+            "p": "强调句可以强调主语、宾语和状语，被强调部分放在 It is 之后，其余成分由 that 引出；删掉框架后句子成分齐全。形式主语句删掉框架后，that 从句本身就是完整句子，It 只是占位，没有词汇意义。",
+            "bullets": [
+              "It was in 2019 that they moved to Chengdu.（强调状语，删框架后仍完整）",
+              "It is important that everyone arrives on time.（形式主语，that 从句是真正主语）",
+              "× It is important is that everyone arrives on time.",
+              "强调人时连接词可用 who：It was Mary who broke the window."
+            ]
+          },
+          {
+            "h": "There is no denying that 类结构",
+            "p": "there be 后接名词性成分，deny 是动词，必须先变成动名词 denying 才能占据这个位置。同类结构还有 There is no doubt that...、There is no need to do、There is no point/sense (in) doing，各自的后续形式固定。",
+            "bullets": [
+              "There is no denying that the plan has serious flaws.",
+              "There is no point (in) arguing about it now.",
+              "There is no need to apologize.",
+              "× There is no deny that the plan has serious flaws."
+            ]
+          },
+          {
+            "h": "It is no use / It is time 类固定句式",
+            "p": "It is no use/no good doing sth 中 it 是形式主语，真正主语是动名词短语，不能换成不定式。It is (high) time that 从句用一般过去时或 should + 动词原形，表示“早该做某事了”。It is said/reported that 可转换为 sb/sth is said to do。",
+            "bullets": [
+              "It is no use crying over spilt milk.",
+              "It is high time that we took action.",
+              "× It is no use to cry over spilt milk.",
+              "It is said that he lives abroad. = He is said to live abroad."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It was at the railway station that they first met.", "zh": "他们第一次见面就是在这个火车站。", "ok": true, "note": "强调地点状语，删去 It was 与 that 后 they first met at the railway station 仍完整。" },
+          { "en": "It was at the railway station where they first met.", "zh": "他们第一次见面就是在这个火车站。", "ok": false, "note": "强调句的连接词固定用 that，where 会把结构变成定语从句，句子因此不成立。" },
+          { "en": "There is no denying that reading widely improves writing.", "zh": "不可否认，广泛阅读能提高写作水平。", "ok": true, "note": "denying 是动名词，作 there be 的名词性成分，后接 that 从句。" },
+          { "en": "There is no deny that reading widely improves writing.", "zh": "不可否认，广泛阅读能提高写作水平。", "ok": false, "note": "deny 是动词，不能直接作 there be 的表语名词，须改为 denying。" },
+          { "en": "It is no use complaining about the weather.", "zh": "抱怨天气没有用。", "ok": true, "note": "it 为形式主语，真正主语是动名词短语 complaining about the weather。" },
+          { "en": "It is no use to complain about the weather.", "zh": "抱怨天气没有用。", "ok": false, "note": "no use 后固定接动名词，不能换成不定式。" },
+          { "en": "It is high time that we started to prepare for the exam.", "zh": "我们早该开始准备考试了。", "ok": true, "note": "It is high time that 从句用一般过去时表虚拟。" }
+        ],
+        "pitfalls": [
+          { "wrong": "It was in the library where I found the book.", "right": "It was in the library that I found the book.", "why": "强调句的连接词固定为 that，where 只用于修饰地点先行词的定语从句。" },
+          { "wrong": "There is no point to discuss the matter again.", "right": "There is no point in discussing the matter again.", "why": "point 后接 in + 动名词，in 可以省略，但动词必须用 -ing 形式。" },
+          { "wrong": "It is no good to stay up late before an exam.", "right": "It is no good staying up late before an exam.", "why": "no good/no use 后用动名词作真正主语，形式主语 it 不能带不定式。" }
+        ],
+        "contrast": { "withTitle": "it 的固定句型", "diff": "it 的固定句型按词条记搭配（It takes sb... / It is worth...）；本知识点解决同一外壳下“形式主语”与“强调句”的身份判定。" },
+        "mnemonic": "删掉 It is 和 that，句子还站得住就是强调句；no use/no good 后面只跟 doing。"
+      },
+      "review": {
+        "core": [
+          "强调句：去掉 It is ... that 后句子仍完整，连接词只能是 that（人可用 who）",
+          "形式主语：that 从句是真正主语，It 没有词汇意义",
+          "There is no denying/point/sense (in) doing，deny 必须用 denying",
+          "It is no use/no good doing sth，不能接 to do",
+          "It is (high) time that sb did / should do",
+          "It is said that sb... = sb is said to..."
+        ],
+        "trigger": "看到 It is ... that → 先删框架做完整性测试；看到 no use/no good/point → 后面填 doing",
+        "quickCheck": [
+          { "q": "It was in 2019 that they met. 是强调句还是形式主语？", "a": "强调句，删掉框架后 they met in 2019 完整。" },
+          { "q": "There is no denying 后面为什么用 denying？", "a": "there be 后需要名词性成分，deny 必须变为动名词。" },
+          { "q": "It is no use 后接 to do 还是 doing？", "a": "接 doing。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.fixed_patterns.impersonal-patterns.d1",
+          "type": "choice",
+          "stem": "It was not until midnight ___ the firefighters brought the fire under control.",
+          "options": ["that", "when", "which", "before"],
+          "answer": "that",
+          "explain": "not until 的强调结构固定为 It was not until ... that ...，that 引出剩余部分。",
+          "trap": "when 会让人误以为这里是时间状语从句，但句首已有 It was not until 的强调框架，连接词只能是 that。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.impersonal-patterns.d2",
+          "type": "fill",
+          "stem": "There is no ___ (deny) that the new policy has helped small businesses.",
+          "answer": "denying",
+          "accept": ["denying"],
+          "hint": "there be 后需要名词性成分，括号里的动词要先变形式。",
+          "explain": "there be 后不能直接放动词原形，deny 须变为动名词 denying 才能作名词性成分。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.fixed_patterns.impersonal-patterns.d3",
+          "type": "correct",
+          "stem": "It is no use to argue with him about the schedule.",
+          "answer": "It is no use arguing with him about the schedule.",
+          "accept": ["It is no use arguing with him about the schedule."],
+          "explain": "It is no use 后接动名词作真正主语，it 只是形式主语，不能带不定式。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.fixed_patterns.impersonal-patterns.d4",
+          "type": "choice",
+          "stem": "It is high time that we ___ the final decision.",
+          "options": ["made", "make", "will make", "have made"],
+          "answer": "made",
+          "explain": "It is high time that 从句用一般过去时表示与现在事实相反的虚拟，故用 made。",
+          "trap": "make 是陈述语气，会把“早该做”的虚拟含义变成普通陈述。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.impersonal-patterns.d5",
+          "type": "translate",
+          "stem": "毫无疑问，定期锻炼有益健康。",
+          "answer": "There is no doubt that regular exercise is good for health.",
+          "require": [["there is no doubt"], ["that"], ["exercise"]],
+          "forbid": ["it is no doubt that", "there is no doubt for"],
+          "explain": "There is no doubt that 是固定存在句结构，that 引导同位语性质的从句说明 doubt 的内容。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.impersonal-patterns.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "is", "no", "use", "complaining", "about", "the", "weather."],
+          "answer": "It is no use complaining about the weather.",
+          "explain": "It 为形式主语，真正主语是动名词短语 complaining about the weather；no use 后不能接不定式。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.fixed_patterns.verb-patterns",
+      "title": "动词的固定句型",
+      "brief": "看宾语是否为动作执行者，决定 to do 还是 doing",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["nonfinite.infinitive.object-complement", "nonfinite.gerund.gerund-only-verbs"],
+      "concept": {
+        "summary": "动词句型由两个变量决定：动词词条本身接 to do 还是 doing，以及宾语是不是后面动作的执行者。若宾语执行后面的动作，用 sb to do；使役与感官动词用 sb do，变被动后省略的 to 要还原。suggest/insist/demand 类不接 sb to do，只能接 that 从句或动名词。",
+        "sections": [
+          {
+            "h": "只接一种形式的动词",
+            "p": "这类动词的补语形式属于词条属性，必须整体记忆，换形式即错。判断时不要从汉语意思推导，直接查该动词属于哪一组。",
+            "bullets": [
+              "只接 to do：decide, hope, manage, refuse, offer, afford, promise, fail",
+              "只接 doing：enjoy, mind, avoid, suggest, consider, practice, admit, deny",
+              "× He suggested to postpone the meeting. → He suggested postponing the meeting.",
+              "× She avoided to answer the question. → She avoided answering the question."
+            ]
+          },
+          {
+            "h": "带宾语时看动作执行者",
+            "p": "若宾语是后面动作的执行者，用 sb to do；若宾语只是动作的承受者、后面没有第二个动作，则按动词自身词条接 to do 或 doing。使役与感官动词接 sb do，主动语态省 to，被动语态必须还原 to。",
+            "bullets": [
+              "advise/allow/permit/persuade/remind/force/encourage/warn + sb to do",
+              "make/let/have/see/hear/watch/notice + sb do",
+              "He was made to apologize.（被动还原 to）",
+              "× He advised me going there. → He advised me to go there."
+            ]
+          },
+          {
+            "h": "suggest 类与形式宾语",
+            "p": "suggest/insist/demand/require/recommend 表示“建议、要求”的内容时，用 that 从句（should 可省）或动名词，不能接 sb to do。think/find/make/consider + it + adj + to do 中 it 是形式宾语，真正宾语是后面的不定式。",
+            "bullets": [
+              "She suggested that we (should) start earlier.",
+              "× She suggested us to start earlier.",
+              "I find it hard to concentrate in a noisy room.",
+              "It takes me an hour to get to work."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She suggested postponing the meeting until Friday.", "zh": "她建议把会议推迟到周五。", "ok": true, "note": "suggest 后接动名词，不能接不定式。" },
+          { "en": "She suggested to postpone the meeting until Friday.", "zh": "她建议把会议推迟到周五。", "ok": false, "note": "suggest 只接动名词或 that 从句，不能接 to do。" },
+          { "en": "The teacher advised us to check our answers twice.", "zh": "老师建议我们把答案检查两遍。", "ok": true, "note": "advise 带宾语 us，us 是 check 的执行者，故用 to do。" },
+          { "en": "The teacher advised us checking our answers twice.", "zh": "老师建议我们把答案检查两遍。", "ok": false, "note": "advise 带宾语时须用 to do，不能用 doing。" },
+          { "en": "The boss made him redo the whole report.", "zh": "老板让他把整份报告重做。", "ok": true, "note": "make + sb + 动词原形，主动语态省略 to。" },
+          { "en": "He was made to redo the whole report.", "zh": "他被要求把整份报告重做。", "ok": true, "note": "变为被动后，主动语态省略的 to 必须还原。" },
+          { "en": "She suggested us to leave early.", "zh": "她建议我们早点离开。", "ok": false, "note": "suggest 不能接 sb to do，应改为 suggested that we leave early。" }
+        ],
+        "pitfalls": [
+          { "wrong": "They forced him staying in the office.", "right": "They forced him to stay in the office.", "why": "force 带宾语时用 to do，him 是 stay 的执行者，不能用动名词。" },
+          { "wrong": "He suggested me to apply for the scholarship.", "right": "He suggested that I apply for the scholarship.", "why": "suggest 不接双宾语结构，建议的内容由 that 从句或动名词承担。" },
+          { "wrong": "The boy was made clean the classroom.", "right": "The boy was made to clean the classroom.", "why": "make 变被动后，主动语态中省略的 to 必须还原。" }
+        ],
+        "contrast": { "withTitle": "不定式作宾语与宾补", "diff": "本知识点按“动词词条 + 宾语角色”成组记句型；不定式章节按句法功能讲 to do 能充当什么成分。" },
+        "mnemonic": "enjoy/mind/avoid 只跟 doing；advise/allow/persuade 带人加 to do；make/let/see 带人用原形，被动补 to；suggest 后面不接人。"
+      },
+      "review": {
+        "core": [
+          "只接 to do：decide/hope/manage/refuse/offer/afford",
+          "只接 doing：enjoy/mind/avoid/suggest/consider/practice/admit/deny",
+          "宾语是动作执行者 → sb to do：advise/allow/persuade/remind/force",
+          "使役与感官动词 → sb do，变被动后还原 to",
+          "suggest/insist/demand 不接 sb to do，用 that 从句或 doing",
+          "find/think/make + it + adj + to do，it 为形式宾语"
+        ],
+        "trigger": "看到动词后既有人又有动作 → 先问“这个人做后面的动作吗” → 是则 sb to do，否则查词条",
+        "quickCheck": [
+          { "q": "suggest 后面能说 suggest sb to do 吗？", "a": "不能，用 suggest that sb (should) do 或 suggest doing。" },
+          { "q": "make sb do 变被动后是什么形式？", "a": "sb be made to do，to 必须还原。" },
+          { "q": "avoid 后面接 to do 还是 doing？", "a": "接 doing。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.fixed_patterns.verb-patterns.d1",
+          "type": "choice",
+          "stem": "They decided ___ the opening ceremony until next month.",
+          "options": ["to postpone", "postponing", "postpone", "postponed"],
+          "answer": "to postpone",
+          "explain": "decide 属于只接不定式的动词，后接 to do，不能接动名词。",
+          "trap": "postponing 是受 enjoy/mind 类动词类推的错误，decide 不接受动名词作宾语。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.fixed_patterns.verb-patterns.d2",
+          "type": "fill",
+          "stem": "She avoided ___ (mention) the incident in front of the children.",
+          "answer": "mentioning",
+          "accept": ["mentioning"],
+          "hint": "avoid 属于只接动名词的动词。",
+          "explain": "avoid 后只能接动名词，mention 须变为 mentioning，不能使用不定式。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.fixed_patterns.verb-patterns.d3",
+          "type": "correct",
+          "stem": "The manager suggested us to revise the schedule.",
+          "answer": "The manager suggested that we revise the schedule.",
+          "accept": ["The manager suggested that we revise the schedule.", "The manager suggested revising the schedule."],
+          "explain": "suggest 不能接 sb to do，建议内容用 that 从句（should 可省）或动名词表达。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.verb-patterns.d4",
+          "type": "choice",
+          "stem": "The little boy was made ___ his room before dinner.",
+          "options": ["to tidy", "tidy", "tidying", "tidied"],
+          "answer": "to tidy",
+          "explain": "make 用于被动语态时，主动语态中省略的 to 必须还原，构成 be made to do。",
+          "trap": "tidy 是主动语态 make sb do 的形式，被动语态中不能继续省 to。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.verb-patterns.d5",
+          "type": "translate",
+          "stem": "老师建议我们每天大声朗读。",
+          "answer": "The teacher advised us to read aloud every day.",
+          "require": [["advised us to"], ["read aloud"]],
+          "forbid": ["advised us reading", "suggested us to"],
+          "explain": "advise 带宾语时用 sb to do，us 是 read 的执行者；suggest 不能接 sb to do。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.verb-patterns.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["I", "find", "it", "hard", "to", "concentrate", "in", "a", "noisy", "room."],
+          "answer": "I find it hard to concentrate in a noisy room.",
+          "explain": "it 是形式宾语，hard 作宾语补足语，真正宾语是后面的不定式 to concentrate。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "collocation.fixed_patterns.adjective-patterns",
+      "title": "形容词句型 too...to / so...as to / enough to",
+      "brief": "too 含否定结果，enough 的位置随修饰对象变",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["clause.adverbial_clause.result-so-such", "morph.adj_adv.as-as"],
+      "concept": {
+        "summary": "三个句型都表示“达到某种程度后产生的结果”，差别在程度词的位置与结果方向：too + adj + to do 表示“太…以致不能”，结果本身已含否定；so + adj + as to do 表示“如此…以至于”，结果中性；adj + enough + to do 表示“足够…能”，结果肯定。enough 修饰形容词时后置，修饰名词时前置。",
+        "sections": [
+          {
+            "h": "too...to 的否定含义",
+            "p": "too 后的不定式在语义上被否定，句中不再另加 not。若不定式的宾语与句子主语指同一事物，宾语必须省略，否则重复。too...for sb to do 用来引出不定式的逻辑主语。",
+            "bullets": [
+              "He is too tired to walk any further.（= so tired that he cannot walk）",
+              "The box is too heavy for me to carry.",
+              "× The box is too heavy for me to carry it.",
+              "× He was too excited that he could not say a word."
+            ]
+          },
+          {
+            "h": "so...as to 与 such...that",
+            "p": "so + adj/adv + as to do 表示结果，句子的主语同时是不定式的逻辑主语；as 不能省。so...that 后接完整从句，such + (a/an) + adj + n + that 的中心词是名词。",
+            "bullets": [
+              "She was so careless as to leave her passport at home.",
+              "She was so careless that she left her passport at home.",
+              "It was such a cold day that the pipes froze.",
+              "× She was so careless to leave her passport at home."
+            ]
+          },
+          {
+            "h": "enough 的位置与句型转换",
+            "p": "enough 修饰形容词或副词时后置，修饰名词时前置。enough to do 表肯定结果，可与 too...to、not...enough to 互相改写，改写时形容词的极性要相反。",
+            "bullets": [
+              "He is old enough to make his own decisions.",
+              "We have enough time to finish the task.",
+              "× He is enough old to drive.",
+              "The water is not hot enough to make tea. = The water is too cold to make tea."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The suitcase is too heavy for the child to lift.", "zh": "这个行李箱太重，孩子提不动。", "ok": true, "note": "too...for sb to do，lift 后不再重复宾语 the suitcase。" },
+          { "en": "The suitcase is too heavy for the child to lift it.", "zh": "这个行李箱太重，孩子提不动。", "ok": false, "note": "不定式宾语与句子主语重复，it 必须删去。" },
+          { "en": "She was so absorbed in the book as to forget her stop.", "zh": "她太专注于这本书，以至于坐过了站。", "ok": true, "note": "so + 形容词 + as to do 表示结果，as 不可省。" },
+          { "en": "She was so absorbed in the book to forget her stop.", "zh": "她太专注于这本书，以至于坐过了站。", "ok": false, "note": "so 后表结果必须用 as to，不能直接接 to do。" },
+          { "en": "He is experienced enough to handle the negotiation alone.", "zh": "他经验足够，可以独自处理这次谈判。", "ok": true, "note": "enough 修饰形容词时后置。" },
+          { "en": "He is enough experienced to handle the negotiation alone.", "zh": "他经验足够，可以独自处理这次谈判。", "ok": false, "note": "enough 修饰形容词必须后置，不能放在形容词前。" },
+          { "en": "The room was too small to hold fifty people.", "zh": "这个房间太小，容纳不下五十人。", "ok": true, "note": "too...to 已含否定，句中不再加 not。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He was too excited that he could not say a word.", "right": "He was too excited to say a word.", "why": "too 不能直接接 that 从句；表结果要么用 too...to，要么用 so...that。" },
+          { "wrong": "The coffee is not enough hot to drink.", "right": "The coffee is not hot enough to drink.", "why": "enough 修饰形容词时必须后置，构成 hot enough。" },
+          { "wrong": "She is old enough that she can vote.", "right": "She is old enough to vote.", "why": "enough 表结果时接不定式，不接 that 从句。" }
+        ],
+        "contrast": { "withTitle": "结果状语从句 so...that 与 such...that", "diff": "so...as to 是短语结构，结果由不定式表达且主语一致；so...that 后接完整从句，从句可以有不同主语。" },
+        "mnemonic": "too 后否定，so 后 as to，enough 形容词后、名词前。"
+      },
+      "review": {
+        "core": [
+          "too + adj/adv + to do = 太…不能，结果已含否定",
+          "too...for sb to do 引出逻辑主语，不定式不再重复宾语",
+          "so + adj/adv + as to do 表结果，as 不能省",
+          "adj/adv + enough + to do；enough + 名词",
+          "too...to 与 not...enough to 可互改，形容词极性相反",
+          "so...that 后接完整从句"
+        ],
+        "trigger": "看到 too/so/enough 与不定式同现 → 先定程度词位置，再查结果方向与宾语是否重复",
+        "quickCheck": [
+          { "q": "enough 修饰形容词时放哪里？", "a": "放在形容词之后：old enough。" },
+          { "q": "too...to 后面还要加 not 吗？", "a": "不加，too 本身已含否定结果。" },
+          { "q": "so 后接不定式表结果时用什么形式？", "a": "so + adj/adv + as to do。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.fixed_patterns.adjective-patterns.d1",
+          "type": "choice",
+          "stem": "The lecture was ___ difficult for the first-year students to follow.",
+          "options": ["too", "so", "enough", "very"],
+          "answer": "too",
+          "explain": "too + adj + for sb to do 表示“太…以致某人不能…”，与句意完全吻合。",
+          "trap": "so 必须与 that 从句或 as to 搭配，不能直接接 for sb to do；enough 表肯定且须后置。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.fixed_patterns.adjective-patterns.d2",
+          "type": "fill",
+          "stem": "The ice on the lake is not thick ___ to skate on.",
+          "answer": "enough",
+          "accept": ["enough"],
+          "hint": "形容词 thick 后面需要程度词，且后面的结果是否定的。",
+          "explain": "not + adj + enough + to do 表示“不够…而不能…”，enough 修饰形容词时必须后置。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.fixed_patterns.adjective-patterns.d3",
+          "type": "correct",
+          "stem": "The box was too heavy for the little girl to carry it upstairs.",
+          "answer": "The box was too heavy for the little girl to carry upstairs.",
+          "accept": ["The box was too heavy for the little girl to carry upstairs."],
+          "explain": "不定式 to carry 的宾语就是句子主语 the box，it 重复了指代对象，必须删去。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.adjective-patterns.d4",
+          "type": "choice",
+          "stem": "He was ___ absorbed in his work as to miss the announcement.",
+          "options": ["so", "too", "such", "enough"],
+          "answer": "so",
+          "explain": "so + 形容词 + as to do 表示结果，absorbed 是形容词，符合该结构。",
+          "trap": "too 不能与 as to 构成结果结构；such 只能修饰名词短语，不能直接修饰 absorbed。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.adjective-patterns.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "was", "so", "careless", "as", "to", "leave", "her", "keys", "at", "home."],
+          "answer": "She was so careless as to leave her keys at home.",
+          "explain": "so + 形容词 + as to do 表结果，句子主语 she 同时是不定式的逻辑主语。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.adjective-patterns.d6",
+          "type": "translate",
+          "stem": "这辆车太小了，坐不下五个人。",
+          "answer": "The car is too small to hold five people.",
+          "require": [["too small"], ["to hold"]],
+          "forbid": ["too small to hold five people in it", "enough small"],
+          "explain": "too + adj + to do 表示“太…而不能…”，hold 的宾语是 five people，不再用 it 重复 the car。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "collocation.fixed_patterns.noun-patterns",
+      "title": "名词句型 have difficulty (in) doing",
+      "brief": "difficulty 不可数，后接 (in) doing",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.prepositions.gerund-after-prep"],
+      "concept": {
+        "summary": "这类句型的骨架是“名词 + 介词 + 动名词”：have difficulty/trouble/problems (in) doing sth 中 difficulty 表“困难”时不可数，不加 a 也不加 s；in 可以省略，但动词必须是 -ing 形式。同型结构还有 spend/waste time (in) doing、be busy (in) doing、There is no point (in) doing。",
+        "sections": [
+          {
+            "h": "difficulty 的可数性与介词",
+            "p": "difficulty 表抽象“困难”时不可数，表“具体难题”时可数。句型中一律用不可数形式；in 是介词，后面只能接动名词，省略 in 不改变动词形式。",
+            "bullets": [
+              "I have difficulty (in) understanding his accent.",
+              "× I have difficulty to understand his accent.",
+              "× I have a difficulty in understanding his accent.",
+              "She described the difficulties she had met.（具体难题，可数）"
+            ]
+          },
+          {
+            "h": "同型扩展：spend / waste / be busy",
+            "p": "这些结构都是“动词 + 时间或状态 + (in) doing”，介词省略后依然是动名词。spend 的宾语是时间或金钱，不是动作本身，因此不能说 spend time to do。",
+            "bullets": [
+              "He spent two hours (in) revising the essay.",
+              "× He spent two hours to revise the essay.",
+              "She is busy (in) preparing for the interview.",
+              "Don't waste time complaining about things you cannot change."
+            ]
+          },
+          {
+            "h": "there is no point 与 have trouble with",
+            "p": "point/sense/use 后接 (in) doing；trouble 后接 with + 名词，或 (in) doing，两种结构不能混用。判断依据是空格后是名词还是动作。",
+            "bullets": [
+              "There is no point (in) arguing with him.",
+              "I had trouble with the pronunciation of that word.",
+              "× I had trouble to pronounce that word.",
+              "It is no use crying over spilt milk."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Many students have difficulty in organizing their study time.", "zh": "许多学生在安排学习时间上有困难。", "ok": true, "note": "difficulty 不可数，in 后接动名词 organizing。" },
+          { "en": "Many students have difficulty to organize their study time.", "zh": "许多学生在安排学习时间上有困难。", "ok": false, "note": "该句型固定接 (in) doing，不能接 to do。" },
+          { "en": "She spent the whole afternoon preparing for the presentation.", "zh": "她整个下午都在准备演示。", "ok": true, "note": "spend + 时间 + (in) doing，in 已省略但动词仍是动名词。" },
+          { "en": "She spent the whole afternoon to prepare for the presentation.", "zh": "她整个下午都在准备演示。", "ok": false, "note": "spend 后接动名词，不能接不定式。" },
+          { "en": "There is no point in complaining about the result now.", "zh": "现在抱怨结果没有意义。", "ok": true, "note": "point 后接 in doing，in 可以省略。" },
+          { "en": "He had trouble with the new software at first.", "zh": "他起初对这款新软件不太会用。", "ok": true, "note": "trouble with + 名词，表示在某事上有困难。" },
+          { "en": "I have a difficulty in reading his handwriting.", "zh": "我很难辨认他的字迹。", "ok": false, "note": "句型中 difficulty 不可数，不能加 a。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She has difficulty to remember names.", "right": "She has difficulty remembering names.", "why": "difficulty 后的介词 in 常省略，但动词必须用动名词。" },
+          { "wrong": "We spent three hours to finish the report.", "right": "We spent three hours finishing the report.", "why": "spend + 时间 + (in) doing 是固定结构，to do 不成立。" },
+          { "wrong": "There is no point to discuss it further.", "right": "There is no point in discussing it further.", "why": "point 后接 in + 动名词，介词不能换成 to。" }
+        ],
+        "contrast": { "withTitle": "介词后接动名词的固定结构", "diff": "介词章节讲“介词 + doing”的普遍规则；本知识点是名词侧的高频句型清单，重点是 difficulty 的可数性与 in 的省略。" },
+        "mnemonic": "difficulty 不可数，后面 doing 不带 to；spend、busy、no point，in 可省 doing 不变。"
+      },
+      "review": {
+        "core": [
+          "have difficulty/trouble/problems (in) doing sth",
+          "difficulty 表困难不可数：不加 a、不加 s",
+          "in 可省略，但动词必须是 -ing 形式",
+          "spend/waste time (in) doing；be busy (in) doing",
+          "There is no point/sense (in) doing",
+          "have trouble with + 名词，不能接 to do"
+        ],
+        "trigger": "看到 difficulty/trouble/busy/spend 后面跟动作 → 先写 doing，再查 difficulty 前有没有多余的 a",
+        "quickCheck": [
+          { "q": "“做某事有困难”有哪两种写法？", "a": "have difficulty (in) doing sth。" },
+          { "q": "spend time 后面接 to do 还是 doing？", "a": "接 doing。" },
+          { "q": "difficulty 在这个句型里能加 a 吗？", "a": "不能，表“困难”时不可数。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "collocation.fixed_patterns.noun-patterns.d1",
+          "type": "choice",
+          "stem": "Many freshmen have difficulty ___ used to university life.",
+          "options": ["getting", "to get", "get", "got"],
+          "answer": "getting",
+          "explain": "have difficulty (in) doing 是固定句型，in 省略后动词仍须用动名词 getting。",
+          "trap": "to get 是受汉语“很难适应”直译影响的不定式误用，该句型不接受 to do。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.fixed_patterns.noun-patterns.d2",
+          "type": "fill",
+          "stem": "She had great difficulty in ___ (find) a quiet place to study.",
+          "answer": "finding",
+          "accept": ["finding"],
+          "hint": "in 是介词，后面动词用什么形式？",
+          "explain": "in 是介词，介词后接动名词，find 须变为 finding。",
+          "difficulty": 1
+        },
+        {
+          "id": "collocation.fixed_patterns.noun-patterns.d3",
+          "type": "correct",
+          "stem": "He spent two hours to repair the bicycle.",
+          "answer": "He spent two hours repairing the bicycle.",
+          "accept": ["He spent two hours repairing the bicycle."],
+          "explain": "spend + 时间 + (in) doing 是固定结构，to repair 应改为动名词 repairing。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.fixed_patterns.noun-patterns.d4",
+          "type": "choice",
+          "stem": "There is no point ___ about the weather before the trip.",
+          "options": ["in worrying", "to worry", "worry", "worried"],
+          "answer": "in worrying",
+          "explain": "point 后接 in + 动名词，in 可省略，但动词必须是 -ing 形式。",
+          "trap": "to worry 把 point 当成可接不定式的名词，实际上 point 后只能接 in doing。",
+          "difficulty": 2
+        },
+        {
+          "id": "collocation.fixed_patterns.noun-patterns.d5",
+          "type": "translate",
+          "stem": "我在理解这位教授的讲座时有困难。",
+          "answer": "I have difficulty understanding the professor's lecture.",
+          "require": [["difficulty"], ["understanding"]],
+          "forbid": ["difficulty to understand", "a difficulty"],
+          "explain": "have difficulty (in) doing 中 difficulty 不可数，动词用动名词 understanding。",
+          "difficulty": 3
+        },
+        {
+          "id": "collocation.fixed_patterns.noun-patterns.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "is", "busy", "preparing", "for", "the", "job", "interview."],
+          "answer": "She is busy preparing for the job interview.",
+          "explain": "be busy (in) doing 是固定句型，in 省略后仍用动名词 preparing。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

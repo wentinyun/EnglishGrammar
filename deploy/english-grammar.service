@@ -1,0 +1,26 @@
+[Unit]
+Description=EnglishGrammar (英语语法全景学习系统)
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+Group=ubuntu
+WorkingDirectory=/home/ubuntu/EnglishGrammar
+
+# 8787 已被 english-io 占用，本项目用 8788
+Environment=HOST=0.0.0.0
+Environment=PORT=8788
+Environment=LOG_LEVEL=info
+Environment=PYTHONUNBUFFERED=1
+
+ExecStart=/home/ubuntu/EnglishGrammar/.venv/bin/python run.py --no-browser
+Restart=always
+RestartSec=3
+
+# SQLite 单进程写，不要加多 worker
+NoNewPrivileges=true
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

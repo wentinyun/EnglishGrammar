@@ -1,0 +1,22 @@
+# 依赖与构建产物
+node_modules/
+web/node_modules/
+web/site/
+web/dist/
+.venv/
+
+# 学习数据（不进库、不上传）
+data/*.db
+data/*.db-wal
+data/*.db-shm
+backups/
+*.log
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 工具与本地配置
+.workbuddy/
+.wbapp_*
+.DS_Store

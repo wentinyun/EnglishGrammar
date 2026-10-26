@@ -1,0 +1,590 @@
+{
+  "level1": "special",
+  "chapter": "tag_question",
+  "items": [
+    {
+      "id": "special.tag_question.basic-formation",
+      "title": "反意疑问句的基本构成",
+      "brief": "四步定附加：主句、助动词、极性、代词",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["syntax.sentence_types.yes-no-wh"],
+      "concept": {
+        "summary": "附加部分按四步生成：一定主句，二找主句的 be、助动词或情态动词（都没有就借 do/does/did），三主句肯定则附加部分用否定、主句否定则附加部分用肯定，四把主语换成对应的人称代词。顺序固定，先定主句能避免被从句和插入语带偏。",
+        "sections": [
+          {
+            "h": "四步流程",
+            "p": "每一步只做一个判断，输出一个成分；四步走完，附加部分就唯一确定。",
+            "bullets": [
+              "第一步 定主句：附加部分只跟主句，不跟从句、插入语、称呼语",
+              "第二步 找操作词：先看 be，再看助动词 have/will，再看情态动词；都没有就按人称与时态借 do/does/did",
+              "第三步 定极性：前肯后否，前否后肯；否定附加一律用缩写 n't",
+              "第四步 换主语：名词换成对应人称代词，this/that 换 it，these/those 换 they"
+            ]
+          },
+          {
+            "h": "第四步：主语代词化",
+            "p": "附加部分的主语必须是代词，且人称、数、性要与主句主语一致。集体名词按意义决定单复数。",
+            "bullets": [
+              "The girls are ready, aren't they?",
+              "Your father has retired, hasn't he?",
+              "Everything is ready, isn't it?",
+              "Everyone has arrived, haven't they?"
+            ]
+          },
+          {
+            "h": "第二步：没有操作词就借 do",
+            "p": "主句谓语是实义动词时，句中没有可重复的助动词，必须按主句的时态和人称借 do 的相应形式。",
+            "bullets": [
+              "She likes jazz, doesn't she?",
+              "They moved last year, didn't they?",
+              "You ate all the cake, didn't you?",
+              "He used to live here, didn't he?"
+            ]
+          },
+          {
+            "h": "三类形态例外",
+            "p": "这三处不能按四步的常规输出，必须换成固定形式；判断依据仍是主句谓语。",
+            "bullets": [
+              "I am → aren't I：I am on the list, aren't I?（英语没有通行的 amn't I）",
+              "must 表推测 → 看 must 后的动词：He must be tired, isn't he? / He must have finished, hasn't he?",
+              "had better → hadn't：You'd better rest, hadn't you?",
+              "must 表义务 → 仍用 mustn't：You must finish it today, mustn't you?"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She works in a bank, doesn't she?", "zh": "她在银行工作，不是吗？", "ok": true, "note": "主句无操作词，实义动词 works 为第三人称单数现在时，借 doesn't；主语换成 she。" },
+          { "en": "They have moved to Shanghai, haven't they?", "zh": "他们搬到上海了，不是吗？", "ok": true, "note": "主句有助动词 have，直接重复并加 n't，主语 they 保持不变。" },
+          { "en": "The girls are ready, aren't they?", "zh": "女孩们准备好了，不是吗？", "ok": true, "note": "主句是 be 动词 are，附加部分重复 aren't，名词主语换成 they。" },
+          { "en": "I am on the list, aren't I?", "zh": "我在名单上，不是吗？", "ok": true, "note": "I am 的否定附加固定为 aren't I，不用 amn't I。" },
+          { "en": "He must be tired, isn't he?", "zh": "他一定累了，不是吗？", "ok": true, "note": "must 表推测，附加部分随 must 后的动词 be，用 isn't。" },
+          { "en": "You'd better take a break, hadn't you?", "zh": "你最好休息一下，不是吗？", "ok": true, "note": "had better 的否定附加固定为 hadn't you。" },
+          { "en": "She likes jazz, isn't she?", "zh": "她喜欢爵士乐，不是吗？", "ok": false, "note": "主句谓语是实义动词 likes，句中没有 be，附加部分应借 doesn't，改为 doesn't she。" },
+          { "en": "I am late, amn't I?", "zh": "我迟到了，不是吗？", "ok": false, "note": "英语没有通行的 amn't 缩写，I am 的否定附加一律用 aren't I。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The students have finished, didn't they?", "right": "The students have finished, haven't they?", "why": "主句已有助动词 have（现在完成时），附加部分必须重复 have；借 did 会把时态改成一般过去时。" },
+          { "wrong": "I am invited, amn't I?", "right": "I am invited, aren't I?", "why": "am not 没有通行的缩写形式 amn't，第一人称单数的否定附加固定为 aren't I。" },
+          { "wrong": "She must have seen him yesterday, hasn't she?", "right": "She must have seen him yesterday, didn't she?", "why": "must have done 表推测且句中有过去时间状语 yesterday，附加部分随过去时间的实义动词用 didn't。" }
+        ],
+        "contrast": { "withTitle": "含否定词与半否定词的反意疑问", "diff": "本点解决“怎么造附加部分”；含否定词的点解决“主句算不算否定”，决定第三步的极性。" },
+        "mnemonic": "定主句、找助动、反极性、换代词；I am 用 aren't，推测 must 看后面。"
+      },
+      "review": {
+        "core": [
+          "四步：定主句 → 找 be/助动词/情态动词 → 前肯后否 → 主语换代词",
+          "主句无操作词，按人称与时态借 do/does/did",
+          "名词主语代词化：this/that → it，these/those → they",
+          "I am → aren't I；had better → hadn't you",
+          "must 表推测看后面动词，must 表义务仍用 mustn't"
+        ],
+        "trigger": "看到逗号后的空缺 → 先划出主句 → 再找主句的操作词",
+        "quickCheck": [
+          { "q": "She likes jazz 的附加部分是什么？", "a": "doesn't she，实义动词第三人称单数现在时借 does。" },
+          { "q": "I am late 的附加部分怎么写？", "a": "aren't I，不用 amn't I。" },
+          { "q": "He must be at home 的附加部分是什么？", "a": "isn't he，must 表推测时看后面的 be。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.tag_question.basic-formation.d1",
+          "type": "choice",
+          "stem": "The manager has signed the contract, ___?",
+          "options": ["hasn't he", "hasn't the manager", "didn't he", "doesn't he"],
+          "answer": "hasn't he",
+          "explain": "主句是现在完成时，操作词为 has；附加部分重复 has 并加 n't，名词主语 the manager 换成 he。",
+          "trap": "didn't he 无视已有的助动词 has；hasn't the manager 没有完成主语代词化。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.tag_question.basic-formation.d2",
+          "type": "fill",
+          "stem": "Your parents will come to the ceremony, ___ they?",
+          "answer": "won't",
+          "accept": ["won't"],
+          "hint": "主句有操作词 will，主语 your parents 换成 they。",
+          "explain": "主句是肯定陈述，操作词 will 在附加部分变为否定 won't，主语已经由 your parents 换成 they。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.tag_question.basic-formation.d3",
+          "type": "correct",
+          "stem": "I am invited to the dinner, amn't I?",
+          "answer": "I am invited to the dinner, aren't I?",
+          "accept": ["I am invited to the dinner, aren't I?"],
+          "explain": "am not 没有通行的缩写 amn't，第一人称单数 I am 的否定附加固定为 aren't I。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.tag_question.basic-formation.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "students", "have", "finished", "the", "project,", "haven't", "they?"],
+          "answer": "The students have finished the project, haven't they?",
+          "explain": "主句为肯定陈述，含助动词 have；附加部分用 haven't，主语 the students 换成 they。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.tag_question.basic-formation.d5",
+          "type": "translate",
+          "stem": "你姐姐在银行工作，不是吗？",
+          "answer": "Your sister works in a bank, doesn't she?",
+          "require": [["sister"], ["works"], ["doesn't she"]],
+          "forbid": ["isn't she", "doesn't your sister"],
+          "explain": "主句谓语是实义动词 works，第三人称单数现在时，附加部分借 doesn't；主语 your sister 换成 she。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.tag_question.basic-formation.d6",
+          "type": "choice",
+          "stem": "He must be in the library now, ___?",
+          "options": ["isn't he", "mustn't he", "doesn't he", "is he"],
+          "answer": "isn't he",
+          "explain": "此处 must 表推测，附加部分不重复 must，而随 must 后的动词 be 走，用 isn't he。",
+          "trap": "mustn't he 把 must 当成表义务的情态动词；表推测时附加部分看其后动词。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.tag_question.basic-formation.d7",
+          "type": "fill",
+          "stem": "You'd better see a doctor at once, ___ you?",
+          "answer": "hadn't",
+          "accept": ["hadn't"],
+          "hint": "had better 的否定附加形式是固定的。",
+          "explain": "had better 虽表建议，附加部分仍按 had 这个助动词处理，否定形式为 hadn't you。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.tag_question.negative-words",
+      "title": "含否定词与半否定词的反意疑问",
+      "brief": "看否定意义，不看有没有 not",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["special.tag_question.basic-formation", "syntax.negation.position-partial"],
+      "concept": {
+        "summary": "附加部分的极性由主句的否定意义决定，而不是由是否出现 not 决定。主句含 never、hardly、seldom、few、little、nothing、nobody 等否定或半否定词，视为否定陈述，附加部分用肯定；带否定前缀的词仍是肯定陈述，附加部分用否定。",
+        "sections": [
+          {
+            "h": "判断顺序：先看意义，再看形式",
+            "p": "先问整句表达的是肯定还是否定，再决定附加部分。只看有没有 not 会在半否定词和否定前缀上连续出错。",
+            "bullets": [
+              "有 not → 否定陈述 → 附加部分肯定",
+              "没有 not 但含否定词 → 仍是否定陈述 → 附加部分肯定",
+              "含否定前缀但整体肯定 → 附加部分否定",
+              "否定词与 not 同时出现 → 双重否定，按肯定处理"
+            ]
+          },
+          {
+            "h": "否定与半否定清单",
+            "p": "这些词一旦出现在主句中，主句就按否定陈述处理。它们分布在不同词类里，需要按词类记。",
+            "bullets": [
+              "副词：never, hardly, scarcely, barely, seldom, rarely",
+              "限定词：no, few, little",
+              "代词：nothing, nobody, none, neither, nowhere",
+              "He hardly speaks in class, does he?",
+              "There is little water left, is there?"
+            ]
+          },
+          {
+            "h": "否定前缀不算否定",
+            "p": "unhappy、dislike、impossible 这类词的否定只停留在构词层面，句子仍是肯定陈述，附加部分用否定。",
+            "bullets": [
+              "She is unhappy with the result, isn't she?",
+              "He dislikes coffee, doesn't he?",
+              "It is impossible to finish today, isn't it?"
+            ]
+          },
+          {
+            "h": "附加部分与答语分开判断",
+            "p": "附加部分的极性跟着主句走，答语的 yes/no 跟着事实走，两者可以相反。",
+            "bullets": [
+              "— You don't smoke, do you? — No, I don't.（附加肯定，答语否定，事实一致）",
+              "— You don't smoke, do you? — Yes, I do.（确实抽，答语用肯定）",
+              "不要用答语的 yes/no 反推附加部分"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He hardly speaks in class, does he?", "zh": "他上课几乎不发言，是吗？", "ok": true, "note": "hardly 是半否定词，主句视为否定，附加部分用肯定 does he。" },
+          { "en": "There is little water left, is there?", "zh": "剩下的水不多了，是吗？", "ok": true, "note": "little 表“很少”，是否定意义，附加部分用肯定的 is there。" },
+          { "en": "Nobody called while I was out, did they?", "zh": "我不在时没人打电话来，是吗？", "ok": true, "note": "nobody 是否定词，附加部分用肯定；主语 nobody 按意义换成 they。" },
+          { "en": "She is unhappy with the result, isn't she?", "zh": "她对结果不满意，不是吗？", "ok": true, "note": "unhappy 只是带否定前缀的形容词，整句是肯定陈述，附加部分用否定。" },
+          { "en": "He seldom goes out at weekends, doesn't he?", "zh": "他周末很少出门，不是吗？", "ok": false, "note": "seldom 是半否定词，主句视为否定，附加部分应用肯定 does he。" },
+          { "en": "Nothing was stolen from the office, wasn't it?", "zh": "办公室没丢东西，是吗？", "ok": false, "note": "nothing 是否定词，附加部分应用肯定 was it，不能用 wasn't。" },
+          { "en": "She is unhappy about the plan, is she?", "zh": "她对这个计划不满意，是吗？", "ok": false, "note": "unhappy 带否定前缀但整句是肯定陈述，附加部分应为 isn't she。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He seldom goes out, doesn't he?", "right": "He seldom goes out, does he?", "why": "seldom 是半否定副词，句子表达否定意义，附加部分必须用肯定形式。" },
+          { "wrong": "Nothing was stolen, wasn't it?", "right": "Nothing was stolen, was it?", "why": "nothing 本身是否定词，主句已是否定陈述，再加否定附加就成了双重否定；主语按意义用 it。" },
+          { "wrong": "She is unhappy about the plan, is she?", "right": "She is unhappy about the plan, isn't she?", "why": "unhappy 的否定只存在于构词层面，句子仍是肯定陈述，附加部分要用否定。" }
+        ],
+        "contrast": { "withTitle": "反意疑问句的基本构成", "diff": "基本构成解决附加部分怎么造；本点只解决主句算不算否定，从而决定附加部分用肯定还是否定。" },
+        "mnemonic": "never/hardly/seldom/few/little/no 都算否定；unhappy 不算。"
+      },
+      "review": {
+        "core": [
+          "极性看意义：含否定或半否定词即视为否定陈述",
+          "半否定词：hardly, scarcely, barely, seldom, rarely, few, little",
+          "否定代词：nothing, nobody, none, neither, nowhere",
+          "否定前缀不改变陈述的肯定性质：unhappy → isn't she",
+          "附加部分跟主句，答语 yes/no 跟事实"
+        ],
+        "trigger": "主句没有 not 但有 hardly/seldom/few/little/nothing → 附加部分用肯定",
+        "quickCheck": [
+          { "q": "He seldom goes out 的附加部分是什么？", "a": "does he，seldom 是否定意义。" },
+          { "q": "She is unhappy 的附加部分是什么？", "a": "isn't she，unhappy 只是否定前缀，句子仍是肯定。" },
+          { "q": "Nothing was stolen 的附加部分是什么？", "a": "was it，nothing 是否定词，附加用肯定。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.tag_question.negative-words.d1",
+          "type": "choice",
+          "stem": "He rarely eats meat, ___?",
+          "options": ["does he", "doesn't he", "is he", "isn't he"],
+          "answer": "does he",
+          "explain": "rarely 是半否定副词，主句表达否定意义，附加部分用肯定；主句谓语是实义动词 eats，借 does。",
+          "trap": "doesn't he 只看句中没有 not 就加否定，忽略了 rarely 的否定意义。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.tag_question.negative-words.d2",
+          "type": "fill",
+          "stem": "There is little time left, ___ there?",
+          "answer": "is",
+          "accept": ["is"],
+          "hint": "little 表示“几乎没有”。",
+          "explain": "little 表否定意义，主句视为否定陈述，附加部分用肯定；there be 句型重复 be，填 is。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.tag_question.negative-words.d3",
+          "type": "correct",
+          "stem": "She seldom complains about the food, doesn't she?",
+          "answer": "She seldom complains about the food, does she?",
+          "accept": ["She seldom complains about the food, does she?"],
+          "explain": "seldom 是半否定词，主句是否定陈述，附加部分要用肯定 does she。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.tag_question.negative-words.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Nothing", "was", "stolen", "from", "the", "office,", "was", "it?"],
+          "answer": "Nothing was stolen from the office, was it?",
+          "explain": "nothing 是否定词，主句为否定陈述，附加部分用肯定 was it，主语按意义换成 it。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.tag_question.negative-words.d5",
+          "type": "translate",
+          "stem": "他几乎不锻炼，是吗？",
+          "answer": "He hardly ever exercises, does he?",
+          "require": [["hardly"], ["exercises"], ["does he"]],
+          "forbid": ["doesn't he", "isn't he"],
+          "explain": "hardly 是否定意义的副词，主句视为否定，附加部分用肯定 does he；主句谓语 exercises 为实义动词。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.tag_question.negative-words.d6",
+          "type": "choice",
+          "stem": "She is quite unhappy with the decision, ___?",
+          "options": ["isn't she", "is she", "doesn't she", "does she"],
+          "answer": "isn't she",
+          "explain": "unhappy 带否定前缀，但整句是肯定陈述（系表结构），附加部分用否定 isn't she。",
+          "trap": "is she 把构词层面的否定当成句子否定；doesn't she 与系动词 is 不对应。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.tag_question.imperative-there",
+      "title": "祈使句与 there be 的反意疑问",
+      "brief": "祈使句用 will you，Let's 用 shall we",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["special.tag_question.basic-formation", "syntax.sentence_types.imperative"],
+      "concept": {
+        "summary": "祈使句没有主语和助动词，附加部分固定用 will you，否定祈使句也用 will you。Let's 包含说话人与听话人，附加部分用 shall we；Let us 只是请求对方允许，附加部分用 will you。there be 句型的附加部分重复 be，主语用 there。",
+        "sections": [
+          {
+            "h": "祈使句：固定 will you",
+            "p": "祈使句的隐含主语是 you，但没有操作词可重复，附加部分只能固定为 will you。否定祈使句的否定已在主句，附加部分仍用肯定 will you。",
+            "bullets": [
+              "Open the window, will you?",
+              "Don't be late again, will you?",
+              "Let us know the result, will you?",
+              "祈使句不用 do you、shall we、are you 作附加部分"
+            ]
+          },
+          {
+            "h": "Let's 与 Let us 的分工",
+            "p": "Let's 是 let us 的缩略形式，但语义包括听话人，附加部分用 shall we 征求共同意见；分开写的 Let us 表示请求对方允许，附加部分回到 will you。",
+            "bullets": [
+              "Let's take a break, shall we?",
+              "Let us use your phone, will you?",
+              "Let's 后用 shall we，Let us 后用 will you，两组不能互换"
+            ]
+          },
+          {
+            "h": "there be：重复 be，主语用 there",
+            "p": "there be 句型的主语是形式上的 there，附加部分不把后面的名词代词化，而直接用 there。",
+            "bullets": [
+              "There is a supermarket nearby, isn't there?",
+              "There were many people at the concert, weren't there?",
+              "There won't be any delay, will there?",
+              "附加部分的主语必须是 there，不能换成后面名词的代词"
+            ]
+          },
+          {
+            "h": "三类固定附加",
+            "p": "这三句的附加部分不按主句谓语推导，属于整体记忆的固定搭配。",
+            "bullets": [
+              "I wish you success, may I?",
+              "What a lovely day, isn't it?",
+              "Have another cup of tea, won't you?（委婉邀请，比 will you 更客气）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Open the window, will you?", "zh": "把窗户打开，好吗？", "ok": true, "note": "祈使句固定用 will you 作附加部分。" },
+          { "en": "Don't be late again, will you?", "zh": "别再迟到了，好吗？", "ok": true, "note": "否定祈使句的否定已在主句，附加部分仍用肯定 will you。" },
+          { "en": "Let's take a short break, shall we?", "zh": "我们短暂休息一下，好吗？", "ok": true, "note": "Let's 包括听话人，附加部分用 shall we 征求共同意见。" },
+          { "en": "Let us borrow your car for the weekend, will you?", "zh": "让我们周末借你的车用一下，好吗？", "ok": true, "note": "分开写的 Let us 是请求对方允许我们做某事，附加部分用 will you。" },
+          { "en": "There is a supermarket nearby, isn't there?", "zh": "附近有一家超市，不是吗？", "ok": true, "note": "there be 句型附加部分重复 be，主语用 there。" },
+          { "en": "There won't be any delay, will there?", "zh": "不会有任何延误，是吗？", "ok": true, "note": "主句是否定陈述，附加部分用肯定 will there。" },
+          { "en": "Let's go now, will you?", "zh": "我们现在走吧，好吗？", "ok": false, "note": "Let's 的附加部分固定为 shall we，用 will you 会变成请求对方单独行动。" },
+          { "en": "There are two issues with the plan, aren't they?", "zh": "这个计划有两个问题，不是吗？", "ok": false, "note": "there be 的附加部分主语是 there，不是后面名词的代词，应改为 aren't there。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Let's go now, will you?", "right": "Let's go now, shall we?", "why": "Let's 包含说话人与听话人，附加部分要用 shall we 征求共同意见；will you 是对听话人单方面的请求。" },
+          { "wrong": "Don't forget the keys, do you?", "right": "Don't forget the keys, will you?", "why": "祈使句没有助动词，附加部分固定为 will you，与 do 无关；否定已经在主句，附加部分不再否定。" },
+          { "wrong": "There are two issues, aren't they?", "right": "There are two issues, aren't there?", "why": "there be 句型的形式主语是 there，附加部分必须重复 there，不能把后面的名词代词化。" }
+        ],
+        "contrast": { "withTitle": "反意疑问句的基本构成", "diff": "基本构成按四步推导附加部分；祈使句与 there be 没有可重复的主语或操作词，改用固定形式。" },
+        "mnemonic": "祈使 will you，Let's shall we，there be 还是 there。"
+      },
+      "review": {
+        "core": [
+          "祈使句附加部分固定 will you，否定祈使句也用 will you",
+          "Let's → shall we；Let us（请求允许）→ will you",
+          "there be 的附加部分重复 be，主语用 there",
+          "I wish → may I；感叹句 → isn't it",
+          "Have another cup, won't you? 是更客气的邀请变体"
+        ],
+        "trigger": "主句没有主语（祈使句）或主语是 there → 放弃四步推导，直接套固定式",
+        "quickCheck": [
+          { "q": "Don't be late 的附加部分是什么？", "a": "will you，否定祈使句仍用肯定 will you。" },
+          { "q": "Let's go 的附加部分是什么？", "a": "shall we。" },
+          { "q": "There is a problem 的附加部分是什么？", "a": "isn't there，主语用 there。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.tag_question.imperative-there.d1",
+          "type": "choice",
+          "stem": "Don't forget to lock the door, ___?",
+          "options": ["will you", "do you", "shall we", "are you"],
+          "answer": "will you",
+          "explain": "祈使句的附加部分固定为 will you；主句已是否定祈使，附加部分不再否定。",
+          "trap": "do you 误把祈使句当成一般现在时的陈述句；shall we 只用于 Let's 之后。",
+          "difficulty": 1
+        },
+        {
+          "id": "special.tag_question.imperative-there.d2",
+          "type": "fill",
+          "stem": "Let's meet at the station at seven, ___ we?",
+          "answer": "shall",
+          "accept": ["shall"],
+          "hint": "Let's 包含说话人和听话人。",
+          "explain": "Let's 征求共同意见，附加部分用 shall we，因此填 shall。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.tag_question.imperative-there.d3",
+          "type": "correct",
+          "stem": "There are many problems with the plan, aren't they?",
+          "answer": "There are many problems with the plan, aren't there?",
+          "accept": ["There are many problems with the plan, aren't there?"],
+          "explain": "there be 句型的附加部分主语是 there，不能把后面的复数名词代词化成 they。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.tag_question.imperative-there.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["There", "is", "a", "supermarket", "near", "the", "station,", "isn't", "there?"],
+          "answer": "There is a supermarket near the station, isn't there?",
+          "explain": "主句是肯定陈述，附加部分重复 be 并加 n't，主语保留 there。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.tag_question.imperative-there.d5",
+          "type": "translate",
+          "stem": "我们休息一下，好吗？",
+          "answer": "Let's take a break, shall we?",
+          "require": [["Let's"], ["break"], ["shall we"]],
+          "forbid": ["will you", "shall I"],
+          "explain": "Let's 包括听话人，附加部分用 shall we；will you 是对对方的单向请求，shall I 是征求对方是否允许自己。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.tag_question.imperative-there.d6",
+          "type": "choice",
+          "stem": "I wish you every success in the new job, ___?",
+          "options": ["may I", "do I", "will I", "don't I"],
+          "answer": "may I",
+          "explain": "I wish 后接祝愿内容时，附加部分固定用 may I，不按主句谓语 wish 的时态推导。",
+          "trap": "do I 按实义动词借 do，忽略了 I wish 的固定附加形式。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "special.tag_question.object-clause",
+      "title": "含宾语从句的反意疑问句",
+      "brief": "第一人称加 think 看从句，其余看主句",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["special.tag_question.basic-formation", "clause.noun_clause.object-clause-tense"],
+      "concept": {
+        "summary": "附加部分跟主句还是从句，由主句的主语人称与谓语类型决定：主句是 I/we + think、believe、suppose、expect、imagine 时，附加部分与从句一致；其余情况，包括第二、三人称作主语或谓语是 say、hear、know，附加部分一律与主句一致。第一人称看法动词的否定要转移到从句上判断极性。",
+        "sections": [
+          {
+            "h": "先判两件事",
+            "p": "看到主句带 that 从句，先看主语是不是 I/we，再看谓语是不是表示看法的动词。两个条件同时满足才看从句，否则看主句。",
+            "bullets": [
+              "条件一：主语是 I 或 we",
+              "条件二：谓语是 think, believe, suppose, expect, imagine",
+              "两个条件都满足 → 附加部分跟从句",
+              "任一条件不满足 → 附加部分跟主句"
+            ]
+          },
+          {
+            "h": "第一人称 + 看法动词：跟从句",
+            "p": "此时句子的信息重心在从句，附加部分对从句内容发问。主句若是否定，否定在语义上属于从句，附加部分要用肯定。",
+            "bullets": [
+              "I think he is right, isn't he?",
+              "I don't think he is right, is he?（否定转移）",
+              "We believe she will come, won't she?",
+              "I'm sure / I'm afraid 后接从句时同样跟从句：I'm sure you will pass, won't you?"
+            ]
+          },
+          {
+            "h": "其余情况：跟主句",
+            "p": "主语换成第二、第三人称后，主句不再只是引出看法，而是陈述一个事实，附加部分回到主句。",
+            "bullets": [
+              "You think he is right, don't you?",
+              "She thinks it is a good idea, doesn't she?",
+              "He said the meeting was cancelled, didn't he?",
+              "They know the truth, don't they?"
+            ]
+          },
+          {
+            "h": "否定转移的极性处理",
+            "p": "I don't think / I don't suppose 的否定属于从句，附加部分对从句用肯定；若从句本身含否定词，主句不再否定。",
+            "bullets": [
+              "I don't suppose he knows, does he?",
+              "I don't believe she has left, has she?",
+              "I think he isn't ready, is he?（从句否定，附加肯定）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I think she is right, isn't she?", "zh": "我认为她是对的，不是吗？", "ok": true, "note": "第一人称 I + think，附加部分跟从句，从句谓语是 is，主语 she。" },
+          { "en": "I don't think she is right, is she?", "zh": "我认为她不对，是吗？", "ok": true, "note": "否定前移到主句，语义上属于从句，附加部分对从句用肯定 is she。" },
+          { "en": "You think she is right, don't you?", "zh": "你认为她是对的，不是吗？", "ok": true, "note": "主语是第二人称 you，不满足第一人称条件，附加部分跟主句。" },
+          { "en": "He said he would come, didn't he?", "zh": "他说过他会来，不是吗？", "ok": true, "note": "谓语是 said，不属于看法动词，附加部分跟主句用 didn't he。" },
+          { "en": "I'm sure you will pass the exam, won't you?", "zh": "我确信你能通过考试，不是吗？", "ok": true, "note": "I'm sure 后接从句时，附加部分与从句一致，用 won't you。" },
+          { "en": "I think he is right, don't I?", "zh": "我认为他是对的，不是吗？", "ok": false, "note": "第一人称 I + think 时附加部分跟从句，应根据从句的 is he 提问，不用 don't I。" },
+          { "en": "I don't think he is right, don't I?", "zh": "我认为他不对，不是吗？", "ok": false, "note": "主句否定已转移到从句，附加部分应对从句用肯定 is he，而不是对主句发问。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I believe she will win, don't I?", "right": "I believe she will win, won't she?", "why": "第一人称 I + believe 时，附加部分跟从句；从句是肯定将来，附加部分用 won't she。" },
+          { "wrong": "I don't suppose he knows the answer, do I?", "right": "I don't suppose he knows the answer, does he?", "why": "I don't suppose 的否定属于从句，附加部分对从句用肯定 does he；对主句发问会重复否定。" },
+          { "wrong": "She thinks it is a good idea, isn't it?", "right": "She thinks it is a good idea, doesn't she?", "why": "主语是第三人称 she，不满足第一人称条件，附加部分必须跟主句用 doesn't she。" }
+        ],
+        "contrast": { "withTitle": "反意疑问句的基本构成", "diff": "基本构成对主句本身发问；含宾语从句时先判断附加部分该跟主句还是从句，再套基本构成的四步。" },
+        "mnemonic": "I/we + think 看从句，其余一律看主句；否定转移后附加用肯定。"
+      },
+      "review": {
+        "core": [
+          "两个条件：主语是 I/we + 谓语是 think/believe/suppose/expect/imagine",
+          "两个条件同时满足，附加部分跟从句",
+          "第二、三人称作主语，或谓语是 say/hear/know，附加部分跟主句",
+          "I don't think 的否定属于从句，附加部分用肯定",
+          "I'm sure / I'm afraid 后接从句，附加部分也跟从句"
+        ],
+        "trigger": "看到 I think that... → 先问是不是第一人称 + 看法动词 → 是就看从句",
+        "quickCheck": [
+          { "q": "I think he is right 的附加部分是什么？", "a": "isn't he，跟从句。" },
+          { "q": "You think he is right 的附加部分是什么？", "a": "don't you，主语不是第一人称，跟主句。" },
+          { "q": "I don't think she will come 的附加部分是什么？", "a": "will she，否定转移到从句，附加用肯定。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "special.tag_question.object-clause.d1",
+          "type": "choice",
+          "stem": "I think the meeting will be postponed, ___?",
+          "options": ["won't it", "don't I", "will it", "do I"],
+          "answer": "won't it",
+          "explain": "第一人称 I + think，附加部分跟从句；从句是肯定将来时，主语 the meeting 换成 it，用 won't it。",
+          "trap": "don't I 对主句发问，忽略了第一人称看法动词的规则。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.tag_question.object-clause.d2",
+          "type": "fill",
+          "stem": "I don't believe he has finished the work, ___ he?",
+          "answer": "has",
+          "accept": ["has"],
+          "hint": "否定已转移到从句，附加部分对从句用肯定。",
+          "explain": "I don't believe 的否定属于从句，附加部分对从句用肯定；从句是现在完成时，重复助动词 has。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.tag_question.object-clause.d3",
+          "type": "correct",
+          "stem": "I don't think she will agree to the plan, do I?",
+          "answer": "I don't think she will agree to the plan, will she?",
+          "accept": ["I don't think she will agree to the plan, will she?"],
+          "explain": "第一人称 I + think 时附加部分跟从句；主句否定转移到从句，附加部分对从句用肯定 will she。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.tag_question.object-clause.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["You", "believe", "the", "plan", "will", "work,", "don't", "you?"],
+          "answer": "You believe the plan will work, don't you?",
+          "explain": "主语是第二人称 you，不满足第一人称条件，附加部分跟主句，借 do 并加 n't。",
+          "difficulty": 2
+        },
+        {
+          "id": "special.tag_question.object-clause.d5",
+          "type": "translate",
+          "stem": "我认为他不会来，是吗？",
+          "answer": "I don't think he will come, will he?",
+          "require": [["don't think", "do not think"], ["will he"]],
+          "forbid": ["do I", "won't he"],
+          "explain": "第一人称 I + think，附加部分跟从句；否定前移到主句后语义上属于从句，附加部分用肯定 will he。",
+          "difficulty": 3
+        },
+        {
+          "id": "special.tag_question.object-clause.d6",
+          "type": "choice",
+          "stem": "She supposes the train has already left, ___?",
+          "options": ["doesn't she", "hasn't it", "does she", "has it"],
+          "answer": "doesn't she",
+          "explain": "主语是第三人称 she，不满足第一人称条件，附加部分跟主句；主句谓语 supposes 是实义动词，借 doesn't。",
+          "trap": "hasn't it 把附加部分挂到从句上，只有 I/we + suppose 时才允许这样做。",
+          "difficulty": 4
+        }
+      ]
+    }
+  ]
+}

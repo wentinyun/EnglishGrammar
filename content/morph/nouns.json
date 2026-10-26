@@ -1,0 +1,1196 @@
+{
+  "level1": "morph",
+  "chapter": "nouns",
+  "items": [
+    {
+      "id": "morph.nouns.countability",
+      "title": "可数与不可数名词的判定",
+      "brief": "先判断义项能否计数，再决定冠词与复数",
+      "difficulty": 1,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "判定名词可数性只看两条：能否直接被 a/an 修饰，能否直接变成复数形式。两条都成立即可数，两条都不成立即不可数。可数性属于义项而不是单词，同一个词在“抽象整体”义下不可数，在“具体个体”义下可数。",
+        "sections": [
+          {
+            "h": "两条判定标准",
+            "p": "拿到一个名词，先把它放进两个位置测试：能不能说 a/an + 名词，能不能说 two + 名词复数。测试通过即可数，两个测试都失败即不可数。不可数名词要表示数量，必须借用量词结构 a piece of / a bit of / an item of。",
+            "bullets": [
+              "可数：a book → two books；a suggestion → three suggestions",
+              "不可数：× an advice，× two advices；只能说 a piece of advice / two pieces of advice",
+              "不可数名词作主语，谓语一律用单数：The information is useful."
+            ]
+          },
+          {
+            "h": "形式与语义的三类错位",
+            "p": "英语有三类名词会让判定失灵：一是形式为复数但语义不可数（news, mathematics, economics）；二是单复数同形（sheep, deer, means, series）；三是义项决定可数性（paper 纸不可数，论文可数）。遇到这三类必须回到义项判断，不能只看词尾。",
+            "bullets": [
+              "The news is good.（news 形似复数，谓语用单数）",
+              "Two sheep are grazing.（sheep 单复数同形）",
+              "She published two papers.（paper 在此为“论文”，可数）"
+            ]
+          },
+          {
+            "h": "高频不可数清单",
+            "p": "以下名词在中国学生写作中出现频率最高，且几乎总被误加 s 或误加 a/an，需要整体记住。它们都是“不可分割的整体或抽象量”，因此没有复数形式。",
+            "bullets": [
+              " advise 类：advice, information, evidence, knowledge, news",
+              " 物品类：furniture, equipment, luggage, baggage, machinery, clothing",
+              " 任务与进展类：homework, housework, research, progress, work（工作义）",
+              " 环境类：traffic, weather, pollution, transport"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She gave me a piece of advice on choosing a major.", "zh": "她就选专业给了我一条建议。", "ok": true, "note": "advice 不可数，用量词 a piece of 表示“一条”。" },
+          { "en": "She gave me a good advice.", "zh": "她给了我一条好建议。", "ok": false, "note": "advice 不可数，不能直接加 a/an，也不能加 s。应改为 a good piece of advice。" },
+          { "en": "The furniture in the room is quite old.", "zh": "房间里的家具相当旧了。", "ok": true, "note": "furniture 不可数，作主语视为单数，谓语用 is。" },
+          { "en": "The furniture in the room are quite old.", "zh": "房间里的家具相当旧了。", "ok": false, "note": "furniture 没有复数形式，谓语必须用单数 is。" },
+          { "en": "We have made great progress this term.", "zh": "这学期我们取得了很大进步。", "ok": true, "note": "progress 不可数，用 great 而不是 a great 修饰。" },
+          { "en": "I need some informations about the course.", "zh": "我需要一些关于这门课的信息。", "ok": false, "note": "information 不可数，没有复数形式，应改为 some information。" },
+          { "en": "Her works are widely read in Europe.", "zh": "她的作品在欧洲被广泛阅读。", "ok": true, "note": "work 作“作品”讲时可数，复数 works 表示多部作品。" },
+          { "en": "This is an important research.", "zh": "这是一项重要的研究。", "ok": false, "note": "research 不可数，应改为 an important piece of research。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He gave me two advices.", "right": "He gave me two pieces of advice.", "why": "advice 是抽象不可数名词，不能直接加复数词尾，数量必须靠量词承载。" },
+          { "wrong": "The equipment are new.", "right": "The equipment is new.", "why": "equipment 无复数形式，语义上是整体，作主语按单数处理。" },
+          { "wrong": "I have a good news for you.", "right": "I have good news for you.", "why": "news 虽以 s 结尾却是不可数名词，既不能加 a，谓语也要用单数。" }
+        ],
+        "contrast": { "withTitle": "可数与不可数两栖名词", "diff": "本知识点处理“始终不可数”的词；两栖名词是同一个词在不同义项下可数性改变，判定时要先确定义项。" },
+        "mnemonic": "抽象整体不可数，具体个体才可数；不可数名词要数，量词 + of 来帮忙。"
+      },
+      "review": {
+        "core": [
+          "判定标准：能否加 a/an、能否变复数，两条都中才可数",
+          "不可数名词表示数量必须用 量词 + of + 名词",
+          "advice / information / furniture / equipment / luggage / research / progress / news 恒不可数",
+          "不可数名词作主语，谓语用单数",
+          "义项改变可数性随之改变：paper 纸→论文，work 工作→作品"
+        ],
+        "trigger": "看到名词前想加 a/an 或数词 → 先问“这个义项能一个个数吗” → 不能就换量词结构",
+        "quickCheck": [
+          { "q": "equipment 有复数形式吗？", "a": "没有。表示多件设备要说 pieces of equipment。" },
+          { "q": "“两条建议”怎么说？", "a": "two pieces of advice，不能说 two advices。" },
+          { "q": "The news ___ (be) encouraging. 填什么？", "a": "is。news 是不可数名词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.nouns.countability.d1",
+          "type": "choice",
+          "stem": "The teacher gave us some useful ___ on how to take notes in class.",
+          "options": ["advices", "advice", "piece of advices", "an advice"],
+          "answer": "advice",
+          "explain": "advice 是不可数名词，some 直接修饰即可，既不能加 s 也不能加 a/an；要表示“几条”必须说 some pieces of advice。",
+          "trap": "advices 是最强干扰项，受汉语“建议”可数的影响而误加复数词尾。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.nouns.countability.d2",
+          "type": "fill",
+          "stem": "The new laboratory is equipped with a lot of modern ___ (equipment).",
+          "answer": "equipment",
+          "accept": ["equipment"],
+          "hint": "a lot of 后面接可数还是不可数与答案无关，先判断这个词本身能不能数。",
+          "explain": "equipment 是不可数名词，没有复数形式，括号里给的原形直接填入即可。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.nouns.countability.d3",
+          "type": "correct",
+          "stem": "She gave me two advices about choosing a major.",
+          "answer": "She gave me two pieces of advice about choosing a major.",
+          "accept": ["She gave me two pieces of advice about choosing a major."],
+          "explain": "advice 不可数，复数数量必须由量词 piece 承担：two pieces of advice。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.countability.d4",
+          "type": "choice",
+          "stem": "The number of ___ in this forest has fallen sharply over the past decade.",
+          "options": ["deer", "deers", "a deer", "the deer"],
+          "answer": "deer",
+          "explain": "deer 是单复数同形名词，表示数量增加时不加 s；the number of 后接复数形式，而 deer 的形式本身不变。",
+          "trap": "deers 是规则化类推的错误形式，英语中 deer、sheep、fish 均属单复数同形。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.countability.d5",
+          "type": "translate",
+          "stem": "他给了我们两条关于选课的建议。",
+          "answer": "He gave us two pieces of advice about choosing courses.",
+          "require": [["gave"], ["two"], ["piece"], ["advice"]],
+          "forbid": ["advices", "two advice"],
+          "explain": "advice 不可数，数量由 two pieces 承担；about 后接动名词 choosing 表示“关于选课”。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.countability.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["There", "is", "a lot of", "furniture", "in the room."],
+          "answer": "There is a lot of furniture in the room.",
+          "explain": "furniture 不可数，there be 句型中 be 动词与 furniture 一致用 is。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.nouns.quantification",
+      "title": "不可数名词的量化表达",
+      "brief": "量词选择固定，谓语与量词一致",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["morph.nouns.countability"],
+      "concept": {
+        "summary": "不可数名词不能直接受数词修饰，数量必须由“量词 + of + 不可数名词”承载。量词与名词的搭配是固定的，不能任意替换；句子谓语动词的单复数由量词决定，而不是由后面的不可数名词决定。",
+        "sections": [
+          {
+            "h": "量词与名词的固定搭配",
+            "p": "每个不可数名词都有习惯上搭配的量词，选错量词即使语法通顺也不地道。判断依据是名词的物理形态：片状用 piece/slice/sheet，条状用 bar，颗粒用 grain，液体用 drop/bottle/glass，成块用 lump。",
+            "bullets": [
+              "a piece of advice / news / information / music / furniture",
+              "a slice of bread / meat / cake；a loaf of bread",
+              "a bar of chocolate / soap；a grain of rice / sand",
+              "a sheet of paper；a drop of water；a lump of sugar"
+            ]
+          },
+          {
+            "h": "谓语的单复数看量词",
+            "p": "量词结构作主语时，中心词是量词而不是后面的不可数名词。量词是单数，谓语用单数；量词变复数，谓语用复数。这一点在改错与语法填空中出现频率很高。",
+            "bullets": [
+              "A piece of advice is enough.（量词单数 → is）",
+              "Two pieces of advice were given.（量词复数 → were）",
+              "A large amount of money was spent.（amount 单数 → was）"
+            ]
+          },
+          {
+            "h": "表示“大量”的三组词",
+            "p": "much / a great deal of / a large amount of 只接不可数名词；many / a great many / a number of 只接可数名词复数。a lot of 与 plenty of 两者皆可。a number of 作主语谓语用复数，the number of 作主语谓语用单数。",
+            "bullets": [
+              "A great deal of information has been collected.",
+              "A number of students are absent today.",
+              "The number of students is increasing."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She bought two bars of soap at the supermarket.", "zh": "她在超市买了两块肥皂。", "ok": true, "note": "soap 成块，量词用 bar，复数落在 bar 上。" },
+          { "en": "She bought two soaps at the supermarket.", "zh": "她在超市买了两块肥皂。", "ok": false, "note": "soap 是不可数名词，不能直接加 s，应说 two bars of soap。" },
+          { "en": "Two pieces of advice were offered by the tutor.", "zh": "导师给出了两条建议。", "ok": true, "note": "谓语与量词 pieces 一致，用复数 were。" },
+          { "en": "Two pieces of advice was offered by the tutor.", "zh": "导师给出了两条建议。", "ok": false, "note": "谓语应与量词 pieces 一致，而不是与 advice 一致。" },
+          { "en": "A great deal of money has been invested in the project.", "zh": "这个项目已经投入了大量资金。", "ok": true, "note": "a great deal of 只修饰不可数名词，谓语用单数。" },
+          { "en": "A great many money has been invested in the project.", "zh": "这个项目已经投入了大量资金。", "ok": false, "note": "a great many 只能修饰可数名词复数，money 不可数，应改为 a great deal of。" },
+          { "en": "He gave me a loaf of bread and a bottle of milk.", "zh": "他给了我一条面包和一瓶牛奶。", "ok": true, "note": "bread 与 milk 均不可数，各自使用固定量词。" }
+        ],
+        "pitfalls": [
+          { "wrong": "There are two breads on the table.", "right": "There are two loaves of bread on the table.", "why": "bread 不可数，复数必须由量词 loaf 承担。" },
+          { "wrong": "A number of water is wasted every day.", "right": "A great deal of water is wasted every day.", "why": "a number of 修饰可数名词复数，不能修饰不可数名词 water。" },
+          { "wrong": "Three pieces of paper is needed.", "right": "Three pieces of paper are needed.", "why": "谓语与量词 pieces 保持一致，量词为复数时谓语用复数。" }
+        ],
+        "contrast": { "withTitle": "数量短语作主语的一致", "diff": "本知识点解决“怎么数”，主谓一致章节解决“谁决定谓语”；两者的交叉点就是量词作中心词。" },
+        "mnemonic": "数不可数，量词当家；谓语跟量词走，不跟名词走。"
+      },
+      "review": {
+        "core": [
+          "不可数名词的数量 = 量词 + of + 名词，量词可数、名词不变",
+          "量词搭配固定：piece/slice/loaf/bar/grain/sheet/drop/lump",
+          "谓语单复数由量词决定：Two pieces of advice were...",
+          "much / a great deal of / a large amount of 只接不可数",
+          "many / a great many / a number of 只接可数复数；the number of 谓语用单数"
+        ],
+        "trigger": "看到不可数名词前有数词 → 立刻补量词 → 再检查谓语跟谁一致",
+        "quickCheck": [
+          { "q": "“一块肥皂”怎么说？", "a": "a bar of soap。" },
+          { "q": "Two pieces of advice ___ (be) useful. 填什么？", "a": "are，谓语跟量词 pieces。" },
+          { "q": "a number of 与 the number of 的谓语分别是什么？", "a": "前者用复数，后者用单数。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.nouns.quantification.d1",
+          "type": "choice",
+          "stem": "She bought two ___ of soap for the guest room.",
+          "options": ["bars", "pieces", "slices", "loaves"],
+          "answer": "bars",
+          "explain": "soap 是成块的固体，固定量词是 bar。piece 用于 advice/news 类抽象或块状物，slice 用于可切片的食物，loaf 用于面包。",
+          "trap": "pieces 语法上成立但不地道，考查的是量词与名词的固定搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.quantification.d2",
+          "type": "fill",
+          "stem": "The doctor gave me a ___ of advice about diet and exercise.",
+          "answer": "piece",
+          "accept": ["piece"],
+          "hint": "advice 的固定量词与 news、information 相同。",
+          "explain": "advice 是不可数名词，最常用的量词是 piece，a piece of advice 表示“一条建议”。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.nouns.quantification.d3",
+          "type": "correct",
+          "stem": "Two pieces of advice was given to me by my tutor.",
+          "answer": "Two pieces of advice were given to me by my tutor.",
+          "accept": ["Two pieces of advice were given to me by my tutor."],
+          "explain": "该句主语的中心词是量词 pieces，为复数，谓语必须用 were，不受不可数名词 advice 影响。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.quantification.d4",
+          "type": "choice",
+          "stem": "___ of the information in the report turned out to be inaccurate.",
+          "options": ["A great deal", "A great many", "A number", "Many"],
+          "answer": "A great deal",
+          "explain": "information 是不可数名词，只能用 a great deal of 修饰；a great many、a number of、many 都要求可数名词复数。",
+          "trap": "A number 是强干扰项，a number of 后必须接可数复数，不能接 information。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.quantification.d5",
+          "type": "translate",
+          "stem": "桌上有一小块面包和两杯水。",
+          "answer": "There is a small piece of bread and two glasses of water on the table.",
+          "require": [["piece of bread"], ["glasses of water"]],
+          "forbid": ["a bread", "two glass of water"],
+          "explain": "bread 与 water 都不可数，数量分别由 piece 与 glasses 承担；there be 的就近原则使谓语与 a small piece 一致，用 is。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.quantification.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "bought", "a", "loaf", "of", "bread."],
+          "answer": "He bought a loaf of bread.",
+          "explain": "bread 不可数，用 a loaf of 表示“一条”，量词 a 与单数名词 loaf 搭配。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.nouns.plural-forms",
+      "title": "名词复数的规则与不规则变化",
+      "brief": "规则变化按词尾分五类，不规则必须整记",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["morph.nouns.countability"],
+      "concept": {
+        "summary": "复数变化先看词尾：一般加 s；以 s/x/ch/sh 结尾加 es；辅音字母 + y 变 y 为 i 加 es；以 o 结尾分加 s 与加 es 两类；以 f/fe 结尾部分变 ves。不规则变化、单复数同形、外来词复数不属于规则类推范围，必须整词记忆。",
+        "sections": [
+          {
+            "h": "规则变化的五条分支",
+            "p": "判断顺序是固定的：先看是否以 s/x/ch/sh 结尾，再看是否辅音 + y，再看是否以 o 结尾，最后看是否以 f/fe 结尾。顺序错了就会漏加 e 或误变 y。",
+            "bullets": [
+              "一般情况加 s：book → books, day → days",
+              "s/x/ch/sh 结尾加 es：bus → buses, box → boxes, watch → watches, dish → dishes",
+              "辅音字母 + y 变 ies：city → cities；元音 + y 直接加 s：boy → boys",
+              "o 结尾：potato/tomato/hero/echo 加 es；photo/piano/radio/zoo/kilo 加 s",
+              "f/fe 结尾：leaf/life/knife/wife/wolf/thief/shelf/half/self 变 ves；roof/chief/belief/proof 加 s"
+            ]
+          },
+          {
+            "h": "不规则与同形",
+            "p": "内部元音变化、加 en、单复数同形这三类没有规律可循，只能整词记忆。其中单复数同形名词最容易在改错题中被误加 s。",
+            "bullets": [
+              "元音变化：man → men, woman → women, foot → feet, tooth → teeth, mouse → mice, goose → geese",
+              "加 en：child → children, ox → oxen",
+              "单复数同形：sheep, deer, fish（同种鱼）, means, series, species, aircraft, Chinese, Japanese",
+              "外来词：datum → data, phenomenon → phenomena, criterion → criteria, analysis → analyses, crisis → crises, medium → media"
+            ]
+          },
+          {
+            "h": "易混对照",
+            "p": "部分名词加 s 后意义改变，与单纯复数不是一回事，写作中需要区分。",
+            "bullets": [
+              "arm 手臂 → arms 武器；custom 风俗 → customs 海关",
+              "manner 方式 → manners 礼貌；spirit 精神 → spirits 情绪",
+              "water 水 → waters 水域；sand 沙 → sands 沙滩"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Three geese were swimming on the lake.", "zh": "三只鹅在湖上游。", "ok": true, "note": "goose 的复数是 geese，属内部元音变化。" },
+          { "en": "Three gooses were swimming on the lake.", "zh": "三只鹅在湖上游。", "ok": false, "note": "goose 不能用规则加 s，正确复数是 geese。" },
+          { "en": "The leaves of the tree turn yellow in autumn.", "zh": "这棵树的叶子秋天变黄。", "ok": true, "note": "leaf 以 f 结尾，变复数时改 f 为 v 加 es。" },
+          { "en": "The leafs of the tree turn yellow in autumn.", "zh": "这棵树的叶子秋天变黄。", "ok": false, "note": "leaf 属于变 ves 的一类，不是直接加 s。" },
+          { "en": "Two criteria must be met before approval.", "zh": "批准前必须满足两条标准。", "ok": true, "note": "criterion 是希腊语外来词，复数形式为 criteria。" },
+          { "en": "All the data were collected by hand.", "zh": "所有数据都是手工收集的。", "ok": true, "note": "datum 的复数是 data，学术语境中常作复数。" },
+          { "en": "The sheeps are grazing on the hill.", "zh": "羊在山坡上吃草。", "ok": false, "note": "sheep 单复数同形，不能加 s。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He bought two photos and three potatos.", "right": "He bought two photos and three potatoes.", "why": "o 结尾分两类：photo 属缩略词加 s，potato 属本土词加 es。" },
+          { "wrong": "There are many childs in the park.", "right": "There are many children in the park.", "why": "child 的复数是 children，属于加 en 的不规则变化。" },
+          { "wrong": "The police caught three thiefs.", "right": "The police caught three thieves.", "why": "thief 以 f 结尾，需变 f 为 v 再加 es。" }
+        ],
+        "contrast": { "withTitle": "复合名词的复数形式", "diff": "本知识点处理单词内部的复数变化；复合名词要先找出中心词，再对中心词做这里的变形。" },
+        "mnemonic": "s/x/ch/sh 加 es；辅音加 y 变 ies；f 变 ves 记九个；同形 sheep deer fish。"
+      },
+      "review": {
+        "core": [
+          "五条规则分支：一般 s / s-x-ch-sh 加 es / 辅音 + y 变 ies / o 分两类 / f-fe 分两类",
+          "不规则三类：元音变化、加 en、外来词",
+          "单复数同形：sheep, deer, fish, means, series, species, aircraft",
+          "外来词复数：data, phenomena, criteria, analyses, crises, media",
+          "加 s 后变义：arms 武器, customs 海关, manners 礼貌, waters 水域"
+        ],
+        "trigger": "看到名词要变复数 → 按词尾顺序过五条分支 → 再想是否属于同形或外来词",
+        "quickCheck": [
+          { "q": "photo 与 potato 的复数分别怎么变？", "a": "photos 加 s，potatoes 加 es。" },
+          { "q": "roof 的复数？", "a": "roofs，属 f 结尾但加 s 的例外。" },
+          { "q": "criterion 的复数？", "a": "criteria。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.nouns.plural-forms.d1",
+          "type": "choice",
+          "stem": "Two ___ were sitting on the branch, watching the garden below.",
+          "options": ["gooses", "geese", "geeses", "goose"],
+          "answer": "geese",
+          "explain": "goose 的复数通过内部元音变化构成，形式为 geese，不能规则加 s 或 es。",
+          "trap": "geeses 是把不规则词再规则化一次的双重错误，最易被误选。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.nouns.plural-forms.d2",
+          "type": "fill",
+          "stem": "The ___ (leaf) on the maple trees turn red in late October.",
+          "answer": "leaves",
+          "accept": ["leaves"],
+          "hint": "注意谓语是 turn，说明主语为复数。",
+          "explain": "leaf 属于 f 结尾变 ves 的一类，复数为 leaves；谓语 turn 也印证了复数主语。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.plural-forms.d3",
+          "type": "correct",
+          "stem": "The police caught three thiefs near the railway station.",
+          "answer": "The police caught three thieves near the railway station.",
+          "accept": ["The police caught three thieves near the railway station."],
+          "explain": "thief 以 f 结尾且属于变 ves 的词，复数为 thieves。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.plural-forms.d4",
+          "type": "choice",
+          "stem": "All the ___ collected in the experiment were recorded in the notebook.",
+          "options": ["datum", "data", "datums", "datas"],
+          "answer": "data",
+          "explain": "datum 是拉丁语外来词，复数形式为 data，句中 were 也要求复数主语。",
+          "trap": "datas 是把外来词再套一层英语规则的双重变形，英语中不存在。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.plural-forms.d5",
+          "type": "translate",
+          "stem": "农场里有二十只羊和十头牛。",
+          "answer": "There are twenty sheep and ten cows on the farm.",
+          "require": [["sheep"], ["cows"]],
+          "forbid": ["sheeps"],
+          "explain": "sheep 单复数同形，二十只仍是 sheep；cow 是可数名词，需用复数 cows。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.plural-forms.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Two", "women", "and", "three", "children", "are", "waiting", "outside."],
+          "answer": "Two women and three children are waiting outside.",
+          "explain": "woman 复数为 women（内部元音变化），child 复数为 children（加 en），两者都属于不规则变化。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.nouns.compound-plural",
+      "title": "复合名词的复数形式",
+      "brief": "先找中心词，再对中心词变复数",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["morph.nouns.plural-forms"],
+      "concept": {
+        "summary": "复合名词变复数的唯一原则是：只让中心词（真正被数的那个名词）变复数。名词 + 名词结构中中心词在后；名词 + 介词短语结构中中心词是被介词短语修饰的那个名词；man/woman 作前置定语时两个成分都要变。",
+        "sections": [
+          {
+            "h": "三种结构，三种变法",
+            "p": "先判断复合名词的内部结构，再决定 s 加在哪里。判断方法是问“到底有几个什么东西”，答案就是中心词。",
+            "bullets": [
+              "名词 + 名词：变后一个 → book shop → book shops；apple tree → apple trees",
+              "名词 + 介词短语：变主体名词 → editor-in-chief → editors-in-chief；passer-by → passers-by；looker-on → lookers-on",
+              "man/woman 作定语：两个都变 → man doctor → men doctors；woman teacher → women teachers"
+            ]
+          },
+          {
+            "h": "没有名词成分的复合词",
+            "p": "由分词、副词、动词构成的复合词没有中心名词，复数一律加在词尾。这类词多为口语复合名词，写作中需要整体记忆。",
+            "bullets": [
+              "grown-up → grown-ups；go-between → go-betweens",
+              "stand-by → stand-bys；lay-by → lay-bys",
+              "forget-me-not → forget-me-nots"
+            ]
+          },
+          {
+            "h": "以 -ful 结尾的名词",
+            "p": "-ful 构成的量词名词，复数加在 ful 之后，因为它已经名词化为一个整体，不是“形容词 + 名词”结构。",
+            "bullets": [
+              "handful → handfuls；mouthful → mouthfuls；spoonful → spoonfuls",
+              "two handfuls of sand（不能说 two hand of sand）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Three editors-in-chief attended the meeting.", "zh": "三位主编出席了会议。", "ok": true, "note": "中心词是 editor，介词短语 in chief 修饰它，复数加在 editor 上。" },
+          { "en": "Three editor-in-chiefs attended the meeting.", "zh": "三位主编出席了会议。", "ok": false, "note": "不能把整个短语当成一个词在末尾加 s，中心词是 editor。" },
+          { "en": "Both women teachers in our school are from Canada.", "zh": "我们学校的两位女教师都来自加拿大。", "ok": true, "note": "woman 作定语修饰 teacher，两个成分都要变复数。" },
+          { "en": "Both woman teachers in our school are from Canada.", "zh": "我们学校的两位女教师都来自加拿大。", "ok": false, "note": "woman 作前置定语时必须与中心词一起变复数，改为 women teachers。" },
+          { "en": "Two passers-by stopped to help the old man.", "zh": "两个路人停下来帮助那位老人。", "ok": true, "note": "passer 是中心词，by 是副词，复数加在 passer 上。" },
+          { "en": "She added two spoonfuls of sugar to the tea.", "zh": "她往茶里加了两勺糖。", "ok": true, "note": "spoonful 已名词化，复数直接加在词尾。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Two looker-ons were invited to judge the contest.", "right": "Two lookers-on were invited to judge the contest.", "why": "looker 是中心词，on 是副词，复数必须加在 looker 上。" },
+          { "wrong": "There are five grown-ups and three childs.", "right": "There are five grown-ups and three children.", "why": "grown-up 无名词成分故整体加 s，但 child 仍按不规则变化变 children。" },
+          { "wrong": "Two man doctors are on duty tonight.", "right": "Two men doctors are on duty tonight.", "why": "man 作前置定语修饰 doctor 时必须与中心词一起变复数，构成 men doctors。" }
+        ],
+        "contrast": { "withTitle": "名词作定语的单复数", "diff": "复合名词是“一个词条”内部的复数变化；名词作定语是短语层面，定语名词通常保持单数不变。" },
+        "mnemonic": "先问“数的是谁”，谁被数谁加 s；man/woman 当前缀，两个一起变。"
+      },
+      "review": {
+        "core": [
+          "原则：只让中心词变复数",
+          "名词 + 名词：变后一个（book shops）",
+          "名词 + 介词短语：变主体名词（editors-in-chief, passers-by）",
+          "man/woman 作定语：两个都变（women teachers）",
+          "-ful 结尾与无名词成分的复合词：整体加 s（handfuls, grown-ups）"
+        ],
+        "trigger": "看到带连字符或空格的多词名词 → 先定位中心词 → 再决定 s 的位置",
+        "quickCheck": [
+          { "q": "editor-in-chief 的复数？", "a": "editors-in-chief。" },
+          { "q": "woman doctor 的复数？", "a": "women doctors。" },
+          { "q": "grown-up 的复数？", "a": "grown-ups。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.nouns.compound-plural.d1",
+          "type": "choice",
+          "stem": "Three ___ took part in the panel discussion on media ethics.",
+          "options": ["editors-in-chief", "editor-in-chiefs", "editors-in-chiefs", "editor-in-chief"],
+          "answer": "editors-in-chief",
+          "explain": "复合名词 editor-in-chief 的中心词是 editor，in chief 是介词短语修饰语，因此复数只加在 editor 上。",
+          "trap": "editor-in-chiefs 是把整个短语当单词处理的典型错误。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.compound-plural.d2",
+          "type": "fill",
+          "stem": "Both ___ in our department come from Canada. (woman teacher)",
+          "answer": "women teachers",
+          "accept": ["women teachers"],
+          "hint": "woman 作前置定语时，它本身也要变复数。",
+          "explain": "woman 作定语修饰 teacher 时，两个成分同时变复数，构成 women teachers。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.compound-plural.d3",
+          "type": "correct",
+          "stem": "Two looker-ons were invited to judge the street contest.",
+          "answer": "Two lookers-on were invited to judge the street contest.",
+          "accept": ["Two lookers-on were invited to judge the street contest."],
+          "explain": "looker-on 的中心词是 looker，on 是副词，复数必须加在 looker 上，构成 lookers-on。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.compound-plural.d4",
+          "type": "choice",
+          "stem": "There are five ___ in the hall, waiting for the results.",
+          "options": ["grown-ups", "grown-up", "growns-up", "grow-ups"],
+          "answer": "grown-ups",
+          "explain": "grown-up 由过去分词加副词构成，没有中心名词，复数直接加在词尾。",
+          "trap": "growns-up 是错误地把 grown 当成中心词，实际 grown 是分词而非名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.compound-plural.d5",
+          "type": "translate",
+          "stem": "我们学校有三十名女教师。",
+          "answer": "There are thirty women teachers in our school.",
+          "require": [["women teachers"]],
+          "forbid": ["woman teachers"],
+          "explain": "woman 作定语修饰 teacher，两个成分都要变复数，构成 women teachers。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.compound-plural.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Two", "editors-in-chief", "attended", "the", "annual", "meeting."],
+          "answer": "Two editors-in-chief attended the annual meeting.",
+          "explain": "复数加在中心词 editor 上；attended 为谓语，annual meeting 为宾语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.nouns.possessive",
+      "title": "名词所有格（'s / of / 双重所有格）",
+      "brief": "有生命用 's，无生命用 of，双重所有格表部分",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["morph.nouns.plural-forms"],
+      "concept": {
+        "summary": "所有格的选择由名词的生命度与所属关系决定：有生命的人或动物、时间、距离、国家城市机构用 's；无生命事物一般用 of 结构；表示“其中之一”或带限定词时用双重所有格 a friend of mine。复数名词以 s 结尾时只加撇号，共有关系只在最后一个名词加 's。",
+        "sections": [
+          {
+            "h": "'s 的适用范围",
+            "p": "'s 并非只用于人，凡是被视为“有边界、可拥有”的主体都可使用，包括时间、距离、度量、国家、城市、机构以及拟人化的事物。",
+            "bullets": [
+              "人/动物：the boy's bag, the dog's tail",
+              "时间：today's newspaper, a week's holiday",
+              "距离与度量：a mile's walk, a stone's throw",
+              "国家城市机构：China's economy, the city's parks",
+              "拟人化：the ship's crew, nature's beauty"
+            ]
+          },
+          {
+            "h": "共有与各自",
+            "p": "并列名词表示共同拥有时，'s 只加在最后一个名词上；表示各自拥有时，每个名词都要加 's，且被拥有物通常用复数。",
+            "bullets": [
+              "Tom and Mary's room（两人共住一间）",
+              "Tom's and Mary's rooms（各自的房间，复数）",
+              "以 s 结尾的复数名词只加撇号：the students' books；不以 s 结尾的复数加 's：the children's toys"
+            ]
+          },
+          {
+            "h": "双重所有格",
+            "p": "of + 名词所有格/名词性物主代词 构成双重所有格，核心语义是“部分中的某一个”，常与 a/an/this/that/some 连用，不能与 the 连用。",
+            "bullets": [
+              "a friend of mine = one of my friends（我朋友中的一个）",
+              "a novel of Dickens' = one of Dickens' novels",
+              "× the friend of mine；√ a friend of mine"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I spent the weekend at my uncle's.", "zh": "我在叔叔家过的周末。", "ok": true, "note": "'s 后省略了 house，表示“某人的家/店铺”，是固定省略用法。" },
+          { "en": "I spent the weekend at my uncle.", "zh": "我在叔叔家过的周末。", "ok": false, "note": "缺少所有格，'s 后的名词虽可省略但撇号不能省。" },
+          { "en": "She is a friend of my sister's.", "zh": "她是我姐姐的一个朋友。", "ok": true, "note": "双重所有格表示“我姐姐朋友中的一个”。" },
+          { "en": "She is a friend of my sister.", "zh": "她是我姐姐的一个朋友。", "ok": false, "note": "of my sister 只表示“属于姐姐”，语义不同，表示“其中之一”须用双重所有格。" },
+          { "en": "The children's toys are everywhere.", "zh": "孩子们的玩具到处都是。", "ok": true, "note": "children 不以 s 结尾，所有格加 's。" },
+          { "en": "The childrens' toys are everywhere.", "zh": "孩子们的玩具到处都是。", "ok": false, "note": "children 本身已是复数且不以 s 结尾，不能再加 s 再加撇号。" },
+          { "en": "We will meet at the doctor's at three.", "zh": "我们三点在诊所见面。", "ok": true, "note": "the doctor's 是“诊所”的固定省略表达。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The book's cover of mine is torn.", "right": "The cover of my book is torn.", "why": "无生命事物的所属关系用 of 结构，且不能把 's 与 of mine 叠加。" },
+          { "wrong": "Tom and Mary's rooms are both on the second floor.", "right": "Tom's and Mary's rooms are both on the second floor.", "why": "表示各自拥有时每个名词都要加 's，只在最后一个加 's 表示共有。" },
+          { "wrong": "He is a colleague of my father.", "right": "He is a colleague of my father's.", "why": "表示“我父亲同事中的一个”需用双重所有格。" }
+        ],
+        "contrast": { "withTitle": "名词作定语的单复数", "diff": "所有格强调所属关系（谁的）；名词作定语强调类别或用途（干什么用的），如 a stone wall 不是“石头的墙”而是“石墙”。" },
+        "mnemonic": "人时地机用 's，无生命用 of；部分之一要双重，a friend of mine。"
+      },
+      "review": {
+        "core": [
+          "'s 适用：人/动物、时间、距离、国家城市机构、拟人化主体",
+          "无生命事物所属关系用 of 结构",
+          "共有：最后一个名词加 's；各自：每个名词都加 's 且被拥有物用复数",
+          "s 结尾复数只加撇号：students' books；children's toys",
+          "双重所有格 a friend of mine = one of my friends，不能与 the 连用"
+        ],
+        "trigger": "看到“的”要翻译 → 先判生命度 → 再判共有还是各自 → 最后看是否表“其中之一”",
+        "quickCheck": [
+          { "q": "“学生们的书”怎么写？", "a": "the students' books（只加撇号）。" },
+          { "q": "a friend of mine 与 a friend of me 有何区别？", "a": "前者正确且表“我朋友之一”，后者结构错误。" },
+          { "q": "Tom 和 Mary 各自的房间怎么说？", "a": "Tom's and Mary's rooms。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.nouns.possessive.d1",
+          "type": "choice",
+          "stem": "It was late, so we decided to spend the night at ___.",
+          "options": ["my uncle", "my uncle's", "my uncles", "the my uncle"],
+          "answer": "my uncle's",
+          "explain": "'s 后省略了 house，my uncle's 表示“我叔叔家”，是英语中固定的省略用法，撇号不可省。",
+          "trap": "my uncle 只是人名，不能表达“在某人家里”这一地点含义。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.possessive.d2",
+          "type": "fill",
+          "stem": "She is an old friend of ___ (my sister).",
+          "answer": "my sister's",
+          "accept": ["my sister's"],
+          "hint": "of 后面再加一个所有格，构成双重所有格。",
+          "explain": "an old friend of my sister's 是双重所有格，表示“我姐姐朋友中的一个”。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.possessive.d3",
+          "type": "correct",
+          "stem": "The childrens' toys were left all over the floor.",
+          "answer": "The children's toys were left all over the floor.",
+          "accept": ["The children's toys were left all over the floor."],
+          "explain": "children 已经是复数且不以 s 结尾，所有格形式是 children's，不能再加 s。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.possessive.d4",
+          "type": "choice",
+          "stem": "We are supposed to meet at ___ at three o'clock.",
+          "options": ["the doctor", "doctor's", "the doctor's", "the doctors"],
+          "answer": "the doctor's",
+          "explain": "the doctor's 是“诊所”的固定省略形式，定冠词不可省，撇号也不可省。",
+          "trap": "doctor's 缺少定冠词，指代不明确；the doctors 则是“医生们”，语义不同。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.possessive.d5",
+          "type": "translate",
+          "stem": "这是我姐姐的一个朋友。",
+          "answer": "This is a friend of my sister's.",
+          "require": [["friend of my sister's"]],
+          "forbid": ["a my sister's friend", "friend of my sister."],
+          "explain": "表示“我姐姐朋友中的一个”必须用双重所有格 of + 名词所有格。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.possessive.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["This", "is", "Tom", "and", "Mary's", "house."],
+          "answer": "This is Tom and Mary's house.",
+          "explain": "表示两人共有的房子，'s 只加在最后一个名词 Mary 上。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.nouns.attributive",
+      "title": "名词作定语的单复数",
+      "brief": "定语名词一般用单数，复合定语用连字符",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["morph.nouns.plural-forms"],
+      "concept": {
+        "summary": "名词作前置定语时通常保持单数形式，因为它的功能是标记类别而不是计数。只有少数固定搭配保留复数（sports meeting, customs officer, savings account）。数词 + 名词 + 形容词构成复合定语时，名词用单数并用连字符连接。",
+        "sections": [
+          {
+            "h": "定语名词用单数的三条证据",
+            "p": "判断定语名词该不该加 s，看它是否在“计数”。若只是说明类别、用途、材料，一律用单数，即使中心词是复数。",
+            "bullets": [
+              "中心词复数，定语仍单数：two shoe shops, three apple trees",
+              "数词 + 名词 + 形容词：a ten-mile walk / a five-year-old boy（year 不加 s）",
+              "度量结构：a two-hour meeting, a 200-metre bridge"
+            ]
+          },
+          {
+            "h": "保留复数的固定搭配",
+            "p": "少数搭配已成为固定词条，定语必须是复数，写错反而失分。这类词需要整记，不能靠规则推导。",
+            "bullets": [
+              "sports meeting / sports car / sports field",
+              "customs officer / customs duty；arms race；savings account",
+              "clothes shop；goods train；accounts department"
+            ]
+          },
+          {
+            "h": "复合定语的连字符规则",
+            "p": "数词 + 名词（+ 形容词）构成的复合定语，内部用连字符连接，名词永远单数，整体放在中心词前作定语。若改为后置表达，则恢复复数并去掉连字符。",
+            "bullets": [
+              "a ten-year-old girl = a girl of ten years old",
+              "a three-hour journey = a journey of three hours",
+              "a six-foot man = a man of six feet"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "They walked along a ten-mile path through the forest.", "zh": "他们沿着一条十英里长的小路穿过森林。", "ok": true, "note": "ten-mile 作复合定语，mile 用单数并用连字符。" },
+          { "en": "They walked along a ten-miles path through the forest.", "zh": "他们沿着一条十英里长的小路穿过森林。", "ok": false, "note": "复合定语中的名词必须用单数，应改为 ten-mile。" },
+          { "en": "There is a sports meeting in our school next week.", "zh": "下周我们学校有运动会。", "ok": true, "note": "sports meeting 是固定搭配，定语保留复数。" },
+          { "en": "There is a sport meeting in our school next week.", "zh": "下周我们学校有运动会。", "ok": false, "note": "sports meeting 为固定词条，不能改用单数 sport。" },
+          { "en": "He is a customs officer at the airport.", "zh": "他是机场的一名海关官员。", "ok": true, "note": "customs officer 为固定搭配，定语用复数 customs。" },
+          { "en": "Two shoe shops opened on the same street.", "zh": "同一条街上开了两家鞋店。", "ok": true, "note": "shoe 标记类别，虽中心词为复数仍用单数。" },
+          { "en": "She has a five-year-old son.", "zh": "她有一个五岁的儿子。", "ok": true, "note": "数词 + 名词 + 形容词构成复合定语，year 用单数。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He is a six-years-old boy.", "right": "He is a six-year-old boy.", "why": "复合定语内部名词必须单数，且各成分用连字符连接。" },
+          { "wrong": "We will have a sport meeting tomorrow.", "right": "We will have a sports meeting tomorrow.", "why": "sports meeting 是固定搭配，定语形式固定为复数。" },
+          { "wrong": "It is a three-hours journey.", "right": "It is a three-hour journey.", "why": "复合定语表度量时名词用单数，去掉连字符后才用复数形式 of three hours。" }
+        ],
+        "contrast": { "withTitle": "复合名词的复数形式", "diff": "复合名词本身是被数的对象，需要对中心词变复数；名词作定语是修饰成分，通常不参与复数变化。" },
+        "mnemonic": "定语不计数，单数加连字符；固定搭配记三个：sports、customs、savings。"
+      },
+      "review": {
+        "core": [
+          "名词作定语标记类别，通常用单数：shoe shops, apple trees",
+          "数词 + 名词 + 形容词：a ten-year-old girl，year 单数且带连字符",
+          "固定复数搭配：sports meeting, customs officer, savings account, clothes shop",
+          "复合定语改后置时恢复复数：a three-hour journey = a journey of three hours",
+          "复合定语中的名词不加 s，是最高频的失分点"
+        ],
+        "trigger": "看到连字符里的名词 → 一律先写单数 → 再查是否属于 sports/customs 类固定搭配",
+        "quickCheck": [
+          { "q": "“一个八岁的女孩”怎么写？", "a": "an eight-year-old girl。" },
+          { "q": "“运动会”用 sport 还是 sports？", "a": "sports meeting。" },
+          { "q": "“两小时的会议”作前置定语怎么写？", "a": "a two-hour meeting。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.nouns.attributive.d1",
+          "type": "choice",
+          "stem": "They walked along a ___ path to the remote village.",
+          "options": ["ten-miles", "ten mile", "ten-mile", "ten miles"],
+          "answer": "ten-mile",
+          "explain": "数词 + 名词构成复合定语时，名词用单数并以连字符连接，故为 ten-mile。",
+          "trap": "ten miles 单独看是正确短语，但作前置定语时必须改为单数加连字符。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.attributive.d2",
+          "type": "fill",
+          "stem": "He is a ___ boy who can already read Latin. (six year old)",
+          "answer": "six-year-old",
+          "accept": ["six-year-old"],
+          "hint": "三个成分之间要加连字符，名词用单数。",
+          "explain": "数词 + 名词 + 形容词构成复合定语，写作 six-year-old，year 不加 s。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.attributive.d3",
+          "type": "correct",
+          "stem": "There is a sport meeting in our school next week.",
+          "answer": "There is a sports meeting in our school next week.",
+          "accept": ["There is a sports meeting in our school next week."],
+          "explain": "sports meeting 是固定搭配，定语固定为复数 sports，不能改为单数 sport。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.attributive.d4",
+          "type": "choice",
+          "stem": "He works as a ___ at the international airport.",
+          "options": ["customs officer", "custom officer", "customs' officer", "custom's officer"],
+          "answer": "customs officer",
+          "explain": "customs officer 是固定搭配，表示“海关官员”，定语 customs 本身即为复数形式且不加撇号。",
+          "trap": "custom officer 是规则类推的错误，custom 单数意为“风俗”，与海关无关。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.attributive.d5",
+          "type": "translate",
+          "stem": "他们修了一条两百米长的路。",
+          "answer": "They built a two-hundred-metre-long road.",
+          "require": [["two-hundred-met"], ["road"]],
+          "forbid": ["two-hundred-metres"],
+          "explain": "复合定语内部名词用单数并以连字符连接，metre 不加 s；美式拼写 meter 同样可接受。",
+          "difficulty": 4
+        },
+        {
+          "id": "morph.nouns.attributive.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["We", "walked", "along", "a", "ten-mile", "path."],
+          "answer": "We walked along a ten-mile path.",
+          "explain": "ten-mile 为复合定语，名词单数并带连字符，修饰中心词 path。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.nouns.abstract-concrete",
+      "title": "抽象名词的具体化用法",
+      "brief": "抽象概念加 a/an 后指一件具体的事",
+      "difficulty": 3,
+      "tags": ["难点", "写作"],
+      "prereq": ["morph.nouns.countability"],
+      "concept": {
+        "summary": "部分抽象名词在表示“一件具体的事、一个具体的人或一次具体的经历”时可以加 a/an，甚至可以有复数。判断依据不是词义本身，而是它是否被“事件化”：当名词指代一个可界定的具体事件时即可数，指代抽象属性或整体概念时不可数。",
+        "sections": [
+          {
+            "h": "可具体化的三类抽象名词",
+            "p": "这类词有一个共同点：它们本身表示“评价”或“事件”，可以指向一次具体发生。加 a/an 后语义从“性质”转为“一件事”。",
+            "bullets": [
+              "评价类：success, failure, pity, shame, wonder, honour, pleasure, surprise",
+              "事件类：experience, meeting, visit, journey, interview",
+              "情感类：joy, comfort, relief（加 a 表示“一种…的感受”）"
+            ]
+          },
+          {
+            "h": "不能具体化的抽象名词",
+            "p": "表示纯粹属性、信息、进展的词没有“一次具体发生”的对应物，因此永远不可数。误加 a/an 是写作中最常见的错误之一。",
+            "bullets": [
+              "advice, information, news, evidence, knowledge",
+              "progress, research, work（工作义）, homework",
+              "fun, luck, weather, traffic（但 a stroke of luck / a piece of luck）"
+            ]
+          },
+          {
+            "h": "常见固定句式",
+            "p": "具体化后的抽象名词常出现在评价性句式中，这些句式本身就是判断信号，看到就该用 a/an。",
+            "bullets": [
+              "It is a pity / a shame that...（遗憾的是……）",
+              "It is a pleasure / an honour to do sth.",
+              "He is a success / a failure.（他是个成功者/失败者）",
+              "What a surprise! / What a relief!"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The concert was a great success.", "zh": "这场音乐会非常成功。", "ok": true, "note": "success 在此指一次具体的活动结果，已事件化，可加 a。" },
+          { "en": "The concert was great success.", "zh": "这场音乐会非常成功。", "ok": false, "note": "success 作“一件成功的事”讲是可数名词，必须加 a。" },
+          { "en": "It is a pity that you missed the lecture.", "zh": "你错过这场讲座真遗憾。", "ok": true, "note": "It is a pity that 是固定句式，pity 在此具体化为“一件遗憾的事”。" },
+          { "en": "He has had many successes in his career.", "zh": "他在事业上取得了许多成功。", "ok": true, "note": "success 具体化为“一件件成功的事”，因此可以有复数。" },
+          { "en": "What he said was a great help to us.", "zh": "他的话对我们帮助很大。", "ok": true, "note": "help 在表示“一种具体的帮助”时可加 a，属固定用法。" },
+          { "en": "She gave me an advice about the interview.", "zh": "她就面试给了我一条建议。", "ok": false, "note": "advice 无法事件化，永远不可数，应说 a piece of advice。" }
+        ],
+        "pitfalls": [
+          { "wrong": "It is great pleasure to meet you.", "right": "It is a great pleasure to meet you.", "why": "pleasure 在此指一次具体的愉快经历，已具体化，必须加 a。" },
+          { "wrong": "He made a great progress last term.", "right": "He made great progress last term.", "why": "progress 表示抽象进展，不能事件化，不能加 a。" },
+          { "wrong": "The experiment was failure.", "right": "The experiment was a failure.", "why": "failure 指一次具体的失败结果，是可数名词，需加 a。" }
+        ],
+        "contrast": { "withTitle": "可数与不可数两栖名词", "diff": "具体化的对象是抽象名词，靠加 a/an 获得个体性；两栖名词是词本身有多个义项，不同义项分属可数与不可数。" },
+        "mnemonic": "评价类可事件化，能加 a 能加 s；信息进展老样子，永远不可数。"
+      },
+      "review": {
+        "core": [
+          "具体化 = 抽象名词被事件化，指“一件具体的事”",
+          "可具体化：success/failure/pity/shame/pleasure/honour/surprise/help",
+          "具体化后可数，可有复数：many successes",
+          "不可具体化：advice/information/progress/research/fun/luck/weather",
+          "信号句式：It is a pity that... / It is a pleasure to... / What a surprise!"
+        ],
+        "trigger": "抽象名词前想加 a/an → 问“是不是指一件具体发生的事” → 是则加，否则用量词或不加",
+        "quickCheck": [
+          { "q": "“这场演出非常成功”怎么说？", "a": "The performance was a great success." },
+          { "q": "progress 能加 a 吗？", "a": "不能，make great progress。" },
+          { "q": "pity 在 It is a pity that 中为什么可数？", "a": "它已被具体化为“一件令人遗憾的事”。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.nouns.abstract-concrete.d1",
+          "type": "choice",
+          "stem": "The charity concert turned out to be ___ success, raising far more than expected.",
+          "options": ["a great", "great", "the great", "great a"],
+          "answer": "a great",
+          "explain": "success 在此指一次具体的活动结果，已事件化，是可数名词，需要不定冠词 a 与形容词 great 搭配。",
+          "trap": "选 great 是把 success 当作抽象不可数名词处理，与“一次成功的活动”这一具体所指不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.abstract-concrete.d2",
+          "type": "fill",
+          "stem": "It is ___ pity that you will not be able to join us.",
+          "answer": "a",
+          "accept": ["a"],
+          "hint": "It is ___ pity that 是固定评价句式。",
+          "explain": "pity 在 It is a pity that 句式中具体化为“一件遗憾的事”，必须加不定冠词 a。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.abstract-concrete.d3",
+          "type": "correct",
+          "stem": "What he said at the meeting was great help to us.",
+          "answer": "What he said at the meeting was a great help to us.",
+          "accept": ["What he said at the meeting was a great help to us."],
+          "explain": "help 在表示“一种具体的帮助”时可数，需加 a，构成 a great help。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.abstract-concrete.d4",
+          "type": "choice",
+          "stem": "Over the years she has had many ___ in her research career.",
+          "options": ["success", "successes", "succession", "succeed"],
+          "answer": "successes",
+          "explain": "many 要求可数名词复数；success 具体化为“一次次成功”后可以有复数形式 successes。",
+          "trap": "success 作抽象“成功”讲时不可数，但此处被 many 与具体语境限定为可数，需选复数。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.abstract-concrete.d5",
+          "type": "translate",
+          "stem": "能和你一起工作是我的荣幸。",
+          "answer": "It is an honour to work with you.",
+          "require": [["honour", "honor"], ["to work with you"]],
+          "forbid": ["It is honour"],
+          "explain": "honour 在 It is an honour to do sth. 句式中具体化为“一件荣幸的事”，必须加 an。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.abstract-concrete.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "concert", "was", "a", "great", "success."],
+          "answer": "The concert was a great success.",
+          "explain": "success 指一次具体的演出结果，已具体化为可数名词，需加 a。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "morph.nouns.dual-countability",
+      "title": "可数与不可数两栖名词",
+      "brief": "同一单词因义项不同而改变可数性",
+      "difficulty": 3,
+      "tags": ["难点", "高频"],
+      "prereq": ["morph.nouns.countability"],
+      "concept": {
+        "summary": "两栖名词指同一个词在不同义项下分属可数与不可数：表示材料、抽象量、整体空间时不可数；表示具体个体、种类、作品、经历时可数。判定必须先确定义项，再看该义项能否个体化，不能凭单词本身下结论。",
+        "sections": [
+          {
+            "h": "六组高频两栖词",
+            "p": "这六组覆盖了考试与写作中的绝大多数情况，判断依据统一为“是否个体化”。",
+            "bullets": [
+              "paper：纸（不可数）/ 论文、报纸（可数）",
+              "work：工作（不可数）/ 作品（可数）",
+              "room：空间（不可数）/ 房间（可数）",
+              "experience：经验（不可数）/ 经历（可数）",
+              "business：生意、商业（不可数）/ 公司、事务（可数）",
+              "chicken：鸡肉（不可数）/ 鸡（可数）"
+            ]
+          },
+          {
+            "h": "另外三组常见两栖",
+            "p": "这三组在语法填空中出现频率也很高，尤其 hair 与 glass 容易被误判。",
+            "bullets": [
+              "glass：玻璃（不可数）/ 玻璃杯、眼镜（可数）",
+              "hair：头发整体（不可数）/ 几根头发（可数）",
+              "light：光（不可数）/ 灯（可数）"
+            ]
+          },
+          {
+            "h": "判定流程",
+            "p": "三步走：先确定该词在句中的义项，再问这个义项能否被“一个/几个”界定，最后决定用不用复数或 a/an。同句中出现两个义项时，两处形式可能不同，需要分别判断。",
+            "bullets": [
+              "I need paper.（材料，不可数）→ I read a paper.（论文，可数）",
+              "There is no room for another chair.（空间，不可数）→ a room with a view（房间，可数）",
+              "She has much experience.（经验，不可数）→ many experiences（经历，可数）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I need some paper to write the address on.", "zh": "我需要一些纸来写地址。", "ok": true, "note": "paper 作“纸”讲是不可数名词，用 some 修饰。" },
+          { "en": "She published three papers on second language acquisition.", "zh": "她发表了三篇关于二语习得的论文。", "ok": true, "note": "paper 作“论文”讲可数，复数形式 papers。" },
+          { "en": "There is no room for another desk in this office.", "zh": "这间办公室再放不下一张桌子了。", "ok": true, "note": "room 作“空间”讲不可数，用 no 直接修饰。" },
+          { "en": "She has gained a lot of working experiences in Africa.", "zh": "她在非洲积累了大量工作经验。", "ok": false, "note": "experience 作“经验”讲不可数，不能加 s，应改为 working experience。" },
+          { "en": "Her works are widely read in Europe.", "zh": "她的作品在欧洲被广泛阅读。", "ok": true, "note": "work 作“作品”讲可数，复数 works 表示多部作品。" },
+          { "en": "We had chicken for dinner last night.", "zh": "我们昨晚吃了鸡肉。", "ok": true, "note": "chicken 作“鸡肉”讲不可数，不加冠词也不用复数。" },
+          { "en": "The farmer keeps fifty chickens on the farm.", "zh": "农民在农场养了五十只鸡。", "ok": true, "note": "chicken 作“鸡”讲可数，复数 chickens。" },
+          { "en": "The teacher gave us some advices on how to prepare for the test.", "zh": "老师给了我们一些备考建议。", "ok": false, "note": "advice 只有不可数义项，不存在个体化用法，永远不加 s。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He gave me a lot of useful informations.", "right": "He gave me a lot of useful information.", "why": "information 只有不可数义项，不存在“个体化”用法，故永远不加 s。" },
+          { "wrong": "I have many working experiences.", "right": "I have much working experience.", "why": "作“经验”讲时不可数；只有当“一段段经历”讲时才用 experiences。" },
+          { "wrong": "The glass are broken.", "right": "The glasses are broken.", "why": "表示“玻璃杯”时 glass 可数，复数 glasses；表示材料“玻璃”时不可数且谓语用单数。" }
+        ],
+        "contrast": { "withTitle": "抽象名词的具体化用法", "diff": "两栖名词靠义项切换可数性；抽象名词具体化是同义项下从“属性”转为“一件事”，靠加 a/an 实现。" },
+        "mnemonic": "材料抽象不可数，作品经历可数走；先定义项再定形，别拿单词一刀切。"
+      },
+      "review": {
+        "core": [
+          "两栖 = 同词不同义项，可数性随义项改变",
+          "paper 纸/论文；work 工作/作品；room 空间/房间",
+          "experience 经验/经历；business 商业/公司；chicken 鸡肉/鸡",
+          "glass 玻璃/玻璃杯；hair 头发/几根头发；light 光/灯",
+          "判定三步：定义项 → 问能否个体化 → 定形式"
+        ],
+        "trigger": "看到论文、作品、经历类语境 → 立刻检查该名词是否已个体化 → 决定加不加 s",
+        "quickCheck": [
+          { "q": "“三篇论文”怎么说？", "a": "three papers。" },
+          { "q": "“工作经验”能说 experiences 吗？", "a": "不能，作“经验”讲不可数，用 working experience。" },
+          { "q": "room 表示“空间”时谓语用单数还是复数？", "a": "单数，如 There is no room." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.nouns.dual-countability.d1",
+          "type": "choice",
+          "stem": "I need some ___ to write down the address before I forget it.",
+          "options": ["paper", "papers", "a paper", "the papers"],
+          "answer": "paper",
+          "explain": "此处 paper 指“纸”这一材料，是不可数名词，用 some 直接修饰，不加 s 也不加 a。",
+          "trap": "papers 表示“论文、报纸”，与“写地址用的纸”这一材料义不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.dual-countability.d2",
+          "type": "fill",
+          "stem": "She has published three ___ (paper) on second language acquisition.",
+          "answer": "papers",
+          "accept": ["papers"],
+          "hint": "three 要求可数名词复数，先判断此处 paper 的义项。",
+          "explain": "paper 作“论文”讲时可数，与 three 搭配需用复数 papers。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.dual-countability.d3",
+          "type": "correct",
+          "stem": "She has gained a lot of working experiences in Africa.",
+          "answer": "She has gained a lot of working experience in Africa.",
+          "accept": ["She has gained a lot of working experience in Africa."],
+          "explain": "experience 作“经验”讲是不可数名词，不能加 s；只有表示“一段段经历”时才用 experiences。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.dual-countability.d4",
+          "type": "choice",
+          "stem": "There is no ___ for another desk in this small office.",
+          "options": ["room", "rooms", "a room", "the room"],
+          "answer": "room",
+          "explain": "room 在此作“空间”讲，是不可数名词，用 no 直接修饰，谓语用单数 is。",
+          "trap": "a room 意为“一个房间”，与“放不下另一张桌子”的空间义冲突。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.dual-countability.d5",
+          "type": "translate",
+          "stem": "我在非洲的经历改变了我对生活的看法。",
+          "answer": "My experiences in Africa changed my view of life.",
+          "require": [["experiences"], ["changed"]],
+          "forbid": ["experience in Africa changed"],
+          "explain": "此处指“一段段具体的经历”，experience 已个体化，须用复数 experiences。",
+          "difficulty": 4
+        },
+        {
+          "id": "morph.nouns.dual-countability.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "firm", "is", "doing", "good", "business."],
+          "answer": "The firm is doing good business.",
+          "explain": "business 作“生意”讲是不可数名词，不加冠词也不用复数。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.nouns.nominalized-adj",
+      "title": "名词化的形容词",
+      "brief": "the + 形容词指一类人时谓语用复数",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["morph.articles.definite-generic"],
+      "concept": {
+        "summary": "the + 形容词可名词化，指“一类人”时谓语用复数，指“抽象事物”时谓语用单数。判定依据是该形容词的语义指向：能指人的（rich, poor, old, young, blind, dead）取复数；指抽象性质的（beautiful, unknown, impossible）取单数。这一结构没有所有格，也不能直接加 s（少数固定词除外）。",
+        "sections": [
+          {
+            "h": "指一类人：谓语用复数",
+            "p": "这类形容词描述的是人的属性，名词化后表示具有该属性的群体，是复数概念，因此谓语、代词都用复数。",
+            "bullets": [
+              "the rich / the poor / the old / the young / the sick / the wounded",
+              "the blind / the deaf / the disabled / the dead / the living",
+              "The rich are not always happy.（谓语用 are）",
+              "常见于政策、社会议题写作：care for the elderly"
+            ]
+          },
+          {
+            "h": "指抽象事物：谓语用单数",
+            "p": "少数形容词名词化后指抽象概念或未知领域，是不可数概念，谓语用单数。这类用法较书面，多出现在文学与议论性文本中。",
+            "bullets": [
+              "the beautiful（美）、the unknown（未知）、the impossible（不可能之事）",
+              "the supernatural（超自然现象）、the unexpected（意想不到的事）",
+              "The unknown is what makes research exciting.（谓语用 is）"
+            ]
+          },
+          {
+            "h": "形式限制",
+            "p": "该结构固定为 the + 形容词，不能加 a/an，不能加 's，一般不加 s。只有少数词已经彻底名词化，可以加 s，需单独记忆。",
+            "bullets": [
+              "× a rich；× the riches（riches 意为“财富”，不是“富人们”）",
+              "√ the rich（富人）、the poor（穷人）",
+              "可加 s 的少数词：the Greens（格林一家，姓氏复数）、the accused（被告，单复数同形）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The rich are not necessarily happier than the poor.", "zh": "富人不一定比穷人更幸福。", "ok": true, "note": "the rich / the poor 指两类人，谓语用复数 are。" },
+          { "en": "The rich is not necessarily happier than the poor.", "zh": "富人不一定比穷人更幸福。", "ok": false, "note": "指一类人时谓语须用复数，应改为 are。" },
+          { "en": "The old in this village are well cared for.", "zh": "这个村子里的老人得到了很好的照顾。", "ok": true, "note": "the old 指老年人群体，谓语用复数。" },
+          { "en": "The old in this village is well cared for.", "zh": "这个村子里的老人得到了很好的照顾。", "ok": false, "note": "the old 表示“老人们”，是复数概念，谓语应为 are。" },
+          { "en": "He is drawn to the unknown.", "zh": "他被未知事物所吸引。", "ok": true, "note": "the unknown 指抽象领域，作不可数概念，谓语用单数。" },
+          { "en": "The disabled need special facilities in public buildings.", "zh": "残疾人在公共建筑中需要特殊设施。", "ok": true, "note": "the disabled 指残疾人群体，谓语用复数 need。" },
+          { "en": "We should take care of the poors.", "zh": "我们应该照顾穷人。", "ok": false, "note": "the poor 已表示复数群体，不能加 s。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The young is full of energy.", "right": "The young are full of energy.", "why": "the + 形容词指一类人时是复数概念，谓语必须用复数。" },
+          { "wrong": "We must help the poors and the blinds.", "right": "We must help the poor and the blind.", "why": "该结构本身已表复数，不能再加 s 构成复数。" },
+          { "wrong": "He is a rich.", "right": "He is a rich man.", "why": "名词化的形容词不能直接加 a/an 作可数名词使用。" }
+        ],
+        "contrast": { "withTitle": "定冠词的类指用法", "diff": "the + 单数可数名词也表类指，但谓语用单数；the + 形容词表一类人时谓语用复数，这是两者的核心区别。" },
+        "mnemonic": "指人用复数，指事用单数；不加 a 不加 s，the rich 就是富人们。"
+      },
+      "review": {
+        "core": [
+          "the + 形容词 = 名词化，指一类人或抽象事物",
+          "指一类人：谓语用复数（the rich are / the old are）",
+          "指抽象事物：谓语用单数（the unknown is）",
+          "不加 a/an，一般不加 s：× the poors，× a rich",
+          "高频清单：rich/poor/old/young/sick/wounded/blind/deaf/disabled/dead"
+        ],
+        "trigger": "看到 the + 形容词作主语 → 先判指人还是指事 → 指人谓语用复数",
+        "quickCheck": [
+          { "q": "The rich ___ (be) not always happy. 填什么？", "a": "are，指一类人用复数。" },
+          { "q": "“残疾人”能说 the disableds 吗？", "a": "不能，用 the disabled。" },
+          { "q": "the unknown 的谓语用单数还是复数？", "a": "单数，指抽象事物。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.nouns.nominalized-adj.d1",
+          "type": "choice",
+          "stem": "___ are often more generous with their time than with their money.",
+          "options": ["The poor", "Poor", "The poors", "A poor"],
+          "answer": "The poor",
+          "explain": "the + 形容词表示一类人，the poor 即“穷人们”，谓语用复数 are。",
+          "trap": "The poors 是误把该结构当普通可数名词加复数的错误形式。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.nominalized-adj.d2",
+          "type": "fill",
+          "stem": "Public buildings should be designed so that the ___ (disable) can move around freely.",
+          "answer": "disabled",
+          "accept": ["disabled"],
+          "hint": "the + 形容词，词形不变。",
+          "explain": "the disabled 表示“残疾人”这一群体，形容词形式不变，不再加 s 或 ed 以外的变化。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.nouns.nominalized-adj.d3",
+          "type": "correct",
+          "stem": "The old in this mountain village is taken good care of by the volunteers.",
+          "answer": "The old in this mountain village are taken good care of by the volunteers.",
+          "accept": ["The old in this mountain village are taken good care of by the volunteers."],
+          "explain": "the old 指“老人们”，是复数概念，谓语必须用 are。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.nominalized-adj.d4",
+          "type": "choice",
+          "stem": "What fascinates her most about science is ___.",
+          "options": ["the unknown", "unknown", "a unknown", "the unknowns"],
+          "answer": "the unknown",
+          "explain": "the unknown 指“未知的领域”，是抽象事物，作不可数概念，谓语用单数 is。",
+          "trap": "the unknowns 把抽象概念误作可数个体，与句意不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.nominalized-adj.d5",
+          "type": "translate",
+          "stem": "富人应该帮助穷人。",
+          "answer": "The rich should help the poor.",
+          "require": [["the rich"], ["the poor"]],
+          "forbid": ["the riches", "the poors"],
+          "explain": "the + 形容词表示一类人，the rich 与 the poor 均为复数概念，谓语用 should help。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.nouns.nominalized-adj.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "wounded", "were", "sent", "to", "hospital."],
+          "answer": "The wounded were sent to hospital.",
+          "explain": "the wounded 指“伤员们”，是复数概念，谓语用 were。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

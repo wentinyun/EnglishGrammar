@@ -1,0 +1,407 @@
+{
+  "level1": "tense_voice",
+  "chapter": "past_simple",
+  "items": [
+    {
+      "id": "tense_voice.past_simple.core-meaning",
+      "title": "一般过去时的核心意义与时间标志",
+      "brief": "过去发生且与现在切断，靠时间状语锁定",
+      "difficulty": 1,
+      "tags": ["基础", "高频"],
+      "prereq": ["tense_voice.present_simple.core-meaning"],
+      "concept": {
+        "summary": "一般过去时把动作定位在一个已经结束、与现在切断的过去时间点上：动作可以只有一瞬，也可以延续多年，但都必须“说完就过去”。判定的硬信号是明确的过去时间：yesterday、last week、in 2019、two days ago、when I was a child。与现在完成时的分界在于是否与现在保持关联：句中出现过去时间点，就一律用过去时，不能用完成时。",
+        "sections": [
+          {
+            "h": "两个条件必须同时满足",
+            "p": "动作发生在过去只是第一个条件，第二个条件是这段时间已经封闭、不再向现在延伸。汉语说“我见过他”可以指昨天，也可以指到现在为止的经历，英语必须靠形式把这两种情况分开。",
+            "bullets": [
+              "过去且封闭：I saw him yesterday.",
+              "过去且已结束：She lived in Paris for five years.（现在不住）",
+              "过去且延续：He worked in that factory from 1990 to 2005."
+            ]
+          },
+          {
+            "h": "时间标志清单",
+            "p": "这些状语本身就把时间锁定在过去，出现任何一个，谓语就必须用过去式。它们也是最容易与现在完成时冲突的成分。",
+            "bullets": [
+              "yesterday / yesterday morning；last night / last week / last year",
+              "two days ago / a moment ago；just now；the other day",
+              "in 1995 / in the 1990s / at that time",
+              "when I was a child；on my way home（叙事中已建立的过去场景）"
+            ]
+          },
+          {
+            "h": "否定与疑问用 did",
+            "p": "否定句和疑问句由 did 承担过去时标记，实义动词回到原形。did 已经是过去式，动词再加 -ed 就在一个谓语上标了两次过去。",
+            "bullets": [
+              "He didn't come to the meeting.",
+              "Did you finish your homework last night?",
+              "Where did she buy that coat?"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "We visited the museum last Saturday.", "zh": "上周六我们参观了博物馆。", "ok": true, "note": "last Saturday 把时间锁定在过去，谓语用过去式 visited。" },
+          { "en": "We have visited the museum last Saturday.", "zh": "上周六我们参观了博物馆。", "ok": false, "note": "完成时不能与明确的过去时间连用，应改为 visited。" },
+          { "en": "She left for London two days ago.", "zh": "她两天前动身去了伦敦。", "ok": true, "note": "two days ago 是封闭的过去时间点，用过去式 left。" },
+          { "en": "She has left for London two days ago.", "zh": "她两天前动身去了伦敦。", "ok": false, "note": "ago 只与过去时搭配，完成时会把动作拉回现在，与 ago 冲突。" },
+          { "en": "When I was a child, I often swam in this river.", "zh": "小时候我常在这条河里游泳。", "ok": true, "note": "when 从句提供了过去时间框架，主句用过去式 swam。" },
+          { "en": "Did you finish your homework last night?", "zh": "你昨晚写完作业了吗？", "ok": true, "note": "疑问句由 Did 承担过去时标记，finish 保持原形。" },
+          { "en": "I didn't went to the party last night.", "zh": "我昨晚没去参加聚会。", "ok": false, "note": "didn't 已表过去，实义动词须回原形，改为 didn't go。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I have seen him yesterday.", "right": "I saw him yesterday.", "why": "yesterday 把动作封在过去的某一天，完成时要求的“与现在关联”被这个时间点切断。" },
+          { "wrong": "He didn't went to school yesterday.", "right": "He didn't go to school yesterday.", "why": "did 已经携带过去时标记，实义动词再加 -ed 会让同一个谓语出现两次过去标记。" },
+          { "wrong": "She buys a new phone last week.", "right": "She bought a new phone last week.", "why": "last week 是封闭过去时间，谓语必须变成过去式 bought，否则时态与状语互相矛盾。" }
+        ],
+        "contrast": { "withTitle": "现在完成时的核心意义", "diff": "一般过去时把动作关在过去，与现在无关；现在完成时让过去的动作向现在延伸，强调结果或经历仍影响当下。" },
+        "mnemonic": "过去时间一出现，动作封闭用过去；did 一出，动词还原。"
+      },
+      "review": {
+        "core": [
+          "一般过去时 = 过去发生 + 时间已封闭、与现在切断",
+          "硬信号：yesterday、last week、two days ago、in 1995、just now、the other day",
+          "when + 过去从句、叙事上下文同样构成过去参照",
+          "否定 didn't + 原形；疑问 Did + 主语 + 原形",
+          "句中有明确过去时间就只用过去时，不能用现在完成时"
+        ],
+        "trigger": "看到 yesterday、last、ago、in + 过去年份 → 谓语立刻用过去式 → 再检查 did 后面是否误加了 -ed",
+        "quickCheck": [
+          { "q": "I have seen him yesterday. 错在哪里？", "a": "yesterday 与完成时冲突，应改为 I saw him yesterday." },
+          { "q": "“她两天前离开了”怎么说？", "a": "She left two days ago." },
+          { "q": "Did he ___ (go) there? 填什么？", "a": "go，did 后动词用原形。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.past_simple.core-meaning.d1",
+          "type": "choice",
+          "stem": "My parents ___ married in 1995 and moved to this city two years later.",
+          "options": ["get", "had got", "got", "have got"],
+          "answer": "got",
+          "explain": "in 1995 与 two years later 都是封闭的过去时间点，谓语用过去式 got，与后面的 moved 保持同一时间框架。",
+          "trap": "have got 表“拥有”，且完成体不能与 in 1995 这样的过去时间点连用。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.past_simple.core-meaning.d2",
+          "type": "fill",
+          "stem": "We ___ (watch) a documentary about the ocean last night.",
+          "answer": "watched",
+          "accept": ["watched"],
+          "hint": "句末的 last night 已经把时间锁定。",
+          "explain": "last night 是封闭的过去时间，是一般过去时的直接信号，watch 变为 watched。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.past_simple.core-meaning.d3",
+          "type": "correct",
+          "stem": "I have finished the report yesterday afternoon.",
+          "answer": "I finished the report yesterday afternoon.",
+          "accept": ["I finished the report yesterday afternoon."],
+          "explain": "yesterday afternoon 指向已经结束的过去时段，现在完成时不能与它同现，改用过去式 finished。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_simple.core-meaning.d4",
+          "type": "choice",
+          "stem": "___ he agree to the plan at the meeting yesterday?",
+          "options": ["Was", "Did", "Does", "Has"],
+          "answer": "Did",
+          "explain": "yesterday 要求过去时，疑问句由 Did 引出，后面的 agree 保持原形。",
+          "trap": "Has 后面要求过去分词，Was 不能与实义动词原形 agree 搭配，两者都无法构成这个疑问句。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_simple.core-meaning.d5",
+          "type": "translate",
+          "stem": "去年夏天我们在海边住了一个月。",
+          "answer": "We spent a month by the sea last summer.",
+          "require": [["spent"], ["last summer"]],
+          "forbid": ["have spent", "spended"],
+          "explain": "last summer 是封闭的过去时段，谓语用 spend 的过去式 spent；完成时与这个时间状语不能同现。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_simple.core-meaning.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["They", "moved", "to", "Canada", "three", "years", "ago."],
+          "answer": "They moved to Canada three years ago.",
+          "explain": "three years ago 是过去时间点，谓语用过去式 moved，ago 放在时间量之后。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.past_simple.past-vs-participle",
+      "title": "过去式与过去分词形式的易混",
+      "brief": "按句型功能选形，按四种变化型记词",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["tense_voice.past_simple.core-meaning"],
+      "concept": {
+        "summary": "规则动词的过去式与过去分词同形，都加 -ed，因此真正需要区分的是不规则动词。判定用哪一形只看它在句中承担什么功能：单独作谓语用过去式；跟在 have/has/had 之后、跟在 be 之后表被动、或作定语状语时用过去分词。不规则动词按 AAA、ABB、ABC、ABA 四型整记，比逐词背诵更容易定位。",
+        "sections": [
+          {
+            "h": "四种变化型",
+            "p": "先确定这个词属于哪一型，再决定第二形和第三形是否相同。四型覆盖了绝大多数不规则动词，剩下的少数只能单独记。",
+            "bullets": [
+              "AAA 三形同：cut-cut-cut，put-put-put，cost-cost-cost，hurt-hurt-hurt",
+              "ABB 后两形同：buy-bought-bought，teach-taught-taught，build-built-built，catch-caught-caught",
+              "ABC 三形各异：go-went-gone，write-wrote-written，drink-drank-drunk，begin-began-begun",
+              "ABA 首尾同：come-came-come，run-ran-run，become-became-become"
+            ]
+          },
+          {
+            "h": "功能决定形式",
+            "p": "同一个词在不同句型里取不同形式，判断依据是它前面的成分。有 have/has/had 或 be 就一定用第三形，没有助动词而独自作谓语就用第二形。",
+            "bullets": [
+              "谓语位：He wrote three letters yesterday.",
+              "完成体：He has written three letters.",
+              "被动：The letters were written in English.",
+              "定语与状语：a written test；Written in haste, the report had many errors."
+            ]
+          },
+          {
+            "h": "三组高频易混",
+            "p": "这几组词形接近、词义相关，写错后句子仍然通顺，因此最难自查。判断的关键是看它是否带宾语、是否及物。",
+            "bullets": [
+              "lie 躺：lie-lay-lain-lying（不及物）；lay 放置：lay-laid-laid-laying（及物）；lie 撒谎：lie-lied-lied-lying",
+              "hang 悬挂：hang-hung-hung；hang 绞死：hang-hanged-hanged",
+              "rise 上升：rise-rose-risen（不及物）；raise 举起：raise-raised-raised（及物）",
+              "find 找到：find-found-found；found 建立：found-founded-founded"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She has written three novels since 2018.", "zh": "自二〇一八年以来她写了三部小说。", "ok": true, "note": "has 后接过去分词 written，构成现在完成时。" },
+          { "en": "She has wrote three novels since 2018.", "zh": "自二〇一八年以来她写了三部小说。", "ok": false, "note": "wrote 是过去式，只能单独作谓语，has 后必须用 written。" },
+          { "en": "The window was broken by a stone.", "zh": "窗户被一块石头打破了。", "ok": true, "note": "be + 过去分词构成被动，broken 是 break 的第三形。" },
+          { "en": "He broke the window yesterday.", "zh": "他昨天打破了窗户。", "ok": true, "note": "主动句里 broke 单独作谓语，用过去式。" },
+          { "en": "The farmer laid the basket on the ground.", "zh": "农夫把篮子放在地上。", "ok": true, "note": "lay 表“放置”，及物，过去式为 laid。" },
+          { "en": "The farmer lied the basket on the ground.", "zh": "农夫把篮子放在地上。", "ok": false, "note": "lied 是 lie（撒谎）的过去式，不能带宾语表放置，应改为 laid。" },
+          { "en": "The price has risen sharply since March.", "zh": "自三月以来价格大幅上涨。", "ok": true, "note": "rise 不及物，过去分词 risen，与 has 构成完成时。" },
+          { "en": "The price has rose sharply since March.", "zh": "自三月以来价格大幅上涨。", "ok": false, "note": "rose 是过去式，has 后必须用过去分词 risen。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I have wrote to him twice.", "right": "I have written to him twice.", "why": "have 后面固定接过去分词，wrote 是第二形，不能进入完成体。" },
+          { "wrong": "The price has rose sharply.", "right": "The price has risen sharply.", "why": "rise 属 ABC 型，第二形 rose、第三形 risen，完成体取第三形。" },
+          { "wrong": "He lied the baby on the bed.", "right": "He laid the baby on the bed.", "why": "表“放置”的 lay 及物，过去式 laid；lied 属 lie（撒谎），不能带宾语。" }
+        ],
+        "contrast": { "withTitle": "一般过去时的核心意义与时间标志", "diff": "核心意义解决“什么时候用过去时”，本点解决“过去时里填哪一种形式”：谓语位用过去式，完成体与被动位用过去分词。" },
+        "mnemonic": "have 后必分词，be 后被动也分词；谓语自己用过去式；lay 放置、lie 躺、lie 撒谎。"
+      },
+      "review": {
+        "core": [
+          "规则动词 -ed 两形相同，区分只发生在不规则动词上",
+          "四型：AAA（cut）、ABB（buy-bought-bought）、ABC（go-went-gone）、ABA（come-came-come）",
+          "谓语位用过去式；have/has/had 与 be 之后用过去分词",
+          "lie 躺 lay-lain；lay 放置 laid-laid；lie 撒谎 lied-lied",
+          "rise 不及物 rose-risen；raise 及物 raised-raised"
+        ],
+        "trigger": "空格前有 have/has/had 或 be → 填过去分词；空格是句子唯一谓语 → 填过去式",
+        "quickCheck": [
+          { "q": "write 的三个形式？", "a": "write - wrote - written。" },
+          { "q": "“价格已经上涨”用 risen 还是 rose？", "a": "risen，has 后接过去分词。" },
+          { "q": "lie（躺）的过去式和过去分词？", "a": "lay 和 lain。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.past_simple.past-vs-participle.d1",
+          "type": "choice",
+          "stem": "She has ___ three novels since she graduated.",
+          "options": ["written", "wrote", "writed", "write"],
+          "answer": "written",
+          "explain": "has 后面的位置只接受过去分词，write 属 ABC 型，第三形是 written。",
+          "trap": "wrote 是过去式，只能单独作谓语；writed 是把不规则动词误按规则动词处理。",
+          "difficulty": 1
+        },
+        {
+          "id": "tense_voice.past_simple.past-vs-participle.d2",
+          "type": "fill",
+          "stem": "The old bridge ___ (build) in 1902 and is still in use today.",
+          "answer": "was built",
+          "accept": ["was built"],
+          "hint": "桥是动作的承受者，且 in 1902 指向过去。",
+          "explain": "主语 the bridge 是 build 的承受者，须用被动；in 1902 定时态为过去，be 取 was，build 的过去分词是 built。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_simple.past-vs-participle.d3",
+          "type": "correct",
+          "stem": "He has drank three cups of coffee this morning.",
+          "answer": "He has drunk three cups of coffee this morning.",
+          "accept": ["He has drunk three cups of coffee this morning."],
+          "explain": "drink 属 ABC 型，第二形 drank、第三形 drunk；has 后必须用过去分词 drunk。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_simple.past-vs-participle.d4",
+          "type": "choice",
+          "stem": "The farmer ___ the basket on the ground and walked away.",
+          "options": ["lay", "lied", "lain", "laid"],
+          "answer": "laid",
+          "explain": "此处要表达“把篮子放下”，是及物的放置义，用 lay 的过去式 laid，后面才能带宾语 the basket。",
+          "trap": "lay 是 lie（躺）的过去式，不及物，无法带宾语 the basket。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_simple.past-vs-participle.d5",
+          "type": "translate",
+          "stem": "她把婴儿轻轻地放在床上。",
+          "answer": "She laid the baby gently on the bed.",
+          "require": [["laid"], ["baby"], ["bed"]],
+          "forbid": ["lay the baby", "lied the baby"],
+          "explain": "“放置”用及物动词 lay，过去式为 laid；lied 属 lie（撒谎），不能带宾语。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_simple.past-vs-participle.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "has", "already", "eaten", "his", "lunch."],
+          "answer": "He has already eaten his lunch.",
+          "explain": "has 后接 eat 的过去分词 eaten，already 位于助动词与过去分词之间。",
+          "difficulty": 1
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.past_simple.used-to-would",
+      "title": "used to 与 would 表过去的习惯",
+      "brief": "would 只接动作，used to 兼接状态",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["tense_voice.past_simple.core-meaning"],
+      "concept": {
+        "summary": "used to 与 would 都表示“过去常做、现在不做了”，区别在于能接什么：would 只能接反复发生的动作，used to 既能接动作也能接状态。因此表示“过去是、过去拥有、过去住在”这类持续状态只能用 used to，存在句同样如此。第二个分界是语义重心：would 把读者带进一个个具体的往昔场景，used to 强调与现在的对比。",
+        "sections": [
+          {
+            "h": "动作与状态的分工",
+            "p": "判断方法很简单：这个谓语能不能被“一次又一次”地重演。能重演的用 would 或 used to，不能重演的（是、有、属于、住在）只用 used to。",
+            "bullets": [
+              "动作可反复：I used to walk to school. / I would walk to school.",
+              "状态不可反复：I used to have a bike. × I would have a bike.",
+              "存在句：There used to be a cinema here. × There would be a cinema here.",
+              "心理状态：She used to be afraid of dogs. × She would be afraid of dogs."
+            ]
+          },
+          {
+            "h": "否定与疑问的形式",
+            "p": "used to 已含过去时，借助 did 构成否定和疑问时必须把 use 还原成原形。这一点与实义动词的 did 结构完全一致。",
+            "bullets": [
+              "否定：He didn't use to smoke. / He used not to smoke.",
+              "疑问：Did you use to live here? / Used you to live here?",
+              "误写：× didn't used to，× Did you used to"
+            ]
+          },
+          {
+            "h": "三个形近结构",
+            "p": "used to do、be used to doing、be used to do 只差一个 be 和一个 -ing，功能完全不同。判断依据是有没有 be：有 be 就不是“过去常常”。",
+            "bullets": [
+              "used to do：过去常常（现在不做了）",
+              "be used to doing：习惯于做某事，to 是介词",
+              "be used to do：被用来做某事，被动结构",
+              "I am used to getting up at five. / This knife is used to cut bread."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I used to walk to school when I lived in the countryside.", "zh": "住在乡下时我常走路去上学。", "ok": true, "note": "walk 是可反复的动作，used to 表过去习惯并与现在形成对比。" },
+          { "en": "I would walk to school with my brother every morning.", "zh": "那时候我每天早上和弟弟一起走路去上学。", "ok": true, "note": "every morning 提供反复框架，动作可以用 would。" },
+          { "en": "My father would have a motorbike when I was a child.", "zh": "我小时候父亲有一辆摩托车。", "ok": false, "note": "have 表“拥有”，是不可重演的状态，只能用 used to have。" },
+          { "en": "There used to be a small shop at the corner.", "zh": "拐角处过去有一家小店。", "ok": true, "note": "存在句用 there used to be，不用 there would be。" },
+          { "en": "There would be a small shop at the corner.", "zh": "拐角处过去有一家小店。", "ok": false, "note": "would 只接动作，存在状态须用 used to be。" },
+          { "en": "She didn't use to like coffee, but now she drinks it every day.", "zh": "她过去不喜欢咖啡，现在每天都要喝。", "ok": true, "note": "否定由 didn't 承担，use 保持原形，与现在的对比由 but now 点明。" },
+          { "en": "He is used to getting up at five.", "zh": "他习惯五点起床。", "ok": true, "note": "be used to 后接动名词，表示“习惯于”，与过去习惯无关。" },
+          { "en": "She is used to walk to work.", "zh": "她习惯走路去上班。", "ok": false, "note": "be used to 中的 to 是介词，后接动名词，应改为 walking。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I would be very shy when I was a child.", "right": "I used to be very shy when I was a child.", "why": "would 只描述可反复的动作，be shy 是持续的状态，无法被一次次重演。" },
+          { "wrong": "He didn't used to smoke.", "right": "He didn't use to smoke.", "why": "did 已经承担过去时标记，use 必须回到原形，否则一个谓语上出现两次过去标记。" },
+          { "wrong": "She is used to walk to work.", "right": "She is used to walking to work.", "why": "be used to 的 to 是介词而非不定式符号，后面接名词或动名词。" }
+        ],
+        "contrast": { "withTitle": "一般过去时的核心意义与时间标志", "diff": "一般过去时只陈述过去发生过；used to 与 would 额外带“现在不再如此”的对比义，是过去习惯的专用表达。" },
+        "mnemonic": "would 只接动作，used to 兼状态；did 后写 use，be used to 后接 doing。"
+      },
+      "review": {
+        "core": [
+          "两者都表“过去常做、现在不做”，would 只接动作，used to 兼接状态",
+          "存在句与 be 动词句只能用 used to：There used to be... / I used to be...",
+          "否定 didn't use to 或 used not to；疑问 Did you use to...?",
+          "be used to doing = 习惯于；be used to do = 被用来做",
+          "would 常与 every day、in those days 类框架连用，突出回忆画面"
+        ],
+        "trigger": "想说“过去常常” → 先看后面是动作还是状态 → 状态只用 used to，动作两者皆可",
+        "quickCheck": [
+          { "q": "“我小时候很害羞”用 would 还是 used to？", "a": "used to：I used to be very shy." },
+          { "q": "He didn't used to smoke. 错在哪里？", "a": "did 已表过去，应写 use to。" },
+          { "q": "be used to 后面接什么形式？", "a": "名词或动名词，如 be used to getting up early。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.past_simple.used-to-would.d1",
+          "type": "choice",
+          "stem": "There ___ be a cinema on this street, but it was pulled down ten years ago.",
+          "options": ["is used to", "was used to", "used to", "would"],
+          "answer": "used to",
+          "explain": "there be 表示过去的存在状态，状态不可反复，只能用 used to；后句的 was pulled down 也确认这是过去与现在的对比。",
+          "trap": "would 只接可反复的动作，无法与表示存在状态的 there be 搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_simple.used-to-would.d2",
+          "type": "fill",
+          "stem": "He ___ (not use) to drink coffee, but now he has three cups a day.",
+          "answer": "didn't use",
+          "accept": ["didn't use", "did not use", "used not"],
+          "hint": "but now 说明这是过去与现在的对比。",
+          "explain": "but now 点明过去习惯与现在的对比，用 used to 的否定式；did 已带过去时，use 必须回原形，故填 didn't use。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_simple.used-to-would.d3",
+          "type": "correct",
+          "stem": "When I was a child, I would have a pet rabbit.",
+          "answer": "When I was a child, I used to have a pet rabbit.",
+          "accept": ["When I was a child, I used to have a pet rabbit."],
+          "explain": "have a pet rabbit 是持续拥有，不是可反复的动作，would 无法承载这种状态，改用 used to。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.past_simple.used-to-would.d4",
+          "type": "choice",
+          "stem": "She ___ the noise of the city now, though she grew up in a quiet village.",
+          "options": ["was used to", "is used to", "used to", "would"],
+          "answer": "is used to",
+          "explain": "now 指向当前状态，be used to + 名词表示“习惯于某事”，用现在时 is used to。",
+          "trap": "used to 后面只能接动词原形，且表过去习惯，与 now 的时间指向相反。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.past_simple.used-to-would.d5",
+          "type": "translate",
+          "stem": "我小时候这里有一家书店。",
+          "answer": "There used to be a bookshop here when I was a child.",
+          "require": [["used to be"], ["bookshop"]],
+          "forbid": ["would be", "used to have"],
+          "explain": "存在句表过去曾有，用 there used to be；状态不能用 would be，have 也与 there be 结构冲突。",
+          "difficulty": 4
+        },
+        {
+          "id": "tense_voice.past_simple.used-to-would.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["We", "used", "to", "play", "football", "in", "that", "field."],
+          "answer": "We used to play football in that field.",
+          "explain": "used to + 动词原形表过去习惯，in that field 是地点状语，说明当年的场景。",
+          "difficulty": 1
+        }
+      ]
+    }
+  ]
+}

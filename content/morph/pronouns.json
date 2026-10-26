@@ -1,0 +1,1401 @@
+{
+  "level1": "morph",
+  "chapter": "pronouns",
+  "items": [
+    {
+      "id": "morph.pronouns.subject-object-case",
+      "title": "人称代词主格与宾格的选用",
+      "brief": "格由句法位置决定：主语用主格，动词介词后用宾格",
+      "difficulty": 1,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "人称代词的格由它在句中的功能决定：作主语用主格，作及物动词或介词的宾语用宾格。并列结构中每个代词各自按位置取格，than/as 后的代词按补全后的成分定。口语中作表语可用宾格，正式书面语用主格。",
+        "sections": [
+          {
+            "h": "位置决定格",
+            "p": "先找代词在句中充当什么成分，再选形式。主语、主语同位语用主格；动词宾语、介词宾语、宾语同位语用宾格。不要用汉语的「我」一个字形直接对应两种英语形式。",
+            "bullets": [
+              "主格：I, you, he, she, it, we, they",
+              "宾格：me, you, him, her, it, us, them",
+              "介词后一律宾格：between you and me, for him, with us",
+              "主语同位语也用主格：We students should take notes."
+            ]
+          },
+          {
+            "h": "并列结构的格与顺序",
+            "p": "并列主语用主格，并列宾语用宾格；顺序上单数并列通常第二、第三人称在前（you, he and I），承担责任或自我批评时 I 前置。",
+            "bullets": [
+              "My brother and I went fishing.（并列主语）",
+              "The teacher praised Tom and me.（并列宾语）",
+              "You, he and I will share the task.（231 顺序）",
+              "I and my brother broke the window.（主动承担责任，I 前置）"
+            ]
+          },
+          {
+            "h": "than/as 后与表语位置",
+            "p": "than/as 后的代词按补全省略后的成分定：省略的是谓语部分的主语，用主格；省略的是宾语，用宾格。系动词后作表语，正式书面语用主格。",
+            "bullets": [
+              "She is taller than I (am).（省略 am，用主格）",
+              "She likes him more than (she likes) me.（省略宾语，用宾格）",
+              "It was she who first noticed the error.（正式表语用主格）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "My brother and I went fishing last weekend.", "zh": "上周末我和弟弟去钓鱼了。", "ok": true, "note": "并列成分作主语，用主格 I，且 I 置于最后。" },
+          { "en": "My brother and me went fishing last weekend.", "zh": "上周末我和弟弟去钓鱼了。", "ok": false, "note": "主语位置必须用主格，me 是宾格形式。" },
+          { "en": "Between you and me, the plan will not work.", "zh": "咱们私下说，这个计划行不通。", "ok": true, "note": "between 是介词，其后用宾格 me。" },
+          { "en": "Between you and I, the plan will not work.", "zh": "咱们私下说，这个计划行不通。", "ok": false, "note": "介词后须用宾格，应为 between you and me。" },
+          { "en": "The teacher gave the certificates to Tom and me.", "zh": "老师把证书发给了汤姆和我。", "ok": true, "note": "介词 to 的并列宾语用宾格。" },
+          { "en": "The teacher gave the certificates to Tom and I.", "zh": "老师把证书发给了汤姆和我。", "ok": false, "note": "介词 to 后不能用主格 I。" },
+          { "en": "She is much taller than I am.", "zh": "她比我高得多。", "ok": true, "note": "than 后补全谓语 am，主语用主格 I。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Me and my sister share a room.", "right": "My sister and I share a room.", "why": "主语位置必须用主格，且并列时 I 通常置于最后。" },
+          { "wrong": "This is a secret between you and I.", "right": "This is a secret between you and me.", "why": "between 是介词，其后必须用宾格。" },
+          { "wrong": "Us students should study hard.", "right": "We students should study hard.", "why": "同位语说明主语，格随主语，须用主格 we。" }
+        ],
+        "contrast": { "withTitle": "形容词性与名词性物主代词", "diff": "主格宾格解决「作主语还是作宾语」；物主代词解决「谁的」，两套形式不能互换。" },
+        "mnemonic": "动词介词后面用宾格，主语位置用主格；并列先人后我，认错时我先说。"
+      },
+      "review": {
+        "core": [
+          "主语、主语同位语：主格（I, he, we, they）",
+          "动词宾语、介词宾语、宾语同位语：宾格（me, him, us, them）",
+          "并列主语用主格，并列宾语用宾格",
+          "单数并列顺序 you, he and I；承担责任时 I 前置",
+          "than/as 后按补全的成分定：than I (am) / than me"
+        ],
+        "trigger": "看到代词 → 先确定它是主语还是宾语 → 主语取主格，介词或动词后取宾格",
+        "quickCheck": [
+          { "q": "between you and ___ 填什么？", "a": "me，介词后用宾格。" },
+          { "q": "My friend and I 还是 My friend and me？", "a": "My friend and I，作主语用主格。" },
+          { "q": "She is taller than I am. 中为什么用 I？", "a": "than 后补全省略的 am，I 作主语。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.pronouns.subject-object-case.d1",
+          "type": "choice",
+          "stem": "Last summer, my cousin and ___ spent two weeks hiking in Yunnan.",
+          "options": ["I", "me", "my", "mine"],
+          "answer": "I",
+          "explain": "并列成分在句中作主语，须用主格 I；my 与 mine 是物主代词，不能充当主语。",
+          "trap": "me 是宾格，受汉语「我和表哥」的语序影响最易误选。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.pronouns.subject-object-case.d2",
+          "type": "fill",
+          "stem": "Between you and ___, this plan is unlikely to work. (I)",
+          "answer": "me",
+          "accept": ["me"],
+          "hint": "between 是介词。",
+          "explain": "介词 between 后接宾格，故用 me。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.pronouns.subject-object-case.d3",
+          "type": "correct",
+          "stem": "Me and my classmates are preparing a poster for the science fair.",
+          "answer": "My classmates and I are preparing a poster for the science fair.",
+          "accept": ["My classmates and I are preparing a poster for the science fair."],
+          "explain": "主语位置用主格 I，且并列时 I 置于最后。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.subject-object-case.d4",
+          "type": "choice",
+          "stem": "The award was presented to ___ at the ceremony.",
+          "options": ["he and I", "him and me", "he and me", "him and I"],
+          "answer": "him and me",
+          "explain": "介词 to 后接并列宾语，两个代词都用宾格。",
+          "trap": "he and I 是主格组合，只在作主语时成立。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.subject-object-case.d5",
+          "type": "translate",
+          "stem": "我和我的父母上周末去了博物馆。",
+          "answer": "My parents and I went to the museum last weekend.",
+          "require": [["parents and I"], ["museum"]],
+          "forbid": ["Me and my parents", "I and my parents"],
+          "explain": "并列主语用主格 I 并置于最后；forbid 中两种写法分别犯了宾格作主语与语序不当的错误。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.subject-object-case.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "invited", "my", "sister", "and", "me", "to", "the", "party."],
+          "answer": "She invited my sister and me to the party.",
+          "explain": "invited 的并列宾语用宾格 me；to the party 是地点状语。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.pronouns.possessive-pronouns",
+      "title": "形容词性与名词性物主代词",
+      "brief": "后面有名词用 my，独立使用用 mine",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["morph.pronouns.subject-object-case"],
+      "concept": {
+        "summary": "物主代词分两套：形容词性（my, your, his, her, its, our, their）必须后接名词，名词性（mine, yours, his, hers, its, ours, theirs）独立充当主语、宾语或表语。判断只看后面有没有名词：有名词用形容词性，没有名词用名词性。",
+        "sections": [
+          {
+            "h": "两套形式的对应",
+            "p": "除 his 与 its 两套同形外，其余都有独立形式。名词性物主代词等于「形容词性 + 名词」，因此后面不能再出现名词。",
+            "bullets": [
+              "my → mine；your → yours；her → hers；our → ours；their → theirs",
+              "his → his；its → its（同形，名词性形式极少用）",
+              "× mine book / × my；√ my book / √ mine"
+            ]
+          },
+          {
+            "h": "句法功能",
+            "p": "形容词性只作定语；名词性可作主语、宾语、表语，还可与 of 构成双重所有格。",
+            "bullets": [
+              "主语：Mine is the blue one.",
+              "宾语：You can use mine.",
+              "表语：The decision is theirs.",
+              "双重所有格：a friend of mine / a colleague of hers"
+            ]
+          },
+          {
+            "h": "限定词不能叠加",
+            "p": "形容词性物主代词本身是限定词，不能与 a/an/the/this 并用；需要 all/both 时放在物主代词之前。要表达「我的一个」时改用双重所有格。",
+            "bullets": [
+              "× a my friend；√ a friend of mine",
+              "× this my book；√ this book of mine",
+              "× my all friends；√ all my friends"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "This is my laptop and that one is yours.", "zh": "这是我的笔记本电脑，那台是你的。", "ok": true, "note": "my 后接名词，yours 独立作表语。" },
+          { "en": "This is my laptop and that one is your.", "zh": "这是我的笔记本电脑，那台是你的。", "ok": false, "note": "your 必须后接名词，独立使用应为 yours。" },
+          { "en": "Her explanation was clearer than his.", "zh": "她的解释比他的更清楚。", "ok": true, "note": "his 在此是名词性物主代词，等于 his explanation。" },
+          { "en": "Her explanation was clearer than him.", "zh": "她的解释比他的更清楚。", "ok": false, "note": "比较对象是 his explanation，用名词性物主代词 his；him 指人，比较对象不对应。" },
+          { "en": "A colleague of mine recommended the book.", "zh": "我的一位同事推荐了这本书。", "ok": true, "note": "双重所有格由 of + 名词性物主代词构成。" },
+          { "en": "A colleague of me recommended the book.", "zh": "我的一位同事推荐了这本书。", "ok": false, "note": "双重所有格须用名词性物主代词，of me 结构不成立。" },
+          { "en": "All my friends came to the party.", "zh": "我所有的朋友都来参加聚会了。", "ok": true, "note": "all 置于形容词性物主代词之前。" }
+        ],
+        "pitfalls": [
+          { "wrong": "This book is my.", "right": "This book is mine.", "why": "表语位置没有名词可修饰，必须用名词性物主代词。" },
+          { "wrong": "He is a friend of my.", "right": "He is a friend of mine.", "why": "of 后接名词性物主代词构成双重所有格。" },
+          { "wrong": "My all friends came to the party.", "right": "All my friends came to the party.", "why": "all 是前位限定词，须放在物主代词之前。" }
+        ],
+        "contrast": { "withTitle": "人称代词主格与宾格的选用", "diff": "物主代词表所属关系（谁的），不随主宾位置变化；主格宾格表句法功能，同一人称有两种形式。" },
+        "mnemonic": "后面有名词用 my，独立站用 mine；of 后面接 mine，不接 me。"
+      },
+      "review": {
+        "core": [
+          "形容词性后接名词；名词性独立使用，二者不能并用",
+          "my/mine, your/yours, her/hers, our/ours, their/theirs；his、its 同形",
+          "名词性可作主语、宾语、表语",
+          "双重所有格：a friend of mine，不用 of me",
+          "all/both 放在物主代词之前：all my friends"
+        ],
+        "trigger": "看到物主代词 → 看后面有没有名词 → 有名词用 my 型，没有用 mine 型",
+        "quickCheck": [
+          { "q": "This book is ___ (I). 填什么？", "a": "mine，表语位置独立使用。" },
+          { "q": "a friend of me 错在哪里？", "a": "of 后须用名词性物主代词 mine。" },
+          { "q": "all my friends 还是 my all friends？", "a": "all my friends。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.pronouns.possessive-pronouns.d1",
+          "type": "choice",
+          "stem": "Your design is original, but ___ is more practical.",
+          "options": ["her", "hers", "she", "her's"],
+          "answer": "hers",
+          "explain": "空格作主语且后面没有名词，须用名词性物主代词 hers。",
+          "trap": "her 是形容词性形式，后面缺名词；her's 在英语中不存在。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.possessive-pronouns.d2",
+          "type": "fill",
+          "stem": "That umbrella is not ___; it belongs to the woman in blue. (I)",
+          "answer": "mine",
+          "accept": ["mine"],
+          "hint": "表语位置，后面没有名词。",
+          "explain": "系动词后作表语且无名词，用名词性物主代词 mine。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.possessive-pronouns.d3",
+          "type": "correct",
+          "stem": "This notebook is my, but you can use it until Friday.",
+          "answer": "This notebook is mine, but you can use it until Friday.",
+          "accept": ["This notebook is mine, but you can use it until Friday."],
+          "explain": "表语位置须用名词性物主代词 mine，my 只能作定语。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.possessive-pronouns.d4",
+          "type": "choice",
+          "stem": "She is an old classmate of ___.",
+          "options": ["me", "my", "mine", "I"],
+          "answer": "mine",
+          "explain": "of + 名词性物主代词构成双重所有格，表示「我的一位老同学」。",
+          "trap": "of me 不是双重所有格结构，英语中不说 a classmate of me。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.possessive-pronouns.d5",
+          "type": "translate",
+          "stem": "我的自行车比他的新。",
+          "answer": "My bike is newer than his.",
+          "require": [["my bike", "my bicycle"], ["than his"]],
+          "forbid": ["than him", "than he"],
+          "explain": "比较对象是 his bike，用名词性物主代词 his；than him 会把比较对象变成人。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.pronouns.reflexive",
+      "title": "反身代词的使用场景",
+      "brief": "同指、强调、固定搭配三种场合才用 -self",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["morph.pronouns.subject-object-case"],
+      "concept": {
+        "summary": "反身代词只在三种场合出现：宾语与主语同指、作同位语强调、以及 enjoy oneself 一类固定搭配。除此之外，动作对象不是主语本人时一律用宾格。反身代词不能单独作主语，也不能代替主格出现在并列主语中。",
+        "sections": [
+          {
+            "h": "形式与三种功能",
+            "p": "第一、二人称由形容词性物主代词加 -self/-selves 构成，第三人称由宾格加 -self/-selves 构成。功能上分为宾语同指、同位语强调、固定搭配三类。",
+            "bullets": [
+              "myself, yourself, himself, herself, itself, ourselves, yourselves, themselves, oneself",
+              "宾语同指：I cut myself while cooking.",
+              "同位语强调：The manager himself answered the phone.",
+              "固定搭配：by oneself, enjoy oneself, help oneself to"
+            ]
+          },
+          {
+            "h": "必须用宾格的情形",
+            "p": "动作对象不是主语本人时，用宾格而不是反身代词。汉语的「给他」「帮她」在英语中要看是否与主语同指，这是最常见的判断点。",
+            "bullets": [
+              "She taught her sister to swim.（教妹妹，不同指）",
+              "She taught herself to swim.（自学，同指）",
+              "He bought a gift for his mother.（不是 for himself）"
+            ]
+          },
+          {
+            "h": "不能作主语",
+            "p": "反身代词没有主格形式，不能单独作主语，也不能与名词并列作主语。需要强调主语时，把它放在同位语位置。",
+            "bullets": [
+              "× Myself will chair the meeting. → √ I myself will chair the meeting.",
+              "× He and myself are responsible. → √ He and I are responsible.",
+              "√ I made the cake myself.（同位语，可省略）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She taught herself to play the guitar.", "zh": "她自学了弹吉他。", "ok": true, "note": "teach 的宾语与主语同指，用反身代词。" },
+          { "en": "She taught her to play the guitar.", "zh": "她教她弹吉他。", "ok": false, "note": "宾语与主语同指时必须用 herself；用 her 会被理解为另一个人。" },
+          { "en": "The manager himself answered the phone.", "zh": "经理亲自接了电话。", "ok": true, "note": "反身代词作同位语，强调「亲自」。" },
+          { "en": "Myself will chair the meeting.", "zh": "我将主持会议。", "ok": false, "note": "反身代词没有主格形式，不能作主语，应为 I myself will chair the meeting." },
+          { "en": "Please help yourself to some fruit.", "zh": "请随便吃些水果。", "ok": true, "note": "help oneself to 是固定搭配。" },
+          { "en": "He devoted himself to medical research.", "zh": "他献身于医学研究。", "ok": true, "note": "devote oneself to 是固定搭配，to 后接名词。" },
+          { "en": "We built the shed by ourselves.", "zh": "我们自己搭了那间棚屋。", "ok": true, "note": "by oneself 表示「独自、靠自己」。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I bought a gift for me.", "right": "I bought a gift for myself.", "why": "介词宾语与主语同指，必须用反身代词。" },
+          { "wrong": "Please make you at home.", "right": "Please make yourself at home.", "why": "make oneself at home 是固定短语，反身代词不可换成宾格。" },
+          { "wrong": "He and myself are responsible for the budget.", "right": "He and I are responsible for the budget.", "why": "并列主语须用主格，反身代词不能占据主语位置。" }
+        ],
+        "contrast": { "withTitle": "相互代词 each other 与 one another", "diff": "反身代词指动作回到主语自身，相互代词指两个或更多主体彼此之间。" },
+        "mnemonic": "同指、强调、固定搭配才用 -self；能作主语的只有主格。"
+      },
+      "review": {
+        "core": [
+          "三种场合：宾语同指、同位语强调、固定搭配",
+          "宾语与主语不同指时用宾格：She taught her sister.",
+          "反身代词不能作主语：× Myself will do it.",
+          "固定搭配：by oneself, enjoy oneself, help oneself to, devote oneself to",
+          "强调用法可省略，省略后句子仍成立"
+        ],
+        "trigger": "看到动词或介词的宾语与主语指同一人 → 用 -self；指不同人 → 用宾格",
+        "quickCheck": [
+          { "q": "I hurt ___ while climbing. 填什么？", "a": "myself，宾语与主语同指。" },
+          { "q": "Myself will do it. 错在哪里？", "a": "反身代词不能作主语，应为 I will do it myself。" },
+          { "q": "enjoy oneself 中的 oneself 能换成 you 吗？", "a": "不能，这是固定搭配。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.pronouns.reflexive.d1",
+          "type": "choice",
+          "stem": "She cut ___ while chopping vegetables.",
+          "options": ["her", "herself", "hers", "she"],
+          "answer": "herself",
+          "explain": "cut 的宾语与主语 she 同指，须用反身代词 herself。",
+          "trap": "her 是宾格，会表示「切到了另一个人」。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.pronouns.reflexive.d2",
+          "type": "fill",
+          "stem": "The children enjoyed ___ at the amusement park. (they)",
+          "answer": "themselves",
+          "accept": ["themselves"],
+          "hint": "enjoy oneself 是固定搭配。",
+          "explain": "enjoy oneself 是固定搭配，主语为复数，故用 themselves。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.reflexive.d3",
+          "type": "correct",
+          "stem": "I hurt me while climbing the ladder.",
+          "answer": "I hurt myself while climbing the ladder.",
+          "accept": ["I hurt myself while climbing the ladder."],
+          "explain": "hurt 的宾语与主语同指，须用反身代词 myself；me 会被理解为另一个人。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.reflexive.d4",
+          "type": "choice",
+          "stem": "In ___ , the plan is sound, but the timetable is unrealistic.",
+          "options": ["itself", "it", "its", "himself"],
+          "answer": "itself",
+          "explain": "in itself 是固定短语，意为「本身、本质上」，用反身代词 itself 指代 the plan。",
+          "trap": "it 不能与介词构成 in itself 这一固定短语；its 是物主代词，不能作介词宾语。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.reflexive.d5",
+          "type": "translate",
+          "stem": "请随便吃些水果。",
+          "answer": "Please help yourself to some fruit.",
+          "require": [["help yourself"], ["fruit"]],
+          "forbid": ["help you to", "help yourself to eat"],
+          "explain": "help oneself to sth 是固定搭配，表示「随便取用」；fruit 作物质名词用单数。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.pronouns.reciprocal",
+      "title": "相互代词 each other 与 one another",
+      "brief": "两个用 each other，三个以上用 one another",
+      "difficulty": 2,
+      "tags": ["基础", "易错"],
+      "prereq": ["morph.pronouns.reflexive"],
+      "concept": {
+        "summary": "each other 与 one another 都表示「互相」，只能作宾语，不能作主语。传统规则按数量分工：两者用 each other，三者及以上用 one another，考试按此判断；现代英语中两者常互换。所有格形式分别是 each other's 与 one another's，只加一个 's。",
+        "sections": [
+          {
+            "h": "数量分工",
+            "p": "传统语法按参与者的数量选择形式，这是考试与教材的判定标准。现代英语中两者可互换，但在需要明确数量的题目里仍按传统规则作答。",
+            "bullets": [
+              "两者：The two sisters write to each other every week.",
+              "三者以上：The three colleagues help one another with difficult tasks.",
+              "one another 偶用于两者，但考试优先按传统分工判断"
+            ]
+          },
+          {
+            "h": "句法位置与所有格",
+            "p": "相互代词只能出现在动词或介词之后作宾语，不能作主语，也没有主格形式。所有格在词尾加 's，且 each other 本身不加 s。",
+            "bullets": [
+              "√ They respect each other's opinions.",
+              "× Each other should be trusted.（不能作主语）",
+              "× each others' / × each others（无复数形式）",
+              "介词后：learn from each other, talk to one another"
+            ]
+          },
+          {
+            "h": "与反身代词的区分",
+            "p": "反身代词表示动作回到主语自身，相互代词表示主体之间的双向动作。同一个动词换用两者，句意完全不同。",
+            "bullets": [
+              "They helped each other.（互相帮助）",
+              "They helped themselves.（自己动手，没靠别人）",
+              "They blamed themselves.（自责）/ They blamed each other.（互相指责）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The two sisters write to each other every week.", "zh": "姐妹俩每周互相写信。", "ok": true, "note": "两者之间用 each other。" },
+          { "en": "The three colleagues often help one another with difficult tasks.", "zh": "三位同事常互相帮忙处理棘手任务。", "ok": true, "note": "三者以上用 one another。" },
+          { "en": "They respect each other's opinions.", "zh": "他们尊重彼此的意见。", "ok": true, "note": "所有格形式为 each other's，只在词尾加 's。" },
+          { "en": "They respect each others' opinions.", "zh": "他们尊重彼此的意见。", "ok": false, "note": "each other 没有复数形式，所有格应为 each other's。" },
+          { "en": "Each other should be trusted.", "zh": "彼此之间应当互相信任。", "ok": false, "note": "相互代词不能作主语，应改为 They should trust each other." },
+          { "en": "They helped themselves to more coffee.", "zh": "他们自己又添了些咖啡。", "ok": true, "note": "反身代词表「自己动手」，与相互代词意义不同。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The twin brothers help themselves with homework.", "right": "The twin brothers help each other with homework.", "why": "两人互相帮助须用相互代词；themselves 表示各自帮自己。" },
+          { "wrong": "They sent gifts to each others.", "right": "They sent gifts to each other.", "why": "each other 无复数形式，只有所有格才加 's。" },
+          { "wrong": "Each other should respect our differences.", "right": "We should respect each other's differences.", "why": "相互代词只能作宾语，主语位置须用主格代词。" }
+        ],
+        "contrast": { "withTitle": "反身代词的使用场景", "diff": "反身代词的动作对象是主语自身；相互代词的动作在两个主体之间往返。" },
+        "mnemonic": "两个 each other，三个以上 one another；只作宾语，所有格加 's。"
+      },
+      "review": {
+        "core": [
+          "两者 each other，三者以上 one another（考试按传统分工）",
+          "只能作宾语，不能作主语",
+          "所有格 each other's / one another's，只加一个 's",
+          "each other 无复数形式：× each others",
+          "与反身代词区分：helped each other（互相）/ helped themselves（自己）"
+        ],
+        "trigger": "看到「互相」且能数出参与者数量 → 两个用 each other，三个以上用 one another，再确认它在宾语位置",
+        "quickCheck": [
+          { "q": "三名同事互相帮助用哪个？", "a": "one another，三者以上。" },
+          { "q": "each others' 错在哪里？", "a": "each other 无复数，所有格是 each other's。" },
+          { "q": "Each other should be trusted. 错在哪里？", "a": "相互代词不能作主语。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.pronouns.reciprocal.d1",
+          "type": "choice",
+          "stem": "The two roommates always share ___ notes before exams.",
+          "options": ["each other's", "each others'", "each other", "one another's"],
+          "answer": "each other's",
+          "explain": "两人之间用 each other，所有格加 's 构成 each other's。",
+          "trap": "each others' 把 each other 当作可数名词先加 s 再加撇号，形式不存在。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.reciprocal.d2",
+          "type": "fill",
+          "stem": "The five members of the team trust ___ another completely.",
+          "answer": "one",
+          "accept": ["one"],
+          "hint": "三者以上用 one another。",
+          "explain": "五名成员属三者以上，用 one another，空格填 one。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.reciprocal.d3",
+          "type": "correct",
+          "stem": "The two sisters often borrow each others' clothes.",
+          "answer": "The two sisters often borrow each other's clothes.",
+          "accept": ["The two sisters often borrow each other's clothes."],
+          "explain": "each other 无复数形式，所有格只在词尾加 's。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.reciprocal.d4",
+          "type": "choice",
+          "stem": "After the argument, they refused to speak to ___ for a week.",
+          "options": ["each other", "themselves", "each others", "one other"],
+          "answer": "each other",
+          "explain": "speak to 后作介词宾语，表「彼此」用 each other；两人之间用 each other。",
+          "trap": "themselves 表「他们自己」，与「互不理睬」的意思不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.reciprocal.d5",
+          "type": "translate",
+          "stem": "这两个孩子互相帮助做作业。",
+          "answer": "The two children help each other with their homework.",
+          "require": [["each other"]],
+          "forbid": ["each others", "themselves"],
+          "explain": "两个孩子之间用 each other，作 help 的宾语；with their homework 表示帮助的内容。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.pronouns.demonstratives",
+      "title": "指示代词的指代范围",
+      "brief": "this/these 指近，that/those 指远并可替代",
+      "difficulty": 2,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.pronouns.possessive-pronouns"],
+      "concept": {
+        "summary": "this/these 指向近处、当前或下文即将出现的内容，that/those 指向远处、过去或上文已出现的内容。除空间时间指示外，that/those 还承担替代功能，替代前面提到的名词以避免重复，单数用 that、复数用 those。替代时不能漏掉比较对象。",
+        "sections": [
+          {
+            "h": "近指与远指",
+            "p": "this/these 与说话人的距离近，that/those 距离远。距离既可以是空间，也可以是时间或心理距离：正在说的事用 this，已说完的事用 that。",
+            "bullets": [
+              "空间：this book in my hand / that building across the river",
+              "时间：this week（本周）/ that summer（那个夏天）",
+              "心理：Now listen to this.（接下来要说的）/ That was a mistake.（已发生的事）"
+            ]
+          },
+          {
+            "h": "承上与启下",
+            "p": "that 常回指上文整件事，this 常引出下文要说的内容。介绍他人时固定用 This is...，即使对方不在手边。",
+            "bullets": [
+              "He was late for the third time. That annoyed everyone.",
+              "What I need is this: a quiet room and two free hours.",
+              "This is my colleague, Mr. Zhao.（介绍）"
+            ]
+          },
+          {
+            "h": "替代功能",
+            "p": "that/those 替代前面出现的名词，常用于比较结构，后面常带 of/in 短语。替代时单复数必须与被替代名词一致，可数不可数都可以用 that/those。",
+            "bullets": [
+              "The climate here is milder than that of the north.（that = the climate）",
+              "The prices are lower than those in the city centre.（those = the prices）",
+              "× than Harbin（比较对象不对应）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The weather in Kunming is milder than that in Harbin.", "zh": "昆明的天气比哈尔滨温和。", "ok": true, "note": "that 替代单数的 the weather，避免重复。" },
+          { "en": "The weather in Kunming is milder than Harbin.", "zh": "昆明的天气比哈尔滨温和。", "ok": false, "note": "比较对象不对应，哈尔滨是城市不是天气，须用 that in Harbin。" },
+          { "en": "These shoes are too tight; those in the window look wider.", "zh": "这双鞋太紧了，橱窗里的那些看起来宽些。", "ok": true, "note": "those 替代复数 the shoes。" },
+          { "en": "He was late for the third time. That annoyed everyone.", "zh": "他第三次迟到，那让所有人都恼火。", "ok": true, "note": "that 回指上文整件事。" },
+          { "en": "This is my colleague, Mr. Zhao.", "zh": "这是我的同事赵先生。", "ok": true, "note": "介绍他人固定用 This is..." },
+          { "en": "The population of Shanghai is larger than those of Nanjing.", "zh": "上海的人口比南京多。", "ok": false, "note": "population 是单数概念，替代应用 that of Nanjing。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The rules of chess are simpler than that of Go.", "right": "The rules of chess are simpler than those of Go.", "why": "被替代的 rules 是复数，须用 those。" },
+          { "wrong": "The output this year is higher than last year.", "right": "The output this year is higher than that of last year.", "why": "比较对象须同类，that 替代 the output，否则变成产量与年份比较。" },
+          { "wrong": "These kind of problems are common in rural areas.", "right": "This kind of problem is common in rural areas.", "why": "kind 是单数中心词，用 this 且谓语用单数。" }
+        ],
+        "contrast": { "withTitle": "one/ones/it/that 的替代区别", "diff": "指示代词靠距离选择 this/that；替代词看「同物、同类泛指还是同类特指」，that/those 只负责同类特指。" },
+        "mnemonic": "近的 this，远的 that；上文 that，下文 this；替代单数 that、复数 those。"
+      },
+      "review": {
+        "core": [
+          "this/these 近指，that/those 远指（空间、时间、心理）",
+          "that 回指上文，this 引出下文",
+          "介绍他人用 This is...",
+          "that/those 替代前文名词，单复数须一致",
+          "比较结构中不能省略替代词：than that of last year"
+        ],
+        "trigger": "看到比较结构里名词重复 → 用 that/those 替代 → 检查单复数与后面的 of/in 短语",
+        "quickCheck": [
+          { "q": "The weather here is better than ___ in the north. 填什么？", "a": "that，替代单数 the weather。" },
+          { "q": "介绍同事时用 This is 还是 That is？", "a": "This is my colleague..." },
+          { "q": "population 用 that 还是 those 替代？", "a": "that，population 是单数概念。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.pronouns.demonstratives.d1",
+          "type": "choice",
+          "stem": "The air quality in this district is much better than ___ in the industrial zone.",
+          "options": ["that", "those", "this", "it"],
+          "answer": "that",
+          "explain": "替代前面单数的 the air quality，用 that，后接 in 短语限定范围。",
+          "trap": "it 指同一事物，此处是两地的空气质量对比，属同类不同物。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.demonstratives.d2",
+          "type": "fill",
+          "stem": "The novels of Lu Xun are more widely read than ___ of many contemporary writers.",
+          "answer": "those",
+          "accept": ["those"],
+          "hint": "被替代的 novels 是复数。",
+          "explain": "novels 为复数，替代用 those，构成 those of many contemporary writers。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.demonstratives.d3",
+          "type": "correct",
+          "stem": "The number of visitors this year is twice those of last year.",
+          "answer": "The number of visitors this year is twice that of last year.",
+          "accept": ["The number of visitors this year is twice that of last year."],
+          "explain": "被替代的 the number 是单数，应用 that of last year。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.demonstratives.d4",
+          "type": "choice",
+          "stem": "___ is my sister, and the girl over there is her classmate.",
+          "options": ["This", "That", "These", "Those"],
+          "answer": "This",
+          "explain": "介绍他人时固定用 This is...，谓语用单数 is。",
+          "trap": "That 用于远指，但介绍句式固定为 This is...，与物理距离无关。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.demonstratives.d5",
+          "type": "translate",
+          "stem": "这里的天气比北方暖和。",
+          "answer": "The weather here is warmer than that in the north.",
+          "require": [["than that"]],
+          "forbid": ["than the one", "than it"],
+          "explain": "比较对象须同类，用 that 替代 the weather；the one 不能替代不可数名词。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.demonstratives.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["These", "books", "are", "more", "useful", "than", "those", "on", "the", "shelf."],
+          "answer": "These books are more useful than those on the shelf.",
+          "explain": "those 替代前文的 books，后接 on the shelf 限定范围，比较对象因此对应。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.pronouns.some-any",
+      "title": "some 与 any 的用法差异",
+      "brief": "肯定句用 some，否定疑问用 any，请求提供例外",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": [],
+      "concept": {
+        "summary": "some 与 any 的基本分工由句式决定：肯定句用 some，否定句与疑问句用 any。两种例外必须掌握：疑问句中表请求、提供或期待肯定回答时用 some；肯定句中表「任何一个」时用 any。两者都可修饰复数可数与不可数名词。",
+        "sections": [
+          {
+            "h": "基本分工",
+            "p": "陈述事实的肯定句用 some，否定句与一般疑问句用 any。这一步只看句式，不看名词可数性。",
+            "bullets": [
+              "I have some questions about the last point.",
+              "I don't have any questions about the last point.",
+              "Do you have any questions about the last point?",
+              "some/any 均可修饰复数可数与不可数：some books, some water"
+            ]
+          },
+          {
+            "h": "疑问句中的 some",
+            "p": "说话人期待对方同意、或正在提出请求与提供时，疑问句用 some。判断信号是「我希望答案是 yes」。",
+            "bullets": [
+              "Would you like some coffee?（提供）",
+              "Could I have some water?（请求）",
+              "May I ask you some questions?（期待同意）",
+              "对比：Do you have any questions?（中性询问，答案未知）"
+            ]
+          },
+          {
+            "h": "any 的肯定用法与 some 的数量义",
+            "p": "any 在肯定句中表示「任何一个」，强调不加区分的全称；some 与数词连用可表示「大约」。这两种用法都不能按基本分工推导。",
+            "bullets": [
+              "Any student can join the club.",
+              "You may come at any time.",
+              "Some twenty people attended the lecture.（some = 大约）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I need some help with this report.", "zh": "这份报告我需要一些帮助。", "ok": true, "note": "肯定句陈述事实，用 some。" },
+          { "en": "I don't need some help with this report.", "zh": "这份报告我不需要帮助。", "ok": false, "note": "否定句用 any，应为 don't need any help。" },
+          { "en": "Would you like some coffee?", "zh": "你想喝点咖啡吗？", "ok": true, "note": "提供饮品时用 some，期待对方接受。" },
+          { "en": "Do you have any idea what happened?", "zh": "你知道发生了什么吗？", "ok": true, "note": "中性疑问句用 any。" },
+          { "en": "Any child can learn to swim.", "zh": "任何孩子都能学会游泳。", "ok": true, "note": "肯定句中 any 表「任何一个」。" },
+          { "en": "He didn't say something about the plan.", "zh": "他没有说任何关于这个计划的事。", "ok": false, "note": "否定句须用 anything，something 只用于肯定语境。" },
+          { "en": "Some twenty people attended the lecture.", "zh": "大约二十人听了讲座。", "ok": true, "note": "some 与数词连用表示「大约」。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I don't have some money with me.", "right": "I don't have any money with me.", "why": "否定句的宾语位置须用 any，some 只用于肯定语境。" },
+          { "wrong": "Would you like any tea?", "right": "Would you like some tea?", "why": "提供饮品时期待肯定回答，须用 some。" },
+          { "wrong": "I have any questions about the last point.", "right": "I have some questions about the last point.", "why": "肯定句陈述存在，用 some；any 在肯定句只能表「任何一个」。" }
+        ],
+        "contrast": { "withTitle": "复合不定代词的修饰语后置", "diff": "some/any 的选择由句式与语气决定；something/anything 继承同一分工，但形容词修饰它们时必须后置。" },
+        "mnemonic": "肯定 some，否定疑问 any；请求提供用 some，肯定句里 any 表「任何」。"
+      },
+      "review": {
+        "core": [
+          "肯定句 some，否定句与疑问句 any",
+          "请求、提供、期待 yes 的疑问句用 some",
+          "肯定句 any = 任何一个：Any student can join.",
+          "some + 数词 = 大约：some twenty people",
+          "some/any 都可修饰可数复数与不可数名词"
+        ],
+        "trigger": "看到空格 → 先判句式（肯定/否定/疑问）→ 再判语气（请求提供还是中性询问）→ 选 some 或 any",
+        "quickCheck": [
+          { "q": "Would you like ___ tea? 填什么？", "a": "some，提供饮品时期待肯定回答。" },
+          { "q": "I don't have ___ money. 填什么？", "a": "any，否定句。" },
+          { "q": "Any student can join. 中 any 是什么意思？", "a": "任何一个。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.pronouns.some-any.d1",
+          "type": "choice",
+          "stem": "Would you like ___ more soup? There is plenty left.",
+          "options": ["some", "any", "no", "many"],
+          "answer": "some",
+          "explain": "主动提供食物并期待对方接受，疑问句用 some。",
+          "trap": "any 是一般疑问句的默认选择，但此处语气是提供，不是中性询问。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.some-any.d2",
+          "type": "fill",
+          "stem": "I'm afraid I don't have ___ time to spare this afternoon.",
+          "answer": "any",
+          "accept": ["any"],
+          "hint": "否定句。",
+          "explain": "否定句中修饰不可数名词 time 用 any。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.pronouns.some-any.d3",
+          "type": "correct",
+          "stem": "I don't have some information about the schedule yet.",
+          "answer": "I don't have any information about the schedule yet.",
+          "accept": ["I don't have any information about the schedule yet."],
+          "explain": "否定句须用 any；some 只用于肯定语境。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.some-any.d4",
+          "type": "choice",
+          "stem": "___ student in the school can use the library until nine.",
+          "options": ["Any", "Some", "Every of", "Any of"],
+          "answer": "Any",
+          "explain": "肯定句中 any 表「任何一个」，与全称含义一致，后接单数名词。",
+          "trap": "Some 表「一些」，不能表达「任何一个学生都」的全称判断。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.some-any.d5",
+          "type": "translate",
+          "stem": "你能给我一些关于这门课程的建议吗？",
+          "answer": "Could you give me some advice about the course?",
+          "require": [["some advice"], ["could you", "can you"]],
+          "forbid": ["some advices", "an advice"],
+          "explain": "请求语境用 some；advice 不可数，不能加 s 或加 a。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.pronouns.compound-indefinite",
+      "title": "复合不定代词的修饰语后置",
+      "brief": "形容词修饰复合不定代词要后置，谓语用单数",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.pronouns.some-any"],
+      "concept": {
+        "summary": "something、anybody、nothing、everyone 等复合不定代词被形容词、不定式或 else 修饰时，修饰语一律后置，不能按汉语语序前置。它们作主语时谓语用单数。否定意义用 nothing/nobody 表达，不能与 not 叠加成双重否定。",
+        "sections": [
+          {
+            "h": "后置修饰",
+            "p": "复合不定代词由 some/any/no/every 与 -thing/-body/-one 组合而成，结构上是「代词 + 修饰语」，因此形容词、不定式、else 都放在后面。",
+            "bullets": [
+              "something important / nothing new / anything else / somebody rich",
+              "× important something / × new nothing",
+              "不定式后置：I have something to tell you. / There is nothing to worry about.",
+              "else 的所有格：somebody else's coat"
+            ]
+          },
+          {
+            "h": "谓语用单数",
+            "p": "这类代词在语义上指多个，但语法形式是单数，作主语时谓语用单数；回指可用 they/their，这是现代英语的通行做法。",
+            "bullets": [
+              "Everybody is here. / Nothing was said at the meeting.",
+              "Everyone has handed in the assignment.",
+              "Everybody should bring their own lunch."
+            ]
+          },
+          {
+            "h": "否定与双重否定",
+            "p": "英语一个句子只允许一个否定成分。用了 nobody/nothing/never，就不能再用 not；需要 not 时改用 anybody/anything。部分否定则把 not 放在句首位置。",
+            "bullets": [
+              "√ Nobody knows the answer. / √ I don't know anybody here.",
+              "× I don't know nobody here.",
+              "部分否定：Not everybody agreed.（并非所有人都同意）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I have something important to discuss with you.", "zh": "我有件重要的事要和你商量。", "ok": true, "note": "形容词 important 与不定式 to discuss 都后置修饰 something。" },
+          { "en": "I have important something to discuss with you.", "zh": "我有件重要的事要和你商量。", "ok": false, "note": "形容词修饰复合不定代词必须后置，应为 something important。" },
+          { "en": "Is there anything else you want to add?", "zh": "你还有什么想补充的吗？", "ok": true, "note": "else 后置修饰 anything。" },
+          { "en": "Everybody in the class has finished the reading.", "zh": "班上每个人都读完了材料。", "ok": true, "note": "复合不定代词作主语，谓语用单数 has。" },
+          { "en": "Everybody in the class have finished the reading.", "zh": "班上每个人都读完了材料。", "ok": false, "note": "主语 everybody 视为单数，谓语须用 has。" },
+          { "en": "Nobody knows the answer.", "zh": "没人知道答案。", "ok": true, "note": "nobody 本身是否定意义，谓语用肯定形式。" },
+          { "en": "I didn't say nothing at the meeting.", "zh": "我在会上什么也没说。", "ok": false, "note": "否定叠加构成双重否定，应改为 I didn't say anything 或 I said nothing。" }
+        ],
+        "pitfalls": [
+          { "wrong": "There is new nothing in his report.", "right": "There is nothing new in his report.", "why": "形容词修饰复合不定代词必须后置，new 不能放在 nothing 之前。" },
+          { "wrong": "Everyone have handed in their essays.", "right": "Everyone has handed in their essays.", "why": "复合不定代词作主语，谓语按单数处理。" },
+          { "wrong": "I don't know nobody here.", "right": "I don't know anybody here.", "why": "英语一个句子只允许一个否定词，not 与 nobody 不能同现。" }
+        ],
+        "contrast": { "withTitle": "some 与 any 的用法差异", "diff": "some/any 的选择看句式与语气；复合不定代词除继承这一分工外，还有修饰语后置与谓语单数两条独立规则。" },
+        "mnemonic": "形容词往后放，else 也往后；everybody 当单数；not 与 nobody 不碰面。"
+      },
+      "review": {
+        "core": [
+          "形容词、不定式、else 修饰复合不定代词时一律后置",
+          "复合不定代词作主语，谓语用单数",
+          "nobody/nothing 与 not 不能同现，避免双重否定",
+          "else 的所有格：somebody else's",
+          "部分否定用 not everybody，全否定用 nobody"
+        ],
+        "trigger": "看到 something/anything/nothing/everybody → 形容词放后面；作主语按单数配谓语",
+        "quickCheck": [
+          { "q": "「重要的事情」怎么说？", "a": "something important。" },
+          { "q": "Everyone ___ (have) finished. 填什么？", "a": "has，谓语用单数。" },
+          { "q": "I don't know nobody. 错在哪里？", "a": "双重否定，应改为 I don't know anybody。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.pronouns.compound-indefinite.d1",
+          "type": "choice",
+          "stem": "The manager has ___ to say about the delay.",
+          "options": ["something important", "important something", "something importantly", "anything important"],
+          "answer": "something important",
+          "explain": "形容词 important 修饰 something 时必须后置；肯定句用 something。",
+          "trap": "important something 按汉语语序前置定语；anything important 在肯定句中不合规则。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.pronouns.compound-indefinite.d2",
+          "type": "fill",
+          "stem": "Is there ___ else you would like to know?",
+          "answer": "anything",
+          "accept": ["anything"],
+          "hint": "一般疑问句用 any- 系列。",
+          "explain": "一般疑问句用 anything，else 后置修饰它。",
+          "difficulty": 1
+        },
+        {
+          "id": "morph.pronouns.compound-indefinite.d3",
+          "type": "correct",
+          "stem": "Nobody have complained about the new schedule so far.",
+          "answer": "Nobody has complained about the new schedule so far.",
+          "accept": ["Nobody has complained about the new schedule so far."],
+          "explain": "nobody 作主语视为单数，谓语须用 has。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.compound-indefinite.d4",
+          "type": "choice",
+          "stem": "Everybody who attends the workshop ___ a certificate at the end.",
+          "options": ["receives", "receive", "are receiving", "have received"],
+          "answer": "receives",
+          "explain": "主语 everybody 是单数概念，谓语用第三人称单数 receives。",
+          "trap": "受汉语「大家」的复数含义影响而误选 receive。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.compound-indefinite.d5",
+          "type": "translate",
+          "stem": "我有重要的事情要告诉你。",
+          "answer": "I have something important to tell you.",
+          "require": [["something important"], ["to tell you"]],
+          "forbid": ["important something", "anything important"],
+          "explain": "形容词 important 与不定式 to tell you 都后置修饰 something。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.compound-indefinite.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Is", "there", "anything", "else", "you", "want", "to", "add?"],
+          "answer": "Is there anything else you want to add?",
+          "explain": "anything 为主语，else 后置；you want to add 是省略关系代词的定语从句。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.pronouns.both-either-neither-all-none",
+      "title": "both/either/neither/all/none 的指代与谓语",
+      "brief": "先数范围是两者还是三者以上，再定谓语",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.nouns.countability"],
+      "concept": {
+        "summary": "both/either/neither 只用于两者，all/none 用于三者及以上（all 也可指不可数）。谓语看中心词：both/all 指可数复数时用复数，all 指不可数时用单数，either/neither 通常用单数，none 正式用单数、口语可用复数。范围判断是第一步。",
+        "sections": [
+          {
+            "h": "范围：两者还是三者以上",
+            "p": "both 指两者都，either 指两者中任一，neither 指两者都不；all 指三者及以上全部，none 指三者及以上都不。用错范围是这一类题最主要的失分点。",
+            "bullets": [
+              "Both of my parents are teachers.",
+              "Neither of the two answers is correct.",
+              "None of the five applicants has the required experience.",
+              "× None of the two brothers agreed."
+            ]
+          },
+          {
+            "h": "谓语与中心词一致",
+            "p": "both/all 后接可数复数时谓语用复数，接不可数名词时用单数；either/neither 表单一选择，谓语用单数；none 的谓语正式用单数。",
+            "bullets": [
+              "Both of the plans are practical.",
+              "All the information was accurate.（不可数 → 单数）",
+              "All the students were excited.（复数 → 复数）",
+              "Neither of them is ready."
+            ]
+          },
+          {
+            "h": "句法位置与 no one",
+            "p": "both/all 位于实义动词前、be 动词与助动词之后；none 可与 of 连用，no one 只指人且不与 of 连用。",
+            "bullets": [
+              "They both agreed. / They have all left. / We are both ready.",
+              "None of the money was found.",
+              "No one knows the answer.（× No one of them knows）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Both of my parents are teachers.", "zh": "我父母都是教师。", "ok": true, "note": "both 指两者全体，谓语用复数。" },
+          { "en": "Both of my parents is a teacher.", "zh": "我父母都是教师。", "ok": false, "note": "both 指两者全体，谓语须用复数 are。" },
+          { "en": "Neither of the two answers is correct.", "zh": "两个答案都不正确。", "ok": true, "note": "neither 指两者都不，谓语用单数。" },
+          { "en": "Neither of the three answers is correct.", "zh": "三个答案都不正确。", "ok": false, "note": "三者以上全部否定用 none，neither 只用于两者。" },
+          { "en": "None of the five applicants has the required experience.", "zh": "五名申请者都没有所要求的经验。", "ok": true, "note": "none 指三者以上全不，正式谓语用单数。" },
+          { "en": "All the information was accurate.", "zh": "所有信息都准确。", "ok": true, "note": "all 后接不可数名词，谓语用单数。" },
+          { "en": "Either of the plans work well.", "zh": "两个方案中任一个都可行。", "ok": false, "note": "either 表单数概念，谓语须用 works。" }
+        ],
+        "pitfalls": [
+          { "wrong": "None of the two brothers agreed.", "right": "Neither of the two brothers agreed.", "why": "两者全部否定用 neither，none 用于三者及以上。" },
+          { "wrong": "All of the water were polluted.", "right": "All of the water was polluted.", "why": "water 不可数，all of 的中心词为不可数名词时谓语用单数。" },
+          { "wrong": "Neither of them are ready.", "right": "Neither of them is ready.", "why": "neither 表「两者都不」，是单数概念，正式谓语用单数。" }
+        ],
+        "contrast": { "withTitle": "复合不定代词的修饰语后置", "diff": "both/all 一组考范围与主谓一致；复合不定代词考修饰语位置与单数谓语，判定依据不同。" },
+        "mnemonic": "两个 both/either/neither，三个以上 all/none；neither 单数，all 看名词。"
+      },
+      "review": {
+        "core": [
+          "both/either/neither 用于两者；all/none 用于三者以上",
+          "both/all + 可数复数 → 谓语复数；all + 不可数 → 谓语单数",
+          "either/neither 视为单数，谓语用单数",
+          "none 正式用单数，口语可用复数",
+          "none of 可接人或物；no one 只指人，不接 of"
+        ],
+        "trigger": "看到 both/either/neither/all/none → 先数范围，再看后面名词可数性 → 最后定谓语",
+        "quickCheck": [
+          { "q": "两者都不去用 neither 还是 none？", "a": "neither，none 用于三者以上。" },
+          { "q": "All of the water ___ (be) polluted. 填什么？", "a": "was，water 不可数。" },
+          { "q": "Neither of them are ready. 错在哪里？", "a": "neither 表单数，正式谓语用 is。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.pronouns.both-either-neither-all-none.d1",
+          "type": "choice",
+          "stem": "___ of the two candidates has enough experience for the post.",
+          "options": ["Neither", "None", "Both", "All"],
+          "answer": "Neither",
+          "explain": "the two 限定为两者，且谓语 has 为单数，只有 neither 同时满足范围与数。",
+          "trap": "None 用于三者及以上，与 the two 冲突。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.both-either-neither-all-none.d2",
+          "type": "fill",
+          "stem": "___ of the ten students failed the test; all of them passed.",
+          "answer": "None",
+          "accept": ["None", "none"],
+          "hint": "十名学生，全部否定。",
+          "explain": "十人属三者以上且表示全部否定，用 none；后半句 all passed 也印证了这一点。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.both-either-neither-all-none.d3",
+          "type": "correct",
+          "stem": "Neither of the twins are willing to take responsibility.",
+          "answer": "Neither of the twins is willing to take responsibility.",
+          "accept": ["Neither of the twins is willing to take responsibility."],
+          "explain": "neither 表两者都不，是单数概念，正式谓语用 is。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.both-either-neither-all-none.d4",
+          "type": "choice",
+          "stem": "All of the furniture in the room ___ been replaced.",
+          "options": ["has", "have", "are", "were"],
+          "answer": "has",
+          "explain": "furniture 不可数，all of 的中心词为不可数名词，谓语用单数 has。",
+          "trap": "受 all 的「全部」含义影响误用复数 have。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.both-either-neither-all-none.d5",
+          "type": "translate",
+          "stem": "他们两个都不想去。",
+          "answer": "Neither of them wants to go.",
+          "require": [["neither of them", "neither of the two"]],
+          "forbid": ["both of them don't", "none of them"],
+          "explain": "两者全部否定用 neither，谓语用单数 wants；both...not 是部分否定，语义变成「不是两个都想去」。",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "id": "morph.pronouns.one-it-that",
+      "title": "one/ones/it/that 的替代区别",
+      "brief": "同物用 it，同类泛指用 one，同类特指用 that",
+      "difficulty": 3,
+      "tags": ["难点", "高频"],
+      "prereq": ["morph.pronouns.demonstratives"],
+      "concept": {
+        "summary": "替代词的选择取决于「同物还是同类」：it 指前面提到的同一个事物；one/ones 指同类中不特定的一个，可带限定词与形容词；that/those 指同类中的特定对象，多用于比较结构并后接 of/in 短语。不可数名词不能用 one 替代，要用 that。",
+        "sections": [
+          {
+            "h": "三种替代的分工",
+            "p": "先问「是不是同一个」：同一个用 it；不是同一个但属同类，再看是泛指还是特指：泛指用 one/ones，特指用 that/those。",
+            "bullets": [
+              "同物：I lost my keys. Have you seen them?",
+              "同类泛指：I lost my pen, so I bought a new one.",
+              "同类特指：The engine of this car is more powerful than that of the old model."
+            ]
+          },
+          {
+            "h": "one/ones 的限定词",
+            "p": "one 前可加 a/the/this/that/which 与形容词，ones 前必须有修饰语。所有格用 one's，不用 ones'。",
+            "bullets": [
+              "a new one / the red one / this one / which one",
+              "the ones in the box / the red ones",
+              "× a ones / × the ones（无修饰语时不单独使用）"
+            ]
+          },
+          {
+            "h": "不可数名词只能用 that",
+            "p": "不可数名词没有 one 的替代形式，比较结构中一律用 that。这是语法填空与改错的高频点。",
+            "bullets": [
+              "The coffee here is stronger than that in the shop next door.",
+              "× than the one in the shop next door",
+              "复数用 those：The streets here are narrower than those in the new district."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I lost my umbrella, so I bought a new one.", "zh": "我把伞丢了，所以买了一把新的。", "ok": true, "note": "one 替代同类中不特定的一把伞。" },
+          { "en": "I lost my umbrella, so I bought a new it.", "zh": "我把伞丢了，所以买了一把新的。", "ok": false, "note": "it 指同一把伞，与「买新的」矛盾，应用 one。" },
+          { "en": "The engine of this car is more powerful than that of the old model.", "zh": "这辆车的发动机比旧款的更强劲。", "ok": true, "note": "that 替代 the engine，属同类特指。" },
+          { "en": "I don't like these apples; give me the red ones.", "zh": "我不喜欢这些苹果，给我那些红的。", "ok": true, "note": "ones 替代复数 apples，前有形容词修饰。" },
+          { "en": "The coffee here is stronger than the one in the shop next door.", "zh": "这里的咖啡比隔壁店里的浓。", "ok": false, "note": "coffee 不可数，不能用 one 替代，应用 that。" },
+          { "en": "I can't find my keys. Have you seen them?", "zh": "我找不到钥匙了，你看见了吗？", "ok": true, "note": "them 指同一串钥匙，属同物替代。" }
+        ],
+        "pitfalls": [
+          { "wrong": "This pen doesn't work. Please give me another it.", "right": "This pen doesn't work. Please give me another one.", "why": "another 后接同类泛指，须用 one；it 指同一支笔。" },
+          { "wrong": "My bike is faster than one you bought.", "right": "My bike is faster than the one you bought.", "why": "有定语从句限定，属同类特指，须用 the one。" },
+          { "wrong": "The population of China is larger than one of India.", "right": "The population of China is larger than that of India.", "why": "population 在此为不可数概念，同类特指用 that。" }
+        ],
+        "contrast": { "withTitle": "指示代词的指代范围", "diff": "this/that 靠距离与上下文选择；one/it/that 靠「同物、同类泛指、同类特指」选择，判定依据是所指关系。" },
+        "mnemonic": "同一个用 it，同类泛指 one，同类特指 that；不可数只认 that。"
+      },
+      "review": {
+        "core": [
+          "it = 同一个事物；one/ones = 同类中不特定的一个",
+          "that/those = 同类中的特定对象，常用于比较结构",
+          "one 前可加 a/the/this/which 与形容词；ones 前必须有修饰语",
+          "不可数名词不能用 one，须用 that",
+          "another one / the one you bought 均为固定搭配"
+        ],
+        "trigger": "看到需要替代前面名词 → 先判同物还是同类 → 同类再判泛指（one）还是特指（that/those）",
+        "quickCheck": [
+          { "q": "I lost my pen, so I bought a new ___. 填什么？", "a": "one，同类泛指。" },
+          { "q": "coffee 能用 one 替代吗？", "a": "不能，不可数名词用 that。" },
+          { "q": "the one you bought 为什么加 the？", "a": "有定语从句限定，属同类特指。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.pronouns.one-it-that.d1",
+          "type": "choice",
+          "stem": "This camera is out of order; could you show me another ___?",
+          "options": ["one", "it", "that", "ones"],
+          "answer": "one",
+          "explain": "another 后接同类泛指的单数替代词 one，camera 是可数名词。",
+          "trap": "it 指同一台相机，与「另一台」的意思矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.one-it-that.d2",
+          "type": "fill",
+          "stem": "The streets in the old town are narrower than ___ in the new district.",
+          "answer": "those",
+          "accept": ["those"],
+          "hint": "被替代的 streets 是复数。",
+          "explain": "streets 为复数，同类特指用 those，后接 in the new district。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.one-it-that.d3",
+          "type": "correct",
+          "stem": "The service in this restaurant is better than the one in the hotel across the street.",
+          "answer": "The service in this restaurant is better than that in the hotel across the street.",
+          "accept": ["The service in this restaurant is better than that in the hotel across the street."],
+          "explain": "service 不可数，不能用 the one 替代，须用 that。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.one-it-that.d4",
+          "type": "choice",
+          "stem": "I've read both articles, but I prefer ___ about climate change.",
+          "options": ["the one", "it", "ones", "those"],
+          "answer": "the one",
+          "explain": "两篇文章中特指某一篇，用 the one，并带后置定语 about climate change。",
+          "trap": "ones 是复数形式，与「两篇中选一篇」的单数所指不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.one-it-that.d5",
+          "type": "translate",
+          "stem": "这台电脑比我在商店里看到的那台便宜。",
+          "answer": "This computer is cheaper than the one I saw in the shop.",
+          "require": [["than the one"], ["saw"]],
+          "forbid": ["than it", "than that"],
+          "explain": "比较对象是同类特指的那台电脑，用 the one，后接定语从句 I saw in the shop；it 指同一台，that 不能直接跟定语从句。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "morph.pronouns.interrogative-relative",
+      "title": "疑问代词与关系代词的界限",
+      "brief": "前面有先行词是关系代词，无疑问意义是连接词",
+      "difficulty": 3,
+      "tags": ["难点", "易错"],
+      "prereq": [],
+      "concept": {
+        "summary": "who/whom/whose/which 有三种句法身份：在疑问句中作疑问代词，在定语从句中作关系代词，在名词性从句中作连接代词。判定看两点：前面有没有先行名词，以及从句是否表达疑问。关系代词必须在从句中充当成分，因此从句内不能再出现重复的代词。",
+        "sections": [
+          {
+            "h": "三种身份",
+            "p": "同一个词形式相同，功能不同：疑问代词构成特殊疑问句；关系代词引导定语从句，前面必有先行词；连接代词引导主语、宾语、表语从句，整句没有疑问语气。",
+            "bullets": [
+              "疑问：Who broke the window?",
+              "关系：The boy who broke the window has apologized.",
+              "连接：I don't know who broke the window."
+            ]
+          },
+          {
+            "h": "关系代词的形式限制",
+            "p": "关系代词中 that 不能用于疑问句；what 不能引导定语从句，因为 what 本身已含先行词。which 在定语从句中指物，在疑问句与名词性从句中可指物或表选择范围。",
+            "bullets": [
+              "× the book what I bought → √ the book that/which I bought",
+              "√ What he said surprised us.（what = the thing that）",
+              "√ Which of the two do you prefer?"
+            ]
+          },
+          {
+            "h": "不能重复成分",
+            "p": "关系代词在从句中充当主语或宾语，从句内不能再出现对应的代词。这是改错题最典型的设置。介词提到关系代词前时，用 whom 指人、which 指物。",
+            "bullets": [
+              "× The girl who she won the prize is my sister.",
+              "√ The girl who won the prize is my sister.",
+              "√ The student to whom you spoke is my roommate."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "Who is responsible for the arrangements?", "zh": "谁负责这些安排？", "ok": true, "note": "疑问代词引导特殊疑问句，构成独立问句。" },
+          { "en": "The teacher who is responsible for the arrangements is on leave.", "zh": "负责这些安排的那位老师在休假。", "ok": true, "note": "关系代词 who 引导定语从句，先行词是 the teacher。" },
+          { "en": "I don't know who is responsible for the arrangements.", "zh": "我不知道谁负责这些安排。", "ok": true, "note": "连接代词引导宾语从句，整句没有疑问语气。" },
+          { "en": "The man who he called yesterday is my uncle.", "zh": "他昨天打电话的那个人是我叔叔。", "ok": false, "note": "关系代词 who 已充当 called 的宾语，从句内不能再出现 he。" },
+          { "en": "This is the book what I told you about.", "zh": "这就是我跟你说过的那本书。", "ok": false, "note": "what 不能引导定语从句，应改为 that 或 which。" },
+          { "en": "What surprised me was his calm reaction.", "zh": "让我吃惊的是他冷静的反应。", "ok": true, "note": "what 引导主语从句，相当于 the thing that。" },
+          { "en": "The student to whom you spoke is my roommate.", "zh": "和你说话的那个学生是我的室友。", "ok": true, "note": "介词 to 提到关系代词前，指人用 whom。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The girl who she won the prize is my sister.", "right": "The girl who won the prize is my sister.", "why": "关系代词 who 已在从句中作主语，再加 she 会造成成分重复。" },
+          { "wrong": "This is the reason what he gave.", "right": "This is the reason that he gave.", "why": "what 本身包含先行词，不能跟在名词后引导定语从句。" },
+          { "wrong": "Who did you give the letter?", "right": "Who did you give the letter to?", "why": "give sth to sb 中的介词不能省略，疑问代词作介词宾语时介词须保留或前置。" }
+        ],
+        "contrast": { "withTitle": "代词指代的一致与明确性", "diff": "本知识点解决「用哪一种代词引导从句」；指代一致性解决「代词与先行词在数、性、人称上是否匹配」。" },
+        "mnemonic": "前面有名词用关系代词，没有先行词用 what；从句里不能再塞一个代词。"
+      },
+      "review": {
+        "core": [
+          "疑问代词构成疑问句；关系代词引导定语从句，前有先行词",
+          "连接代词引导名词性从句，无先行词，无疑问语气",
+          "what 不能引导定语从句，that 不能用于疑问句",
+          "关系代词已在从句中充当成分，不能再出现重复代词",
+          "介词 + whom/which 是书面语形式：to whom, of which"
+        ],
+        "trigger": "看到 who/which/what → 先看前面有没有先行名词 → 有则关系代词，无则疑问或连接代词",
+        "quickCheck": [
+          { "q": "This is the book ___ I bought. 填 what 可以吗？", "a": "不可以，what 不能引导定语从句，用 that 或 which。" },
+          { "q": "The girl who she won... 错在哪里？", "a": "who 已作主语，she 多余。" },
+          { "q": "I don't know who he is. 中 who 是什么词？", "a": "连接代词，引导宾语从句。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.pronouns.interrogative-relative.d1",
+          "type": "choice",
+          "stem": "The engineer ___ designed the bridge received an award.",
+          "options": ["who", "whom", "whose", "what"],
+          "answer": "who",
+          "explain": "定语从句缺主语，先行词 the engineer 指人，用主格关系代词 who。",
+          "trap": "whom 只在从句中作宾语；whose 表所属，后面必须接名词。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.interrogative-relative.d2",
+          "type": "fill",
+          "stem": "This is the novel ___ everyone is talking about.",
+          "answer": "that",
+          "accept": ["that", "which"],
+          "hint": "先行词是物，关系代词作 about 的宾语。",
+          "explain": "先行词 the novel 指物，关系代词用 that 或 which 均可；what 不能跟在名词后。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.interrogative-relative.d3",
+          "type": "correct",
+          "stem": "The professor who we met at the conference he is from Beijing.",
+          "answer": "The professor who we met at the conference is from Beijing.",
+          "accept": ["The professor who we met at the conference is from Beijing."],
+          "explain": "关系代词 who 已作 met 的宾语，从句内不能再出现 he，否则主句主语重复。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.interrogative-relative.d4",
+          "type": "choice",
+          "stem": "___ made the decision has not been revealed.",
+          "options": ["Who", "Whom", "Whose", "Which"],
+          "answer": "Who",
+          "explain": "主语从句缺主语且指人，用 who 引导，整句没有疑问语气。",
+          "trap": "Whom 只能作宾语；Which 指物或表选择，与「谁做的决定」不符。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.interrogative-relative.d5",
+          "type": "translate",
+          "stem": "我不知道他为什么改变了主意。",
+          "answer": "I don't know why he changed his mind.",
+          "require": [["why he changed"]],
+          "forbid": ["why did he change"],
+          "explain": "宾语从句用陈述语序，why 引导后接 he changed，不能倒装成 did he change。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.interrogative-relative.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "man", "who", "called", "you", "is", "my", "uncle."],
+          "answer": "The man who called you is my uncle.",
+          "explain": "关系代词 who 在定语从句中作主语，后接谓语 called；主句谓语是 is。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "morph.pronouns.reference-agreement",
+      "title": "代词指代的一致与明确性",
+      "brief": "代词须与先行词数、性、人称一致且指向唯一",
+      "difficulty": 3,
+      "tags": ["易错", "写作"],
+      "prereq": ["morph.pronouns.subject-object-case", "morph.pronouns.possessive-pronouns"],
+      "concept": {
+        "summary": "代词的使用有两条硬约束：与先行词在数、性、人称上保持一致；全句只有一个可解释的先行词。集合名词看强调整体还是成员，everyone/each 按单数处理，one 不能与 you 混用。指向不明时应重复名词或改写句子。",
+        "sections": [
+          {
+            "h": "数与人称的一致",
+            "p": "先找先行词，再定代词的数与 Person。并列先行词用复数代词；each/every/either/neither 按单数；集合名词视语义选择单数或复数。",
+            "bullets": [
+              "Each of the winners received his or her certificate.",
+              "The committee has reached its decision.（整体 → 单数 its）",
+              "The committee are divided in their opinions.（成员 → 复数 their，英式用法）",
+              "one 与 one 呼应，不能中途换成 you"
+            ]
+          },
+          {
+            "h": "指向必须唯一",
+            "p": "句中出现两个同性别的可能先行词时，代词会产生歧义。解决办法是重复名词、调整语序或改写从句。",
+            "bullets": [
+              "歧义：When Mary met Anna, she was nervous.",
+              "改写：When Mary met Anna, Mary was nervous.",
+              "改写：Mary was nervous when she met Anna."
+            ]
+          },
+          {
+            "h": "性与形式限制",
+            "p": "英语名词本身不分性别，代词按实际性别选择；动物、婴儿常用 it；国家、船只的 she 属文学用法。避免 his/her 反复堆叠，可用复数改写整句。",
+            "bullets": [
+              "The baby dropped its toy.",
+              "Every student must bring his or her own calculator.（正式）",
+              "All students must bring their own calculators.（改为复数，更简洁）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "If a student wants to improve, he or she must practise daily.", "zh": "学生若想进步，就必须每天练习。", "ok": true, "note": "a student 为单数，代词用 he or she 保持一致。" },
+          { "en": "If a student wants to improve, you must practise daily.", "zh": "学生若想进步，就必须每天练习。", "ok": false, "note": "先行词是 a student，人称代词不能用 you，须保持第三人称。" },
+          { "en": "Mary and Anna are close friends, and she often helps her with maths.", "zh": "玛丽和安娜是好朋友，她常帮她学数学。", "ok": false, "note": "she 与 her 均可指玛丽或安娜，指代不明，应重复名词。" },
+          { "en": "The committee has reached its decision.", "zh": "委员会已经作出决定。", "ok": true, "note": "委员会作为整体，代词用单数 its。" },
+          { "en": "The committee are divided in their opinions.", "zh": "委员会成员意见分歧。", "ok": true, "note": "强调成员分歧，英式用法用复数 are 与 their。" },
+          { "en": "Each of the winners received a certificate and a cash prize.", "zh": "每位获奖者都得到一张证书和一笔奖金。", "ok": true, "note": "each 作主语视为单数，句子以名词重复替代代词，不存在失配。" },
+          { "en": "Every applicant must submit his or her form by Friday.", "zh": "每位申请者必须在周五前提交表格。", "ok": true, "note": "every + 单数名词，代词用 he or she。" }
+        ],
+        "pitfalls": [
+          { "wrong": "If one wants to succeed, you must work hard.", "right": "If one wants to succeed, one must work hard.", "why": "one 与 you 人称不一致，同一句中的泛指代词须保持同一人称。" },
+          { "wrong": "The company has changed their logo twice this year.", "right": "The company has changed its logo twice this year.", "why": "单数机构作整体时，正式书面语用 its；their 会造成数不一致。" },
+          { "wrong": "When the dog saw the cat, it ran away.", "right": "When the dog saw the cat, the dog ran away.", "why": "it 可指狗也可指猫，指向不唯一，须重复名词消除歧义。" }
+        ],
+        "contrast": { "withTitle": "人称代词主格与宾格的选用", "diff": "本知识点管「代词与先行词是否匹配、指向是否唯一」；主格宾格管「同一个代词在句中用哪种形式」。" },
+        "mnemonic": "先找先行词，再查数、性、人称；两个可能就重复名词。"
+      },
+      "review": {
+        "core": [
+          "代词与先行词在数、性、人称上必须一致",
+          "each/every/either/neither 按单数处理",
+          "集合名词强调整体用单数 its，强调成员用复数 their",
+          "one 与 one 呼应，不能中途换成 you",
+          "出现两个可能先行词时，重复名词或改写句子"
+        ],
+        "trigger": "看到代词 → 先锁定唯一的先行词 → 再核对数、性、人称 → 有歧义就重复名词",
+        "quickCheck": [
+          { "q": "If one wants to succeed, ___ must work hard. 填什么？", "a": "one，与前面的 one 保持一致。" },
+          { "q": "The committee has reached ___ decision. 填什么？", "a": "its，强调整体用单数。" },
+          { "q": "When Mary met Anna, she was nervous. 有什么问题？", "a": "she 指代不明，应重复 Mary 或 Anna。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "morph.pronouns.reference-agreement.d1",
+          "type": "choice",
+          "stem": "The company has revised ___ safety policy twice this year.",
+          "options": ["its", "their", "it's", "it"],
+          "answer": "its",
+          "explain": "company 是单数机构，强调整体，正式书面语用物主代词 its。",
+          "trap": "their 在口语中常见，但与单数先行词 the company 在数上不一致。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.reference-agreement.d2",
+          "type": "fill",
+          "stem": "Neither of the twins has finished ___ homework. (he)",
+          "answer": "his",
+          "accept": ["his"],
+          "hint": "neither 视为单数。",
+          "explain": "neither 表单数概念，代词用单数 his，与 homework 搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.reference-agreement.d3",
+          "type": "correct",
+          "stem": "If one wants to learn a language well, you must practise every day.",
+          "answer": "If one wants to learn a language well, one must practise every day.",
+          "accept": ["If one wants to learn a language well, one must practise every day."],
+          "explain": "one 与 you 人称不一致，同一句中的泛指代词须统一为 one。",
+          "difficulty": 2
+        },
+        {
+          "id": "morph.pronouns.reference-agreement.d4",
+          "type": "choice",
+          "stem": "The committee ___ reached its decision, and the members have left the room.",
+          "options": ["has", "have", "are", "were"],
+          "answer": "has",
+          "explain": "后半句 its 表明委员会被视为整体，谓语用单数 has。",
+          "trap": "have 会把委员会当作成员集合，与 its 的单数指代冲突。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.reference-agreement.d5",
+          "type": "translate",
+          "stem": "每个学生都必须交自己的作业。",
+          "answer": "Every student must hand in his or her own homework.",
+          "require": [["his or her", "their"]],
+          "forbid": ["your", "its"],
+          "explain": "every + 单数名词，代词用 his or her（现代用法也可用 their）；you 与 its 都破坏了人称一致。",
+          "difficulty": 3
+        },
+        {
+          "id": "morph.pronouns.reference-agreement.d6",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["Each", "of", "the", "players", "has", "his", "own", "locker."],
+          "answer": "Each of the players has his own locker.",
+          "explain": "each of + 复数名词作主语视为单数，谓语用 has，代词用 his。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

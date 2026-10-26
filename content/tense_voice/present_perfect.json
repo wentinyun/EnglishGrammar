@@ -1,0 +1,534 @@
+{
+  "level1": "tense_voice",
+  "chapter": "present_perfect",
+  "items": [
+    {
+      "id": "tense_voice.present_perfect.core-meaning",
+      "title": "现在完成时的核心意义",
+      "brief": "have done 把过去动作的结果带到现在",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.verbs.four-forms"],
+      "concept": {
+        "summary": "现在完成时由 have/has + 过去分词构成，视角始终落在现在：动作发生在说话时刻之前，但它造成的结果、留下的状态或积累的经历与现在直接相关。它不交代动作发生在过去的哪一刻，因此不能与 yesterday、last week、in 2019、two days ago 这类确定过去时间连用。判定时先问两件事：这件事对现在有没有影响？句中是不是给出了确定的过去时间点？前者为是就用完成时，后者为是就改用一般过去时。",
+        "sections": [
+          {
+            "h": "两种基本用法",
+            "p": "完成用法看结果：动作已完成，结果是现在的关注点。未完成用法看持续：动作或状态从过去开始，延续到现在，常带 for 或 since。两种用法共用同一形式，区别在谓语动词能否延续、时间状语是什么性质。",
+            "bullets": [
+              "完成用法（结果）：I have lost my keys, so I can't get in.",
+              "完成用法（经历）：She has visited Japan three times.",
+              "未完成用法（持续）：He has lived here since 2015.",
+              "刚刚发生：The train has just left."
+            ]
+          },
+          {
+            "h": "时间副词与时间状语",
+            "p": "现在完成时自带一组副词：already 用于肯定句，yet 用于否定句与疑问句，另有 just、ever、never、before、recently、so far、up to now、in the past few years。这些词的共同点是都不指向某个确定的过去时刻，而是以现在为终点。",
+            "bullets": [
+              "already / yet：I have already eaten. / Have you finished yet?",
+              "ever / never：Have you ever been there? / I have never tried it.",
+              "so far / up to now：We have learned 2,000 words so far.",
+              "this week / today（时段尚未结束）可与完成时连用"
+            ]
+          },
+          {
+            "h": "三个硬性限制",
+            "p": "第一，不能与确定过去时间连用；第二，必须用过去分词而不是过去式；第三，瞬间动词不能靠 for 或 since 表持续，需换成延续性表达。三条限制分别对应时间、形态、体貌三个层面。",
+            "bullets": [
+              "× I have seen him last night. → √ I saw him last night.",
+              "× He has went out. → √ He has gone out.",
+              "× He has joined the army for three years. → √ He has been in the army for three years."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I have lost my keys, so I can't get into the house.", "zh": "我把钥匙丢了，所以进不了门。", "ok": true, "note": "动作发生在过去，结果是现在进不了门，视角落在现在。" },
+          { "en": "She has lived in Beijing since 2015.", "zh": "她从 2015 年起就住在北京。", "ok": true, "note": "状态从 2015 年延续到现在，属于未完成用法。" },
+          { "en": "Have you ever tried Sichuan hot pot?", "zh": "你吃过四川火锅吗？", "ok": true, "note": "ever 询问到现在为止的经历，不与确定过去时间冲突。" },
+          { "en": "The train has just left.", "zh": "火车刚刚开走。", "ok": true, "note": "just 表示刚刚，动作的结果与现在直接相连。" },
+          { "en": "I have finished the report yesterday.", "zh": "我昨天完成了报告。", "ok": false, "note": "yesterday 是确定过去时间，把动作锁定在过去，应改为 I finished the report yesterday." },
+          { "en": "He has went to the bank.", "zh": "他去银行了。", "ok": false, "note": "完成时用过去分词，go 的过去分词是 gone，went 是过去式。" },
+          { "en": "We have learned 2,000 words so far this term.", "zh": "这学期到目前为止我们学了两千个单词。", "ok": true, "note": "so far 以现在为终点，与完成时匹配。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I have seen him last night.", "right": "I saw him last night.", "why": "last night 给出确定的过去时间点，动作被定位在过去并与现在切断，完成时的现在视角无法容纳它。" },
+          { "wrong": "She has wrote three novels.", "right": "She has written three novels.", "why": "have/has 后必须接过去分词，write 的过去分词是 written，wrote 只能作过去式。" },
+          { "wrong": "He has joined the army for three years.", "right": "He has been in the army for three years.", "why": "join 是瞬间动词，动作没有持续时间，不能与 for 加时间段搭配，须换成表状态的 be in。" }
+        ],
+        "contrast": { "withTitle": "一般过去时", "diff": "一般过去时把动作放在过去某个确定时刻并与之切断；现在完成时以说话时刻为参照，只报道动作留在现在的痕迹。" },
+        "mnemonic": "have 加过分，现在看结果；见了 yesterday，立刻改过去式。"
+      },
+      "review": {
+        "core": [
+          "构成：have/has + 过去分词，第三人称单数用 has",
+          "两种用法：完成（结果、经历）与未完成（for/since 持续）",
+          "时间副词：already/yet/just/ever/never/so far/recently，都不指向确定过去时刻",
+          "禁止与 yesterday、last week、in 2019、ago 连用",
+          "瞬间动词不能接 for/since：join → be in，buy → have，die → be dead"
+        ],
+        "trigger": "看到“已经、刚刚、到目前为止”，且句中无确定过去时间 → 用 have/has done",
+        "quickCheck": [
+          { "q": "“我昨天完成了报告”用什么时态？", "a": "一般过去时：I finished the report yesterday." },
+          { "q": "“到目前为止我们学了两千个词”怎么说？", "a": "We have learned 2,000 words so far." },
+          { "q": "has went 为什么错？", "a": "完成时须用过去分词 gone，went 是过去式。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_perfect.core-meaning.d1",
+          "type": "choice",
+          "stem": "I can't open the door because I ___ my key in the office.",
+          "options": ["have left", "left", "had left", "leave"],
+          "answer": "have left",
+          "explain": "句子以现在进不了门为结果，动作的影响延续到现在，用现在完成时；left 会把动作锁在过去，与现在的因果关系脱节。",
+          "trap": "left 形式上没有错，但它只叙述过去发生的事，不能表达“钥匙现在仍不在身上”这一现在结果。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.core-meaning.d2",
+          "type": "fill",
+          "stem": "So far we ___ (visit) twelve countries in Europe.",
+          "answer": "have visited",
+          "accept": ["have visited", "'ve visited"],
+          "hint": "so far 以现在为终点，是现在完成时的标志。",
+          "explain": "so far 表示“到目前为止”，动作积累到现在，用 have 加过去分词；主语 we 用 have。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.core-meaning.d3",
+          "type": "correct",
+          "stem": "He has went to the post office to send the parcel.",
+          "answer": "He has gone to the post office to send the parcel.",
+          "accept": ["He has gone to the post office to send the parcel."],
+          "explain": "现在完成时由 have/has 加过去分词构成，go 的过去分词是 gone，went 是过去式，不能与 has 搭配。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.core-meaning.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She has", "worked", "in this company", "since 2018."],
+          "answer": "She has worked in this company since 2018.",
+          "explain": "since 2018 引出起点，状态延续到现在，用现在完成时 has worked。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.core-meaning.d5",
+          "type": "translate",
+          "stem": "我已经把报告发给经理了，所以你不必再发一遍。",
+          "answer": "I have already sent the report to the manager, so you needn't send it again.",
+          "require": [["have already sent", "'ve already sent"], ["report"], ["manager"]],
+          "forbid": ["have send", "have sended"],
+          "explain": "动作已完成，结果是现在不必再发，视角落在现在，用现在完成时；already 放在 have 与过去分词之间。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect.core-meaning.d6",
+          "type": "choice",
+          "stem": "Great changes ___ in this village since the road was built.",
+          "options": ["have taken place", "have been taken place", "took place", "are taken place"],
+          "answer": "have taken place",
+          "explain": "since 从句给出起点，主句用现在完成时；take place 是不及物短语，没有被动形式。",
+          "trap": "have been taken place 是给不及物短语硬加被动的典型错误，take place 的主语本身就是发生变化的地点。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.present_perfect.durative",
+      "title": "现在完成时的延续用法与时间标志",
+      "brief": "for 接时段、since 接起点，动词必须能延续",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["tense_voice.present_perfect.core-meaning", "morph.verbs.punctual-durative"],
+      "concept": {
+        "summary": "延续用法表示动作或状态从过去某一时刻开始，一直持续到说话时刻，并且可能继续下去。它有两个硬条件：时间状语必须是 for 加时间段或 since 加起点，谓语动词必须是能延续的动词。瞬间动词（buy, borrow, die, join, leave, come）不能与 for 或 since 表持续，必须换成对应的状态表达。同一个 for 短语若配一般过去时，则表示过去某一段经历已经结束、现在不再如此，这就是它与一般过去时的分界。",
+        "sections": [
+          {
+            "h": "for 与 since 的分工",
+            "p": "for 后面接时间段，回答“多久”；since 后面接时间点或一般过去时的从句，回答“从何时起”。两者都要求主句用现在完成时，且谓语动词延续到现在。",
+            "bullets": [
+              "for + 时间段：for three years / for a long time / for two hours",
+              "since + 时间点：since 2015 / since last Monday / since three years ago",
+              "since + 过去时从句：since he left / since we met",
+              "提问用 How long：How long have you worked here?"
+            ]
+          },
+          {
+            "h": "瞬间动词的替换表",
+            "p": "瞬间动词表示动作在一刹那完成，没有持续时间，因此不能与表时长的 for 或 since 搭配。要表达持续，必须换成表示状态的动词或形容词。",
+            "bullets": [
+              "buy → have；borrow → keep；die → be dead",
+              "join → be in / be a member of；leave → be away",
+              "come / arrive → be here / be there；begin → be on",
+              "fall asleep → be asleep；marry → be married"
+            ]
+          },
+          {
+            "h": "与一般过去时 for 短语的区别",
+            "p": "同样的 for 短语，时态不同含义不同：现在完成时表示持续到现在，一般过去时表示过去某段已经结束的经历。判断依据是现在是否仍然如此。",
+            "bullets": [
+              "I have lived here for five years.（现在仍住）",
+              "I lived there for five years.（现在不住）",
+              "It is three years since he left.（固定句型，可与完成时互换）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I have known her for ten years.", "zh": "我认识她十年了。", "ok": true, "note": "know 是延续性状态动词，for ten years 表示持续到现在。" },
+          { "en": "He has been a teacher since 2015.", "zh": "他从 2015 年起就是老师。", "ok": true, "note": "since 接时间点，be a teacher 是可持续的状态。" },
+          { "en": "They have been married for twenty years.", "zh": "他们结婚二十年了。", "ok": true, "note": "marry 的延续表达是 be married。" },
+          { "en": "He has bought the car for two years.", "zh": "这辆车他买了两年了。", "ok": false, "note": "buy 是瞬间动词，不能与 for 表持续，应改为 He has had the car for two years." },
+          { "en": "She has been in Beijing since three years.", "zh": "她在北京已经三年了。", "ok": false, "note": "since 后接时间点而不是时间段，应改为 for three years 或 since three years ago." },
+          { "en": "I have kept this book for a week.", "zh": "这本书我借了一周了。", "ok": true, "note": "borrow 的延续表达是 keep，可与 for 连用。" },
+          { "en": "How long have you worked in this company?", "zh": "你在这家公司工作多久了？", "ok": true, "note": "How long 询问持续时长，谓语用现在完成时。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I have borrowed the book for a week.", "right": "I have kept the book for a week.", "why": "borrow 表示“借到手”这一瞬间动作，没有持续时间，持续义要用 keep。" },
+          { "wrong": "He has died for five years.", "right": "He has been dead for five years.", "why": "die 是瞬间动词，状态持续要用 be dead，dead 作表语承担延续义。" },
+          { "wrong": "She has worked here since five years.", "right": "She has worked here for five years.", "why": "since 后必须接时间点，five years 是时间段，只能由 for 引导。" }
+        ],
+        "contrast": { "withTitle": "现在完成时的核心意义", "diff": "核心意义处理“已完成、留下结果”；延续用法处理“从过去持续到现在”，后者额外要求延续性动词和 for/since 结构。" },
+        "mnemonic": "for 接段、since 接点；瞬间动词变状态，buy 变 have、die 变 dead。"
+      },
+      "review": {
+        "core": [
+          "for 加时间段，since 加时间点或过去时从句",
+          "谓语必须是延续性动词，且持续到现在",
+          "瞬间动词替换：buy→have，borrow→keep，die→be dead，join→be in，leave→be away",
+          "How long 提问，回答用现在完成时",
+          "完成时加 for 表持续到现在；过去时加 for 表过去一段已结束"
+        ],
+        "trigger": "看到 for 加时间段或 since 加起点 → 先查动词能不能延续 → 不能就换状态表达",
+        "quickCheck": [
+          { "q": "“这本书我借了一周了”怎么说？", "a": "I have kept this book for a week. borrow 要换成 keep。" },
+          { "q": "since 后面能接 three years 吗？", "a": "不能，since 接时间点；要说 for three years 或 since three years ago。" },
+          { "q": "I lived there for five years 与 I have lived there for five years 有何区别？", "a": "前者现在不住，后者现在仍住。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_perfect.durative.d1",
+          "type": "choice",
+          "stem": "— How long ___ this dictionary? — For about three months.",
+          "options": ["have you kept", "have you borrowed", "did you borrow", "do you keep"],
+          "answer": "have you kept",
+          "explain": "How long 询问持续时长，谓语须用现在完成时的延续性动词；borrow 是瞬间动词，持续义要用 keep。",
+          "trap": "have you borrowed 形式正确，但 borrow 只表示“借到手”的瞬间，无法回答“借了多久”。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect.durative.d2",
+          "type": "fill",
+          "stem": "He ___ (be) in the army for eight years.",
+          "answer": "has been",
+          "accept": ["has been", "'s been"],
+          "hint": "join the army 的延续表达是 be in the army。",
+          "explain": "for eight years 要求延续性谓语，join 是瞬间动词，须改用 be in the army，时态为现在完成时 has been。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.durative.d3",
+          "type": "correct",
+          "stem": "My grandfather has died for six years.",
+          "answer": "My grandfather has been dead for six years.",
+          "accept": ["My grandfather has been dead for six years."],
+          "explain": "die 是瞬间动词，不能与 for 加时间段连用；表示“去世多久”要用状态表达 be dead。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect.durative.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She has", "taught", "in this school", "since she", "graduated."],
+          "answer": "She has taught in this school since she graduated.",
+          "explain": "since 引导的从句用一般过去时 graduated 作起点，主句用现在完成时 has taught 表示持续到现在。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect.durative.d5",
+          "type": "translate",
+          "stem": "这本书我已经借了两周了，明天必须还。",
+          "answer": "I have kept this book for two weeks, and I must return it tomorrow.",
+          "require": [["have kept"], ["for two weeks"]],
+          "forbid": ["have borrowed", "borrowed this book for"],
+          "explain": "borrow 是瞬间动词，与 for two weeks 的持续义冲突，须换成 keep；主句用现在完成时表示持续到现在。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect.durative.d6",
+          "type": "choice",
+          "stem": "We ___ each other since we were children.",
+          "options": ["have known", "knew", "have been knowing", "know"],
+          "answer": "have known",
+          "explain": "since 从句给出起点，主句用现在完成时；know 是状态动词，只能用完成时，不能用完成进行时。",
+          "trap": "have been knowing 把状态动词放进进行时，know 表示持续的状态而非过程，没有进行时形式。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.present_perfect.been-gone",
+      "title": "have been to / have gone to / have been in",
+      "brief": "去过、去了、待了：靠“人在哪”区分",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["tense_voice.present_perfect.core-meaning"],
+      "concept": {
+        "summary": "三个结构都由 have been 或 have gone 加介词构成，区别在人现在在哪、句子讲的是经历还是去向。have been to 讲经历，人去过并且已经回来；have gone to 讲去向，人已经去了、现在不在这里；have been in 讲停留，表示在某地待了一段时间，常与 for 或 since 连用。判断顺序是先定语义类型，再看主语现在的位置。",
+        "sections": [
+          {
+            "h": "三者的语义分工",
+            "p": "经历与去向的分界就是人回没回来，停留则必须带时间段。三个结构各自绑定一类时间状语，互换就会语义走样。",
+            "bullets": [
+              "have been to 加地点：去过并已回来，可与 twice / ever / never 连用",
+              "have gone to 加地点：去了且人不在这里，不能与次数连用",
+              "have been in 加地点：待了多久，与 for 或 since 连用"
+            ]
+          },
+          {
+            "h": "人称限制与常见语境",
+            "p": "have gone to 陈述的是此人不在这里，因此一般不用第一、二人称：说话人知道自己在哪，也不便断言对方不在。疑问句中问 Where has he gone? 是询问去向，问 Where have you been? 是询问刚才去了哪里。",
+            "bullets": [
+              "√ She has gone to the library.（她不在这里）",
+              "× I have gone to the library.（我在说话，不可能不在这里）",
+              "Where have you been?（你刚才去哪儿了，现已回来）"
+            ]
+          },
+          {
+            "h": "与延续表达的关系",
+            "p": "have gone to 中的 go 是瞬间动词，因此不能接 for 加时间段；要表示“去了某地多久”，必须换成 have been in。这一点与延续用法的动词替换完全一致。",
+            "bullets": [
+              "× He has gone to Shanghai for three years.",
+              "√ He has been in Shanghai for three years.",
+              "√ He went to Shanghai three years ago.（一般过去时）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I have been to Japan twice.", "zh": "我去过日本两次。", "ok": true, "note": "been to 表经历，可与次数 twice 连用，人已回来。" },
+          { "en": "She has gone to Japan, so she won't be at the meeting.", "zh": "她去日本了，所以不会来开会。", "ok": true, "note": "gone to 表去向，人现在不在这里。" },
+          { "en": "He has been in Shanghai for three years.", "zh": "他在上海待了三年。", "ok": true, "note": "been in 加 for 表停留时长。" },
+          { "en": "I have gone to Japan twice.", "zh": "我去过日本两次。", "ok": false, "note": "gone to 表示人已不在，与说话人视角和次数连用都冲突，应改为 have been to。" },
+          { "en": "He has been to Shanghai for three years.", "zh": "他在上海待了三年。", "ok": false, "note": "been to 只表经历，不能接 for 表持续，应改为 has been in Shanghai for three years." },
+          { "en": "Where have you been? I waited for an hour.", "zh": "你刚才去哪儿了？我等了一小时。", "ok": true, "note": "问对方刚才去了哪里，人已回来，用 been。" },
+          { "en": "They have gone to the concert and will be back at ten.", "zh": "他们去听音乐会了，十点回来。", "ok": true, "note": "gone to 与“还没回来”的将来时间一致。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I have gone to the library twice this week.", "right": "I have been to the library twice this week.", "why": "次数说明是经历，人已回来，必须用 been to；gone to 表示人还在那里。" },
+          { "wrong": "She has been to Beijing for two years.", "right": "She has been in Beijing for two years.", "why": "for two years 要求持续义，been to 只表经历，持续停留用 been in。" },
+          { "wrong": "— Where is Tom? — He has been to the teachers' office.", "right": "— Where is Tom? — He has gone to the teachers' office.", "why": "回答“人在哪里”要说明去向，Tom 现在不在这里，用 gone to。" }
+        ],
+        "contrast": { "withTitle": "现在完成时的延续用法与时间标志", "diff": "延续用法讲 for/since 与延续性动词的配合；本点把 been to、gone to、been in 三个固定结构放在一起，靠人是否回来、是否停留三选一。" },
+        "mnemonic": "been to 去过人已回，gone to 去了人不在，been in 待着算时长。"
+      },
+      "review": {
+        "core": [
+          "have been to：去过，已回来，可与 twice/ever/never 连用",
+          "have gone to：去了，人不在这里，不用第一、二人称，不与次数连用",
+          "have been in：待了多久，接 for 或 since 表持续",
+          "go 是瞬间动词，gone to 不能接 for 加时间段",
+          "Where have you been? 问刚才去哪儿；Where has he gone? 问去向"
+        ],
+        "trigger": "看到 have been/gone 加 to 或 in → 先问人回来了吗、讲经历还是去向 → 再定结构",
+        "quickCheck": [
+          { "q": "“我去过巴黎两次”怎么说？", "a": "I have been to Paris twice." },
+          { "q": "“他去图书馆了，不在这儿”怎么说？", "a": "He has gone to the library." },
+          { "q": "“他在上海待了三年”怎么说？", "a": "He has been in Shanghai for three years." }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_perfect.been-gone.d1",
+          "type": "choice",
+          "stem": "— Where is Anna? — She ___ the library and will be back in an hour.",
+          "options": ["has gone to", "has been to", "has been in", "had gone to"],
+          "answer": "has gone to",
+          "explain": "Anna 现在不在这里，句子讲的是去向，用 has gone to；后半句“一小时后回来”也说明她还没回来。",
+          "trap": "has been to 意为“去过且已回来”，与“一小时后回来”直接矛盾。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.been-gone.d2",
+          "type": "fill",
+          "stem": "I ___ (be) to the Great Wall three times.",
+          "answer": "have been",
+          "accept": ["have been", "'ve been"],
+          "hint": "three times 说明是经历，人已回来。",
+          "explain": "表示去过某地的经历用 have been to，次数由 three times 承担，主语 I 用 have。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.been-gone.d3",
+          "type": "correct",
+          "stem": "My father has gone to Shanghai for ten years.",
+          "answer": "My father has been in Shanghai for ten years.",
+          "accept": ["My father has been in Shanghai for ten years."],
+          "explain": "for ten years 要求持续义，go 是瞬间动词；表示在某地停留多久要用 have been in。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect.been-gone.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "has", "been", "in", "London", "since", "last", "spring."],
+          "answer": "He has been in London since last spring.",
+          "explain": "since last spring 给出起点，been in 表持续停留，构成现在完成时的延续用法。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.been-gone.d5",
+          "type": "translate",
+          "stem": "我去过巴黎两次，但从来没去过伦敦。",
+          "answer": "I have been to Paris twice, but I have never been to London.",
+          "require": [["have been to Paris", "'ve been to Paris"], ["twice"], ["never been to London"]],
+          "forbid": ["have gone to Paris", "have went to Paris"],
+          "explain": "两次与“从来没去过”都是经历，人已回来，两处都用 have been to；never 放在 have 与 been 之间。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect.been-gone.d6",
+          "type": "choice",
+          "stem": "— Have you ever ___ to the new science museum? — Yes, I went there last week.",
+          "options": ["been", "gone", "being", "went"],
+          "answer": "been",
+          "explain": "ever 询问经历，回答用一般过去时 went 说明已回来，因此问句用 been；have gone to 表示人还没回来，与回答矛盾。",
+          "trap": "gone 表示“去了未回”，而回答中的 went there last week 说明已经去过并回来了。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.present_perfect.vs-past-simple",
+      "title": "现在完成时与一般过去时的辨析",
+      "brief": "看两点：有无确定过去时间、结果是否连到现在",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["tense_voice.present_perfect.core-meaning"],
+      "concept": {
+        "summary": "两个时态的取舍只需两条判据。第一条：句中有没有确定的过去时间点（yesterday, last week, in 2019, two days ago, just now, when I was a child），有就一律用一般过去时。第二条：动作的结果或状态是否与现在有联系，有联系就用现在完成时，只是叙述过去的事就用一般过去时。两条冲突时以第一条优先，因为完成时无法容纳确定的过去时间。",
+        "sections": [
+          {
+            "h": "判据一：确定过去时间点",
+            "p": "只要句中出现把动作定位到过去某一刻的状语，现在完成时就失效。这类状语包括具体的年月日、last 与 ago 结构、just now、then，以及 when 引导的询问具体时间的疑问句。",
+            "bullets": [
+              "× I have seen him last night. → √ I saw him last night.",
+              "× When have you bought it? → √ When did you buy it?",
+              "just now 配过去时，just 配完成时：He left just now. / He has just left."
+            ]
+          },
+          {
+            "h": "判据二：结果是否连到现在",
+            "p": "没有确定过去时间时，看说话人关心的是现在的结果还是过去的事件。带 now 的因果、现在的状态、累计到现在的经历，都用完成时。",
+            "bullets": [
+              "I have lost my key.（现在进不了门）/ I lost my key yesterday.（只叙述昨天的事）",
+              "She has been ill since Monday.（现在还病着）/ She was ill last week.（已经好了）",
+              "He has become a doctor.（现在的身份）/ He became a doctor in 2015.（过去的事件）"
+            ]
+          },
+          {
+            "h": "两个时态可以同句并存",
+            "p": "叙述中常先用完成时报结果，再用过去时补充细节，两者各司其职。这种搭配本身就是判据的体现：结果连现在用完成时，细节锁定过去用过去时。",
+            "bullets": [
+              "I have finished the report. I finished it at ten.",
+              "She has been to Paris. She went there with her sister.",
+              "Have you had lunch? — Yes, I had it at noon."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I have just finished my homework.", "zh": "我刚做完作业。", "ok": true, "note": "just 与完成时连用，强调刚完成的结果。" },
+          { "en": "I finished my homework an hour ago.", "zh": "我一小时前做完了作业。", "ok": true, "note": "ago 是确定过去时间，用一般过去时。" },
+          { "en": "Have you ever been to Tibet?", "zh": "你去过西藏吗？", "ok": true, "note": "ever 询问经历，不指向确定过去时刻。" },
+          { "en": "When have you been to Tibet?", "zh": "你什么时候去过西藏？", "ok": false, "note": "when 询问确定时间点，须用一般过去时 When did you go to Tibet?" },
+          { "en": "He has left for Paris last Friday.", "zh": "他上周五动身去了巴黎。", "ok": false, "note": "last Friday 是确定过去时间，与现在完成时冲突，应改为 left for Paris last Friday." },
+          { "en": "She has been ill since Monday.", "zh": "她从周一起就病了。", "ok": true, "note": "状态从周一开始延续到现在，用完成时。" },
+          { "en": "She was ill last week, but she is fine now.", "zh": "她上周病了，现在好了。", "ok": true, "note": "last week 锁定过去，且现在已好，用一般过去时。" }
+        ],
+        "pitfalls": [
+          { "wrong": "When have you bought this watch?", "right": "When did you buy this watch?", "why": "when 要求一个确定的过去时间点，问句本身就把动作定位在过去，完成时的现在视角不成立。" },
+          { "wrong": "I have seen the film two days ago.", "right": "I saw the film two days ago.", "why": "ago 以现在为基点往前推算，指明的却是确定的过去时间点，与完成时不相容。" },
+          { "wrong": "He has gone to Japan in 2020.", "right": "He went to Japan in 2020.", "why": "in 2020 是封闭的过去时间，动作无法与现在相连，只能用一般过去时。" }
+        ],
+        "contrast": { "withTitle": "现在完成时的核心意义", "diff": "核心意义讲完成时自身的两种用法；本点给出与一般过去时的二选一判据，落点是有无确定过去时间点、结果是否连到现在。" },
+        "mnemonic": "有时间点走过去，没时间点看影响；ago、last、yesterday，见到就换过去式。"
+      },
+      "review": {
+        "core": [
+          "判据一：有确定过去时间点（yesterday/last week/in 2019/ago/just now）→ 一般过去时",
+          "判据二：结果或状态与现在有联系 → 现在完成时",
+          "when 问具体时间用过去时；ever 问经历用完成时",
+          "just 配完成时，just now 配过去时",
+          "两时可同句：完成时报结果，过去时补细节"
+        ],
+        "trigger": "动笔前先扫时间状语 → 有确定过去时间点就写过去式 → 没有再看结果是否连到现在",
+        "quickCheck": [
+          { "q": "“我昨天看过这部电影”用哪个时态？", "a": "一般过去时：I saw the film yesterday." },
+          { "q": "When 提问用什么时态？", "a": "一般过去时，如 When did you buy it?" },
+          { "q": "She has been ill since Monday 说明她现在好了吗？", "a": "没有，说明现在还病着。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_perfect.vs-past-simple.d1",
+          "type": "choice",
+          "stem": "He ___ to this city in 2019 and has lived here ever since.",
+          "options": ["moved", "has moved", "has been moving", "moves"],
+          "answer": "moved",
+          "explain": "in 2019 是确定的过去时间点，把动作锁定在过去，必须用一般过去时；后半句 has lived 才表示持续到现在。",
+          "trap": "has moved 与 in 2019 直接冲突，现在完成时不能与确定的过去时间状语连用。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.vs-past-simple.d2",
+          "type": "fill",
+          "stem": "I ___ (not see) him since last Friday.",
+          "answer": "haven't seen",
+          "accept": ["have not seen", "haven't seen"],
+          "hint": "since 引出起点，动作持续到现在。",
+          "explain": "since last Friday 表示从上周五一直到现在的跨度，用现在完成时；否定形式为 have not seen，缩写 haven't seen。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.vs-past-simple.d3",
+          "type": "correct",
+          "stem": "When have you bought this laptop?",
+          "answer": "When did you buy this laptop?",
+          "accept": ["When did you buy this laptop?"],
+          "explain": "when 询问具体的过去时间点，句子必须用一般过去时；现在完成时无法回答“什么时候”这类问题。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.vs-past-simple.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He has", "just", "finished", "his homework."],
+          "answer": "He has just finished his homework.",
+          "explain": "just 表示刚刚，与现在完成时搭配，位置在 has 与过去分词之间。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect.vs-past-simple.d5",
+          "type": "translate",
+          "stem": "我两年前去过北京，从那以后就再没去过。",
+          "answer": "I went to Beijing two years ago and have not been there since.",
+          "require": [["went"], ["two years ago"], ["have not been", "haven't been"]],
+          "forbid": ["have gone to Beijing two years ago", "have been to Beijing two years ago"],
+          "explain": "two years ago 是确定过去时间点，前一分句用一般过去时；后一分句以现在为终点表经历，用现在完成时，since 作副词表示从那以后。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect.vs-past-simple.d6",
+          "type": "choice",
+          "stem": "— Have you finished the report? — Yes. I ___ it last night.",
+          "options": ["finished", "have finished", "had finished", "finish"],
+          "answer": "finished",
+          "explain": "last night 是确定的过去时间点，答句补充的是过去细节，用一般过去时，与问句的现在完成时形成结果加细节的搭配。",
+          "trap": "have finished 与 last night 冲突，完成时不能携带确定的过去时间状语。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

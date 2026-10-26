@@ -1,0 +1,408 @@
+{
+  "level1": "syntax",
+  "chapter": "basic_patterns",
+  "items": [
+    {
+      "id": "syntax.basic_patterns.sv-svo-svc",
+      "title": "SV / SVO / SVC 的判定",
+      "brief": "先判系动词，再判有无宾语，两步定型",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["syntax.sentence_elements.subject-forms", "syntax.sentence_elements.predicate"],
+      "concept": {
+        "summary": "判定顺序固定为两步：先看谓语动词是否系动词，是则 SVC；不是系动词再看动词后有没有宾语，无宾语是 SV，有宾语是 SVO。SVC 与 SVO 的区别不在「后面有没有东西」，而在「这个东西是不是主语本身」。",
+        "sections": [
+          {
+            "h": "两步分流",
+            "p": "第一步判断动词性质，第二步判断成分数量。顺序不能颠倒，否则会把系动词后的表语误当宾语，把不及物动词后的状语误当宾语。",
+            "bullets": [
+              "系动词 → SVC：be, become, seem, look, feel, taste, smell, sound, remain, stay, keep, turn, grow, get",
+              "不及物动词 + 无宾语 → SV：happen, arrive, rise, lie, occur, exist, collapse, disappear",
+              "及物动词 + 一个宾语 → SVO：make, build, discuss, admire, mention, destroy",
+              "状语不算宾语：The train arrived at the station.（at the station 是地点状语）"
+            ]
+          },
+          {
+            "h": "SVC 与 SVO 的分界",
+            "p": "表语与主语指同一对象或同一状态，因此可以互换位置而意义基本不变；宾语与主语是两个不同对象，不能互换。这条互换测试是区分二者的唯一可靠标准。",
+            "bullets": [
+              "The winner is Tom. = Tom is the winner.（表语，SVC）",
+              "He wrote the book. → × The book is him.（宾语，主语与宾语不同指）",
+              "She became a lawyer. → She was a lawyer.（表语与主语同指，SVC）",
+              "He looks tired. → He is tired.（表语说明主语状态）"
+            ]
+          },
+          {
+            "h": "一词两副面孔",
+            "p": "部分动词既可作系动词也可作及物动词，判定依据是后面接的成分性质：接形容词是系动词，接名词性宾语是及物动词。",
+            "bullets": [
+              "The soup tastes good.（系动词 + 表语）/ He tasted the soup.（及物动词 + 宾语）",
+              "She looked at the painting.（look at 是及物短语动词）/ She looked happy.（系动词）",
+              "They grow rice here.（种植，及物）/ The weather is growing cold.（变得，系动词）",
+              "被动语态是 SVO 的变体（宾语提到主语位置），不是新的句型"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The audience applauded enthusiastically.", "zh": "观众热情地鼓掌。", "ok": true, "note": "applaud 在此为不及物动词，副词作状语，构成 SV。" },
+          { "en": "The train arrived at the station on time.", "zh": "火车准时到站。", "ok": true, "note": "arrive 是不及物动词，at the station 与 on time 都是状语，句子是 SV。" },
+          { "en": "She became a lawyer after graduation.", "zh": "她毕业后成了一名律师。", "ok": true, "note": "become 是系动词，a lawyer 与主语同指，是表语，构成 SVC。" },
+          { "en": "The company launched a new product last month.", "zh": "公司上个月推出了一款新产品。", "ok": true, "note": "launch 是及物动词，a new product 是宾语，last month 是状语，构成 SVO。" },
+          { "en": "They arrived the airport at noon.", "zh": "他们中午到达机场。", "ok": false, "note": "arrive 是不及物动词，不能直接带宾语，须说 arrive at the airport。" },
+          { "en": "The soup tastes deliciously.", "zh": "这汤尝起来很美味。", "ok": false, "note": "taste 在此为系动词，后接形容词 delicious 作表语，不能用副词。" },
+          { "en": "He looked at the painting for a long time.", "zh": "他盯着那幅画看了很久。", "ok": true, "note": "look at 是及物短语动词，the painting 是宾语，构成 SVO。" }
+        ],
+        "pitfalls": [
+          { "wrong": "The accident was happened last night.", "right": "The accident happened last night.", "why": "happen 是不及物动词，没有宾语也就没有被动语态，过去式本身作谓语。" },
+          { "wrong": "She resembles to her mother.", "right": "She resembles her mother.", "why": "resemble 是及物动词，直接带宾语，不需要介词 to。" },
+          { "wrong": "His job is teach English.", "right": "His job is to teach English.", "why": "表语位置不能放动词原形，须用不定式或动名词使其名词化。" }
+        ],
+        "contrast": { "withTitle": "SVOO / SVOC 的判定", "diff": "SVO 只有一个宾语；动词后再出现一个名词时，要判断它是第二宾语还是宾补，句型随之升级为 SVOO 或 SVOC。" },
+        "mnemonic": "先问是不是系动词，再问后面有没有宾语；有是 SVO，没有是 SV，系动词就是 SVC。"
+      },
+      "review": {
+        "core": [
+          "第一步判系动词 → SVC；第二步判有无宾语 → SV / SVO",
+          "SVC 的表语与主语同指可互换；SVO 的宾语与主语不同指",
+          "不及物动词不能直接带宾语，须借助介词",
+          "look / taste / grow 等词有系动词与实义动词两副面孔",
+          "被动语态是 SVO 的变体，不是第六种基本句型"
+        ],
+        "trigger": "看到动词先问「是不是系动词」，再问「后面有没有宾语」，两步定型",
+        "quickCheck": [
+          { "q": "The train arrived at the station 属于哪种句型？", "a": "SV，at the station 是地点状语不是宾语。" },
+          { "q": "The winner is Tom 为什么是 SVC？", "a": "is 是系动词，Tom 与 the winner 同指，可互换位置。" },
+          { "q": "happen 有被动语态吗？", "a": "没有，它是不及物动词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.basic_patterns.sv-svo-svc.d1",
+          "type": "choice",
+          "stem": "The meeting ___ at nine o'clock and lasted nearly two hours.",
+          "options": ["began", "was begun", "begins", "has begun"],
+          "answer": "began",
+          "explain": "begin 在此为不及物动词，用主动形式表示「开始」，与 lasted 并列，构成 SV 句型。",
+          "trap": "was begun 把不及物动词误作及物动词变被动，英语中 begin 表示「开始」时没有这种被动形式。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.basic_patterns.sv-svo-svc.d2",
+          "type": "fill",
+          "stem": "The leaves ___ (turn) yellow when autumn comes.",
+          "answer": "turn",
+          "accept": ["turn"],
+          "hint": "yellow 是形容词，说明空格处的动词应为系动词。",
+          "explain": "turn 在此是系动词，后接形容词 yellow 作表语，构成 SVC；主语 leaves 为复数，用原形 turn。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.basic_patterns.sv-svo-svc.d3",
+          "type": "correct",
+          "stem": "They arrived the airport two hours before the flight.",
+          "answer": "They arrived at the airport two hours before the flight.",
+          "accept": ["They arrived at the airport two hours before the flight."],
+          "explain": "arrive 是不及物动词，不能直接带宾语，须加介词 at 构成地点状语，句型为 SV。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.basic_patterns.sv-svo-svc.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["The", "company", "launched", "a", "new", "product", "last", "month."],
+          "answer": "The company launched a new product last month.",
+          "explain": "launch 是及物动词，a new product 是宾语，last month 是时间状语，整体为 SVO。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.basic_patterns.sv-svo-svc.d5",
+          "type": "translate",
+          "stem": "他毕业后成了一名律师。",
+          "answer": "He became a lawyer after graduation.",
+          "require": [["became"], ["lawyer"], ["after graduation", "after he graduated"]],
+          "forbid": ["became lawyer"],
+          "explain": "become 是系动词，a lawyer 是表语，与主语 he 同指，构成 SVC；表语是单数可数名词，须加不定冠词。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.basic_patterns.sv-svo-svc.d6",
+          "type": "choice",
+          "stem": "The cake ___ delicious, so everyone asked for the recipe.",
+          "options": ["tasted", "was tasted", "tasting", "taste"],
+          "answer": "tasted",
+          "explain": "taste 在此是系动词，后接形容词 delicious 作表语，构成 SVC，且不能变为被动语态。",
+          "trap": "was tasted 把系动词当成及物动词变被动，系动词没有被动形式。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "syntax.basic_patterns.svoo-svoc",
+      "title": "SVOO / SVOC 的判定",
+      "brief": "两个名词之间加 be，成立即 SVOC",
+      "difficulty": 3,
+      "tags": ["易错", "难点"],
+      "prereq": ["syntax.basic_patterns.sv-svo-svc"],
+      "concept": {
+        "summary": "动词后出现两个成分时，用插入 be 测试：第一个成分 + be + 第二个成分成立，则是 SVOC（宾语 + 宾补）；不成立但能改写为「动词 + 直接宾语 + to/for + 间接宾语」，则是 SVOO。SVOO 的两个宾语各自独立，SVOC 的补足语依附于宾语。",
+        "sections": [
+          {
+            "h": "SVOO：两个独立宾语",
+            "p": "间接宾语通常是人，直接宾语是物。两个宾语可以互换位置，但间接宾语要改成介词短语：表示方向用 to，表示服务用 for。插入 be 一定不成立。",
+            "bullets": [
+              "to 类：give, send, show, tell, teach, lend, pass, hand, offer, promise, award",
+              "for 类：buy, fetch, bring, make, cook, get, order",
+              "She gave me a ticket. = She gave a ticket to me.",
+              "He bought his son a bike. = He bought a bike for his son."
+            ]
+          },
+          {
+            "h": "SVOC：补足语依附宾语",
+            "p": "宾补与宾语之间有逻辑主谓关系，插入 be 后能构成一个合理命题。补足语一旦删去，句子语义不完整，这是它与状语的关键差别。",
+            "bullets": [
+              "They named the baby Tom. → The baby is Tom.",
+              "We found the plan workable. → The plan is workable.",
+              "I want you to stay. → You stay.",
+              "The news left everyone speechless. → Everyone was speechless."
+            ]
+          },
+          {
+            "h": "不能带双宾语的动词",
+            "p": "汉语里能说「告诉我一件事」的动词，英语中未必能接双宾语。explain, suggest, describe, announce, introduce, report 必须用 to 引出接受者，写成 动词 + 直接宾语 + to + 人。",
+            "bullets": [
+              "× explain me the rule → √ explain the rule to me",
+              "× suggest us a plan → √ suggest a plan to us",
+              "× describe me the scene → √ describe the scene to me",
+              "√ tell me a story（tell 可带双宾语）"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The teacher showed us her new plan.", "zh": "老师给我们看了她的新方案。", "ok": true, "note": "us 与 her new plan 是两个独立宾语，可改写为 showed her new plan to us，是 SVOO。" },
+          { "en": "The teacher made us rewrite the essay.", "zh": "老师让我们重写这篇文章。", "ok": true, "note": "us 与 rewrite 有逻辑主谓关系（We rewrote the essay），是 SVOC。" },
+          { "en": "They considered the proposal impractical.", "zh": "他们认为这个提议不切实际。", "ok": true, "note": "The proposal is impractical 成立，impractical 是宾补，是 SVOC。" },
+          { "en": "He lent me his car for the weekend.", "zh": "他把车借给我用了一个周末。", "ok": true, "note": "lend 可带双宾语，可改写为 lent his car to me，是 SVOO。" },
+          { "en": "She explained me the rule.", "zh": "她给我解释了这条规则。", "ok": false, "note": "explain 不能带双宾语，须改为 explained the rule to me。" },
+          { "en": "The news made us happily.", "zh": "这个消息让我们很高兴。", "ok": false, "note": "宾补须用形容词 happy 说明宾语的状态，happily 是副词，不能作宾补。" },
+          { "en": "He asked me a difficult question.", "zh": "他问了我一个很难的问题。", "ok": true, "note": "ask sb sth 是 SVOO；注意 ask sb to do 才是 SVOC，同一个动词可属不同句型。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He suggested me a solution.", "right": "He suggested a solution to me.", "why": "suggest 不能带双宾语，接受者必须用介词 to 引出。" },
+          { "wrong": "They elected him the chairman of the committee.", "right": "They elected him chairman of the committee.", "why": "表示独一无二职位的名词作宾补时不加定冠词。" },
+          { "wrong": "The teacher let us to leave early.", "right": "The teacher let us leave early.", "why": "let 是使役动词，作宾补的不定式省略 to。" }
+        ],
+        "contrast": { "withTitle": "SVO", "diff": "SVO 只有一个宾语；SVOO 是两个独立宾语，SVOC 是宾语加依附于它的补足语，三者靠插入 be 与介词改写区分。" },
+        "mnemonic": "中间加 be 通就是 SVOC，能改成 to/for 就是 SVOO，两样都不通就只有一个宾语。"
+      },
+      "review": {
+        "core": [
+          "插入 be 成立 → SVOC；可改写为 to/for 介词短语 → SVOO",
+          "SVOO 常用动词：give, send, show, tell, teach, lend, pass, buy, offer",
+          "SVOC 常用动词：make, let, have, keep, find, consider, elect, call, see, hear, ask, want",
+          "to 表方向（give sb sth），for 表服务（buy sb sth）",
+          "explain / suggest / describe 不能带双宾语，须用 to 引出接受者"
+        ],
+        "trigger": "动词后出现两个名词，先在中间插一个 be 试一次，再决定是 SVOC 还是 SVOO",
+        "quickCheck": [
+          { "q": "They named the baby Tom 属于哪种句型？", "a": "SVOC，The baby is Tom 成立。" },
+          { "q": "buy sb sth 改写时用 to 还是 for？", "a": "用 for，buy a bike for his son。" },
+          { "q": "suggest 能接双宾语吗？", "a": "不能，只能说 suggest sth to sb。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.basic_patterns.svoo-svoc.d1",
+          "type": "choice",
+          "stem": "She ___ me her notes so that I could prepare for the exam.",
+          "options": ["lent", "lent to", "borrowed", "borrowed from"],
+          "answer": "lent",
+          "explain": "lend 可带双宾语，构成 lend sb sth，即「把某物借给某人」，是 SVOO。",
+          "trap": "borrow 表示「借入」，方向相反，且只能说 borrow sth from sb，不能带双宾语。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.basic_patterns.svoo-svoc.d2",
+          "type": "fill",
+          "stem": "The teacher asked us ___ (hand) in our essays by Friday.",
+          "answer": "to hand",
+          "accept": ["to hand"],
+          "hint": "ask 不属于使役动词，注意宾补中 to 的去留。",
+          "explain": "ask sb to do sth 是 SVOC 结构，宾补用带 to 的不定式；ask sb sth 才是 SVOO。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.basic_patterns.svoo-svoc.d3",
+          "type": "correct",
+          "stem": "She explained me the whole process in detail.",
+          "answer": "She explained the whole process to me in detail.",
+          "accept": ["She explained the whole process to me in detail."],
+          "explain": "explain 不能带双宾语，只能构成 explain sth to sb，接受者由介词 to 引出。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.basic_patterns.svoo-svoc.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["They", "considered", "the", "proposal", "impractical."],
+          "answer": "They considered the proposal impractical.",
+          "explain": "the proposal 是宾语，impractical 是宾补，The proposal is impractical 成立，故为 SVOC。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.basic_patterns.svoo-svoc.d5",
+          "type": "translate",
+          "stem": "他给我看了他的新设计。",
+          "answer": "He showed me his new design.",
+          "require": [["showed me"], ["design"]],
+          "forbid": ["showed to me his new design", "showed his new design for me"],
+          "explain": "show 可带双宾语，构成 show sb sth（SVOO）；若改用介词结构，须写成 showed his new design to me，方向介词用 to。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.basic_patterns.svoo-svoc.d6",
+          "type": "choice",
+          "stem": "The manager had the report ___ before the meeting began.",
+          "options": ["rewritten", "rewrite", "to rewrite", "rewriting"],
+          "answer": "rewritten",
+          "explain": "have sth done 中过去分词作宾补，report 与 rewrite 是被动关系，即「让人把报告重写」，是 SVOC。",
+          "trap": "rewrite 会让 report 变成动作的发出者，报告不会自己重写，逻辑关系不成立。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "syntax.basic_patterns.expansion-conversion",
+      "title": "基本句型的扩展与转换",
+      "brief": "加修饰语只是扩展，换成分位置才是转换",
+      "difficulty": 3,
+      "tags": ["难点", "写作"],
+      "prereq": ["syntax.basic_patterns.svoo-svoc"],
+      "concept": {
+        "summary": "扩展只增加修饰或并列成分，不改变核心句型的骨架；转换是同一意义在句型之间移动成分，如 SVOO 变 SVO + 介词短语、SVOC 变宾语从句、定语从句变分词短语。判定标准是：删去扩展成分句子仍成立，删去转换后的核心成分句子则残缺。",
+        "sections": [
+          {
+            "h": "扩展的三种手段",
+            "p": "定语扩展、状语扩展、并列扩展都只是在原有骨架上挂东西，句型名称不变。写长句的正确顺序是先定骨架，再逐层添加。",
+            "bullets": [
+              "定语扩展：The girl in red smiled.（仍为 SV）",
+              "状语扩展：When the bell rang, the girl in red smiled.（仍为 SV）",
+              "并列扩展：The girl in red smiled and waved.（并列谓语，仍为 SV）",
+              "三重叠加：When the bell rang, the girl in red smiled and waved at us."
+            ]
+          },
+          {
+            "h": "转换的四条通道",
+            "p": "转换必须保持逻辑关系不变，只换表达形式。四条通道覆盖了写作与改错中的绝大多数需要。",
+            "bullets": [
+              "SVOO ↔ SVO + to/for 短语：He gave me a book. ↔ He gave a book to me.",
+              "SVOC ↔ 宾语从句：We found the plan workable. ↔ We found that the plan was workable.",
+              "定语从句 ↔ 分词/介词短语：the man who stood there ↔ the man standing there",
+              "状语从句 ↔ 非谓语/介词短语：Because he was ill, ... ↔ Being ill, ... / Because of his illness, ..."
+            ]
+          },
+          {
+            "h": "转换的边界",
+            "p": "把从句压缩成非谓语时，非谓语的逻辑主语必须与主句主语一致；把从句改成介词短语时，从句的主语要变成介词宾语或所有格。这两条一旦违反，就产生悬垂修饰或成分残缺。",
+            "bullets": [
+              "× Being ill, the meeting was postponed.（会议不会生病）",
+              "√ Because he was ill, the meeting was postponed.",
+              "√ Because of his illness, the meeting was postponed.",
+              "用分词替代定语从句时必须删去关系代词与 be 动词"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "The students in the front row raised their hands.", "zh": "前排的学生举手了。", "ok": true, "note": "in the front row 是定语扩展，核心仍是 SVO。" },
+          { "en": "After the lecture, the students asked several questions.", "zh": "讲座结束后，学生们提了几个问题。", "ok": true, "note": "介词短语作时间状语，属于状语扩展，核心句型不变。" },
+          { "en": "We found that the plan was workable.", "zh": "我们发现这个计划可行。", "ok": true, "note": "SVOC 转换为宾语从句，workable 由宾补变为从句的表语。" },
+          { "en": "Having finished the report, she went home.", "zh": "写完报告后，她回家了。", "ok": true, "note": "状语从句压缩为完成式分词，动作先于主句发生，逻辑主语与主句一致。" },
+          { "en": "Being ill, the meeting was postponed.", "zh": "因为生病，会议被推迟了。", "ok": false, "note": "分词 being ill 的逻辑主语必须是主句主语，而会议不会生病，构成悬垂修饰，应改为 Because he was ill, ..." },
+          { "en": "The man who standing there is my teacher.", "zh": "站在那儿的那个人是我的老师。", "ok": false, "note": "用分词替代定语从句时须删去关系代词 who，改为 The man standing there..." },
+          { "en": "He gave the book to his sister.", "zh": "他把书给了妹妹。", "ok": true, "note": "由 SVOO 转换为 SVO + to 短语，意义不变。" }
+        ],
+        "pitfalls": [
+          { "wrong": "Standing at the top of the hill, the whole city came into view.", "right": "Standing at the top of the hill, we could see the whole city.", "why": "分词状语的逻辑主语必须与主句主语一致，城市不会站在山顶上。" },
+          { "wrong": "The girl who singing in the choir is my sister.", "right": "The girl singing in the choir is my sister.", "why": "用分词短语替代定语从句时必须同时删去关系代词与 be 动词，只删 be 会留下残缺结构。" },
+          { "wrong": "Although he was tired, but he kept working.", "right": "Although he was tired, he kept working.", "why": "although 与 but 都表让步转折，英语中一个分句只能用其中一个连接词。" }
+        ],
+        "contrast": { "withTitle": "并列句与复合句", "diff": "扩展是在同一句型内加修饰或并列成分；并列句与复合句是把两个完整分句用连词组合，属于句层面的合并。" },
+        "mnemonic": "先立骨架再挂装饰；换位置是转换，加装饰是扩展。"
+      },
+      "review": {
+        "core": [
+          "扩展 = 加定语、状语、并列成分，核心句型不变",
+          "转换 = 同一意义在句型间移动成分，逻辑关系必须保持",
+          "SVOO ↔ SVO + to/for 短语；SVOC ↔ 宾语从句",
+          "定语从句 → 分词短语时须删去关系代词与 be 动词",
+          "状语从句 → 非谓语时，逻辑主语必须与主句主语一致"
+        ],
+        "trigger": "看到长句先删修饰语，剩下的主谓骨架决定句型，再检查转换后的逻辑主语",
+        "quickCheck": [
+          { "q": "The girl in red smiled and waved 的核心句型是什么？", "a": "SV，in red 是定语，smiled and waved 是并列谓语。" },
+          { "q": "We found the plan workable 转换成从句怎么写？", "a": "We found that the plan was workable." },
+          { "q": "Being ill, the meeting was postponed 错在哪里？", "a": "分词逻辑主语与主句主语不一致，构成悬垂修饰。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.basic_patterns.expansion-conversion.d1",
+          "type": "choice",
+          "stem": "___ the report, she handed it to the manager without a word.",
+          "options": ["Having finished", "Finished", "Finishing", "To finish"],
+          "answer": "Having finished",
+          "explain": "完成式分词表示该动作先于主句动作发生，逻辑主语 she 与主句主语一致，是把 After she had finished the report 压缩后的形式。",
+          "trap": "Finished 是过去分词，与 she 构成被动关系，等于「她被完成」，语义不通。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.basic_patterns.expansion-conversion.d2",
+          "type": "fill",
+          "stem": "___ (walk) along the street, I met an old friend of mine.",
+          "answer": "Walking",
+          "accept": ["Walking"],
+          "hint": "主句主语是 I，分词与它是主动关系。",
+          "explain": "现在分词作时间状语，逻辑主语 I 与主句主语一致，相当于 While I was walking along the street。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.basic_patterns.expansion-conversion.d3",
+          "type": "correct",
+          "stem": "The man who standing at the corner is our new coach.",
+          "answer": "The man standing at the corner is our new coach.",
+          "accept": ["The man standing at the corner is our new coach."],
+          "explain": "用分词短语替代定语从句时，关系代词 who 与 be 动词要一并删去，只保留现在分词 standing。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.basic_patterns.expansion-conversion.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "gave", "the", "book", "to", "his", "sister."],
+          "answer": "He gave the book to his sister.",
+          "explain": "这是由 SVOO 转换而来的 SVO + to 短语结构，直接宾语 the book 提前，间接宾语由 to 引出。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.basic_patterns.expansion-conversion.d5",
+          "type": "translate",
+          "stem": "因为生病，她没来上课。",
+          "answer": "Because she was ill, she did not come to class.",
+          "require": [["because"], ["ill"], ["come"]],
+          "forbid": ["because of she was ill", "being ill, she was not come"],
+          "explain": "原因状语从句由 because 引导，从句主语 she 与主句主语一致；若改用介词短语，须写成 because of her illness，because of 后不能接句子。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.basic_patterns.expansion-conversion.d6",
+          "type": "choice",
+          "stem": "Although the task was difficult, ___.",
+          "options": ["they finished it on time", "but they finished it on time", "however they finished it on time", "so they finished it on time"],
+          "answer": "they finished it on time",
+          "explain": "although 已经承担让步关系，主句直接陈述结果即可，不再需要任何转折连词。",
+          "trap": "but 是汉语「虽然……但是」的直译叠加，英语中 although 与 but 不能出现在同一个句子里。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

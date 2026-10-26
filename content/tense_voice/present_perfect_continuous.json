@@ -1,0 +1,271 @@
+{
+  "level1": "tense_voice",
+  "chapter": "present_perfect_continuous",
+  "items": [
+    {
+      "id": "tense_voice.present_perfect_continuous.meaning",
+      "title": "现在完成进行时的意义",
+      "brief": "have been doing：从过去一直做到现在",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["tense_voice.present_perfect.durative"],
+      "concept": {
+        "summary": "现在完成进行时由 have/has been + 现在分词构成，表示动作从过去某时开始、一直持续到说话时刻，镜头对准“一直在做”这个过程，动作可能刚停，也可能仍在继续。它常用来解释眼前看到的现象，也常带抱怨或追问的意味。与现在完成时不同，它几乎总要有一个从过去到现在的时间跨度，且谓语动词必须是能延续的动作动词。",
+        "sections": [
+          {
+            "h": "构成与形式",
+            "p": "三个部件缺一不可：have/has 加 been 加现在分词。been 是 be 的过去分词，后面必须接 -ing 形式；否定句在 have 后加 not，疑问句把 have 提前。",
+            "bullets": [
+              "肯定：I have been reading all morning.",
+              "否定：She hasn't been sleeping well recently.",
+              "疑问：How long have you been waiting?",
+              "× have been read；× have being reading"
+            ]
+          },
+          {
+            "h": "三个典型功能",
+            "p": "一是持续，强调动作未间断；二是解释现状，用过程说明眼前可见的结果；三是带情绪地追问或抱怨。三种功能都要求动作有可观察的持续时间。",
+            "bullets": [
+              "持续：It has been raining since early morning.",
+              "解释现状：Your eyes are red. Have you been crying?",
+              "抱怨追问：Who has been using my computer?",
+              "反复发生：She has been calling you all afternoon."
+            ]
+          },
+          {
+            "h": "动词限制",
+            "p": "状态动词（know, believe, own, belong, like, contain）没有进行时；瞬间动词（arrive, finish, stop）无法表示持续过程，也不能与 for 或 since 的时长连用。这两类错误在完成进行时中出现频率最高。",
+            "bullets": [
+              "× I have been knowing him for years. → √ I have known him for years.",
+              "× He has been finishing the report for two hours.",
+              "√ He has been working on the report for two hours."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I have been reading your book all morning.", "zh": "我整个上午都在读你的书。", "ok": true, "note": "all morning 提供从过去到现在的跨度，强调持续过程。" },
+          { "en": "She has been working here since 2016.", "zh": "她从 2016 年起就在这里工作。", "ok": true, "note": "since 引出起点，动作持续到现在，可能仍在继续。" },
+          { "en": "Your eyes are red. Have you been crying?", "zh": "你眼睛红了，你哭过吗？", "ok": true, "note": "用持续的过程解释眼前可见的结果。" },
+          { "en": "Who has been eating my biscuits?", "zh": "谁一直在吃我的饼干？", "ok": true, "note": "带抱怨色彩的追问，强调一直在吃的过程。" },
+          { "en": "I have been knowing him for ten years.", "zh": "我认识他十年了。", "ok": false, "note": "know 是状态动词，没有进行时形式，应改为 have known。" },
+          { "en": "He has been finishing the report for two hours.", "zh": "他写这份报告已经两个小时了。", "ok": false, "note": "finish 是瞬间动词，不能表示持续两小时的过程，应改为 has been writing the report." },
+          { "en": "It has been raining since this morning.", "zh": "从今天早上起一直在下雨。", "ok": true, "note": "since 接时间点，动作从早上持续到现在。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I have been knowing her since 2010.", "right": "I have known her since 2010.", "why": "know 表示持续的状态而非过程，状态动词没有进行时形式，只能用现在完成时。" },
+          { "wrong": "She has been wait for two hours.", "right": "She has been waiting for two hours.", "why": "been 后必须接现在分词，wait 要变成 waiting 才构成完成进行时。" },
+          { "wrong": "The train has been arriving for ten minutes.", "right": "The train arrived ten minutes ago.", "why": "arrive 是瞬间动词，动作没有持续时间，不能与 for 加时间段连用，改用一般过去时交代发生时间。" }
+        ],
+        "contrast": { "withTitle": "现在完成时", "diff": "现在完成时报道“做完了、有过”这一结果，现在完成进行时把镜头对准“一直在做”的过程，前者重结果，后者重持续与未完成。" },
+        "mnemonic": "have been 加 ing，一直做到现如今；眼睛红了手脏了，过程就在眼前明。"
+      },
+      "review": {
+        "core": [
+          "构成：have/has been + 现在分词，三个部件缺一不可",
+          "核心：从过去持续到现在，强调过程，可能仍在继续",
+          "三大功能：持续、解释现状、抱怨追问",
+          "常带 for/since/all morning/how long",
+          "状态动词与瞬间动词不能用：know 只能写成 have known"
+        ],
+        "trigger": "看到 for/since/all day，动词能延续，句子又在强调“一直在做” → 用 have been doing",
+        "quickCheck": [
+          { "q": "“你的眼睛红了，你哭了吗？”怎么说？", "a": "Your eyes are red. Have you been crying?" },
+          { "q": "know 能说成 have been knowing 吗？", "a": "不能，状态动词只能用 have known。" },
+          { "q": "现在完成进行时的三个部件是什么？", "a": "have/has 加 been 加现在分词。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_perfect_continuous.meaning.d1",
+          "type": "choice",
+          "stem": "It ___ since early morning, and the streets are flooded.",
+          "options": ["has been raining", "has rained", "is raining", "has been rained"],
+          "answer": "has been raining",
+          "explain": "since early morning 给出从过去到现在的跨度，街道积水是持续下雨的结果，用 have/has been 加现在分词。",
+          "trap": "has rained 只报道“下过雨”这一完成事实，无法表达一直下到现在的过程。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect_continuous.meaning.d2",
+          "type": "fill",
+          "stem": "I ___ (wait) for the bus for twenty minutes.",
+          "answer": "have been waiting",
+          "accept": ["have been waiting", "'ve been waiting"],
+          "hint": "for twenty minutes 强调等待的过程持续到现在。",
+          "explain": "for 加时间段与延续性动词连用，强调过程用现在完成进行时 have been waiting。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect_continuous.meaning.d3",
+          "type": "correct",
+          "stem": "He has been know her since they were at primary school.",
+          "answer": "He has known her since they were at primary school.",
+          "accept": ["He has known her since they were at primary school."],
+          "explain": "know 是状态动词，不能用于进行时；since 从句给出起点，用现在完成时 has known 即可。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect_continuous.meaning.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["They have", "been", "playing tennis", "since two", "o'clock."],
+          "answer": "They have been playing tennis since two o'clock.",
+          "explain": "since two o'clock 引出起点，play 是可延续的动作，用 have been playing 强调从两点一直打到现在。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect_continuous.meaning.d5",
+          "type": "translate",
+          "stem": "你的眼睛红了，你哭过吗？",
+          "answer": "Your eyes are red. Have you been crying?",
+          "require": [["eyes are red"], ["have you been crying"]],
+          "forbid": ["have you cried", "did you cry"],
+          "explain": "用持续的过程解释眼前可见的结果，是现在完成进行时的典型功能；一般疑问句把 have 提到句首。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect_continuous.meaning.d6",
+          "type": "fill",
+          "stem": "She ___ (not / sleep) well recently, so she looks tired.",
+          "answer": "hasn't been sleeping",
+          "accept": ["has not been sleeping", "hasn't been sleeping"],
+          "hint": "recently 与“看起来很累”都指向最近持续的状态。",
+          "explain": "recently 表示最近一段时间持续的情况，用现在完成进行时的否定式 has not been sleeping，缩写为 hasn't been sleeping。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.present_perfect_continuous.vs-present-perfect",
+      "title": "现在完成进行时与现在完成时的区别",
+      "brief": "重过程还是重结果，看有没有次数与数量",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["tense_voice.present_perfect_continuous.meaning", "tense_voice.present_perfect.core-meaning"],
+      "concept": {
+        "summary": "两者的分界是说话人要突出过程还是结果。现在完成进行时强调动作一直在进行、可能尚未结束；现在完成时强调动作已经完成、产生了结果或积累了次数。第二个可操作判据是：句中出现 twice、three times、three chapters 这类次数或完成数量时，只能用现在完成时。第三个判据是动词性质：状态动词只有完成时，没有完成进行时。",
+        "sections": [
+          {
+            "h": "同一动词，两种视角",
+            "p": "以 read 为例，完成进行时把镜头放在读的过程，完成时把镜头放在读完了这个结果。两者都能与 for 连用，但含义不同：前者可能没读完，后者一定读完了。",
+            "bullets": [
+              "I have been reading the book.（还在读或刚放下）",
+              "I have read the book.（已读完，可以讨论内容）",
+              "I have been painting the wall, so my clothes are dirty.",
+              "I have painted the wall, so we can move the furniture in."
+            ]
+          },
+          {
+            "h": "次数与数量只能配完成时",
+            "p": "完成进行时描述的是连续过程，不能承载几次、几个这类计数信息。一旦出现 twice、three times、two chapters，必须换成现在完成时。",
+            "bullets": [
+              "× I have been reading this novel twice. → √ I have read this novel twice.",
+              "× He has been writing three letters. → √ He has written three letters.",
+              "How many pages have you read?（问数量用完成时）"
+            ]
+          },
+          {
+            "h": "状态动词与结果动词",
+            "p": "状态动词（know, own, belong）只能用完成时；结果动词（finish, arrive, stop）的动作在终点完成，也不能拉长成过程，表示一直在做时应换用能延续的动词。",
+            "bullets": [
+              "× I have been knowing the answer. → √ I have known the answer.",
+              "× He has been finishing the report. → √ He has been writing the report.",
+              "× She has been arriving for an hour. → √ She arrived an hour ago."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "I have been painting the wall, so my clothes are dirty.", "zh": "我一直在刷墙，所以衣服脏了。", "ok": true, "note": "强调刷墙的过程，衣服脏是过程留下的现状。" },
+          { "en": "I have painted the wall, so we can move the furniture in.", "zh": "我把墙刷好了，可以把家具搬进来了。", "ok": true, "note": "强调已完成的结果，所以可以搬家具。" },
+          { "en": "She has written three letters this morning.", "zh": "今天上午她写了三封信。", "ok": true, "note": "three letters 是完成数量，只能用现在完成时。" },
+          { "en": "I have been reading this novel twice.", "zh": "这本小说我读了两遍。", "ok": false, "note": "twice 是次数，与完成进行时的连续过程冲突，应改为 have read。" },
+          { "en": "I have painted the wall for two hours.", "zh": "我刷墙刷了两个小时。", "ok": false, "note": "for two hours 强调过程持续，应改为 have been painting；完成时加 for 会误解为已经刷完且持续两小时。" },
+          { "en": "He has been finishing the report since morning.", "zh": "他从早上起就在写完那份报告。", "ok": false, "note": "finish 是结果动词，动作在终点完成，不能拉长为持续过程，应改为 has been writing。" },
+          { "en": "How long have you been learning English?", "zh": "你学英语多久了？", "ok": true, "note": "how long 询问过程时长，用完成进行时。" }
+        ],
+        "pitfalls": [
+          { "wrong": "I have been reading this novel twice.", "right": "I have read this novel twice.", "why": "twice 是计数信息，完成进行时描述连续过程，无法承载次数。" },
+          { "wrong": "I have painted the wall for two hours.", "right": "I have been painting the wall for two hours.", "why": "for 加时间段强调过程持续且可能未完成，须用完成进行时；完成时表示动作已结束，与还在刷矛盾。" },
+          { "wrong": "I have been knowing the answer all along.", "right": "I have known the answer all along.", "why": "know 是状态动词，只有状态没有过程，不能进入进行时。" }
+        ],
+        "contrast": { "withTitle": "现在完成进行时的意义", "diff": "意义点解决这个时态说什么；本点给出与现在完成时的取舍标准：要过程选 have been doing，要结果、次数或状态选 have done。" },
+        "mnemonic": "过程没完 been doing，结果完成 have done；次数数量一出现，进行时立刻退场。"
+      },
+      "review": {
+        "core": [
+          "重过程、可能未完 → have been doing；重结果、已完成 → have done",
+          "出现 twice / three times / three chapters 等次数数量 → 只能用 have done",
+          "状态动词 know/own/belong 只有 have done",
+          "结果动词 finish/arrive/stop 不能拉长为过程，改用延续性动词",
+          "for 加时间段配进行时表过程未完；配完成时表已完成"
+        ],
+        "trigger": "看到动词后面想加 ing → 先查有没有次数、数量或状态动词 → 有就退回 have done",
+        "quickCheck": [
+          { "q": "“这面墙我刷了两个小时”强调还在刷，怎么说？", "a": "I have been painting the wall for two hours." },
+          { "q": "“这本书我读了两遍”用哪个时态？", "a": "现在完成时：I have read this book twice." },
+          { "q": "know 有完成进行时吗？", "a": "没有，只能用 have known。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.present_perfect_continuous.vs-present-perfect.d1",
+          "type": "choice",
+          "stem": "— Why are you so tired? — I ___ the house all day.",
+          "options": ["have been cleaning", "have cleaned", "cleaned", "am cleaning"],
+          "answer": "have been cleaning",
+          "explain": "all day 给出从早到现在的跨度，累是持续打扫的过程造成的结果，用现在完成进行时。",
+          "trap": "have cleaned 表示已经打扫完，与“因此很累”这一过程性结果不符。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.present_perfect_continuous.vs-present-perfect.d2",
+          "type": "fill",
+          "stem": "I ___ (read) three chapters of the book so far.",
+          "answer": "have read",
+          "accept": ["have read", "'ve read"],
+          "hint": "three chapters 是已经完成的数量。",
+          "explain": "three chapters 是计数信息，只能与现在完成时搭配；so far 也提示以现在为终点。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect_continuous.vs-present-perfect.d3",
+          "type": "correct",
+          "stem": "I have been reading this novel twice.",
+          "answer": "I have read this novel twice.",
+          "accept": ["I have read this novel twice."],
+          "explain": "twice 表示次数，完成进行时只描述连续过程，不能承载次数，须改为现在完成时 have read。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect_continuous.vs-present-perfect.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He has", "been", "working on", "the project", "since March."],
+          "answer": "He has been working on the project since March.",
+          "explain": "since March 引出起点，work on 是可延续的动作，用 have been working 强调从三月一直做到现在。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect_continuous.vs-present-perfect.d5",
+          "type": "translate",
+          "stem": "我一直在找我的钥匙，但还没找到。",
+          "answer": "I have been looking for my keys, but I haven't found them yet.",
+          "require": [["have been looking"], ["haven't found", "have not found"]],
+          "forbid": ["have been finding", "have been find"],
+          "explain": "前一分句强调一直在找的过程，用完成进行时；后一分句强调还没找到的结果，用现在完成时，两个时态在同一句里各司其职。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.present_perfect_continuous.vs-present-perfect.d6",
+          "type": "choice",
+          "stem": "She ___ the letter, so you can post it now.",
+          "options": ["has finished", "has been finishing", "is finishing", "finishes"],
+          "answer": "has finished",
+          "explain": "现在可以寄了说明信已写完，强调完成的结果，用现在完成时。",
+          "trap": "has been finishing 强调过程未结束，与可以寄了的完成结果冲突。",
+          "difficulty": 2
+        }
+      ]
+    }
+  ]
+}

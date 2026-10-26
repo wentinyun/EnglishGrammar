@@ -1,0 +1,275 @@
+{
+  "level1": "syntax",
+  "chapter": "word_order",
+  "items": [
+    {
+      "id": "syntax.word_order.basic-adverbial",
+      "title": "英语基本语序与状语位置",
+      "brief": "主谓宾次序固定，状语按类别各就各位",
+      "difficulty": 2,
+      "tags": ["基础", "高频"],
+      "prereq": ["morph.adj_adv.adverb-position"],
+      "concept": {
+        "summary": "陈述句的基本语序是主语 + 谓语 + 宾语，宾语之后按“方式 + 地点 + 时间”排列状语。状语的位置由类别决定：方式副词紧跟宾语之后，时间状语可置于句首或句末，频度副词位于实义动词之前、be 动词与助动词之后。位置错了句子仍然能懂，但不符合英语的默认信息结构。",
+        "sections": [
+          {
+            "h": "基本语序与状语默认顺序",
+            "p": "英语靠语序标明成分身份，因此谓语与宾语之间是一条不能插入状语的界线。方式、地点、时间三类状语按由具体到笼统的顺序排在句末。",
+            "bullets": [
+              "主语 + 谓语 + 宾语 + 方式 + 地点 + 时间：She read the letter carefully in her room last night.",
+              "时间状语可前移：Last night she read the letter in her room.",
+              "× She read carefully the letter.（方式状语不能插在谓语与宾语之间）",
+              "× She read the letter in her room carefully last night.（方式状语须在地点之前）"
+            ]
+          },
+          {
+            "h": "频度副词与中位状语",
+            "p": "频度副词的位置取决于谓语由什么构成：实义动词时放在动词前，be 动词时放在 be 后，有助动词时放在助动词与实义动词之间。这条规则可以用“看第一个动词”来记。",
+            "bullets": [
+              "实义动词前：He always arrives early. / They usually have lunch at noon.",
+              "be 动词后：She is always late. / He was never satisfied.",
+              "助动词后、实义动词前：He has never been abroad. / They will probably agree.",
+              "× He always is complaining. / × They have usually lunch at noon."
+            ]
+          },
+          {
+            "h": "状语从句与目的状语",
+            "p": "状语从句可以放在主句前或后，位置影响标点；目的状语通常置于句末。位置选择影响强调重点，但不影响语法正确性。",
+            "bullets": [
+              "从句在前加逗号：When the rain stopped, we set off.",
+              "从句在后不加逗号：We set off when the rain stopped.",
+              "目的状语在句末：She went out to buy some milk.",
+              "only + 状语置于句首时主句倒装，属另一章内容"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He answered the question confidently during the interview.", "zh": "面试中他自信地回答了那个问题。", "ok": true, "note": "宾语 the question 之后接方式状语，最后是时间状语。" },
+          { "en": "He answered confidently the question during the interview.", "zh": "面试中他自信地回答了那个问题。", "ok": false, "note": "方式状语不能插在谓语 answered 与宾语 the question 之间。" },
+          { "en": "She has never seen the ocean.", "zh": "她从未见过大海。", "ok": true, "note": "频度副词 never 位于助动词 has 之后、实义动词 seen 之前。" },
+          { "en": "She has seen never the ocean.", "zh": "她从未见过大海。", "ok": false, "note": "never 的位置错误，不能放在实义动词与宾语之间。" },
+          { "en": "They usually have lunch at noon.", "zh": "他们通常中午吃午饭。", "ok": true, "note": "usually 位于实义动词 have 之前。" },
+          { "en": "They have usually lunch at noon.", "zh": "他们通常中午吃午饭。", "ok": false, "note": "频度副词不能放在实义动词与宾语之间，应置于 have 之前。" },
+          { "en": "When the lecture ended, the students left the hall quietly.", "zh": "讲座结束后，学生们安静地离开了大厅。", "ok": true, "note": "时间状语从句在前用逗号隔开，方式状语 quietly 在宾语之后。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She speaks very well English.", "right": "She speaks English very well.", "why": "方式副词修饰动词时须置于宾语之后，不能插在动词与宾语之间。" },
+          { "wrong": "He always is complaining about the weather.", "right": "He is always complaining about the weather.", "why": "频度副词位于 be 动词之后，而不是之前。" },
+          { "wrong": "I last night watched a film.", "right": "I watched a film last night.", "why": "时间状语不能插在主语与谓语之间，应置于句末或句首。" }
+        ],
+        "contrast": { "withTitle": "定语与状语的多层排列顺序", "diff": "本点处理状语相对于谓语和宾语的位置；多层排列处理同类状语之间以及多个定语之间的先后次序。" },
+        "mnemonic": "动词和宾语是一家人，中间不插状语；方式地点时间，由近到远排。"
+      },
+      "review": {
+        "core": [
+          "基本语序：主语 + 谓语 + 宾语",
+          "句末状语顺序：方式 + 地点 + 时间",
+          "频度副词：实义动词前、be 后、助动词后",
+          "方式状语不能插在谓语与宾语之间",
+          "时间状语可置于句首或句末，不能插在主谓之间"
+        ],
+        "trigger": "要放状语 → 先判类别 → 方式/地点放宾语后 → 频度看第一个动词",
+        "quickCheck": [
+          { "q": "She speaks very well English. 错在哪里？", "a": "方式状语 very well 应放在宾语 English 之后。" },
+          { "q": "He ___ (always) is late. 怎么改？", "a": "改为 He is always late.，频度副词在 be 之后。" },
+          { "q": "句末三个状语的默认顺序？", "a": "方式 + 地点 + 时间。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.word_order.basic-adverbial.d1",
+          "type": "choice",
+          "stem": "He ___ late for class.",
+          "options": ["is never", "never is", "is not never", "never be"],
+          "answer": "is never",
+          "explain": "频度副词 never 位于 be 动词之后，构成 He is never late。",
+          "trap": "never is 把频度副词放在 be 之前，是受汉语“从不”语序影响的典型错误。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.word_order.basic-adverbial.d2",
+          "type": "fill",
+          "stem": "She has ___ (never) travelled outside Asia.",
+          "answer": "never",
+          "accept": ["never"],
+          "hint": "看 has 与 travelled 之间的位置。",
+          "explain": "有助动词时，频度副词放在助动词 has 之后、实义动词 travelled 之前。",
+          "difficulty": 1
+        },
+        {
+          "id": "syntax.word_order.basic-adverbial.d3",
+          "type": "correct",
+          "stem": "He speaks very well French.",
+          "answer": "He speaks French very well.",
+          "accept": ["He speaks French very well."],
+          "explain": "方式副词短语 very well 修饰 speaks，必须置于宾语 French 之后，不能插在动词与宾语之间。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.word_order.basic-adverbial.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "read", "the", "letter", "carefully", "in", "her", "room", "last", "night."],
+          "answer": "She read the letter carefully in her room last night.",
+          "explain": "宾语 the letter 之后依次是方式状语 carefully、地点状语 in her room、时间状语 last night。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.word_order.basic-adverbial.d5",
+          "type": "translate",
+          "stem": "他昨天在图书馆安静地学习。",
+          "answer": "He studied quietly in the library yesterday.",
+          "require": [["studied"], ["quietly"], ["yesterday"]],
+          "forbid": ["studied in the library yesterday quietly", "quietly studied in the library yesterday"],
+          "explain": "句末状语按方式 + 地点 + 时间排列，quietly 在 in the library 之前，yesterday 最后。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.word_order.basic-adverbial.d6",
+          "type": "choice",
+          "stem": "We will meet ___.",
+          "options": ["at the station at six", "at six at the station", "at the station six at", "six at the station at"],
+          "answer": "at the station at six",
+          "explain": "句末状语按地点在前的顺序排列：先地点 at the station，再时间 at six。",
+          "trap": "at six at the station 把时间状语放在地点状语之前，违反“地点先于时间”的默认顺序。",
+          "difficulty": 2
+        }
+      ]
+    },
+    {
+      "id": "syntax.word_order.multiple-modifiers",
+      "title": "定语与状语的多层排列顺序",
+      "brief": "定语由主观到客观，状语由方式到时间",
+      "difficulty": 4,
+      "tags": ["难点", "易错"],
+      "prereq": ["syntax.word_order.basic-adverbial", "morph.adj_adv.order-of-adjectives"],
+      "concept": {
+        "summary": "多个形容词作前置定语时按固定槽位排列：限定词 + 观点 + 大小 + 形状 + 年龄 + 颜色 + 来源 + 材料 + 用途 + 名词。多个状语并列时按方式 + 地点 + 时间排列，地点与时间都由小到大。判定方法是先给每个修饰语归类，再按槽位排序，而不是凭语感试读。",
+        "sections": [
+          {
+            "h": "定语的九个槽位",
+            "p": "槽位从主观到客观排列：越靠前越接近说话人的评价，越靠后越接近事物的固有属性。实际使用很少超过三个，通常保留“观点 + 大小/年龄 + 来源/材料”。",
+            "bullets": [
+              "限定词 → 观点 → 大小 → 形状 → 年龄 → 颜色 → 来源 → 材料 → 用途",
+              "a beautiful small round old brown French wooden dining table",
+              "常用简化版：观点 + 年龄 + 材料（a lovely old wooden box）",
+              "颜色永远在材料之前：× a leather black jacket → a black leather jacket"
+            ]
+          },
+          {
+            "h": "状语的多层顺序",
+            "p": "状语从方式开始，接着地点，最后时间；同一类内部由小到大。这个顺序与信息的重要程度无关，是句法上的固定槽位。",
+            "bullets": [
+              "方式 + 地点 + 时间：She sang beautifully at the concert last night.",
+              "地点由小到大：He lives in a small flat in the north of the city.",
+              "时间由短到长：at three o'clock on Monday morning in July",
+              "目的与原因状语通常在最后：He went to the shop for some milk."
+            ]
+          },
+          {
+            "h": "三类位置固定的修饰语",
+            "p": "有些修饰语只能后置，位置由结构决定，与槽位无关。这类规则最容易在改错题中出现。",
+            "bullets": [
+              "enough 修饰形容词时后置：big enough / old enough to drive",
+              "形容词修饰复合不定代词时后置：something important, nothing new",
+              "以 a- 开头的表语形容词不能前置：× an asleep child → a sleeping child",
+              "介词短语作定语一律后置：the man in the blue coat"
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "She bought a beautiful old French wooden table at the auction.", "zh": "她在拍卖会上买了一张漂亮的法国旧木桌。", "ok": true, "note": "按观点—年龄—来源—材料的槽位排列，由主观到客观。" },
+          { "en": "She bought a wooden beautiful old French table at the auction.", "zh": "她在拍卖会上买了一张漂亮的法国旧木桌。", "ok": false, "note": "材料不能排在观点与年龄之前，材料槽位紧贴名词。" },
+          { "en": "He sang beautifully at the concert last night.", "zh": "昨晚他在音乐会上唱得很美。", "ok": true, "note": "方式—地点—时间的顺序，beautifully 在 at the concert 之前。" },
+          { "en": "He sang last night beautifully at the concert.", "zh": "昨晚他在音乐会上唱得很美。", "ok": false, "note": "时间状语不能插在方式状语之前，时间应位于三层状语的最后。" },
+          { "en": "There is something important I need to tell you.", "zh": "有件重要的事我要告诉你。", "ok": true, "note": "形容词修饰复合不定代词 something 时必须后置。" },
+          { "en": "There is important something I need to tell you.", "zh": "有件重要的事我要告诉你。", "ok": false, "note": "形容词不能前置修饰复合不定代词，应改为 something important。" },
+          { "en": "The room is big enough for four people.", "zh": "这个房间住四个人足够大了。", "ok": true, "note": "enough 修饰形容词 big 时必须后置。" },
+          { "en": "The room is enough big for four people.", "zh": "这个房间住四个人足够大了。", "ok": false, "note": "enough 修饰形容词时不能前置，应改为 big enough。" }
+        ],
+        "pitfalls": [
+          { "wrong": "He was wearing a leather black jacket.", "right": "He was wearing a black leather jacket.", "why": "颜色槽位在材料之前，材料紧贴名词，顺序不能互换。" },
+          { "wrong": "She is enough old to drive.", "right": "She is old enough to drive.", "why": "enough 修饰形容词或副词时必须后置，不能像汉语“足够大”那样前置。" },
+          { "wrong": "I have important something to discuss with you.", "right": "I have something important to discuss with you.", "why": "形容词修饰复合不定代词时只能后置，因为 something 是中心词。" }
+        ],
+        "contrast": { "withTitle": "英语基本语序与状语位置", "diff": "本点处理修饰语内部的先后次序；基本语序处理状语与谓语、宾语的相对位置。" },
+        "mnemonic": "观点大小形状老，颜色国籍材料用途；方式地点时间，小到大。"
+      },
+      "review": {
+        "core": [
+          "定语槽位：限定词 + 观点 + 大小 + 形状 + 年龄 + 颜色 + 来源 + 材料 + 用途",
+          "颜色在材料之前：a black leather jacket",
+          "状语顺序：方式 + 地点 + 时间，地点与时间由小到大",
+          "enough 修饰形容词时后置；修饰名词时可前置（enough money）",
+          "形容词修饰复合不定代词必须后置：something important"
+        ],
+        "trigger": "看到两个以上形容词或状语 → 先各自归类 → 按槽位排，不凭读音顺不顺",
+        "quickCheck": [
+          { "q": "“一张漂亮的法国旧木桌”怎么排？", "a": "a beautiful old French wooden table。" },
+          { "q": "“他足够大可以开车”怎么说？", "a": "He is old enough to drive." },
+          { "q": "“一些重要的事”怎么排？", "a": "something important，形容词后置。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "syntax.word_order.multiple-modifiers.d1",
+          "type": "choice",
+          "stem": "She was wearing a ___ coat.",
+          "options": ["long black leather", "black long leather", "leather long black", "long leather black"],
+          "answer": "long black leather",
+          "explain": "按大小—颜色—材料的槽位排列，long 表大小，black 表颜色，leather 表材料且紧贴名词。",
+          "trap": "black long leather 把颜色排在大小之前，违反由主观到客观的槽位顺序。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.word_order.multiple-modifiers.d2",
+          "type": "fill",
+          "stem": "He is not ___ to travel alone. (enough old)",
+          "answer": "old enough",
+          "accept": ["old enough"],
+          "hint": "enough 修饰形容词时的位置。",
+          "explain": "enough 修饰形容词 old 时必须后置，构成 old enough to do sth.，不能写成 enough old。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.word_order.multiple-modifiers.d3",
+          "type": "correct",
+          "stem": "They live in a wooden beautiful old house by the river.",
+          "answer": "They live in a beautiful old wooden house by the river.",
+          "accept": ["They live in a beautiful old wooden house by the river."],
+          "explain": "按观点—年龄—材料的顺序，beautiful 是观点，old 是年龄，wooden 是材料且须紧贴名词 house。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.word_order.multiple-modifiers.d4",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["She", "sang", "beautifully", "at", "the", "concert", "last", "night."],
+          "answer": "She sang beautifully at the concert last night.",
+          "explain": "句末三层状语按方式 beautifully、地点 at the concert、时间 last night 排列。",
+          "difficulty": 2
+        },
+        {
+          "id": "syntax.word_order.multiple-modifiers.d5",
+          "type": "translate",
+          "stem": "他给我讲了一些有趣的事情。",
+          "answer": "He told me something interesting.",
+          "require": [["something interesting"]],
+          "forbid": ["interesting something", "something interested"],
+          "explain": "形容词修饰复合不定代词 something 时必须后置；interesting 描述事物，interested 描述人的感受。",
+          "difficulty": 3
+        },
+        {
+          "id": "syntax.word_order.multiple-modifiers.d6",
+          "type": "choice",
+          "stem": "He has lived ___ for almost ten years.",
+          "options": ["in a small flat in the north of the city", "in the north of the city in a small flat", "in a small flat north of in the city", "a small flat in the north of the city in"],
+          "answer": "in a small flat in the north of the city",
+          "explain": "两个地点状语由小到大排列，先小地点 in a small flat，再大范围 in the north of the city。",
+          "trap": "in the north of the city in a small flat 把大范围放在前面，违反地点状语由小到大的顺序。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

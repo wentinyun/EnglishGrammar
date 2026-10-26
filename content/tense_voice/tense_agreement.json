@@ -1,0 +1,275 @@
+{
+  "level1": "tense_voice",
+  "chapter": "tense_agreement",
+  "items": [
+    {
+      "id": "tense_voice.tense_agreement.sequence",
+      "title": "主从复合句中的时态呼应规则",
+      "brief": "主句过去时，名词性从句退到相应过去时",
+      "difficulty": 3,
+      "tags": ["高频", "易错"],
+      "prereq": ["morph.conjunctions.time-conjunctions"],
+      "concept": {
+        "summary": "主句谓语为过去时，宾语从句、表语从句、主语从句的谓语一般要后移为相应的过去时：现在时变过去时，过去时或现在完成时变过去完成时，将来时变过去将来时。呼应只约束名词性从句，状语从句与定语从句按各自的时间关系独立选时，不受主句牵制。客观真理、历史事实、现在仍然成立的状态以及带 now 等现在时间状语的句子保留现在时，这是呼应规则最重要的出口。",
+        "sections": [
+          {
+            "h": "后移对照表",
+            "p": "后移是系统性的，按时态轴整体向过去移动一格，而不是随意替换。记住五组对应即可覆盖绝大多数考题。",
+            "bullets": [
+              "is / does → was / did",
+              "is doing → was doing",
+              "has done → had done",
+              "will do → would do",
+              "can / may / must → could / might / must（must 无过去式，靠语境）"
+            ]
+          },
+          {
+            "h": "只约束名词性从句",
+            "p": "时态呼应作用于宾语从句、表语从句、主语从句与同位语从句。状语从句按逻辑时间独立选时，定语从句按先行词所指的实际时间选时，两者都不向主句看齐。",
+            "bullets": [
+              "宾语从句：He said he had finished the report.",
+              "时间状语从句：He said he had seen her when he was in Paris.（when 从句用过去时，与主句同层）",
+              "定语从句：He told me about a book that is now a bestseller.（书现在仍畅销，用 is）",
+              "比较状语从句：She worked harder than she does now."
+            ]
+          },
+          {
+            "h": "四类必须保留现在时的例外",
+            "p": "例外不是随意破例，而是因为从句内容的时间定位不依赖主句：它指向永恒真理、已定格的历史、说话时仍存在的状态，或被 now 一类状语锚定在现在。",
+            "bullets": [
+              "客观真理：The teacher told us that light travels faster than sound.",
+              "历史事实：He said that the war ended in 1945.",
+              "现在仍成立：She said she is still working on the same project.",
+              "现在时间状语：He said he is busy now."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "He said he had finished the report the week before.", "zh": "他说他前一周就把报告写完了。", "ok": true, "note": "主句 said 为过去时，从句动作更早，现在完成后移为过去完成。" },
+          { "en": "She told me she would be late for the meeting.", "zh": "她告诉我她开会要迟到。", "ok": true, "note": "will be 随主句过去时后移为 would be。" },
+          { "en": "The teacher explained that water boils at 100 degrees Celsius.", "zh": "老师解释水在一百摄氏度沸腾。", "ok": true, "note": "客观真理不受呼应约束，保留一般现在时 boils。" },
+          { "en": "He said he is working on a new novel now.", "zh": "他说他现在正在写一部新小说。", "ok": true, "note": "now 把动作锚定在说话当下，从句可用现在进行时。" },
+          { "en": "He said he will come back the next day.", "zh": "他说他第二天回来。", "ok": false, "note": "主句 said 为过去时，从句的将来须后移为 would come。" },
+          { "en": "The teacher told the pupils that the sun rose in the east.", "zh": "老师告诉学生太阳从东方升起。", "ok": false, "note": "客观真理不参与后移，应保留一般现在时 rises。" },
+          { "en": "He said he can swim across the river.", "zh": "他说他能游过这条河。", "ok": false, "note": "主句为过去时，情态动词 can 应后移为 could。" }
+        ],
+        "pitfalls": [
+          { "wrong": "She said she will call back soon.", "right": "She said she would call back soon.", "why": "主句 said 是过去时，宾语从句的将来必须后移为过去将来，will 变 would。" },
+          { "wrong": "The teacher told the pupils that the sun rose in the east.", "right": "The teacher told the pupils that the sun rises in the east.", "why": "客观真理的时间定位与主句无关，不参与后移，须保留一般现在时。" },
+          { "wrong": "He told me he has lost his keys and could not get in.", "right": "He told me he had lost his keys and could not get in.", "why": "丢钥匙发生在 told 之前，属“过去的过去”，现在完成后移为过去完成。" }
+        ],
+        "contrast": { "withTitle": "特殊句式中的时态固定", "diff": "呼应规则处理从句随主句后移；特殊句式是句式本身锁死某一时态、根本不参与后移的结构。" },
+        "mnemonic": "主句过去，从句退一格；真理、历史、现在、now 四不退。"
+      },
+      "review": {
+        "core": [
+          "后移五组：is→was，is doing→was doing，has done→had done，will do→would do，can→could",
+          "只约束名词性从句，状语从句与定语从句按实际时间独立选时",
+          "四类例外：客观真理、历史事实、现在仍成立、带 now 等现在状语",
+          "从句动作早于主句，用过去完成时",
+          "从句动作晚于主句，用过去将来时"
+        ],
+        "trigger": "看到主句是过去时 → 先看从句类型 → 名词性从句后移，状语与定语从句不动",
+        "quickCheck": [
+          { "q": "He said light ___ (travel) faster than sound. 填什么？", "a": "travels，客观真理保留现在时。" },
+          { "q": "主句过去时，从句的 will 变什么？", "a": "would。" },
+          { "q": "定语从句要不要跟主句后移？", "a": "不要，按先行词所指的实际时间选时。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.tense_agreement.sequence.d1",
+          "type": "choice",
+          "stem": "He told me that he ___ the novel twice before the film came out.",
+          "options": ["had read", "has read", "reads", "would read"],
+          "answer": "had read",
+          "explain": "读小说发生在 told 之前，属“过去的过去”，现在完成后移为过去完成 had read。",
+          "trap": "has read 保留了现在完成时，与主句过去时以及 before 从句的过去时都接不上。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.tense_agreement.sequence.d2",
+          "type": "fill",
+          "stem": "She said she ___ (be) busy at that moment.",
+          "answer": "was",
+          "accept": ["was"],
+          "hint": "at that moment 指过去的某一时刻。",
+          "explain": "主句 said 为过去时，at that moment 指向过去，系动词 be 后移为 was。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.tense_agreement.sequence.d3",
+          "type": "correct",
+          "stem": "The teacher told us that light traveled much faster than sound.",
+          "answer": "The teacher told us that light travels much faster than sound.",
+          "accept": ["The teacher told us that light travels much faster than sound."],
+          "explain": "光速快于声速是客观真理，时间定位与主句无关，不参与时态后移，须用一般现在时 travels。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.tense_agreement.sequence.d4",
+          "type": "choice",
+          "stem": "Our teacher explained that the First World War ___ in 1914.",
+          "options": ["broke out", "had broken out", "breaks out", "would break out"],
+          "answer": "broke out",
+          "explain": "1914 是已定格的历史时间，事件本身用一般过去时即可，不需要再往前推成过去完成时。",
+          "trap": "had broken out 误把历史事实当成“过去的过去”，句中并无更早的过去参照点。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.tense_agreement.sequence.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["He", "said", "that", "he", "would", "come", "back", "the", "next", "day."],
+          "answer": "He said that he would come back the next day.",
+          "explain": "主句 said 为过去时，从句的将来后移为 would come，tomorrow 在间接引语中改为 the next day。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.tense_agreement.sequence.d6",
+          "type": "translate",
+          "stem": "老师告诉我们地球围绕太阳转。",
+          "answer": "The teacher told us that the earth goes around the sun.",
+          "require": [["told us"], ["goes", "moves", "travels"], ["around the sun"]],
+          "forbid": ["went around", "had gone around", "would go around"],
+          "explain": "地球绕日运行是客观真理，虽主句为 told，从句仍用一般现在时 goes。",
+          "difficulty": 3
+        }
+      ]
+    },
+    {
+      "id": "tense_voice.tense_agreement.fixed-patterns",
+      "title": "特殊句式中的时态固定",
+      "brief": "固定句式锁死时态，不参与后移",
+      "difficulty": 3,
+      "tags": ["易错", "高频"],
+      "prereq": ["tense_voice.tense_agreement.sequence"],
+      "concept": {
+        "summary": "部分句式把时态锁死在某一形式，既不受主句时态牵制，也不参与时态呼应后移。识别信号是句式本身：It is the first time that 后接现在完成时，It was the first time that 后接过去完成时；It is high time that 后用过去时或 should do；hardly...when 与 no sooner...than 主句用过去完成时并倒装，从句用一般过去时；It is/has been + 时间段 + since 从句用一般过去时。",
+        "sections": [
+          {
+            "h": "第几次：It is the first time that",
+            "p": "该句式的时态由主句的 is 或 was 决定，从句一律用完成体：主句现在时配现在完成时，主句过去时配过去完成时。同类还有 It is the best film I have ever seen。",
+            "bullets": [
+              "It is the first time that he has driven a truck.",
+              "It was the first time that he had driven a truck.",
+              "This is the most interesting book I have ever read."
+            ]
+          },
+          {
+            "h": "虚拟类：It is time 与 would rather",
+            "p": "It is (high/about) time that 后的从句要用虚拟语气，动词用过去时或 should + 原形，表示“早该做了”。would rather 后接从句同样用过去时表现在或将来。",
+            "bullets": [
+              "It is high time that we took action.",
+              "It is time that we should leave.",
+              "I would rather you came tomorrow.",
+              "× It is high time that we will start."
+            ]
+          },
+          {
+            "h": "倒装与 since 句式",
+            "p": "hardly/scarcely...when 与 no sooner...than 表示“刚一……就……”，主句用过去完成时且因否定副词提前而部分倒装，从句用一般过去时。since 句式则以现在为参照，从句用一般过去时。",
+            "bullets": [
+              "Hardly had he sat down when the phone rang.",
+              "No sooner had the bell rung than the students rushed out.",
+              "It is three years since he moved here.",
+              "It has been ten years since we last met."
+            ]
+          }
+        ],
+        "examples": [
+          { "en": "It is the first time that she has spoken in public.", "zh": "这是她第一次当众发言。", "ok": true, "note": "主句 is 为现在时，从句用现在完成时 has spoken。" },
+          { "en": "It was the first time that they had seen the sea.", "zh": "那是他们第一次看到大海。", "ok": true, "note": "主句 was 为过去时，从句用过去完成时 had seen。" },
+          { "en": "It is high time that we took action.", "zh": "我们早该采取行动了。", "ok": true, "note": "It is high time that 后接虚拟语气，用一般过去时 took。" },
+          { "en": "Hardly had the film begun when the power went off.", "zh": "电影刚开始，电就停了。", "ok": true, "note": "hardly 置于句首引起部分倒装，主句用过去完成时，从句用一般过去时。" },
+          { "en": "It has been five years since we last met.", "zh": "我们上次见面到现在已经五年了。", "ok": true, "note": "since 从句用一般过去时 last met，主句用现在完成时表持续。" },
+          { "en": "It is the first time that I saw such a beautiful sunset.", "zh": "这是我第一次看到这么美的日落。", "ok": false, "note": "主句 is 为现在时，从句须用现在完成时 have seen，不能用一般过去时。" },
+          { "en": "It is high time that we will start the meeting.", "zh": "我们早该开会了。", "ok": false, "note": "该句式要求虚拟语气，用 started 或 should start，不能用 will start。" },
+          { "en": "No sooner he had arrived than it started to rain.", "zh": "他刚到就下起雨来。", "ok": false, "note": "no sooner 置于句首要部分倒装，应写成 No sooner had he arrived。" }
+        ],
+        "pitfalls": [
+          { "wrong": "It was the first time that he has visited Japan.", "right": "It was the first time that he had visited Japan.", "why": "主句 was 为过去时，that 从句的完成体要相应后移为过去完成时。" },
+          { "wrong": "Hardly he had finished speaking when the audience applauded.", "right": "Hardly had he finished speaking when the audience applauded.", "why": "hardly 是否定副词，置于句首时助动词 had 必须提到主语前，构成部分倒装。" },
+          { "wrong": "It is high time that we go to bed.", "right": "It is high time that we went to bed.", "why": "该句式要求虚拟语气，从句动词用过去时或 should + 原形，不能用一般现在时。" }
+        ],
+        "contrast": { "withTitle": "主从复合句中的时态呼应规则", "diff": "呼应规则让从句跟着主句后移；特殊句式相反，句式本身规定时态，主句怎么变都不影响从句形式。" },
+        "mnemonic": "第几次用完成，该做未做用过去；hardly 提前要倒装，since 从句用过去。"
+      },
+      "review": {
+        "core": [
+          "It is the first time that + 现在完成时；It was the first time that + 过去完成时",
+          "It is high time that + 过去时或 should do",
+          "hardly/scarcely...when、no sooner...than：主句过去完成时并倒装，从句一般过去时",
+          "It is/has been + 时间段 + since + 一般过去时",
+          "固定句式的时态由句式决定，不随主句后移"
+        ],
+        "trigger": "看到 the first time / high time / hardly / no sooner / since → 先套句式规定的时态，再考虑其他成分",
+        "quickCheck": [
+          { "q": "It was the first time that he ___ (visit) Japan. 填什么？", "a": "had visited。" },
+          { "q": "It is high time that we ___ (leave). 填什么？", "a": "left 或 should leave。" },
+          { "q": "No sooner 置于句首要不要倒装？", "a": "要，助动词提到主语前。" }
+        ]
+      },
+      "drills": [
+        {
+          "id": "tense_voice.tense_agreement.fixed-patterns.d1",
+          "type": "choice",
+          "stem": "It is the first time that the little boy ___ a horse.",
+          "options": ["has ridden", "rode", "rides", "had ridden"],
+          "answer": "has ridden",
+          "explain": "It is the first time that 句式中主句为现在时，从句固定用现在完成时，表示到说话时为止的第一次。",
+          "trap": "had ridden 对应的是主句为 was 的情形，与这里的 is 不匹配。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.tense_agreement.fixed-patterns.d2",
+          "type": "fill",
+          "stem": "It was the third time that she ___ (visit) the museum that year.",
+          "answer": "had visited",
+          "accept": ["had visited"],
+          "hint": "主句是 was，从句的完成体要相应后移。",
+          "explain": "主句 was 为过去时，It was the...time that 后的从句用过去完成时 had visited。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.tense_agreement.fixed-patterns.d3",
+          "type": "correct",
+          "stem": "No sooner he had left the office than the phone rang.",
+          "answer": "No sooner had he left the office than the phone rang.",
+          "accept": ["No sooner had he left the office than the phone rang."],
+          "explain": "no sooner 是否定副词短语，置于句首时主句要部分倒装，把助动词 had 提到主语 he 之前。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.tense_agreement.fixed-patterns.d4",
+          "type": "choice",
+          "stem": "It is high time that the government ___ stricter measures.",
+          "options": ["took", "takes", "will take", "has taken"],
+          "answer": "took",
+          "explain": "It is high time that 后的从句要用虚拟语气，动词用一般过去时 took，或 should take。",
+          "trap": "takes 是按一般现在时规则类推的结果，忽略了该句式的虚拟要求。",
+          "difficulty": 3
+        },
+        {
+          "id": "tense_voice.tense_agreement.fixed-patterns.d5",
+          "type": "order",
+          "stem": "把下列词组连成一句通顺的话。",
+          "tokens": ["It", "has", "been", "ten", "years", "since", "he", "left", "his", "hometown."],
+          "answer": "It has been ten years since he left his hometown.",
+          "explain": "since 从句用一般过去时 left，主句用现在完成时 has been 表示从那时到现在的持续。",
+          "difficulty": 2
+        },
+        {
+          "id": "tense_voice.tense_agreement.fixed-patterns.d6",
+          "type": "translate",
+          "stem": "这是我第一次来北京。",
+          "answer": "This is the first time that I have been to Beijing.",
+          "require": [["first time"], ["have been"]],
+          "forbid": ["I came", "I have came", "have gone to Beijing"],
+          "explain": "This is the first time that 后固定用现在完成时；表示“去过某地”用 have been to，不用 have gone to。",
+          "difficulty": 3
+        }
+      ]
+    }
+  ]
+}

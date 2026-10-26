@@ -143,6 +143,9 @@ export default function Topology({ start, param }) {
 
   const { loading, data, error } = useAsync(() => api.topology(gran), [gran]);
   const front = useAsync(() => api.frontier(4), []);
+  const cfg = useAsync(() => api.settings(), []);
+  // prereq_gate 只影响「学习」模式：关着就是纯提示，开着才会跳过被锁的点
+  const gate = String(cfg.data?.prereq_gate ?? "0") === "1" || cfg.data?.prereq_gate === true;
 
   const nodes = data?.nodes || [];
   const edges = data?.edges || [];
@@ -206,7 +209,9 @@ export default function Topology({ start, param }) {
           <h2>成长拓扑</h2>
           <p>
             {sm.points} 个知识点之间有 {sm.edges} 条依赖边，最深 {sm.max_depth + 1} 层。
-            前置没过的点会锁住，先把路口打通。
+            {gate
+              ? "已开启严格前置锁定：带锁的点在学习时会被跳过，先打通前置。"
+              : "带锁的只表示前置还没学，是地图上的提示、不拦你；课程页想学哪个都能直接选。"}
           </p>
         </div>
         <span className="chip blue">依赖图</span>
@@ -216,7 +221,7 @@ export default function Topology({ start, param }) {
         <Tile label="已解锁" value={`${sm.unlocked}`} sub={`共 ${sm.points} 点`} tone="blue" />
         <Tile label="现在能学" value={`${sm.counts.ready}`} sub="前置已全部满足" tone="green" />
         <Tile label="已掌握" value={`${sm.counts.mastered}`} sub={`学过 ${sm.learned} 点`} tone="purple" />
-        <Tile label="未解锁" value={`${sm.counts.locked}`} sub="等前置打通" tone="gold" />
+        <Tile label="未解锁" value={`${sm.counts.locked}`} sub="前置还没学" tone="gold" />
       </div>
 
       <section className="card tight" style={{ marginBottom: 14 }}>
@@ -533,6 +538,11 @@ function NodeModal({ sel, gran, start, onClose, onOpenPoint }) {
                   {node && node.blocked_by?.length > 0 && (
                     <div className="warn-box">
                       前置未完成：{node.blocked_by.join("、")}
+                      <span className="tiny" style={{ display: "block", marginTop: 4, opacity: 0.85 }}>
+                        {gate
+                          ? "已开启严格前置锁定，学习模式会自动跳过这个点。"
+                          : "这只是提示，不拦你——点「学这个」照样能学。"}
+                      </span>
                     </div>
                   )}
 

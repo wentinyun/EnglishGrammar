@@ -44,13 +44,24 @@ cd web && npm install && npm run build && cd ..
 | 数据 | `/home/ubuntu/EnglishGrammar/data/grammar.db` |
 | 备份 | `/home/ubuntu/EnglishGrammar/backups/`，crontab 每天 03:17 存一份，保留 14 份 |
 
+代码托管在 **https://github.com/wentinyun/EnglishGrammar**（`main` 分支），服务器是该仓库的一个 git 检出，`data/`、`.venv`、`web/site` 不在库里。
+
 部署 / 更新都只有一条命令：
 
 ```bash
-bash deploy/deploy.sh        # 上传 → 装依赖 → 构建前端 → 重启 → 健康检查
+bash deploy/deploy.sh
 ```
 
-脚本做的事：tar over ssh 直传（排除 `node_modules`、`data/`、`__pycache__`、`.workbuddy`）→ 服务器上建 venv 装 `requirements.txt` → 有 node 就重建前端（失败则沿用已上传的 `web/site`）→ 装 systemd 单元并重启 → 轮询 `/api/health` 直到通过 → 从本机验证公网 200。
+它做四件事：本地 `git push` → 服务器 `git fetch && git reset --hard origin/main` → 装 `requirements.txt`、构建前端、装 systemd 单元并重启 → 轮询 `/api/health` 再验证公网 200。
+
+手工两步版（脚本坏了时用）：
+
+```bash
+git push origin main
+ssh ubuntu@101.42.38.77 "cd ~/EnglishGrammar && git reset --hard origin/main && cd web && npm run build && sudo systemctl restart english-grammar"
+```
+
+前端产物（`web/site`）按手册要求不入库，必须由服务器构建；服务器没装 node 时会 404。
 
 `deploy/` 里其余两个文件：
 

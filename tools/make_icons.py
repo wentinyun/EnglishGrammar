@@ -1,90 +1,80 @@
-"""生成 PWA 图标（iOS 主屏 / Android 安装 / 站点图标）。
+"""从设计源图生成主屏幕 App 图标（iOS apple-touch-icon / Android manifest icons）。
 
-图形语言：从靛蓝到青绿的渐变底 + 三条递进的白条（对应四个层级的知识）+
-右下角对勾（对应掌握）。全部为几何绘制，不依赖字体。
+用法：python tools/make_icons.py              # 默认读 docs/icon-source.png
+     python tools/make_icons.py 路径/图.png    # 换一张图重出全部尺寸
+
+规则：
+- 自动裁掉白边，按内容原始比例居中放置，绝不拉伸变形
+- 内容高占画布 78%：iOS 会自己加圆角，这个留白量保证笔画不被切
+- 背景压成纯白 #FFFFFF（源图若为 #FEFEFE 这类近白，不压会和系统底色出现接缝）
+- 另出一版 maskable（内容占 70%），供 Android 圆形/方形遮罩取用
 """
 from __future__ import annotations
 
+import sys
 from pathlib import Path
 
-from PIL import Image, ImageDraw
+from PIL import Image
 
-OUT = Path(__file__).resolve().parent.parent / "web" / "public" / "icons"
+ROOT = Path(__file__).resolve().parent.parent
+OUT = ROOT / "web" / "public" / "icons"
+WHITE = (255, 255, 255)
 
-# 渐变端点
-C1 = (95, 115, 255)
-C2 = (52, 208, 190)
-
-
-def _lerp(a: int, b: int, t: float) -> int:
-    return round(a + (b - a) * t)
+ANY_FILL = 0.78
+MASK_FILL = 0.74
 
 
-def _gradient(size: int) -> Image.Image:
-    img = Image.new("RGB", (size, size), "#0d1016")
-    px = img.load()
-    for y in range(size):
-        for x in range(size):
-            t = (x / (size - 1) * 0.55 + y / (size - 1) * 0.45)
-            t = max(0.0, min(1.0, t))
-            px[x, y] = (
-                _lerp(C1[0], C2[0], t),
-                _lerp(C1[1], C2[1], t),
-                _lerp(C1[2], C2[2], t),
-            )
-    return img
+def content_box(im: Image.Image) -> tuple[int, int, int, int]:
+    """非白像素的外接框，阈值 245 以容忍 JPEG 噪点。"""
+    rgb = im.convert("RGB")
+    w, h = rgb.size
+    px = rgb.load()
+    xs: list[int] = []
+    ys: list[int] = []
+    for y in range(0, h, 2):
+        for x in range(0, w, 2):
+            r, g, b = px[x, y]
+            if r < 245 or g < 245 or b < 245:
+                xs.append(x)
+                ys.append(y)
+    if not xs:
+        raise SystemExit("源图里没有内容（整张全白）")
+    return min(xs), min(ys), max(xs) + 1, max(ys) + 1
 
 
-def draw_icon(size: int, radius_ratio: float = 0.0) -> Image.Image:
-    base = _gradient(size)
-    if radius_ratio:
-        mask = Image.new("L", (size, size), 0)
-        ImageDraw.Draw(mask).rounded_rectangle(
-            [0, 0, size - 1, size - 1], radius=int(size * radius_ratio), fill=255
-        )
-        out = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-        out.paste(base, (0, 0), mask)
-        base = out
-
-    layer = Image.new("RGBA", (size, size), (0, 0, 0, 0))
-    d = ImageDraw.Draw(layer)
-
-    # 一条竖脊 + 三条递进白条 + 末端节点，读作「层级递进」
-    spine_x = size * 0.255
-    d.line(
-        [(spine_x, size * 0.315), (spine_x, size * 0.700)],
-        fill=(255, 255, 255, 110),
-        width=max(2, int(size * 0.016)),
-    )
-    bars = [(0.315, 0.300, 0.245), (0.315, 0.470, 0.330), (0.315, 0.640, 0.415)]
-    for left, top, width in bars:
-        x0, y0 = size * left, size * top
-        x1 = x0 + size * width
-        h = size * 0.092
-        d.rounded_rectangle([x0, y0, x1, y0 + h], radius=h / 2, fill=(255, 255, 255, 240))
-        r = size * 0.036
-        cx, cy = x1 + r * 0.85, y0 + h / 2
-        d.ellipse([cx - r, cy - r, cx + r, cy + r], fill=(255, 255, 255, 250))
-
-    base = Image.alpha_composite(base.convert("RGBA"), layer)
-    return base
+def render(src: Image.Image, size: int, fill: float) -> Image.Image:
+    """把 src 按 fill（内容高度占画布的比例）居中画到 size×size 白底上。"""
+    sw, sh = src.size
+    scale = (size * fill) / sh
+    tw, th = sw * scale, sh * scale
+    if tw > size * 0.92:                    # 横图也不能顶到边
+        scale = (size * 0.92) / sw
+        tw, th = sw * scale, sh * scale
+    inner = src.resize((max(1, round(tw)), max(1, round(th))), Image.LANCZOS)
+    canvas = Image.new("RGB", (size, size), WHITE)
+    canvas.paste(inner, (round((size - inner.width) / 2), round((size - inner.height) / 2)))
+    return canvas
 
 
 def main() -> None:
+    src_path = Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT / "docs" / "icon-source.png"
+    if not src_path.is_absolute():
+        src_path = ROOT / src_path
+    raw = Image.open(src_path).convert("RGB")
+    src = raw.crop(content_box(raw))
+    print(f"源图 {raw.size} → 内容 {src.size}")
+
     OUT.mkdir(parents=True, exist_ok=True)
-    for size, name, r in [
-        (192, "icon-192.png", 0.22),
-        (512, "icon-512.png", 0.22),
-        (512, "icon-maskable-512.png", 0.0),
-        (180, "apple-touch-icon.png", 0.0),
-        (32, "favicon-32.png", 0.18),
+    for name, size, fill in [
+        ("apple-touch-icon.png", 180, ANY_FILL),      # iOS 添加到主屏幕
+        ("icon-192.png", 192, ANY_FILL),              # Android 主屏幕 / 安装
+        ("icon-512.png", 512, ANY_FILL),              # 安装弹窗 / 启动图
+        ("icon-maskable-512.png", 512, MASK_FILL),    # Android 自适应遮罩
+        ("favicon-32.png", 32, 0.94),                 # 标签页，小尺寸内容放大一点
     ]:
-        img = draw_icon(size, r)
-        img.save(OUT / name, "PNG")
-        print("wrote", (OUT / name).relative_to(OUT.parent.parent.parent), img.size)
-    # 站点图标用同一个图形
-    draw_icon(64, 0.2).save(OUT.parent / "favicon.png", "PNG")
-    print("wrote favicon.png")
+        img = render(src, size, fill)
+        img.save(OUT / name, "PNG", optimize=True)
+        print(f"  {name:24s} {size}x{size}   {(OUT / name).stat().st_size / 1024:5.1f} KB")
 
 
 if __name__ == "__main__":

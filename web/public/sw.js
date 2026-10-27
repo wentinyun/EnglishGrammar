@@ -1,7 +1,7 @@
 /* 只做两件事：静态资源缓存优先，页面导航走网络优先。
    /api 一律不缓存，避免把学习进度缓存成旧数据。 */
-const CACHE = "grammar-shell-v2";
-const ASSETS = ["/", "/manifest.webmanifest", "/icons/icon-192.png"];
+const CACHE = "grammar-shell-v3";
+const ASSETS = ["/", "/manifest.webmanifest", "/icons/icon-192-v2.png"];
 
 self.addEventListener("install", (event) => {
   event.waitUntil(

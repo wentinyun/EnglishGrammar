@@ -18,6 +18,7 @@ from PIL import Image
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "web" / "public" / "icons"
+PUB = ROOT / "web" / "public"
 WHITE = (255, 255, 255)
 
 ANY_FILL = 0.78
@@ -66,15 +67,21 @@ def main() -> None:
 
     OUT.mkdir(parents=True, exist_ok=True)
     for name, size, fill in [
-        ("apple-touch-icon.png", 180, ANY_FILL),      # iOS 添加到主屏幕
-        ("icon-192.png", 192, ANY_FILL),              # Android 主屏幕 / 安装
-        ("icon-512.png", 512, ANY_FILL),              # 安装弹窗 / 启动图
-        ("icon-maskable-512.png", 512, MASK_FILL),    # Android 自适应遮罩
+        ("icon-192-v2.png", 192, ANY_FILL),           # Android 主屏幕 / 安装
+        ("icon-512-v2.png", 512, ANY_FILL),           # 安装弹窗 / 启动图
+        ("icon-maskable-512-v2.png", 512, MASK_FILL), # Android 自适应遮罩
         ("favicon-32.png", 32, 0.94),                 # 标签页，小尺寸内容放大一点
     ]:
         img = render(src, size, fill)
         img.save(OUT / name, "PNG", optimize=True)
-        print(f"  {name:24s} {size}x{size}   {(OUT / name).stat().st_size / 1024:5.1f} KB")
+        print(f"  icons/{name:28s} {size}x{size}   {(OUT / name).stat().st_size / 1024:5.1f} KB")
+
+    # iOS 强制探测根路径 /apple-touch-icon.png，必须放真图；
+    # 否则 SPA fallback 会返回 index.html，iOS 拿到的是一段 HTML。
+    for name in ("apple-touch-icon.png", "apple-touch-icon-precomposed.png"):
+        img = render(src, 180, ANY_FILL)
+        img.save(PUB / name, "PNG", optimize=True)
+        print(f"  {name:28s} 180x180   {(PUB / name).stat().st_size / 1024:5.1f} KB")
 
 
 if __name__ == "__main__":
